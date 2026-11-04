@@ -26,10 +26,11 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generer import APP_MINIMALE, DATE, DROITE, GAUCHE, RACINE, data_uri  # noqa: E402
 
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 ID = "prusaslicer"
 FOND = "#262626"       # fond sombre de PrusaSlicer : les icônes y sont lisibles
 FOND_NAVIGATION = "#ED6B21"
+FOND_DOSSIER = "#6B3A17"   # orange sombre : cette touche ouvre une page
 DOSSIER_ICONES = os.path.join(RACINE, "outils", "icones-prusaslicer")
 APPLICATIONS = {
     "2.9": "/Applications/Original Prusa Drivers/PrusaSlicer.app/Contents/Resources/icons",
@@ -252,101 +253,127 @@ for numero in range(1, 9):
 
 
 # --- Pages -----------------------------------------------------------------
-# Quatre rangées de six cases. Les cases 18 et 23 servent à changer de page.
+# Quatre rangées de six cases. L'accueil reprend la barre d'outils de PrusaSlicer ;
+# « >Nom » est une touche qui ouvre la page Nom, et les sous-pages restent courtes.
+# La case 18 de chaque sous-page ramène à la page d'où l'on vient.
 
 _ = None
 
 PAGES_29 = [
-    ("Projet", [
-        "nouveau", "ouvrir", "sauver", "sauver-sous", "importer", "recharger",
-        "decouper", "gcode", "envoyer", "carte", "ejecter", "file",
-        "annuler", "retablir", "chercher", "importer-config", "importer-projet", "exporter-config",
-        _, "preferences", "instance-appli", _, _, _,
+    ("Accueil", None, [
+        "ouvrir", "sauver", "importer", "annuler", "retablir", "supprimer",
+        "o-deplacer", "o-echelle", "o-rotation", "o-poser", "o-couper", "o-mesurer",
+        ">Organiser", ">Peinture", ">Position", ">Vue", ">Aperçu", ">Fichier",
+        _, "decouper", "gcode", "envoyer", "o-quitter", _,
     ]),
-    ("Plateau", [
-        "tout", "aucun", "supprimer", "tout-supprimer", "copier", "coller",
+    ("Organiser", "Accueil", [
         "organiser", "organiser-sel", "organiser-plateau", "organiser-plateau-sel", "plus", "moins",
-        "annuler", "retablir", "zoom-plateau", "zoom-selection", "etiquettes", "bascule",
+        "tout", "aucun", "copier", "coller", "tout-supprimer", _,
+        _, _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
-    ("Déplacer", [
+    ("Peinture", "Accueil", [
+        "o-supports", "o-couture", "o-rugueux", "o-multi", "o-texte", "o-quitter",
+        "o-sla", "o-evider", _, _, _, _,
+        _, _, _, _, _, _,
+        _, _, _, _, _, _,
+    ]),
+    ("Position", "Accueil", [
         _, "haut10", _, _, "haut1", _,
         "gauche10", "aucun", "droite10", "gauche1", _, "droite1",
         _, "bas10", _, _, "bas1", _,
-        _, "pivot-gauche", "pivot-droite", "annuler", "retablir", _,
+        _, "pivot-gauche", "pivot-droite", _, _, _,
     ]),
-    ("Outils", [
-        "o-deplacer", "o-echelle", "o-rotation", "o-poser", "o-couper", "o-mesurer",
-        "o-supports", "o-couture", "o-rugueux", "o-multi", "o-texte", "o-quitter",
-        "o-sla", "o-evider", "o-ajuster", _, "annuler", "retablir",
-        _, _, _, _, _, _,
-    ]),
-    ("Vue", [
+    ("Vue", "Accueil", [
         "v-iso", "v-dessus", "v-dessous", "v-avant", "v-arriere", "v-gauche",
         "v-droite", "zoom-plus", "zoom-moins", "zoom-plateau", "zoom-selection", "camera",
-        "onglet-plateau", "onglet-impression", "onglet-filament", "onglet-imprimante", "onglet-3d", "onglet-apercu",
-        _, "etiquettes", "bascule", "barre", "plein-ecran", _,
+        "etiquettes", "barre", "plein-ecran", _, _, _,
+        _, _, _, _, _, _,
     ]),
-    ("Aperçu", [
+    ("Aperçu", "Accueil", [
         "a-haut", "a-bas", "a-haut5", "a-bas5", "a-couche", "a-seule",
         "a-gauche", "a-droite", "a-gauche5", "a-droite5", "a-legende", "a-fenetre",
-        "a-couleur", "a-couleur-moins", "decouper", "gcode", "envoyer", "carte",
-        _, "bascule", _, _, _, _,
+        "a-couleur", "a-couleur-moins", "bascule", _, _, _,
+        _, _, _, _, _, _,
     ]),
-]
-
-ESSENTIEL_29 = [
-    "ouvrir", "sauver", "importer", "annuler", "retablir", "supprimer",
-    "o-deplacer", "o-echelle", "o-rotation", "o-poser", "o-couper", "o-mesurer",
-    "organiser", "plus", "moins", "o-supports", "o-couture", "o-multi",
-    _, "decouper", "gcode", "envoyer", "bascule", _,
+    ("Fichier", "Accueil", [
+        "nouveau", "sauver-sous", "recharger", "chercher", "preferences", "instance-appli",
+        "carte", "ejecter", "file", "importer-config", "importer-projet", "exporter-config",
+        "onglet-plateau", "onglet-impression", "onglet-filament", "onglet-imprimante", _, _,
+        _, _, _, _, _, _,
+    ]),
 ]
 
 PAGES_30 = [
-    ("Projet", [
-        "nouveau", "ouvrir", "sauver", "sauver-sous", "importer", "preferences",
-        "gcode", "envoyer", "carte", "chercher", "annuler", "retablir",
-        _, _, _, _, _, _,
-        _, _, _, _, _, _,
+    ("Accueil", None, [
+        "ouvrir", "sauver", "importer", "annuler", "retablir", "supprimer",
+        "o-deplacer", "o-rotation", "o-echelle", "o-poser", "o-couper", "o-mesurer",
+        ">Organiser", ">Peinture", ">Modifier", ">Vue", ">Aperçu", ">Fichier",
+        _, "gcode", "envoyer", "bascule", "o-quitter", _,
     ]),
-    ("Plateau", [
-        "tout", "aucun", "supprimer", "copier", "coller", "bascule",
+    ("Organiser", "Accueil", [
         "organiser", "organiser-sel", "organiser-plateau", "organiser-plateau-sel", "plus", "moins",
-        "annuler", "retablir", "zoom-plateau", _, _, _,
+        "tout", "aucun", "copier", "coller", "o-organiser", _,
+        _, _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
-    ("Outils", [
-        "o-deplacer", "o-rotation", "o-echelle", "o-poser", "o-simplifier", "o-organiser",
-        "o-supports", "o-couture", "o-rugueux", "o-multi", "o-texte", "o-svg",
-        "o-mesurer", "o-couper", "o-hauteur", "o-plages", "o-sla", "o-evider",
-        _, "annuler", "retablir", "o-quitter", _, _,
-    ]),
-    ("Dans les outils", [
-        "c-couleur1", "c-couleur2", "c-couleur3", "c-couleur4", "c-inverser", "c-plage",
-        "c-couleur5", "c-couleur6", "c-couleur7", "c-couleur8", "c-copier", "c-coller",
-        "c-mesure", "c-point-suppr", "c-point-tout", "c-valider", _, "o-quitter",
+    ("Peinture", "Accueil", [
+        "o-supports", "o-couture", "o-rugueux", "o-multi", "o-quitter", _,
+        "o-sla", "o-evider", "c-point-suppr", "c-point-tout", "c-valider", _,
+        _, _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
-    ("Vue", [
+    ("Couleurs", "Peinture", [
+        "c-couleur1", "c-couleur2", "c-couleur3", "c-couleur4", "c-inverser", _,
+        "c-couleur5", "c-couleur6", "c-couleur7", "c-couleur8", "o-quitter", _,
+        _, _, _, _, _, _,
+        _, _, _, _, _, _,
+    ]),
+    ("Modifier", "Accueil", [
+        "o-simplifier", "o-hauteur", "o-plages", "o-texte", "o-svg", "o-quitter",
+        "c-mesure", _, _, _, _, _,
+        _, _, _, _, _, _,
+        _, _, _, _, _, _,
+    ]),
+    ("Plages", "Modifier", [
+        "c-plage", "c-copier", "c-coller", "o-quitter", _, _,
+        _, _, _, _, _, _,
+        _, _, _, _, _, _,
+        _, _, _, _, _, _,
+    ]),
+    ("Vue", "Accueil", [
         "v-iso", "v-dessus", "v-dessous", "v-avant", "v-arriere", "v-gauche",
-        "v-droite", "zoom-plus", "zoom-moins", "zoom-plateau", "camera", "bascule",
-        "plein-ecran", _, _, _, _, _,
+        "v-droite", "zoom-plus", "zoom-moins", "zoom-plateau", "camera", "plein-ecran",
+        _, _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
-    ("Aperçu", [
-        "a-haut", "a-bas", "a-haut-moyen", "a-bas-moyen", "a-haut-vite", "a-bas-vite",
-        "a-gauche", "a-droite", "a-gauche-moyen", "a-droite-moyen", "a-gauche-vite", "a-droite-vite",
-        "a-couche", "a-marque", "a-marque-moins", "gcode", "envoyer", "bascule",
+    ("Aperçu", "Accueil", [
+        "a-haut", "a-bas", "a-haut-moyen", "a-bas-moyen", "a-couche", "bascule",
+        "a-gauche", "a-droite", "a-gauche-moyen", "a-droite-moyen", _, _,
+        "a-marque", "a-marque-moins", _, _, _, _,
+        _, _, _, _, _, _,
+    ]),
+    ("Fichier", "Accueil", [
+        "nouveau", "sauver-sous", "chercher", "preferences", _, _,
+        "carte", _, _, _, _, _,
+        _, _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
 ]
 
-ESSENTIEL_30 = [
-    "ouvrir", "sauver", "importer", "annuler", "retablir", "supprimer",
-    "o-deplacer", "o-rotation", "o-echelle", "o-poser", "o-couper", "o-mesurer",
-    "organiser", "plus", "moins", "o-supports", "o-couture", "o-multi",
-    _, "gcode", "envoyer", "carte", "bascule", _,
-]
+# Touche qui active l'outil ET ouvre sa page.
+OUVRE_30 = {"o-multi": "Couleurs", "o-plages": "Plages"}
+OUVRE_29 = {}
+# Icône et raccourci des touches qui ouvrent une page. Le raccourci change la vue
+# de PrusaSlicer en même temps ; la 3.0 n'a qu'une bascule, on ne l'envoie donc pas.
+DOSSIERS_29 = {
+    "Organiser": ("arrange", None), "Peinture": ("mmu_segmentation", None), "Position": ("move", None),
+    "Vue": ("vue-iso", None), "Aperçu": ("preview", ctrl("6")), "Fichier": ("open", None),
+}
+DOSSIERS_30 = {
+    "Organiser": ("layout", None), "Peinture": ("paintbrush", None), "Modifier": ("simplify", None),
+    "Vue": ("vue-iso", None), "Aperçu": ("preview", None), "Fichier": ("open_folder", None),
+}
 
 
 # --- Icônes ----------------------------------------------------------------
@@ -409,40 +436,61 @@ def action(version, touches, cle):
             "icon": icone(version, image), "color": FOND, "payload": charge(raccourci)}
 
 
-def navigation(identifiant, nom, image):
-    return {"id": identifiant, "type": "system", "payload": identifiant, "name": nom,
-            "icon": icone("3.0", image), "color": FOND_NAVIGATION}
+def vers_page(identifiant, nom, image, version, cible, raccourci=None, fond=FOND_DOSSIER):
+    """Touche de page : ClickOS change de page, et l'ordinateur envoie le raccourci s'il y en a un."""
+    charge_page = {"page": cible}
+    if raccourci:
+        charge_page["touche"] = charge(raccourci)[len("touche:"):]
+    return {"id": identifiant[:64], "type": "page", "name": nom, "icon": icone(version, image),
+            "color": fond, "payload": json.dumps(charge_page, separators=(",", ":"))}
 
 
-def page(version, touches, index, nom, grille, total):
+def page(version, touches, dossiers, ouvre, index, nom, parent, grille, rangs):
     assert len(grille) == 24, nom
     assert grille[GAUCHE] is None and grille[DROITE] is None, nom
+    prefixe = f"prusaslicer-{version.replace('.', '')}"
     boutons = [{"id": case, "active": False, "action": None} for case in range(24)]
     for case, cle in enumerate(grille):
-        if cle:
-            boutons[case] = {"id": case, "active": True, "action": action(version, touches, cle)}
-    if index > 0:
-        boutons[GAUCHE] = {"id": GAUCHE, "active": True, "action": navigation("page-prev", "Page précédente", "chevron_left")}
-    if index < total - 1:
-        boutons[DROITE] = {"id": DROITE, "active": True, "action": navigation("page-next", "Page suivante", "chevron_right")}
+        if not cle:
+            continue
+        if cle.startswith(">"):
+            cible = cle[1:]
+            image, raccourci = dossiers[cible]
+            contenu = vers_page(f"{prefixe}-page-{cible.lower()}", f"{cible} ›", image, version, rangs[cible], raccourci)
+        elif cle in ouvre:
+            nom_touche, raccourci, image = touches[cle]
+            contenu = vers_page(f"{prefixe}-{cle}", f"{nom_touche} ›", image, version, rangs[ouvre[cle]], raccourci)
+        elif cle == "o-quitter" and parent and parent != "Accueil":
+            # Quitter l'outil ramène aussi à la page d'où il a été ouvert.
+            nom_touche, raccourci, image = touches[cle]
+            contenu = vers_page(f"{prefixe}-{cle}-{index}", nom_touche, image, version, rangs[parent], raccourci, FOND)
+        else:
+            contenu = action(version, touches, cle)
+        boutons[case] = {"id": case, "active": True, "action": contenu}
+    if parent:
+        raccourci_retour = ctrl("5") if version == "2.9" and nom == "Aperçu" else None
+        boutons[GAUCHE] = {"id": GAUCHE, "active": True, "action": vers_page(
+            f"{prefixe}-retour-{index}", "Retour", "chevron_left", "3.0", rangs[parent], raccourci_retour, FOND_NAVIGATION)}
     return {"page": index, "name": nom, "buttons": boutons}
 
 
-def configuration(version, touches, pages):
+def configuration(version, touches, dossiers, ouvre, pages):
+    rangs = {nom: index for index, (nom, _parent, _grille) in enumerate(pages)}
     return {"totalPages": len(pages),
-            "pages": [page(version, touches, index, nom, grille, len(pages)) for index, (nom, grille) in enumerate(pages)]}
+            "pages": [page(version, touches, dossiers, ouvre, index, nom, parent, grille, rangs)
+                      for index, (nom, parent, grille) in enumerate(pages)]}
 
 
 def modele():
-    essentiel_29 = configuration("2.9", T29, [("Essentiel", ESSENTIEL_29)])
-    # L'ordre des variantes ne bouge pas : une mise à jour retrouve la variante par son rang.
+    config_29 = configuration("2.9", T29, DOSSIERS_29, OUVRE_29, PAGES_29)
+    config_30 = configuration("3.0", T30, DOSSIERS_30, OUVRE_30, PAGES_30)
     return {
         "id": ID,
         "name": "PrusaSlicer",
-        "description": ("Pages faites pour PrusaSlicer 2.9.x et 3.0, avec les icônes de l'application. Les deux versions "
-                        "n'ont pas les mêmes raccourcis : choisissez la vôtre. Raccourcis relevés dans le code source "
-                        "des versions 2.9.7 et 3.0.0-alpha13 ; la 3.0 finale pourra différer. "
-                        "Icônes © Prusa Research, licence AGPL-3.0."),
+        "description": ("Rangé comme la barre d'outils de PrusaSlicer, avec les icônes de l'application : une touche "
+                        "ouvre la page de son outil. Choisissez votre version, elles n'ont pas les mêmes raccourcis. "
+                        "Relevés dans le code source des versions 2.9.7 et 3.0.0-alpha13 ; la 3.0 finale pourra "
+                        "différer. Icônes © Prusa Research, licence AGPL-3.0."),
         "icon": logo(),
         "author": "ClickDeck",
         "version": VERSION,
@@ -452,19 +500,12 @@ def modele():
         "section": "3D, CAO & impression 3D",
         "tags": ["Prusa Research", "Impression 3D", "2.9", "3.0"],
         "minAppVersion": APP_MINIMALE,
-        "config": essentiel_29,
+        "config": config_29,
         "variants": [
-            {"name": "2.9.x Essentiel", "description": "Une page, le quotidien"},
-            {"name": "2.9.x Complet", "description": "Six pages : projet, plateau, déplacer, outils, vue, aperçu"},
-            {"name": "3.0 Essentiel", "description": "Une page, le quotidien"},
-            {"name": "3.0 Complet", "description": "Six pages, avec les nouveaux outils de la 3.0"},
+            {"name": "PrusaSlicer 2.9.x", "description": "Accueil et six pages d'outils"},
+            {"name": "PrusaSlicer 3.0", "description": "Accueil et huit pages d'outils"},
         ],
-        "variantConfigs": [
-            essentiel_29,
-            configuration("2.9", T29, PAGES_29),
-            configuration("3.0", T30, [("Essentiel", ESSENTIEL_30)]),
-            configuration("3.0", T30, PAGES_30),
-        ],
+        "variantConfigs": [config_29, config_30],
     }
 
 
@@ -475,8 +516,8 @@ def logo():
 
 def categories(version, touches, pages):
     resultat, vues = [], set()
-    for nom, grille in pages:
-        cles = [cle for cle in grille if cle and cle not in vues]
+    for nom, _parent, grille in pages:
+        cles = [cle for cle in grille if cle and not cle.startswith(">") and cle not in vues]
         vues.update(cles)
         if cles:
             resultat.append({"id": f"prusaslicer-{version.replace('.', '')}-{len(resultat)}", "name": f"{version} · {nom}",
@@ -504,8 +545,11 @@ def icones_utilisees():
         for _nom, _raccourci, image in touches.values():
             if not image.startswith("vue-"):
                 yield version, image
+    for version, dossiers in (("2.9", DOSSIERS_29), ("3.0", DOSSIERS_30)):
+        for image, _raccourci in dossiers.values():
+            if not image.startswith("vue-"):
+                yield version, image
     yield "3.0", "chevron_left"
-    yield "3.0", "chevron_right"
     yield "2.9", "PrusaSlicer"
 
 
