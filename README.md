@@ -9,6 +9,8 @@ sans compte : il doit rester **public**.
 | `plugins/<id>.json` | un plugin : catégories d'actions ajoutées à l'éditeur |
 | `sources/<id>.json` | la fiche d'une application : raccourcis par système et leurs sources |
 | `outils/generer.py` | fabrique les modèles et plugins depuis `sources/` |
+| `outils/prusaslicer.py` | modèle et plugin PrusaSlicer, faits à la main (fiche marquée `sur_mesure`) |
+| `outils/icones-prusaslicer/` | icônes de PrusaSlicer, licence AGPL-3.0, voir son `LISEZMOI.md` |
 | `index.json` | applications jusqu'à la 1.18 : liste figée, générée par `publier.py` |
 | `catalogue.json` | à partir de la 1.19.0 : fiches consultées en ligne, générées par `publier.py` |
 

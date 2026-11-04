@@ -297,6 +297,8 @@ def main():
             continue
         with open(os.path.join(options.sources, nom), encoding="utf-8") as fichier:
             fiche = json.load(fichier)
+        if fiche.get("sur_mesure"):
+            continue  # modèle fait à la main par son propre outil, à ne pas écraser
         actions = [action for action in fiche.get("actions", []) if charge_utile(fiche, action)]
         if len(actions) < MINIMUM_TOUCHES or (fiche.get("sans_raccourcis") and len(actions) < 2 * MINIMUM_TOUCHES):
             packs.setdefault(fiche.get("section", "Divers"), []).append(fiche)
