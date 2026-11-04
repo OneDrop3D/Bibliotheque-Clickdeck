@@ -11,5 +11,7 @@ distribuées sous licence GNU AGPL-3.0 (texte complet dans `LICENCE-AGPL-3.0.txt
 Les noms Prusa et PrusaSlicer et le logo appartiennent à Prusa Research. ClickDeck n'est ni affilié
 à Prusa Research ni approuvé par elle.
 
+`rendu/` contient les mêmes icônes posées sur leur tuile, en PNG, telles que les modèles les embarquent.
+
 Les cubes des touches de vue ne sont pas des icônes de PrusaSlicer : l'application n'en a pas.
 Ils sont dessinés par `outils/prusaslicer.py`.

@@ -17,21 +17,31 @@ La 2.9 lit le caractère reçu : les chiffres et « + » y fonctionnent normalem
 """
 
 import argparse
+import base64
+import hashlib
 import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from generer import APP_MINIMALE, DATE, DROITE, GAUCHE, RACINE, data_uri  # noqa: E402
+from generer import APP_MINIMALE, DATE, DROITE, GAUCHE, RACINE  # noqa: E402
 
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 ID = "prusaslicer"
 FOND = "#262626"       # fond sombre de PrusaSlicer : les icônes y sont lisibles
 FOND_NAVIGATION = "#ED6B21"
 FOND_DOSSIER = "#6B3A17"   # orange sombre : cette touche ouvre une page
 DOSSIER_ICONES = os.path.join(RACINE, "outils", "icones-prusaslicer")
+DOSSIER_RENDU = os.path.join(DOSSIER_ICONES, "rendu")
+COULEURS = ["#F58231", "#1F77B4", "#2CA02C", "#D62728", "#9467BD", "#8C564B", "#17BECF", "#BCBD22"]
+# Le curseur n'existe qu'à partir de l'application qui le connaît : les plus
+# anciennes refuseraient tout le modèle. À activer avec `CURSEUR_APP` = version publiée.
+CURSEUR_APP = None
+MANQUANTES = {}
+UTILISEES = set()
 APPLICATIONS = {
     "2.9": "/Applications/Original Prusa Drivers/PrusaSlicer.app/Contents/Resources/icons",
     "3.0": "/Applications/PrusaSlicer-3.0.0-alpha12.app/Contents/Resources/icons",
@@ -249,7 +259,7 @@ T30 = {
     "a-marque-moins": ("Retirer repère", tous("numminus"), "colorchange_del"),
 }
 for numero in range(1, 9):
-    T30[f"c-couleur{numero}"] = (f"Couleur {numero}", couleur_30(numero), "palette")
+    T30[f"c-couleur{numero}"] = (f"Couleur {numero}", couleur_30(numero), f"couleur-{numero}")
 
 
 # --- Pages -----------------------------------------------------------------
@@ -275,7 +285,7 @@ PAGES_29 = [
     ("Peinture", "Accueil", [
         "o-supports", "o-couture", "o-rugueux", "o-multi", "o-texte", "o-quitter",
         "o-sla", "o-evider", _, _, _, _,
-        _, _, _, _, _, _,
+        "~pinceau", _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
     ("Position", "Accueil", [
@@ -320,13 +330,13 @@ PAGES_30 = [
     ("Peinture", "Accueil", [
         "o-supports", "o-couture", "o-rugueux", "o-multi", "o-quitter", _,
         "o-sla", "o-evider", "c-point-suppr", "c-point-tout", "c-valider", _,
-        _, _, _, _, _, _,
+        "~pinceau", _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
     ("Couleurs", "Peinture", [
         "c-couleur1", "c-couleur2", "c-couleur3", "c-couleur4", "c-inverser", _,
         "c-couleur5", "c-couleur6", "c-couleur7", "c-couleur8", "o-quitter", _,
-        _, _, _, _, _, _,
+        "~pinceau", _, _, _, _, _,
         _, _, _, _, _, _,
     ]),
     ("Modifier", "Accueil", [
@@ -417,11 +427,42 @@ def nettoyer(svg):
     return svg.replace(entete, propre, 1)
 
 
-def icone(version, nom):
+def pastille(numero):
+    """Couleur de peinture : celles du profil Prusa à 8 outils, PrusaSlicer n'en a pas d'autres par défaut."""
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">'
+            f'<circle cx="48" cy="48" r="42" fill="{COULEURS[numero - 1]}"/>'
+            f'<text x="48" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="46" '
+            f'font-weight="700" fill="#fff">{numero}</text></svg>')
+
+
+def encadrer(svg, fond):
+    """Pose l'icône sur sa tuile : elle reste lisible quel que soit le thème du boîtier."""
+    interieur = svg.replace('width="96" height="96"', 'x="13" y="13" width="70" height="70"', 1)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">'
+            f'<rect width="96" height="96" rx="16" fill="{fond}"/>{interieur}</svg>')
+
+
+def en_png(svg):
+    """Image du rendu en cache. Absente : notée pour `--rendre`, qui la fabrique."""
+    nom = hashlib.sha1(svg.encode("utf-8")).hexdigest()[:16]
+    chemin = os.path.join(DOSSIER_RENDU, f"{nom}.png")
+    UTILISEES.add(nom)
+    if not os.path.exists(chemin):
+        MANQUANTES[nom] = svg
+        return ""
+    with open(chemin, "rb") as fichier:
+        return "data:image/png;base64," + base64.b64encode(fichier.read()).decode("ascii")
+
+
+def icone(version, nom, fond=FOND):
     if nom.startswith("vue-"):
-        return data_uri(cube(nom[4:]))
-    with open(os.path.join(DOSSIER_ICONES, version, f"{nom}.svg"), encoding="utf-8") as fichier:
-        return data_uri(nettoyer(fichier.read()))
+        svg = cube(nom[4:])
+    elif nom.startswith("couleur-"):
+        svg = pastille(int(nom[8:]))
+    else:
+        with open(os.path.join(DOSSIER_ICONES, version, f"{nom}.svg"), encoding="utf-8") as fichier:
+            svg = nettoyer(fichier.read())
+    return en_png(encadrer(svg, fond))
 
 
 # --- Construction ----------------------------------------------------------
@@ -441,7 +482,7 @@ def vers_page(identifiant, nom, image, version, cible, raccourci=None, fond=FOND
     charge_page = {"page": cible}
     if raccourci:
         charge_page["touche"] = charge(raccourci)[len("touche:"):]
-    return {"id": identifiant[:64], "type": "page", "name": nom, "icon": icone(version, image),
+    return {"id": identifiant[:64], "type": "page", "name": nom, "icon": icone(version, image, fond),
             "color": fond, "payload": json.dumps(charge_page, separators=(",", ":"))}
 
 
@@ -452,6 +493,12 @@ def page(version, touches, dossiers, ouvre, index, nom, parent, grille, rangs):
     boutons = [{"id": case, "active": False, "action": None} for case in range(24)]
     for case, cle in enumerate(grille):
         if not cle:
+            continue
+        if cle == "~pinceau":
+            if CURSEUR_APP:
+                boutons[case] = {"id": case, "active": True, "action": {
+                    "id": f"{prefixe}-pinceau-{index}", "type": "curseur", "name": "Taille du pinceau", "icon": "",
+                    "color": FOND, "payload": "curseur:win=alt;mac=alt;lin=alt", "spanCols": 4, "spanRows": 1}}
             continue
         if cle.startswith(">"):
             cible = cle[1:]
@@ -499,7 +546,7 @@ def modele():
         "category": "productivity",
         "section": "3D, CAO & impression 3D",
         "tags": ["Prusa Research", "Impression 3D", "2.9", "3.0"],
-        "minAppVersion": APP_MINIMALE,
+        "minAppVersion": CURSEUR_APP or APP_MINIMALE,
         "config": config_29,
         "variants": [
             {"name": "PrusaSlicer 2.9.x", "description": "Accueil et six pages d'outils"},
@@ -511,13 +558,13 @@ def modele():
 
 def logo():
     with open(os.path.join(DOSSIER_ICONES, "2.9", "PrusaSlicer.svg"), encoding="utf-8") as fichier:
-        return data_uri(re.sub(r">\s+<", "><", fichier.read()).strip())
+        return en_png(re.sub(r">\s+<", "><", fichier.read()).strip())
 
 
 def categories(version, touches, pages):
     resultat, vues = [], set()
     for nom, _parent, grille in pages:
-        cles = [cle for cle in grille if cle and not cle.startswith(">") and cle not in vues]
+        cles = [cle for cle in grille if cle and cle[0] not in ">~" and cle not in vues]
         vues.update(cles)
         if cles:
             resultat.append({"id": f"prusaslicer-{version.replace('.', '')}-{len(resultat)}", "name": f"{version} · {nom}",
@@ -543,7 +590,7 @@ def plugin():
 def icones_utilisees():
     for version, touches in (("2.9", T29), ("3.0", T30)):
         for _nom, _raccourci, image in touches.values():
-            if not image.startswith("vue-"):
+            if not image.startswith(("vue-", "couleur-")):
                 yield version, image
     for version, dossiers in (("2.9", DOSSIERS_29), ("3.0", DOSSIERS_30)):
         for image, _raccourci in dossiers.values():
@@ -563,11 +610,28 @@ def copier():
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--copier", action="store_true", help="recopie les icônes depuis les applications installées")
+    parser.add_argument("--rendre", metavar="ELECTRON", help="fabrique les images manquantes avec ce binaire Electron")
     parser.add_argument("--sortie", default=RACINE)
     options = parser.parse_args()
     if options.copier:
         copier()
-    for dossier, contenu in (("modeles", modele()), ("plugins", plugin())):
+    os.makedirs(DOSSIER_RENDU, exist_ok=True)
+    elements = (("modeles", modele()), ("plugins", plugin()))
+    if MANQUANTES:
+        if not options.rendre:
+            sys.exit(f"{len(MANQUANTES)} images à fabriquer : relancez avec --rendre")
+        liste = os.path.join(DOSSIER_RENDU, "a-rendre.json")
+        with open(liste, "w", encoding="utf-8") as fichier:
+            json.dump(MANQUANTES, fichier)
+        subprocess.run([options.rendre, os.path.join(RACINE, "outils", "rendre-icones.js"), liste, DOSSIER_RENDU],
+                       check=True, timeout=180)
+        os.remove(liste)
+        MANQUANTES.clear()
+        elements = (("modeles", modele()), ("plugins", plugin()))
+    for image in os.listdir(DOSSIER_RENDU):
+        if image[:-4] not in UTILISEES:
+            os.remove(os.path.join(DOSSIER_RENDU, image))
+    for dossier, contenu in elements:
         chemin = os.path.join(options.sortie, dossier, f"{ID}.json")
         with open(chemin, "w", encoding="utf-8") as fichier:
             json.dump(contenu, fichier, ensure_ascii=False, separators=(",", ":"))
