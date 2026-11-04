@@ -29,7 +29,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from generer import APP_MINIMALE, DATE, DROITE, GAUCHE, RACINE  # noqa: E402
 
-VERSION = "1.3.0"
+VERSION = "1.4.0"
 ID = "prusaslicer"
 FOND = "#262626"       # fond sombre de PrusaSlicer : les icônes y sont lisibles
 FOND_NAVIGATION = "#ED6B21"
@@ -39,7 +39,8 @@ DOSSIER_RENDU = os.path.join(DOSSIER_ICONES, "rendu")
 COULEURS = ["#F58231", "#1F77B4", "#2CA02C", "#D62728", "#9467BD", "#8C564B", "#17BECF", "#BCBD22"]
 # Le curseur n'existe qu'à partir de l'application qui le connaît : les plus
 # anciennes refuseraient tout le modèle. À activer avec `CURSEUR_APP` = version publiée.
-CURSEUR_APP = None
+CURSEUR_APP = "1.18.7"
+LIMITE_CONFIG = 230_000   # le boîtier jette au-delà de 262 144 octets ; marge pour l'enveloppe
 MANQUANTES = {}
 UTILISEES = set()
 APPLICATIONS = {
@@ -631,6 +632,11 @@ def main():
     for image in os.listdir(DOSSIER_RENDU):
         if image[:-4] not in UTILISEES:
             os.remove(os.path.join(DOSSIER_RENDU, image))
+    for config in elements[0][1]["variantConfigs"]:
+        # L'application 1.18.7 recopie encore les images dans la configuration.
+        taille = len(json.dumps(config, ensure_ascii=False).encode("utf-8"))
+        assert taille < LIMITE_CONFIG, f"configuration de {taille} octets : le boîtier la refuserait"
+        print("configuration", taille)
     for dossier, contenu in elements:
         chemin = os.path.join(options.sortie, dossier, f"{ID}.json")
         with open(chemin, "w", encoding="utf-8") as fichier:
