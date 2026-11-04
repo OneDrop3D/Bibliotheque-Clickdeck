@@ -1,0 +1,40 @@
+{
+  "id": "faststone-capture",
+  "nom": "FastStone Capture",
+  "editeur": "FastStone Soft",
+  "site": "https://www.faststone.org/FSCaptureDetail.htm",
+  "systemes": ["windows"],
+  "lancement": { "windows": "FastStone Capture" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne publie pas de tableau des raccourcis de capture par défaut : les touches globales de capture se définissent dans Options > Raccourcis. Seuls les raccourcis de l'éditeur, cités dans l'historique des versions de la page officielle, sont relevés ici. Pas de version Mac.",
+  "sources": [
+    { "url": "https://www.faststone.org/FSCaptureDetail.htm", "titre": "FastStone Capture - détail (raccourcis cités par version)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "alt+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-tout", "nom": "Tout enregistrer", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "save-all" },
+    { "id": "supprimer-fichier", "nom": "Supprimer fichier", "groupe": "Fichier", "win": "ctrl+delete", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "trash-2" },
+    { "id": "fermer-onglets", "nom": "Fermer enregistrés", "groupe": "Fichier", "win": "ctrl+q", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "x" },
+    { "id": "nouvel-onglet", "nom": "Nouvel onglet", "groupe": "Fichier", "win": "alt+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "plus-square" },
+    { "id": "zoom-100", "nom": "Zoom 100 %", "groupe": "Affichage", "win": "ctrl+0", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scan" },
+    { "id": "zoom-selection", "nom": "Zoom sélection", "groupe": "Affichage", "win": "z", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "ajuster-largeur", "nom": "Ajuster largeur", "groupe": "Affichage", "win": "k", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "move-horizontal" },
+    { "id": "dessiner", "nom": "Dessiner", "groupe": "Édition", "win": "d", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "pen-tool" },
+    { "id": "outil-clone", "nom": "Outil clone", "groupe": "Édition", "win": "c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "copy" },
+    { "id": "transparence-fond", "nom": "Fond transparent", "groupe": "Édition", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "eraser" },
+    { "id": "horodatage", "nom": "Horodatage", "groupe": "Édition", "win": "j", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "clock" },
+    { "id": "renommer", "nom": "Renommer", "groupe": "Fichier", "win": "f2", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "pencil" },
+    { "id": "dossier-explorateur", "nom": "Ouvrir dossier", "groupe": "Fichier", "win": "w", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "proprietes", "nom": "Propriétés", "groupe": "Fichier", "win": "i", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "info" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom à la molette", "raison": "molette" },
+    { "nom": "Capture par touche globale (défaut non publié)", "raison": "réglage sans raccourci par défaut documenté" }
+  ]
+}

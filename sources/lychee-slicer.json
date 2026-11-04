@@ -1,0 +1,137 @@
+{
+  "id": "lychee-slicer",
+  "nom": "Lychee Slicer",
+  "editeur": "Mango3D",
+  "site": "https://lychee.co",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Lychee Slicer",
+    "mac": "Lychee Slicer"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Le tableau officiel Mango3D (4 février 2025) est une image illisible : seuls les raccourcis recoupés par des extraits de texte (annuler, supprimer, T/R/S/M, Ctrl+Maj+S supports auto, Ctrl+Maj+O orientation auto) sont conservés. Actifs seulement en mode Prepare. Sur Mac, Ctrl devient Cmd (source). Personnalisables dans File > Preferences > Shortcut Editor ; Supports auto a pu changer avec la version 7.5.",
+  "sources": [
+    {
+      "url": "https://lychee.co/whats-new/lychee-slicer-50-useful-shortcuts",
+      "titre": "Lychee Slicer - 50 useful shortcuts (Mango3D, 4 février 2025)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Objet",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Objet",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Objet",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "miroir",
+      "nom": "Miroir",
+      "groupe": "Objet",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "orientation-auto",
+      "nom": "Orientation auto",
+      "groupe": "Objet",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "compass"
+    },
+    {
+      "id": "supports-auto",
+      "nom": "Supports auto",
+      "groupe": "Supports",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation de la vue (Alt + flèches)",
+      "raison": "séquence de touches maintenues"
+    },
+    {
+      "nom": "Zoom et déplacement de caméra",
+      "raison": "souris"
+    }
+  ]
+}

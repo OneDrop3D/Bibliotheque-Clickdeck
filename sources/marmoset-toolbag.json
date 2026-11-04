@@ -1,0 +1,770 @@
+{
+  "id": "marmoset-toolbag",
+  "nom": "Marmoset Toolbag",
+  "editeur": "Marmoset",
+  "site": "https://marmoset.co/toolbag/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Marmoset Toolbag",
+    "mac": "Marmoset Toolbag"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la documentation officielle, qui ne distingue pas Windows et Mac. Les touches sans Ctrl sont reprises à l'identique sur Mac (déduit) ; les combinaisons avec Ctrl restent à null faute de source Mac. Raccourcis modifiables dans Edit > Hotkeys.",
+  "sources": [
+    {
+      "url": "https://docs.marmoset.co/docs/keyboard-shortcuts/",
+      "titre": "Marmoset Toolbag - Keyboard shortcuts (documentation officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Fichier",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "annuler-camera",
+      "nom": "Annuler caméra",
+      "groupe": "Fichier",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fichier",
+      "win": "ctrl+comma",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir scène",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouvelle-scene",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "importer-modele",
+      "nom": "Importer modèle",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "exporter-viewer",
+      "nom": "Exporter viewer",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "upload"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "selection",
+      "nom": "Outil sélection",
+      "groupe": "Transformation",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2",
+      "deduit": true
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Transformation",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move",
+      "deduit": true
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Transformation",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-3d",
+      "deduit": true
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Transformation",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling",
+      "deduit": true
+    },
+    {
+      "id": "transformer-tout",
+      "nom": "Transformer tout",
+      "groupe": "Transformation",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-3d",
+      "deduit": true
+    },
+    {
+      "id": "espace-monde",
+      "nom": "Espace monde",
+      "groupe": "Transformation",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "globe"
+    },
+    {
+      "id": "editer-pivot",
+      "nom": "Éditer pivot",
+      "groupe": "Transformation",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "crosshair",
+      "deduit": true
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Scène",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Scène",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "masquer-selection",
+      "nom": "Masquer sélection",
+      "groupe": "Scène",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Scène",
+      "win": "shift+l",
+      "mac": "shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lock",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-camera",
+      "nom": "Ajouter caméra",
+      "groupe": "Scène",
+      "win": "ctrl+k",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "camera"
+    },
+    {
+      "id": "ajouter-spot",
+      "nom": "Ajouter spot",
+      "groupe": "Scène",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lightbulb"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Scène",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Scène",
+      "win": "shift+ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "selection-rectangle",
+      "nom": "Sélection rect.",
+      "groupe": "Scène",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed-mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "selection-lasso",
+      "nom": "Sélection lasso",
+      "groupe": "Scène",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "lasso",
+      "deduit": true
+    },
+    {
+      "id": "baguette-magique",
+      "nom": "Baguette magique",
+      "groupe": "Scène",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "wand"
+    },
+    {
+      "id": "cadrer-selection",
+      "nom": "Cadrer sélection",
+      "groupe": "Vue",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "cadrer-scene",
+      "nom": "Cadrer scène",
+      "groupe": "Vue",
+      "win": "shift+ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan-search"
+    },
+    {
+      "id": "mode-viewport-suivant",
+      "nom": "Mode suivant",
+      "groupe": "Vue",
+      "win": "period",
+      "mac": "period",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layout-grid",
+      "deduit": true
+    },
+    {
+      "id": "mode-viewport-precedent",
+      "nom": "Mode précédent",
+      "groupe": "Vue",
+      "win": "comma",
+      "mac": "comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layout-grid",
+      "deduit": true
+    },
+    {
+      "id": "maximiser-viewport",
+      "nom": "Maximiser viewport",
+      "groupe": "Vue",
+      "win": "shift+space",
+      "mac": "shift+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Vue",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "fullscreen"
+    },
+    {
+      "id": "afficher-guides",
+      "nom": "Afficher guides",
+      "groupe": "Vue",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ruler"
+    },
+    {
+      "id": "rendu-viewport",
+      "nom": "Rendu viewport",
+      "groupe": "Rendu",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image",
+      "deduit": true
+    },
+    {
+      "id": "rendu-presse-papiers",
+      "nom": "Rendu presse-pap.",
+      "groupe": "Rendu",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard",
+      "deduit": true
+    },
+    {
+      "id": "rendu-images",
+      "nom": "Toutes les images",
+      "groupe": "Rendu",
+      "win": "f11",
+      "mac": "f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "images",
+      "deduit": true
+    },
+    {
+      "id": "rendu-videos",
+      "nom": "Toutes les vidéos",
+      "groupe": "Rendu",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clapperboard",
+      "deduit": true
+    },
+    {
+      "id": "raytracing",
+      "nom": "Ray tracing",
+      "groupe": "Rendu",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun"
+    },
+    {
+      "id": "qualite-maximale",
+      "nom": "Qualité maximale",
+      "groupe": "Rendu",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sparkles",
+      "deduit": true
+    },
+    {
+      "id": "bibliotheque",
+      "nom": "Bibliothèque",
+      "groupe": "Vue",
+      "win": "shift+ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "library"
+    },
+    {
+      "id": "nouveau-materiau",
+      "nom": "Nouveau matériau",
+      "groupe": "Matériaux",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette"
+    },
+    {
+      "id": "appliquer-selection",
+      "nom": "Appliquer matériau",
+      "groupe": "Matériaux",
+      "win": "shift+ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "paint-roller"
+    },
+    {
+      "id": "nettoyer-inutilises",
+      "nom": "Purger inutilisés",
+      "groupe": "Matériaux",
+      "win": "ctrl+backspace",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "brush-cleaning"
+    },
+    {
+      "id": "lecture-animation",
+      "nom": "Lecture animation",
+      "groupe": "Animation",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Animation",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back",
+      "deduit": true
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Animation",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-keyframe",
+      "nom": "Ajouter keyframe",
+      "groupe": "Animation",
+      "win": "insert",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "diamond-plus"
+    },
+    {
+      "id": "supprimer-keyframe",
+      "nom": "Supprimer keyframe",
+      "groupe": "Animation",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "diamond-minus",
+      "deduit": true
+    },
+    {
+      "id": "cuire-tout",
+      "nom": "Cuire tout",
+      "groupe": "Rendu",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flame"
+    },
+    {
+      "id": "peindre",
+      "nom": "Peindre",
+      "groupe": "Matériaux",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush",
+      "deduit": true
+    },
+    {
+      "id": "effacer",
+      "nom": "Effacer",
+      "groupe": "Matériaux",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eraser",
+      "deduit": true
+    },
+    {
+      "id": "remplissage",
+      "nom": "Remplissage",
+      "groupe": "Matériaux",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "paint-bucket",
+      "deduit": true
+    },
+    {
+      "id": "degrade",
+      "nom": "Dégradé",
+      "groupe": "Matériaux",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "blend",
+      "deduit": true
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Matériaux",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pipette",
+      "deduit": true
+    },
+    {
+      "id": "taille-pinceau-moins",
+      "nom": "Pinceau plus petit",
+      "groupe": "Matériaux",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus",
+      "deduit": true
+    },
+    {
+      "id": "taille-pinceau-plus",
+      "nom": "Pinceau plus grand",
+      "groupe": "Matériaux",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "duretee-moins",
+      "nom": "Dureté moins",
+      "groupe": "Matériaux",
+      "win": "shift+bracketleft",
+      "mac": "shift+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-dashed",
+      "deduit": true
+    },
+    {
+      "id": "duretee-plus",
+      "nom": "Dureté plus",
+      "groupe": "Matériaux",
+      "win": "shift+bracketright",
+      "mac": "shift+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle",
+      "deduit": true
+    },
+    {
+      "id": "stencil",
+      "nom": "Stencil",
+      "groupe": "Matériaux",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "stamp",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Orbite, pan et zoom de la vue",
+      "raison": "souris (Alt + clic ou molette)"
+    },
+    {
+      "nom": "Rotation du ciel",
+      "raison": "souris (Shift + clic droit maintenu)"
+    },
+    {
+      "nom": "Accrochage (snapping)",
+      "raison": "touche Ctrl maintenue"
+    },
+    {
+      "nom": "Sélection additionnelle",
+      "raison": "souris (Ctrl + clic)"
+    },
+    {
+      "nom": "Réglage des lumières",
+      "raison": "souris (Ctrl + glisser sur la lumière)"
+    },
+    {
+      "nom": "Taille du pinceau au glisser droit",
+      "raison": "souris (Ctrl + glisser clic droit)"
+    },
+    {
+      "nom": "Ligne droite",
+      "raison": "souris (Shift + clic gauche)"
+    }
+  ]
+}

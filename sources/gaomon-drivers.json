@@ -1,0 +1,17 @@
+{
+  "id": "gaomon-drivers",
+  "nom": "Gaomon drivers",
+  "editeur": "Gaomon",
+  "site": "https://www.gaomon.net/pages/download",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Gaomon Tablet", "mac": "Gaomon Tablet" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle non lue : accès refusé (429) puis page introuvable (404) à la copie d'archive. Aucun raccourci vérifié ; aucune action proposée. À reprendre quand la page est accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Touches express de la tablette", "raison": "réglage dans le pilote, raccourcis non vérifiés" } ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "xnview-mp",
+  "nom": "XnView MP",
+  "editeur": "XnSoft",
+  "site": "https://www.xnview.com/en/xnviewmp/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "XnView MP",
+    "mac": "XnView MP",
+    "linux": "XnView MP"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune liste officielle des raccourcis par défaut n'a pu être ouverte. Les raccourcis Pivoter/Miroir (Maj+L, R, V, H) et les flèches du forum ont été retirés car non confirmés pour XnView MP. Seules les commandes standard des menus sont conservées. Vérifier dans Paramètres > Interface > Raccourcis.",
+  "sources": [
+    {
+      "url": "https://newsgroup.xnview.com/viewtopic.php?p=207858",
+      "titre": "Forum XnView : Ctrl+C copie l'image et le nom"
+    }
+  ],
+  "actions": [
+    {"id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichiers", "win": "ctrl+o", "mac": "cmd+o", "linux": "ctrl+o", "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true},
+    {"id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichiers", "win": "ctrl+s", "mac": "cmd+s", "linux": "ctrl+s", "source": 0, "priorite": 1, "picto": "save", "deduit": true},
+    {"id": "imprimer", "nom": "Imprimer", "groupe": "Fichiers", "win": "ctrl+p", "mac": "cmd+p", "linux": "ctrl+p", "source": 0, "priorite": 1, "picto": "printer", "deduit": true},
+    {"id": "copier-image", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": "ctrl+c", "source": 0, "priorite": 1, "picto": "copy", "deduit": true},
+    {"id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": "ctrl+a", "source": 0, "priorite": 2, "picto": "check-square", "deduit": true},
+    {"id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": "ctrl+f", "source": 0, "priorite": 2, "picto": "search", "deduit": true}
+  ],
+  "non_faisable": [
+    {"nom": "Zoom à la molette", "raison": "molette"},
+    {"nom": "Défilement à la souris", "raison": "molette"}
+  ]
+}

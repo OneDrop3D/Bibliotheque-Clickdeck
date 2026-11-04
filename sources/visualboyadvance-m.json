@@ -1,0 +1,139 @@
+{
+  "id": "visualboyadvance-m",
+  "nom": "VisualBoyAdvance-M",
+  "editeur": "Projet VisualBoyAdvance-M (open source)",
+  "site": "https://visualboyadvance-m.org",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "VisualBoyAdvance-M",
+    "mac": "VisualBoyAdvance-M"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code de l'interface SDL (src/sdl/SDL.cpp) ; l'interface graphique wx n'a pas pu être vérifiée et peut différer. Les touches F1-F8 dépendent du réglage saveKeysSwitch. Mac non renseigné pour les raccourcis Ctrl : source non Mac.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/visualboyadvance-m/visualboyadvance-m/master/src/sdl/SDL.cpp",
+      "titre": "VisualBoyAdvance-M - src/sdl/SDL.cpp (raccourcis par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Lecture",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "charger-etat-1",
+      "nom": "Charger slot 1",
+      "groupe": "États",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-etat-1",
+      "nom": "Sauver slot 1",
+      "groupe": "États",
+      "win": "shift+f1",
+      "mac": "shift+f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger-slot-2",
+      "nom": "Charger slot 2",
+      "groupe": "États",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-slot-2",
+      "nom": "Sauver slot 2",
+      "groupe": "États",
+      "win": "shift+f2",
+      "mac": "shift+f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger-slot-3",
+      "nom": "Charger slot 3",
+      "groupe": "États",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-slot-3",
+      "nom": "Sauver slot 3",
+      "groupe": "États",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "reinitialiser",
+      "nom": "Réinitialiser",
+      "groupe": "Système",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Avance rapide (maintenir)",
+      "raison": "touche maintenue, aucune touche par défaut trouvée dans la source"
+    }
+  ]
+}

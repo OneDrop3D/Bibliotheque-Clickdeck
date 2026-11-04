@@ -1,0 +1,258 @@
+{
+  "id": "cheat-engine",
+  "nom": "Cheat Engine",
+  "editeur": "Cheat Engine (Eric Heijnen)",
+  "site": "https://www.cheatengine.org/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Cheat Engine"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel (MainUnit.lfm, dépôt cheat-engine/cheat-engine, valeurs ShortCut décodées). Certains s'appliquent à la liste d'adresses ou aux résultats de scan. Les touches du jeu se définissent dans Édition > Réglages > Touches.",
+  "sources": [
+    {
+      "url": "https://github.com/cheat-engine/cheat-engine/blob/master/Cheat%20Engine/MainUnit.lfm",
+      "titre": "Cheat Engine, MainUnit.lfm (code source)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "liste-processus",
+      "nom": "Liste processus",
+      "groupe": "Général",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-tree"
+    },
+    {
+      "id": "vue-memoire",
+      "nom": "Vue mémoire",
+      "groupe": "Général",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "memory-stick"
+    },
+    {
+      "id": "ouvrir-table",
+      "nom": "Ouvrir une table",
+      "groupe": "Fichiers",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichiers",
+      "win": "ctrl+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet scan",
+      "groupe": "Analyse",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "assemblage-auto",
+      "nom": "Assemblage auto",
+      "groupe": "Outils",
+      "win": "ctrl+alt+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "cpu"
+    },
+    {
+      "id": "script-lua-table",
+      "nom": "Script Lua table",
+      "groupe": "Outils",
+      "win": "ctrl+alt+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-code"
+    },
+    {
+      "id": "moteur-lua",
+      "nom": "Moteur Lua",
+      "groupe": "Outils",
+      "win": "ctrl+shift+alt+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "basculer-selection",
+      "nom": "Figer/défiger",
+      "groupe": "Adresses",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "snowflake"
+    },
+    {
+      "id": "qui-accede",
+      "nom": "Qui accède ici",
+      "groupe": "Adresses",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "qui-ecrit",
+      "nom": "Qui écrit ici",
+      "groupe": "Adresses",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "modifier-valeurs",
+      "nom": "Modifier valeurs",
+      "groupe": "Analyse",
+      "win": "ctrl+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "edit"
+    },
+    {
+      "id": "parcourir-memoire",
+      "nom": "Parcourir mémoire",
+      "groupe": "Mémoire",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "desassembler",
+      "nom": "Désassembler",
+      "groupe": "Mémoire",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "binary"
+    },
+    {
+      "id": "attribuer-touche",
+      "nom": "Attribuer touche",
+      "groupe": "Adresses",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "keyboard"
+    },
+    {
+      "id": "dissequer-structures",
+      "nom": "Disséquer struct.",
+      "groupe": "Outils",
+      "win": "ctrl+alt+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "supprimer-enreg",
+      "nom": "Supprimer l'entrée",
+      "groupe": "Adresses",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "ouvrir-fichier",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Fichiers",
+      "win": "ctrl+shift+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-input"
+    },
+    {
+      "id": "enreg-resultats",
+      "nom": "Enreg. résultats",
+      "groupe": "Analyse",
+      "win": "shift+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "hexadecimal",
+      "nom": "Afficher en hexa",
+      "groupe": "Adresses",
+      "win": "ctrl+alt+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hash"
+    }
+  ],
+  "non_faisable": []
+}

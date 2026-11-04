@@ -1,0 +1,306 @@
+{
+  "id": "sqlite-browser",
+  "nom": "DB Browser for SQLite",
+  "editeur": "DB Browser for SQLite (projet communautaire)",
+  "site": "https://sqlitebrowser.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "DB Browser for SQLite",
+    "mac": "DB Browser for SQLite"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "recoupee",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans MainWindow.ui du code source officiel. Sur macOS, Qt traduit Ctrl en Cmd : combinaisons Mac déduites. Ctrl+H (chercher/remplacer) et Ctrl+F4 (fermer base) sont mis à null sur Mac (Cmd+H réservé au système, Cmd+F4 douteux). Rechercher, Imprimer et commenter ne valent que dans l'éditeur SQL. Annuler, couper, copier, coller, tout sélectionner : commandes standard sans source directe.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/src/MainWindow.ui",
+      "titre": "SQLiteBrowser - MainWindow.ui (code source)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-base",
+      "nom": "Ouvrir base",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-base",
+      "nom": "Nouvelle base",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir-lecture-seule",
+      "nom": "Ouvrir lecture seule",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "book-open",
+      "deduit": true
+    },
+    {
+      "id": "fermer-base",
+      "nom": "Fermer base",
+      "groupe": "Fichier",
+      "win": "ctrl+f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Écrire modifs",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "tout-enregistrer",
+      "nom": "Tout enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "fermer-projet",
+      "nom": "Fermer projet",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+w",
+      "mac": "cmd+shift+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-x",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "chercher-remplacer",
+      "nom": "Chercher/remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    },
+    {
+      "id": "nouvel-onglet-sql",
+      "nom": "Nouvel onglet SQL",
+      "groupe": "Exécution SQL",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir-fichier-sql",
+      "nom": "Ouvrir fichier SQL",
+      "groupe": "Exécution SQL",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-code",
+      "deduit": true
+    },
+    {
+      "id": "executer-sql",
+      "nom": "Exécuter SQL",
+      "groupe": "Exécution SQL",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "executer-ligne",
+      "nom": "Exécuter la ligne",
+      "groupe": "Exécution SQL",
+      "win": "shift+f5",
+      "mac": "shift+f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "play"
+    },
+    {
+      "id": "commenter-bloc",
+      "nom": "Commenter bloc",
+      "groupe": "Exécution SQL",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "message-square-code",
+      "deduit": true
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Aide",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help"
+    },
+    {
+      "id": "qu-est-ce-que-c-est",
+      "nom": "Qu'est-ce que c'est ?",
+      "groupe": "Aide",
+      "win": "shift+f1",
+      "mac": "shift+f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom de la vue données",
+      "raison": "molette ou souris"
+    }
+  ]
+}

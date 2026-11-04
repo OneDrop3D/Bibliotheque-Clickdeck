@@ -1,0 +1,20 @@
+{
+  "id": "armoury-crate",
+  "nom": "Armoury Crate",
+  "editeur": "ASUS",
+  "site": "https://www.asus.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Armoury Crate" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire ASUS pour les profils de performance et l'éclairage. Aucun raccourci global n'a pu être vérifié dans une source officielle ouverte : la page consultée portait sur une promotion et non sur l'application. Les touches Fn du matériel ne sont pas représentables.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Changer de profil de performance", "raison": "touche Fn matérielle ou réglage sans raccourci" },
+    { "nom": "Réglages Aura (éclairage)", "raison": "réglage sans raccourci" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "seer",
+  "nom": "Seer",
+  "editeur": "houmain (projet open source)",
+  "site": "https://github.com/houmain/seer",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Seer", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seule la touche Espace est confirmée, par une source ancienne (2016) : à recouper. Le site officiel n'a pas pu être lu, les raccourcis personnalisables se trouvent dans les réglages de Seer.",
+  "sources": [ { "url": "https://ghacks.net/?p=120728", "titre": "Seer: better file previews for Windows (2016)" } ],
+  "actions": [
+    { "id": "apercu-rapide", "nom": "Aperçu rapide", "groupe": "Aperçu", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eye" }
+  ],
+  "non_faisable": []
+}

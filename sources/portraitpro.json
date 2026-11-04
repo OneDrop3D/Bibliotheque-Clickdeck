@@ -1,0 +1,17 @@
+{
+  "id": "portraitpro",
+  "nom": "PortraitPro",
+  "editeur": "PortraitPro",
+  "site": "https://www.portraitprofessional.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "PortraitPro", "mac": "PortraitPro" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci vérifié : la recherche n'a retourné aucune page d'aide PortraitPro. Les raccourcis standard (annuler, enregistrer, exporter) sont à compléter depuis l'aide officielle de l'application.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

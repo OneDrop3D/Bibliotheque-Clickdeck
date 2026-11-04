@@ -1,0 +1,133 @@
+{
+  "id": "alfred",
+  "nom": "Alfred",
+  "editeur": "Running with Crayons",
+  "site": "https://www.alfredapp.com/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Alfred"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Le raccourci global d'Alfred se règle à l'installation : aucun défaut documenté. Raccourcis du tampon et de l'aperçu repris de la page officielle File Search ; copier et coller sont des commandes standard (en déduit).",
+  "sources": [
+    {
+      "url": "https://www.alfredapp.com/help/features/file-search/",
+      "titre": "Alfred - File Search"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ajouter-tampon",
+      "nom": "Ajouter au tampon",
+      "groupe": "Tampon",
+      "win": null,
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "ajouter-et-suivant",
+      "nom": "Ajouter et suivant",
+      "groupe": "Tampon",
+      "win": null,
+      "mac": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-plus"
+    },
+    {
+      "id": "retirer-dernier",
+      "nom": "Retirer le dernier",
+      "groupe": "Tampon",
+      "win": null,
+      "mac": "alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "undo-2"
+    },
+    {
+      "id": "traiter-tampon",
+      "nom": "Traiter le tampon",
+      "groupe": "Tampon",
+      "win": null,
+      "mac": "alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "vider-tampon",
+      "nom": "Vider le tampon",
+      "groupe": "Tampon",
+      "win": null,
+      "mac": "alt+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eraser"
+    },
+    {
+      "id": "apercu-fichiers",
+      "nom": "Aperçu",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "selection-finder",
+      "nom": "Sélection Finder",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "alt+cmd+backslash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Standard",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Standard",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Raccourci global d'Alfred",
+      "raison": "défini à l'installation, pas de défaut documenté"
+    }
+  ]
+}

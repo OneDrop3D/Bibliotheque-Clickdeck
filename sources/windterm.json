@@ -1,0 +1,19 @@
+{
+  "id": "windterm",
+  "nom": "WindTerm",
+  "editeur": "KingToolbox",
+  "site": "https://github.com/kingToolbox/WindTerm",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "WindTerm", "mac": "WindTerm", "linux": "WindTerm" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis par défaut NON VÉRIFIÉS : le README du dépôt ne liste que Maj+Entrée (mode local/distant) et la page de raccourcis du blog renvoie une liste sans les combinaisons. Aucune action ajoutée pour ne pas inventer. À compléter avec la liste officielle des raccourcis de WindTerm.",
+  "sources": [
+    { "url": "https://github.com/kingToolbox/WindTerm/blob/master/README.md", "titre": "WindTerm README (dépôt GitHub)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

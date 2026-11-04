@@ -1,0 +1,309 @@
+{
+  "id": "thorium-reader",
+  "nom": "Thorium Reader",
+  "editeur": "EDRLab",
+  "site": "https://www.edrlab.org/software/thorium-reader/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Thorium Reader",
+    "mac": "Thorium Reader"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le code source officiel (keyboard.ts) : ils sont définis avec Ctrl littéral (pas Meta/Cmd), donc Ctrl conservé sur Mac. Touches liées aux positions physiques du clavier. Ctrl+F11 et Ctrl+N peuvent entrer en conflit avec des réglages macOS ; non testé en application. Zoom Ctrl+8/9/0 réservé aux documents à mise en page fixe. Modifiables dans les réglages de l'application.",
+  "sources": [
+    {
+      "url": "https://github.com/edrlab/thorium-reader/blob/develop/src/common/keyboard.ts",
+      "titre": "edrlab/thorium-reader - keyboard.ts (raccourcis par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "chapitre-precedent",
+      "nom": "Chapitre précédent",
+      "groupe": "Lecture",
+      "win": "ctrl+pageup",
+      "mac": "ctrl+pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "chapitre-suivant",
+      "nom": "Chapitre suivant",
+      "groupe": "Lecture",
+      "win": "ctrl+pagedown",
+      "mac": "ctrl+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "debut",
+      "nom": "Début du livre",
+      "groupe": "Lecture",
+      "win": "ctrl+home",
+      "mac": "ctrl+home",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "fin",
+      "nom": "Fin du livre",
+      "groupe": "Lecture",
+      "win": "ctrl+end",
+      "mac": "ctrl+end",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "retour-historique",
+      "nom": "Retour",
+      "groupe": "Lecture",
+      "win": "ctrl+backspace",
+      "mac": "ctrl+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "fermer-lecteur",
+      "nom": "Fermer le livre",
+      "groupe": "Lecture",
+      "win": "ctrl+w",
+      "mac": "ctrl+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "book-x"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Lecture",
+      "win": "ctrl+p",
+      "mac": "ctrl+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "marque-page",
+      "nom": "Marque-page",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "ctrl+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "ctrl+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Navigation",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Navigation",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "navigation",
+      "nom": "Panneau navigation",
+      "groupe": "Navigation",
+      "win": "ctrl+n",
+      "mac": "ctrl+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "table-matieres",
+      "nom": "Table matières",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+n",
+      "mac": "ctrl+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "aller-page",
+      "nom": "Aller à la page",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "ctrl+shift+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages lecture",
+      "groupe": "Affichage",
+      "win": "ctrl+s",
+      "mac": "ctrl+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+f11",
+      "mac": "ctrl+f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "mode-zen",
+      "nom": "Mode zen",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+f11",
+      "mac": "ctrl+shift+f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minimize"
+    },
+    {
+      "id": "infos-livre",
+      "nom": "Infos du livre",
+      "groupe": "Affichage",
+      "win": "ctrl+i",
+      "mac": "ctrl+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+9",
+      "mac": "ctrl+9",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+8",
+      "mac": "ctrl+8",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-reinit",
+      "nom": "Zoom initial",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "ctrl+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "creer-annotation",
+      "nom": "Annoter",
+      "groupe": "Annotations",
+      "win": "alt+shift+a",
+      "mac": "alt+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "highlighter"
+    },
+    {
+      "id": "audio-lecture",
+      "nom": "Lecture / pause",
+      "groupe": "Audio",
+      "win": "ctrl+2",
+      "mac": "ctrl+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "play"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Tourner les pages",
+      "raison": "souris ou molette"
+    }
+  ]
+}

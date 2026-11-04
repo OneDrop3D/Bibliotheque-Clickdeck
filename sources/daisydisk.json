@@ -1,0 +1,21 @@
+{
+  "id": "daisydisk",
+  "nom": "DaisyDisk",
+  "editeur": "Software Ambience",
+  "site": "https://daisydiskapp.com/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "DaisyDisk" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne documente aucun raccourci clavier pour ses fonctions (analyse, suppression, zoom). Application pilotée à la souris : à mettre dans un pack de lancement.",
+  "sources": [
+    { "url": "https://daisydiskapp.com/", "titre": "DaisyDisk - page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Analyser le disque et naviguer dans les anneaux", "raison": "souris" }
+  ]
+}

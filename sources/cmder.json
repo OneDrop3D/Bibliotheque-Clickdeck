@@ -1,0 +1,132 @@
+{
+ "id": "cmder",
+ "nom": "Cmder",
+ "editeur": "Cmder (cmderdev)",
+ "site": "https://cmder.app",
+ "systemes": [
+  "windows"
+ ],
+ "lancement": {
+  "windows": "Cmder"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Développement & terminal (desktop)",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis tirés du README officiel (section Keyboard shortcuts). Ctrl+R est la recherche d'historique de Clink. Cmder repose sur ConEmu mais ses autres raccourcis ne sont pas vérifiés. Pas de version macOS.",
+ "sources": [
+  {
+   "url": "https://github.com/cmderdev/cmder",
+   "titre": "cmderdev/cmder - README (section Keyboard shortcuts)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouvel-onglet",
+   "nom": "Nouvel onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+t",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "plus"
+  },
+  {
+   "id": "fermer-onglet",
+   "nom": "Fermer onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+w",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "x"
+  },
+  {
+   "id": "nouvel-cmd",
+   "nom": "Onglet CMD",
+   "groupe": "Onglets",
+   "win": "shift+alt+1",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "terminal"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "alt+enter",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize-2"
+  },
+  {
+   "id": "onglet-suivant",
+   "nom": "Onglet suivant",
+   "groupe": "Onglets",
+   "win": "ctrl+tab",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "chevron-right"
+  },
+  {
+   "id": "onglet-precedent",
+   "nom": "Onglet précédent",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+tab",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "chevron-left"
+  },
+  {
+   "id": "onglet-1",
+   "nom": "Onglet 1",
+   "groupe": "Onglets",
+   "win": "ctrl+1",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "hash"
+  },
+  {
+   "id": "nouvel-powershell",
+   "nom": "Onglet PowerShell",
+   "groupe": "Onglets",
+   "win": "shift+alt+2",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "terminal"
+  },
+  {
+   "id": "historique",
+   "nom": "Recherche historique",
+   "groupe": "Shell",
+   "win": "ctrl+r",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "history"
+  },
+  {
+   "id": "dossier-parent",
+   "nom": "Dossier parent",
+   "groupe": "Shell",
+   "win": "ctrl+alt+u",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "folder-up"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Copier et coller",
+   "raison": "raccourcis non documentés dans le README"
+  }
+ ]
+}

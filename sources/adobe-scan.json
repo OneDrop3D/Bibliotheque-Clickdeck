@@ -1,0 +1,23 @@
+{
+ "id": "adobe-scan",
+ "nom": "Adobe Scan",
+ "editeur": "Adobe",
+ "site": "https://www.adobe.com/fr/acrobat/mobile/scanner-app.html",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "Adobe Scan",
+  "mac": "Adobe Scan"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Bureautique, documents & PDF",
+ "sans_raccourcis": true,
+ "raccourcis_par_defaut": false,
+ "note": "Application mobile uniquement, sans version bureau. Les commandes standard précédemment déduites n'étaient pas confirmées et ont été retirées. Pack de lancement.",
+ "sources": [],
+ "actions": [],
+ "non_faisable": []
+}

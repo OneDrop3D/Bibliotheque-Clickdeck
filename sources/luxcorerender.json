@@ -1,0 +1,17 @@
+{
+  "id": "luxcorerender",
+  "nom": "LuxCoreRender",
+  "editeur": "LuxCoreRender",
+  "site": "https://luxcorerender.org",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "LuxCoreUI", "mac": "LuxCoreUI", "linux": "LuxCoreUI" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Vérification impossible : luxcorerender.org a renvoyé une erreur 403 et la recherche web était épuisée. Aucun raccourci n'a été relevé ni inventé. Le moteur s'utilise via LuxCoreUI ou comme moteur dans Blender (BlendLuxCore).",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

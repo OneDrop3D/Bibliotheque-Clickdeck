@@ -1,0 +1,17 @@
+{
+  "id": "chitubox",
+  "nom": "Chitubox",
+  "editeur": "CHITUBOX",
+  "site": "https://www.chitubox.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "CHITUBOX", "mac": "CHITUBOX" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci trouvé. La page support consultée ne contient pas de liste, et la recherche n'a renvoyé aucune liste CHITUBOX. Fichier à compléter après consultation du guide utilisateur officiel ou de l'aide intégrée au logiciel.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

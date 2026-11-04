@@ -1,0 +1,263 @@
+{
+  "id": "izotope-nectar",
+  "nom": "iZotope Nectar",
+  "editeur": "iZotope",
+  "site": "https://help.izotope.com/nectar2/content/nectar%202%20help%20documentation/available%20shortcut%20keys%20pc.htm",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "iZotope Nectar",
+    "mac": "iZotope Nectar"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page officielle de Nectar 2 (documentation iZotope). Nectar est un plugin : les raccourcis ne fonctionnent que lorsque sa fenêtre a le focus, et la DAW hôte peut les intercepter. Options I/O Meter et Options EQ retirées : Cmd+Maj+3 et Cmd+Maj+4 sont réservées par macOS (captures d'écran), la doc le confirme. Les touches F1/F3/F5/F6 peuvent exiger Fn sur Mac.",
+  "sources": [
+    {
+      "url": "https://help.izotope.com/nectar2/content/nectar%202%20help%20documentation/available%20shortcut%20keys%20pc.htm",
+      "titre": "Available Shortcut Keys (PC/MAC) - Nectar 2 help"
+    }
+  ],
+  "actions": [
+    {
+      "id": "options-generales",
+      "nom": "Options générales",
+      "groupe": "Fenêtres",
+      "win": "ctrl+shift+1",
+      "mac": "cmd+shift+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "options-spectre",
+      "nom": "Options spectre",
+      "groupe": "Fenêtres",
+      "win": "ctrl+shift+2",
+      "mac": "cmd+shift+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "audio-waveform"
+    },
+    {
+      "id": "presets",
+      "nom": "Presets",
+      "groupe": "Fenêtres",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "library"
+    },
+    {
+      "id": "bypass-total",
+      "nom": "Bypass total",
+      "groupe": "Général",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Général",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Général",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "afficher-options",
+      "nom": "Afficher options",
+      "groupe": "Général",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sliders"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Général",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "frequence-plus",
+      "nom": "Fréquence +",
+      "groupe": "Égaliseur",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-right"
+    },
+    {
+      "id": "frequence-moins",
+      "nom": "Fréquence −",
+      "groupe": "Égaliseur",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-left"
+    },
+    {
+      "id": "gain-plus",
+      "nom": "Gain +",
+      "groupe": "Égaliseur",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "gain-moins",
+      "nom": "Gain −",
+      "groupe": "Égaliseur",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "q-plus",
+      "nom": "Q +",
+      "groupe": "Égaliseur",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan-line"
+    },
+    {
+      "id": "q-moins",
+      "nom": "Q −",
+      "groupe": "Égaliseur",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan-line"
+    },
+    {
+      "id": "bande-suivante",
+      "nom": "Bande suivante",
+      "groupe": "Égaliseur",
+      "win": "alt+right",
+      "mac": "alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "bande-precedente",
+      "nom": "Bande précédente",
+      "groupe": "Égaliseur",
+      "win": "alt+left",
+      "mac": "alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "type-de-filtre",
+      "nom": "Type de filtre",
+      "groupe": "Égaliseur",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "filter"
+    },
+    {
+      "id": "historique",
+      "nom": "Historique",
+      "groupe": "Général",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "history"
+    },
+    {
+      "id": "reinit-panneau",
+      "nom": "Réinit. panneau",
+      "groupe": "Général",
+      "win": "f6",
+      "mac": "f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Sélectionner plusieurs bandes",
+      "raison": "souris (Ctrl/Cmd + clic)"
+    },
+    {
+      "nom": "Réinitialiser une bande",
+      "raison": "souris (double-clic)"
+    },
+    {
+      "nom": "Contraindre le déplacement d'une bande",
+      "raison": "souris (Shift + glisser)"
+    },
+    {
+      "nom": "Créer une bande à la souris",
+      "raison": "souris (Alt + clic)"
+    },
+    {
+      "nom": "Ajuster le gain ou Q à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Ouvrir Options I/O Meter / EQ (Mac)",
+      "raison": "combinaison réservée par macOS"
+    }
+  ]
+}

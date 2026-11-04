@@ -1,0 +1,17 @@
+{
+  "id": "msi-center",
+  "nom": "MSI Center",
+  "editeur": "MSI",
+  "site": "https://www.msi.com/Landing/MSI-Center",
+  "systemes": ["windows"],
+  "lancement": { "windows": "MSI Center" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire MSI. La page officielle msi.com renvoie HTTP 403 et la copie web.archive.org est bloquée : aucun raccourci n'a pu être vérifié. Aucun raccourci proposé.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

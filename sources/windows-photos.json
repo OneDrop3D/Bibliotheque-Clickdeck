@@ -1,0 +1,191 @@
+{
+  "id": "windows-photos",
+  "nom": "Windows Photos",
+  "editeur": "Microsoft",
+  "site": "https://apps.microsoft.com/detail/9wzdncrfjbh4",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Photos"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique et ancienne (2016, Windows 10) : à recouper sur Windows 11, où l'application a été refaite (Améliorer et Voir l'original retirés, propres à l'ancienne version). Les touches Ctrl standard sont données par déduction.",
+  "sources": [
+    {
+      "url": "https://winaero.com/the-list-of-keyboard-shortcuts-for-photos-app-in-windows-10",
+      "titre": "The list of keyboard shortcuts for Photos app in Windows 10 (2016)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-initial",
+      "nom": "Zoom initial",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "photo-precedente",
+      "nom": "Photo précédente",
+      "groupe": "Affichage",
+      "win": "left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "photo-suivante",
+      "nom": "Photo suivante",
+      "groupe": "Affichage",
+      "win": "right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "diaporama",
+      "nom": "Diaporama",
+      "groupe": "Affichage",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "play"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Affichage",
+      "win": "escape",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "corner-up-left"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Édition",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Édition",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Édition",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "infos-fichier",
+      "nom": "Infos fichier",
+      "groupe": "Informations",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Sélection par barre espace",
+      "raison": "action de sélection en mode collection, pas de raccourci distinct utile"
+    }
+  ]
+}

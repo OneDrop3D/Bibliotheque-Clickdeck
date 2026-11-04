@@ -1,0 +1,120 @@
+{
+  "id": "3d-builder",
+  "nom": "3D Builder",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/3d-print/3d-builder-users-guide",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "3D Builder"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement. La liste officielle des raccourcis n'a pas pu être ouverte (404) : seules les commandes standard déduites sont proposées ; à vérifier.",
+  "sources": [
+    {
+      "url": "https://developer.microsoft.com/es-es/windows/hardware/3d-builder-users-guide",
+      "titre": "3D Builder user's guide (Microsoft, redirection non suivie)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Orbite et panoramique (souris)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

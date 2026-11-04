@@ -1,0 +1,17 @@
+{
+  "id": "lively-wallpaper",
+  "nom": "Lively Wallpaper",
+  "editeur": "rocksdanister",
+  "site": "https://github.com/rocksdanister/lively",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Lively Wallpaper" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier global par défaut documenté. Le pilotage se fait par ligne de commande (page wiki du projet) et par l'interface.",
+  "sources": [ { "url": "https://github.com/rocksdanister/lively", "titre": "Dépôt officiel Lively (README)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Changer de fond d'écran", "raison": "réglage sans raccourci" }, { "nom": "Pause des fonds animés", "raison": "réglage sans raccourci" } ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rustdesk",
+  "nom": "RustDesk",
+  "editeur": "RustDesk",
+  "site": "https://rustdesk.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "RustDesk", "mac": "RustDesk" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis non vérifiés : la page de documentation officielle (404) et le README du dépôt GitHub, qui ne mentionne aucun raccourci, ont été lus ; aucune action n'est proposée pour ne pas inventer de raccourci. À compléter.",
+  "sources": [ { "url": "https://github.com/rustdesk/rustdesk/blob/master/README.md", "titre": "RustDesk README (sans raccourcis)" } ],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hddscan",
+  "nom": "HDDScan",
+  "editeur": "HDDScan",
+  "site": "https://hddscan.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "HDDScan", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Windows à une fenêtre. La page officielle ne décrit aucun raccourci clavier. Aucune action proposée.",
+  "sources": [ { "url": "https://hddscan.com/", "titre": "HDDScan - page officielle" } ],
+  "actions": [],
+  "non_faisable": []
+}

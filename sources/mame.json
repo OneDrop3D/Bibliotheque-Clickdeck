@@ -1,0 +1,240 @@
+{
+  "id": "mame",
+  "nom": "MAME",
+  "editeur": "MAMEdev",
+  "site": "https://www.mamedev.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "MAME",
+    "mac": "MAME",
+    "linux": "mame"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de la page officielle MAME (clavier US ; touches identiques sur les trois systèmes, donc déduit pour Mac). Actifs hors mode touches UI (uimodekey) ; sur Mac, F1-F12 peuvent exiger fn selon les réglages.",
+  "sources": [
+    {
+      "url": "https://docs.mamedev.org/usingmame/defaultkeys.html",
+      "titre": "MAME - Default Keys"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Émulation",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image par image",
+      "groupe": "Émulation",
+      "win": "shift+f5",
+      "mac": "shift+f5",
+      "linux": "shift+f5",
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "reset-souple",
+      "nom": "Reset souple",
+      "groupe": "Émulation",
+      "win": "f3",
+      "mac": "f3",
+      "linux": "f3",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw",
+      "deduit": true
+    },
+    {
+      "id": "reset-complet",
+      "nom": "Reset complet",
+      "groupe": "Émulation",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": "shift+f3",
+      "source": 0,
+      "priorite": 2,
+      "picto": "power",
+      "deduit": true
+    },
+    {
+      "id": "limiter-vitesse",
+      "nom": "Limiter vitesse",
+      "groupe": "Émulation",
+      "win": "f10",
+      "mac": "f10",
+      "linux": "f10",
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "afficher-vitesse",
+      "nom": "Afficher vitesse",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "f11",
+      "linux": "f11",
+      "source": 0,
+      "priorite": 2,
+      "picto": "activity",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": "alt+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "osd",
+      "nom": "Affichage écran",
+      "groupe": "Affichage",
+      "win": "backquote",
+      "mac": "backquote",
+      "linux": "backquote",
+      "source": 0,
+      "priorite": 3,
+      "picto": "layout-dashboard",
+      "deduit": true
+    },
+    {
+      "id": "menu-config",
+      "nom": "Menu de réglages",
+      "groupe": "Interface",
+      "win": "tab",
+      "mac": "tab",
+      "linux": "tab",
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings",
+      "deduit": true
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Capture",
+      "win": "f12",
+      "mac": "f12",
+      "linux": "f12",
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "video-mng",
+      "nom": "Vidéo MNG",
+      "groupe": "Capture",
+      "win": "shift+f12",
+      "mac": "shift+f12",
+      "linux": "shift+f12",
+      "source": 0,
+      "priorite": 3,
+      "picto": "video",
+      "deduit": true
+    },
+    {
+      "id": "sauver-etat",
+      "nom": "Sauver un état",
+      "groupe": "États",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "sauvegarde-rapide",
+      "nom": "Sauvegarde rapide",
+      "groupe": "États",
+      "win": "shift+f6",
+      "mac": "shift+f6",
+      "linux": "shift+f6",
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger-etat",
+      "nom": "Charger un état",
+      "groupe": "États",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "chargement-rapide",
+      "nom": "Chargement rapide",
+      "groupe": "États",
+      "win": "shift+f7",
+      "mac": "shift+f7",
+      "linux": "shift+f7",
+      "source": 0,
+      "priorite": 2,
+      "picto": "history",
+      "deduit": true
+    },
+    {
+      "id": "moins-saut",
+      "nom": "Moins saut image",
+      "groupe": "Vitesse",
+      "win": "f8",
+      "mac": "f8",
+      "linux": "f8",
+      "source": 0,
+      "priorite": 3,
+      "picto": "minus",
+      "deduit": true
+    },
+    {
+      "id": "plus-saut",
+      "nom": "Plus saut image",
+      "groupe": "Vitesse",
+      "win": "f9",
+      "mac": "f9",
+      "linux": "f9",
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Avance rapide",
+      "raison": "touche maintenue"
+    }
+  ]
+}

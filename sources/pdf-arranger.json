@@ -1,0 +1,401 @@
+{
+  "id": "pdf-arranger",
+  "nom": "PDF Arranger",
+  "editeur": "Projet PDF Arranger (open source)",
+  "site": "https://github.com/pdfarranger/pdfarranger",
+  "systemes": [
+    "windows",
+    "linux",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "PDF Arranger",
+    "mac": "PDF Arranger",
+    "linux": "PDF Arranger"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans _DEFAULT_ACCELS du code source (pdfarranger/config.py). Ctrl est écrit <Primary> dans le code : la colonne Mac est déduite (Cmd). Les raccourcis Mac sont donc à vérifier sur un Mac, l'application y étant peu testée. Sur Mac, Supprimer (touche Suppr avant) et F11 (système) sont laissés vides.",
+  "sources": [
+    {
+      "url": "https://github.com/pdfarranger/pdfarranger/blob/master/pdfarranger/config.py",
+      "titre": "pdfarranger/config.py (_DEFAULT_ACCELS)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Pages",
+      "win": "delete",
+      "mac": null,
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "pivoter-droite",
+      "nom": "Pivoter à droite",
+      "groupe": "Rotation",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": "ctrl+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw",
+      "deduit": true
+    },
+    {
+      "id": "pivoter-gauche",
+      "nom": "Pivoter à gauche",
+      "groupe": "Rotation",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": "ctrl+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw",
+      "deduit": true
+    },
+    {
+      "id": "recadrer",
+      "nom": "Recadrer",
+      "groupe": "Pages",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 2,
+      "picto": "crop"
+    },
+    {
+      "id": "taille-page",
+      "nom": "Taille de page",
+      "groupe": "Pages",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 0,
+      "priorite": 3,
+      "picto": "scaling"
+    },
+    {
+      "id": "masquer",
+      "nom": "Masquer",
+      "groupe": "Pages",
+      "win": "h",
+      "mac": "h",
+      "linux": "h",
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": "ctrl+i",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-input",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "exporter-selection",
+      "nom": "Exporter sélection",
+      "groupe": "Fichier",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-output",
+      "deduit": true
+    },
+    {
+      "id": "exporter-tout",
+      "nom": "Exporter tout",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": "ctrl+shift+e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-output",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 2,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": "ctrl+q",
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out",
+      "deduit": true
+    },
+    {
+      "id": "metadonnees",
+      "nom": "Métadonnées",
+      "groupe": "Fichier",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": "alt+enter",
+      "source": 0,
+      "priorite": 3,
+      "picto": "info"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "plus",
+      "mac": "plus",
+      "linux": "plus",
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "minus",
+      "mac": "minus",
+      "linux": "minus",
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "ajuster",
+      "nom": "Ajuster",
+      "groupe": "Affichage",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": "f11",
+      "source": 0,
+      "priorite": 2,
+      "picto": "fullscreen"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": "ctrl+shift+a",
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "f3",
+      "mac": "f3",
+      "linux": "f3",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Recherche",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": "shift+f3",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Réorganiser les pages par glisser-déposer",
+      "raison": "souris"
+    },
+    {
+      "nom": "Sélection de pages à la souris",
+      "raison": "souris"
+    }
+  ]
+}

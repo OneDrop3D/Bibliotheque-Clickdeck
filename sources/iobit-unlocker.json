@@ -1,0 +1,23 @@
+{
+  "id": "iobit-unlocker",
+  "nom": "IObit Unlocker",
+  "editeur": "IObit",
+  "site": "https://www.iobit.com/iobit-unlocker.php",
+  "systemes": ["windows"],
+  "lancement": { "windows": "IObit Unlocker", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne documente aucun raccourci clavier. Fonctions documentées (déverrouiller, puis supprimer, renommer, déplacer ou copier ; mode Forcé) sans combinaison : non proposées comme actions.",
+  "sources": [
+    { "url": "https://www.iobit.com/iobit-unlocker.php", "titre": "IObit Unlocker - page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Débloquer et supprimer", "raison": "réglage sans raccourci" },
+    { "nom": "Débloquer et renommer", "raison": "réglage sans raccourci" },
+    { "nom": "Mode Forcé", "raison": "réglage sans raccourci" }
+  ]
+}

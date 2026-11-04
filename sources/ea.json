@@ -1,0 +1,17 @@
+{
+  "id": "ea",
+  "nom": "EA App",
+  "editeur": "Electronic Arts",
+  "site": "https://www.ea.com/ea-app",
+  "systemes": ["windows"],
+  "lancement": { "windows": "EA app" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut vérifié : la page d'aide EA consultée était introuvable (404). Application Windows uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Lancer un jeu", "raison": "réglage sans raccourci" } ]
+}

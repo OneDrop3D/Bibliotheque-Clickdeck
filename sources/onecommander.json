@@ -1,0 +1,17 @@
+{
+  "id": "onecommander",
+  "nom": "OneCommander",
+  "editeur": "OneCommander",
+  "site": "https://www.onecommander.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "OneCommander" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste d'actions non remplie : les pages officielles consultées (accueil, support) ne reproduisent pas les raccourcis par défaut, et le manuel CHM n'a pas pu être lu. A compléter après lecture du manuel en ligne (/help2). Seule la barre d'espace (aperçu) est confirmée.",
+  "sources": [ { "url": "https://www.onecommander.com/support", "titre": "OneCommander - Support (page consultée, sans liste de raccourcis)" } ],
+  "actions": [],
+  "non_faisable": []
+}

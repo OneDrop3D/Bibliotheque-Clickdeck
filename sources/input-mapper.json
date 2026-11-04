@@ -1,0 +1,19 @@
+{
+  "id": "input-mapper",
+  "nom": "Input Mapper",
+  "editeur": "JibbSmart",
+  "site": "https://github.com/JibbSmart/InputMapper",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Input Mapper" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Input Mapper associe les entrées d'une manette à des actions clavier et souris, configurées dans l'application : aucun raccourci clavier par défaut n'a été trouvé. Le site officiel indiqué redirige vers un site sans rapport et le dépôt GitHub de l'éditeur n'a pas pu être lu : aucune source vérifiée, à recouper.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Mappages de manette", "raison": "réglage sans raccourci fixe, configuré dans l'application" }
+  ]
+}

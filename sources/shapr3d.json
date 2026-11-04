@@ -1,0 +1,460 @@
+{
+  "id": "shapr3d",
+  "nom": "Shapr3D",
+  "editeur": "Shapr3D",
+  "site": "https://www.shapr3d.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Shapr3D",
+    "mac": "Shapr3D"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur une seule source tierce (defkey.com, liste de 121 raccourcis) ; les pages d'aide de l'éditeur renvoient 403. À confirmer dans l'application (Aide > Raccourcis clavier). Les raccourcis sans modificateur sont identiques sur Windows et Mac. Les touches f et e servent à la fois de filtres de sélection et d'outils selon le contexte.",
+  "sources": [
+    {
+      "url": "https://defkey.com/shapr3d-shortcuts",
+      "titre": "Shapr3D shortcuts (defkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "rechercher-commande",
+      "nom": "Chercher commande",
+      "groupe": "Édition",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer"
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "selection-travers",
+      "nom": "Sél. traversante",
+      "groupe": "Édition",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "filtre-corps",
+      "nom": "Filtre corps",
+      "groupe": "Édition",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "box"
+    },
+    {
+      "id": "vue-initiale",
+      "nom": "Vue initiale",
+      "groupe": "Vues",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "vue-face",
+      "nom": "Vue de face",
+      "groupe": "Vues",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "vue-arriere",
+      "nom": "Vue arrière",
+      "groupe": "Vues",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Vues",
+      "win": "ctrl+4",
+      "mac": "cmd+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "vue-dessous",
+      "nom": "Vue de dessous",
+      "groupe": "Vues",
+      "win": "ctrl+5",
+      "mac": "cmd+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "vue-droite",
+      "nom": "Vue de droite",
+      "groupe": "Vues",
+      "win": "ctrl+6",
+      "mac": "cmd+6",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right-to-line"
+    },
+    {
+      "id": "vue-gauche",
+      "nom": "Vue de gauche",
+      "groupe": "Vues",
+      "win": "ctrl+7",
+      "mac": "cmd+7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left-to-line"
+    },
+    {
+      "id": "zoom-face",
+      "nom": "Zoom sur face",
+      "groupe": "Vues",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Esquisse",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Esquisse",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rectangle-horizontal"
+    },
+    {
+      "id": "cercle",
+      "nom": "Cercle",
+      "groupe": "Esquisse",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "arc",
+      "nom": "Arc",
+      "groupe": "Esquisse",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "spline"
+    },
+    {
+      "id": "polygone",
+      "nom": "Polygone",
+      "groupe": "Esquisse",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "hexagon"
+    },
+    {
+      "id": "spline",
+      "nom": "Spline",
+      "groupe": "Esquisse",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "waypoints"
+    },
+    {
+      "id": "decalage",
+      "nom": "Décalage d'arête",
+      "groupe": "Esquisse",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "ajuster",
+      "nom": "Ajuster",
+      "groupe": "Esquisse",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "terminer-esquisse",
+      "nom": "Terminer esquisse",
+      "groupe": "Esquisse",
+      "win": "enter",
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check"
+    },
+    {
+      "id": "extruder",
+      "nom": "Extruder",
+      "groupe": "Modélisation",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box"
+    },
+    {
+      "id": "conge",
+      "nom": "Congé / chanfrein",
+      "groupe": "Modélisation",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dashed"
+    },
+    {
+      "id": "coque",
+      "nom": "Coque",
+      "groupe": "Modélisation",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "package"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer / pivoter",
+      "groupe": "Modélisation",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-3d"
+    },
+    {
+      "id": "translater",
+      "nom": "Translater",
+      "groupe": "Modélisation",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move"
+    },
+    {
+      "id": "projeter",
+      "nom": "Projeter",
+      "groupe": "Modélisation",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "projector"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Modélisation",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scaling"
+    },
+    {
+      "id": "revolution",
+      "nom": "Révolution",
+      "groupe": "Modélisation",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "balayage",
+      "nom": "Balayage",
+      "groupe": "Modélisation",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "route"
+    },
+    {
+      "id": "union",
+      "nom": "Union",
+      "groupe": "Booléen",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "combine"
+    },
+    {
+      "id": "soustraire",
+      "nom": "Soustraire",
+      "groupe": "Booléen",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus-circle"
+    },
+    {
+      "id": "intersection",
+      "nom": "Intersection",
+      "groupe": "Booléen",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "intersect"
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "borderless-gaming",
+  "nom": "Borderless Gaming",
+  "editeur": "Codeusa",
+  "site": "https://github.com/Codeusa/Borderless-Gaming",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Borderless Gaming" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire à une fenêtre : le README ne décrit aucun raccourci clavier par défaut. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://github.com/Codeusa/Borderless-Gaming", "titre": "Borderless Gaming (README, sans raccourci)" } ],
+  "actions": [],
+  "non_faisable": []
+}

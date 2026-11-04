@@ -1,0 +1,19 @@
+{
+  "id": "windirstat",
+  "nom": "WinDirStat",
+  "editeur": "WinDirStat",
+  "site": "https://windirstat.net",
+  "systemes": ["windows"],
+  "lancement": { "windows": "WinDirStat" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Utilitaire à une fenêtre. Le site officiel ne cite qu'un raccourci (Ctrl+F). Les autres fonctions passent par la souris.",
+  "sources": [ { "url": "https://windirstat.net/", "titre": "WinDirStat - site officiel" } ],
+  "actions": [
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "search" }
+  ],
+  "non_faisable": [ { "nom": "Analyse d'un dossier ou disque", "raison": "souris" } ]
+}

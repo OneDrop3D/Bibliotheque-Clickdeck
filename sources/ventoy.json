@@ -1,0 +1,17 @@
+{
+  "id": "ventoy",
+  "nom": "Ventoy",
+  "editeur": "Ventoy",
+  "site": "https://www.ventoy.net/",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "Ventoy2Disk" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Outil d'installation sur clé USB à la souris, sans raccourcis clavier documentés. Fonctions relevées sur la documentation officielle : installation, ajout d'images ISO, mise à jour sans perte, plugins.",
+  "sources": [ { "url": "https://www.ventoy.net/en/doc_start.html", "titre": "Ventoy - Documentation de démarrage (aucun raccourci)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Installer Ventoy sur une clé", "raison": "action à la souris, sans raccourci" } ]
+}

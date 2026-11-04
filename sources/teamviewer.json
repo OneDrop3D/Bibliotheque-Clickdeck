@@ -1,0 +1,22 @@
+{
+  "id": "teamviewer",
+  "nom": "TeamViewer",
+  "editeur": "TeamViewer",
+  "site": "https://www.teamviewer.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "TeamViewer", "mac": "TeamViewer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci d'application documenté par l'éditeur. Les combinaisons de la session distante sont transmises au poste distant (Windows vers Mac : Win devient Cmd, Ctrl devient Ctrl, Alt devient Option ; l'option « Envoyer les combinaisons de touches » doit être activée), elles ne déclenchent pas une action de ClickDeck. Ctrl+Alt+Suppr s'envoie depuis le menu Actions de la barre de session, sans raccourci clavier.",
+  "sources": [
+    { "url": "https://www.teamviewer.com/en/global/support/knowledge-base/teamviewer-classic/remote-control/in-session-features/use-key-commands-in-sessions/", "titre": "Use key commands in sessions (TeamViewer Classic)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Ctrl+Alt+Suppr au poste distant", "raison": "menu Actions de la barre de session, pas de raccourci clavier" },
+    { "nom": "Combinaisons envoyées au distant", "raison": "transmises à l'ordinateur distant, pas une action de l'application" }
+  ]
+}

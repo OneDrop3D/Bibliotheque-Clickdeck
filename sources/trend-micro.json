@@ -1,0 +1,17 @@
+{
+  "id": "trend-micro",
+  "nom": "Trend Micro",
+  "editeur": "Trend Micro",
+  "site": "https://www.trendmicro.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Trend Micro", "mac": "Trend Micro" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source n'a pu être consultée (limite de recherches web atteinte pendant la session) : aucun raccourci vérifié. Application d'antivirus sans raccourcis utiles connus ; à vérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

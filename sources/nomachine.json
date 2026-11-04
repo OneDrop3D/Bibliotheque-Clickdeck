@@ -1,0 +1,172 @@
+{
+  "id": "nomachine",
+  "nom": "NoMachine",
+  "editeur": "NoMachine",
+  "site": "https://www.nomachine.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "NoMachine",
+    "mac": "NoMachine"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source tierce unique (documentation officielle inaccessible). Valable en session ; Mac : Ctrl+Option.",
+  "sources": [
+    {
+      "url": "https://defkey.com/nomachine-shortcuts",
+      "titre": "NoMachine shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "menu",
+      "nom": "Menu session",
+      "groupe": "Session",
+      "win": "ctrl+alt+0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "menu"
+    },
+    {
+      "id": "terminer",
+      "nom": "Terminer session",
+      "groupe": "Session",
+      "win": "ctrl+alt+t",
+      "mac": "ctrl+alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+f",
+      "mac": "ctrl+alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "multi-ecrans",
+      "nom": "Multi-écrans",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+shift+f",
+      "mac": "ctrl+alt+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "monitor"
+    },
+    {
+      "id": "reduire",
+      "nom": "Réduire",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+m",
+      "mac": "ctrl+alt+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minimize"
+    },
+    {
+      "id": "barre-enreg",
+      "nom": "Barre d'enreg.",
+      "groupe": "Session",
+      "win": "ctrl+alt+r",
+      "mac": "ctrl+alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "capture-clavier",
+      "nom": "Capture clavier",
+      "groupe": "Session",
+      "win": "ctrl+alt+k",
+      "mac": "ctrl+alt+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "keyboard"
+    },
+    {
+      "id": "ecrans-id",
+      "nom": "Identifier écrans",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+i",
+      "mac": "ctrl+alt+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan-eye"
+    },
+    {
+      "id": "tous-ecrans",
+      "nom": "Voir tous écrans",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+a",
+      "mac": "ctrl+alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "ecran-1",
+      "nom": "Écran 1",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+1",
+      "mac": "ctrl+alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "monitor"
+    },
+    {
+      "id": "ecran-2",
+      "nom": "Écran 2",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+2",
+      "mac": "ctrl+alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "monitor"
+    },
+    {
+      "id": "ecran-3",
+      "nom": "Écran 3",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+3",
+      "mac": "ctrl+alt+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "monitor"
+    },
+    {
+      "id": "ctrl-alt-suppr",
+      "nom": "Ctrl+Alt+Suppr",
+      "groupe": "Session",
+      "win": "ctrl+alt+end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "shield"
+    }
+  ],
+  "non_faisable": []
+}

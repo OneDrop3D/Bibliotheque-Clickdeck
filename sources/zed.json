@@ -1,0 +1,357 @@
+{
+  "id": "zed",
+  "nom": "Zed",
+  "editeur": "Zed Industries",
+  "site": "https://zed.dev",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Zed",
+    "mac": "Zed",
+    "linux": "Zed"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans les keymaps par défaut de Zed (macOS, Windows, Linux) et la documentation. Duplication de ligne différente selon le système.",
+  "sources": [
+    {
+      "url": "https://zed.dev/docs/key-bindings",
+      "titre": "Zed - Key bindings"
+    },
+    {
+      "url": "https://github.com/zed-industries/zed/blob/main/assets/keymaps/default-macos.json",
+      "titre": "Zed - default-macos.json"
+    },
+    {
+      "url": "https://github.com/zed-industries/zed/blob/main/assets/keymaps/default-windows.json",
+      "titre": "Zed - default-windows.json"
+    },
+    {
+      "url": "https://github.com/zed-industries/zed/blob/main/assets/keymaps/default-linux.json",
+      "titre": "Zed - default-linux.json"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 1,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 1,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": "ctrl+y",
+      "source": 1,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": "ctrl+slash",
+      "source": 1,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "ligne-haut",
+      "nom": "Ligne vers le haut",
+      "groupe": "Édition",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": "alt+up",
+      "source": 1,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "ligne-bas",
+      "nom": "Ligne vers le bas",
+      "groupe": "Édition",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": "alt+down",
+      "source": 1,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "dupliquer-ligne",
+      "nom": "Dupliquer la ligne",
+      "groupe": "Édition",
+      "win": "shift+alt+down",
+      "mac": "alt+shift+down",
+      "linux": "ctrl+alt+shift+down",
+      "source": 1,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "selection-suivante",
+      "nom": "Sélection suivante",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 1,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "formater",
+      "nom": "Formater",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+i",
+      "linux": "ctrl+shift+i",
+      "source": 1,
+      "priorite": 2,
+      "picto": "align-left"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "rechercher-projet",
+      "nom": "Chercher projet",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": "ctrl+shift+f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "search-code"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Recherche",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "palette",
+      "nom": "Palette commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": "ctrl+shift+p",
+      "source": 1,
+      "priorite": 1,
+      "picto": "command"
+    },
+    {
+      "id": "fichier-rapide",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "definition",
+      "nom": "Aller définition",
+      "groupe": "Navigation",
+      "win": "f12",
+      "mac": "f12",
+      "linux": "f12",
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "ctrl+g",
+      "linux": "ctrl+g",
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "symboles",
+      "nom": "Symboles du fichier",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+shift+o",
+      "linux": "ctrl+shift+o",
+      "source": 1,
+      "priorite": 2,
+      "picto": "list-tree"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Navigation",
+      "win": "f2",
+      "mac": "f2",
+      "linux": "f2",
+      "source": 1,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal",
+      "groupe": "Affichage",
+      "win": "ctrl+backquote",
+      "mac": "ctrl+backquote",
+      "linux": "ctrl+backquote",
+      "source": 1,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "panneau-gauche",
+      "nom": "Panneau latéral",
+      "groupe": "Affichage",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": "ctrl+b",
+      "source": 1,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Application",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": "ctrl+comma",
+      "source": 1,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": "ctrl+equal",
+      "source": 1,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": "ctrl+minus",
+      "source": 1,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-reset",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": "ctrl+0",
+      "source": 1,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "zoom-panneau",
+      "nom": "Zoom panneau",
+      "groupe": "Affichage",
+      "win": "shift+escape",
+      "mac": "shift+escape",
+      "linux": "shift+escape",
+      "source": 1,
+      "priorite": 3,
+      "picto": "maximize-2"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Éditeur de raccourcis",
+      "raison": "séquence (cmd-k cmd-s)"
+    }
+  ]
+}

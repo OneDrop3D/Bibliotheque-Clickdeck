@@ -1,0 +1,27 @@
+{
+  "id": "nexus-mods",
+  "nom": "Nexus Mods App",
+  "editeur": "Nexus Mods",
+  "site": "https://www.nexusmods.com/about/app/",
+  "systemes": [
+    "windows",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Nexus Mods App"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Gestionnaire de mods. Le README du dépôt officiel NexusMods.App ne mentionne aucun raccourci clavier (relu). Aucun raccourci proposé.",
+  "sources": [
+    {
+      "url": "https://github.com/Nexus-Mods/NexusMods.App",
+      "titre": "Dépôt officiel NexusMods.App (README, sans raccourci)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

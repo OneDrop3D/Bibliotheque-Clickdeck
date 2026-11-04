@@ -1,0 +1,317 @@
+{
+  "id": "vectornator-linearity-curve",
+  "nom": "Linearity Curve",
+  "editeur": "Linearity",
+  "site": "https://www.linearity.io/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Linearity Curve"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur les pages officielles Academy (Mac) : raccourcis de base et outils. Remappables dans Réglages Système > Clavier > Raccourcis d'app. Zoom avant/arrière : la flèche haut/bas existe aussi, seule la variante Cmd est retenue.",
+  "sources": [
+    {
+      "url": "https://www.linearity.io/academy/curve/mac/user-guide/shortcuts-and-gestures/shortcuts",
+      "titre": "Linearity Curve Academy - Shortcuts (Mac)"
+    },
+    {
+      "url": "https://www.linearity.io/academy/curve/mac/user-guide/shortcuts-and-gestures/tools-shortcuts",
+      "titre": "Linearity Curve Academy - Tools shortcuts (Mac)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "zoom-ajuste",
+      "nom": "Zoom ajusté",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "mode-focus",
+      "nom": "Mode focus",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "panneau-calques",
+      "nom": "Panneau calques",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "panneau-inspecteur",
+      "nom": "Panneau inspecteur",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-right"
+    },
+    {
+      "id": "regles",
+      "nom": "Règles",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "ctrl+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ruler"
+    },
+    {
+      "id": "selection",
+      "nom": "Sélection",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "v",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "noeuds",
+      "nom": "Nœuds",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "a",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "spline-pointer"
+    },
+    {
+      "id": "ciseaux",
+      "nom": "Ciseaux",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "c",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "plume",
+      "nom": "Plume",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "p",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "crayon",
+      "nom": "Crayon",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "n",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "pinceau",
+      "nom": "Pinceau",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "b",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "t",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "l",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "cercle",
+      "nom": "Cercle",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "o",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "e",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "i",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "assemblage-formes",
+      "nom": "Assemblage formes",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "m",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "combine"
+    },
+    {
+      "id": "main",
+      "nom": "Main",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "h",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "hand"
+    }
+  ],
+  "non_faisable": []
+}

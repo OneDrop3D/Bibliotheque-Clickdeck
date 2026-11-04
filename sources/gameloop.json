@@ -1,0 +1,21 @@
+{
+  "id": "gameloop",
+  "nom": "GameLoop",
+  "editeur": "Tencent",
+  "site": "https://www.gameloop.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "GameLoop", "mac": "GameLoop" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Émulateur Android de Tencent. Le site officiel (www.gameloop.com) ne liste aucun raccourci clavier par défaut. Les touches se règlent par jeu via le mappage clavier. Non vérifié : la recherche web était indisponible pendant ce relevé.",
+  "sources": [
+    { "url": "https://www.gameloop.com/", "titre": "GameLoop - site officiel (aucune liste de raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Mappage clavier par jeu", "raison": "réglage sans raccourci global" }
+  ]
+}

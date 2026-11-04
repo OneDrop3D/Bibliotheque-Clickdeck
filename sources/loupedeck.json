@@ -1,0 +1,22 @@
+{
+  "id": "loupedeck",
+  "nom": "Loupedeck (app)",
+  "editeur": "Loupedeck",
+  "site": "https://support.loupedeck.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Loupedeck", "mac": "Loupedeck" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de configuration des boîtiers Loupedeck. La page d'accueil du support officiel ne liste aucun raccourci clavier par défaut ; les fonctions se paramètrent par action dans l'interface. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://support.loupedeck.com/", "titre": "Loupedeck Support (page d'accueil)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Boutons et molettes du boîtier", "raison": "molette" },
+    { "nom": "Actions par profil", "raison": "réglage sans raccourci" }
+  ]
+}

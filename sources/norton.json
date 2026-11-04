@@ -1,0 +1,23 @@
+{
+  "id": "norton",
+  "nom": "Norton",
+  "editeur": "Gen Digital (Norton)",
+  "site": "https://fr.norton.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Norton 360",
+    "mac": "Norton 360"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Antivirus : pas de raccourcis utiles documentés. Non vérifié : les sources officielles étaient inaccessibles (HTTP 403/404, archive indisponible) et le quota de recherche web était épuisé. Fichier à recontrôler avant publication ; aucune action n'est proposée faute de source.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

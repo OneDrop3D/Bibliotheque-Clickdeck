@@ -1,0 +1,163 @@
+{
+  "id": "powertoys",
+  "nom": "PowerToys",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "PowerToys"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de PowerToys Run, FancyZones et Color Picker, modifiables dans les réglages de PowerToys. La touche Windows est notée cmd sur cette fiche : à valider côté ClickDeck pour Windows.",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/run",
+      "titre": "PowerToys Run - Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/fancyzones",
+      "titre": "FancyZones - Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/color-picker",
+      "titre": "Color Picker - Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/always-on-top",
+      "titre": "Always On Top - Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/text-extractor",
+      "titre": "Text Extractor - Microsoft Learn"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/command-palette/overview",
+      "titre": "Command Palette - Microsoft Learn"
+    }
+  ],
+  "actions": [
+    {
+      "id": "run-ouvrir",
+      "nom": "PowerToys Run",
+      "groupe": "Lanceur",
+      "win": "alt+space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "run-admin",
+      "nom": "Ouvrir en admin",
+      "groupe": "Lanceur",
+      "win": "ctrl+shift+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "shield"
+    },
+    {
+      "id": "run-dossier",
+      "nom": "Ouvrir dossier",
+      "groupe": "Lanceur",
+      "win": "ctrl+shift+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "fz-editeur",
+      "nom": "Éditeur de zones",
+      "groupe": "Fenêtres",
+      "win": "cmd+shift+backquote",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "fz-cycle",
+      "nom": "Cycler dans zone",
+      "groupe": "Fenêtres",
+      "win": "cmd+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "app-window"
+    },
+    {
+      "id": "cp-pipette",
+      "nom": "Pipette couleur",
+      "groupe": "Capture",
+      "win": "cmd+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "aot",
+      "nom": "Toujours au premier",
+      "groupe": "Fenêtres",
+      "win": "cmd+ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "pin"
+    },
+    {
+      "id": "extracteur-texte",
+      "nom": "Extraire le texte",
+      "groupe": "Capture",
+      "win": "cmd+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 4,
+      "priorite": 1,
+      "picto": "scan-text"
+    },
+    {
+      "id": "palette",
+      "nom": "Palette de commandes",
+      "groupe": "Lanceur",
+      "win": "cmd+alt+space",
+      "mac": null,
+      "linux": null,
+      "source": 5,
+      "priorite": 1,
+      "picto": "command"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Faire pivoter fenêtres entre écrans",
+      "raison": "maintenue"
+    },
+    {
+      "nom": "Changer de disposition à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Remappage des touches",
+      "raison": "réglage sans raccourci"
+    },
+    {
+      "nom": "Dispositions rapides 0 à 9",
+      "raison": "réglage sans raccourci"
+    }
+  ]
+}

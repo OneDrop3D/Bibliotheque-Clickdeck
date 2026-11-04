@@ -1,0 +1,423 @@
+{
+  "id": "potplayer",
+  "nom": "PotPlayer",
+  "editeur": "Kakao (PotPlayer)",
+  "site": "https://potplayer.daum.net/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "PotPlayer"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Relevé d'une seule source tierce (DefKey, page 1 seulement : pas de volume ni plein écran, présents sur la page 2 non lue). Raccourcis modifiables ; à recouper avant publication.",
+  "sources": [
+    {
+      "url": "https://defkey.com/potplayer-shortcuts",
+      "titre": "PotPlayer shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-fichiers",
+      "nom": "Ouvrir fichiers",
+      "groupe": "Ouvrir",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir dossier",
+      "groupe": "Ouvrir",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder"
+    },
+    {
+      "id": "ouvrir-url",
+      "nom": "Ouvrir une URL",
+      "groupe": "Ouvrir",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / Pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédent",
+      "groupe": "Lecture",
+      "win": "pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivant",
+      "groupe": "Lecture",
+      "win": "pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "recul-5s",
+      "nom": "Reculer de 5 s",
+      "groupe": "Navigation",
+      "win": "left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-5s",
+      "nom": "Avancer de 5 s",
+      "groupe": "Navigation",
+      "win": "right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul-30s",
+      "nom": "Reculer de 30 s",
+      "groupe": "Navigation",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-30s",
+      "nom": "Avancer de 30 s",
+      "groupe": "Navigation",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul-1min",
+      "nom": "Reculer de 1 min",
+      "groupe": "Navigation",
+      "win": "shift+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-1min",
+      "nom": "Avancer de 1 min",
+      "groupe": "Navigation",
+      "win": "shift+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "image-prec",
+      "nom": "Image précédente",
+      "groupe": "Navigation",
+      "win": "d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-back"
+    },
+    {
+      "id": "image-suiv",
+      "nom": "Image suivante",
+      "groupe": "Navigation",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-forward"
+    },
+    {
+      "id": "aller-a",
+      "nom": "Aller à l'instant",
+      "groupe": "Navigation",
+      "win": "g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clock"
+    },
+    {
+      "id": "ajouter-signet",
+      "nom": "Ajouter un signet",
+      "groupe": "Navigation",
+      "win": "p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bookmark"
+    },
+    {
+      "id": "vitesse-normale",
+      "nom": "Vitesse normale",
+      "groupe": "Vitesse",
+      "win": "z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    },
+    {
+      "id": "plus-lent",
+      "nom": "Plus lent",
+      "groupe": "Vitesse",
+      "win": "x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "turtle"
+    },
+    {
+      "id": "plus-rapide",
+      "nom": "Plus rapide",
+      "groupe": "Vitesse",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rabbit"
+    },
+    {
+      "id": "repeter-ab",
+      "nom": "Répéter A-B",
+      "groupe": "Vitesse",
+      "win": "backslash",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "point-a",
+      "nom": "Début boucle A",
+      "groupe": "Vitesse",
+      "win": "bracketleft",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flag"
+    },
+    {
+      "id": "point-b",
+      "nom": "Fin boucle B",
+      "groupe": "Vitesse",
+      "win": "bracketright",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flag"
+    },
+    {
+      "id": "liste-lecture",
+      "nom": "Liste de lecture",
+      "groupe": "Interface",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Interface",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "panneau-controle",
+      "nom": "Panneau contrôle",
+      "groupe": "Interface",
+      "win": "f7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "infos-lecture",
+      "nom": "Infos de lecture",
+      "groupe": "Interface",
+      "win": "ctrl+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "info"
+    },
+    {
+      "id": "charger-st",
+      "nom": "Charger ST",
+      "groupe": "Sous-titres",
+      "win": "alt+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "captions"
+    },
+    {
+      "id": "afficher-st",
+      "nom": "Afficher ST",
+      "groupe": "Sous-titres",
+      "win": "alt+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "captions"
+    },
+    {
+      "id": "changer-st",
+      "nom": "Changer ST",
+      "groupe": "Sous-titres",
+      "win": "alt+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "languages"
+    },
+    {
+      "id": "st-police+",
+      "nom": "Police plus grande",
+      "groupe": "Sous-titres",
+      "win": "alt+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "a-arrow-up"
+    },
+    {
+      "id": "st-police-",
+      "nom": "Police plus petite",
+      "groupe": "Sous-titres",
+      "win": "alt+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "a-arrow-down"
+    },
+    {
+      "id": "flux-video",
+      "nom": "Flux vidéo",
+      "groupe": "Vidéo",
+      "win": "v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "video"
+    },
+    {
+      "id": "luminosite-",
+      "nom": "Luminosité −",
+      "groupe": "Vidéo",
+      "win": "w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sun-dim"
+    },
+    {
+      "id": "luminosite+",
+      "nom": "Luminosité +",
+      "groupe": "Vidéo",
+      "win": "e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sun"
+    },
+    {
+      "id": "contraste-",
+      "nom": "Contraste −",
+      "groupe": "Vidéo",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "contrast"
+    },
+    {
+      "id": "contraste+",
+      "nom": "Contraste +",
+      "groupe": "Vidéo",
+      "win": "t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "contrast"
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "aida64",
+  "nom": "AIDA64",
+  "editeur": "FinalWire",
+  "site": "https://www.aida64.com/user-manual",
+  "systemes": ["windows"],
+  "lancement": { "windows": "AIDA64" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Outil Windows de diagnostic matériel. La page d'accueil du manuel officiel ne documente aucun raccourci ; les pages « Interface utilisateur » n'ont pas pu être lues. Aucune action proposée, à vérifier si besoin.",
+  "sources": [
+    { "url": "https://www.aida64.com/user-manual", "titre": "Manuel AIDA64 (page d'accueil, officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Navigation dans les rapports", "raison": "souris" }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "id": "total-commander",
+  "nom": "Total Commander",
+  "editeur": "Ghisler",
+  "site": "https://www.ghisler.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Total Commander"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur une seule source tierce (DefKey), plus Ctrl+C/X/V/A standard ; non recoupés avec l'aide officielle (pages ghisler.com en 404). Le champ « * » du pavé numérique inverse la sélection.",
+  "sources": [
+    {
+      "url": "https://defkey.com/total-commander-shortcuts",
+      "titre": "DefKey - Total Commander shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "afficher",
+      "nom": "Afficher",
+      "groupe": "Fichiers",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "editer",
+      "nom": "Éditer",
+      "groupe": "Fichiers",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-pen"
+    },
+    {
+      "id": "copier-f5",
+      "nom": "Copier",
+      "groupe": "Fichiers",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Fichiers",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-input"
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Fichiers",
+      "win": "f7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Fichiers",
+      "win": "f8",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "nouveau-texte",
+      "nom": "Nouveau texte",
+      "groupe": "Fichiers",
+      "win": "shift+f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "renommer-ici",
+      "nom": "Renommer sur place",
+      "groupe": "Fichiers",
+      "win": "shift+f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "renommage-masse",
+      "nom": "Renommage masse",
+      "groupe": "Fichiers",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "files"
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Fichiers",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "changer-panneau",
+      "nom": "Changer de panneau",
+      "groupe": "Navigation",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "dossier-parent",
+      "nom": "Dossier parent",
+      "groupe": "Navigation",
+      "win": "backspace",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-left-up"
+    },
+    {
+      "id": "precedent",
+      "nom": "Dossier précédent",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "suivant",
+      "nom": "Dossier suivant",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "historique",
+      "nom": "Historique dossiers",
+      "groupe": "Navigation",
+      "win": "alt+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "history"
+    },
+    {
+      "id": "lecteur-gauche",
+      "nom": "Lecteur gauche",
+      "groupe": "Navigation",
+      "win": "alt+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "hard-drive"
+    },
+    {
+      "id": "lecteur-droit",
+      "nom": "Lecteur droit",
+      "groupe": "Navigation",
+      "win": "alt+f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "hard-drive"
+    },
+    {
+      "id": "recherche",
+      "nom": "Rechercher fichiers",
+      "groupe": "Recherche",
+      "win": "alt+f7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "recherche-rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Recherche",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Affichage",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "echanger-panneaux",
+      "nom": "Échanger panneaux",
+      "groupe": "Affichage",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "vue-a-plat",
+      "nom": "Vue à plat",
+      "groupe": "Affichage",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list"
+    },
+    {
+      "id": "tri-nom",
+      "nom": "Trier par nom",
+      "groupe": "Tri",
+      "win": "ctrl+f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-a-z"
+    },
+    {
+      "id": "tri-extension",
+      "nom": "Tri extension",
+      "groupe": "Tri",
+      "win": "ctrl+f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-a-z"
+    },
+    {
+      "id": "tri-date",
+      "nom": "Trier par date",
+      "groupe": "Tri",
+      "win": "ctrl+f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "calendar"
+    },
+    {
+      "id": "tri-taille",
+      "nom": "Trier par taille",
+      "groupe": "Tri",
+      "win": "ctrl+f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-1-0"
+    },
+    {
+      "id": "selection-inverser",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "numstar",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-checks",
+      "deduit": true
+    },
+    {
+      "id": "espace-occupe",
+      "nom": "Espace occupé",
+      "groupe": "Sélection",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pie-chart"
+    },
+    {
+      "id": "compresser",
+      "nom": "Compresser",
+      "groupe": "Archives",
+      "win": "alt+f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "archive"
+    },
+    {
+      "id": "decompresser",
+      "nom": "Décompresser",
+      "groupe": "Archives",
+      "win": "alt+f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "package-open"
+    },
+    {
+      "id": "copier-presse",
+      "nom": "Copier (presse)",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

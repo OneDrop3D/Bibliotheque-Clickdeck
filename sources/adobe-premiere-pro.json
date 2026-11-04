@@ -1,0 +1,364 @@
+{
+  "id": "adobe-premiere-pro",
+  "nom": "Adobe Premiere Pro",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/premiere.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Adobe Premiere Pro",
+    "mac": "Adobe Premiere Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "recoupee",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Pages Adobe (helpx) refusées en 403 : aucune source Adobe lue. Raccourcis tiers (No Film School, PremiumBeat, Motion Array, Hongkiat). Contrôle : retirés Exporter média (Cmd+M réservé sur Mac), Lift/Extract/Ripple delete (sources contradictoires), Slip/Slide/Roll corrigés en Y/U/N, plein écran, préférences, déplacement de clip et changement de panneau (non confirmés). Combinaisons Mac déduites de Ctrl=Cmd. À vérifier dans Édition > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://hongkiat.com/blog/adobe-premiere-pro-shortcuts",
+      "titre": "Hongkiat - 40+ Adobe Premiere Pro Keyboard Shortcuts (tiers, mis à jour 2023)"
+    },
+    {
+      "url": "https://www.premiumbeat.com/blog/beginners-guide-to-premiere-pro-shortcuts/",
+      "titre": "PremiumBeat - Beginner's Guide to Premiere Pro Keyboard Shortcuts (tiers, 2016)"
+    },
+    {
+      "url": "https://blog.motionarray.com/learn/premiere-pro/ultimate-list-of-adobe-premiere-keyboard-shortcuts/",
+      "titre": "Motion Array - Ultimate list of Adobe Premiere keyboard shortcuts (tiers)"
+    },
+    {
+      "url": "https://nofilmschool.com/adobe-premiere-pro-cheat-sheet",
+      "titre": "No Film School - Adobe Premiere Pro cheat sheet (tiers)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir projet",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "importer",
+      "nom": "Importer média",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "deduit": true,
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "file-input"
+    },
+    {
+      "id": "nouveau_projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+alt+n",
+      "mac": "alt+cmd+n",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout_selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "desel_tout",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture/pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lecture_arriere",
+      "nom": "Lecture arrière",
+      "groupe": "Lecture",
+      "win": "j",
+      "mac": "j",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "stop",
+      "nom": "Stop",
+      "groupe": "Lecture",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "lecture_avant",
+      "nom": "Lecture avant",
+      "groupe": "Lecture",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "couper_tete",
+      "nom": "Ajouter une coupe",
+      "groupe": "Montage",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "deduit": true,
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "lame",
+      "nom": "Lame (outil C)",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "slip",
+      "nom": "Outil Slip",
+      "groupe": "Outils",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 3,
+      "priorite": 3,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "slide",
+      "nom": "Outil Slide",
+      "groupe": "Outils",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 3,
+      "priorite": 3,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "roll",
+      "nom": "Outil Roll",
+      "groupe": "Outils",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 3,
+      "priorite": 3,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "marqueur",
+      "nom": "Ajouter marqueur",
+      "groupe": "Marqueurs",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "point_entree",
+      "nom": "Point d'entrée",
+      "groupe": "Marqueurs",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "point_sortie",
+      "nom": "Point de sortie",
+      "groupe": "Marqueurs",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "match_frame",
+      "nom": "Match frame",
+      "groupe": "Navigation",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "film"
+    },
+    {
+      "id": "outil_selection",
+      "nom": "Outil sélection",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "ripple_edit",
+      "nom": "Outil Ripple",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "move-horizontal"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Images clés précédente/suivante",
+      "raison": "sources contradictoires"
+    },
+    {
+      "nom": "Points de montage précédent/suivant",
+      "raison": "sources contradictoires"
+    },
+    {
+      "nom": "Zoom de la timeline",
+      "raison": "non trouvé dans les sources"
+    },
+    {
+      "nom": "Avance image par image",
+      "raison": "non trouvé dans les sources"
+    },
+    {
+      "nom": "Exporter média (Mac)",
+      "raison": "Cmd+M est réservé par le système"
+    },
+    {
+      "nom": "Lift / Extract / Ripple delete",
+      "raison": "sources contradictoires"
+    }
+  ]
+}

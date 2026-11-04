@@ -1,0 +1,373 @@
+{
+  "id": "sublime-text",
+  "nom": "Sublime Text",
+  "editeur": "Sublime HQ",
+  "site": "https://www.sublimetext.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Sublime Text",
+    "mac": "Sublime Text"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du keymap par défaut d'après la documentation communautaire docs.sublimetext.io (Windows et macOS). Le cycle Ctrl+K puis Ctrl+B (séquence) est non faisable.",
+  "sources": [
+    {
+      "url": "https://docs.sublimetext.io/reference/keyboard_shortcuts_win.html",
+      "titre": "Keyboard shortcuts - Windows/Linux"
+    },
+    {
+      "url": "https://docs.sublimetext.io/reference/keyboard_shortcuts_osx.html",
+      "titre": "Keyboard shortcuts - OS X"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichiers",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichiers",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichiers",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "palette",
+      "nom": "Palette commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "aller-fichier",
+      "nom": "Aller au fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "aller-symbole",
+      "nom": "Aller au symbole",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "braces"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "ctrl+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hash"
+    },
+    {
+      "id": "rechercher-fichiers",
+      "nom": "Dans les fichiers",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Recherche",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    },
+    {
+      "id": "compiler",
+      "nom": "Compiler",
+      "groupe": "Exécution",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hammer"
+    },
+    {
+      "id": "dupliquer-ligne",
+      "nom": "Dupliquer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+shift+d",
+      "mac": "cmd+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+shift+k",
+      "mac": "ctrl+shift+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "commentaire-bloc",
+      "nom": "Commentaire bloc",
+      "groupe": "Édition",
+      "win": "ctrl+shift+slash",
+      "mac": "cmd+alt+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "message-square-code"
+    },
+    {
+      "id": "monter-ligne",
+      "nom": "Monter la ligne",
+      "groupe": "Édition",
+      "win": "ctrl+shift+up",
+      "mac": "ctrl+cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "descendre-ligne",
+      "nom": "Descendre la ligne",
+      "groupe": "Édition",
+      "win": "ctrl+shift+down",
+      "mac": "ctrl+cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "curseur-dessus",
+      "nom": "Curseur au-dessus",
+      "groupe": "Édition",
+      "win": "ctrl+alt+up",
+      "mac": "ctrl+shift+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "text-cursor"
+    },
+    {
+      "id": "curseur-dessous",
+      "nom": "Curseur en dessous",
+      "groupe": "Édition",
+      "win": "ctrl+alt+down",
+      "mac": "ctrl+shift+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "text-cursor"
+    },
+    {
+      "id": "tout-occurrences",
+      "nom": "Toutes occurrences",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "ctrl+cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list-checks"
+    },
+    {
+      "id": "rouvrir-onglet",
+      "nom": "Rouvrir onglet",
+      "groupe": "Fichiers",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "joindre-lignes",
+      "nom": "Joindre lignes",
+      "groupe": "Édition",
+      "win": "ctrl+shift+j",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "merge"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Afficher/masquer le panneau latéral",
+      "raison": "séquence de deux combinaisons (Ctrl+K, Ctrl+B)"
+    },
+    {
+      "nom": "Annuler la compilation",
+      "raison": "Ctrl+Pause ou Ctrl+C selon le système, peu fiable"
+    }
+  ]
+}

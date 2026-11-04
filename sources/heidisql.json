@@ -1,0 +1,32 @@
+{
+  "id": "heidisql",
+  "nom": "HeidiSQL",
+  "editeur": "HeidiSQL (Ansgar Becker)",
+  "site": "https://www.heidisql.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "HeidiSQL" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement : Mac et Linux à null. La page d'aide officielle ne liste que quelques raccourcis ; les commandes d'édition standard (annuler, couper, copier, coller, tout sélectionner) sont ajoutées sans source, avec deduit. Le code source lu (main.pas) charge les raccourcis depuis les réglages utilisateur, donc les combinaisons ci-dessous sont celles par défaut documentées.",
+  "sources": [
+    { "url": "https://www.heidisql.com/help.php", "titre": "HeidiSQL - Aide (raccourcis)" }
+  ],
+  "actions": [
+    { "id": "executer-requetes", "nom": "Exécuter requêtes", "groupe": "Requête", "win": "f9", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "nouvel-onglet-requete", "nom": "Nouvel onglet requête", "groupe": "Requête", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "square-plus" },
+    { "id": "reformater-sql", "nom": "Reformater SQL", "groupe": "Requête", "win": "ctrl+f8", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "wand-sparkles" },
+    { "id": "editer-cellule", "nom": "Éditer cellule", "groupe": "Données", "win": "f2", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "pencil" },
+    { "id": "filtres", "nom": "Panneau filtres", "groupe": "Données", "win": "ctrl+alt+f", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "filter" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "rechercher-remplacer", "nom": "Rechercher/remplacer", "groupe": "Édition", "win": "ctrl+r", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "replace" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "text-select", "deduit": true }
+  ],
+  "non_faisable": []
+}

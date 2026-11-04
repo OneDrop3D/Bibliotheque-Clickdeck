@@ -1,0 +1,412 @@
+{
+  "id": "vegas-pro",
+  "nom": "VEGAS Pro",
+  "editeur": "Boris FX",
+  "site": "https://www.vegascreativesoftware.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "VEGAS Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement. Table des raccourcis par défaut de la documentation VEGAS 2026 (Boris FX, éditeur actuel). Les raccourcis peuvent être changés dans Options > Personnaliser le clavier.",
+  "sources": [
+    {
+      "url": "https://cdn.borisfx.com/borisfx/Documentation/vegas/2026/en/content/topics/13-appendix/shortcutkeys.htm",
+      "titre": "Boris FX - VEGAS 2026 documentation, Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture_pause",
+      "nom": "Lecture/pause",
+      "groupe": "Lecture",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lecture_arret",
+      "nom": "Lecture/arrêt",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-play"
+    },
+    {
+      "id": "lecture_debut",
+      "nom": "Lecture au début",
+      "groupe": "Lecture",
+      "win": "shift+space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "lecture_boucle",
+      "nom": "Lecture en boucle",
+      "groupe": "Lecture",
+      "win": "q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "image_precedente",
+      "nom": "Image précédente",
+      "groupe": "Lecture",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "image_suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "debut_projet",
+      "nom": "Début du projet",
+      "groupe": "Lecture",
+      "win": "ctrl+home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "fin_projet",
+      "nom": "Fin du projet",
+      "groupe": "Lecture",
+      "win": "ctrl+end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "enregistrer_audio",
+      "nom": "Enregistrer audio",
+      "groupe": "Lecture",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "mic"
+    },
+    {
+      "id": "decouper",
+      "nom": "Scinder au curseur",
+      "groupe": "Montage",
+      "win": "s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "rogner",
+      "nom": "Rogner sélection",
+      "groupe": "Montage",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "crop"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Montage",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "ondulation_pistes",
+      "nom": "Ondulation pistes",
+      "groupe": "Montage",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "ondulation_toutes",
+      "nom": "Ondulation totale",
+      "groupe": "Montage",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "ondulation_auto",
+      "nom": "Ondulation auto",
+      "groupe": "Montage",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat-2"
+    },
+    {
+      "id": "accrochage",
+      "nom": "Accrochage",
+      "groupe": "Montage",
+      "win": "f8",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "magnet"
+    },
+    {
+      "id": "marqueur",
+      "nom": "Ajouter marqueur",
+      "groupe": "Montage",
+      "win": "m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout_selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "tout_deselectionner",
+      "nom": "Tout désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "nouveau_projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer_sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "version_incrementale",
+      "nom": "Sauver une version",
+      "groupe": "Fichier",
+      "win": "ctrl+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-check"
+    },
+    {
+      "id": "fermer_projet",
+      "nom": "Fermer projet",
+      "groupe": "Fichier",
+      "win": "ctrl+f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-x"
+    },
+    {
+      "id": "rendu_piste",
+      "nom": "Rendu sur piste",
+      "groupe": "Fichier",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "film"
+    },
+    {
+      "id": "zoom_timeline_avant",
+      "nom": "Zoom timeline +",
+      "groupe": "Navigation",
+      "win": "up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_timeline_arriere",
+      "nom": "Zoom timeline -",
+      "groupe": "Navigation",
+      "win": "down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "maximiser_timeline",
+      "nom": "Maximiser timeline",
+      "groupe": "Navigation",
+      "win": "ctrl+f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom timeline à la molette",
+      "raison": "molette"
+    }
+  ]
+}

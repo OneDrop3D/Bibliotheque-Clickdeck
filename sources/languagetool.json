@@ -1,0 +1,27 @@
+{
+  "id": "languagetool",
+  "nom": "LanguageTool Desktop",
+  "editeur": "LanguageTool",
+  "site": "https://languagetool.org",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "LanguageTool", "mac": "LanguageTool" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "La page d'aide LanguageTool consultée ne documente aucun raccourci clavier de l'application de bureau, et la recherche web était épuisée. Seules les commandes standard d'édition sont proposées (deduit). Le raccourci de vérification du texte est à définir dans les réglages de l'application.",
+  "sources": [],
+  "actions": [
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": null, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": null, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": null, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": null, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "shift+cmd+z", "linux": null, "source": null, "priorite": 2, "picto": "redo-2", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": null, "priorite": 2, "picto": "text-select", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": null, "priorite": 2, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Vérifier le texte (raccourci global)", "raison": "non documenté, à définir dans les réglages" }
+  ]
+}

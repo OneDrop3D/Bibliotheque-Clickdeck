@@ -1,0 +1,21 @@
+{
+  "id": "bitfocus-companion",
+  "nom": "Bitfocus Companion",
+  "editeur": "Bitfocus",
+  "site": "https://bitfocus.io/companion",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Companion", "mac": "Companion", "linux": "Companion" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel qui pilote des boutons (Stream Deck et équivalents) via une interface web. La page officielle ne décrit aucun raccourci clavier par défaut : les boutons et actions sont configurés par l'utilisateur. Aucune action à proposer dans ClickDeck.",
+  "sources": [
+    { "url": "https://bitfocus.io/companion", "titre": "Page officielle Bitfocus Companion" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Boutons, pages et actions Companion", "raison": "réglage sans raccourci : configurés dans l'interface web de Companion" }
+  ]
+}

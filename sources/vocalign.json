@@ -1,0 +1,28 @@
+{
+  "id": "vocalign",
+  "nom": "VocAlign",
+  "editeur": "Synchro Arts",
+  "site": "https://www.synchroarts.com/products/vocalign-pro/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "VocAlign",
+    "mac": "VocAlign"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut n'a pu être vérifié. La page produit officielle de Synchro Arts (VocAlign 7) ne mentionne aucun raccourci ; le manuel n'a pas été consulté. Les raccourcis sont à relever dans le manuel de la version installée, et les touches de l'hôte (lecture, annuler) sont celles du logiciel de session.",
+  "sources": [
+    {
+      "url": "https://www.synchroarts.com/products/vocalign-pro/",
+      "titre": "VocAlign Pro (Synchro Arts)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "maccy",
+  "nom": "Maccy",
+  "editeur": "Maccy (open source)",
+  "site": "https://github.com/p0deje/Maccy",
+  "systemes": ["mac"],
+  "lancement": { "windows": null, "mac": "Maccy" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "macOS uniquement. Les raccourcis sont ceux du README du dépôt officiel. Les touches n-chiffres (1 à 9) sélectionnent un élément selon le modificateur, seule une entrée est reprise ici. Maccy ne documente pas de touche de navigation à la flèche.",
+  "sources": [ { "url": "https://github.com/p0deje/Maccy", "titre": "Maccy - dépôt officiel (README)" } ],
+  "actions": [
+    { "id": "ouvrir-maccy", "nom": "Ouvrir Maccy", "groupe": "Historique", "win": null, "mac": "shift+cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-list" },
+    { "id": "copier-element", "nom": "Copier l'élément", "groupe": "Historique", "win": null, "mac": "enter", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller-element", "nom": "Coller l'élément", "groupe": "Historique", "win": null, "mac": "alt+enter", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "coller-sans-format", "nom": "Coller sans format", "groupe": "Historique", "win": null, "mac": "alt+shift+enter", "linux": null, "source": 0, "priorite": 2, "picto": "type" },
+    { "id": "epingler", "nom": "Épingler / détacher", "groupe": "Historique", "win": null, "mac": "alt+p", "linux": null, "source": 0, "priorite": 2, "picto": "pin" },
+    { "id": "supprimer-element", "nom": "Supprimer l'élément", "groupe": "Historique", "win": null, "mac": "alt+backspace", "linux": null, "source": 0, "priorite": 2, "picto": "trash-2" },
+    { "id": "vider-non-epingles", "nom": "Vider non épinglés", "groupe": "Historique", "win": null, "mac": "alt+cmd+backspace", "linux": null, "source": 0, "priorite": 3, "picto": "eraser" },
+    { "id": "vider-tout", "nom": "Tout effacer", "groupe": "Historique", "win": null, "mac": "shift+alt+cmd+backspace", "linux": null, "source": 0, "priorite": 3, "picto": "trash" },
+    { "id": "preferences", "nom": "Préférences", "groupe": "Application", "win": null, "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 2, "picto": "settings" }
+  ],
+  "non_faisable": [
+    { "nom": "Désactiver Maccy (Option+clic)", "raison": "souris" },
+    { "nom": "Ignorer la prochaine copie (Option+Maj+clic)", "raison": "souris" }
+  ]
+}

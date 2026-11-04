@@ -1,0 +1,107 @@
+{
+  "id": "ueli",
+  "nom": "ueli",
+  "editeur": "Oliver Schwendener",
+  "site": "https://github.com/oliverschwendener/ueli",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "ueli",
+    "mac": "ueli"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Le README documente Alt+Espace pour afficher ou masquer ueli, sans préciser explicitement qu'il s'agit du défaut : à vérifier dans les réglages. Les autres raccourcis sont ceux du README.",
+  "sources": [
+    {
+      "url": "https://github.com/oliverschwendener/ueli",
+      "titre": "ueli - README (GitHub)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "afficher-masquer",
+      "nom": "Afficher / masquer",
+      "groupe": "Lancement",
+      "win": "alt+space",
+      "mac": "alt+space",
+      "linux": "alt+space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "lancer-selection",
+      "nom": "Lancer",
+      "groupe": "Lancement",
+      "win": "enter",
+      "mac": "enter",
+      "linux": "enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "actions-supplementaires",
+      "nom": "Plus d'actions",
+      "groupe": "Lancement",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": "ctrl+k",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "fermer-menu",
+      "nom": "Fermer le menu",
+      "groupe": "Lancement",
+      "win": "escape",
+      "mac": "escape",
+      "linux": "escape",
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Navigation",
+      "win": "up",
+      "mac": "up",
+      "linux": "up",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Navigation",
+      "win": "down",
+      "mac": "down",
+      "linux": "down",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Navigation",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": "ctrl+comma",
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": []
+}

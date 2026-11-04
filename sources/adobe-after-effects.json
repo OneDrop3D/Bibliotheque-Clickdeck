@@ -1,0 +1,416 @@
+{
+  "id": "adobe-after-effects",
+  "nom": "Adobe After Effects",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/aftereffects.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Adobe After Effects",
+    "mac": "Adobe After Effects"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Pages Adobe refusées en 403. Raccourcis relus sur Tutorial Tactic (mai 2026) et concordants avec les usages connus ; seconde source non rouverte. Retiré : Keyframe position (Alt+P non confirmé). À vérifier dans Édition > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/blog/adobe-after-effects-shortcuts/",
+      "titre": "Tutorial Tactic - After Effects Keyboard Shortcuts (tiers, mai 2026, AE 2025)"
+    },
+    {
+      "url": "https://motiondesign.school/after-effects-keyboard-shortcuts/",
+      "titre": "Motion Design School - After Effects keyboard shortcuts (tiers, 2020)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle_compo",
+      "nom": "Nouvelle compo",
+      "groupe": "Projet",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir projet",
+      "groupe": "Projet",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Projet",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer_sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Projet",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Projet",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-input"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout_selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer calque",
+      "groupe": "Calques",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "nouveau_solide",
+      "nom": "Nouveau solide",
+      "groupe": "Calques",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "precomposer",
+      "nom": "Précomposer",
+      "groupe": "Calques",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "fractionner_calque",
+      "nom": "Scinder le calque",
+      "groupe": "Calques",
+      "win": "ctrl+shift+d",
+      "mac": "cmd+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "position",
+      "nom": "Position",
+      "groupe": "Animation",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Animation",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Animation",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "opacite",
+      "nom": "Opacité",
+      "groupe": "Animation",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "ancrage",
+      "nom": "Point d'ancrage",
+      "groupe": "Animation",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair"
+    },
+    {
+      "id": "keyframe_suivante",
+      "nom": "Keyframe suiv.",
+      "groupe": "Animation",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "keyframe_precedente",
+      "nom": "Keyframe préc.",
+      "groupe": "Animation",
+      "win": "j",
+      "mac": "j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "easy_ease",
+      "nom": "Easy Ease",
+      "groupe": "Animation",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "activity"
+    },
+    {
+      "id": "graph_editor",
+      "nom": "Éditeur graphique",
+      "groupe": "Animation",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "line-chart"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture/pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "debut_zone_travail",
+      "nom": "Début zone travail",
+      "groupe": "Lecture",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "fin_zone_travail",
+      "nom": "Fin zone travail",
+      "groupe": "Lecture",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "ajouter_file_rendu",
+      "nom": "Ajouter à la file",
+      "groupe": "Rendu",
+      "win": "ctrl+shift+slash",
+      "mac": "cmd+shift+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "ajouter_image_rendu",
+      "nom": "Image fixe en file",
+      "groupe": "Rendu",
+      "win": "ctrl+alt+s",
+      "mac": "cmd+alt+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "image"
+    },
+    {
+      "id": "maximiser_panneau",
+      "nom": "Maximiser panneau",
+      "groupe": "Affichage",
+      "win": "backquote",
+      "mac": "backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "regles",
+      "nom": "Afficher règles",
+      "groupe": "Affichage",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ruler"
+    },
+    {
+      "id": "outil_selection",
+      "nom": "Outil sélection",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "outil_main",
+      "nom": "Outil main",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "hand"
+    },
+    {
+      "id": "purger_memoire",
+      "nom": "Purger la mémoire",
+      "groupe": "Mémoire",
+      "win": "ctrl+alt+slash",
+      "mac": "cmd+alt+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom de la timeline",
+      "raison": "non trouvé dans les sources"
+    },
+    {
+      "nom": "Mise à l'échelle par pas de 1 %",
+      "raison": "combinaison maintenue avec molette"
+    }
+  ]
+}

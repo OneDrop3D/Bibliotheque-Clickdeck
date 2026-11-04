@@ -1,0 +1,124 @@
+{
+  "id": "zoner-photo-studio",
+  "nom": "Zoner Photo Studio",
+  "editeur": "Zoner",
+  "site": "https://www.zoner.com",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Zoner Photo Studio"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste partielle : l'éditeur ne publie que des aide-mémoire en image illisibles ici. Seuls quelques raccourcis confirmés par son site. Les touches Ctrl standard sont données par déduction. Version Mac non couverte. Ne pas étendre sans vérification.",
+  "sources": [
+    {
+      "url": "https://learn.zoner.com/keyboard-shortcuts",
+      "titre": "Speed Up Your Zoner Studio Workflow with Keyboard Shortcuts (2024)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Application",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "copier-reglages",
+      "nom": "Copier réglages",
+      "groupe": "Développement",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller-reglages",
+      "nom": "Coller réglages",
+      "groupe": "Développement",
+      "win": "ctrl+shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "basculer-panneaux",
+      "nom": "Pellicule/Navig.",
+      "groupe": "Application",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panels-top-left"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "square-check-big",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "priorite": 3,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "clipboard",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Raccourcis par défaut complets",
+      "raison": "aide-mémoire en image non lisible, liste non confirmée"
+    }
+  ]
+}

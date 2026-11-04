@@ -1,0 +1,244 @@
+{
+  "id": "mailspring",
+  "nom": "Mailspring",
+  "editeur": "Foundry 376 (Mailspring)",
+  "site": "https://getmailspring.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Mailspring",
+    "mac": "Mailspring"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés des fichiers keymaps du dépôt officiel (mod = Ctrl sous Windows, Cmd sous Mac). Nouveau message, répondre, répondre à tous et transférer sont communs aux modèles Gmail et Apple Mail ; le modèle par défaut n'a pas pu être confirmé. Les commandes standard restent déduites. Version Linux non couverte.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Foundry376/Mailspring/master/app/keymaps/base.json",
+      "titre": "Mailspring keymaps/base.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Foundry376/Mailspring/master/app/keymaps/templates/Apple%20Mail.json",
+      "titre": "Mailspring keymap template Apple Mail"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Foundry376/Mailspring/master/app/keymaps/templates/Gmail.json",
+      "titre": "Mailspring keymap template Gmail"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau message",
+      "groupe": "Messages",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "mail-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Chercher dans fil",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "repondre",
+      "nom": "Répondre",
+      "groupe": "Messages",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "reply"
+    },
+    {
+      "id": "repondre-tous",
+      "nom": "Répondre à tous",
+      "groupe": "Messages",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "reply-all"
+    },
+    {
+      "id": "transferer",
+      "nom": "Transférer",
+      "groupe": "Messages",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "forward"
+    },
+    {
+      "id": "imprimer-message",
+      "nom": "Imprimer message",
+      "groupe": "Messages",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "synchroniser",
+      "nom": "Synchroniser",
+      "groupe": "Messages",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "reporter",
+      "nom": "Reporter",
+      "groupe": "Messages",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "alarm-clock"
+    },
+    {
+      "id": "rechercher-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-down"
+    }
+  ],
+  "non_faisable": []
+}

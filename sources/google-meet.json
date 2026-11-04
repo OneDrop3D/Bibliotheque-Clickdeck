@@ -1,0 +1,97 @@
+{
+  "id": "google-meet",
+  "nom": "Google Meet",
+  "editeur": "Google",
+  "site": "https://meet.google.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Google Chrome",
+    "mac": "Google Chrome",
+    "linux": "google-chrome"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "recoupee",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de Meet, qui tourne dans Chrome : la fenêtre Chrome avec l'onglet Meet doit être au premier plan. Source Google (section Meet de la page de raccourcis, citée pour Android avec clavier externe) et recoupement tiers pour Ctrl+D / Ctrl+E ; les touches du site web sont les mêmes. Autres raccourcis non vérifiés, donc non ajoutés. Ctrl+D, Ctrl+E et Shift+? recoupés sur defkey (Windows/Linux) en seconde passe ; les autres restent fondés sur la page Google.",
+  "sources": [
+    {
+      "url": "https://support.google.com/a/users/answer/9896256",
+      "titre": "Google keyboard shortcuts (section Meet, contrôles de réunion)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "micro",
+      "nom": "Micro on/off",
+      "groupe": "Réunion",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic"
+    },
+    {
+      "id": "camera",
+      "nom": "Caméra on/off",
+      "groupe": "Réunion",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "video"
+    },
+    {
+      "id": "chat",
+      "nom": "Chat",
+      "groupe": "Réunion",
+      "win": "ctrl+alt+c",
+      "mac": "ctrl+cmd+c",
+      "linux": "ctrl+alt+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "lever-main",
+      "nom": "Lever la main",
+      "groupe": "Réunion",
+      "win": "ctrl+alt+h",
+      "mac": "ctrl+cmd+h",
+      "linux": "ctrl+alt+h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "sous-titres",
+      "nom": "Sous-titres",
+      "groupe": "Réunion",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 2,
+      "picto": "captions"
+    },
+    {
+      "id": "aide-raccourcis",
+      "nom": "Liste des raccourcis",
+      "groupe": "Réunion",
+      "win": "shift+slash",
+      "mac": "shift+slash",
+      "linux": "shift+slash",
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    }
+  ],
+  "non_faisable": []
+}

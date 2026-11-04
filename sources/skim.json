@@ -1,0 +1,135 @@
+{
+  "id": "skim",
+  "nom": "Skim (macOS)",
+  "editeur": "Projet Skim (open source)",
+  "site": "https://skim-app.sourceforge.io/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Skim"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis propres à l'application non relevés : la documentation de l'éditeur n'a pas pu être lue (blocage ou page introuvable). Seules les commandes standard des menus sont listées, avec deduit=true. À compléter.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "square-dashed-mouse-pointer"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

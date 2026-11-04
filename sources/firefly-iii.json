@@ -1,0 +1,28 @@
+{
+  "id": "firefly-iii",
+  "nom": "Firefly III",
+  "editeur": "Firefly III",
+  "site": "https://www.firefly-iii.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Firefly III", "mac": "Firefly III" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application web auto-hébergée, utilisée dans le navigateur : les raccourcis dépendent du navigateur, pas de Firefly III. La documentation officielle a renvoyé un refus 403 et son archive est bloquée ; aucun raccourci propre n'a été vérifié. Seules les commandes standard du navigateur sont listées, avec deduit: true, à titre indicatif.",
+  "sources": [
+    { "url": "https://docs.firefly-iii.org/", "titre": "Documentation Firefly III (non lue : 403)" }
+  ],
+  "actions": [
+    { "id": "nouveau-onglet", "nom": "Nouvel onglet", "groupe": "Navigateur", "win": "ctrl+t", "mac": "cmd+t", "linux": null, "source": 0, "priorite": 2, "picto": "plus", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Navigateur", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search", "deduit": true },
+    { "id": "actualiser", "nom": "Actualiser", "groupe": "Navigateur", "win": "f5", "mac": "cmd+r", "linux": null, "source": 0, "priorite": 2, "picto": "refresh-cw", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 2, "picto": "undo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-paste", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Saisie rapide d'une opération", "raison": "aucun raccourci vérifié pour Firefly III" }
+  ]
+}

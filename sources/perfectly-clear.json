@@ -1,0 +1,17 @@
+{
+  "id": "perfectly-clear",
+  "nom": "Perfectly Clear",
+  "editeur": "Athentech",
+  "site": "https://perfectlyclear.ai",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Perfectly Clear", "mac": "Perfectly Clear" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci vérifié. La page d'aide des raccourcis (help/plugins Perfectly Clear Complete v3) n'a pas pu être ouverte (404 après redirection). Un résumé de recherche évoque Z, Entrée, Échap, espace et crochets, mais ce n'est pas vérifié, donc rien n'est inscrit. Le produit est un plugin ; le produit le plus récent est Radiant Photos.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

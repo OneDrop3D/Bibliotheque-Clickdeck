@@ -1,0 +1,21 @@
+{
+  "id": "unlocker",
+  "nom": "Unlocker",
+  "editeur": "Cedrik Kiefer (EmptyLoop)",
+  "site": "https://www.emptyloop.com/unlocker/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Unlocker", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire au menu contextuel de l'explorateur, sans raccourci clavier connu. La page officielle n'a pas pu être lue (erreur réseau), aucune source de raccourci trouvée. Pas d'actions proposées.",
+  "sources": [
+    { "url": "https://www.emptyloop.com/unlocker/", "titre": "Unlocker - EmptyLoop (lecture échouée)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Débloquer et supprimer", "raison": "action du menu contextuel, pas de raccourci" }
+  ]
+}

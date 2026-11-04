@@ -1,0 +1,30 @@
+{
+  "id": "vseeface-vtube-studio",
+  "nom": "VSeeFace / VTube Studio",
+  "editeur": "emilianavt (VSeeFace) / DenchiSoft (VTube Studio)",
+  "site": "https://www.vseeface.icu/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "VSeeFace" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Fiche couvrant VSeeFace uniquement : la page officielle de VSeeFace liste ses raccourcis par défaut. Pour VTube Studio, aucune liste de raccourcis par défaut n'a pu être ouverte (wiki officiel inaccessible en détail) ; ses raccourcis sont définis par l'utilisateur, donc non ajoutés. Les raccourcis configurables (expressions, réinitialisation de position) n'ont pas de défaut et figurent dans non_faisable. Plateforme : Windows.",
+  "sources": [
+    { "url": "https://www.vseeface.icu/", "titre": "VSeeFace (page officielle, raccourcis)" }
+  ],
+  "actions": [
+    { "id": "capture-ecran", "nom": "Capture écran", "groupe": "Capture", "win": "s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "camera" },
+    { "id": "capture-differee", "nom": "Capture différée", "groupe": "Capture", "win": "shift+s", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "timer" },
+    { "id": "afficher-ui", "nom": "Afficher interface", "groupe": "Affichage", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eye" },
+    { "id": "reset-eclairage", "nom": "Réinit. éclairage", "groupe": "Affichage", "win": "d", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "sun" },
+    { "id": "charger-modele", "nom": "Charger modèle", "groupe": "Fichier", "win": "l", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "user" }
+  ],
+  "non_faisable": [
+    { "nom": "Orbite / zoom caméra", "raison": "maintien Alt et souris" },
+    { "nom": "Éclairage à la souris", "raison": "maintien Ctrl et souris" },
+    { "nom": "Expressions (touches)", "raison": "réglage sans raccourci par défaut" },
+    { "nom": "Reset de position", "raison": "réglage sans raccourci par défaut" }
+  ]
+}

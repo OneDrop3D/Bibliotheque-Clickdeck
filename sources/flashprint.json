@@ -1,0 +1,142 @@
+{
+  "id": "flashprint",
+  "nom": "FlashPrint",
+  "editeur": "Flashforge",
+  "site": "https://www.flashforge.com/pages/software-flashprint",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "FlashPrint",
+    "mac": "FlashPrint"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Les pages lues ne donnent pas de combinaison précise (le guide Newcastle mentionne seulement couper/copier/coller et annuler). Commandes standard, marquées deduit. Trancher, exporter et réparer n'ont pas de raccourci documenté.",
+  "sources": [
+    {
+      "url": "https://www.flashforge.com/pages/software-flashprint",
+      "titre": "FlashPrint 5 (Flashforge)"
+    },
+    {
+      "url": "https://www.mas.ncl.ac.uk/3dprintguide/using_the_3d_printers/flashprint/index.html",
+      "titre": "Using FlashPrint (Newcastle University)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Trancher le modèle",
+      "raison": "sans raccourci documenté"
+    },
+    {
+      "nom": "Envoyer à l'imprimante",
+      "raison": "sans raccourci documenté"
+    },
+    {
+      "nom": "Réparation automatique",
+      "raison": "sans raccourci documenté"
+    }
+  ]
+}

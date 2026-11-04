@@ -1,0 +1,608 @@
+{
+  "id": "opentoonz",
+  "nom": "OpenToonz",
+  "editeur": "Projet OpenToonz (open source)",
+  "site": "https://opentoonz.readthedocs.io/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "OpenToonz",
+    "mac": "OpenToonz",
+    "linux": "OpenToonz"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "La documentation officielle indique que la liste ne couvre que certains des raccourcis prédéfinis. Linux repris de Windows (Ctrl) par déduction, non documenté. Cmd+Espace (rotation) et Cmd+H (historique) non repris : réservés au système sur Mac.",
+  "sources": [
+    {
+      "url": "https://opentoonz.readthedocs.io/en/latest/keyboard_shortcuts.html",
+      "titre": "OpenToonz User Manual - Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-scene",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "charger-scene",
+      "nom": "Charger scène",
+      "groupe": "Fichier",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "tout-enregistrer",
+      "nom": "Tout enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-scene",
+      "nom": "Enregistrer scène",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fichier",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": "ctrl+u",
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller-inserer",
+      "nom": "Coller insérer",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "coller-apres",
+      "nom": "Coller après",
+      "groupe": "Édition",
+      "win": "ctrl+shift+v",
+      "mac": "cmd+shift+v",
+      "linux": "ctrl+shift+v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "backspace",
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Édition",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": "ctrl+g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Édition",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": "ctrl+shift+g",
+      "source": 0,
+      "priorite": 3,
+      "picto": "ungroup"
+    },
+    {
+      "id": "premier-plan",
+      "nom": "Premier plan",
+      "groupe": "Édition",
+      "win": "ctrl+bracketright",
+      "mac": "cmd+bracketright",
+      "linux": "ctrl+bracketright",
+      "source": 0,
+      "priorite": 3,
+      "picto": "bring-to-front"
+    },
+    {
+      "id": "arriere-plan",
+      "nom": "Arrière-plan",
+      "groupe": "Édition",
+      "win": "ctrl+bracketleft",
+      "mac": "cmd+bracketleft",
+      "linux": "ctrl+bracketleft",
+      "source": 0,
+      "priorite": 3,
+      "picto": "send-to-back"
+    },
+    {
+      "id": "dupliquer-dessin",
+      "nom": "Dupliquer dessin",
+      "groupe": "Cellules",
+      "win": "d",
+      "mac": "d",
+      "linux": "d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "pas-plus",
+      "nom": "Augmenter le pas",
+      "groupe": "Cellules",
+      "win": "quote",
+      "mac": "quote",
+      "linux": "quote",
+      "source": 0,
+      "priorite": 2,
+      "picto": "plus-square"
+    },
+    {
+      "id": "pas-moins",
+      "nom": "Diminuer le pas",
+      "groupe": "Cellules",
+      "win": "semicolon",
+      "mac": "semicolon",
+      "linux": "semicolon",
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus-square"
+    },
+    {
+      "id": "substitution-precedente",
+      "nom": "Substitut. préc.",
+      "groupe": "Cellules",
+      "win": "q",
+      "mac": "q",
+      "linux": "q",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "substitution-suivante",
+      "nom": "Substitut. suiv.",
+      "groupe": "Cellules",
+      "win": "w",
+      "mac": "w",
+      "linux": "w",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture",
+      "groupe": "Lecture",
+      "win": "p",
+      "mac": "p",
+      "linux": "p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "boucle",
+      "nom": "Boucle",
+      "groupe": "Lecture",
+      "win": "l",
+      "mac": "l",
+      "linux": "l",
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Dessin précédent",
+      "groupe": "Lecture",
+      "win": "comma",
+      "mac": "comma",
+      "linux": "comma",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Dessin suivant",
+      "groupe": "Lecture",
+      "win": "period",
+      "mac": "period",
+      "linux": "period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "premiere-image",
+      "nom": "Première image",
+      "groupe": "Lecture",
+      "win": "alt+comma",
+      "mac": "alt+comma",
+      "linux": "alt+comma",
+      "source": 0,
+      "priorite": 3,
+      "picto": "skip-back"
+    },
+    {
+      "id": "derniere-image",
+      "nom": "Dernière image",
+      "groupe": "Lecture",
+      "win": "alt+period",
+      "mac": "alt+period",
+      "linux": "alt+period",
+      "source": 0,
+      "priorite": 3,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "animation",
+      "nom": "Animation",
+      "groupe": "Outils",
+      "win": "a",
+      "mac": "a",
+      "linux": "a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "selection",
+      "nom": "Sélection",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "pinceau",
+      "nom": "Pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": "b",
+      "source": 0,
+      "priorite": 1,
+      "picto": "paintbrush"
+    },
+    {
+      "id": "geometrique",
+      "nom": "Géométrique",
+      "groupe": "Outils",
+      "win": "g",
+      "mac": "g",
+      "linux": "g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "shapes"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "y",
+      "mac": "y",
+      "linux": "y",
+      "source": 0,
+      "priorite": 2,
+      "picto": "type"
+    },
+    {
+      "id": "remplissage",
+      "nom": "Remplissage",
+      "groupe": "Outils",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": "e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "ruban",
+      "nom": "Ruban",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": "t",
+      "source": 0,
+      "priorite": 3,
+      "picto": "ribbon"
+    },
+    {
+      "id": "pipette-style",
+      "nom": "Pipette style",
+      "groupe": "Outils",
+      "win": "k",
+      "mac": "k",
+      "linux": "k",
+      "source": 0,
+      "priorite": 3,
+      "picto": "pipette"
+    },
+    {
+      "id": "pipette-rgb",
+      "nom": "Pipette RGB",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": "r",
+      "linux": "r",
+      "source": 0,
+      "priorite": 3,
+      "picto": "pipette"
+    },
+    {
+      "id": "points-controle",
+      "nom": "Points de contrôle",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 3,
+      "picto": "spline"
+    },
+    {
+      "id": "main",
+      "nom": "Main",
+      "groupe": "Outils",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 2,
+      "picto": "hand"
+    },
+    {
+      "id": "zoom-outil",
+      "nom": "Zoom",
+      "groupe": "Outils",
+      "win": "shift+space",
+      "mac": "shift+space",
+      "linux": "shift+space",
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "taille-reelle",
+      "nom": "Taille réelle",
+      "groupe": "Affichage",
+      "win": "n",
+      "mac": "n",
+      "linux": "n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "ajuster-fenetre",
+      "nom": "Ajuster fenêtre",
+      "groupe": "Affichage",
+      "win": "alt+9",
+      "mac": "alt+9",
+      "linux": "alt+9",
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "reinitialiser-vue",
+      "nom": "Réinitialiser vue",
+      "groupe": "Affichage",
+      "win": "alt+0",
+      "mac": "alt+0",
+      "linux": "alt+0",
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "plus",
+      "mac": "plus",
+      "linux": "plus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "minus",
+      "mac": "minus",
+      "linux": "minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "pelure-oignon",
+      "nom": "Pelure d'oignon",
+      "groupe": "Affichage",
+      "win": "slash",
+      "mac": "slash",
+      "linux": "slash",
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+f",
+      "mac": "alt+f",
+      "linux": "alt+f",
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu",
+      "groupe": "Rendu",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye"
+    },
+    {
+      "id": "rendu",
+      "nom": "Rendu",
+      "groupe": "Rendu",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": "ctrl+shift+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "video"
+    },
+    {
+      "id": "rendu-mp4",
+      "nom": "Rendu rapide MP4",
+      "groupe": "Rendu",
+      "win": "alt+r",
+      "mac": "alt+r",
+      "linux": "alt+r",
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-video"
+    },
+    {
+      "id": "aide",
+      "nom": "Manuel en ligne",
+      "groupe": "Aide",
+      "win": "f1",
+      "mac": "f1",
+      "linux": "f1",
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Taille du pinceau",
+      "raison": "Ctrl+Alt+glisser à la souris"
+    }
+  ]
+}

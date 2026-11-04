@@ -1,0 +1,21 @@
+{
+  "id": "voicemod",
+  "nom": "Voicemod",
+  "editeur": "Voicemod",
+  "site": "https://www.voicemod.net/support/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Voicemod", "mac": "Voicemod" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page de support officielle consultée ne liste aucun raccourci clavier par défaut (rubrique « Keybinds » renvoyant vers le centre d'aide). Les raccourcis Voicemod (changement de voix, soundboard, mute) sont à définir dans l'application. Aucune action proposée ; à recouper avec le centre d'aide support.voicemod.net si besoin.",
+  "sources": [
+    { "url": "https://www.voicemod.net/support/", "titre": "Support officiel Voicemod" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Raccourcis de changement de voix et soundboard", "raison": "réglage sans raccourci par défaut : définis par l'utilisateur dans Voicemod" }
+  ]
+}

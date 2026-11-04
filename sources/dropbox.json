@@ -1,0 +1,17 @@
+{
+  "id": "dropbox",
+  "nom": "Dropbox Desktop",
+  "editeur": "Dropbox",
+  "site": "https://www.dropbox.com/desktop",
+  "systemes": ["windows","mac"],
+  "lancement": { "windows": "Dropbox", "mac": "Dropbox" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation sans raccourci clavier documenté. Pages d'aide Dropbox consultées : 404, aucune source lue ; à recouper.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

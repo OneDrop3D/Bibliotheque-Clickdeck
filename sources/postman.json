@@ -1,0 +1,130 @@
+{
+  "id": "postman",
+  "nom": "Postman Desktop",
+  "editeur": "Postman",
+  "site": "https://www.postman.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Postman",
+    "mac": "Postman",
+    "linux": "Postman"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "recoupee",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Nouvel onglet, palette, recherche (Ctrl+K) et chercher/remplacer viennent de la doc officielle. Envoyer (Ctrl+Entrée) vient de deux sources tierces récentes concordantes (dont un article invité Postman). Enregistrer, enregistrer sous et fermer l'onglet sont des commandes standard ajoutées sans source. Linux déduit de Windows.",
+  "sources": [
+    {
+      "url": "https://learning.postman.com/docs/getting-started/basics/navigating-postman",
+      "titre": "Navigating Postman (Postman Learning Center)"
+    },
+    {
+      "url": "https://appdevelopermagazine.com/developer-keyboard-shortcuts-that-increase-productivity-in-postman/amp/",
+      "titre": "Developer keyboard shortcuts in Postman (article invité Postman)"
+    },
+    {
+      "url": "https://dev.to/osalumense/20-postman-shortcuts-and-tips-to-supercharge-your-api-testing-workflow-403f",
+      "titre": "20 Postman shortcuts and tips (DEV)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "envoyer-requete",
+      "nom": "Envoyer la requête",
+      "groupe": "Requêtes",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 1,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Requêtes",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus-square"
+    },
+    {
+      "id": "palette-commandes",
+      "nom": "Palette de commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": "ctrl+shift+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Requêtes",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Requêtes",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Navigation",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "rechercher-postman",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": "ctrl+k",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "chercher-remplacer",
+      "nom": "Chercher/remplacer",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": "ctrl+shift+f",
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    }
+  ],
+  "non_faisable": []
+}

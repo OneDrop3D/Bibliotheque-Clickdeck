@@ -1,0 +1,17 @@
+{
+  "id": "legion-space",
+  "nom": "Legion Space",
+  "editeur": "Lenovo",
+  "site": "https://www.lenovo.com/us/en/legion-space/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Legion Space" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Lenovo Legion Go. La page officielle lenovo.com renvoie HTTP 403 et la copie web.archive.org est bloquée : aucun raccourci n'a pu être vérifié. Aucun raccourci proposé. Pas de raccourci utile identifié.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

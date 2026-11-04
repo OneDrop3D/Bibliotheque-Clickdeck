@@ -1,0 +1,277 @@
+{
+  "id": "onlyoffice",
+  "nom": "ONLYOFFICE Desktop Editors",
+  "editeur": "ONLYOFFICE (Ascensio System)",
+  "site": "https://www.onlyoffice.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "ONLYOFFICE",
+    "mac": "ONLYOFFICE"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus sur la page officielle du Document Editor (Windows/Linux et macOS). Nouveau document et Enregistrer sous (Ctrl+Maj+S = Télécharger sous) non listés tels quels : marqués deduit.",
+  "sources": [
+    {
+      "url": "https://helpcenter.onlyoffice.com/docs/userguides/document_editor/keyboardshortcuts.aspx",
+      "titre": "ONLYOFFICE Document Editor keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau document",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Mise en forme",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Mise en forme",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Mise en forme",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "underline"
+    },
+    {
+      "id": "centrer",
+      "nom": "Centrer",
+      "groupe": "Mise en forme",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-center"
+    },
+    {
+      "id": "aligner-gauche",
+      "nom": "Aligner à gauche",
+      "groupe": "Mise en forme",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "aligner-droite",
+      "nom": "Aligner à droite",
+      "groupe": "Mise en forme",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-right"
+    },
+    {
+      "id": "justifier",
+      "nom": "Justifier",
+      "groupe": "Mise en forme",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-justify"
+    },
+    {
+      "id": "titre-1",
+      "nom": "Titre 1",
+      "groupe": "Styles",
+      "win": "alt+1",
+      "mac": "cmd+alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "heading-1"
+    },
+    {
+      "id": "saut-de-page",
+      "nom": "Saut de page",
+      "groupe": "Insertion",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "separator-horizontal"
+    }
+  ],
+  "non_faisable": []
+}

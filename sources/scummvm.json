@@ -1,0 +1,153 @@
+{
+  "id": "scummvm",
+  "nom": "ScummVM",
+  "editeur": "ScummVM",
+  "site": "https://www.scummvm.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "ScummVM",
+    "mac": "ScummVM",
+    "linux": "ScummVM"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Windows/Linux relevés dans la documentation officielle (modifiables dans l'onglet Raccourcis). Équivalents Mac non confirmés par la source, sauf Quitter (Cmd+Q) : laissés vides.",
+  "sources": [
+    {
+      "url": "https://docs.scummvm.org/en/latest/use_scummvm/keyboard_shortcuts.html",
+      "titre": "ScummVM - Raccourcis clavier"
+    }
+  ],
+  "actions": [
+    {
+      "id": "menu-global",
+      "nom": "Menu global",
+      "groupe": "Général",
+      "win": "ctrl+f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "menu"
+    },
+    {
+      "id": "muet",
+      "nom": "Couper le son",
+      "groupe": "Général",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Affichage",
+      "win": "alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Général",
+      "win": "alt+f4",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-out",
+      "deduit": false
+    },
+    {
+      "id": "capture-souris",
+      "nom": "Capturer la souris",
+      "groupe": "Général",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse"
+    },
+    {
+      "id": "clavier-virtuel",
+      "nom": "Clavier virtuel",
+      "groupe": "Général",
+      "win": "ctrl+f7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    },
+    {
+      "id": "filtre-suivant",
+      "nom": "Filtre suivant",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "filtre-precedent",
+      "nom": "Filtre précédent",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "rapport-aspect",
+      "nom": "Correction ratio",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ratio"
+    },
+    {
+      "id": "etirement",
+      "nom": "Mode d'étirement",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-diagonal"
+    }
+  ],
+  "non_faisable": []
+}

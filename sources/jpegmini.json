@@ -1,0 +1,19 @@
+{
+  "id": "jpegmini",
+  "nom": "JPEGmini",
+  "editeur": "JPEGmini",
+  "site": "https://www.jpegmini.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "JPEGmini Pro", "mac": "JPEGmini Pro" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci trouvé. Le centre d'aide JPEGmini (article sur le mode Minimi) n'en liste aucun ; le seul raccourci relevé (Ctrl+K) concerne la recherche du site d'aide, pas l'application.",
+  "sources": [
+    { "url": "https://help.jpegmini.com/doc/minimi-minimize-jpegmini-pro", "titre": "JPEGmini Help Center - Minimi (aucun raccourci listé)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

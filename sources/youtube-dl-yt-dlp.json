@@ -1,0 +1,17 @@
+{
+  "id": "youtube-dl-yt-dlp",
+  "nom": "youtube-dl / yt-dlp",
+  "editeur": "Projet yt-dlp (fork de youtube-dl)",
+  "site": "https://github.com/yt-dlp/yt-dlp",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "yt-dlp", "mac": "yt-dlp", "linux": "yt-dlp" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Outil en ligne de commande, sans interface ni raccourci clavier. Le README officiel ne décrit aucun raccourci ; seul Ctrl+F (recherche de page du navigateur) y figure. Les options utiles (-f format, -x extraction audio, --audio-format, --write-subs, --embed-subs, -o modèle de nom, --cookies-from-browser, --yes-playlist / --no-playlist, -F liste des formats) s'utilisent en ligne de commande et ne peuvent pas être déclenchées par une touche ClickDeck sans macro.",
+  "sources": [ { "url": "https://github.com/yt-dlp/yt-dlp", "titre": "README yt-dlp (GitHub)" } ],
+  "actions": [],
+  "non_faisable": []
+}

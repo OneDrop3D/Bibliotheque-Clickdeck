@@ -1,0 +1,152 @@
+{
+  "id": "darktable",
+  "nom": "darktable",
+  "editeur": "darktable developers",
+  "site": "https://www.darktable.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "darktable",
+    "mac": "darktable",
+    "linux": "darktable"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste réduite : le manuel ne liste pas les raccourcis par défaut (seul H est cité). Notation 0-5 et R (rejeter) tirés du manuel 4.6, valables au survol d'une vignette en table lumineuse. 'F' (aperçu épinglé) retiré car non confirmé. Compléter depuis l'application (touche H). Ctrl+Y pour rétablir est déduit.",
+  "sources": [
+    {
+      "url": "https://docs.darktable.org/usermanual/4.6/en/overview/user-interface/keyboard-shortcuts/",
+      "titre": "darktable 4.6 manual : keyboard shortcuts"
+    },
+    {
+      "url": "https://docs.darktable.org/usermanual/4.6/en/lighttable/digital-asset-management/star-color/",
+      "titre": "darktable 4.6 manual : star ratings and color labels"
+    }
+  ],
+  "actions": [
+    {
+      "id": "aide-raccourcis",
+      "nom": "Aide raccourcis",
+      "groupe": "Aide",
+      "win": "h",
+      "mac": "h",
+      "linux": "h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-help"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": "ctrl+y",
+      "source": null,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "note-0",
+      "nom": "Aucune étoile",
+      "groupe": "Notation",
+      "win": "0",
+      "mac": "0",
+      "linux": "0",
+      "source": 1,
+      "priorite": 1,
+      "picto": "star-off"
+    },
+    {
+      "id": "note-1",
+      "nom": "1 étoile",
+      "groupe": "Notation",
+      "win": "1",
+      "mac": "1",
+      "linux": "1",
+      "source": 1,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "note-2",
+      "nom": "2 étoiles",
+      "groupe": "Notation",
+      "win": "2",
+      "mac": "2",
+      "linux": "2",
+      "source": 1,
+      "priorite": 2,
+      "picto": "star"
+    },
+    {
+      "id": "note-3",
+      "nom": "3 étoiles",
+      "groupe": "Notation",
+      "win": "3",
+      "mac": "3",
+      "linux": "3",
+      "source": 1,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "note-4",
+      "nom": "4 étoiles",
+      "groupe": "Notation",
+      "win": "4",
+      "mac": "4",
+      "linux": "4",
+      "source": 1,
+      "priorite": 2,
+      "picto": "star"
+    },
+    {
+      "id": "note-5",
+      "nom": "5 étoiles",
+      "groupe": "Notation",
+      "win": "5",
+      "mac": "5",
+      "linux": "5",
+      "source": 1,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "rejeter",
+      "nom": "Rejeter",
+      "groupe": "Notation",
+      "win": "r",
+      "mac": "r",
+      "linux": "r",
+      "source": 1,
+      "priorite": 1,
+      "picto": "ban"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Notation et réglages au curseur",
+      "raison": "molette ou souris"
+    }
+  ]
+}

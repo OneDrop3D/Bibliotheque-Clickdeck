@@ -1,0 +1,640 @@
+{
+  "id": "lightburn",
+  "nom": "LightBurn",
+  "editeur": "LightBurn Software",
+  "site": "https://lightburnsoftware.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "LightBurn",
+    "mac": "LightBurn"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page Hotkeys de la documentation LightBurn, qui se présente comme documentation héritée (version 1.6 ou antérieure) : à vérifier dans la version installée (Fichier > Préférences > Modifier les raccourcis). Les raccourcis de rotation ne fonctionnent que dans la fenêtre d'édition. Les touches du pavé numérique (jog) exigent Verr Num et l'outil texte inactif, non inclus. Linux non vérifié. Éditer les nœuds : Ctrl+` n'a pas d'équivalent Mac retenu (Cmd+` change de fenêtre sous macOS).",
+  "sources": [
+    {
+      "url": "https://docs.lightburnsoftware.com/Hotkeys.html",
+      "titre": "LightBurn - Hotkeys (documentation)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "import"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "enregistrer-gcode",
+      "nom": "Enregistrer G-code",
+      "groupe": "Fichier",
+      "win": "alt+shift+l",
+      "mac": "alt+shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-code"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Fichier",
+      "win": "alt+x",
+      "mac": "alt+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "share"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "coller-sur-place",
+      "nom": "Coller sur place",
+      "groupe": "Édition",
+      "win": "alt+v",
+      "mac": "alt+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "convertir-trace",
+      "nom": "Convertir en tracé",
+      "groupe": "Édition",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "spline"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Outils",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ellipse",
+      "nom": "Ellipse",
+      "groupe": "Outils",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Outils",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "editer-noeuds",
+      "nom": "Éditer les nœuds",
+      "groupe": "Outils",
+      "win": "ctrl+backquote",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "union-booleenne",
+      "nom": "Union booléenne",
+      "groupe": "Outils",
+      "win": "alt+plus",
+      "mac": "alt+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "combine"
+    },
+    {
+      "id": "soustraction",
+      "nom": "Soustraction",
+      "groupe": "Outils",
+      "win": "alt+minus",
+      "mac": "alt+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-minus"
+    },
+    {
+      "id": "assistant-booleen",
+      "nom": "Assistant booléen",
+      "groupe": "Outils",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "blend"
+    },
+    {
+      "id": "ajuster-image",
+      "nom": "Ajuster l'image",
+      "groupe": "Outils",
+      "win": "alt+i",
+      "mac": "alt+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image"
+    },
+    {
+      "id": "tracer-image",
+      "nom": "Tracer l'image",
+      "groupe": "Outils",
+      "win": "alt+t",
+      "mac": "alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-page",
+      "nom": "Zoom sur la page",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu",
+      "groupe": "Affichage",
+      "win": "alt+p",
+      "mac": "alt+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Affichage",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help"
+    },
+    {
+      "id": "position-laser",
+      "nom": "Position laser",
+      "groupe": "Machine",
+      "win": "alt+l",
+      "mac": "alt+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair"
+    },
+    {
+      "id": "config-rotative",
+      "nom": "Config. rotative",
+      "groupe": "Machine",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Disposition",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Disposition",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ungroup"
+    },
+    {
+      "id": "miroir-horizontal",
+      "nom": "Miroir horizontal",
+      "groupe": "Disposition",
+      "win": "ctrl+shift+h",
+      "mac": "cmd+shift+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "miroir-vertical",
+      "nom": "Miroir vertical",
+      "groupe": "Disposition",
+      "win": "ctrl+shift+v",
+      "mac": "cmd+shift+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "flip-vertical"
+    },
+    {
+      "id": "aligner-gauche",
+      "nom": "Aligner à gauche",
+      "groupe": "Disposition",
+      "win": "alt+left",
+      "mac": "alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-start-vertical"
+    },
+    {
+      "id": "aligner-droite",
+      "nom": "Aligner à droite",
+      "groupe": "Disposition",
+      "win": "alt+right",
+      "mac": "alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-end-vertical"
+    },
+    {
+      "id": "aligner-haut",
+      "nom": "Aligner en haut",
+      "groupe": "Disposition",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-start-horizontal"
+    },
+    {
+      "id": "aligner-bas",
+      "nom": "Aligner en bas",
+      "groupe": "Disposition",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-end-horizontal"
+    },
+    {
+      "id": "premier-plan",
+      "nom": "Premier plan",
+      "groupe": "Disposition",
+      "win": "ctrl+pageup",
+      "mac": "cmd+pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "bring-to-front"
+    },
+    {
+      "id": "arriere-plan",
+      "nom": "Arrière-plan",
+      "groupe": "Disposition",
+      "win": "ctrl+pagedown",
+      "mac": "cmd+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "send-to-back"
+    },
+    {
+      "id": "rotation-horaire",
+      "nom": "Rotation +10°",
+      "groupe": "Disposition",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "rotation-antihoraire",
+      "nom": "Rotation -10°",
+      "groupe": "Disposition",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "deplacer-gauche",
+      "nom": "Déplacer gauche",
+      "groupe": "Déplacement",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-left"
+    },
+    {
+      "id": "deplacer-droite",
+      "nom": "Déplacer droite",
+      "groupe": "Déplacement",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-right"
+    },
+    {
+      "id": "deplacer-haut",
+      "nom": "Déplacer haut",
+      "groupe": "Déplacement",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-up"
+    },
+    {
+      "id": "deplacer-bas",
+      "nom": "Déplacer bas",
+      "groupe": "Déplacement",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-down"
+    },
+    {
+      "id": "cadrer",
+      "nom": "Cadrer la sélection",
+      "groupe": "Machine",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "decalage",
+      "nom": "Décalage",
+      "groupe": "Outils",
+      "win": "alt+o",
+      "mac": "alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Édition",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-horizontal-2"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Arrêt de la machine (Ctrl+Pause)",
+      "raison": "touche Pause non supportée par ClickDeck"
+    },
+    {
+      "nom": "Pause du job",
+      "raison": "touche Pause non supportée par ClickDeck"
+    },
+    {
+      "nom": "Souder les formes (Ctrl+W)",
+      "raison": "Cmd+W ferme la fenêtre sous macOS, non retenu"
+    }
+  ]
+}

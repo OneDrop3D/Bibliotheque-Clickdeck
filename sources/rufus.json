@@ -1,0 +1,17 @@
+{
+  "id": "rufus",
+  "nom": "Rufus",
+  "editeur": "Akeo Consulting",
+  "site": "https://rufus.ie/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Rufus" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire à une fenêtre sans raccourcis clavier documentés. Fonctions relevées sur la page officielle : création de clés USB bootables, ISO, lecteurs DOS, flashage de firmware.",
+  "sources": [ { "url": "https://rufus.ie/en/", "titre": "Rufus - Page officielle (aucun raccourci mentionné)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Créer une clé bootable", "raison": "action à la souris, sans raccourci" } ]
+}

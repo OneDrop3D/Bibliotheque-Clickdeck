@@ -1,0 +1,30 @@
+{
+  "id": "nextcloud",
+  "nom": "Nextcloud Desktop",
+  "editeur": "Nextcloud GmbH",
+  "site": "https://nextcloud.com/install/#install-clients",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Nextcloud",
+    "mac": "Nextcloud",
+    "linux": "Nextcloud"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "note": "Client de synchronisation en arrière-plan. La documentation consultée (docs.nextcloud.com) n'a pas répondu et aucun raccourci clavier n'a pu être vérifié.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Ouvrir le dossier Nextcloud",
+      "raison": "aucun raccourci documenté"
+    }
+  ],
+  "raccourcis_par_defaut": false
+}

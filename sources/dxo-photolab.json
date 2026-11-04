@@ -1,0 +1,56 @@
+{
+  "id": "dxo-photolab",
+  "nom": "DxO PhotoLab",
+  "editeur": "DxO",
+  "site": "https://www.dxo.com/dxo-photolab/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "DxO PhotoLab",
+    "mac": "DxO PhotoLab"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seuls deux raccourcis sont écrits dans le guide officiel DxO PhotoLab (page Interface) : grille et palettes. La liste complète est dans l'application (Aide > Raccourcis sous Windows, Aide > Raccourcis clavier sous Mac) ; la page d'aide en ligne renvoie une erreur. À compléter depuis l'application. Mac : Ctrl-clic est donné en Cmd-clic par le guide ; les raccourcis à modificateur sont ceux du guide pour Mac.",
+  "sources": [
+    {
+      "url": "https://userguides.dxo.com/photolab/interface/",
+      "titre": "DxO PhotoLab User Guide : Interface"
+    }
+  ],
+  "actions": [
+    {
+      "id": "grille",
+      "nom": "Grille",
+      "groupe": "Affichage",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "palettes",
+      "nom": "Masquer palettes",
+      "groupe": "Affichage",
+      "win": "f9",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left-close"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Recadrage libre",
+      "raison": "touche maintenue (Ctrl maintenu)"
+    }
+  ]
+}

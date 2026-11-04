@@ -1,0 +1,292 @@
+{
+  "id": "mediamonkey",
+  "nom": "MediaMonkey",
+  "editeur": "Ventis Media",
+  "site": "https://www.mediamonkey.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "MediaMonkey"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis issus du wiki officiel MediaMonkey (Outils > Options > Touches de raccourci pour les modifier). Les anciennes entrées génériques étaient fausses : Ctrl+P y lance la lecture et Ctrl+O l'arrêt. Page non datée, à recouper sur la version installée.",
+  "sources": [
+    {
+      "url": "https://www.mediamonkey.com/wiki/WebHelp:Keyboard_Shortcuts",
+      "titre": "Keyboard Shortcuts (wiki MediaMonkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / Pause",
+      "groupe": "Lecture",
+      "win": "ctrl+p",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "linux": null
+    },
+    {
+      "id": "precedent",
+      "nom": "Piste précédente",
+      "groupe": "Lecture",
+      "win": "ctrl+b",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back",
+      "linux": null
+    },
+    {
+      "id": "suivant",
+      "nom": "Piste suivante",
+      "groupe": "Lecture",
+      "win": "ctrl+n",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward",
+      "linux": null
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêt",
+      "groupe": "Lecture",
+      "win": "ctrl+o",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square",
+      "linux": null
+    },
+    {
+      "id": "reculer-5s",
+      "nom": "Reculer de 5 s",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+b",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind",
+      "linux": null
+    },
+    {
+      "id": "avancer-5s",
+      "nom": "Avancer de 5 s",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+n",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward",
+      "linux": null
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+up",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2",
+      "linux": null
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume -",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+down",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1",
+      "linux": null
+    },
+    {
+      "id": "lire-maintenant",
+      "nom": "Lire maintenant",
+      "groupe": "Lecture",
+      "win": "enter",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play-circle",
+      "linux": null
+    },
+    {
+      "id": "lire-apres",
+      "nom": "Lire après",
+      "groupe": "Lecture",
+      "win": "ctrl+enter",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-end",
+      "linux": null
+    },
+    {
+      "id": "lire-ensuite",
+      "nom": "Lire ensuite",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+enter",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-start",
+      "linux": null
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Pistes",
+      "win": "shift+enter",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-pen",
+      "linux": null
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Pistes",
+      "win": "delete",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2",
+      "linux": null
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "linux": null
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Pistes",
+      "win": "ctrl+a",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-select",
+      "deduit": true,
+      "linux": null
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser la vue",
+      "groupe": "Affichage",
+      "win": "f5",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw",
+      "linux": null
+    },
+    {
+      "id": "en-cours",
+      "nom": "En lecture",
+      "groupe": "Affichage",
+      "win": "f6",
+      "mac": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "audio-lines",
+      "linux": null
+    },
+    {
+      "id": "bibliotheque",
+      "nom": "Bibliothèque",
+      "groupe": "Affichage",
+      "win": "f7",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "library",
+      "linux": null
+    },
+    {
+      "id": "artistes",
+      "nom": "Artistes",
+      "groupe": "Affichage",
+      "win": "f8",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mic",
+      "linux": null
+    },
+    {
+      "id": "albums",
+      "nom": "Albums",
+      "groupe": "Affichage",
+      "win": "f9",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "disc-3",
+      "linux": null
+    },
+    {
+      "id": "genres",
+      "nom": "Genres",
+      "groupe": "Affichage",
+      "win": "f10",
+      "mac": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "tags",
+      "linux": null
+    },
+    {
+      "id": "annees",
+      "nom": "Années",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "calendar",
+      "linux": null
+    },
+    {
+      "id": "equaliseur",
+      "nom": "Égaliseur",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+e",
+      "mac": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sliders-vertical",
+      "linux": null
+    },
+    {
+      "id": "mode-fete",
+      "nom": "Mode fête",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+m",
+      "mac": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "party-popper",
+      "linux": null
+    }
+  ],
+  "non_faisable": []
+}

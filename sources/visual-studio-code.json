@@ -1,0 +1,436 @@
+{
+  "id": "visual-studio-code",
+  "nom": "Visual Studio Code",
+  "editeur": "Microsoft",
+  "site": "https://code.visualstudio.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Code",
+    "mac": "Visual Studio Code"
+  },
+  "raccourcis_modifiables": true,
+  "raccourcis_par_defaut": true,
+  "note": "Touches données pour clavier US. Les accords type Ctrl+K S sont mis en non_faisable (une seule combinaison par action). Rechercher dans les fichiers : la page officielle indique Ctrl+Shift+F sous le nom Afficher la recherche.",
+  "sources": [
+    {
+      "url": "https://code.visualstudio.com/docs/reference/default-keybindings",
+      "titre": "Default Keybindings (VS Code)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "shift+cmd+s",
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "fermer-editeur",
+      "nom": "Fermer éditeur",
+      "groupe": "Fichier",
+      "win": "ctrl+f4",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "shift+cmd+z",
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "commenter-ligne",
+      "nom": "Commenter ligne",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": "ctrl+slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "dupliquer-ligne",
+      "nom": "Dupliquer ligne",
+      "groupe": "Édition",
+      "win": "shift+alt+down",
+      "mac": "shift+alt+down",
+      "linux": "ctrl+shift+alt+down",
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+shift+k",
+      "mac": "shift+cmd+k",
+      "linux": "ctrl+shift+k",
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "ligne-haut",
+      "nom": "Ligne vers le haut",
+      "groupe": "Édition",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": "alt+up",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "ligne-bas",
+      "nom": "Ligne vers le bas",
+      "groupe": "Édition",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": "alt+down",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+h",
+      "mac": "alt+cmd+f",
+      "linux": "ctrl+h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "formater",
+      "nom": "Formater document",
+      "groupe": "Édition",
+      "win": "shift+alt+f",
+      "mac": "shift+alt+f",
+      "linux": "ctrl+shift+i",
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-left"
+    },
+    {
+      "id": "palette-commandes",
+      "nom": "Palette commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "shift+cmd+p",
+      "linux": "ctrl+shift+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "command"
+    },
+    {
+      "id": "aller-fichier",
+      "nom": "Aller au fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "ctrl+g",
+      "linux": "ctrl+g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "aller-symbole",
+      "nom": "Aller au symbole",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+o",
+      "mac": "shift+cmd+o",
+      "linux": "ctrl+shift+o",
+      "source": 0,
+      "priorite": 2,
+      "picto": "braces"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "recherche-projet",
+      "nom": "Recherche projet",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+f",
+      "mac": "shift+cmd+f",
+      "linux": "ctrl+shift+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search-code"
+    },
+    {
+      "id": "explorateur",
+      "nom": "Explorateur",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+e",
+      "mac": "shift+cmd+e",
+      "linux": "ctrl+shift+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-tree"
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal",
+      "groupe": "Interface",
+      "win": "ctrl+backquote",
+      "mac": "ctrl+backquote",
+      "linux": "ctrl+backquote",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Interface",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": "ctrl+b",
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "diviser-editeur",
+      "nom": "Diviser éditeur",
+      "groupe": "Interface",
+      "win": "ctrl+backslash",
+      "mac": "cmd+backslash",
+      "linux": "ctrl+backslash",
+      "source": 0,
+      "priorite": 2,
+      "picto": "columns-2"
+    },
+    {
+      "id": "controle-source",
+      "nom": "Contrôle source",
+      "groupe": "Git",
+      "win": "ctrl+shift+g",
+      "mac": "ctrl+shift+g",
+      "linux": "ctrl+shift+g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-branch"
+    },
+    {
+      "id": "lancer-debogage",
+      "nom": "Lancer débogage",
+      "groupe": "Développement",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lancer-sans-debogage",
+      "nom": "Sans débogage",
+      "groupe": "Développement",
+      "win": "ctrl+f5",
+      "mac": "ctrl+f5",
+      "linux": "ctrl+f5",
+      "source": 0,
+      "priorite": 2,
+      "picto": "play-circle"
+    },
+    {
+      "id": "point-arret",
+      "nom": "Point d'arrêt",
+      "groupe": "Développement",
+      "win": "f9",
+      "mac": "f9",
+      "linux": "f9",
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pas-a-pas-detaille",
+      "nom": "Entrer fonction",
+      "groupe": "Développement",
+      "win": "f11",
+      "mac": "f11",
+      "linux": "f11",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-right"
+    },
+    {
+      "id": "extensions",
+      "nom": "Extensions",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+x",
+      "mac": "shift+cmd+x",
+      "linux": "ctrl+shift+x",
+      "source": 0,
+      "priorite": 2,
+      "picto": "blocks"
+    },
+    {
+      "id": "occurrence-suivante",
+      "nom": "Occurrence suivante",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Interface",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": "ctrl+comma",
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Enregistrer tout",
+      "raison": "séquence (Ctrl+K S)"
+    },
+    {
+      "nom": "Mode Zen",
+      "raison": "séquence (Ctrl+K Z)"
+    },
+    {
+      "nom": "Pas-à-pas (step over)",
+      "raison": "non indiqué dans la source"
+    },
+    {
+      "nom": "Arrêter le débogage",
+      "raison": "non indiqué dans la source"
+    },
+    {
+      "nom": "Commit Git",
+      "raison": "non indiqué dans la source"
+    }
+  ],
+  "fiabilite": "officielle",
+  "sans_raccourcis": false,
+  "section": "Développement & terminal (desktop)"
+}

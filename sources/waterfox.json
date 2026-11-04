@@ -1,0 +1,135 @@
+{
+  "id": "waterfox",
+  "nom": "Waterfox",
+  "editeur": "Waterfox Limited",
+  "site": "https://www.waterfox.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Waterfox",
+    "mac": "Waterfox"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source Waterfox/Firefox illisible (support.mozilla.org ne se charge pas, recherche web épuisée). Seules les commandes standard des menus sont listées (déduites) ; raccourcis propres à Firefox (onglets, rechargement, etc.) à ajouter après vérification.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "priorite": 1,
+      "picto": "clipboard",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "priorite": 2,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "priorite": 2,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtres",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "priorite": 2,
+      "picto": "app-window",
+      "deduit": true
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

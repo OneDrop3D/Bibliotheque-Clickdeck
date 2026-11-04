@@ -1,0 +1,282 @@
+{
+  "id": "bitwarden",
+  "nom": "Bitwarden Desktop",
+  "editeur": "Bitwarden Inc.",
+  "site": "https://bitwarden.com/download/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Bitwarden",
+    "mac": "Bitwarden"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Bitwarden (Windows et Mac). Réduire n'a pas de raccourci Mac fiable (Cmd+M est réservé), donc non renseigné côté Mac. Plein écran (F11 Windows, Fn+F Mac) non ajouté.",
+  "sources": [
+    {
+      "url": "https://bitwarden.com/help/keyboard-shortcuts/",
+      "titre": "Keyboard shortcuts (Bitwarden Help Center)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Coffre",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Coffre",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "generateur",
+      "nom": "Générateur",
+      "groupe": "Coffre",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "key-round"
+    },
+    {
+      "id": "nouvel-identifiant",
+      "nom": "Nouvel identifiant",
+      "groupe": "Coffre",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus-circle"
+    },
+    {
+      "id": "copier-identifiant",
+      "nom": "Copier identifiant",
+      "groupe": "Coffre",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "user"
+    },
+    {
+      "id": "copier-mdp",
+      "nom": "Copier mdp",
+      "groupe": "Coffre",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "key"
+    },
+    {
+      "id": "copier-totp",
+      "nom": "Copier code TOTP",
+      "groupe": "Coffre",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "timer"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-reinitialiser",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer fenêtre",
+      "groupe": "Fenêtre",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "masquer-barre",
+      "nom": "Vers zone notif.",
+      "groupe": "Fenêtre",
+      "win": "ctrl+shift+m",
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "premier-plan",
+      "nom": "Toujours au-dessus",
+      "groupe": "Fenêtre",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pin"
+    },
+    {
+      "id": "reduire",
+      "nom": "Réduire",
+      "groupe": "Fenêtre",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minimize-2"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fenêtre",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fenêtre",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "power"
+    },
+    {
+      "id": "recharger",
+      "nom": "Recharger",
+      "groupe": "Fenêtre",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    }
+  ],
+  "non_faisable": []
+}

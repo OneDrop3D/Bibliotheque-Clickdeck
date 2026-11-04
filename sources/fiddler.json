@@ -1,0 +1,309 @@
+{
+  "id": "fiddler",
+  "nom": "Fiddler Everywhere",
+  "editeur": "Progress Telerik",
+  "site": "https://www.telerik.com/fiddler",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Fiddler Everywhere",
+    "mac": "Fiddler Everywhere"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de Fiddler Everywhere (Windows et Mac) tirés de la documentation officielle. Fiddler Classic (Windows) a d'autres raccourcis, non couverts. Les touches seules (R, E, U) agissent sur les sessions sélectionnées dans la liste.",
+  "sources": [
+    {
+      "url": "https://www.telerik.com/fiddler/fiddler-everywhere/documentation/user-guide/keyboard-shortcuts",
+      "titre": "Fiddler Everywhere - Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "proxy-on-off",
+      "nom": "Activer le proxy",
+      "groupe": "Capture",
+      "win": "f12",
+      "mac": "f12",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "ouvrir-navigateur",
+      "nom": "Ouvrir navigateur",
+      "groupe": "Capture",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "globe"
+    },
+    {
+      "id": "ouvrir-terminal",
+      "nom": "Ouvrir terminal",
+      "groupe": "Capture",
+      "win": "ctrl+backquote",
+      "mac": "ctrl+backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "terminal"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Trafic",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "effacer-filtres",
+      "nom": "Effacer filtres",
+      "groupe": "Trafic",
+      "win": "ctrl+shift+quote",
+      "mac": "cmd+shift+quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "filter-x"
+    },
+    {
+      "id": "vider-sessions",
+      "nom": "Vider les sessions",
+      "groupe": "Trafic",
+      "win": "shift+delete",
+      "mac": "shift+delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "enregistrer-sessions",
+      "nom": "Enreg. sessions",
+      "groupe": "Trafic",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Trafic",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks"
+    },
+    {
+      "id": "copier-url",
+      "nom": "Copier l'URL",
+      "groupe": "Trafic",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "rejouer",
+      "nom": "Rejouer",
+      "groupe": "Trafic",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "modifier-composer",
+      "nom": "Modifier",
+      "groupe": "Trafic",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "regle-nouvelle",
+      "nom": "Nouvelle règle",
+      "groupe": "Trafic",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus"
+    },
+    {
+      "id": "reprendre-point-arret",
+      "nom": "Reprendre (arrêt)",
+      "groupe": "Trafic",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "play"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Trafic",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "upload"
+    },
+    {
+      "id": "accueil",
+      "nom": "Accueil",
+      "groupe": "Navigation",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "house"
+    },
+    {
+      "id": "trafic",
+      "nom": "Trafic",
+      "groupe": "Navigation",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "activity"
+    },
+    {
+      "id": "composer",
+      "nom": "Composer",
+      "groupe": "Navigation",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "regles",
+      "nom": "Règles",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-filter"
+    },
+    {
+      "id": "nouvel-onglet-composer",
+      "nom": "Nouvelle requête",
+      "groupe": "Composer",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "executer-requete",
+      "nom": "Exécuter",
+      "groupe": "Composer",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Navigation",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Navigation",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "masquer-barre",
+      "nom": "Barre latérale",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+b",
+      "mac": "cmd+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-left"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Points d'arrêt, limitation de débit",
+      "raison": "pas de raccourci documenté"
+    }
+  ]
+}

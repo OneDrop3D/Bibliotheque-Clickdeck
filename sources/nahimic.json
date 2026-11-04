@@ -1,0 +1,21 @@
+{
+  "id": "nahimic",
+  "nom": "Nahimic",
+  "editeur": "A-Volute",
+  "site": "https://www.nahimic.com",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Nahimic"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Fiche incomplète : le site officiel n'a pas pu être lu (erreur de connexion) et la recherche web était indisponible (quota épuisé). Aucun raccourci n'a été vérifié, donc aucune action n'est proposée. À reprendre une fois le site accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

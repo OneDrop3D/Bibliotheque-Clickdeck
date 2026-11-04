@@ -1,0 +1,23 @@
+{
+  "id": "spine",
+  "nom": "Spine",
+  "editeur": "Esoteric Software",
+  "site": "https://esotericsoftware.com/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Spine", "mac": "Spine" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Relevé partiel : seule la page d'interface de l'éditeur a pu être lue (la liste complète des raccourcis n'était pas accessible, recherche web indisponible). À compléter depuis hotkeys.txt / la documentation Spine.",
+  "sources": [ { "url": "https://en.esotericsoftware.com/spine-ui", "titre": "Spine User Guide - User interface" } ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "zoom-100", "nom": "Zoom 100 %", "groupe": "Affichage", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "zoom-ajuste", "nom": "Ajuster au cadre", "groupe": "Affichage", "win": "ctrl+shift+f", "mac": "cmd+shift+f", "linux": null, "source": 0, "priorite": 2, "picto": "maximize" }
+  ],
+  "non_faisable": [ { "nom": "Panoramique / zoom (J, U + souris)", "raison": "touche maintenue et souris" } ]
+}

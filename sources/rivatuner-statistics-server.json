@@ -1,0 +1,17 @@
+{
+  "id": "rivatuner-statistics-server",
+  "nom": "RivaTuner Statistics Server",
+  "editeur": "Guru3D",
+  "site": "https://www.guru3d.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "RivaTuner Statistics Server" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Les raccourcis de RTSS sont définis par l'utilisateur dans ses paramètres et n'ont pas de valeurs par défaut vérifiées. Aucune source n'a pu être consultée. Aucune action n'est proposée à ce stade.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

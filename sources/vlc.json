@@ -1,0 +1,271 @@
+{
+  "id": "vlc",
+  "nom": "VLC",
+  "editeur": "VideoLAN",
+  "site": "https://www.videolan.org/vlc/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "VLC media player",
+    "mac": "VLC"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page wiki VideoLAN (interface Qt, ancienne, sans précision Mac) ; l'instantané Mac vient de la FAQ VideoLAN. Les combinaisons avec Ctrl sont laissées sans équivalent Mac faute de source ; touches simples (f, m, v, n, p...) supposées identiques sur Mac, à vérifier. Boucle A-B sans raccourci par défaut.",
+  "sources": [
+    {
+      "url": "https://wiki.videolan.org/Hotkeys/",
+      "titre": "VideoLAN Wiki - Hotkeys"
+    },
+    {
+      "url": "https://www.videolan.org/support/faq.html",
+      "titre": "VideoLAN FAQ (instantané sur Mac)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Audio",
+      "win": "m",
+      "mac": "m",
+      "linux": "m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Audio",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": "ctrl+up",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume −",
+      "groupe": "Audio",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": "ctrl+down",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "recul-5s",
+      "nom": "Reculer 5 s",
+      "groupe": "Navigation",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": "shift+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-5s",
+      "nom": "Avancer 5 s",
+      "groupe": "Navigation",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": "shift+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul-10s",
+      "nom": "Reculer 10 s",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": "alt+left",
+      "linux": "alt+left",
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-10s",
+      "nom": "Avancer 10 s",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": "alt+right",
+      "linux": "alt+right",
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul-1min",
+      "nom": "Reculer 1 min",
+      "groupe": "Navigation",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": "ctrl+left",
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-1min",
+      "nom": "Avancer 1 min",
+      "groupe": "Navigation",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": "ctrl+right",
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "sous-titres",
+      "nom": "Sous-titres",
+      "groupe": "Sous-titres",
+      "win": "v",
+      "mac": "v",
+      "linux": "v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "subtitles"
+    },
+    {
+      "id": "vitesse-plus",
+      "nom": "Vitesse +",
+      "groupe": "Lecture",
+      "win": "plus",
+      "mac": "plus",
+      "linux": "plus",
+      "source": 0,
+      "priorite": 2,
+      "picto": "gauge"
+    },
+    {
+      "id": "vitesse-moins",
+      "nom": "Vitesse −",
+      "groupe": "Lecture",
+      "win": "minus",
+      "mac": "minus",
+      "linux": "minus",
+      "source": 0,
+      "priorite": 2,
+      "picto": "gauge"
+    },
+    {
+      "id": "vitesse-normale",
+      "nom": "Vitesse normale",
+      "groupe": "Lecture",
+      "win": "equal",
+      "mac": "equal",
+      "linux": "equal",
+      "source": 0,
+      "priorite": 3,
+      "picto": "gauge"
+    },
+    {
+      "id": "instantane",
+      "nom": "Instantané",
+      "groupe": "Capture",
+      "win": "shift+s",
+      "mac": "cmd+alt+s",
+      "linux": "shift+s",
+      "source": 1,
+      "priorite": 2,
+      "picto": "camera"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": null,
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "piste-suivante",
+      "nom": "Piste suivante",
+      "groupe": "Lecture",
+      "win": "n",
+      "mac": "n",
+      "linux": "n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "piste-precedente",
+      "nom": "Piste précédente",
+      "groupe": "Lecture",
+      "win": "p",
+      "mac": "p",
+      "linux": "p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "e",
+      "mac": "e",
+      "linux": "e",
+      "source": 0,
+      "priorite": 3,
+      "picto": "step-forward"
+    },
+    {
+      "id": "boucle",
+      "nom": "Boucle",
+      "groupe": "Lecture",
+      "win": "l",
+      "mac": "l",
+      "linux": "l",
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Réglage de la molette de volume",
+      "raison": "molette"
+    }
+  ]
+}

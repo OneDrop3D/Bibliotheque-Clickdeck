@@ -1,0 +1,22 @@
+{
+  "id": "voicemeeter-banana",
+  "nom": "VoiceMeeter Banana",
+  "editeur": "VB-Audio",
+  "site": "https://vb-audio.com/Voicemeeter/banana.htm",
+  "systemes": ["windows"],
+  "lancement": { "windows": "VoiceMeeter Banana", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut n'est documenté sur la page officielle de VB-Audio. Les raccourcis se définissent soi-même dans le panneau Macro boutons de l'application. Les actions ci-dessous ne sont donc pas des raccourcis d'origine : elles restent vides, et l'utilisateur assigne ses combinaisons.",
+  "sources": [
+    { "url": "https://vb-audio.com/Voicemeeter/banana.htm", "titre": "VoiceMeeter Banana - VB-Audio (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglage des faders de canal", "raison": "souris" },
+    { "nom": "Gain des canaux à la molette", "raison": "molette" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sylenth1",
+  "nom": "Sylenth1",
+  "editeur": "Lennar Digital",
+  "site": "https://www.lennardigital.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Sylenth1", "mac": "Sylenth1" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Synthétiseur VST/AU/AAX piloté par la DAW hôte. Aucun raccourci clavier documenté n'a été trouvé : la page du manuel officiel n'a pas pu être lue (404) et les recherches ne donnent que des forums (flèches haut/bas du clavier pour changer de preset, non confirmé par l'éditeur). À vérifier dans le manuel PDF actuel de Lennar Digital avant d'ajouter des actions.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Tourner un bouton ou curseur", "raison": "souris" }
+  ]
+}

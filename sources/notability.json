@@ -1,0 +1,482 @@
+{
+  "id": "notability",
+  "nom": "Notability",
+  "editeur": "Ginger Labs",
+  "site": "https://www.gingerlabs.com/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Notability"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Mac relevés sur la page officielle Ginger Labs (Keyboard shortcuts). Outils 1 à 5 : positionnels, selon l'ordre de la boîte à outils. Ouvrir, Enregistrer et Enregistrer sous retirés : non confirmés (enregistrement automatique).",
+  "sources": [
+    {
+      "url": "https://support.gingerlabs.com/hc/en-us/articles/360021489291-Keyboard-shortcuts",
+      "titre": "Notability - Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "nouvelle-note-modele",
+      "nom": "Note depuis modèle",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "alt+cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-stack"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "app-window"
+    },
+    {
+      "id": "bibliotheque",
+      "nom": "Bibliothèque",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "library"
+    },
+    {
+      "id": "mode-concentration",
+      "nom": "Mode concentration",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "focus"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Notes",
+      "win": null,
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "outil-1",
+      "nom": "Outil 1",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pen"
+    },
+    {
+      "id": "outil-2",
+      "nom": "Outil 2",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "highlighter"
+    },
+    {
+      "id": "outil-3",
+      "nom": "Outil 3",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "outil-4",
+      "nom": "Outil 4",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "cmd+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "outil-5",
+      "nom": "Outil 5",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "cmd+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pencil"
+    },
+    {
+      "id": "couleur-suivante",
+      "nom": "Couleur suivante",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "alt+cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette"
+    },
+    {
+      "id": "couleur-precedente",
+      "nom": "Couleur précédente",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "alt+cmd+9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette"
+    },
+    {
+      "id": "couleur-1",
+      "nom": "Couleur 1",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "alt+cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle"
+    },
+    {
+      "id": "couleur-2",
+      "nom": "Couleur 2",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "alt+cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle"
+    },
+    {
+      "id": "couleur-3",
+      "nom": "Couleur 3",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "alt+cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle"
+    },
+    {
+      "id": "taille-1",
+      "nom": "Taille 1",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "ctrl+alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "taille-2",
+      "nom": "Taille 2",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "ctrl+alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "taille-3",
+      "nom": "Taille 3",
+      "groupe": "Outils",
+      "win": null,
+      "mac": "ctrl+alt+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "zone-texte",
+      "nom": "Zone de texte",
+      "groupe": "Insertion",
+      "win": null,
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-cursor-input"
+    },
+    {
+      "id": "inserer-photo",
+      "nom": "Insérer une photo",
+      "groupe": "Insertion",
+      "win": null,
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "inserer-math",
+      "nom": "Insérer formule",
+      "groupe": "Insertion",
+      "win": null,
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sigma"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-down"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-up"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "enregistrer-audio",
+      "nom": "Enregistrer audio",
+      "groupe": "Audio",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic"
+    },
+    {
+      "id": "avance-audio",
+      "nom": "Avance audio",
+      "groupe": "Audio",
+      "win": null,
+      "mac": "cmd+shift+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "retour-audio",
+      "nom": "Retour audio",
+      "groupe": "Audio",
+      "win": null,
+      "mac": "cmd+shift+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rewind"
+    }
+  ],
+  "non_faisable": []
+}

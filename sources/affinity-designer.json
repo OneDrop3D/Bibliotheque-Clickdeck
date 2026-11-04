@@ -1,0 +1,460 @@
+{
+  "id": "affinity-designer",
+  "nom": "Affinity Designer",
+  "editeur": "Serif",
+  "site": "https://www.serif.com/fr-fr/designer",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Affinity Designer",
+    "mac": "Affinity Designer"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Touches d'outils relevées sur la page officielle Affinity Designer 2 ; les modificateurs, perdus à l'extraction, sont déduits (Ctrl Windows / Cmd Mac). Zoom ajusté = Ctrl/Cmd+0, 100 % = Ctrl/Cmd+1. Coller le style retiré (modificateurs incertains, proche de Coller dedans).",
+  "sources": [
+    {
+      "url": "https://affinity.help/designer2/en-US.lproj/pages/Workspace/shortcuts.html",
+      "titre": "Keyboard shortcuts (Affinity Designer 2, aide officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-up-left"
+    },
+    {
+      "id": "noeud",
+      "nom": "Nœud",
+      "groupe": "Outils",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "spline"
+    },
+    {
+      "id": "plume",
+      "nom": "Plume",
+      "groupe": "Outils",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "crayon",
+      "nom": "Crayon",
+      "groupe": "Outils",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Outils",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "couteau",
+      "nom": "Couteau",
+      "groupe": "Outils",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "pinceau-vectoriel",
+      "nom": "Pinceau vectoriel",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "brush"
+    },
+    {
+      "id": "degrade",
+      "nom": "Dégradé",
+      "groupe": "Outils",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "blend"
+    },
+    {
+      "id": "transparence",
+      "nom": "Transparence",
+      "groupe": "Outils",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "contrast"
+    },
+    {
+      "id": "constructeur-formes",
+      "nom": "Constructeur",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "combine"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "main",
+      "nom": "Main",
+      "groupe": "Navigation",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "zoom",
+      "nom": "Zoom",
+      "groupe": "Navigation",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "ajuster-ecran",
+      "nom": "Ajuster écran",
+      "groupe": "Navigation",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Navigation",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bounding-box",
+      "deduit": true
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Objet",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "group",
+      "deduit": true
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Objet",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ungroup",
+      "deduit": true
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Objet",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus",
+      "deduit": true
+    },
+    {
+      "id": "avant-plan",
+      "nom": "Premier plan",
+      "groupe": "Objet",
+      "win": "ctrl+shift+bracketright",
+      "mac": "cmd+shift+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bring-to-front",
+      "deduit": true
+    },
+    {
+      "id": "arriere-plan",
+      "nom": "Arrière-plan",
+      "groupe": "Objet",
+      "win": "ctrl+shift+bracketleft",
+      "mac": "cmd+shift+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "send-to-back",
+      "deduit": true
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Objet",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "lock",
+      "deduit": true
+    },
+    {
+      "id": "regles",
+      "nom": "Afficher règles",
+      "groupe": "Affichage",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ruler",
+      "deduit": true
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Système",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation de la vue à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Taille du pinceau à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Déplacer en glissant la souris",
+      "raison": "souris"
+    }
+  ]
+}

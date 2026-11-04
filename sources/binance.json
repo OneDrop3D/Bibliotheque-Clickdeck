@@ -1,0 +1,17 @@
+{
+  "id": "binance",
+  "nom": "Binance Desktop",
+  "editeur": "Binance",
+  "site": "https://www.binance.com/en/support/faq",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Binance", "mac": "Binance" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier trouvé dans la documentation d'aide Binance (page FAQ lue, qui mentionne l'application desktop sans lister de raccourcis). Pas de liste de fonctions vérifiée : l'application est une interface de trading, à utiliser sans raccourcis ClickDeck. Lecture sans source de raccourcis, à reprendre si l'éditeur publie une liste.",
+  "sources": [ { "url": "https://www.binance.com/en/support/faq", "titre": "Binance Support FAQ" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Passer un ordre d'achat ou de vente", "raison": "aucun raccourci documenté" } ]
+}

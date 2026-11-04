@@ -1,0 +1,541 @@
+{
+  "id": "zbrush",
+  "nom": "ZBrush",
+  "editeur": "Maxon",
+  "site": "https://www.maxon.net/zbrush",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "ZBrush",
+    "mac": "ZBrush"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Windows vérifiés sur la documentation Maxon (classés par palette). Les équivalents Mac ne sont pas renseignés : non vérifiés dans les sources consultées. Les touches Ctrl sont celles de la documentation. Souris lazy = Lazy Mouse (touche L).",
+  "sources": [
+    {
+      "url": "https://help.maxon.net/zbr/en-us/Content/html/user-guide/keyboard-shortcuts/shortcuts-by-palette/shortcuts-by-palette.html",
+      "titre": "ZBrush : Shortcuts by Palette"
+    }
+  ],
+  "actions": [
+    {
+      "id": "palette_outils",
+      "nom": "Palette Outils",
+      "groupe": "Palettes",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wrench"
+    },
+    {
+      "id": "pinceaux",
+      "nom": "Pinceaux",
+      "groupe": "Palettes",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "traits",
+      "nom": "Traits",
+      "groupe": "Palettes",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "alphas",
+      "nom": "Alphas",
+      "groupe": "Palettes",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image"
+    },
+    {
+      "id": "textures",
+      "nom": "Textures",
+      "groupe": "Palettes",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "materiaux",
+      "nom": "Matériaux",
+      "groupe": "Palettes",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "palette"
+    },
+    {
+      "id": "afficher_palettes",
+      "nom": "Afficher palettes",
+      "groupe": "Palettes",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-top"
+    },
+    {
+      "id": "menu_rapide",
+      "nom": "Menu rapide",
+      "groupe": "Palettes",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "menu"
+    },
+    {
+      "id": "lightbox",
+      "nom": "Lightbox",
+      "groupe": "Palettes",
+      "win": "comma",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "images"
+    },
+    {
+      "id": "pinceau_popup",
+      "nom": "Pinceau pop-up",
+      "groupe": "Pinceaux",
+      "win": "b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "symetrie",
+      "nom": "Symétrie",
+      "groupe": "Transformer",
+      "win": "x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Transformer",
+      "win": "w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "echelle",
+      "nom": "Mise à l'échelle",
+      "groupe": "Transformer",
+      "win": "e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Transformer",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "edition",
+      "nom": "Édition",
+      "groupe": "Transformer",
+      "win": "t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "edit-3"
+    },
+    {
+      "id": "pointeur_dessin",
+      "nom": "Pointeur de dessin",
+      "groupe": "Transformer",
+      "win": "q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "centrer_maillage",
+      "nom": "Centrer maillage",
+      "groupe": "Transformer",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Projet",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Projet",
+      "win": "ctrl+shift+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "sauver_projet",
+      "nom": "Sauver le projet",
+      "groupe": "Projet",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir_projet",
+      "nom": "Ouvrir projet",
+      "groupe": "Projet",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "sauver_outil",
+      "nom": "Sauver l'outil",
+      "groupe": "Projet",
+      "win": "ctrl+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "save"
+    },
+    {
+      "id": "diviser",
+      "nom": "Diviser",
+      "groupe": "Sculpture",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers-2"
+    },
+    {
+      "id": "res_superieure",
+      "nom": "Résol. supérieure",
+      "groupe": "Sculpture",
+      "win": "d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "res_inferieure",
+      "nom": "Résol. inférieure",
+      "groupe": "Sculpture",
+      "win": "shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "afficher_masque",
+      "nom": "Afficher masque",
+      "groupe": "Masquage",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye"
+    },
+    {
+      "id": "inverser_masque",
+      "nom": "Inverser masque",
+      "groupe": "Masquage",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "masquer_tout",
+      "nom": "Masquer tout",
+      "groupe": "Masquage",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "grouper_masque",
+      "nom": "Grouper masqué",
+      "groupe": "Masquage",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "group"
+    },
+    {
+      "id": "rendu_bpr",
+      "nom": "Rendu BPR",
+      "groupe": "Rendu",
+      "win": "shift+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "tout_rendre",
+      "nom": "Tout rendre",
+      "groupe": "Rendu",
+      "win": "ctrl+shift+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "image-plus"
+    },
+    {
+      "id": "remplir_calque",
+      "nom": "Remplir calque",
+      "groupe": "Rendu",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "cuire_calque",
+      "nom": "Cuire calque",
+      "groupe": "Rendu",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flame"
+    },
+    {
+      "id": "perspective",
+      "nom": "Perspective",
+      "groupe": "Affichage",
+      "win": "p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "box"
+    },
+    {
+      "id": "grille_sol",
+      "nom": "Grille au sol",
+      "groupe": "Affichage",
+      "win": "shift+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "zoom_avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "taille_reelle",
+      "nom": "Taille réelle",
+      "groupe": "Affichage",
+      "win": "0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "taille_pinceau_plus",
+      "nom": "Augmenter taille",
+      "groupe": "Pinceaux",
+      "win": "bracketright",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "taille_pinceau_moins",
+      "nom": "Diminuer taille",
+      "groupe": "Pinceaux",
+      "win": "bracketleft",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "projection_master",
+      "nom": "Projection Master",
+      "groupe": "Pinceaux",
+      "win": "g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "couleur_curseur",
+      "nom": "Choisir couleur",
+      "groupe": "Affichage",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pipette"
+    },
+    {
+      "id": "changer_couleur",
+      "nom": "Changer couleur",
+      "groupe": "Affichage",
+      "win": "v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "capturer_objet",
+      "nom": "Instantané objet",
+      "groupe": "Affichage",
+      "win": "shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "camera"
+    },
+    {
+      "id": "souris_lazy",
+      "nom": "Souris lazy",
+      "groupe": "Pinceaux",
+      "win": "l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "wind"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Masquage par Ctrl + clic maintenu",
+      "raison": "touche maintenue + souris"
+    },
+    {
+      "nom": "Déplacer / échelle / rotation à la souris",
+      "raison": "souris (glisser sur le fond)"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Lecture de la timeline",
+      "raison": "séquence de clics et touches combinés"
+    }
+  ]
+}

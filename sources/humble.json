@@ -1,0 +1,23 @@
+{
+  "id": "humble",
+  "nom": "Humble App",
+  "editeur": "Humble Bundle",
+  "site": "https://www.humblebundle.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Humble App",
+    "mac": "Humble App"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté trouvé : le site Humble Bundle n'a pas pu être consulté (accès refusé). À revérifier avant publication. Seconde passe : recherche web indisponible (quota épuisé), fiche laissée telle quelle.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sharex",
+  "nom": "ShareX",
+  "editeur": "ShareX Team",
+  "site": "https://getsharex.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "ShareX" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Tous les raccourcis par défaut de ShareX utilisent la touche Impr écran, que ClickDeck ne peut pas envoyer. Aucune action n'est donc proposée. Pour l'utiliser, définir dans ShareX un raccourci avec une touche prise en charge (par exemple Ctrl+Maj+F9) puis le reporter dans ClickDeck. Source unique et tierce (tutorialtactic.com, mise à jour août 2026), non recoupée avec le site officiel, dont la page des raccourcis n'a pas pu être lue.",
+  "sources": [
+    { "url": "https://tutorialtactic.com/blog/sharex-shortcuts/", "titre": "ShareX Keyboard Shortcuts: The Complete List" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Capture région", "raison": "Ctrl+Impr écran : touche non prise en charge" },
+    { "nom": "Plein écran", "raison": "Impr écran : touche non prise en charge" },
+    { "nom": "Fenêtre active", "raison": "Alt+Impr écran : touche non prise en charge" },
+    { "nom": "Enregistrer vidéo", "raison": "Maj+Impr écran : touche non prise en charge" },
+    { "nom": "Enregistrer GIF", "raison": "Ctrl+Maj+Impr écran : touche non prise en charge" }
+  ]
+}

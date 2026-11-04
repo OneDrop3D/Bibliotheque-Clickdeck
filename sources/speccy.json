@@ -1,0 +1,17 @@
+{
+  "id": "speccy",
+  "nom": "Speccy",
+  "editeur": "Piriform (Avast)",
+  "site": "https://www.ccleaner.com/speccy",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Speccy" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire d'informations système sans raccourcis clavier globaux vérifiés. Aucune source de raccourcis n'a pu être consultée (recherche et pages de support inaccessibles). Destiné au pack de lancement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

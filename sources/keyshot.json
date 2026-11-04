@@ -1,0 +1,125 @@
+{
+  "id": "keyshot",
+  "nom": "KeyShot",
+  "editeur": "Luxion",
+  "site": "https://www.keyshot.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "KeyShot",
+    "mac": "KeyShot"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seconde passe : seuls 4 raccourcis par défaut ont pu être confirmés (blog officiel Luxion, manuel : K ouvre la liste complète des raccourcis dans l'application). La page de raccourcis complète n'a pas pu être lue ; consulter la touche K pour compléter. Commandes de menu standard déduites.",
+  "sources": [
+    {
+      "url": "https://www.keyshot.com/blog/5-must-know-keyshot-hotkeys/",
+      "titre": "5 Must Know KeyShot Hotkeys"
+    },
+    {
+      "url": "https://manual.keyshot.com/manual/user-interface/hotkeys/",
+      "titre": "KeyShot Manual - Hotkeys"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "hud",
+      "nom": "Affichage HUD",
+      "groupe": "Affichage",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    },
+    {
+      "id": "liste-raccourcis",
+      "nom": "Liste raccourcis",
+      "groupe": "Aide",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "keyboard"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Outil Déplacer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "maj-geometrie",
+      "nom": "Maj géométrie",
+      "groupe": "Édition",
+      "win": "alt+g",
+      "mac": "alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    }
+  ],
+  "non_faisable": []
+}

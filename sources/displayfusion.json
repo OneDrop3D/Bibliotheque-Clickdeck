@@ -1,0 +1,31 @@
+{
+  "id": "displayfusion",
+  "nom": "DisplayFusion",
+  "editeur": "Binary Fortress Software",
+  "site": "https://www.displayfusion.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "DisplayFusion"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "L'aide officielle précise que chaque fonction se voit attribuer une touche par l'utilisateur (Settings > Functions). Aucune combinaison par défaut n'est publiée.",
+  "sources": [
+    {
+      "url": "https://www.displayfusion.com/Help/",
+      "titre": "DisplayFusion Help"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Fonctions multi-écrans (fond d'écran, barre des tâches)",
+      "raison": "raccourci défini par l'utilisateur, pas de défaut"
+    }
+  ]
+}

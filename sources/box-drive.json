@@ -1,0 +1,17 @@
+{
+  "id": "box-drive",
+  "nom": "Box Drive",
+  "editeur": "Box",
+  "site": "https://www.box.com/resources/downloads",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Box Drive", "mac": "Box Drive" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation en arrière-plan (intégré à l'Explorateur Windows et au Finder). La page officielle ne documente aucun raccourci clavier.",
+  "sources": [ { "url": "https://www.box.com/resources/downloads", "titre": "Box Drive - téléchargements (Box)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Ouvrir le dossier Box Drive", "raison": "aucun raccourci documenté" } ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "obsbot-webcam",
+  "nom": "OBSBOT WebCam",
+  "editeur": "OBSBOT",
+  "site": "https://www.obsbot.com/webcam-software",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "OBSBOT WebCam", "mac": "OBSBOT WebCam" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle non accessible au moment de la lecture (HTTP 404) et recherche web indisponible : aucun raccourci vérifié. Application de pilotage de caméra à utiliser à la souris ; à revérifier.",
+  "sources": [ { "url": "https://www.obsbot.com/webcam-software", "titre": "OBSBOT WebCam - page officielle (inaccessible, 404)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Suivi et cadrage automatique", "raison": "réglage sans raccourci" } ]
+}

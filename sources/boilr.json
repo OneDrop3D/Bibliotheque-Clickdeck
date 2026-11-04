@@ -1,0 +1,23 @@
+{
+  "id": "boilr",
+  "nom": "BoilR",
+  "editeur": "PhilipK",
+  "site": "https://github.com/PhilipK/BoilR",
+  "systemes": [
+    "windows",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "BoilR",
+    "linux": "boilr"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de synchronisation des jeux externes vers Steam, sans raccourcis utiles identifiés. Recherche en ligne non effectuée (limite atteinte), donc non vérifié. Seconde passe : aucun raccourci applicatif connu, utilitaire sans fenêtre de travail.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

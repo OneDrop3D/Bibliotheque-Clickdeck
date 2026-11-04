@@ -1,0 +1,17 @@
+{
+  "id": "anydvd-dvdfab",
+  "nom": "AnyDVD / DVDFab",
+  "editeur": "DVDFab",
+  "site": "https://www.dvdfab.cn",
+  "systemes": ["windows"],
+  "lancement": { "windows": "DVDFab" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci de rip ou de copie trouvé. Le seul article officiel lu (blog DVDFab) décrit des raccourcis du lecteur DVDFab Media Player sous Mac, activés dans Préférences > Générale ; ils ne concernent pas le rip et ne sont pas repris ici. Pas de raccourci sourcé : fichier livré sans action, pour le pack de lancement.",
+  "sources": [ { "url": "https://blog.dvdfab.cn/detailing-the-keyboard-shortcut-hotkey-support.html", "titre": "DVDFab Blog - Keyboard shortcut (hotkey) support" } ],
+  "actions": [],
+  "non_faisable": []
+}

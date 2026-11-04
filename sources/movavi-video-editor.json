@@ -1,0 +1,32 @@
+{
+  "id": "movavi-video-editor",
+  "nom": "Movavi Video Editor",
+  "editeur": "Movavi",
+  "site": "https://www.movavi.com/videoeditor/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Movavi Video Editor" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique et ancienne (page mise à jour en 2020, plus de 5 ans), non recoupée avec la documentation officielle, qui n'a pas pu être lue. A vérifier dans l'application (Aide > Raccourcis clavier). Version Mac non vérifiée, donc mac à null. Le raccourci Ctrl+F donné pour ouvrir un projet n'est pas repris, car il entre en conflit avec la recherche standard.",
+  "sources": [
+    { "url": "https://defkey.com/movavi-video-editor-shortcuts", "titre": "Movavi Video Editor shortcuts (DefKey, 2020)" }
+  ],
+  "actions": [
+    { "id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "importer-media", "nom": "Importer média", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-input" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "save-all" },
+    { "id": "couper-clip", "nom": "Couper le clip", "groupe": "Montage", "win": "ctrl+b", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "image-figee", "nom": "Image figée", "groupe": "Montage", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "snowflake" },
+    { "id": "ajouter-image-cle", "nom": "Ajouter image clé", "groupe": "Montage", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "key-round" },
+    { "id": "image-precedente", "nom": "Image précédente", "groupe": "Lecture", "win": "ctrl+left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left" },
+    { "id": "image-suivante", "nom": "Image suivante", "groupe": "Lecture", "win": "ctrl+right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right" },
+    { "id": "reculer-half-s", "nom": "Reculer 0,5 s", "groupe": "Lecture", "win": "ctrl+shift+left", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "rewind" },
+    { "id": "avancer-half-s", "nom": "Avancer 0,5 s", "groupe": "Lecture", "win": "ctrl+shift+right", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "fast-forward" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "alt+enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "maximize" }
+  ],
+  "non_faisable": []
+}

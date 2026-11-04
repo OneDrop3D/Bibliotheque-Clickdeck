@@ -1,0 +1,197 @@
+{
+  "id": "reaper",
+  "nom": "REAPER",
+  "editeur": "Cockos",
+  "site": "https://www.reaper.fm/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "reaper",
+    "mac": "REAPER"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Transport, scission et rendu viennent d'une cheat sheet tierce (concordent avec l'usage connu de REAPER) ; à vérifier dans Actions > Liste des actions. « Enregistrer sous » retiré (raccourci non confirmé). Commandes standard de menu déduites.",
+  "sources": [
+    {
+      "url": "https://www.reaper.fm/userguide.php",
+      "titre": "REAPER - Guide utilisateur (consulté, sans tableau de raccourcis)"
+    },
+    {
+      "url": "https://www.audeobox.com/learn/reaper/reaper-keyboard-shortcuts-cheat-sheet/",
+      "titre": "REAPER Keyboard Shortcuts Cheat Sheet (tierce)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": "ctrl+shift+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "lecture-arret",
+      "nom": "Lecture / arrêt",
+      "groupe": "Transport",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 1,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "enregistrer-piste",
+      "nom": "Enregistrer",
+      "groupe": "Transport",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": "ctrl+r",
+      "source": 1,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "boucle",
+      "nom": "Boucle",
+      "groupe": "Transport",
+      "win": "r",
+      "mac": "r",
+      "linux": "r",
+      "source": 1,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "scinder-curseur",
+      "nom": "Scinder au curseur",
+      "groupe": "Montage",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 1,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "rendu",
+      "nom": "Rendu",
+      "groupe": "Fichier",
+      "win": "ctrl+alt+r",
+      "mac": "cmd+alt+r",
+      "linux": "ctrl+alt+r",
+      "source": 1,
+      "priorite": 2,
+      "picto": "download"
+    }
+  ],
+  "non_faisable": []
+}

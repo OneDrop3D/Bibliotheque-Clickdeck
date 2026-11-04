@@ -1,0 +1,19 @@
+{
+  "id": "manycam",
+  "nom": "ManyCam",
+  "editeur": "ManyCam",
+  "site": "https://manycam.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "ManyCam", "mac": "ManyCam" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut vérifié : l'aide officielle (help.manycam.com, rubrique Hotkeys) indique que certains raccourcis sont vides par défaut, sans en donner la liste. Les raccourcis se définissent dans Réglages > Hotkeys ; ils sont locaux sauf si l'option Global est activée. Aucune action ajoutée pour l'instant.",
+  "sources": [
+    { "url": "https://help.manycam.com/knowledge-base/hotkeys/", "titre": "ManyCam Hotkeys (aide officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

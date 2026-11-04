@@ -1,0 +1,328 @@
+{
+  "id": "tradingview",
+  "nom": "TradingView Desktop",
+  "editeur": "TradingView",
+  "site": "https://www.tradingview.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "TradingView",
+    "mac": "TradingView"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Une seule source tierce lue (defkey.com, liste du graphique, date non vérifiée) : elle indique Windows ou Linux seulement. Les colonnes Mac restent vides sauf pour les commandes standard (déduites). Pages d'aide officielles et autres sources introuvables (404, recherche indisponible). À recouper avec l'aide officielle TradingView. Source defkey datée de mars 2020 (ancienne) : à recouper. Noms raccourcis à 18 caractères.",
+  "sources": [
+    {
+      "url": "https://defkey.com/tradingview-shortcuts",
+      "titre": "defkey : TradingView shortcuts (liste graphique, Pine, watchlist)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Graphique",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Graphique",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-mise-en-page",
+      "nom": "Enregistrer vue",
+      "groupe": "Graphique",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir-indicateurs",
+      "nom": "Indicateurs",
+      "groupe": "Graphique",
+      "win": "slash",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "activity"
+    },
+    {
+      "id": "charger-mise-en-page",
+      "nom": "Charger vue",
+      "groupe": "Graphique",
+      "win": "period",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "agrandir-graphique",
+      "nom": "Agrandir graphique",
+      "groupe": "Graphique",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "passer-graphique-suivant",
+      "nom": "Graphique suivant",
+      "groupe": "Graphique",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "aller-a-la-date",
+      "nom": "Aller à la date",
+      "groupe": "Graphique",
+      "win": "alt+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "calendar"
+    },
+    {
+      "id": "ajouter-alerte",
+      "nom": "Ajouter alerte",
+      "groupe": "Graphique",
+      "win": "alt+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bell"
+    },
+    {
+      "id": "capture-instantanee",
+      "nom": "Capture écran",
+      "groupe": "Graphique",
+      "win": "alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "camera"
+    },
+    {
+      "id": "reinitialiser-graphique",
+      "nom": "Réinitialiser",
+      "groupe": "Graphique",
+      "win": "alt+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "echelle-logarithmique",
+      "nom": "Échelle log.",
+      "groupe": "Graphique",
+      "win": "alt+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chart-spline"
+    },
+    {
+      "id": "echelle-pourcentage",
+      "nom": "Échelle en %",
+      "groupe": "Graphique",
+      "win": "alt+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "percent"
+    },
+    {
+      "id": "inverser-echelle",
+      "nom": "Inverser l'échelle",
+      "groupe": "Graphique",
+      "win": "alt+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up-down"
+    },
+    {
+      "id": "ajouter-liste-suivi",
+      "nom": "Ajouter à la liste",
+      "groupe": "Graphique",
+      "win": "alt+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-plus"
+    },
+    {
+      "id": "note-texte-symbole",
+      "nom": "Note symbole",
+      "groupe": "Graphique",
+      "win": "alt+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sticky-note"
+    },
+    {
+      "id": "ligne-horizontale",
+      "nom": "Ligne horizontale",
+      "groupe": "Tracé",
+      "win": "alt+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "ligne-verticale",
+      "nom": "Ligne verticale",
+      "groupe": "Tracé",
+      "win": "alt+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "separator-vertical"
+    },
+    {
+      "id": "ligne-de-croix",
+      "nom": "Ligne de croix",
+      "groupe": "Tracé",
+      "win": "alt+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus"
+    },
+    {
+      "id": "copier-objet",
+      "nom": "Copier",
+      "groupe": "Tracé",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller-objet",
+      "nom": "Coller",
+      "groupe": "Tracé",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "ordre-achat-marche",
+      "nom": "Achat au marché",
+      "groupe": "Trading",
+      "win": "shift+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trending-up"
+    },
+    {
+      "id": "ordre-vente-marche",
+      "nom": "Vente au marché",
+      "groupe": "Trading",
+      "win": "shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trending-down"
+    },
+    {
+      "id": "pine-enregistrer",
+      "nom": "Enregistrer script",
+      "groupe": "Pine",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-code"
+    },
+    {
+      "id": "pine-ajouter-graphique",
+      "nom": "Ajouter script",
+      "groupe": "Pine",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chart-candlestick"
+    },
+    {
+      "id": "pine-commenter",
+      "nom": "Commenter lignes",
+      "groupe": "Pine",
+      "win": "ctrl+slash",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "message-square"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Dessin à main levée ou courbe avec la souris",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

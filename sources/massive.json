@@ -1,0 +1,22 @@
+{
+  "id": "massive",
+  "nom": "Massive",
+  "editeur": "Native Instruments",
+  "site": "https://www.native-instruments.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Massive X", "mac": "Massive X" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Synthétiseur VST/AU/AAX piloté par la DAW hôte. Le manuel officiel de Massive X (docs.native-instruments.com) ne liste aucun raccourci clavier : il indique seulement que les crochets désignent des touches du clavier. Les contrôles se font à la souris ou via des Macros assignées à un contrôleur matériel, donc rien à mettre dans ClickDeck. Le nom de l'application lancée est Massive X ; la version Massive (ancienne) n'est pas couverte.",
+  "sources": [
+    { "url": "https://docs.native-instruments.com/online-guides/massive-x-manual/en/welcome-to-massive-x", "titre": "Massive X manual - Welcome to Massive X" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Contrôle des Macros", "raison": "contrôleur matériel (molette, aftertouch)" },
+    { "nom": "Tourner un bouton", "raison": "souris" }
+  ]
+}

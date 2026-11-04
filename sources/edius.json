@@ -1,0 +1,78 @@
+{
+  "id": "edius",
+  "nom": "EDIUS",
+  "editeur": "Grass Valley",
+  "site": "https://www.grassvalley.com/products/edius/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "EDIUS", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de la version EDIUS Neo 3 (ancienne, vers 2012), tables du manuel Grass Valley copiées sur manualsdir.com (miroir non officiel). Édition, lecture, modes et rendu recontrôlés sur ces tables ; Nouveau/Ouvrir/Enregistrer viennent du manuel v5.1. Les versions récentes (EDIUS X) peuvent différer : à vérifier. Windows uniquement.",
+  "sources": [
+    { "url": "https://www.manualsdir.com/manuals/795914/grass-valley-edius-neo-3.html?page=785", "titre": "Grass Valley EDIUS Neo 3 - User Reference Guide (tables Play, View)" },
+    { "url": "https://www.manualsdir.com/manuals/795914/grass-valley-edius-neo-3.html?page=783", "titre": "Grass Valley EDIUS Neo 3 - Edit Shortcuts (table 30)" },
+    { "url": "https://www.manualsdir.com/manuals/795885/grass-valley-edius-v51.html?page=772", "titre": "Grass Valley EDIUS v.5.1 - Asset Bin Shortcuts" },
+    { "url": "https://www.manualsdir.com/manuals/795914/grass-valley-edius-neo-3.html?page=787", "titre": "Grass Valley EDIUS Neo 3 - Mode Shortcuts (capture, rendu, modes)" }
+  ],
+  "actions": [
+    { "id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Projet", "win": "ctrl+n", "mac": null, "linux": null, "source": 2, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir-projet", "nom": "Ouvrir projet", "groupe": "Projet", "win": "ctrl+o", "mac": null, "linux": null, "source": 2, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer-projet", "nom": "Enregistrer", "groupe": "Projet", "win": "ctrl+s", "mac": null, "linux": null, "source": 2, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Projet", "win": "shift+ctrl+s", "mac": null, "linux": null, "source": 2, "priorite": 2, "picto": "save-all" },
+    { "id": "nouvelle-sequence", "nom": "Nouvelle séquence", "groupe": "Projet", "win": "shift+ctrl+n", "mac": null, "linux": null, "source": 2, "priorite": 2, "picto": "film" },
+    { "id": "ajouter-bin", "nom": "Ajouter à la bin", "groupe": "Projet", "win": "shift+b", "mac": null, "linux": null, "source": 1, "priorite": 3, "picto": "folder-plus" },
+
+    { "id": "lecture-pause", "nom": "Lecture / stop", "groupe": "Lecture", "win": "space", "mac": null, "linux": null, "source": 3, "priorite": 1, "picto": "play" },
+    { "id": "pause", "nom": "Pause", "groupe": "Lecture", "win": "k", "mac": null, "linux": null, "source": 3, "priorite": 1, "picto": "pause" },
+    { "id": "image-precedente", "nom": "Image précédente", "groupe": "Lecture", "win": "left", "mac": null, "linux": null, "source": 3, "priorite": 1, "picto": "skip-back" },
+    { "id": "image-suivante", "nom": "Image suivante", "groupe": "Lecture", "win": "right", "mac": null, "linux": null, "source": 3, "priorite": 1, "picto": "skip-forward" },
+    { "id": "lecture-arriere", "nom": "Lecture arrière", "groupe": "Lecture", "win": "j", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "rewind" },
+    { "id": "avance-rapide", "nom": "Avance rapide", "groupe": "Lecture", "win": "l", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "fast-forward" },
+    { "id": "dix-images-arriere", "nom": "10 images arrière", "groupe": "Lecture", "win": "shift+left", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "chevrons-left" },
+    { "id": "dix-images-avant", "nom": "10 images avant", "groupe": "Lecture", "win": "shift+right", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "chevrons-right" },
+    { "id": "boucle", "nom": "Boucle", "groupe": "Lecture", "win": "ctrl+space", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "repeat" },
+    { "id": "stop", "nom": "Arrêt", "groupe": "Lecture", "win": "shift+down", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "square" },
+    { "id": "lire-zone-curseur", "nom": "Lire zone curseur", "groupe": "Lecture", "win": "ctrl+slash", "mac": null, "linux": null, "source": 3, "priorite": 3, "picto": "play-circle" },
+
+    { "id": "inserer", "nom": "Insérer", "groupe": "Montage", "win": "bracketleft", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "arrow-down-to-line" },
+    { "id": "ecraser", "nom": "Écraser", "groupe": "Montage", "win": "bracketright", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "replace" },
+    { "id": "point-de-coupe", "nom": "Point de coupe", "groupe": "Montage", "win": "c", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "scissors" },
+    { "id": "trim-avant-1", "nom": "Trim +1 image", "groupe": "Montage", "win": "period", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "step-forward" },
+    { "id": "trim-arriere-1", "nom": "Trim -1 image", "groupe": "Montage", "win": "comma", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "step-back" },
+    { "id": "trim-avant-10", "nom": "Trim +10 images", "groupe": "Montage", "win": "shift+period", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "fast-forward" },
+    { "id": "trim-arriere-10", "nom": "Trim -10 images", "groupe": "Montage", "win": "shift+comma", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "rewind" },
+    { "id": "mode-trim", "nom": "Mode Trim", "groupe": "Montage", "win": "f6", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "crop" },
+    { "id": "mode-normal", "nom": "Mode normal", "groupe": "Montage", "win": "f5", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "layout" },
+    { "id": "mode-ripple", "nom": "Mode ripple", "groupe": "Montage", "win": "r", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "arrow-left-right" },
+    { "id": "mode-video-layout", "nom": "Mise en page vidéo", "groupe": "Montage", "win": "f7", "mac": null, "linux": null, "source": 1, "priorite": 3, "picto": "layout-grid" },
+    { "id": "lier", "nom": "Lier", "groupe": "Montage", "win": "y", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "link" },
+    { "id": "delier", "nom": "Délier", "groupe": "Montage", "win": "alt+y", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "unlink" },
+    { "id": "couper-ripple", "nom": "Coupe ripple", "groupe": "Montage", "win": "alt+x", "mac": null, "linux": null, "source": 1, "priorite": 3, "picto": "scissors" },
+    { "id": "supprimer-points-coupe", "nom": "Supprimer coupes", "groupe": "Montage", "win": "ctrl+delete", "mac": null, "linux": null, "source": 1, "priorite": 3, "picto": "eraser" },
+    { "id": "vitesse", "nom": "Vitesse", "groupe": "Montage", "win": "alt+e", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "gauge" },
+    { "id": "proprietes-clip", "nom": "Propriétés clip", "groupe": "Montage", "win": "alt+enter", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "info" },
+    { "id": "remplacer-clip", "nom": "Remplacer clip", "groupe": "Montage", "win": "ctrl+r", "mac": null, "linux": null, "source": 1, "priorite": 3, "picto": "replace" },
+    { "id": "muet", "nom": "Muet", "groupe": "Montage", "win": "shift+s", "mac": null, "linux": null, "source": 1, "priorite": 3, "picto": "volume-x" },
+    { "id": "creer-titre", "nom": "Créer titre", "groupe": "Montage", "win": "t", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "type" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "redo-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "copy" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "scissors" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "clipboard-paste" },
+
+    { "id": "rendu-zone-orange", "nom": "Rendre zone orange", "groupe": "Rendu", "win": "ctrl+alt+q", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "clapperboard" },
+    { "id": "rendu-zone-rouge", "nom": "Rendre zone rouge", "groupe": "Rendu", "win": "ctrl+q", "mac": null, "linux": null, "source": 3, "priorite": 2, "picto": "clapperboard" },
+    { "id": "rendu-ajouter", "nom": "Rendre et ajouter", "groupe": "Rendu", "win": "shift+q", "mac": null, "linux": null, "source": 3, "priorite": 3, "picto": "clapperboard" },
+    { "id": "mode-capture", "nom": "Mode capture", "groupe": "Rendu", "win": "f9", "mac": null, "linux": null, "source": 3, "priorite": 3, "picto": "video" }
+
+  ],
+  "non_faisable": [
+    { "nom": "Déplacer un clip sur la timeline", "raison": "souris (glisser)" },
+    { "nom": "Défilement de la timeline", "raison": "molette" },
+    { "nom": "Zoom au curseur", "raison": "molette" }
+  ]
+}

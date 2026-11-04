@@ -1,0 +1,19 @@
+{
+  "id": "windows-defender",
+  "nom": "Sécurité Windows",
+  "editeur": "Microsoft",
+  "site": "https://support.microsoft.com/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Sécurité Windows" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Microsoft Defender (Sécurité Windows) n'a pas de raccourci clavier propre dans la liste officielle des raccourcis Windows consultée, qui ne la mentionne pas. Le raccourci Win+S (recherche Windows) permet de la trouver par son nom, mais ce n'est pas un raccourci de l'application. Actions vides.",
+  "sources": [
+    { "url": "https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec", "titre": "Keyboard shortcuts in Windows" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

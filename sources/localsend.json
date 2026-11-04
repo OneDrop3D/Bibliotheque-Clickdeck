@@ -1,0 +1,25 @@
+{
+  "id": "localsend",
+  "nom": "LocalSend",
+  "editeur": "LocalSend",
+  "site": "https://localsend.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "LocalSend",
+    "mac": "LocalSend",
+    "linux": "LocalSend"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté (seul le collage au clavier est mentionné dans les notes de version) ; application de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

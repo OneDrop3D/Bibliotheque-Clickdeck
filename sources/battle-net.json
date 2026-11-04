@@ -1,0 +1,17 @@
+{
+  "id": "battle-net",
+  "nom": "Battle.net",
+  "editeur": "Blizzard Entertainment",
+  "site": "https://us.battle.net/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Battle.net", "mac": "Battle.net" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci global par défaut vérifié dans une source. Recherche de vérification impossible pendant cette passe : à recontrôler. Pour un lancement rapide, utiliser une touche de type Lancer app.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Lancer un jeu", "raison": "réglage sans raccourci" } ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "realitycapture",
+  "nom": "RealityCapture",
+  "editeur": "Capturing Reality",
+  "site": "https://www.capturingreality.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "RealityCapture" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement : pas de raccourcis Mac. Raccourcis relevés dans l'aide officielle Capturing Reality (page redirigée de rchelp vers rshelp). Les raccourcis de navigation 3D au clavier à la souris non listés ici sont exclus car ils se combinent à la souris.",
+  "sources": [
+    { "url": "https://rshelp.capturingreality.com/en-US/appbasics/shortcuts.htm", "titre": "RealityCapture - Keyboard shortcuts (aide officielle)" }
+  ],
+  "actions": [
+    { "id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Projet", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir-projet", "nom": "Ouvrir projet", "groupe": "Projet", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Projet", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Projet", "win": "ctrl+shift+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save-all" },
+    { "id": "ouvrir-panneaux", "nom": "Ouvrir panneaux", "groupe": "Projet", "win": "ctrl+shift+p", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "panels-top-left" },
+
+    { "id": "ajouter-images", "nom": "Ajouter images", "groupe": "Images", "win": "ctrl+enter", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "image-plus" },
+    { "id": "ajouter-dossier", "nom": "Ajouter dossier", "groupe": "Images", "win": "ctrl+shift+enter", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-plus" },
+    { "id": "image-suivante", "nom": "Image suivante", "groupe": "Images", "win": "right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right" },
+    { "id": "image-precedente", "nom": "Image précédente", "groupe": "Images", "win": "left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left" },
+    { "id": "vingt-images-suivantes", "nom": "+20 images", "groupe": "Images", "win": "pagedown", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "chevrons-right" },
+    { "id": "vingt-images-precedentes", "nom": "-20 images", "groupe": "Images", "win": "pageup", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "chevrons-left" },
+    { "id": "desactiver-image", "nom": "Désactiver image", "groupe": "Images", "win": "d", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "eye-off" },
+    { "id": "activer-image", "nom": "Activer image", "groupe": "Images", "win": "e", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "eye" },
+
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer-click" },
+    { "id": "inverser-selection", "nom": "Inverser sélection", "groupe": "Édition", "win": "ctrl+i", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "repeat" },
+    { "id": "desselectionner", "nom": "Désélectionner", "groupe": "Édition", "win": "ctrl+d", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "redo-2" },
+    { "id": "copier-nom-image", "nom": "Copier nom image", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "copy" },
+
+    { "id": "tout-calculer", "nom": "Tout calculer", "groupe": "Traitement", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "arreter", "nom": "Arrêter calcul", "groupe": "Traitement", "win": "shift+f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "square" },
+    { "id": "aligner", "nom": "Aligner images", "groupe": "Traitement", "win": "f6", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "images" },
+    { "id": "alignement-rapide", "nom": "Alignement rapide", "groupe": "Traitement", "win": "ctrl+f6", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "zap" },
+    { "id": "apercu-reconstruction", "nom": "Aperçu 3D", "groupe": "Traitement", "win": "ctrl+f7", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eye" },
+    { "id": "reconstruire", "nom": "Reconstruire", "groupe": "Traitement", "win": "f7", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "box" },
+    { "id": "coloriser", "nom": "Coloriser", "groupe": "Traitement", "win": "f8", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "palette" },
+    { "id": "texturer", "nom": "Texturer", "groupe": "Traitement", "win": "f9", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "layers" },
+    { "id": "points-controle", "nom": "Points contrôle", "groupe": "Traitement", "win": "f3", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "crosshair" },
+    { "id": "contraintes", "nom": "Contraintes", "groupe": "Traitement", "win": "f4", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "link" },
+    { "id": "projection-ortho", "nom": "Projection ortho", "groupe": "Traitement", "win": "f11", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "square" },
+
+    { "id": "cadrer-selection", "nom": "Cadrer sélection", "groupe": "Vue 3D", "win": "f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "cadrer-tout", "nom": "Cadrer tout", "groupe": "Vue 3D", "win": "a", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "maximize-2" },
+    { "id": "reinitialiser-vue", "nom": "Réinitialiser vue", "groupe": "Vue 3D", "win": "r", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw" },
+    { "id": "vue-perspective", "nom": "Vue perspective", "groupe": "Vue 3D", "win": "num0", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "box" },
+    { "id": "vue-parallele", "nom": "Vue parallèle", "groupe": "Vue 3D", "win": "num1", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "square" },
+    { "id": "vue-dessus", "nom": "Vue dessus", "groupe": "Vue 3D", "win": "num2", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "arrow-up" },
+    { "id": "inspecteur", "nom": "Inspecteur", "groupe": "Vue 3D", "win": "i", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "info" },
+    { "id": "boite-decoupe", "nom": "Boîte découpe", "groupe": "Vue 3D", "win": "b", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "box-select" },
+    { "id": "centrer-pivot", "nom": "Centrer pivot", "groupe": "Vue 3D", "win": "p", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "locate" },
+    { "id": "cacher-cameras", "nom": "Cacher caméras", "groupe": "Vue 3D", "win": "ctrl+h", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "eye-off" },
+    { "id": "montrer-cameras", "nom": "Montrer caméras", "groupe": "Vue 3D", "win": "shift+h", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "eye" },
+
+    { "id": "aide", "nom": "Aide", "groupe": "Aide", "win": "f1", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "help-circle" }
+  ],
+  "non_faisable": [
+    { "nom": "Vue caméra (maintenir espace)", "raison": "touche maintenue" },
+    { "nom": "Zoom à la molette", "raison": "molette" },
+    { "nom": "Rotation et déplacement de la vue 3D", "raison": "souris" }
+  ]
+}

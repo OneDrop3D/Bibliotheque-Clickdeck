@@ -1,0 +1,21 @@
+{
+  "id": "dolby-atmos",
+  "nom": "Dolby Atmos (app)",
+  "editeur": "Dolby",
+  "site": "https://www.dolby.com/technologies/dolby-access/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Dolby Access", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Les pages officielles Dolby et Microsoft consultées ne sont pas accessibles (404) et ne documentent aucun raccourci clavier. L'application se pilote par l'icône de la zone de notification. Aucune action n'est relevée. À vérifier avant toute mise à jour.",
+  "sources": [
+    { "url": "https://www.dolby.com/technologies/dolby-access/", "titre": "Dolby Access (page Dolby, 404 à la consultation)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Activation Dolby Atmos", "raison": "réglage sans raccourci" }
+  ]
+}

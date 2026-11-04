@@ -1,0 +1,17 @@
+{
+  "id": "pcloud-drive",
+  "nom": "pCloud Drive",
+  "editeur": "pCloud",
+  "site": "https://www.pcloud.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "pCloud Drive", "mac": "pCloud Drive" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation en arrière-plan. La page d'aide sur les raccourcis redirige vers la page d'accueil de l'aide et aucun raccourci n'a pu être vérifié.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Ouvrir le dossier pCloud Drive", "raison": "aucun raccourci documenté" } ]
+}

@@ -1,0 +1,408 @@
+{
+  "id": "carbide-create",
+  "nom": "Carbide Create",
+  "editeur": "Carbide 3D",
+  "site": "https://carbide3d.com/carbidecreate/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Carbide Create",
+    "mac": "Carbide Create"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste officielle des raccourcis (page Shortcuts de Carbide 3D). Les touches Mac avec Command sont déduites de la convention Ctrl/Cmd, signalée par deduit. Les raccourcis ne sont pas personnalisables dans Carbide Create Pro. Ctrl+M (Mesurer) laissé sans Mac car Cmd+M est réservé (minimiser) ; Ctrl+Y Rétablir sans Mac (non confirmé).",
+  "sources": [
+    {
+      "url": "https://carbide3d.com/carbidecreate/shortcuts",
+      "titre": "Carbide Create Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Édition",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Édition",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Édition",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "cercle",
+      "nom": "Cercle",
+      "groupe": "Créer",
+      "win": "shift+c",
+      "mac": "shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Créer",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rectangle-horizontal"
+    },
+    {
+      "id": "polyligne",
+      "nom": "Polyligne",
+      "groupe": "Créer",
+      "win": "shift+l",
+      "mac": "shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "route"
+    },
+    {
+      "id": "polygone",
+      "nom": "Polygone",
+      "groupe": "Créer",
+      "win": "shift+p",
+      "mac": "shift+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pentagon"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Créer",
+      "win": "shift+t",
+      "mac": "shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "courbe",
+      "nom": "Courbe",
+      "groupe": "Créer",
+      "win": "shift+u",
+      "mac": "shift+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "spline"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Transformer",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Transformer",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Transformer",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "decaler",
+      "nom": "Décaler",
+      "groupe": "Transformer",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "expand"
+    },
+    {
+      "id": "miroir-vertical",
+      "nom": "Miroir vertical",
+      "groupe": "Transformer",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-vertical-2"
+    },
+    {
+      "id": "miroir-horizontal",
+      "nom": "Miroir horizontal",
+      "groupe": "Transformer",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-horizontal-2"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Organiser",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Organiser",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ungroup"
+    },
+    {
+      "id": "edition-noeuds",
+      "nom": "Éditer les nœuds",
+      "groupe": "Organiser",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "spline"
+    },
+    {
+      "id": "calques",
+      "nom": "Calques",
+      "groupe": "Fenêtres",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "elements-dessin",
+      "nom": "Éléments dessin",
+      "groupe": "Fenêtres",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "shapes"
+    },
+    {
+      "id": "notes",
+      "nom": "Notes",
+      "groupe": "Fenêtres",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sticky-note"
+    },
+    {
+      "id": "accrochage",
+      "nom": "Accrochage",
+      "groupe": "Vue et outils",
+      "win": "f4",
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "magnet"
+    },
+    {
+      "id": "aligner",
+      "nom": "Aligner",
+      "groupe": "Vue et outils",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-center"
+    },
+    {
+      "id": "mesurer",
+      "nom": "Mesurer",
+      "groupe": "Vue et outils",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "ruler"
+    },
+    {
+      "id": "cadrer-travail",
+      "nom": "Cadrer sur travail",
+      "groupe": "Vue et outils",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "cadrer-brut",
+      "nom": "Cadrer sur brut",
+      "groupe": "Vue et outils",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 3,
+      "picto": "box"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacement fin des objets aux flèches",
+      "raison": "séquence de touches répétées, non mappable à une seule combinaison"
+    }
+  ]
+}

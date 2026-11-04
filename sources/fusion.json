@@ -1,0 +1,33 @@
+{
+  "id": "fusion",
+  "nom": "Fusion",
+  "editeur": "Blackmagic Design",
+  "site": "https://www.blackmagicdesign.com/products/fusion",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Fusion", "mac": "Fusion" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste officielle non obtenue : le PDF Blackmagic « Fusion Keyboard Shortcuts » est une image, et la page vfxstudy.com consultée n'en contient pas le texte. Seules les commandes standard de menu sont proposées, sans source (deduit), à vérifier dans File > Script > Hotkey Manager. Les touches propres à Fusion (navigation, outils de nœuds, rendu) n'ont pas été relevées : à compléter à partir du PDF officiel. Mac : Cmd remplace Ctrl.",
+  "sources": [],
+  "actions": [
+    { "id": "nouvelle-composition", "nom": "Nouvelle compo", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": null, "priorite": 1, "picto": "file-plus", "deduit": true },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": null, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": null, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": null, "priorite": 2, "picto": "save-all", "deduit": true },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": null, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": null, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": null, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": null, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": null, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "delete", "linux": null, "source": null, "priorite": 1, "picto": "trash-2", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": null, "priorite": 2, "picto": "box-select", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom de la vue", "raison": "molette" },
+    { "nom": "Déplacer la vue", "raison": "souris (glisser)" }
+  ]
+}

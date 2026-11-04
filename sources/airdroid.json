@@ -1,0 +1,23 @@
+{
+  "id": "airdroid",
+  "nom": "AirDroid Desktop",
+  "editeur": "SindLab",
+  "site": "https://www.airdroid.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "AirDroid",
+    "mac": "AirDroid"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté ; application de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

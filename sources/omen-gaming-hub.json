@@ -1,0 +1,17 @@
+{
+  "id": "omen-gaming-hub",
+  "nom": "OMEN Gaming Hub",
+  "editeur": "HP",
+  "site": "https://www.hp.com/us-en/shop/tech-takes/omen-gaming-hub",
+  "systemes": ["windows"],
+  "lancement": { "windows": "OMEN Gaming Hub" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire HP OMEN. La page HP consultée renvoie une erreur de délai (timeout) et la copie web.archive.org est bloquée : aucun raccourci n'a pu être vérifié. Aucun raccourci proposé.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "twinkle-tray",
+  "nom": "Twinkle Tray",
+  "editeur": "Xander Frangos",
+  "site": "https://github.com/xanderfrangos/twinkle-tray",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Twinkle Tray", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Pas de raccourci par défaut : la documentation indique que les touches de luminosité se lient dans les réglages. Aucune combinaison par défaut n'a été trouvée, donc aucune action n'est proposée. Fonction de luminosité à lier : ajuster tous les écrans ou un écran précis.",
+  "sources": [ { "url": "https://github.com/xanderfrangos/twinkle-tray", "titre": "Twinkle Tray - README" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Régler la luminosité à la molette", "raison": "molette" }, { "nom": "Liaison des touches de luminosité", "raison": "réglage sans raccourci par défaut" } ]
+}

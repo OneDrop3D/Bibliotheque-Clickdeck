@@ -1,0 +1,17 @@
+{
+  "id": "format-factory",
+  "nom": "Format Factory",
+  "editeur": "Format Factory (non confirmé)",
+  "site": "",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Format Factory" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de conversion sans raccourcis vérifiés. L'adresse formatfactory.com est aujourd'hui un domaine à vendre, et formatoz.com est introuvable : aucun site officiel n'a pu être lu. La plateforme Windows est supposée, non vérifiée. Pack de lancement, sans action.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,483 @@
+{
+  "id": "microsoft-word",
+  "nom": "Microsoft Word",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/microsoft-365/word",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Word",
+    "mac": "Microsoft Word"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de l'article officiel Microsoft (Word pour Windows et Mac). Les commandes standard sont marquées deduit. Fermer et Lien sur Mac : cmd+w et cmd+k (standard Mac, déduits).",
+  "sources": [
+    {
+      "url": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word",
+      "titre": "Keyboard shortcuts in Word"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau document",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer_sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "f12",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "coller_texte",
+      "nom": "Coller sans format",
+      "groupe": "Édition",
+      "win": "ctrl+shift+v",
+      "mac": "cmd+shift+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-type"
+    },
+    {
+      "id": "tout",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+h",
+      "mac": "ctrl+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "aller_a",
+      "nom": "Aller à",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "cmd+alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "map-pin"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Mise en forme",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Mise en forme",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Mise en forme",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "underline"
+    },
+    {
+      "id": "centrer",
+      "nom": "Centrer",
+      "groupe": "Mise en forme",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-center"
+    },
+    {
+      "id": "aligner_g",
+      "nom": "Aligner à gauche",
+      "groupe": "Mise en forme",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "aligner_d",
+      "nom": "Aligner à droite",
+      "groupe": "Mise en forme",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-right"
+    },
+    {
+      "id": "justifier",
+      "nom": "Justifier",
+      "groupe": "Mise en forme",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-justify"
+    },
+    {
+      "id": "police_plus",
+      "nom": "Police +1 pt",
+      "groupe": "Mise en forme",
+      "win": "ctrl+bracketright",
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "a-arrow-up"
+    },
+    {
+      "id": "police_moins",
+      "nom": "Police -1 pt",
+      "groupe": "Mise en forme",
+      "win": "ctrl+bracketleft",
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "a-arrow-down"
+    },
+    {
+      "id": "titre1",
+      "nom": "Titre 1",
+      "groupe": "Mise en forme",
+      "win": "ctrl+alt+1",
+      "mac": "cmd+alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "heading-1"
+    },
+    {
+      "id": "style_normal",
+      "nom": "Style Normal",
+      "groupe": "Mise en forme",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pilcrow"
+    },
+    {
+      "id": "puce",
+      "nom": "Liste à puces",
+      "groupe": "Mise en forme",
+      "win": "ctrl+shift+l",
+      "mac": "cmd+shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list"
+    },
+    {
+      "id": "saut_page",
+      "nom": "Saut de page",
+      "groupe": "Insertion",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-output"
+    },
+    {
+      "id": "saut_ligne",
+      "nom": "Saut de ligne",
+      "groupe": "Insertion",
+      "win": "shift+enter",
+      "mac": "shift+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "lien",
+      "nom": "Lien hypertexte",
+      "groupe": "Insertion",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link",
+      "deduit": true
+    },
+    {
+      "id": "commentaire",
+      "nom": "Commentaire",
+      "groupe": "Insertion",
+      "win": "ctrl+alt+m",
+      "mac": "cmd+alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "message-square-plus"
+    },
+    {
+      "id": "note_bas",
+      "nom": "Note de bas page",
+      "groupe": "Insertion",
+      "win": "ctrl+alt+f",
+      "mac": "cmd+alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-text"
+    },
+    {
+      "id": "zoom_plus",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_moins",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom_100",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "debut_doc",
+      "nom": "Début du document",
+      "groupe": "Navigation",
+      "win": "ctrl+home",
+      "mac": "cmd+home",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "fin_doc",
+      "nom": "Fin du document",
+      "groupe": "Navigation",
+      "win": "ctrl+end",
+      "mac": "cmd+end",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "page_suiv",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+pagedown",
+      "mac": "cmd+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-down"
+    },
+    {
+      "id": "suivi",
+      "nom": "Suivi des modif.",
+      "groupe": "Relecture",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "history"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Mode lecture",
+      "raison": "séquence (Alt, W, F)"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

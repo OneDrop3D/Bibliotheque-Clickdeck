@@ -1,0 +1,20 @@
+{
+  "id": "electrum",
+  "nom": "Electrum",
+  "editeur": "Electrum Technologies GmbH",
+  "site": "https://electrum.org",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Electrum", "mac": "Electrum", "linux": "electrum" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La documentation officielle d'Electrum (readthedocs, version latest) ne liste aucun raccourci clavier ; les fonctions (envoi, réception, historique, graine, Lightning, factures) ne sont pas détaillées avec leurs raccourcis. Seuls les raccourcis standard de copie et collage sont ajoutés, sans source (Qt standard).",
+  "sources": [],
+  "actions": [
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": "ctrl+c", "source": null, "deduit": true, "priorite": 2, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": "ctrl+v", "source": null, "deduit": true, "priorite": 2, "picto": "clipboard-paste" }
+  ],
+  "non_faisable": [ { "nom": "Fonctions d'envoi et de réception", "raison": "aucun raccourci documenté" } ]
+}

@@ -1,0 +1,142 @@
+{
+ "id": "qidi-studio",
+ "nom": "Qidi Studio",
+ "editeur": "QIDI Technology",
+ "site": "https://qidi3d.com",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "QIDI Studio",
+  "mac": "QIDI Studio"
+ },
+ "raccourcis_modifiables": false,
+ "fiabilite": "tierce",
+ "section": "3D, CAO & impression 3D",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "La page du wiki QIDI (wiki.qidi3d.com, Keyboard Shortcuts and 3D Scene Operations) n'a renvoyé que son titre : son contenu est chargé par script et n'a pas pu être lu. Aucun raccourci propre à QIDI Studio n'a été vérifié. Seules les commandes standard de menu sont ajoutées, sans source (deduit). Les fonctions de découpe, d'aperçu et de plateau restent à relever depuis la page du wiki ou depuis Aide > Raccourcis clavier dans l'application. Revue : dupliquer (Ctrl+D) et imprimer (Ctrl+P, envoi à l'imprimante 3D dans ce type de sliceur) retirés car non fiables.",
+ "sources": [
+  {
+   "url": "https://wiki.qidi3d.com/en/software/qidi-studio/key-shortcuts-3Doperate",
+   "titre": "Keyboard Shortcuts and 3D Scene Operations, QIDI Wiki (titre seul lu)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "ouvrir",
+   "nom": "Ouvrir",
+   "groupe": "Fichier",
+   "win": "ctrl+o",
+   "mac": "cmd+o",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "folder-open"
+  },
+  {
+   "id": "enregistrer",
+   "nom": "Enregistrer",
+   "groupe": "Fichier",
+   "win": "ctrl+s",
+   "mac": "cmd+s",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "save"
+  },
+  {
+   "id": "enregistrer-sous",
+   "nom": "Enregistrer sous",
+   "groupe": "Fichier",
+   "win": "ctrl+shift+s",
+   "mac": "shift+cmd+s",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "save-all"
+  },
+  {
+   "id": "annuler",
+   "nom": "Annuler",
+   "groupe": "Édition",
+   "win": "ctrl+z",
+   "mac": "cmd+z",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "retablir",
+   "nom": "Rétablir",
+   "groupe": "Édition",
+   "win": "ctrl+y",
+   "mac": "cmd+y",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "redo-2"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+c",
+   "mac": "cmd+c",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "copy"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+v",
+   "mac": "cmd+v",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+a",
+   "mac": "cmd+a",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "square-dashed"
+  },
+  {
+   "id": "supprimer",
+   "nom": "Supprimer",
+   "groupe": "Édition",
+   "win": "delete",
+   "mac": "backspace",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "trash-2"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Zoom à la molette",
+   "raison": "molette"
+  }
+ ]
+}

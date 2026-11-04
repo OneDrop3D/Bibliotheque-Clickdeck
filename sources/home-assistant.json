@@ -1,0 +1,17 @@
+{
+  "id": "home-assistant",
+  "nom": "Home Assistant Desktop",
+  "editeur": "Open Home Foundation",
+  "site": "https://www.home-assistant.io",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Home Assistant", "mac": "Home Assistant" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "La page de documentation générale consultée ne mentionne aucun raccourci clavier pour l'application desktop ou compagnon. Aucune action renseignée, faute de source spécifique. À compléter si une documentation dédiée est trouvée.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

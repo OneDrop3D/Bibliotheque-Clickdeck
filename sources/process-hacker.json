@@ -1,0 +1,22 @@
+{
+  "id": "process-hacker",
+  "nom": "Process Hacker",
+  "editeur": "Winsider Seminars & Solutions (System Informer)",
+  "site": "https://github.com/winsiderss/systeminformer",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Process Hacker", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le projet (devenu System Informer) ne documente aucun raccourci clavier dans son README. Pas d'actions proposées pour ne pas inventer de raccourci. Doute : la version de l'application peut différer du README consulté.",
+  "sources": [
+    { "url": "https://github.com/winsiderss/systeminformer", "titre": "System Informer (ex Process Hacker) - README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Terminer un processus", "raison": "aucun raccourci documenté" },
+    { "nom": "Recherche de handles", "raison": "aucun raccourci documenté" }
+  ]
+}

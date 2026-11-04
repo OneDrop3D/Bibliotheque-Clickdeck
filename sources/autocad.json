@@ -1,0 +1,42 @@
+{
+  "id": "autocad",
+  "nom": "AutoCAD",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/autocad/overview",
+  "systemes": ["windows"],
+  "lancement": { "windows": "AutoCAD" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seuls les raccourcis lus dans l'aide Autodesk (Ctrl+G, Ctrl+1, Ctrl+0, Ctrl+8, Ctrl+S) sont sourcés ; Ctrl+Z, Ctrl+C, etc. sont des commandes standard de menu (deduit). La page autodesk.com/shortcuts/autocad n'a pas pu être lue (403) ; la version Mac n'est pas couverte. Les commandes à alias sont tapées dans la ligne de commande et figurent dans non_faisable. Liste à compléter avec la page officielle des raccourcis.",
+  "sources": [
+    { "url": "https://help.autodesk.com/cloudhelp/2025/ENU/AutoCAD-LT-DidYouKnow/files/GUID-D2B4BF16-B1F7-4EF2-89AF-88ACE85FAD73.htm", "titre": "Command Aliases, Shortcut Keys, and AutoCorrect (Autodesk, 2025)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-plus", "deduit": true },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scissors", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "box-select", "deduit": true },
+    { "id": "grille", "nom": "Grille", "groupe": "Affichage", "win": "ctrl+g", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "grid-3x3" },
+    { "id": "ecran-epure", "nom": "Écran épuré", "groupe": "Affichage", "win": "ctrl+0", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "maximize" },
+    { "id": "palette-proprietes", "nom": "Propriétés", "groupe": "Palettes", "win": "ctrl+1", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "sliders-horizontal" },
+    { "id": "calculatrice-rapide", "nom": "Calcul rapide", "groupe": "Palettes", "win": "ctrl+8", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "calculator" }
+  ],
+  "non_faisable": [
+    { "nom": "Ligne (alias L)", "raison": "commande tapée, séquence" },
+    { "nom": "Déplacer (alias M)", "raison": "commande tapée, séquence" },
+    { "nom": "Copier (alias CO)", "raison": "commande tapée, séquence" },
+    { "nom": "Effacer (alias E)", "raison": "commande tapée, séquence" },
+    { "nom": "Décalage (alias O)", "raison": "commande tapée, séquence" },
+    { "nom": "Miroir (alias MI)", "raison": "commande tapée, séquence" },
+    { "nom": "Calque (alias LA)", "raison": "commande tapée, séquence" }
+  ]
+}

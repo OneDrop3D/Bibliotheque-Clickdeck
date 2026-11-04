@@ -1,0 +1,28 @@
+{
+  "id": "wine",
+  "nom": "Wine",
+  "editeur": "Projet Wine (WineHQ)",
+  "site": "https://www.winehq.org",
+  "systemes": [
+    "linux",
+    "mac"
+  ],
+  "lancement": {
+    "linux": "Wine",
+    "mac": "Wine"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Couche de compatibilité Windows, sans interface avec raccourcis propres. Les outils fournis (winecfg, explorateur Wine) se pilotent à la souris. La documentation officielle winehq.org n'a pas pu être lue (accès refusé), d'où la fiabilité tierce. Pour lancer un programme Windows, voir les applications de gestion de préfixes. Seconde passe : aucun raccourci applicatif connu, utilitaire sans fenêtre de travail.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Configuration Wine (winecfg)",
+      "raison": "outil sans raccourci clavier"
+    }
+  ]
+}

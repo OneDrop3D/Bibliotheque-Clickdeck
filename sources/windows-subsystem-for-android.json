@@ -1,0 +1,21 @@
+{
+  "id": "windows-subsystem-for-android",
+  "nom": "Windows Subsystem for Android",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/android/wsa/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Windows Subsystem for Android" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Service de virtualisation Android sans raccourci documenté. La documentation Microsoft ne liste aucune combinaison par défaut. Le service a été retiré du Microsoft Store le 5 mars 2025 et l'Amazon Appstore n'est plus disponible sur Windows : application sans usage courant, à garder seulement si elle est déjà installée.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/android/wsa/", "titre": "Windows Subsystem for Android - Microsoft Learn (aucun raccourci)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Paramètres du service (Démarrer > Windows Subsystem for Android)", "raison": "réglage sans raccourci" }
+  ]
+}

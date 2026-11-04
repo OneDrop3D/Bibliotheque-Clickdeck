@@ -1,0 +1,21 @@
+{
+  "id": "exiftool",
+  "nom": "ExifTool",
+  "editeur": "Phil Harvey",
+  "site": "https://exiftool.org",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "ExifTool", "mac": "ExifTool", "linux": "ExifTool" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Outil en ligne de commande pour lire, écrire et supprimer les métadonnées ; aucun raccourci clavier d'interface. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://exiftool.org/", "titre": "ExifTool - page officielle" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lecture des métadonnées", "raison": "ligne de commande, hors touches" },
+    { "nom": "Écriture et suppression des métadonnées", "raison": "ligne de commande, hors touches" },
+    { "nom": "Traitement par lot de dossiers", "raison": "ligne de commande, hors touches" }
+  ]
+}

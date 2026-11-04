@@ -1,0 +1,23 @@
+{
+  "id": "avg",
+  "nom": "AVG",
+  "editeur": "Gen Digital (AVG)",
+  "site": "https://www.avg.com/fr-fr/homepage",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "AVG AntiVirus",
+    "mac": "AVG AntiVirus"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Antivirus : pas de raccourcis utiles documentés. Non vérifié : les sources officielles étaient inaccessibles (HTTP 403/404, archive indisponible) et le quota de recherche web était épuisé. Fichier à recontrôler avant publication ; aucune action n'est proposée faute de source.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

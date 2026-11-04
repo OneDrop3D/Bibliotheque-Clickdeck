@@ -1,0 +1,123 @@
+{
+  "id": "drawboard-pdf",
+  "nom": "Drawboard PDF",
+  "editeur": "Drawboard",
+  "site": "https://support.drawboard.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Drawboard PDF"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis propres à l'application non relevés : la documentation de l'éditeur n'a pas pu être lue (blocage ou page introuvable). Seules les commandes standard des menus sont listées, avec deduit=true. À compléter. Le support de Drawboard a renvoyé 403 : systèmes à confirmer.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "square-dashed-mouse-pointer"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

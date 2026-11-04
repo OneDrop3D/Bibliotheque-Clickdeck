@@ -1,0 +1,19 @@
+{
+  "id": "amd-ryzen-master",
+  "nom": "AMD Ryzen Master",
+  "editeur": "AMD",
+  "site": "https://www.amd.com/en/products/software/ryzen-master.html",
+  "systemes": ["windows"],
+  "lancement": { "windows": "AMD Ryzen Master" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire d'overclocking CPU à interface graphique, pilotée à la souris. La lecture de la page officielle a échoué (délai dépassé) : l'absence de raccourci n'est pas vérifiée sur la documentation éditeur. Doute à lever avant publication. Recherche de sources tierces impossible (quota de recherche épuisé).",
+  "sources": [ { "url": "https://www.amd.com/en/products/software/ryzen-master.html", "titre": "AMD Ryzen Master - page produit (lecture échouée)" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Overclocking CPU (profils, tensions)", "raison": "réglage sans raccourci, à la souris" }
+  ]
+}

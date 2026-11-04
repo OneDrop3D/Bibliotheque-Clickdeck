@@ -1,0 +1,17 @@
+{
+  "id": "restream-studio",
+  "nom": "Restream Studio",
+  "editeur": "Restream",
+  "site": "https://restream.io/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Restream Studio", "mac": "Restream Studio" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Studio web (navigateur), sans raccourcis documentés trouvés. La page d'aide de l'éditeur n'a pas pu être lue.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

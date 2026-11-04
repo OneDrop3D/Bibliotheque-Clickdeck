@@ -1,0 +1,21 @@
+{
+  "id": "ffmpeg",
+  "nom": "FFmpeg",
+  "editeur": "FFmpeg Project",
+  "site": "https://ffmpeg.org/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "ffmpeg", "mac": "ffmpeg" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Outil en ligne de commande (ffmpeg.org le décrit comme « A command line tool to convert multimedia files between formats »). Aucune interface graphique ni raccourci clavier : à piloter depuis un terminal ou un script.",
+  "sources": [
+    { "url": "https://ffmpeg.org/about.html", "titre": "À propos de FFmpeg" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Conversion de fichiers", "raison": "ligne de commande uniquement, pas de raccourci" }
+  ]
+}

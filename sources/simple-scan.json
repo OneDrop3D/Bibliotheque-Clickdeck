@@ -1,0 +1,21 @@
+{
+ "id": "simple-scan",
+ "nom": "Simple Scan",
+ "editeur": "GNOME",
+ "site": "https://gitlab.gnome.org/GNOME/simple-scan",
+ "systemes": [
+  "linux"
+ ],
+ "lancement": {
+  "linux": "Simple Scan"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Bureautique, documents & PDF",
+ "sans_raccourcis": true,
+ "raccourcis_par_defaut": false,
+ "note": "Aucun raccourci clavier défini dans l'interface (app-window.ui). Les commandes standard précédemment déduites n'étaient pas confirmées et ont été retirées. Pack de lancement.",
+ "sources": [],
+ "actions": [],
+ "non_faisable": []
+}

@@ -1,0 +1,302 @@
+{
+  "id": "kmplayer",
+  "nom": "KMPlayer",
+  "editeur": "PandoraTV (KMPlayer)",
+  "site": "https://www.kmplayer.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "KMPlayer"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Source tierce unique (DefKey), non recoupée ; touche 5 et Alt+1..4 ignorées car ambiguës. Vérifier sur la version actuelle avant publication.",
+  "sources": [
+    {
+      "url": "https://defkey.com/kmplayer-shortcuts",
+      "titre": "KMPlayer shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-fichier",
+      "nom": "Ouvrir fichier",
+      "groupe": "Ouvrir",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir dossier",
+      "groupe": "Ouvrir",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder"
+    },
+    {
+      "id": "ouvrir-url",
+      "nom": "Ouvrir une URL",
+      "groupe": "Ouvrir",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture / Pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "stop",
+      "nom": "Arrêt",
+      "groupe": "Lecture",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédent",
+      "groupe": "Lecture",
+      "win": "pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivant",
+      "groupe": "Lecture",
+      "win": "pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "recul-5s",
+      "nom": "Reculer de 5 s",
+      "groupe": "Navigation",
+      "win": "left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-5s",
+      "nom": "Avancer de 5 s",
+      "groupe": "Navigation",
+      "win": "right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul-30s",
+      "nom": "Reculer de 30 s",
+      "groupe": "Navigation",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-30s",
+      "nom": "Avancer de 30 s",
+      "groupe": "Navigation",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul-1min",
+      "nom": "Reculer de 1 min",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avance-1min",
+      "nom": "Avancer de 1 min",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "volume+",
+      "nom": "Volume +",
+      "groupe": "Audio",
+      "win": "up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-",
+      "nom": "Volume −",
+      "groupe": "Audio",
+      "win": "down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Audio",
+      "win": "m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "liste-lecture",
+      "nom": "Liste de lecture",
+      "groupe": "Interface",
+      "win": "alt+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Interface",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "boite-controle",
+      "nom": "Boîte contrôle",
+      "groupe": "Interface",
+      "win": "alt+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "infos-lecture",
+      "nom": "Infos de lecture",
+      "groupe": "Interface",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "info"
+    },
+    {
+      "id": "charger-st",
+      "nom": "Charger ST",
+      "groupe": "Sous-titres",
+      "win": "alt+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "captions"
+    },
+    {
+      "id": "afficher-st",
+      "nom": "Afficher ST",
+      "groupe": "Sous-titres",
+      "win": "alt+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "captions"
+    },
+    {
+      "id": "police+",
+      "nom": "Police plus grande",
+      "groupe": "Sous-titres",
+      "win": "alt+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "a-arrow-up"
+    },
+    {
+      "id": "police-",
+      "nom": "Police plus petite",
+      "groupe": "Sous-titres",
+      "win": "alt+f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "a-arrow-down"
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "keyboard-maestro",
+  "nom": "Keyboard Maestro",
+  "editeur": "Stairways Software",
+  "site": "https://www.keyboardmaestro.com/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Keyboard Maestro" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Keyboard Maestro est un outil de macros : aucun raccourci par défaut n'a été trouvé dans les sources consultées. Les macros sont déclenchées par des raccourcis que l'utilisateur définit. Aucune action proposée. Source tierce : à recouper avec la documentation officielle.",
+  "sources": [
+    { "url": "https://www.stairways.com/keyboardmaestro/", "titre": "Keyboard Maestro - présentation (Stairways Software)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Macros personnalisées", "raison": "réglage sans raccourci" }
+  ]
+}

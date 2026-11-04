@@ -1,0 +1,35 @@
+{
+  "id": "deluge",
+  "nom": "Deluge",
+  "editeur": "Deluge Team",
+  "site": "https://deluge-torrent.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Deluge",
+    "mac": "Deluge"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Le fichier d'interface GTK3 officiel (main_window.ui) ne définit aucun accélérateur clavier ; aucun raccourci par défaut utile. Pack de lancement.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/deluge-torrent/deluge/develop/deluge/ui/gtk3/glade/main_window.ui",
+      "titre": "Deluge GTK3 - main_window.ui (aucun accélérateur)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Raccourcis de l'interface GTK",
+      "raison": "non documentés dans la source consultée"
+    }
+  ],
+  "panne": false
+}

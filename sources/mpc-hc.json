@@ -1,0 +1,417 @@
+{
+ "id": "mpc-hc",
+ "nom": "MPC-HC",
+ "editeur": "Équipe MPC-HC (open source)",
+ "site": "https://mpc-hc.org/",
+ "systemes": [
+  "windows"
+ ],
+ "lancement": {
+  "windows": "MPC-HC"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Divers desktop grand public",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis par défaut relevés dans le code source de MPC-HC (CAppSettings, default_wmcmds). Application Windows uniquement. Gauche/Droite = saut moyen (durée réglable). Capture auto (F5) enregistre dans le dossier configuré.",
+ "sources": [
+  {
+   "url": "https://raw.githubusercontent.com/clsid2/mpc-hc/master/src/mpc-hc/AppSettings.cpp",
+   "titre": "MPC-HC (clsid2) - AppSettings.cpp, default_wmcmds"
+  }
+ ],
+ "actions": [
+  {
+   "id": "lecture-pause",
+   "nom": "Lecture / pause",
+   "groupe": "Lecture",
+   "win": "space",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "pause"
+  },
+  {
+   "id": "arret",
+   "nom": "Arrêt",
+   "groupe": "Lecture",
+   "win": "period",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "square"
+  },
+  {
+   "id": "saut-arriere",
+   "nom": "Saut arrière",
+   "groupe": "Lecture",
+   "win": "left",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "skip-back"
+  },
+  {
+   "id": "saut-avant",
+   "nom": "Saut avant",
+   "groupe": "Lecture",
+   "win": "right",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "skip-forward"
+  },
+  {
+   "id": "image-suivante",
+   "nom": "Image suivante",
+   "groupe": "Lecture",
+   "win": "ctrl+right",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "step-forward"
+  },
+  {
+   "id": "image-precedente",
+   "nom": "Image précédente",
+   "groupe": "Lecture",
+   "win": "ctrl+left",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "step-back"
+  },
+  {
+   "id": "vitesse-plus",
+   "nom": "Vitesse +",
+   "groupe": "Vitesse",
+   "win": "ctrl+up",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "gauge"
+  },
+  {
+   "id": "vitesse-moins",
+   "nom": "Vitesse −",
+   "groupe": "Vitesse",
+   "win": "ctrl+down",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "gauge"
+  },
+  {
+   "id": "vitesse-normale",
+   "nom": "Vitesse normale",
+   "groupe": "Vitesse",
+   "win": "ctrl+r",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "refresh-ccw"
+  },
+  {
+   "id": "debut-fichier",
+   "nom": "Début du fichier",
+   "groupe": "Lecture",
+   "win": "home",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "rotate-ccw"
+  },
+  {
+   "id": "fichier-suivant",
+   "nom": "Fichier suivant",
+   "groupe": "Navigation",
+   "win": "ctrl+pagedown",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevrons-right"
+  },
+  {
+   "id": "fichier-precedent",
+   "nom": "Fichier précédent",
+   "groupe": "Navigation",
+   "win": "ctrl+pageup",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevrons-left"
+  },
+  {
+   "id": "chapitre-suivant",
+   "nom": "Chapitre suivant",
+   "groupe": "Navigation",
+   "win": "pagedown",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "list-end"
+  },
+  {
+   "id": "chapitre-precedent",
+   "nom": "Chapitre précédent",
+   "groupe": "Navigation",
+   "win": "pageup",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "list-start"
+  },
+  {
+   "id": "aller-a",
+   "nom": "Aller à…",
+   "groupe": "Navigation",
+   "win": "ctrl+g",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "locate"
+  },
+  {
+   "id": "volume-plus",
+   "nom": "Volume +",
+   "groupe": "Volume et son",
+   "win": "up",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "volume-2"
+  },
+  {
+   "id": "volume-moins",
+   "nom": "Volume −",
+   "groupe": "Volume et son",
+   "win": "down",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "volume-1"
+  },
+  {
+   "id": "muet",
+   "nom": "Muet",
+   "groupe": "Volume et son",
+   "win": "ctrl+m",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "volume-x"
+  },
+  {
+   "id": "audio-suivant",
+   "nom": "Audio suivant",
+   "groupe": "Volume et son",
+   "win": "a",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "audio-lines"
+  },
+  {
+   "id": "st-suivant",
+   "nom": "ST suivant",
+   "groupe": "Sous-titres",
+   "win": "s",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "subtitles"
+  },
+  {
+   "id": "st-on-off",
+   "nom": "Sous-titres on/off",
+   "groupe": "Sous-titres",
+   "win": "w",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "captions"
+  },
+  {
+   "id": "st-delai-moins",
+   "nom": "Délai ST −",
+   "groupe": "Sous-titres",
+   "win": "f1",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "timer"
+  },
+  {
+   "id": "st-delai-plus",
+   "nom": "Délai ST +",
+   "groupe": "Sous-titres",
+   "win": "f2",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "timer"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "alt+enter",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize"
+  },
+  {
+   "id": "playlist",
+   "nom": "Liste de lecture",
+   "groupe": "Affichage",
+   "win": "ctrl+7",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "list"
+  },
+  {
+   "id": "toujours-devant",
+   "nom": "Toujours devant",
+   "groupe": "Affichage",
+   "win": "ctrl+a",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "pin"
+  },
+  {
+   "id": "barre-titre",
+   "nom": "Barre de titre",
+   "groupe": "Affichage",
+   "win": "ctrl+0",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "panel-top"
+  },
+  {
+   "id": "nom-fichier",
+   "nom": "Nom du fichier",
+   "groupe": "Affichage",
+   "win": "n",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "info"
+  },
+  {
+   "id": "capture",
+   "nom": "Capture d'image",
+   "groupe": "Capture",
+   "win": "alt+i",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "camera"
+  },
+  {
+   "id": "capture-auto",
+   "nom": "Capture auto",
+   "groupe": "Capture",
+   "win": "f5",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "image"
+  },
+  {
+   "id": "ouvrir",
+   "nom": "Ouvrir un fichier",
+   "groupe": "Fichier",
+   "win": "ctrl+o",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "folder-open"
+  },
+  {
+   "id": "ouverture-rapide",
+   "nom": "Ouverture rapide",
+   "groupe": "Fichier",
+   "win": "ctrl+q",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "zap"
+  },
+  {
+   "id": "fermer",
+   "nom": "Fermer",
+   "groupe": "Fichier",
+   "win": "ctrl+c",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "x"
+  },
+  {
+   "id": "proprietes",
+   "nom": "Propriétés",
+   "groupe": "Fichier",
+   "win": "shift+f10",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "settings"
+  },
+  {
+   "id": "quitter",
+   "nom": "Quitter",
+   "groupe": "Fichier",
+   "win": "alt+x",
+   "mac": null,
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "log-out"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Volume à la molette",
+   "raison": "molette"
+  }
+ ]
+}

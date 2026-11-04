@@ -1,0 +1,271 @@
+{
+  "id": "clementine",
+  "nom": "Clementine",
+  "editeur": "Projet Clementine",
+  "site": "https://www.clementine-player.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Clementine",
+    "mac": "Clementine",
+    "linux": "Clementine"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le code source (mainwindow.ui, Qt). Sous Mac, Qt remplace Ctrl par Cmd, d'où deduit. Aucune page officielle de liste n'a pu être ouverte. Volume sans raccourci par défaut ; Ctrl+M (Muet) omis sur Mac car Cmd+M est réservé.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/clementine-player/Clementine/master/src/ui/mainwindow.ui",
+      "titre": "Clementine mainwindow.ui (code source)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "precedent",
+      "nom": "Piste précédente",
+      "groupe": "Lecture",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back",
+      "deduit": true
+    },
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / Pause",
+      "groupe": "Lecture",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêt",
+      "groupe": "Lecture",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "suivant",
+      "nom": "Piste suivante",
+      "groupe": "Lecture",
+      "win": "f8",
+      "mac": "f8",
+      "linux": "f8",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "album-suivant",
+      "nom": "Album suivant",
+      "groupe": "Lecture",
+      "win": "f9",
+      "mac": "f9",
+      "linux": "f9",
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward",
+      "deduit": true
+    },
+    {
+      "id": "arret-apres",
+      "nom": "Arrêt après piste",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+v",
+      "mac": "cmd+alt+v",
+      "linux": "ctrl+alt+v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-stop",
+      "deduit": true
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Lecture",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": "ctrl+m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x",
+      "deduit": true
+    },
+    {
+      "id": "aimer",
+      "nom": "J'aime",
+      "groupe": "Lecture",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "heart",
+      "deduit": true
+    },
+    {
+      "id": "aller-piste",
+      "nom": "Aller à la lecture",
+      "groupe": "Liste",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": "ctrl+j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "locate",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-liste",
+      "nom": "Nouvelle liste",
+      "groupe": "Liste",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-liste",
+      "nom": "Enregistrer liste",
+      "groupe": "Liste",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger-liste",
+      "nom": "Charger une liste",
+      "groupe": "Liste",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": "ctrl+shift+o",
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "vider-liste",
+      "nom": "Vider la liste",
+      "groupe": "Liste",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": "ctrl+k",
+      "source": 0,
+      "priorite": 2,
+      "picto": "eraser",
+      "deduit": true
+    },
+    {
+      "id": "melanger",
+      "nom": "Mélanger la liste",
+      "groupe": "Liste",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": "ctrl+h",
+      "source": 0,
+      "priorite": 2,
+      "picto": "shuffle",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-fichier",
+      "nom": "Ajouter un fichier",
+      "groupe": "Ajout",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": "ctrl+shift+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-flux",
+      "nom": "Ajouter un flux",
+      "groupe": "Ajout",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 2,
+      "picto": "radio",
+      "deduit": true
+    },
+    {
+      "id": "modifier-infos",
+      "nom": "Modifier les infos",
+      "groupe": "Étiquettes",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-pen",
+      "deduit": true
+    },
+    {
+      "id": "modifier-etiquette",
+      "nom": "Modifier étiquette",
+      "groupe": "Étiquettes",
+      "win": "f2",
+      "mac": "f2",
+      "linux": "f2",
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil",
+      "deduit": true
+    },
+    {
+      "id": "etiquettes-auto",
+      "nom": "Étiquettes auto",
+      "groupe": "Étiquettes",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 3,
+      "picto": "wand-sparkles",
+      "deduit": true
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Application",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "landr",
+  "nom": "LANDR",
+  "editeur": "LANDR",
+  "site": "https://www.landr.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "LANDR", "mac": "LANDR" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Service web de mastering : aucun raccourci clavier trouvé sur la page consultée (contenu tronqué). Recherche web épuisée, aide LANDR non lue.",
+  "sources": [ { "url": "https://www.landr.com", "titre": "Page d'accueil LANDR (aucun raccourci trouvé)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Application web, aucun raccourci documenté", "raison": "sans raccourci" } ]
+}

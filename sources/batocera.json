@@ -1,0 +1,24 @@
+{
+  "id": "batocera",
+  "nom": "Batocera",
+  "editeur": "Batocera",
+  "site": "https://batocera.org/",
+  "systemes": ["linux"],
+  "lancement": { "linux": "Batocera" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Batocera est un système d'exploitation de émulation qui tourne sur son propre matériel, pas une application de bureau. Les raccourcis documentés sont des combinaisons de manette (touche Hotkey maintenue). Aucun raccourci clavier par défaut n'a été relevé dans la documentation consultée.",
+  "sources": [
+    { "url": "https://wiki.batocera.org/basic_commands", "titre": "Batocera - Basic commands (raccourcis de manette)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Quitter le jeu", "raison": "touche Hotkey maintenue + Start, manette" },
+    { "nom": "Menu de l'émulateur", "raison": "touche Hotkey maintenue + bouton, manette" },
+    { "nom": "Sauvegarde / chargement d'état", "raison": "touche Hotkey maintenue + bouton, manette" },
+    { "nom": "Capture dans l'émulateur", "raison": "touche Hotkey maintenue + L1, manette" }
+  ]
+}

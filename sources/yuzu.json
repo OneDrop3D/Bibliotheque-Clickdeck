@@ -1,0 +1,24 @@
+{
+  "id": "yuzu",
+  "nom": "Yuzu (successeurs)",
+  "editeur": "",
+  "site": "https://yuzu-emu.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Yuzu",
+    "mac": "Yuzu"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Émulateur Switch. Yuzu est abandonné ; les successeurs (Suyu, Sudachi, Citron, Eden) ont leurs propres raccourcis. Aucune source ouverte : raccourcis non vérifiés.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

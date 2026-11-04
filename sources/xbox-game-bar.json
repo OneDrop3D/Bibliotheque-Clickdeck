@@ -1,0 +1,52 @@
+{
+  "id": "xbox-game-bar",
+  "nom": "Xbox Game Bar",
+  "editeur": "Microsoft",
+  "site": "https://support.xbox.com",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Xbox Game Bar",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Tous les raccourcis de la Game Bar utilisent la touche Windows, absente de la syntaxe ClickDeck (ctrl, shift, alt, cmd). Ils ne sont donc pas inscrits en actions. Les combinaisons relevées (Win+G, Win+Alt+R, Win+Alt+G, Win+Alt+PrtScn, Win+Alt+B) viennent d'extraits de la page Microsoft 4026387 et de guides tiers ; la page officielle n'a pas pu être lue en entier.",
+  "sources": [
+    {
+      "url": "https://support.xbox.com/help/games-apps/game-setup-and-play/customize-game-bar-on-windows-10",
+      "titre": "Customize Game Bar on Windows 10 (Xbox Support)"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/help/4026387",
+      "titre": "Game Bar keyboard shortcuts (Microsoft, extrait)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Ouvrir Game Bar (Win+G)",
+      "raison": "touche Windows non prise en charge par la syntaxe ClickDeck"
+    },
+    {
+      "nom": "Démarrer/arrêter un clip (Win+Alt+R)",
+      "raison": "touche Windows non prise en charge par la syntaxe ClickDeck"
+    },
+    {
+      "nom": "Enregistrer les 30 dernières secondes (Win+Alt+G)",
+      "raison": "touche Windows non prise en charge par la syntaxe ClickDeck"
+    },
+    {
+      "nom": "Capture d'écran (Win+Alt+PrtScn)",
+      "raison": "touche Windows non prise en charge par la syntaxe ClickDeck"
+    },
+    {
+      "nom": "Activer le HDR (Win+Alt+B)",
+      "raison": "touche Windows non prise en charge par la syntaxe ClickDeck"
+    }
+  ]
+}

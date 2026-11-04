@@ -1,0 +1,20 @@
+{
+  "id": "nik-collection",
+  "nom": "Nik Collection",
+  "editeur": "DxO",
+  "site": "https://nik-collection.dxo.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Nik Collection", "mac": "Nik Collection" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci officiel vérifié. Le guide utilisateur DxO (page d'introduction et interface) ne liste aucun raccourci ; un fil du forum DxO indique que les raccourcis des anciennes versions ne sont plus garantis et que des captures non lisibles existent. Application utilisée comme plugin dans un logiciel hôte : les raccourcis d'annulation dépendent de l'hôte.",
+  "sources": [
+    { "url": "https://userguides.dxo.com/nikcollection/en/shared-interface-and-tools", "titre": "Nik Collection - interface et outils (guide DxO, aucun raccourci listé)" },
+    { "url": "https://forum.dxo.com/t/shortcut-keys-for-nik/14551", "titre": "Forum DxO - Shortcut Keys for NIK (raccourcis anciens, non vérifiés)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

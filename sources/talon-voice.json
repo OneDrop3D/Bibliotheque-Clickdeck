@@ -1,0 +1,23 @@
+{
+  "id": "talon-voice",
+  "nom": "Talon Voice",
+  "editeur": "Talon Voice",
+  "site": "https://talonvoice.com/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Talon", "mac": "Talon", "linux": "Talon" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Talon est un logiciel de commande vocale et de suivi du regard : ses commandes par défaut sont vocales (fichiers .talon). La page de référence des commandes par défaut ne liste pas les combinaisons, et aucune combinaison par défaut n'a été vérifiée.",
+  "sources": [
+    { "url": "https://talonvoice.com/", "titre": "Talon Voice : page officielle" },
+    { "url": "https://talonvoice.com/docs/reference/commands.html", "titre": "Talon : référence des commandes par défaut" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Commandes vocales", "raison": "déclenchées par la voix, non par un raccourci" },
+    { "nom": "Clic et défilement par le regard et les sons", "raison": "souris ou entrée non clavier" }
+  ]
+}

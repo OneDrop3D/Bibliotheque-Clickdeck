@@ -1,0 +1,17 @@
+{
+  "id": "evga-precision",
+  "nom": "EVGA Precision",
+  "editeur": "EVGA",
+  "site": "https://www.evga.com/precision/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "EVGA Precision" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle EVGA consultée ne mentionne aucun raccourci clavier. Aucune action n'est proposée à ce stade.",
+  "sources": [{ "url": "https://www.evga.com/precision/", "titre": "EVGA Precision (page officielle, sans liste de raccourcis)" }],
+  "actions": [],
+  "non_faisable": []
+}

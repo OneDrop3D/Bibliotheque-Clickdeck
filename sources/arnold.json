@@ -1,0 +1,17 @@
+{
+  "id": "arnold",
+  "nom": "Arnold",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/arnold/overview",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Arnold", "mac": "Arnold" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Vérification impossible : la page de documentation Autodesk relevée renvoyait une erreur 404 et la recherche web était épuisée. Aucun raccourci n'a été relevé ni inventé. Arnold est un moteur de rendu intégré à Maya, 3ds Max, Houdini ou Cinema 4D : ses raccourcis (par exemple RenderView) dépendent de l'hôte.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

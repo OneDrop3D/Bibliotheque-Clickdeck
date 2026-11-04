@@ -1,0 +1,34 @@
+{
+  "id": "mozilla-firefox",
+  "nom": "Mozilla Firefox",
+  "editeur": "Mozilla",
+  "site": "https://www.mozilla.org/firefox/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "firefox", "mac": "Firefox" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page officielle de raccourcis Mozilla inaccessible pendant la collecte (page d'erreur « Client Challenge »), copie d'archive refusée, et quota de recherche web épuisé : aucune source de raccourcis Firefox n'a pu être lue. Seules les commandes standard de menu (section 2 bis du brief) sont listées, sans source, avec deduit=true. Navigation, onglets Firefox spécifiques et affichage à compléter après vérification sur support.mozilla.org.",
+  "sources": [],
+  "actions": [
+    { "id": "nouvel-onglet", "nom": "Nouvel onglet", "groupe": "Onglets", "win": "ctrl+t", "mac": "cmd+t", "linux": "ctrl+t", "source": null, "deduit": true, "priorite": 1, "picto": "square-plus" },
+    { "id": "fermer-onglet", "nom": "Fermer onglet", "groupe": "Onglets", "win": "ctrl+w", "mac": "cmd+w", "linux": "ctrl+w", "source": null, "deduit": true, "priorite": 1, "picto": "x" },
+    { "id": "nouvelle-fenetre", "nom": "Nouvelle fenêtre", "groupe": "Onglets", "win": "ctrl+n", "mac": "cmd+n", "linux": "ctrl+n", "source": null, "deduit": true, "priorite": 1, "picto": "app-window" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": "ctrl+o", "source": null, "deduit": true, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": "ctrl+s", "source": null, "deduit": true, "priorite": 1, "picto": "save" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+p", "linux": "ctrl+p", "source": null, "deduit": true, "priorite": 1, "picto": "printer" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": "ctrl+c", "source": null, "deduit": true, "priorite": 1, "picto": "copy" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": "ctrl+x", "source": null, "deduit": true, "priorite": 2, "picto": "scissors" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": "ctrl+v", "source": null, "deduit": true, "priorite": 1, "picto": "clipboard" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": "ctrl+a", "source": null, "deduit": true, "priorite": 1, "picto": "select-all" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": "ctrl+z", "source": null, "deduit": true, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "shift+cmd+z", "linux": "ctrl+shift+z", "source": null, "deduit": true, "priorite": 2, "picto": "redo-2" },
+    { "id": "rechercher-page", "nom": "Rechercher page", "groupe": "Recherche", "win": "ctrl+f", "mac": "cmd+f", "linux": "ctrl+f", "source": null, "deduit": true, "priorite": 1, "picto": "search" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom à la molette", "raison": "molette" },
+    { "nom": "Toutes les autres fonctions Firefox", "raison": "source de raccourcis non lue, à compléter" }
+  ]
+}

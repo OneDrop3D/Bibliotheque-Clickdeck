@@ -1,0 +1,21 @@
+{
+  "id": "voice-attack",
+  "nom": "VoiceAttack",
+  "editeur": "VoiceAttack",
+  "site": "https://voiceattack.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "VoiceAttack" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "VoiceAttack est piloté par la voix : les commandes sont définies par l'utilisateur et déclenchent des frappes ou des macros. La page officielle lue ne documente aucun raccourci clavier par défaut, et le manuel PDF n'a pas pu être lu.",
+  "sources": [
+    { "url": "https://voiceattack.com/", "titre": "VoiceAttack : page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Commandes vocales", "raison": "déclenchées par la voix, non par un raccourci" }
+  ]
+}

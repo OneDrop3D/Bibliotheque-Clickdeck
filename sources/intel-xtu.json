@@ -1,0 +1,19 @@
+{
+  "id": "intel-xtu",
+  "nom": "Intel XTU",
+  "editeur": "Intel",
+  "site": "https://www.intel.com/content/www/us/en/download-center/home.html",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Intel XTU" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire d'overclocking CPU à interface graphique, pilotée à la souris. La page officielle consultée ne mentionne aucun raccourci clavier. Pas de raccourci utile à proposer : à inclure dans un pack de lancement.",
+  "sources": [ { "url": "https://www.intel.com/content/www/us/en/download-center/home.html", "titre": "Intel Download Center (page consultée, sans raccourci)" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Overclocking CPU (multiplicateur, tension)", "raison": "réglage sans raccourci, à la souris" }
+  ]
+}

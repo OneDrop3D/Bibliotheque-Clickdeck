@@ -1,0 +1,17 @@
+{
+  "id": "hyper-v",
+  "nom": "Hyper-V",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/windows-server/virtualization/hyper-v/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Hyper-V Manager" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Panne : la recherche web était épuisée et la page Microsoft lue était en 404. Aucun raccourci vérifié. Fiche non complétée.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

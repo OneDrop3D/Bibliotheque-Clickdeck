@@ -1,0 +1,19 @@
+{
+  "id": "vnc-viewer",
+  "nom": "VNC Viewer",
+  "editeur": "RealVNC",
+  "site": "https://www.realvnc.com/en/connect/docs/viewer.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "VNC Viewer", "mac": "VNC Viewer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune page de la documentation RealVNC n'a pu être lue (accès refusé ou page introuvable). Aucun raccourci n'est proposé sans source ; à compléter.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Plein écran, Ctrl+Alt+Suppr, barre d'outils", "raison": "documentation non accessible, raccourcis non vérifiés" }
+  ]
+}

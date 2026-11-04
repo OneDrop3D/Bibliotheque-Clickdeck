@@ -1,0 +1,23 @@
+{
+  "id": "crystaldiskinfo",
+  "nom": "CrystalDiskInfo",
+  "editeur": "Crystal Dew World",
+  "site": "https://crystalmark.info/en/software/crystaldiskinfo/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "CrystalDiskInfo" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne documente aucun raccourci clavier. Seule la commande standard Quitter est proposée. Les pages du manuel (menu principal, menu lecteur) n'ont pas été lues.",
+  "sources": [
+    { "url": "https://crystalmark.info/en/software/crystaldiskinfo/", "titre": "CrystalDiskInfo - page officielle" }
+  ],
+  "actions": [
+    { "id": "quitter", "nom": "Quitter", "groupe": "Application", "win": "alt+f4", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "log-out", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Actualiser la santé des disques", "raison": "réglage sans raccourci documenté" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "elgato-control-center",
+  "nom": "Elgato Control Center",
+  "editeur": "Elgato",
+  "site": "https://www.elgato.com/us/en/s/control-center",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Control Center", "mac": "Control Center" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de réglage des périphériques de capture Elgato. Aucun raccourci clavier par défaut vérifié ; la page officielle consultée (elgato.com/s/control-center) renvoie 404. Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages de capture et d'image", "raison": "réglage sans raccourci" }
+  ]
+}

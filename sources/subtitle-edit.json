@@ -1,0 +1,30 @@
+{
+  "id": "subtitle-edit",
+  "nom": "Subtitle Edit",
+  "editeur": "Nikse",
+  "site": "https://www.nikse.dk/subtitleedit",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Subtitle Edit" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci spécifique à Subtitle Edit n'a pu être vérifié : la page de documentation lue ne donnait pas la table des raccourcis par défaut. Seules les commandes standard de Windows sont listées, à recouper dans Options > Raccourcis.",
+  "sources": [
+    { "url": "https://niksedk.github.io/subtitleedit-avalonia/features/shortcuts.html", "titre": "Subtitle Edit - Shortcuts (documentation Avalonia, table non lue)" }
+  ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "save-all" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "redo-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "copy" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "scissors" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "clipboard-paste" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "mouse-pointer-2" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": null, "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "search" }
+  ],
+  "non_faisable": []
+}

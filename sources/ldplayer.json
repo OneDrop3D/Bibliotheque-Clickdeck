@@ -1,0 +1,17 @@
+{
+  "id": "ldplayer",
+  "nom": "LDPlayer",
+  "editeur": "Changzhi Technology",
+  "site": "https://www.ldplayer.net/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "LDPlayer" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Brouillon incomplet : aucun raccourci vérifié. La page FAQ officielle consultée a renvoyé une erreur 404 et la recherche web n'a pu être effectuée (quota atteint). Les raccourcis par défaut (capture, plein écran, retour, accueil, clavier) sont à relever sur le site officiel ou dans l'aide LDPlayer avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

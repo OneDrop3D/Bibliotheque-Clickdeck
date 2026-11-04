@@ -1,0 +1,21 @@
+{
+  "id": "o-o-shutup10",
+  "nom": "O&O ShutUp10",
+  "editeur": "O&O Software",
+  "site": "https://www.oo-software.com/en/shutup10",
+  "systemes": ["windows"],
+  "lancement": { "windows": "O&O ShutUp10" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Outil de confidentialité Windows à une fenêtre, sans raccourci documenté par l'éditeur. Pack de lancement, pas de liste d'actions.",
+  "sources": [
+    { "url": "https://www.oo-software.com/en/shutup10", "titre": "O&O ShutUp10 (page officielle de l'éditeur)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Appliquer les réglages de confidentialité", "raison": "réglage sans raccourci" }
+  ]
+}

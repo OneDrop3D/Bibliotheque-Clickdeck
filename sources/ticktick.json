@@ -1,0 +1,30 @@
+{
+  "id": "ticktick",
+  "nom": "TickTick",
+  "editeur": "Appfulli",
+  "site": "https://ticktick.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "TickTick", "mac": "TickTick" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur une seule source tierce (defkey.com), qui n'indique que les combinaisons Windows/Linux : colonne Mac laissée vide faute de source. Les séquences à plusieurs touches (Tab + N, Tab + M) sont écartées. À recouper avant publication.",
+  "sources": [
+    { "url": "https://defkey.com/ticktick-shortcuts", "titre": "TickTick shortcuts (defkey)" }
+  ],
+  "actions": [
+    { "id": "nouvelle-tache", "nom": "Nouvelle tâche", "groupe": "Tâches", "win": "n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "plus", "deduit": false },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Navigation", "win": "slash", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "search", "deduit": false },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": false },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": false },
+    { "id": "sous-tache", "nom": "Sous-tâche", "groupe": "Tâches", "win": "shift+enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "list-tree", "deduit": false },
+    { "id": "supprimer-tache", "nom": "Supprimer tâche", "groupe": "Tâches", "win": "ctrl+delete", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "trash-2", "deduit": false },
+    { "id": "synchroniser", "nom": "Synchroniser", "groupe": "Navigation", "win": "period", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "refresh-cw", "deduit": false },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "save", "deduit": false },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "printer", "deduit": false },
+    { "id": "raccourcis-clavier", "nom": "Raccourcis clavier", "groupe": "Aide", "win": "ctrl+slash", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "keyboard", "deduit": false }
+  ],
+  "non_faisable": []
+}

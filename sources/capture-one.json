@@ -1,0 +1,284 @@
+{
+ "id": "capture-one",
+ "nom": "Capture One",
+ "editeur": "Phase One",
+ "site": "https://www.captureone.com",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "Capture One",
+  "mac": "Capture One"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Photo & gestion d'images",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Touches Mac relevées d'un seul article tiers (SLR Lounge, 6 mars 2017), donc ancien et à recouper. La page du support Phase One (HTTP 403) et la copie web.archive.org n'ont pas pu être lues. Certaines touches sont peut-être différentes dans la version actuelle. Les raccourcis Windows ne sont pas renseignés. Le menu Capture One > Edit Keyboard Shortcuts > Summarize donne la liste exacte. Revue : étiquettes +/- (conflit probable avec la note), grille, réinitialiser et suppression définitive (même touche que corbeille sur Mac) retirées car douteuses.",
+ "sources": [
+  {
+   "url": "https://slrlounge.com/capture-one-tips-favorite-keyboard-shortcuts-in-capture-one-pro",
+   "titre": "Capture One Tips: Some Favorite Keyboard Shortcuts (6 mars 2017)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "zoom-avant",
+   "nom": "Zoom avant",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "cmd+equal",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "zoom-arriere",
+   "nom": "Zoom arrière",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "cmd+minus",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "ajuster-ecran",
+   "nom": "Ajuster à l'écran",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "cmd+0",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "maximize"
+  },
+  {
+   "id": "zoom-100",
+   "nom": "Zoom 100 %",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "alt+cmd+0",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "scan"
+  },
+  {
+   "id": "masquer-navigateur",
+   "nom": "Masquer navigateur",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "cmd+b",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "panel-left"
+  },
+  {
+   "id": "masquer-outils",
+   "nom": "Masquer outils",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "cmd+t",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "panel-right"
+  },
+  {
+   "id": "masquer-visionneuse",
+   "nom": "Cacher visionneuse",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "alt+cmd+v",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "eye-off"
+  },
+  {
+   "id": "note-1",
+   "nom": "Note 1 étoile",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "1",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-2",
+   "nom": "Note 2 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "2",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-3",
+   "nom": "Note 3 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "3",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-4",
+   "nom": "Note 4 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "4",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-5",
+   "nom": "Note 5 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "5",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "deplacer-selects",
+   "nom": "Vers Selects",
+   "groupe": "Fichier",
+   "win": null,
+   "mac": "cmd+j",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "folder-input"
+  },
+  {
+   "id": "corbeille",
+   "nom": "Envoyer corbeille",
+   "groupe": "Fichier",
+   "win": null,
+   "mac": "cmd+backspace",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "trash-2"
+  },
+  {
+   "id": "capture-connectee",
+   "nom": "Capture connectée",
+   "groupe": "Capture",
+   "win": null,
+   "mac": "cmd+k",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "camera"
+  },
+  {
+   "id": "copier-reglages",
+   "nom": "Copier réglages",
+   "groupe": "Réglages",
+   "win": null,
+   "mac": "shift+cmd+c",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "appliquer-reglages",
+   "nom": "Appliquer réglages",
+   "groupe": "Réglages",
+   "win": null,
+   "mac": "shift+cmd+v",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "avertissement-exposition",
+   "nom": "Alerte exposition",
+   "groupe": "Réglages",
+   "win": null,
+   "mac": "cmd+e",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "triangle-alert"
+  },
+  {
+   "id": "annuler",
+   "nom": "Annuler",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+z",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "retablir",
+   "nom": "Rétablir",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "shift+cmd+z",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "redo-2"
+  },
+  {
+   "id": "affecter-variante",
+   "nom": "Affecter variante",
+   "groupe": "Comparaison",
+   "win": null,
+   "mac": "enter",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "git-compare"
+  },
+  {
+   "id": "effacer-variante",
+   "nom": "Effacer variante",
+   "groupe": "Comparaison",
+   "win": null,
+   "mac": "cmd+enter",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "x"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Zoom à la molette",
+   "raison": "molette"
+  },
+  {
+   "nom": "Taille du pinceau à la molette",
+   "raison": "molette"
+  },
+  {
+   "nom": "Étiquette jaune (touche *)",
+   "raison": "touche non confirmée dans la source"
+  }
+ ]
+}

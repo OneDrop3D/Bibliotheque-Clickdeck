@@ -1,0 +1,44 @@
+{
+  "id": "retroarch",
+  "nom": "RetroArch",
+  "editeur": "Libretro",
+  "site": "https://www.retroarch.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "RetroArch", "mac": "RetroArch" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Touches par défaut du clavier d'après la documentation officielle libretro (aucun modificateur, donc identiques sur Mac). Sur Mac, les touches F1 à F11 peuvent exiger fn selon les réglages du clavier. La touche K (image par image) est déduite du nom du fichier d'image de la page.",
+  "sources": [
+    { "url": "https://docs.libretro.com/guides/input-and-controls/", "titre": "Libretro : entrées et contrôles (raccourcis clavier par défaut)" }
+  ],
+  "actions": [
+    { "id": "menu", "nom": "Menu RetroArch", "groupe": "Jeu", "win": "f1", "mac": "f1", "linux": null, "source": 0, "priorite": 1, "picto": "menu", "deduit": true },
+    { "id": "pause", "nom": "Pause", "groupe": "Jeu", "win": "p", "mac": "p", "linux": null, "source": 0, "priorite": 1, "picto": "pause", "deduit": true },
+    { "id": "reinitialiser", "nom": "Réinitialiser", "groupe": "Jeu", "win": "h", "mac": "h", "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw", "deduit": true },
+    { "id": "quitter", "nom": "Quitter", "groupe": "Jeu", "win": "escape", "mac": "escape", "linux": null, "source": 0, "priorite": 1, "picto": "log-out", "deduit": true },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Jeu", "win": "f", "mac": "f", "linux": null, "source": 0, "priorite": 1, "picto": "maximize", "deduit": true },
+    { "id": "capture-ecran", "nom": "Capture d'écran", "groupe": "Jeu", "win": "f8", "mac": "f8", "linux": null, "source": 0, "priorite": 1, "picto": "camera", "deduit": true },
+    { "id": "sauver-etat", "nom": "Sauver l'état", "groupe": "États", "win": "f2", "mac": "f2", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "charger-etat", "nom": "Charger l'état", "groupe": "États", "win": "f4", "mac": "f4", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "emplacement-moins", "nom": "Emplacement -", "groupe": "États", "win": "f6", "mac": "f6", "linux": null, "source": 0, "priorite": 1, "picto": "minus", "deduit": true },
+    { "id": "emplacement-plus", "nom": "Emplacement +", "groupe": "États", "win": "f7", "mac": "f7", "linux": null, "source": 0, "priorite": 1, "picto": "plus", "deduit": true },
+    { "id": "avance-rapide", "nom": "Avance rapide", "groupe": "Vitesse", "win": "space", "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "fast-forward", "deduit": true },
+    { "id": "image-par-image", "nom": "Image par image", "groupe": "Vitesse", "win": "k", "mac": "k", "linux": null, "source": 0, "priorite": 2, "picto": "step-forward", "deduit": true },
+    { "id": "ralenti", "nom": "Ralenti", "groupe": "Vitesse", "win": "e", "mac": "e", "linux": null, "source": 0, "priorite": 2, "picto": "turtle", "deduit": true },
+    { "id": "muet", "nom": "Muet", "groupe": "Audio et vidéo", "win": "f9", "mac": "f9", "linux": null, "source": 0, "priorite": 1, "picto": "volume-x", "deduit": true },
+    { "id": "afficher-fps", "nom": "Afficher les FPS", "groupe": "Audio et vidéo", "win": "f3", "mac": "f3", "linux": null, "source": 0, "priorite": 2, "picto": "gauge", "deduit": true },
+    { "id": "shader-suivant", "nom": "Shader suivant", "groupe": "Audio et vidéo", "win": "m", "mac": "m", "linux": null, "source": 0, "priorite": 2, "picto": "layers", "deduit": true },
+    { "id": "shader-precedent", "nom": "Shader précédent", "groupe": "Audio et vidéo", "win": "n", "mac": "n", "linux": null, "source": 0, "priorite": 2, "picto": "layers-2", "deduit": true },
+    { "id": "triche-active", "nom": "Triches on/off", "groupe": "Outils", "win": "u", "mac": "u", "linux": null, "source": 0, "priorite": 3, "picto": "wand-2", "deduit": true },
+    { "id": "triche-suivante", "nom": "Triche suivante", "groupe": "Outils", "win": "y", "mac": "y", "linux": null, "source": 0, "priorite": 3, "picto": "chevron-right", "deduit": true },
+    { "id": "triche-precedente", "nom": "Triche précédente", "groupe": "Outils", "win": "t", "mac": "t", "linux": null, "source": 0, "priorite": 3, "picto": "chevron-left", "deduit": true },
+    { "id": "capturer-souris", "nom": "Capturer souris", "groupe": "Outils", "win": "f11", "mac": "f11", "linux": null, "source": 0, "priorite": 3, "picto": "mouse-pointer", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Rembobiner (R)", "raison": "touche maintenue" },
+    { "nom": "Avance rapide maintenue (L)", "raison": "touche maintenue" }
+  ]
+}

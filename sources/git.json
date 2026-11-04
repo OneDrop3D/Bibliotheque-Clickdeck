@@ -1,0 +1,21 @@
+{
+  "id": "git",
+  "nom": "Git",
+  "editeur": "Software Freedom Conservancy (projet Git)",
+  "site": "https://git-scm.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Git Bash", "mac": "Terminal" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Git est un outil en ligne de commande, sans raccourcis clavier globaux. La page officielle de git gui ne liste aucun raccourci. Pour un usage en touche, ClickDeck peut envoyer une macro vers le terminal : elle ne correspond pas à une fonction Git native.",
+  "sources": [
+    { "url": "https://git-scm.com/docs/git-gui", "titre": "git-gui documentation (git-scm.com)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Commandes Git (status, commit, push...)", "raison": "saisies dans un terminal, pas de raccourci clavier" }
+  ]
+}

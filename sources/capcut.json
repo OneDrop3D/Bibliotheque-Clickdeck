@@ -1,0 +1,32 @@
+{
+  "id": "capcut",
+  "nom": "CapCut Desktop",
+  "editeur": "CapCut (ByteDance)",
+  "site": "https://www.capcut.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": {"windows": "CapCut", "mac": "CapCut"},
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune liste officielle de raccourcis trouvée : la page officielle consultée ne mentionne aucun raccourci, et les sources trouvées sont des aide-mémoire tiers. Seuls Scinder (Ctrl/Cmd+B), Lecture (Espace) et Importer ont une source tierce. Les autres lignes sont des commandes standard ajoutées sans source (deduit). À vérifier dans le panneau de raccourcis de CapCut (icône clavier de la barre supérieure) avant usage. Export, plein écran et keyframes non vérifiés, donc omis.",
+  "sources": [
+    {"url": "https://primalvideo.com/guides/capcut-for-pc-mac-tutorial/", "titre": "CapCut for PC & Mac: Desktop Tutorial for Beginners (2026)"},
+    {"url": "https://www.skillademia.com/shortcuts/capcut-shortcuts/", "titre": "CapCut Keyboard Shortcuts (Skillademia)"}
+  ],
+  "actions": [
+    {"id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 1, "priorite": 1, "picto": "file-plus", "deduit": true},
+    {"id": "ouvrir-projet", "nom": "Ouvrir projet", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 1, "priorite": 1, "picto": "folder-open", "deduit": true},
+    {"id": "importer", "nom": "Importer", "groupe": "Fichier", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 1, "priorite": 1, "picto": "import"},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 1, "priorite": 1, "picto": "undo-2", "deduit": true},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 1, "priorite": 2, "picto": "scissors", "deduit": true},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 1, "priorite": 2, "picto": "copy", "deduit": true},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 1, "priorite": 2, "picto": "clipboard-paste", "deduit": true},
+    {"id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 1, "priorite": 2, "picto": "square-dashed", "deduit": true},
+    {"id": "scinder", "nom": "Scinder", "groupe": "Montage", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "split"},
+    {"id": "lecture-pause", "nom": "Lecture / pause", "groupe": "Lecture", "win": "space", "mac": "space", "linux": null, "source": 1, "priorite": 1, "picto": "play"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "delete", "linux": null, "source": 1, "priorite": 1, "picto": "trash-2"}
+  ],
+  "non_faisable": [{"nom": "Exporter (raccourci non vérifié)", "raison": "non vérifié"}, {"nom": "Plein écran de l'aperçu (raccourci non vérifié)", "raison": "non vérifié"}]
+}

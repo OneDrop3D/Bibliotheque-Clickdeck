@@ -1,0 +1,148 @@
+{
+  "id": "gnupg-kleopatra",
+  "nom": "GnuPG / Kleopatra",
+  "editeur": "GnuPG e.V. / Gpg4win",
+  "site": "https://www.gpg4win.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Kleopatra",
+    "mac": "Kleopatra",
+    "linux": "Kleopatra"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source de Kleopatra (KDE). Mac : Ctrl devient Cmd (Qt), déduit. Les Ctrl+F et Ctrl+O d'origine, non confirmés, ont été retirés.",
+  "sources": [
+    {
+      "url": "https://www.gpg4win.org/doc/en/gpg4win-compendium.html",
+      "titre": "Gpg4win Compendium"
+    },
+    {
+      "url": "https://invent.kde.org/pim/kleopatra/-/raw/master/src/view/keylistcontroller.cpp",
+      "titre": "Kleopatra source (keylistcontroller.cpp, mainwindow.cpp)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau-certificat",
+      "nom": "Nouveau certificat",
+      "groupe": "Certificats",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Certificats",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": "ctrl+i",
+      "source": 1,
+      "priorite": 1,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Certificats",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 1,
+      "priorite": 1,
+      "picto": "upload",
+      "deduit": true
+    },
+    {
+      "id": "rechercher-serveur",
+      "nom": "Chercher serveur",
+      "groupe": "Certificats",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": "ctrl+shift+i",
+      "source": 1,
+      "priorite": 2,
+      "picto": "globe",
+      "deduit": true
+    },
+    {
+      "id": "exporter-serveur",
+      "nom": "Publier serveur",
+      "groupe": "Certificats",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": "ctrl+shift+e",
+      "source": 1,
+      "priorite": 3,
+      "picto": "cloud-upload",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Certificats",
+      "win": "delete",
+      "mac": "delete",
+      "linux": "delete",
+      "source": 1,
+      "priorite": 2,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Certificats",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 1,
+      "priorite": 2,
+      "picto": "refresh-cw",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 1,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "recherche-rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Certificats",
+      "win": "alt+q",
+      "mac": "alt+q",
+      "linux": "alt+q",
+      "source": 1,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Chiffrer / signer le presse-papiers",
+      "raison": "séquence de plusieurs étapes"
+    }
+  ]
+}

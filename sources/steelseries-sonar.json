@@ -1,0 +1,22 @@
+{
+  "id": "steelseries-sonar",
+  "nom": "SteelSeries Sonar",
+  "editeur": "SteelSeries",
+  "site": "https://steelseries.com/gg/sonar",
+  "systemes": ["windows"],
+  "lancement": { "windows": "SteelSeries GG" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page produit officielle lue ne mentionne aucun raccourci clavier pour Sonar ni GG. Les réglages se font à la souris dans l'interface GG. Pas d'action proposée. Une recherche de raccourcis par défaut n'a pas pu être menée (quota de recherche web épuisé pendant la session) : à reprendre si l'éditeur en publie.",
+  "sources": [
+    { "url": "https://steelseries.com/gg/sonar", "titre": "SteelSeries GG - Sonar (page produit)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Changer de mode Sonar", "raison": "aucun raccourci publié, réglage dans GG" },
+    { "nom": "Volume des canaux", "raison": "molette ou souris dans l'interface" }
+  ]
+}

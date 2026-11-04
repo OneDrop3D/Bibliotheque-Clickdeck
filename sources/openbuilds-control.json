@@ -1,0 +1,272 @@
+{
+  "id": "openbuilds-control",
+  "nom": "OpenBuilds CONTROL",
+  "editeur": "OpenBuilds",
+  "site": "https://openbuildspartstore.com/openbuilds-control/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "OpenBuilds CONTROL",
+    "mac": "OpenBuilds CONTROL",
+    "linux": "openbuilds-control"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut relevés dans le code source officiel (app/js/keyboard.js, branche master) ; modifiables dans l'application. Mac : même code (Electron), donc déduits. Insert (Régler zéro XYZ) n'est pas disponible dans ClickDeck. F1, F5 et F6 sont fixes. Les touches Début, Fin et Suppr sont des touches étendues, parfois absentes des claviers Mac portables.",
+  "sources": [
+    {
+      "url": "https://github.com/OpenBuilds/OpenBuilds-CONTROL/blob/master/app/js/keyboard.js",
+      "titre": "OpenBuilds CONTROL - code source, keyboard.js"
+    }
+  ],
+  "actions": [
+    {
+      "id": "demarrer-pauser-job",
+      "nom": "Démarrer / pause",
+      "groupe": "Job",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêt",
+      "groupe": "Job",
+      "win": "escape",
+      "mac": "escape",
+      "linux": "escape",
+      "source": 0,
+      "priorite": 1,
+      "picto": "octagon-x",
+      "deduit": true
+    },
+    {
+      "id": "xplus",
+      "nom": "X+",
+      "groupe": "Déplacement",
+      "win": "right",
+      "mac": "right",
+      "linux": "right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right",
+      "deduit": true
+    },
+    {
+      "id": "xmoins",
+      "nom": "X-",
+      "groupe": "Déplacement",
+      "win": "left",
+      "mac": "left",
+      "linux": "left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left",
+      "deduit": true
+    },
+    {
+      "id": "yplus",
+      "nom": "Y+",
+      "groupe": "Déplacement",
+      "win": "up",
+      "mac": "up",
+      "linux": "up",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up",
+      "deduit": true
+    },
+    {
+      "id": "ymoins",
+      "nom": "Y-",
+      "groupe": "Déplacement",
+      "win": "down",
+      "mac": "down",
+      "linux": "down",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down",
+      "deduit": true
+    },
+    {
+      "id": "zplus",
+      "nom": "Z+",
+      "groupe": "Déplacement",
+      "win": "pageup",
+      "mac": "pageup",
+      "linux": "pageup",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-up",
+      "deduit": true
+    },
+    {
+      "id": "zmoins",
+      "nom": "Z-",
+      "groupe": "Déplacement",
+      "win": "pagedown",
+      "mac": "pagedown",
+      "linux": "pagedown",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-down",
+      "deduit": true
+    },
+    {
+      "id": "pas-plus",
+      "nom": "Pas plus grand",
+      "groupe": "Déplacement",
+      "win": "plus",
+      "mac": "plus",
+      "linux": "plus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "pas-moins",
+      "nom": "Pas plus petit",
+      "groupe": "Déplacement",
+      "win": "minus",
+      "mac": "minus",
+      "linux": "minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus",
+      "deduit": true
+    },
+    {
+      "id": "mode-incremental",
+      "nom": "Mode incrémental",
+      "groupe": "Déplacement",
+      "win": "slash",
+      "mac": "slash",
+      "linux": "slash",
+      "source": 0,
+      "priorite": 2,
+      "picto": "footprints",
+      "deduit": true
+    },
+    {
+      "id": "origine-machine",
+      "nom": "Origine machine",
+      "groupe": "Origines",
+      "win": "home",
+      "mac": "home",
+      "linux": "home",
+      "source": 0,
+      "priorite": 1,
+      "picto": "house",
+      "deduit": true
+    },
+    {
+      "id": "aller-zero",
+      "nom": "Aller au zéro XYZ",
+      "groupe": "Origines",
+      "win": "delete",
+      "mac": "delete",
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair",
+      "deduit": true
+    },
+    {
+      "id": "debloquer-alarme",
+      "nom": "Débloquer alarme",
+      "groupe": "Origines",
+      "win": "end",
+      "mac": "end",
+      "linux": "end",
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock-open",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-moins",
+      "nom": "Vitesse -",
+      "groupe": "Vitesse",
+      "win": "0",
+      "mac": "0",
+      "linux": "0",
+      "source": 0,
+      "priorite": 2,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-plus",
+      "nom": "Vitesse +",
+      "groupe": "Vitesse",
+      "win": "period",
+      "mac": "period",
+      "linux": "period",
+      "source": 0,
+      "priorite": 2,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "recharger-interface",
+      "nom": "Recharger interface",
+      "groupe": "Interface",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw",
+      "deduit": true
+    },
+    {
+      "id": "console-serie",
+      "nom": "Console série",
+      "groupe": "Interface",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 2,
+      "picto": "terminal",
+      "deduit": true
+    },
+    {
+      "id": "depannage",
+      "nom": "Dépannage",
+      "groupe": "Interface",
+      "win": "f1",
+      "mac": "f1",
+      "linux": "f1",
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Régler zéro XYZ (touche Insert)",
+      "raison": "touche Insert absente de la liste ClickDeck"
+    },
+    {
+      "nom": "Mode de déplacement continu (touche *)",
+      "raison": "astérisque sans équivalent fiable hors pavé numérique"
+    },
+    {
+      "nom": "Macro JavaScript personnalisée",
+      "raison": "réglage sans raccourci par défaut, à assigner par l'utilisateur"
+    }
+  ]
+}

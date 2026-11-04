@@ -1,0 +1,17 @@
+{
+  "id": "hammerspoon",
+  "nom": "Hammerspoon",
+  "editeur": "Hammerspoon (projet open source)",
+  "site": "https://www.hammerspoon.org/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Hammerspoon" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Automatisation Lua sans raccourci par défaut : les raccourcis sont définis dans init.lua (hs.hotkey.bind). Le menu de la barre permet d'ouvrir et recharger la configuration, sans combinaison publiée.",
+  "sources": [ { "url": "https://www.hammerspoon.org/go/", "titre": "Hammerspoon - Getting Started" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Raccourcis personnalisés Lua", "raison": "définis dans init.lua, pas de raccourci par défaut" } ]
+}

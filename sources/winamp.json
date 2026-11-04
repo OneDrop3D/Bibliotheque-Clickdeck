@@ -1,0 +1,270 @@
+{
+  "id": "winamp",
+  "nom": "Winamp",
+  "editeur": "Winamp (Llama Group)",
+  "site": "https://www.winamp.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Winamp",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Source unique (defkey, raccourcis par défaut du lecteur). Le support officiel ne les liste pas. Piste suivante : pavé numérique 6 (la page ne cite pas B). Volume et recul/avance : flèches de la fenêtre principale. Ctrl+A (toujours au premier plan) est cité par la source mais douteux, priorité 3.",
+  "sources": [
+    {
+      "url": "https://defkey.com/winamp-shortcuts",
+      "titre": "Winamp shortcuts (defkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture",
+      "groupe": "Lecteur",
+      "win": "x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Lecteur",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "stop",
+      "nom": "Arrêt",
+      "groupe": "Lecteur",
+      "win": "v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "precedent",
+      "nom": "Piste précédente",
+      "groupe": "Lecteur",
+      "win": "z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "suivant",
+      "nom": "Piste suivante",
+      "groupe": "Lecteur",
+      "win": "num6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "stop-fondu",
+      "nom": "Arrêt en fondu",
+      "groupe": "Lecteur",
+      "win": "shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "volume-x"
+    },
+    {
+      "id": "stop-apres",
+      "nom": "Arrêt après piste",
+      "groupe": "Lecteur",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-stop"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Volume",
+      "win": "up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume -",
+      "groupe": "Volume",
+      "win": "down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "reculer",
+      "nom": "Reculer de 5 s",
+      "groupe": "Lecteur",
+      "win": "left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "avancer",
+      "nom": "Avancer de 5 s",
+      "groupe": "Lecteur",
+      "win": "right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "repeter",
+      "nom": "Répéter",
+      "groupe": "Lecteur",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "aleatoire",
+      "nom": "Lecture aléatoire",
+      "groupe": "Lecteur",
+      "win": "s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shuffle"
+    },
+    {
+      "id": "playlist",
+      "nom": "Liste de lecture",
+      "groupe": "Fenêtres",
+      "win": "alt+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-music"
+    },
+    {
+      "id": "egaliseur",
+      "nom": "Égaliseur",
+      "groupe": "Fenêtres",
+      "win": "alt+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sliders-vertical"
+    },
+    {
+      "id": "mediatheque",
+      "nom": "Médiathèque",
+      "groupe": "Fenêtres",
+      "win": "alt+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "library"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fenêtres",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "infos-piste",
+      "nom": "Infos de la piste",
+      "groupe": "Fenêtres",
+      "win": "alt+3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "ouvrir-lieu",
+      "nom": "Ouvrir un lieu",
+      "groupe": "Fichiers",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir un dossier",
+      "groupe": "Fichiers",
+      "win": "shift+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "aller-a",
+      "nom": "Aller à l'instant",
+      "groupe": "Lecteur",
+      "win": "ctrl+j",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "timer"
+    },
+    {
+      "id": "premier-plan",
+      "nom": "Toujours devant",
+      "groupe": "Fenêtres",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pin"
+    }
+  ],
+  "non_faisable": []
+}

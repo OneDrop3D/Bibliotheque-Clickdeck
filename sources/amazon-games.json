@@ -1,0 +1,17 @@
+{
+  "id": "amazon-games",
+  "nom": "Amazon Games",
+  "editeur": "Amazon",
+  "site": "https://gaming.amazon.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Amazon Games" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté trouvé : la page d'aide Amazon a répondu 503. À revérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

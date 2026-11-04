@@ -1,0 +1,43 @@
+{
+  "id": "reshade",
+  "nom": "ReShade",
+  "editeur": "ReShade (Crosire)",
+  "site": "https://reshade.me/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "ReShade"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Touche d'ouverture de l'interface (Home) lue dans le code source ; les autres touches (effets, rechargement, préréglages) n'ont aucune valeur par défaut. La capture d'écran par défaut (Impr. écran) n'est pas représentable dans la syntaxe ClickDeck.",
+  "sources": [
+    {
+      "url": "https://github.com/crosire/reshade/blob/main/source/runtime_gui.cpp",
+      "titre": "Code source ReShade, init_gui (touche Home par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "interface",
+      "nom": "Interface ReShade",
+      "groupe": "Général",
+      "win": "home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Capture d'écran",
+      "raison": "touche Impr. écran hors syntaxe"
+    }
+  ]
+}

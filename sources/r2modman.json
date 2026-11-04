@@ -1,0 +1,17 @@
+{
+  "id": "r2modman",
+  "nom": "r2modman",
+  "editeur": "ebkr",
+  "site": "https://github.com/ebkr/r2modmanPlus",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "r2modman", "linux": "r2modman" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté trouvé (wiki et dépôt consultés). Aucune action retenue.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "whisky",
+  "nom": "Whisky (macOS)",
+  "editeur": "Whisky App (projet communautaire)",
+  "site": "https://github.com/Whisky-App/Whisky",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Whisky" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Projet archivé le 11 mai 2025 (dépôt en lecture seule) : le README ne documente aucun raccourci. Pas d'actions proposées.",
+  "sources": [ { "url": "https://github.com/Whisky-App/Whisky", "titre": "Whisky, dépôt GitHub (archivé)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Lancer une bouteille Wine", "raison": "réglage sans raccourci documenté" } ]
+}

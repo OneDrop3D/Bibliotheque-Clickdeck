@@ -1,0 +1,358 @@
+{
+  "id": "coreldraw",
+  "nom": "CorelDRAW",
+  "editeur": "Corel",
+  "site": "https://www.coreldraw.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "CorelDRAW",
+    "mac": "CorelDRAW"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : guide tiers Tutkit (6 févr. 2024), qui contient des erreurs ; ont été retirés Recadrage (X est la gomme), Couleur (A), Crayon contour (D), Sans contour, Remplissage intelligent, Aligner/Disposer (Alt+F7/F8 sont Position/Rotation) et Gestion symboles (conflit Ctrl+F3). Mac : seules les commandes standard sont déduites ; les autres restent sans raccourci Mac faute de source.",
+  "sources": [
+    {
+      "url": "https://www.tutkit.com/en/help/147-shortcuts-for-coreldraw",
+      "titre": "147 shortcuts for CorelDRAW (Tutkit, 6 févr. 2024)"
+    },
+    {
+      "url": "https://product.corel.com/help/CorelDRAW/540111148/CorelDRAW-en/CorelDRAW-Customize-keyboard-shortcuts.html",
+      "titre": "Customize keyboard shortcuts (aide officielle Corel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-input"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Fichier",
+      "win": "ctrl+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-output"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "dupliquer-multiple",
+      "nom": "Dupliquer multiple",
+      "groupe": "Édition",
+      "win": "ctrl+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "copy-check"
+    },
+    {
+      "id": "outil-zoom",
+      "nom": "Zoom",
+      "groupe": "Outils",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in",
+      "deduit": true
+    },
+    {
+      "id": "outil-main",
+      "nom": "Main",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand",
+      "deduit": true
+    },
+    {
+      "id": "outil-rectangle",
+      "nom": "Rectangle",
+      "groupe": "Outils",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "outil-ellipse",
+      "nom": "Ellipse",
+      "groupe": "Outils",
+      "win": "f7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "outil-polygone",
+      "nom": "Polygone",
+      "groupe": "Outils",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hexagon",
+      "deduit": true
+    },
+    {
+      "id": "outil-texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "f8",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "couleur-contour",
+      "nom": "Plume de contour",
+      "groupe": "Outils",
+      "win": "f12",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "aligner-grille",
+      "nom": "Aligner sur grille",
+      "groupe": "Affichage",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "apercu-page",
+      "nom": "Aperçu page",
+      "groupe": "Affichage",
+      "win": "f9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan-eye"
+    },
+    {
+      "id": "gestionnaire-vues",
+      "nom": "Gestion des vues",
+      "groupe": "Affichage",
+      "win": "ctrl+f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layout-panel-top"
+    },
+    {
+      "id": "options-raccourcis",
+      "nom": "Options",
+      "groupe": "Système",
+      "win": "ctrl+j",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Déplacer en glissant la souris",
+      "raison": "souris"
+    },
+    {
+      "nom": "Sélection de plusieurs objets au clic",
+      "raison": "souris"
+    }
+  ]
+}

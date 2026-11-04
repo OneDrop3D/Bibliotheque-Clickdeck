@@ -1,0 +1,355 @@
+{
+  "id": "things",
+  "nom": "Things",
+  "editeur": "Cultured Code",
+  "site": "https://culturedcode.com/things/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Things"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application macOS uniquement. Raccourcis par défaut de Things 3 relevés dans l'aide officielle ; ils sont modifiables dans les réglages.",
+  "sources": [
+    {
+      "url": "https://culturedcode.com/things/support/articles/2785159/",
+      "titre": "Things for Mac: Keyboard Shortcuts (Cultured Code)"
+    },
+    {
+      "url": "https://culturedcode.com/things/support/articles/2249437/",
+      "titre": "Quick Entry (Cultured Code)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-tache",
+      "nom": "Nouvelle tâche",
+      "groupe": "Création",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "quick-entry",
+      "nom": "Saisie rapide",
+      "groupe": "Création",
+      "win": null,
+      "mac": "ctrl+space",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "saisie-autofill",
+      "nom": "Saisie + lien",
+      "groupe": "Création",
+      "win": null,
+      "mac": "ctrl+alt+space",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "link"
+    },
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Création",
+      "win": null,
+      "mac": "cmd+alt+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "nouvelle-rubrique",
+      "nom": "Nouvelle rubrique",
+      "groupe": "Création",
+      "win": null,
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "heading"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "terminer",
+      "nom": "Terminer",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check"
+    },
+    {
+      "id": "annuler-tache",
+      "nom": "Annuler la tâche",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+alt+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-x"
+    },
+    {
+      "id": "ouvrir-element",
+      "nom": "Ouvrir l'élément",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-pen"
+    },
+    {
+      "id": "valider",
+      "nom": "Valider",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-checks"
+    },
+    {
+      "id": "monter-element",
+      "nom": "Monter élément",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "descendre-element",
+      "nom": "Descendre élément",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "changer-liste",
+      "nom": "Changer de liste",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "shift+cmd+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-right"
+    },
+    {
+      "id": "aujourdhui",
+      "nom": "Pour aujourd'hui",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun"
+    },
+    {
+      "id": "ce-soir",
+      "nom": "Ce soir",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "moon"
+    },
+    {
+      "id": "plus-tard",
+      "nom": "À tout moment",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "un-jour",
+      "nom": "Un jour",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "archive"
+    },
+    {
+      "id": "echeance",
+      "nom": "Ajouter échéance",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "shift+cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-clock"
+    },
+    {
+      "id": "echeance-plus-jour",
+      "nom": "Échéance +1 jour",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "ctrl+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-plus"
+    },
+    {
+      "id": "repetition",
+      "nom": "Répétition",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "shift+cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "boite-reception",
+      "nom": "Boîte de réception",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "inbox"
+    },
+    {
+      "id": "a-venir",
+      "nom": "À venir",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-range"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "vue-aujourdhui",
+      "nom": "Vue Aujourd'hui",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "vue-journal",
+      "nom": "Vue Journal",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+6",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "book-check"
+    },
+    {
+      "id": "choisir-date",
+      "nom": "Choisir la date",
+      "groupe": "Dates",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Défilement dans la liste",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bettersnaptool",
+  "nom": "BetterSnapTool",
+  "editeur": "Folivora",
+  "site": "https://folivora.ai/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "BetterSnapTool"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne publie pas de raccourcis par défaut pour BetterSnapTool. Aucune combinaison n'a été renseignée. A configurer dans les réglages de l'application.",
+  "sources": [
+    {
+      "url": "https://folivora.ai/",
+      "titre": "Folivora - site officiel"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bluestacks",
+  "nom": "BlueStacks",
+  "editeur": "BlueStacks (now.gg)",
+  "site": "https://www.bluestacks.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "BlueStacks", "mac": "BlueStacks" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Brouillon incomplet : aucun raccourci vérifié. La page FAQ officielle consultée ne liste pas de raccourcis clavier et ne renvoie pas vers une page dédiée. Les raccourcis (accueil, retour, capture, plein écran, contrôles de jeu) sont à relever dans la documentation BlueStacks (support.bluestacks.com) avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

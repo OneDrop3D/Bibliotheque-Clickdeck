@@ -1,0 +1,17 @@
+{
+  "id": "pcmark",
+  "nom": "PCMark",
+  "editeur": "UL Solutions",
+  "site": "https://benchmarks.ul.com/pcmark10",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PCMark" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de benchmark à une fenêtre, sans raccourci utile. Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Lancer le benchmark", "raison": "aucun raccourci documenté" } ]
+}

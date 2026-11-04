@@ -1,0 +1,17 @@
+{
+  "id": "winstars",
+  "nom": "WinStars",
+  "editeur": "WinStars",
+  "site": "https://www.winstars.net/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "WinStars" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci relevé : la page du site ne documente pas de raccourcis et la recherche web n'était plus disponible. Windows uniquement. À compléter avant publication.",
+  "sources": [ { "url": "https://www.winstars.net/", "titre": "WinStars" } ],
+  "actions": [],
+  "non_faisable": []
+}

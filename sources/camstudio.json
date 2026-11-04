@@ -1,0 +1,25 @@
+{
+  "id": "camstudio",
+  "nom": "CamStudio",
+  "editeur": "CamStudio",
+  "site": "https://camstudio.org/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "CamStudio" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis selon la documentation officielle camstudio.org. Démarrer et arrêter utilisent la même combinaison. Aucune touche de pause n'est documentée. Les sources tierces (F8 démarrer/pause, F9 arrêter, F10) se contredisent et ne sont pas retenues ; à vérifier dans Options > Raccourcis clavier de la version installée.",
+  "sources": [
+    { "url": "https://camstudio.org/documentation", "titre": "CamStudio - Documentation" }
+  ],
+  "actions": [
+    { "id": "enregistrer-ecran", "nom": "Enregistrer écran", "groupe": "Enregistrement", "win": "ctrl+f9", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot" },
+    { "id": "enregistrer-zone", "nom": "Enregistrer zone", "groupe": "Enregistrement", "win": "ctrl+shift+f9", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scan" }
+  ],
+  "non_faisable": [
+    { "nom": "Enregistrer fenêtre", "raison": "Ctrl+Win+F9 : touche Windows non prise en charge" },
+    { "nom": "Pause enregistrement", "raison": "aucun raccourci de pause documenté" }
+  ]
+}

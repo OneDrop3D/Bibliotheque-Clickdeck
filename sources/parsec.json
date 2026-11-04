@@ -1,0 +1,117 @@
+{
+  "id": "parsec",
+  "nom": "Parsec",
+  "editeur": "Parsec Cloud",
+  "site": "https://parsec.app",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Parsec",
+    "mac": "Parsec"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source tierce unique (aide officielle en 403). Raccourcis Mac non confirmés par la source : laissés vides. Modifiables dans Réglages > Hotkeys.",
+  "sources": [
+    {
+      "url": "https://defkey.com/parsec-shortcuts",
+      "titre": "Parsec shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "chat",
+      "nom": "Chat",
+      "groupe": "Session",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "message-square"
+    },
+    {
+      "id": "menu",
+      "nom": "Menu Parsec",
+      "groupe": "Session",
+      "win": "ctrl+shift+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "menu"
+    },
+    {
+      "id": "fenetre",
+      "nom": "Mode fenêtré",
+      "groupe": "Session",
+      "win": "ctrl+shift+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "souris",
+      "nom": "Libérer la souris",
+      "groupe": "Session",
+      "win": "ctrl+alt+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "immersif",
+      "nom": "Mode immersif",
+      "groupe": "Session",
+      "win": "ctrl+shift+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "acces-ami",
+      "nom": "Accès à un ami",
+      "groupe": "Invités",
+      "win": "ctrl+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "user-check"
+    },
+    {
+      "id": "expulser",
+      "nom": "Expulser tous",
+      "groupe": "Invités",
+      "win": "ctrl+f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "user-x"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter le flux",
+      "groupe": "Session",
+      "win": "alt+f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out"
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,402 @@
+{
+  "id": "github",
+  "nom": "GitHub Desktop",
+  "editeur": "GitHub",
+  "site": "https://desktop.github.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "GitHub Desktop",
+    "mac": "GitHub Desktop"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis recoupés avec le code source (CmdOrCtrl). « Supprimer le dépôt » retiré : la doc dit Delete, le code Backspace.",
+  "sources": [
+    {
+      "url": "https://docs.github.com/en/desktop/getting-started-with-github-desktop/keyboard-shortcuts",
+      "titre": "Keyboard shortcuts - GitHub Desktop Docs"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/desktop/desktop/development/app/src/main-process/menu/build-default-menu.ts",
+      "titre": "GitHub Desktop, menu par défaut (code source)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau-depot",
+      "nom": "Nouveau dépôt",
+      "groupe": "Dépôts",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "ouvrir-depot",
+      "nom": "Dépôt local",
+      "groupe": "Dépôts",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "cloner-depot",
+      "nom": "Cloner un dépôt",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "cloud-download"
+    },
+    {
+      "id": "liste-depots",
+      "nom": "Mes dépôts",
+      "groupe": "Dépôts",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "envoyer",
+      "nom": "Envoyer (push)",
+      "groupe": "Dépôts",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload"
+    },
+    {
+      "id": "recuperer",
+      "nom": "Tirer (pull)",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "ouvrir-github",
+      "nom": "Voir sur GitHub",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "external-link"
+    },
+    {
+      "id": "terminal",
+      "nom": "Ouvrir le terminal",
+      "groupe": "Dépôts",
+      "win": "ctrl+backquote",
+      "mac": "ctrl+backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir le dossier",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder"
+    },
+    {
+      "id": "ouvrir-editeur",
+      "nom": "Ouvrir l'éditeur",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "code"
+    },
+    {
+      "id": "creer-issue",
+      "nom": "Créer une issue",
+      "groupe": "Dépôts",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "modifications",
+      "nom": "Modifications",
+      "groupe": "Modifications",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-diff"
+    },
+    {
+      "id": "historique",
+      "nom": "Historique",
+      "groupe": "Modifications",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "resume-commit",
+      "nom": "Aller au résumé",
+      "groupe": "Modifications",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil-line"
+    },
+    {
+      "id": "valider",
+      "nom": "Valider (commit)",
+      "groupe": "Modifications",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-commit-horizontal"
+    },
+    {
+      "id": "selection-fichiers",
+      "nom": "Cocher / décocher",
+      "groupe": "Modifications",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-check"
+    },
+    {
+      "id": "mettre-de-cote",
+      "nom": "Mettre de côté",
+      "groupe": "Modifications",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "archive"
+    },
+    {
+      "id": "stash-afficher",
+      "nom": "Voir mises de côté",
+      "groupe": "Modifications",
+      "win": "ctrl+h",
+      "mac": "ctrl+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "archive-restore"
+    },
+    {
+      "id": "pr-courante",
+      "nom": "Pull request",
+      "groupe": "Modifications",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-pull-request"
+    },
+    {
+      "id": "toutes-branches",
+      "nom": "Toutes les branches",
+      "groupe": "Branches",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-branch"
+    },
+    {
+      "id": "nouvelle-branche",
+      "nom": "Nouvelle branche",
+      "groupe": "Branches",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-branch-plus"
+    },
+    {
+      "id": "renommer-branche",
+      "nom": "Renommer branche",
+      "groupe": "Branches",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "supprimer-branche",
+      "nom": "Supprimer branche",
+      "groupe": "Branches",
+      "win": "ctrl+shift+d",
+      "mac": "cmd+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-branch-minus"
+    },
+    {
+      "id": "maj-branche-defaut",
+      "nom": "Maj depuis défaut",
+      "groupe": "Branches",
+      "win": "ctrl+shift+u",
+      "mac": "cmd+shift+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "comparer-branche",
+      "nom": "Comparer branches",
+      "groupe": "Branches",
+      "win": "ctrl+shift+b",
+      "mac": "cmd+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-compare"
+    },
+    {
+      "id": "fusionner",
+      "nom": "Fusionner",
+      "groupe": "Branches",
+      "win": "ctrl+shift+m",
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-merge"
+    },
+    {
+      "id": "comparer-github",
+      "nom": "Comparer sur GitHub",
+      "groupe": "Branches",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "git-compare-arrows"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Application",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Application",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Application",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-reset",
+      "nom": "Zoom par défaut",
+      "groupe": "Application",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Application",
+      "win": "f11",
+      "mac": "ctrl+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "fetch",
+      "nom": "Récupérer (fetch)",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "refresh-cw",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Quitter l'application",
+      "raison": "action système, pas de touche utile à mapper"
+    }
+  ]
+}

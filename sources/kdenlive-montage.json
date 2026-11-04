@@ -1,0 +1,65 @@
+{
+  "id": "kdenlive-montage",
+  "nom": "Kdenlive",
+  "editeur": "KDE",
+  "site": "https://kdenlive.org/",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "Kdenlive", "linux": "kdenlive" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la documentation officielle (Windows/Linux, Ctrl). Aucune source ne donne explicitement le Mac : colonne mac laissée vide. Le raccourci d'effacement d'une zone et la coupe sur toutes les pistes sont listés tels que documentés ; à vérifier dans Configurer les raccourcis si la version diffère.",
+  "sources": [
+    { "url": "https://docs.kdenlive.org/en/user_interface/shortcuts.html", "titre": "Kdenlive Handbook - Keyboard Shortcuts" }
+  ],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": "ctrl+n", "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": "ctrl+o", "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": "ctrl+s", "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": null, "linux": "ctrl+shift+s", "source": 0, "priorite": 2, "picto": "save-all" },
+    { "id": "rendu", "nom": "Rendu", "groupe": "Fichier", "win": "ctrl+enter", "mac": null, "linux": "ctrl+enter", "source": 0, "priorite": 1, "picto": "video" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": "ctrl+z", "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": null, "linux": "ctrl+shift+z", "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": "ctrl+x", "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": "ctrl+c", "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": "ctrl+v", "source": 0, "priorite": 1, "picto": "clipboard" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": "ctrl+a", "source": 0, "priorite": 1, "picto": "square-dashed" },
+    { "id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": null, "linux": "delete", "source": 0, "priorite": 1, "picto": "trash-2" },
+
+    { "id": "couper-clip", "nom": "Couper le clip", "groupe": "Montage", "win": "shift+r", "mac": null, "linux": "shift+r", "source": 0, "priorite": 1, "picto": "slice" },
+    { "id": "outil-lame", "nom": "Outil lame", "groupe": "Montage", "win": "x", "mac": null, "linux": "x", "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "outil-selection", "nom": "Outil sélection", "groupe": "Montage", "win": "s", "mac": null, "linux": "s", "source": 0, "priorite": 1, "picto": "mouse-pointer" },
+    { "id": "dupliquer-clip", "nom": "Dupliquer clip", "groupe": "Montage", "win": "ctrl+d", "mac": null, "linux": "ctrl+d", "source": 0, "priorite": 1, "picto": "copy-plus" },
+    { "id": "grouper", "nom": "Grouper", "groupe": "Montage", "win": "ctrl+g", "mac": null, "linux": "ctrl+g", "source": 0, "priorite": 2, "picto": "group" },
+    { "id": "degrouper", "nom": "Dégrouper", "groupe": "Montage", "win": "ctrl+shift+g", "mac": null, "linux": "ctrl+shift+g", "source": 0, "priorite": 2, "picto": "ungroup" },
+    { "id": "extraire-clip", "nom": "Extraire clip", "groupe": "Montage", "win": "shift+delete", "mac": null, "linux": "shift+delete", "source": 0, "priorite": 2, "picto": "file-minus" },
+    { "id": "couper-toutes", "nom": "Couper toutes", "groupe": "Montage", "win": "ctrl+shift+r", "mac": null, "linux": "ctrl+shift+r", "source": 0, "priorite": 3, "picto": "scissors-line-dashed" },
+    { "id": "inserer-zone", "nom": "Insérer zone", "groupe": "Montage", "win": "v", "mac": null, "linux": "v", "source": 0, "priorite": 1, "picto": "arrow-down-to-line" },
+    { "id": "ecraser-zone", "nom": "Écraser", "groupe": "Montage", "win": "b", "mac": null, "linux": "b", "source": 0, "priorite": 1, "picto": "replace" },
+    { "id": "marquer-entree", "nom": "Marquer entrée", "groupe": "Montage", "win": "i", "mac": null, "linux": "i", "source": 0, "priorite": 1, "picto": "log-in" },
+    { "id": "marquer-sortie", "nom": "Marquer sortie", "groupe": "Montage", "win": "o", "mac": null, "linux": "o", "source": 0, "priorite": 1, "picto": "log-out" },
+
+    { "id": "lecture", "nom": "Lecture / Pause", "groupe": "Lecture", "win": "space", "mac": null, "linux": "space", "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "pause", "nom": "Pause", "groupe": "Lecture", "win": "k", "mac": null, "linux": "k", "source": 0, "priorite": 2, "picto": "pause" },
+    { "id": "image-precedente", "nom": "Image précédente", "groupe": "Lecture", "win": "left", "mac": null, "linux": "left", "source": 0, "priorite": 1, "picto": "chevron-left" },
+    { "id": "image-suivante", "nom": "Image suivante", "groupe": "Lecture", "win": "right", "mac": null, "linux": "right", "source": 0, "priorite": 1, "picto": "chevron-right" },
+    { "id": "reculer-1s", "nom": "Reculer 1 s", "groupe": "Lecture", "win": "shift+left", "mac": null, "linux": "shift+left", "source": 0, "priorite": 2, "picto": "rewind" },
+    { "id": "avancer-1s", "nom": "Avancer 1 s", "groupe": "Lecture", "win": "shift+right", "mac": null, "linux": "shift+right", "source": 0, "priorite": 2, "picto": "fast-forward" },
+    { "id": "debut-clip", "nom": "Début du clip", "groupe": "Lecture", "win": "home", "mac": null, "linux": "home", "source": 0, "priorite": 2, "picto": "skip-back" },
+    { "id": "fin-clip", "nom": "Fin du clip", "groupe": "Lecture", "win": "end", "mac": null, "linux": "end", "source": 0, "priorite": 2, "picto": "skip-forward" },
+    { "id": "debut-projet", "nom": "Début du projet", "groupe": "Lecture", "win": "ctrl+home", "mac": null, "linux": "ctrl+home", "source": 0, "priorite": 3, "picto": "chevrons-left" },
+    { "id": "fin-projet", "nom": "Fin du projet", "groupe": "Lecture", "win": "ctrl+end", "mac": null, "linux": "ctrl+end", "source": 0, "priorite": 3, "picto": "chevrons-right" },
+
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Vue", "win": "ctrl+shift+f", "mac": null, "linux": "ctrl+shift+f", "source": 0, "priorite": 2, "picto": "maximize" },
+    { "id": "zoom-avant", "nom": "Zoom avant", "groupe": "Vue", "win": "ctrl+equal", "mac": null, "linux": "ctrl+equal", "source": 0, "priorite": 3, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Vue", "win": "ctrl+minus", "mac": null, "linux": "ctrl+minus", "source": 0, "priorite": 3, "picto": "zoom-out" },
+    { "id": "ajouter-marqueur", "nom": "Ajouter marqueur", "groupe": "Vue", "win": "numstar", "mac": null, "linux": "numstar", "source": 0, "priorite": 2, "picto": "map-pin" }
+  ],
+  "non_faisable": [
+    { "nom": "Zone : couper au curseur et supprimer le reste", "raison": "raccourci documenté avec le caractère ')' non supporté" },
+    { "nom": "Zoom de la timeline à la molette", "raison": "molette" }
+  ]
+}

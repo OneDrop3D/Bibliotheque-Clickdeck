@@ -1,0 +1,17 @@
+{
+  "id": "rode-connect",
+  "nom": "Rode Connect",
+  "editeur": "RØDE Microphones",
+  "site": "https://rode.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "RODE Connect", "mac": "RODE Connect" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de routage audio RØDE sans raccourcis clavier documentés. Aucune source consultable n'a pu confirmer de raccourci (recherche web indisponible). Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Routage audio par glisser-déposer", "raison": "souris" } ]
+}

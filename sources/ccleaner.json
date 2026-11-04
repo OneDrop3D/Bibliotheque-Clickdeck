@@ -1,0 +1,20 @@
+{
+  "id": "ccleaner",
+  "nom": "CCleaner",
+  "editeur": "Gen Digital (Piriform)",
+  "site": "https://www.ccleaner.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "CCleaner", "mac": "CCleaner" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté : la page officielle des raccourcis Mac (ccleaner.com/ccleaner/mac-keyboard-shortcuts) renvoie 403 et n'a pas pu être lue, et la recherche web n'était plus disponible pour la recouper. Pour Windows, seul un argument de ligne de commande (/AUTO) existe, ce n'est pas un raccourci. Application pilotée à la souris : à mettre dans un pack de lancement, à vérifier.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancer le nettoyage", "raison": "aucun raccourci documenté" },
+    { "nom": "Lancer CCleaner en silencieux (/AUTO)", "raison": "argument de ligne de commande, pas un raccourci" }
+  ]
+}

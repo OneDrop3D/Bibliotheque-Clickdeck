@@ -1,0 +1,25 @@
+{
+  "id": "pushbullet",
+  "nom": "Pushbullet Desktop",
+  "editeur": "Pushbullet",
+  "site": "https://www.pushbullet.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Pushbullet",
+    "mac": "Pushbullet",
+    "linux": "Pushbullet"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté ; client de bureau peu maintenu ; application de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

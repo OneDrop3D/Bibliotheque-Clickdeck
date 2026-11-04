@@ -1,0 +1,137 @@
+{
+  "id": "g-helper",
+  "nom": "G-Helper",
+  "editeur": "seerge (communauté)",
+  "site": "https://github.com/seerge/g-helper",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "G-Helper"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du README officiel et de la page hotkeys du site g-helper.com. Les combinaisons avec F13 à F21 ne sont pas représentables (ClickDeck s'arrête à F12) et les touches Fn et M du matériel non plus : elles figurent dans non_faisable.",
+  "sources": [
+    {
+      "url": "https://github.com/seerge/g-helper",
+      "titre": "G-Helper README (Keybindings)"
+    },
+    {
+      "url": "https://g-helper.com/hotkeys/",
+      "titre": "G-Helper Hotkeys"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-g-helper",
+      "nom": "Ouvrir G-Helper",
+      "groupe": "Application",
+      "win": "ctrl+shift+f12",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "mode-suivant",
+      "nom": "Mode suivant",
+      "groupe": "Performances",
+      "win": "ctrl+shift+f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "mode-precedent",
+      "nom": "Mode précédent",
+      "groupe": "Performances",
+      "win": "ctrl+shift+alt+f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Mode turbo (Ctrl+Shift+Alt+F18)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Mode équilibré (Ctrl+Shift+Alt+F17)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Mode silencieux (Ctrl+Shift+Alt+F16)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "GPU standard (Ctrl+Shift+Alt+F15)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "GPU éco (Ctrl+Shift+Alt+F14)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Personnalisé 1 (Ctrl+Shift+Alt+F19)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Personnalisé 2 (Ctrl+Shift+Alt+F20)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Taux de rafraîchissement (Ctrl+Shift+Alt+F13)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Couper le micro (Ctrl+Shift+F20)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "XG Mobile (Ctrl+Shift+Alt+F21)",
+      "raison": "touche F13 à F21, hors des touches autorisées"
+    },
+    {
+      "nom": "Mode performance suivant (Fn+F5)",
+      "raison": "touche Fn matérielle, non représentable"
+    },
+    {
+      "nom": "Luminosité écran (Ctrl+M1/M2)",
+      "raison": "touche M matérielle"
+    },
+    {
+      "nom": "Luminosité clavier (Shift+M1/M2)",
+      "raison": "touche M matérielle"
+    },
+    {
+      "nom": "Verrouillage Fn (Fn+C)",
+      "raison": "touche Fn matérielle"
+    },
+    {
+      "nom": "Luminosité Matrix / Screenpad",
+      "raison": "touche Fn matérielle"
+    },
+    {
+      "nom": "Variation de luminosité (Ctrl+Fn+F7/F8)",
+      "raison": "touche Fn matérielle"
+    },
+    {
+      "nom": "Overlay : déplacement, taille, mode",
+      "raison": "souris"
+    },
+    {
+      "nom": "Boutons M + manette (ROG Ally)",
+      "raison": "touche M de la manette"
+    }
+  ]
+}

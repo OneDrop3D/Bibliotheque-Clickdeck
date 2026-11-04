@@ -1,0 +1,17 @@
+{
+  "id": "google-drive",
+  "nom": "Google Drive Desktop",
+  "editeur": "Google",
+  "site": "https://www.google.com/drive/download/",
+  "systemes": ["windows","mac"],
+  "lancement": { "windows": "Google Drive", "mac": "Google Drive" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation sans raccourci clavier documenté. Aucune source officielle ouverte n'en liste ; à recouper avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

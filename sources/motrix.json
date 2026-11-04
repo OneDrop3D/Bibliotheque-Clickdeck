@@ -1,0 +1,115 @@
+{
+  "id": "motrix",
+  "nom": "Motrix",
+  "editeur": "Motrix (projet open source)",
+  "site": "https://github.com/agalwood/Motrix",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Motrix",
+    "mac": "Motrix",
+    "linux": "Motrix"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le code source (src/shared/keymap.json), cmdctrl = Ctrl sous Windows/Linux et Cmd sous Mac (deduit). Le raccourci de selection de toutes les taches (ctrl-shift-a) n'est pas retenu : doute sur sa forme sous Mac.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/agalwood/Motrix/master/src/shared/keymap.json",
+      "titre": "keymap.json (code source Motrix)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-tache",
+      "nom": "Nouvelle tâche",
+      "groupe": "Tâches",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-tache-bt",
+      "nom": "Nouvelle tâche BT",
+      "groupe": "Tâches",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": "ctrl+shift+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "magnet",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir-fichier",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Tâches",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "liste-taches",
+      "nom": "Liste des tâches",
+      "groupe": "Tâches",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list",
+      "deduit": true
+    },
+    {
+      "id": "tout-suspendre",
+      "nom": "Tout suspendre",
+      "groupe": "Tâches",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": "ctrl+shift+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "tout-reprendre",
+      "nom": "Tout reprendre",
+      "groupe": "Tâches",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": "ctrl+shift+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Application",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": "ctrl+comma",
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tower",
+  "nom": "Tower",
+  "editeur": "Fournier Kom",
+  "site": "https://www.git-tower.com/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Tower" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "La page officielle consultée ne liste pas les raccourcis de Tower (la page dédiée renvoie 404). Seul Cmd+Z est sourcé ; les autres sont des commandes standard macOS (deduit). Fiabilité à renforcer avant publication.",
+  "sources": [ { "url": "https://www.git-tower.com/mac", "titre": "Tower for Mac" } ],
+  "actions": [
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": null, "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": false },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": null, "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": null, "mac": "cmd+a", "linux": null, "source": 0, "priorite": 2, "picto": "text-select", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": null, "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "monitorian",
+  "nom": "Monitorian",
+  "editeur": "emoacht",
+  "site": "https://github.com/emoacht/Monitorian",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Monitorian", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Pas de raccourci par défaut. Les combinaisons ci-dessous sont celles de l'exemple officiel (fichier de commandes à charger via /load), à définir soi-même dans les réglages de touches ; elles sont conseillées, non par défaut.",
+  "sources": [ { "url": "https://github.com/emoacht/Monitorian/blob/master/docs/COMMANDS.md", "titre": "Monitorian - COMMANDS.md (exemple de touches)" }, { "url": "https://github.com/emoacht/Monitorian", "titre": "Monitorian - README" } ],
+  "actions": [
+    { "id": "luminosite-plus", "nom": "Luminosité +", "groupe": "Luminosité", "win": "ctrl+alt+i", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "sun-medium" },
+    { "id": "luminosite-moins", "nom": "Luminosité −", "groupe": "Luminosité", "win": "ctrl+alt+d", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "sun-dim" }
+  ],
+  "non_faisable": [ { "nom": "Régler la luminosité à la molette", "raison": "molette" } ]
+}

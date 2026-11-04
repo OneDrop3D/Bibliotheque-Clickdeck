@@ -1,0 +1,485 @@
+{
+  "id": "microsoft-excel",
+  "nom": "Microsoft Excel",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/microsoft-365/excel",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Excel",
+    "mac": "Microsoft Excel"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de l'article officiel Microsoft (Excel pour Windows et Mac). Les commandes standard sont marquées deduit.",
+  "sources": [
+    {
+      "url": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel",
+      "titre": "Keyboard shortcuts in Excel"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau classeur",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer_sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "f12",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer classeur",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+h",
+      "mac": "cmd+shift+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Mise en forme",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Mise en forme",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Mise en forme",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "underline"
+    },
+    {
+      "id": "format_cellules",
+      "nom": "Format cellules",
+      "groupe": "Mise en forme",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "table-properties"
+    },
+    {
+      "id": "modifier",
+      "nom": "Modifier cellule",
+      "groupe": "Édition",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "f4",
+      "nom": "Référence absolue",
+      "groupe": "Calcul",
+      "win": "f4",
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "dollar-sign"
+    },
+    {
+      "id": "fonction",
+      "nom": "Insérer fonction",
+      "groupe": "Calcul",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "function-square"
+    },
+    {
+      "id": "recalcul",
+      "nom": "Recalculer",
+      "groupe": "Calcul",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "remplissage",
+      "nom": "Remplissage éclair",
+      "groupe": "Calcul",
+      "win": "ctrl+e",
+      "mac": "ctrl+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "date",
+      "nom": "Insérer la date",
+      "groupe": "Insertion",
+      "win": "ctrl+semicolon",
+      "mac": "ctrl+semicolon",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "calendar"
+    },
+    {
+      "id": "lien",
+      "nom": "Lien hypertexte",
+      "groupe": "Insertion",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "note",
+      "nom": "Insérer une note",
+      "groupe": "Insertion",
+      "win": "shift+f2",
+      "mac": "shift+f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sticky-note"
+    },
+    {
+      "id": "feuille",
+      "nom": "Nouvelle feuille",
+      "groupe": "Insertion",
+      "win": "shift+f11",
+      "mac": "shift+f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-spreadsheet"
+    },
+    {
+      "id": "graphique",
+      "nom": "Graphique intégré",
+      "groupe": "Insertion",
+      "win": "alt+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chart-column"
+    },
+    {
+      "id": "aller_a",
+      "nom": "Aller à",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "ctrl+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "debut",
+      "nom": "Début de feuille",
+      "groupe": "Navigation",
+      "win": "ctrl+home",
+      "mac": "ctrl+home",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up-left"
+    },
+    {
+      "id": "derniere",
+      "nom": "Dernière cellule",
+      "groupe": "Navigation",
+      "win": "ctrl+end",
+      "mac": "ctrl+end",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-right"
+    },
+    {
+      "id": "feuille_suiv",
+      "nom": "Feuille suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+pagedown",
+      "mac": "ctrl+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-down"
+    },
+    {
+      "id": "feuille_prec",
+      "nom": "Feuille précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+pageup",
+      "mac": "ctrl+pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-up"
+    },
+    {
+      "id": "filtre",
+      "nom": "Filtre",
+      "groupe": "Données",
+      "win": "ctrl+shift+l",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "filter"
+    },
+    {
+      "id": "tableau",
+      "nom": "Créer un tableau",
+      "groupe": "Données",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "table"
+    },
+    {
+      "id": "ins_cellules",
+      "nom": "Insérer cellules",
+      "groupe": "Données",
+      "win": "ctrl+shift+plus",
+      "mac": "ctrl+shift+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "table-cells-split"
+    },
+    {
+      "id": "sup_cellules",
+      "nom": "Supprimer cellules",
+      "groupe": "Données",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "table-cells-merge"
+    },
+    {
+      "id": "masquer_lignes",
+      "nom": "Masquer lignes",
+      "groupe": "Données",
+      "win": "ctrl+9",
+      "mac": "ctrl+9",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "zoom_plus",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_moins",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Centrer (Alt, H, A, C)",
+      "raison": "séquence de touches"
+    },
+    {
+      "nom": "Bordures (Alt, H, B)",
+      "raison": "séquence de touches"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

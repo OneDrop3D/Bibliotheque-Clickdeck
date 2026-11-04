@@ -1,0 +1,40 @@
+{
+  "id": "telegram",
+  "nom": "Telegram Desktop",
+  "editeur": "Telegram",
+  "site": "https://desktop.telegram.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Telegram", "mac": "Telegram", "linux": "Telegram" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel (fillDefaults). Sur macOS, Ctrl devient Cmd (Qt), sauf les raccourcis de dossier (code « meta » = Ctrl physique). Les raccourcis Ctrl+1 à Ctrl+8 sont ambigus (dossiers ou épingles) : non proposés.",
+  "sources": [
+    { "url": "https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/Telegram/SourceFiles/core/shortcuts.cpp", "titre": "Telegram Desktop - shortcuts.cpp (raccourcis par défaut)" }
+  ],
+  "actions": [
+    { "id": "fermer-fenetre", "nom": "Fermer la fenêtre", "groupe": "Fenêtre", "win": "ctrl+w", "mac": "cmd+w", "linux": "ctrl+w", "source": 0, "priorite": 2, "picto": "x", "deduit": true },
+    { "id": "premier-chat", "nom": "Premier chat", "groupe": "Navigation", "win": "ctrl+alt+home", "mac": "cmd+alt+home", "linux": "ctrl+alt+home", "source": 0, "priorite": 3, "picto": "chevrons-up", "deduit": true },
+    { "id": "dernier-chat", "nom": "Dernier chat", "groupe": "Navigation", "win": "ctrl+alt+end", "mac": "cmd+alt+end", "linux": "ctrl+alt+end", "source": 0, "priorite": 3, "picto": "chevrons-down", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": "ctrl+f", "mac": "cmd+f", "linux": "ctrl+f", "source": 0, "priorite": 1, "picto": "search", "deduit": true },
+    { "id": "chat-suivant", "nom": "Chat suivant", "groupe": "Navigation", "win": "ctrl+pagedown", "mac": "cmd+pagedown", "linux": "ctrl+pagedown", "source": 0, "priorite": 1, "picto": "chevron-down", "deduit": true },
+    { "id": "chat-precedent", "nom": "Chat précédent", "groupe": "Navigation", "win": "ctrl+pageup", "mac": "cmd+pageup", "linux": "ctrl+pageup", "source": 0, "priorite": 1, "picto": "chevron-up", "deduit": true },
+    { "id": "messages-enregistres", "nom": "Messages enregistrés", "groupe": "Navigation", "win": "ctrl+0", "mac": "cmd+0", "linux": "ctrl+0", "source": 0, "priorite": 1, "picto": "bookmark", "deduit": true },
+    { "id": "marquer-lu", "nom": "Marquer comme lu", "groupe": "Messages", "win": "ctrl+r", "mac": "cmd+r", "linux": "ctrl+r", "source": 0, "priorite": 1, "picto": "check-check", "deduit": true },
+    { "id": "archives", "nom": "Archives", "groupe": "Navigation", "win": "ctrl+9", "mac": "cmd+9", "linux": "ctrl+9", "source": 0, "priorite": 1, "picto": "archive", "deduit": true },
+    { "id": "contacts", "nom": "Contacts", "groupe": "Navigation", "win": "ctrl+j", "mac": "cmd+j", "linux": "ctrl+j", "source": 0, "priorite": 1, "picto": "contact", "deduit": true },
+    { "id": "menu-chat", "nom": "Menu du chat", "groupe": "Messages", "win": "ctrl+backslash", "mac": "cmd+backslash", "linux": "ctrl+backslash", "source": 0, "priorite": 1, "picto": "menu", "deduit": true },
+    { "id": "dossier-suivant", "nom": "Dossier suivant", "groupe": "Dossiers", "win": "ctrl+shift+down", "mac": "ctrl+shift+down", "linux": "ctrl+shift+down", "source": 0, "priorite": 1, "picto": "folder-down", "deduit": true },
+    { "id": "dossier-precedent", "nom": "Dossier précédent", "groupe": "Dossiers", "win": "ctrl+shift+up", "mac": "ctrl+shift+up", "linux": "ctrl+shift+up", "source": 0, "priorite": 1, "picto": "folder-up", "deduit": true },
+    { "id": "apercu-chat", "nom": "Aperçu du chat", "groupe": "Messages", "win": "ctrl+bracketright", "mac": "cmd+bracketright", "linux": "ctrl+bracketright", "source": 0, "priorite": 3, "picto": "eye", "deduit": true },
+    { "id": "verrouiller", "nom": "Verrouiller", "groupe": "Fenêtre", "win": "ctrl+l", "mac": "cmd+l", "linux": "ctrl+l", "source": 0, "priorite": 1, "picto": "lock", "deduit": true },
+    { "id": "rouvrir-fenetre", "nom": "Rouvrir fenêtre", "groupe": "Fenêtre", "win": "ctrl+shift+t", "mac": "cmd+shift+t", "linux": "ctrl+shift+t", "source": 0, "priorite": 3, "picto": "undo-2", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Enregistrer un message vocal", "raison": "touche maintenue" },
+    { "nom": "Changer de dossier ou d'épingle (Ctrl+1 à Ctrl+8)", "raison": "conflit de touches dans le code" },
+    { "nom": "Zoom et réglages de la fenêtre", "raison": "molette" }
+  ]
+}

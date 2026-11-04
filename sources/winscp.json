@@ -1,0 +1,383 @@
+{
+  "id": "winscp",
+  "nom": "WinSCP",
+  "editeur": "WinSCP",
+  "site": "https://winscp.net/eng/docs/ui_commander",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "WinSCP"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement, mode Commander (le mode Explorateur peut différer). Raccourcis issus de la page officielle des raccourcis du mode Commander. F5 : téléchargement, envoi ou copie selon le panneau actif.",
+  "sources": [
+    {
+      "url": "https://winscp.net/eng/docs/ui_commander",
+      "titre": "WinSCP - Main Window (Commander Interface)"
+    },
+    {
+      "url": "https://winscp.net/eng/docs/ui_commander_key",
+      "titre": "WinSCP - Keyboard shortcuts (Commander)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "copier-autre-panneau",
+      "nom": "Copier/transférer",
+      "groupe": "Fichiers",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Fichiers",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-input"
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Fichiers",
+      "win": "f7",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Fichiers",
+      "win": "f8",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Fichiers",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "pen-line"
+    },
+    {
+      "id": "modifier",
+      "nom": "Modifier fichier",
+      "groupe": "Fichiers",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-pen"
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Fichiers",
+      "win": "f9",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "copier-presse-papiers",
+      "nom": "Copier (presse-p.)",
+      "groupe": "Fichiers",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "clipboard-copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Fichiers",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "changer-panneau",
+      "nom": "Changer de panneau",
+      "groupe": "Navigation",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "dossier-parent",
+      "nom": "Dossier parent",
+      "groupe": "Navigation",
+      "win": "backspace",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-left-up"
+    },
+    {
+      "id": "racine",
+      "nom": "Dossier racine",
+      "groupe": "Navigation",
+      "win": "ctrl+backslash",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-root"
+    },
+    {
+      "id": "dossier-personnel",
+      "nom": "Dossier personnel",
+      "groupe": "Navigation",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédent",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivant",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "selectionner-fichier",
+      "nom": "Sélect. fichier",
+      "groupe": "Sélection",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-check"
+    },
+    {
+      "id": "selection-suivant",
+      "nom": "Sélect. et suivant",
+      "groupe": "Sélection",
+      "win": "insert",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "check-check"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Tout désélect.",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+l",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "square"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "numstar",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "synchroniser",
+      "nom": "Synchroniser",
+      "groupe": "Session",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "refresh-ccw"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Session",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Session",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "nouvelle-session",
+      "nom": "Nouvelle session",
+      "groupe": "Session",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "plus-circle"
+    },
+    {
+      "id": "reconnecter",
+      "nom": "Reconnecter",
+      "groupe": "Session",
+      "win": "ctrl+shift+r",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "plug-zap"
+    },
+    {
+      "id": "file-attente",
+      "nom": "File d'attente",
+      "groupe": "Session",
+      "win": "ctrl+shift+q",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "list-ordered"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Outils",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal",
+      "groupe": "Outils",
+      "win": "ctrl+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "terminal"
+    },
+    {
+      "id": "fichiers-caches",
+      "nom": "Fichiers cachés",
+      "groupe": "Outils",
+      "win": "ctrl+alt+h",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "navigation-synchro",
+      "nom": "Navigation synchro",
+      "groupe": "Outils",
+      "win": "ctrl+alt+b",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "link"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Outils",
+      "win": "ctrl+alt+p",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": []
+}

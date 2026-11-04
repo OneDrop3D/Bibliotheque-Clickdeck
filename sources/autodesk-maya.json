@@ -1,0 +1,189 @@
+{
+  "id": "autodesk-maya",
+  "nom": "Autodesk Maya",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/maya/overview",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Maya",
+    "mac": "Maya"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Boîte à outils lue sur la page officielle Autodesk Maya Basics (2024), y compris Y (dernier outil). Commandes standard de fichier et d'édition ajoutées par déduction (Ctrl = Cmd), confirmées par defkey (Maya 2019) pour Windows. Les pages de raccourcis complets d'Autodesk renvoient 403 : couverture limitée. Les raccourcis se modifient dans l'Éditeur de raccourcis.",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2024/ENU/Maya-Basics/files/GUID-B345E162-0149-4E09-AC98-48DCFC227F33.htm",
+      "titre": "Autodesk Maya Basics - Boîte à outils (Tool Box)"
+    },
+    {
+      "url": "https://defkey.com/autodesk-maya-shortcuts",
+      "titre": "Autodesk Maya shortcuts (defkey, Maya 2019)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "selection",
+      "nom": "Sélection",
+      "groupe": "Outils",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "dernier-outil",
+      "nom": "Dernier outil",
+      "groupe": "Outils",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "history"
+    },
+    {
+      "id": "nouvelle-scene",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Menus circulaires (maintenir la touche et cliquer)",
+      "raison": "séquence maintenue avec souris"
+    }
+  ]
+}

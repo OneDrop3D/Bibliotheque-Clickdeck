@@ -1,0 +1,264 @@
+{
+  "id": "aimp",
+  "nom": "AIMP",
+  "editeur": "Artem Izmaylov",
+  "site": "https://www.aimp.ru/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "AIMP",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Une seule source tierce (DefKey) ; page officielle des raccourcis introuvable. Les touches F1/F2 (précédent/suivant) et les lettres S/R de la source n'ont pas été retenues faute de confirmation. Raccourcis modifiables dans Paramètres > Joueur > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://defkey.com/aimp-shortcuts",
+      "titre": "AIMP shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Lecture",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume -",
+      "groupe": "Lecture",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Lecture",
+      "win": "v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "avance",
+      "nom": "Avancer",
+      "groupe": "Lecture",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul",
+      "nom": "Reculer",
+      "groupe": "Lecture",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "aller-temps",
+      "nom": "Aller au temps",
+      "groupe": "Lecture",
+      "win": "ctrl+j",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "clock"
+    },
+    {
+      "id": "nouvelle-liste",
+      "nom": "Nouvelle liste",
+      "groupe": "Listes",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "enregistrer-liste",
+      "nom": "Enreg. la liste",
+      "groupe": "Listes",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir-liste",
+      "nom": "Ouvrir une liste",
+      "groupe": "Listes",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "ajouter-fichiers",
+      "nom": "Ajouter fichiers",
+      "groupe": "Listes",
+      "win": "insert",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ajouter-dossier",
+      "nom": "Ajouter dossier",
+      "groupe": "Listes",
+      "win": "ctrl+insert",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "ajouter-adresse",
+      "nom": "Ajouter adresse",
+      "groupe": "Listes",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "recherche-rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Listes",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "recherche-avancee",
+      "nom": "Recherche avancée",
+      "groupe": "Listes",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search-code"
+    },
+    {
+      "id": "infos-fichier",
+      "nom": "Infos du fichier",
+      "groupe": "Listes",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "ajouter-file",
+      "nom": "Ajouter à la file",
+      "groupe": "File d'attente",
+      "win": "q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-plus"
+    },
+    {
+      "id": "gestionnaire-file",
+      "nom": "Gérer la file",
+      "groupe": "File d'attente",
+      "win": "ctrl+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-music"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Options",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "editeur-tags",
+      "nom": "Éditeur de tags",
+      "groupe": "Outils",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "tag"
+    },
+    {
+      "id": "toujours-dessus",
+      "nom": "Toujours dessus",
+      "groupe": "Options",
+      "win": "alt+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pin"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Piste suivante / précédente",
+      "raison": "F1/F2 de la source tierce non confirmés"
+    }
+  ]
+}

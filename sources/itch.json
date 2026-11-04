@@ -1,0 +1,17 @@
+{
+  "id": "itch",
+  "nom": "itch Desktop",
+  "editeur": "itch.io",
+  "site": "https://itch.io/app",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "itch", "mac": "itch", "linux": "itch" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté trouvé : la page officielle de l'application a répondu 403 et la copie d'archive n'a pas pu être lue. À revérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

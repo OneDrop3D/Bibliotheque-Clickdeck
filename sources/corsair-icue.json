@@ -1,0 +1,17 @@
+{
+  "id": "corsair-icue",
+  "nom": "Corsair iCUE",
+  "editeur": "Corsair",
+  "site": "https://www.corsair.com/icue",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "iCUE", "mac": "iCUE" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de configuration matérielle sans raccourcis globaux par défaut relevés. La page officielle de raccourcis consultée a renvoyé une erreur 404 et n'a pas pu être vérifiée. Aucune action n'est proposée faute de source fiable.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Raccourcis et macros iCUE", "raison": "à définir par l'utilisateur dans l'application" } ]
+}

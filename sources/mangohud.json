@@ -1,0 +1,25 @@
+{
+  "id": "mangohud",
+  "nom": "MangoHud",
+  "editeur": "flightlessmango (projet open source)",
+  "site": "https://github.com/flightlessmango/MangoHud",
+  "systemes": ["linux"],
+  "lancement": { "linux": "MangoHud" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Touches par défaut du README : Shift_L et Shift_R sont notés shift dans le format ClickDeck, le côté (gauche/droite) n'est pas distingué. La bascule de position est écrite R_Shift+F11 dans le README, à vérifier.",
+  "sources": [ { "url": "https://github.com/flightlessmango/MangoHud", "titre": "MangoHud, README officiel" } ],
+  "actions": [
+    { "id": "afficher-hud", "nom": "Afficher HUD", "groupe": "Affichage", "win": null, "mac": null, "linux": "shift+f12", "source": 0, "priorite": 1, "picto": "monitor" },
+    { "id": "journaliser", "nom": "Journaliser", "groupe": "Journalisation", "win": null, "mac": null, "linux": "shift+f2", "source": 0, "priorite": 1, "picto": "file-text" },
+    { "id": "limite-fps", "nom": "Limite FPS", "groupe": "Performances", "win": null, "mac": null, "linux": "shift+f1", "source": 0, "priorite": 2, "picto": "gauge" },
+    { "id": "prereglage", "nom": "Préréglage", "groupe": "Performances", "win": null, "mac": null, "linux": "shift+f10", "source": 0, "priorite": 2, "picto": "sliders-horizontal" },
+    { "id": "position-hud", "nom": "Position HUD", "groupe": "Affichage", "win": null, "mac": null, "linux": "shift+f11", "source": 0, "priorite": 3, "picto": "move" },
+    { "id": "reinitialiser-fps", "nom": "Réinitialiser FPS", "groupe": "Performances", "win": null, "mac": null, "linux": "shift+f9", "source": 0, "priorite": 3, "picto": "rotate-ccw" },
+    { "id": "recharger-config", "nom": "Recharger config", "groupe": "Configuration", "win": null, "mac": null, "linux": "shift+f4", "source": 0, "priorite": 3, "picto": "refresh-cw" }
+  ],
+  "non_faisable": []
+}

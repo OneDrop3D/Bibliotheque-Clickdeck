@@ -1,0 +1,17 @@
+{
+  "id": "gpu-z",
+  "nom": "GPU-Z",
+  "editeur": "TechPowerUp",
+  "site": "https://www.techpowerup.com/gpuz/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "GPU-Z", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci vérifié : la page officielle a répondu 403 et la copie d'archive n'a pas pu être lue, les recherches tierces n'ont pas pu être menées (quota atteint). Fichier à compléter quand une source sera accessible. Application Windows uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

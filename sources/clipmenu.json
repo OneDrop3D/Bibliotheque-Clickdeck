@@ -1,0 +1,22 @@
+{
+  "id": "clipmenu",
+  "nom": "ClipMenu",
+  "editeur": "Clipy (projet communautaire)",
+  "site": "https://github.com/Clipy/ClipMenu",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "windows": null,
+    "mac": "ClipMenu"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source officielle lisible : le dépôt ClipMenu d'origine n'est pas accessible. Le projet actif Clipy (successeur probable) utilise d'autres raccourcis (Maj+Cmd+V, Ctrl+Cmd+V, Maj+Cmd+B), non transposables à ClipMenu sans confirmation. Aucune action renseignée ; à orienter vers un pack de lancement ou vers Clipy.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

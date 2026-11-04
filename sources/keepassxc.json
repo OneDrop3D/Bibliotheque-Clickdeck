@@ -1,0 +1,397 @@
+{
+  "id": "keepassxc",
+  "nom": "KeePassXC",
+  "editeur": "KeePassXC Team",
+  "site": "https://keepassxc.org",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "KeePassXC",
+    "mac": "KeePassXC"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Table des raccourcis du guide officiel KeePassXC (colonnes Windows/Linux et macOS). Les raccourcis Mac réservés au système (Cmd+H, Cmd+M, Cmd+Tab) ont été écartés ; leur équivalent Mac est donné par la solution de repli du guide (PgDn/PgUp) ou laissé vide.",
+  "sources": [
+    {
+      "url": "https://keepassxc.org/docs/KeePassXC_UserGuide",
+      "titre": "KeePassXC User Guide, Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-base",
+      "nom": "Nouvelle base",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-base",
+      "nom": "Ouvrir base",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "verrouiller-base",
+      "nom": "Verrouiller base",
+      "groupe": "Fichier",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "verrouiller-toutes",
+      "nom": "Verrouiller toutes",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+l",
+      "mac": "cmd+shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lock-keyhole"
+    },
+    {
+      "id": "fermer-base",
+      "nom": "Fermer base",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "reglages-base",
+      "nom": "Réglages base",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+comma",
+      "mac": "cmd+shift+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "rapports-base",
+      "nom": "Rapports base",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-bar-chart"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fichier",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "power"
+    },
+    {
+      "id": "nouvelle-entree",
+      "nom": "Nouvelle entrée",
+      "groupe": "Entrées",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus-circle"
+    },
+    {
+      "id": "modifier-entree",
+      "nom": "Modifier entrée",
+      "groupe": "Entrées",
+      "win": "enter",
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "supprimer-entree",
+      "nom": "Supprimer entrée",
+      "groupe": "Entrées",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "dupliquer-entree",
+      "nom": "Dupliquer entrée",
+      "groupe": "Entrées",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "copier-identifiant",
+      "nom": "Copier identifiant",
+      "groupe": "Entrées",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "user"
+    },
+    {
+      "id": "copier-mdp",
+      "nom": "Copier mdp",
+      "groupe": "Entrées",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "key"
+    },
+    {
+      "id": "copier-url",
+      "nom": "Copier URL",
+      "groupe": "Entrées",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "ouvrir-url",
+      "nom": "Ouvrir URL",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+u",
+      "mac": "cmd+shift+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "external-link"
+    },
+    {
+      "id": "copier-totp",
+      "nom": "Copier code TOTP",
+      "groupe": "Entrées",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "timer"
+    },
+    {
+      "id": "copier-mdp-totp",
+      "nom": "Copier mdp et TOTP",
+      "groupe": "Entrées",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "key-round"
+    },
+    {
+      "id": "afficher-totp",
+      "nom": "Afficher TOTP",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye"
+    },
+    {
+      "id": "saisie-auto",
+      "nom": "Saisie auto",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+v",
+      "mac": "cmd+shift+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "keyboard"
+    },
+    {
+      "id": "masquer-mdp",
+      "nom": "Masquer mdp",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "masquer-identifiants",
+      "nom": "Masquer pseudos",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+b",
+      "mac": "cmd+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "user-x"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "effacer-recherche",
+      "nom": "Effacer recherche",
+      "groupe": "Recherche",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search-x"
+    },
+    {
+      "id": "aller-au-groupe",
+      "nom": "Aller au groupe",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+j",
+      "mac": "cmd+shift+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-search"
+    },
+    {
+      "id": "minimiser",
+      "nom": "Réduire",
+      "groupe": "Fenêtre",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "minimize-2"
+    },
+    {
+      "id": "masquer-fenetre",
+      "nom": "Masquer fenêtre",
+      "groupe": "Fenêtre",
+      "win": "ctrl+shift+m",
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Base suivante",
+      "groupe": "Fenêtre",
+      "win": "ctrl+tab",
+      "mac": "cmd+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Base précédente",
+      "groupe": "Fenêtre",
+      "win": "ctrl+shift+tab",
+      "mac": "cmd+pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "raccourcis-clavier",
+      "nom": "Raccourcis clavier",
+      "groupe": "Aide",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Sélection d'une base par numéro",
+      "raison": "touche numérique Ctrl+<n> non unique, à configurer"
+    }
+  ]
+}

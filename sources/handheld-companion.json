@@ -1,0 +1,21 @@
+{
+  "id": "handheld-companion",
+  "nom": "Handheld Companion",
+  "editeur": "Valkirie",
+  "site": "https://github.com/Valkirie/HandheldCompanion",
+  "systemes": ["windows"],
+  "lancement": { "windows": "HandheldCompanion" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier par défaut n'est documenté. L'overlay QuickTools s'ouvre avec une combinaison définie par l'utilisateur dans les réglages de l'application : aucune action n'est donc proposée ici.",
+  "sources": [
+    { "url": "https://github.com/Valkirie/HandheldCompanion", "titre": "HandheldCompanion README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Overlay QuickTools", "raison": "combinaison définie par l'utilisateur" }
+  ]
+}

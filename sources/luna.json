@@ -1,0 +1,17 @@
+{
+  "id": "luna",
+  "nom": "Luna",
+  "editeur": "Universal Audio",
+  "site": "https://www.uaudio.com/luna.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "LUNA", "mac": "LUNA" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Non vérifié : les pages officielles de raccourcis par défaut d'Universal Audio (help.uaudio.com, macOS et Windows) renvoient 403 à la lecture. Aucune action relevée à ce stade. À reprendre avec une source accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

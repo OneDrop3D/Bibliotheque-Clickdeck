@@ -1,0 +1,68 @@
+{
+  "id": "typora",
+  "nom": "Typora",
+  "editeur": "Typora",
+  "site": "https://typora.io/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Typora", "mac": "Typora" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Shortcut Keys. Annuler, Couper, Copier, Coller, Tout sélectionner sont des commandes standard ajoutées sans source. Rétablir ajouté de même (Ctrl+Y sous Windows, Cmd+Shift+Z sous Mac). Strike sous macOS : la doc indique Control+Shift+`, identique à Code sous Windows, à vérifier dans l'app. Remplacer (Cmd+H) omis car réservé au système sur Mac.",
+  "sources": [
+    { "url": "https://support.typora.io/Shortcut-Keys/", "titre": "Typora - Shortcut Keys (documentation officielle)" }
+  ],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 1, "picto": "save-all" },
+    { "id": "fermer", "nom": "Fermer", "groupe": "Fichier", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "ouvrir-rapide", "nom": "Ouvrir rapidement", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+shift+o", "linux": null, "source": 0, "priorite": 2, "picto": "search" },
+    { "id": "rouvrir", "nom": "Rouvrir fichier", "groupe": "Fichier", "win": "ctrl+shift+t", "mac": "cmd+shift+t", "linux": null, "source": 0, "priorite": 3, "picto": "undo-2" },
+    { "id": "preferences", "nom": "Préférences", "groupe": "Fichier", "win": "ctrl+comma", "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 2, "picto": "settings" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard", "deduit": true },
+    { "id": "coller-texte", "nom": "Coller texte brut", "groupe": "Édition", "win": "ctrl+shift+v", "mac": "cmd+shift+v", "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-type" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "text-select", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "suivant", "nom": "Suivant", "groupe": "Édition", "win": "f3", "mac": "cmd+g", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-down" },
+    { "id": "remplacer", "nom": "Remplacer", "groupe": "Édition", "win": "ctrl+h", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "replace" },
+
+    { "id": "titre-1", "nom": "Titre 1", "groupe": "Paragraphe", "win": "ctrl+1", "mac": "cmd+1", "linux": null, "source": 0, "priorite": 1, "picto": "heading-1" },
+    { "id": "titre-2", "nom": "Titre 2", "groupe": "Paragraphe", "win": "ctrl+2", "mac": "cmd+2", "linux": null, "source": 0, "priorite": 1, "picto": "heading-2" },
+    { "id": "titre-3", "nom": "Titre 3", "groupe": "Paragraphe", "win": "ctrl+3", "mac": "cmd+3", "linux": null, "source": 0, "priorite": 1, "picto": "heading-3" },
+    { "id": "paragraphe", "nom": "Paragraphe", "groupe": "Paragraphe", "win": "ctrl+0", "mac": "cmd+0", "linux": null, "source": 0, "priorite": 1, "picto": "pilcrow" },
+    { "id": "tableau", "nom": "Tableau", "groupe": "Paragraphe", "win": "ctrl+t", "mac": "cmd+alt+t", "linux": null, "source": 0, "priorite": 1, "picto": "table" },
+    { "id": "bloc-code", "nom": "Bloc de code", "groupe": "Paragraphe", "win": "ctrl+shift+k", "mac": "cmd+alt+c", "linux": null, "source": 0, "priorite": 2, "picto": "square-code" },
+    { "id": "citation", "nom": "Citation", "groupe": "Paragraphe", "win": "ctrl+shift+q", "mac": "cmd+alt+q", "linux": null, "source": 0, "priorite": 2, "picto": "quote" },
+    { "id": "liste-puces", "nom": "Liste à puces", "groupe": "Paragraphe", "win": "ctrl+shift+bracketright", "mac": "cmd+alt+u", "linux": null, "source": 0, "priorite": 2, "picto": "list" },
+    { "id": "liste-numerotee", "nom": "Liste numérotée", "groupe": "Paragraphe", "win": "ctrl+shift+bracketleft", "mac": "cmd+alt+o", "linux": null, "source": 0, "priorite": 2, "picto": "list-ordered" },
+
+    { "id": "gras", "nom": "Gras", "groupe": "Format", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "bold" },
+    { "id": "italique", "nom": "Italique", "groupe": "Format", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "italic" },
+    { "id": "souligne", "nom": "Souligné", "groupe": "Format", "win": "ctrl+u", "mac": "cmd+u", "linux": null, "source": 0, "priorite": 1, "picto": "underline" },
+    { "id": "lien", "nom": "Lien", "groupe": "Format", "win": "ctrl+k", "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "link" },
+    { "id": "code", "nom": "Code en ligne", "groupe": "Format", "win": "ctrl+shift+backquote", "mac": "cmd+shift+backquote", "linux": null, "source": 0, "priorite": 2, "picto": "code" },
+    { "id": "barre", "nom": "Barré", "groupe": "Format", "win": "alt+shift+5", "mac": "ctrl+shift+backquote", "linux": null, "source": 0, "priorite": 2, "picto": "strikethrough" },
+    { "id": "image", "nom": "Image", "groupe": "Format", "win": "ctrl+shift+i", "mac": "ctrl+cmd+i", "linux": null, "source": 0, "priorite": 2, "picto": "image" },
+    { "id": "effacer-format", "nom": "Effacer le format", "groupe": "Format", "win": "ctrl+backslash", "mac": "cmd+backslash", "linux": null, "source": 0, "priorite": 3, "picto": "eraser" },
+
+    { "id": "barre-laterale", "nom": "Barre latérale", "groupe": "Affichage", "win": "ctrl+shift+l", "mac": "cmd+shift+l", "linux": null, "source": 0, "priorite": 1, "picto": "panel-left" },
+    { "id": "plan", "nom": "Plan du document", "groupe": "Affichage", "win": "ctrl+shift+1", "mac": "cmd+ctrl+1", "linux": null, "source": 0, "priorite": 2, "picto": "list-tree" },
+    { "id": "mode-source", "nom": "Mode code source", "groupe": "Affichage", "win": "ctrl+slash", "mac": "cmd+slash", "linux": null, "source": 0, "priorite": 2, "picto": "code" },
+    { "id": "mode-focus", "nom": "Mode focus", "groupe": "Affichage", "win": "f8", "mac": "f8", "linux": null, "source": 0, "priorite": 3, "picto": "focus" },
+    { "id": "machine-ecrire", "nom": "Machine à écrire", "groupe": "Affichage", "win": "f9", "mac": "f9", "linux": null, "source": 0, "priorite": 3, "picto": "type" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "f11", "mac": "cmd+alt+f", "linux": null, "source": 0, "priorite": 2, "picto": "maximize" },
+    { "id": "onglet-suivant", "nom": "Document suivant", "groupe": "Affichage", "win": "ctrl+tab", "mac": "cmd+backquote", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-right" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom avant / arrière", "raison": "non disponible sur Mac dans la doc officielle" }
+  ]
+}

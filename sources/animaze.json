@@ -1,0 +1,37 @@
+{
+  "id": "animaze",
+  "nom": "Animaze",
+  "editeur": "Animaze (ex-Facerig)",
+  "site": "https://animaze.us/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Animaze" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Les touches viennent de la FAQ officielle, qui ne précise ni qu'elles sont par défaut ni la plateforme : à vérifier avant publication (ctrl+plus/minus : la FAQ omet le signe plus). La page des raccourcis (keybinds) permet de les réinitialiser par le bouton reset en bas de liste. La FAQ date peut-être de 2020.",
+  "sources": [
+    { "url": "https://www.animaze.us/faq/tech/rotate", "titre": "Animaze FAQ : déplacer et pivoter l'avatar" },
+    { "url": "https://animaze.us/faq/tech/quickscns", "titre": "Animaze FAQ : Quick Scenes" }
+  ],
+  "actions": [
+    { "id": "avatar-gauche", "nom": "Déplacer gauche", "groupe": "Avatar", "win": "ctrl+left", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "move-left" },
+    { "id": "avatar-droite", "nom": "Déplacer droite", "groupe": "Avatar", "win": "ctrl+right", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "move-right" },
+    { "id": "avatar-haut", "nom": "Déplacer haut", "groupe": "Avatar", "win": "ctrl+up", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "move-up" },
+    { "id": "avatar-bas", "nom": "Déplacer bas", "groupe": "Avatar", "win": "ctrl+down", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "move-down" },
+    { "id": "pivoter-gauche", "nom": "Pivoter gauche", "groupe": "Avatar", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "rotate-ccw" },
+    { "id": "pivoter-droite", "nom": "Pivoter droite", "groupe": "Avatar", "win": "ctrl+d", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "rotate-cw" },
+    { "id": "zoom-avant", "nom": "Zoom avant", "groupe": "Avatar", "win": "ctrl+plus", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Avatar", "win": "ctrl+minus", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "sauver-scene-1", "nom": "Sauver scène 1", "groupe": "Scènes rapides", "win": "ctrl+shift+1", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "save" },
+    { "id": "charger-scene-1", "nom": "Charger scène 1", "groupe": "Scènes rapides", "win": "ctrl+1", "mac": null, "linux": null, "source": 1, "priorite": 1, "picto": "layout-grid" },
+    { "id": "charger-scene-2", "nom": "Charger scène 2", "groupe": "Scènes rapides", "win": "ctrl+2", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "layout-grid" },
+    { "id": "charger-scene-3", "nom": "Charger scène 3", "groupe": "Scènes rapides", "win": "ctrl+3", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "layout-grid" },
+    { "id": "charger-scene-4", "nom": "Charger scène 4", "groupe": "Scènes rapides", "win": "ctrl+4", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "layout-grid" },
+    { "id": "charger-scene-5", "nom": "Charger scène 5", "groupe": "Scènes rapides", "win": "ctrl+5", "mac": null, "linux": null, "source": 1, "priorite": 2, "picto": "layout-grid" }
+  ],
+  "non_faisable": [
+    { "nom": "Réglages de suivi du clavier virtuel", "raison": "réglage sans raccourci" }
+  ]
+}

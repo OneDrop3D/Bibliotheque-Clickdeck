@@ -1,0 +1,26 @@
+{
+  "id": "goverlay",
+  "nom": "GOverlay",
+  "editeur": "Projet communautaire (GOverlay)",
+  "site": "https://github.com/benjamimgois/goverlay",
+  "systemes": ["linux"],
+  "lancement": { "linux": "GOverlay" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Linux uniquement (Qt6). Les raccourcis viennent du README, section « Keyboard Shortcuts ». Le README ne précise pas si ces raccourcis sont globaux ou propres à certains écrans.",
+  "sources": [
+    { "url": "https://github.com/benjamimgois/goverlay", "titre": "GOverlay - README (Keyboard Shortcuts)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": null, "mac": null, "linux": "ctrl+s", "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "copier-commande", "nom": "Copier la commande", "groupe": "Lancement", "win": null, "mac": null, "linux": "ctrl+c", "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Navigation", "win": null, "mac": null, "linux": "ctrl+f", "source": 0, "priorite": 2, "picto": "search" },
+    { "id": "aide", "nom": "Guide rapide", "groupe": "Aide", "win": null, "mac": null, "linux": "f1", "source": 0, "priorite": 3, "picto": "circle-help" }
+  ],
+  "non_faisable": [
+    { "nom": "Configuration des overlays MangoHud / vkBasalt", "raison": "réglage sans raccourci (interface à cartes)" }
+  ]
+}

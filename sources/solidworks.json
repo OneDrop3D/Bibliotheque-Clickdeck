@@ -1,0 +1,33 @@
+{
+  "id": "solidworks",
+  "nom": "SolidWorks",
+  "editeur": "Dassault Systèmes",
+  "site": "https://www.solidworks.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "SolidWorks" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Menu contextuel remplacé par Barre de raccourcis (touche S). Seuls les raccourcis du blog officiel SolidWorks (article du 16 janvier 2018, à recouper avec la liste Keyboard de la boîte Personnaliser) sont sourcés. La page d'aide officielle des raccourcis était vide à la lecture. Ctrl+O, Ctrl+S et Ctrl+Z sont les raccourcis Windows standard. Liste incomplète : compléter depuis Outils > Personnaliser > Clavier.",
+  "sources": [
+    { "url": "http://blogs.solidworks.com/products/solidworks/useful-keyboard-shortcuts-workflow-customizations-solidworks", "titre": "Useful Keyboard Shortcuts and Workflow Customizations in SOLIDWORKS (blog officiel, 16 janvier 2018)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-plus", "deduit": true },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer", "deduit": true },
+    { "id": "documents-recents", "nom": "Documents récents", "groupe": "Fichier", "win": "r", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "history" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scissors", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard", "deduit": true },
+    { "id": "reconstruire", "nom": "Reconstruire", "groupe": "Modèle", "win": "ctrl+b", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "refresh-cw" },
+    { "id": "menu-orientation", "nom": "Menu orientation", "groupe": "Vues", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-3d" },
+    { "id": "barre-raccourcis", "nom": "Barre raccourcis", "groupe": "Vues", "win": "s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "mouse-pointer-click" }
+  ],
+  "non_faisable": []
+}

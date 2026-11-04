@@ -1,0 +1,271 @@
+{
+  "id": "digikam",
+  "nom": "digiKam",
+  "editeur": "KDE",
+  "site": "https://www.digikam.org",
+  "systemes": [
+    "windows",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "digiKam",
+    "linux": "digiKam"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la documentation officielle (Shortcuts Settings). Documentation incomplète : la boîte Configurer les raccourcis de l'application fait foi. Pas de source Mac : mac à null.",
+  "sources": [
+    {
+      "url": "https://docs.digikam.org/en/setup_application/shortcuts_settings.html",
+      "titre": "digiKam : Shortcuts Settings"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ajouter-images",
+      "nom": "Ajouter des images",
+      "groupe": "Import",
+      "win": "alt+shift+i",
+      "mac": null,
+      "linux": "alt+shift+i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "image-plus"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": "ctrl+shift+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu",
+      "groupe": "Affichage",
+      "win": "f3",
+      "mac": null,
+      "linux": "f3",
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "quitter-apercu",
+      "nom": "Quitter l'aperçu",
+      "groupe": "Affichage",
+      "win": "escape",
+      "mac": null,
+      "linux": "escape",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Affichage",
+      "win": "f5",
+      "mac": null,
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "barre-vignettes",
+      "nom": "Barre vignettes",
+      "groupe": "Affichage",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-bottom"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Zoom",
+      "win": "ctrl+plus",
+      "mac": null,
+      "linux": "ctrl+plus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Zoom",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": "ctrl+minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Zoom",
+      "win": "ctrl+period",
+      "mac": null,
+      "linux": "ctrl+period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan-search"
+    },
+    {
+      "id": "ajuster-fenetre",
+      "nom": "Image entière",
+      "groupe": "Zoom",
+      "win": "ctrl+alt+e",
+      "mac": null,
+      "linux": "ctrl+alt+e",
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "note-aucune",
+      "nom": "Aucune note",
+      "groupe": "Notation",
+      "win": "ctrl+0",
+      "mac": null,
+      "linux": "ctrl+0",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star-off"
+    },
+    {
+      "id": "note-1",
+      "nom": "1 étoile",
+      "groupe": "Notation",
+      "win": "ctrl+1",
+      "mac": null,
+      "linux": "ctrl+1",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "note-2",
+      "nom": "2 étoiles",
+      "groupe": "Notation",
+      "win": "ctrl+2",
+      "mac": null,
+      "linux": "ctrl+2",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "note-3",
+      "nom": "3 étoiles",
+      "groupe": "Notation",
+      "win": "ctrl+3",
+      "mac": null,
+      "linux": "ctrl+3",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "note-4",
+      "nom": "4 étoiles",
+      "groupe": "Notation",
+      "win": "ctrl+4",
+      "mac": null,
+      "linux": "ctrl+4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "note-5",
+      "nom": "5 étoiles",
+      "groupe": "Notation",
+      "win": "ctrl+5",
+      "mac": null,
+      "linux": "ctrl+5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "rejeter",
+      "nom": "Rejeter",
+      "groupe": "Drapeaux",
+      "win": "alt+1",
+      "mac": null,
+      "linux": "alt+1",
+      "source": 0,
+      "priorite": 1,
+      "picto": "flag-off"
+    },
+    {
+      "id": "accepter",
+      "nom": "Accepter",
+      "groupe": "Drapeaux",
+      "win": "alt+3",
+      "mac": null,
+      "linux": "alt+3",
+      "source": 0,
+      "priorite": 1,
+      "picto": "flag"
+    },
+    {
+      "id": "etiquette-rouge",
+      "nom": "Étiquette rouge",
+      "groupe": "Étiquettes",
+      "win": "ctrl+alt+1",
+      "mac": null,
+      "linux": "ctrl+alt+1",
+      "source": 0,
+      "priorite": 1,
+      "picto": "tag"
+    },
+    {
+      "id": "etiquette-verte",
+      "nom": "Étiquette verte",
+      "groupe": "Étiquettes",
+      "win": "ctrl+alt+4",
+      "mac": null,
+      "linux": "ctrl+alt+4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "tag"
+    },
+    {
+      "id": "assigner-tag",
+      "nom": "Assigner un tag",
+      "groupe": "Étiquettes",
+      "win": "t",
+      "mac": null,
+      "linux": "t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "tags"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Affichage",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-checks"
+    }
+  ],
+  "non_faisable": []
+}

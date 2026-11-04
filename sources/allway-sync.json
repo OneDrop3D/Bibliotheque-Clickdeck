@@ -1,0 +1,17 @@
+{
+  "id": "allway-sync",
+  "nom": "Allway Sync",
+  "editeur": "Botanic Software",
+  "site": "https://allwaysync.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Allway Sync" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page d'aide officielle des raccourcis (allwaysync.com/help/keyboard-shortcuts) renvoie une erreur 404. Aucune source n'a été ouverte et la recherche web est indisponible. Ce fichier ne peut donc pas affirmer l'absence de raccourcis : à vérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

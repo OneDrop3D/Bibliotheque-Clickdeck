@@ -1,0 +1,19 @@
+{
+  "id": "prime95",
+  "nom": "Prime95",
+  "editeur": "GIMPS (Great Internet Mersenne Prime Search)",
+  "site": "https://www.mersenne.org/download/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Prime95", "mac": "Prime95" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur la page officielle de Prime95. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://www.mersenne.org/download/", "titre": "Download - mersenne.org (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

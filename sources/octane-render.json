@@ -1,0 +1,17 @@
+{
+  "id": "octane-render",
+  "nom": "Octane Render",
+  "editeur": "OTOY",
+  "site": "https://home.otoy.com/render/octane-render/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Octane Render", "mac": "Octane Render" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Non renseigné : la page des raccourcis du manuel OTOY n'a pas pu être ouverte (404) et la recherche web était indisponible. Relancer le relevé avant utilisation.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

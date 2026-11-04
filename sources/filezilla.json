@@ -1,0 +1,287 @@
+{
+  "id": "filezilla",
+  "nom": "FileZilla",
+  "editeur": "Tim Kosse / FileZilla Project",
+  "site": "https://filezilla-project.org/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "FileZilla",
+    "mac": "FileZilla"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "recoupee",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Wiki officiel (wiki.filezilla-project.org/Hotkeys) en 403 : raccourcis recoupés sur deux sources tierces concordantes. Mac déduit (Cmd à la place de Ctrl, indiqué par la 2e source). Ctrl+C = arrêter l'opération dans FileZilla (pas copier) : copier/coller retirés. Ctrl+M (transfert manuel) omis sur Mac car Cmd+M est réservé. Aucun raccourci global par défaut côté ClickDeck : à tester sur Mac.",
+  "sources": [
+    {
+      "url": "https://defkey.com/filezilla-shortcuts",
+      "titre": "FileZilla shortcuts (DefKey)"
+    },
+    {
+      "url": "https://techlomedia.in/guides/filezilla-keyboard-shortcuts-for-windows-and-macos/",
+      "titre": "FileZilla keyboard shortcuts for Windows and macOS"
+    }
+  ],
+  "actions": [
+    {
+      "id": "gestionnaire-sites",
+      "nom": "Gestionnaire sites",
+      "groupe": "Connexion",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "server",
+      "deduit": true
+    },
+    {
+      "id": "reconnecter",
+      "nom": "Reconnecter",
+      "groupe": "Connexion",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plug",
+      "deduit": true
+    },
+    {
+      "id": "deconnecter",
+      "nom": "Déconnecter",
+      "groupe": "Connexion",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "unplug",
+      "deduit": true
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Navigation",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Fichiers",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Fichiers",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus",
+      "deduit": true
+    },
+    {
+      "id": "recherche-distante",
+      "nom": "Recherche distante",
+      "groupe": "Navigation",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": "ctrl+pagedown",
+      "mac": "cmd+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right",
+      "deduit": true
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": "ctrl+pageup",
+      "mac": "cmd+pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left",
+      "deduit": true
+    },
+    {
+      "id": "traiter-file",
+      "nom": "Traiter la file",
+      "groupe": "Transferts",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "transfert-manuel",
+      "nom": "Transfert manuel",
+      "groupe": "Transferts",
+      "win": "ctrl+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "ajouter-signet",
+      "nom": "Ajouter un signet",
+      "groupe": "Signets",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bookmark-plus",
+      "deduit": true
+    },
+    {
+      "id": "gerer-signets",
+      "nom": "Gérer les signets",
+      "groupe": "Signets",
+      "win": "ctrl+shift+b",
+      "mac": "cmd+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "bookmark",
+      "deduit": true
+    },
+    {
+      "id": "filtres",
+      "nom": "Filtres de listage",
+      "groupe": "Affichage",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "filter",
+      "deduit": true
+    },
+    {
+      "id": "fichiers-edition",
+      "nom": "Fichiers en édition",
+      "groupe": "Affichage",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-pen",
+      "deduit": true
+    },
+    {
+      "id": "comparer-dossiers",
+      "nom": "Comparer dossiers",
+      "groupe": "Navigation",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-compare",
+      "deduit": true
+    },
+    {
+      "id": "navigation-synchro",
+      "nom": "Navigation synchro",
+      "groupe": "Navigation",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link",
+      "deduit": true
+    },
+    {
+      "id": "dossier-parent",
+      "nom": "Dossier parent",
+      "groupe": "Navigation",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "corner-left-up"
+    },
+    {
+      "id": "changer-volet",
+      "nom": "Changer de volet",
+      "groupe": "Navigation",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-left"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Transfert de fichiers par glisser-déposer",
+      "raison": "souris"
+    },
+    {
+      "nom": "Gestion des sites et connexions",
+      "raison": "réglage sans raccourci"
+    }
+  ]
+}

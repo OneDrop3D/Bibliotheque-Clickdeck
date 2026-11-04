@@ -1,0 +1,21 @@
+{
+  "id": "staxrip",
+  "nom": "StaxRip",
+  "editeur": "StaxRip Project",
+  "site": "https://github.com/staxrip/staxrip",
+  "systemes": ["windows"],
+  "lancement": { "windows": "StaxRip" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Interface d'encodage pour Windows uniquement. Le README ne mentionne aucun raccourci clavier.",
+  "sources": [
+    { "url": "https://github.com/staxrip/staxrip", "titre": "StaxRip (README)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Assistant d'encodage et files de travail", "raison": "aucun raccourci documenté" }
+  ]
+}

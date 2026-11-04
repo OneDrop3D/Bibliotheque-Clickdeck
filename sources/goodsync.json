@@ -1,0 +1,17 @@
+{
+  "id": "goodsync",
+  "nom": "GoodSync",
+  "editeur": "Siber Systems",
+  "site": "https://www.goodsync.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "GoodSync", "mac": "GoodSync" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le site officiel n'a pas pu être lu (erreur de certificat, puis pages d'aide en 404). Aucune source de raccourcis n'a été ouverte et la recherche web est indisponible. Ce fichier ne peut donc pas affirmer l'absence de raccourcis : à vérifier dans l'application avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

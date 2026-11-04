@@ -1,0 +1,35 @@
+{
+  "id": "picpick",
+  "nom": "PicPick",
+  "editeur": "NGWIN",
+  "site": "https://picpick.app/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PicPick", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Les captures d'écran utilisent toutes la touche Impr écran, non prise en charge par ClickDeck : elles sont listées en non faisable. Les touches de l'éditeur valent quand l'éditeur est au premier plan.",
+  "sources": [ { "url": "https://picpick.app/en/help/shortcuts", "titre": "PicPick Help: Shortcuts" } ],
+  "actions": [
+    { "id": "demarrer-arreter-enregistrement", "nom": "Enregistrer écran", "groupe": "Enregistrement", "win": "f9", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot" },
+    { "id": "coller-image", "nom": "Coller", "groupe": "Éditeur", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "coller-nouvel-onglet", "nom": "Coller dans un onglet", "groupe": "Éditeur", "win": "ctrl+shift+v", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "file-plus" },
+    { "id": "redimensionner-image", "nom": "Redimensionner image", "groupe": "Éditeur", "win": "ctrl+r", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scaling" },
+    { "id": "taille-canevas", "nom": "Taille du canevas", "groupe": "Éditeur", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "frame" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Éditeur", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "square" },
+    { "id": "desselectionner", "nom": "Désélectionner", "groupe": "Éditeur", "win": "ctrl+d", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "square-dashed" },
+    { "id": "inverser-selection", "nom": "Inverser sélection", "groupe": "Éditeur", "win": "ctrl+shift+i", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "replace" }
+  ],
+  "non_faisable": [
+    { "nom": "Capture plein écran", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Capture fenêtre active", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Capture zone", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Capture zone fixe", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Capture fenêtre contrôle", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Capture défilante", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Capture à main levée", "raison": "touche Impr écran non prise en charge" },
+    { "nom": "Insérer depuis un fichier", "raison": "touche Inser non prise en charge" }
+  ]
+}

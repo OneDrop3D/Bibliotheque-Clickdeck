@@ -1,0 +1,17 @@
+{
+  "id": "redshift",
+  "nom": "Redshift",
+  "editeur": "Maxon",
+  "site": "https://www.maxon.net/en/redshift",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Redshift", "mac": "Redshift" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Vérification impossible : la documentation Redshift (docs.redshift3d.com) n'a pas pu être lue (erreur SSL) et la recherche web était épuisée. Aucun raccourci n'a été relevé ni inventé. Redshift est un moteur de rendu intégré à une application hôte (Cinema 4D, Maya, 3ds Max, Houdini) : ses raccourcis dépendent de l'hôte et de son réglage.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

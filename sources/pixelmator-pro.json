@@ -1,0 +1,48 @@
+{
+  "id": "pixelmator-pro",
+  "nom": "Pixelmator Pro",
+  "editeur": "Pixelmator Team",
+  "site": "https://www.pixelmator.com/pro/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Pixelmator Pro" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste partielle : la page officielle en compte beaucoup plus (sections Style, Disposition, Pinceau, Forme, Plume, Texte, Effets). Seuls les raccourcis lisibles dans la synthèse de la page ont été repris. Application macOS uniquement.",
+  "sources": [
+    { "url": "https://support.pixelmator.com/pixelmator-pro-user-guide/pixelmator-pro-keyboard-shortcuts", "titre": "Pixelmator Pro keyboard shortcuts" }
+  ],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": null, "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": null, "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": null, "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "exporter", "nom": "Exporter", "groupe": "Fichier", "win": null, "mac": "cmd+e", "linux": null, "source": 0, "priorite": 1, "picto": "download" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": null, "mac": "cmd+p", "linux": null, "source": 0, "priorite": 2, "picto": "printer" },
+    { "id": "reglages", "nom": "Réglages", "groupe": "Fichier", "win": null, "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 2, "picto": "settings" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": null, "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": null, "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": null, "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "square-dashed", "deduit": true },
+    { "id": "deselectionner", "nom": "Désélectionner", "groupe": "Édition", "win": null, "mac": "cmd+d", "linux": null, "source": 0, "priorite": 1, "picto": "square-x" },
+    { "id": "inverser-selection", "nom": "Inverser sélection", "groupe": "Édition", "win": null, "mac": "cmd+shift+i", "linux": null, "source": 0, "priorite": 2, "picto": "replace" },
+    { "id": "transformer", "nom": "Transformer", "groupe": "Édition", "win": null, "mac": "cmd+t", "linux": null, "source": 0, "priorite": 1, "picto": "scaling" },
+    { "id": "selection", "nom": "Sélection", "groupe": "Outils", "win": null, "mac": "m", "linux": null, "source": 0, "priorite": 1, "picto": "square-dashed" },
+    { "id": "pinceau", "nom": "Pinceau", "groupe": "Outils", "win": null, "mac": "b", "linux": null, "source": 0, "priorite": 1, "picto": "paintbrush" },
+    { "id": "recadrage", "nom": "Recadrage", "groupe": "Outils", "win": null, "mac": "c", "linux": null, "source": 0, "priorite": 1, "picto": "crop" },
+    { "id": "texte", "nom": "Texte", "groupe": "Outils", "win": null, "mac": "t", "linux": null, "source": 0, "priorite": 1, "picto": "type" },
+    { "id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": null, "mac": "cmd+plus", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": null, "mac": "cmd+minus", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-out" },
+    { "id": "ajuster-ecran", "nom": "Ajuster à l'écran", "groupe": "Affichage", "win": null, "mac": "cmd+0", "linux": null, "source": 0, "priorite": 1, "picto": "scan" },
+    { "id": "taille-reelle", "nom": "Taille réelle", "groupe": "Affichage", "win": null, "mac": "cmd+1", "linux": null, "source": 0, "priorite": 1, "picto": "maximize-2" },
+    { "id": "nouveau-calque", "nom": "Nouveau calque", "groupe": "Calques", "win": null, "mac": "cmd+shift+n", "linux": null, "source": 0, "priorite": 1, "picto": "layers" },
+    { "id": "grouper-calques", "nom": "Grouper calques", "groupe": "Calques", "win": null, "mac": "cmd+g", "linux": null, "source": 0, "priorite": 2, "picto": "group" },
+    { "id": "fusionner-calques", "nom": "Fusionner calques", "groupe": "Calques", "win": null, "mac": "cmd+alt+e", "linux": null, "source": 0, "priorite": 2, "picto": "git-merge" }
+  ],
+  "non_faisable": [
+    { "nom": "Taille du pinceau à la molette", "raison": "molette" },
+    { "nom": "Zoom à la molette", "raison": "molette" }
+  ]
+}

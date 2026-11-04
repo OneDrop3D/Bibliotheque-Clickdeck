@@ -1,0 +1,342 @@
+{
+  "id": "wireshark",
+  "nom": "Wireshark",
+  "editeur": "Wireshark Foundation",
+  "site": "https://www.wireshark.org/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Wireshark",
+    "mac": "Wireshark"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Windows tirés du guide officiel (menus Fichier, Édition, Aller à, Affichage, Capture). Le guide ne donne pas les équivalents Mac : Qt convertit Ctrl en Cmd, d'où deduit true ; les combinaisons risquées sur Mac (Cmd+M, Cmd+H, Cmd+virgule) sont exclues. Suivre le flux TCP (Ctrl+Alt+Maj+T) non confirmé par le guide.",
+  "sources": [
+    {
+      "url": "https://www.wireshark.org/docs/wsug_html_chunked/ChUseCaptureMenuSection.html",
+      "titre": "Wireshark User's Guide - Capture menu"
+    },
+    {
+      "url": "https://www.wireshark.org/docs/wsug_html_chunked/ChUseEditMenuSection.html",
+      "titre": "Edit menu"
+    },
+    {
+      "url": "https://www.wireshark.org/docs/wsug_html_chunked/ChUseGoMenuSection.html",
+      "titre": "Go menu"
+    },
+    {
+      "url": "https://www.wireshark.org/docs/wsug_html_chunked/ChUseViewMenuSection.html",
+      "titre": "View menu"
+    },
+    {
+      "url": "https://www.wireshark.org/docs/wsug_html_chunked/ChUseFileMenuSection.html",
+      "titre": "File menu"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 4,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 4,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 4,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 4,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "copy"
+    },
+    {
+      "id": "capture-demarrer-arreter",
+      "nom": "Démarrer/arrêter",
+      "groupe": "Capture",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "capture-relancer",
+      "nom": "Relancer capture",
+      "groupe": "Capture",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "options-capture",
+      "nom": "Options de capture",
+      "groupe": "Capture",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "rechercher-paquet",
+      "nom": "Rechercher paquet",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "suivant-recherche",
+      "nom": "Résultat suivant",
+      "groupe": "Navigation",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "precedent-recherche",
+      "nom": "Résultat précédent",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "aller-au-paquet",
+      "nom": "Aller au paquet",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 2,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "ignorer-paquet",
+      "nom": "Ignorer le paquet",
+      "groupe": "Analyse",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "reference-temps",
+      "nom": "Référence de temps",
+      "groupe": "Analyse",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "clock"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 3,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 3,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "taille-normale",
+      "nom": "Taille normale",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 3,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "dev-tout",
+      "nom": "Tout développer",
+      "groupe": "Affichage",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": null,
+      "source": 3,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "replier-tout",
+      "nom": "Tout replier",
+      "groupe": "Affichage",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": null,
+      "source": 3,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "paquet-suivant",
+      "nom": "Paquet suivant",
+      "groupe": "Navigation",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 2,
+      "deduit": false,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "paquet-precedent",
+      "nom": "Paquet précédent",
+      "groupe": "Navigation",
+      "win": "f7",
+      "mac": "f7",
+      "linux": null,
+      "source": 2,
+      "deduit": false,
+      "priorite": 1,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "premier-paquet",
+      "nom": "Premier paquet",
+      "groupe": "Navigation",
+      "win": "ctrl+home",
+      "mac": "cmd+home",
+      "linux": null,
+      "source": 2,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "dernier-paquet",
+      "nom": "Dernier paquet",
+      "groupe": "Navigation",
+      "win": "ctrl+end",
+      "mac": "cmd+end",
+      "linux": null,
+      "source": 2,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "dev-sous-arbre",
+      "nom": "Développer l'arbre",
+      "groupe": "Affichage",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": null,
+      "source": 3,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "chevron-down"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Suivre le flux TCP",
+      "raison": "raccourci non confirmé par la documentation"
+    },
+    {
+      "nom": "Marquer le paquet",
+      "raison": "Ctrl+M : Cmd+M réservé (réduire) sur Mac"
+    }
+  ]
+}

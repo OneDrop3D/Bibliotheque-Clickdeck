@@ -1,0 +1,403 @@
+{
+  "id": "canva",
+  "nom": "Canva",
+  "editeur": "Canva",
+  "site": "https://www.canva.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Canva",
+    "mac": "Canva"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "recoupee",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page officielle Canva illisible (403). Raccourcis recoupés par deux guides tiers concordants (Cmd = Ctrl sur Mac, indiqué par les sources). Techlomedia date de 2023, donc recoupé avec le guide de 2026.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/keyboard-shortcuts/canva-shortcuts-windows-mac/",
+      "titre": "Tutorial Tactic - Canva keyboard shortcuts (sept. 2026, tierce)"
+    },
+    {
+      "url": "https://techlomedia.in/guides/canva-keyboard-shortcuts-for-windows-and-mac/",
+      "titre": "Techlomedia - Canva keyboard shortcuts (2023, tierce)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "square-x"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Éléments",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Éléments",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "ungroup"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Éléments",
+      "win": "alt+shift+l",
+      "mac": "alt+shift+l",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "lock"
+    },
+    {
+      "id": "avancer",
+      "nom": "Avancer",
+      "groupe": "Éléments",
+      "win": "ctrl+bracketright",
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bring-to-front"
+    },
+    {
+      "id": "reculer",
+      "nom": "Reculer",
+      "groupe": "Éléments",
+      "win": "ctrl+bracketleft",
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "send-to-back"
+    },
+    {
+      "id": "texte",
+      "nom": "Zone de texte",
+      "groupe": "Éléments",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Éléments",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "cercle",
+      "nom": "Cercle",
+      "groupe": "Éléments",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Éléments",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Texte",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Texte",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Texte",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "underline"
+    },
+    {
+      "id": "aligner-gauche",
+      "nom": "Aligner à gauche",
+      "groupe": "Texte",
+      "win": "ctrl+shift+l",
+      "mac": "cmd+shift+l",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "align-left"
+    },
+    {
+      "id": "centrer",
+      "nom": "Centrer le texte",
+      "groupe": "Texte",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "align-center"
+    },
+    {
+      "id": "aligner-droite",
+      "nom": "Aligner à droite",
+      "groupe": "Texte",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "align-right"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "guides",
+      "nom": "Guides",
+      "groupe": "Affichage",
+      "win": "ctrl+semicolon",
+      "mac": "cmd+semicolon",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "ruler"
+    },
+    {
+      "id": "presenter",
+      "nom": "Présenter",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+p",
+      "mac": "cmd+alt+p",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "presentation"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Page",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ajouter-page",
+      "nom": "Ajouter une page",
+      "groupe": "Page",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Page",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "printer"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Supprimer une page vide",
+      "raison": "Ctrl+Retour arrière non confirmé sur Mac (sources divergentes)"
+    }
+  ]
+}

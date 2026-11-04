@@ -1,0 +1,386 @@
+{
+  "id": "jetbrains-goland",
+  "nom": "JetBrains GoLand",
+  "editeur": "JetBrains",
+  "site": "https://www.jetbrains.com/go/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "GoLand",
+    "mac": "GoLand"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la carte de référence officielle GoLand (keymaps macOS et Windows/Linux). Les raccourcis absents de cette carte (par ex. Aller à la classe ou Aller au symbole sous Windows, Compiler) sont laissés à null plutôt que devinés.",
+  "sources": [
+    {
+      "url": "https://resources.jetbrains.com/storage/products/goland/docs/GoLand_ReferenceCard.pdf",
+      "titre": "GoLand Reference Card (macOS et Windows/Linux)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "executer",
+      "nom": "Exécuter",
+      "groupe": "Exécution",
+      "win": "shift+f10",
+      "mac": "ctrl+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "deboguer",
+      "nom": "Déboguer",
+      "groupe": "Exécution",
+      "win": "shift+f9",
+      "mac": "ctrl+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bug"
+    },
+    {
+      "id": "rechercher-action",
+      "nom": "Rechercher action",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "chercher-remplacer",
+      "nom": "Chercher/Remplacer",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "chercher-projet",
+      "nom": "Chercher projet",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "trouver-usages",
+      "nom": "Trouver usages",
+      "groupe": "Recherche",
+      "win": "alt+f7",
+      "mac": "alt+f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-search"
+    },
+    {
+      "id": "aller-classe",
+      "nom": "Aller à la classe",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "braces"
+    },
+    {
+      "id": "aller-fichier",
+      "nom": "Aller au fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "aller-symbole",
+      "nom": "Aller au symbole",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "code-xml"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "fichiers-recents",
+      "nom": "Fichiers récents",
+      "groupe": "Navigation",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+left",
+      "mac": "cmd+alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "avant",
+      "nom": "Avant",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+right",
+      "mac": "cmd+alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Navigation",
+      "win": "ctrl+f4",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "formater",
+      "nom": "Formater le code",
+      "groupe": "Édition",
+      "win": "ctrl+alt+l",
+      "mac": "cmd+alt+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter ligne",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "commenter-bloc",
+      "nom": "Commenter bloc",
+      "groupe": "Édition",
+      "win": "ctrl+shift+slash",
+      "mac": "cmd+alt+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "message-square-more"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "intentions",
+      "nom": "Correctifs rapides",
+      "groupe": "Édition",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lightbulb"
+    },
+    {
+      "id": "etendre-selection",
+      "nom": "Étendre sélection",
+      "groupe": "Édition",
+      "win": "ctrl+w",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "expand"
+    },
+    {
+      "id": "reduire-selection",
+      "nom": "Réduire sélection",
+      "groupe": "Édition",
+      "win": "ctrl+shift+w",
+      "mac": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "shrink"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Refactorer",
+      "win": "shift+f6",
+      "mac": "shift+f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "refactoriser",
+      "nom": "Refactoriser",
+      "groupe": "Refactorer",
+      "win": null,
+      "mac": "ctrl+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "wand"
+    },
+    {
+      "id": "documentation",
+      "nom": "Documentation",
+      "groupe": "Documentation",
+      "win": "ctrl+q",
+      "mac": "ctrl+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "book-open"
+    },
+    {
+      "id": "point-arret",
+      "nom": "Point d'arrêt",
+      "groupe": "Débogage",
+      "win": "ctrl+f8",
+      "mac": "cmd+f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pas-a-pas",
+      "nom": "Pas à pas",
+      "groupe": "Débogage",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-forward"
+    },
+    {
+      "id": "pas-detaille",
+      "nom": "Pas détaillé",
+      "groupe": "Débogage",
+      "win": "f7",
+      "mac": "f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "commit",
+      "nom": "Commit",
+      "groupe": "Git",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-commit"
+    },
+    {
+      "id": "mettre-a-jour",
+      "nom": "Mettre à jour",
+      "groupe": "Git",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "pousser",
+      "nom": "Pousser commits",
+      "groupe": "Git",
+      "win": null,
+      "mac": "cmd+shift+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "upload"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Fenêtres",
+      "win": "ctrl+alt+s",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rechercher partout",
+      "raison": "séquence : double pression de Maj"
+    }
+  ]
+}

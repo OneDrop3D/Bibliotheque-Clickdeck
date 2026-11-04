@@ -1,0 +1,644 @@
+{
+ "id": "luminar-neo",
+ "nom": "Luminar Neo",
+ "editeur": "Skylum",
+ "site": "https://skylum.com/luminar",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "Luminar Neo",
+  "mac": "Luminar Neo"
+ },
+ "raccourcis_modifiables": false,
+ "fiabilite": "officielle",
+ "section": "Photo & gestion d'images",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Tableau officiel Skylum intitulé « Luminar for Desktop » (produit renommé Luminar, Neo inclus). Les raccourcis sont ceux de la page officielle ; vérifier sur la version installée. Le tableau ne liste pas de raccourci pour les rares actions à la souris ou au clic. Raccourcis retirés faute de confirmation dans le tableau relu : plein écran, ajouter un dossier, inverser le format (x conflit avec Rejeter), afficher le masque.",
+ "sources": [
+  {
+   "url": "https://support.skylum.com/something-useful/keyboard-shortcut-keys",
+   "titre": "Keyboard Shortcut Keys (Skylum Support)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "ouvrir",
+   "nom": "Ouvrir image",
+   "groupe": "Fichier",
+   "win": "ctrl+o",
+   "mac": "cmd+o",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "folder-open"
+  },
+  {
+   "id": "exporter",
+   "nom": "Exporter",
+   "groupe": "Fichier",
+   "win": "ctrl+shift+e",
+   "mac": "shift+cmd+e",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "download"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Fichier",
+   "win": "ctrl+f",
+   "mac": "cmd+f",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "nouvel-album",
+   "nom": "Nouvel album",
+   "groupe": "Fichier",
+   "win": "ctrl+n",
+   "mac": "cmd+n",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "folder-plus"
+  },
+  {
+   "id": "imprimer",
+   "nom": "Imprimer",
+   "groupe": "Fichier",
+   "win": "ctrl+p",
+   "mac": "cmd+p",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "printer"
+  },
+  {
+   "id": "annuler",
+   "nom": "Annuler",
+   "groupe": "Édition",
+   "win": "ctrl+z",
+   "mac": "cmd+z",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "retablir",
+   "nom": "Rétablir",
+   "groupe": "Édition",
+   "win": "ctrl+y",
+   "mac": "shift+cmd+z",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "redo-2"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+c",
+   "mac": "cmd+c",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "couper",
+   "nom": "Couper",
+   "groupe": "Édition",
+   "win": "ctrl+x",
+   "mac": "cmd+x",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "scissors"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+v",
+   "mac": "cmd+v",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "clipboard"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+a",
+   "mac": "cmd+a",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "square-dashed"
+  },
+  {
+   "id": "deselectionner",
+   "nom": "Désélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+d",
+   "mac": "cmd+d",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "square"
+  },
+  {
+   "id": "copie-virtuelle",
+   "nom": "Copie virtuelle",
+   "groupe": "Édition",
+   "win": "ctrl+quote",
+   "mac": "cmd+quote",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "copy-plus"
+  },
+  {
+   "id": "corbeille",
+   "nom": "Corbeille Luminar",
+   "groupe": "Édition",
+   "win": "ctrl+delete",
+   "mac": "cmd+delete",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "trash-2"
+  },
+  {
+   "id": "photo-suivante",
+   "nom": "Photo suivante",
+   "groupe": "Navigation",
+   "win": "right",
+   "mac": "right",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-right"
+  },
+  {
+   "id": "photo-precedente",
+   "nom": "Photo précédente",
+   "groupe": "Navigation",
+   "win": "left",
+   "mac": "left",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-left"
+  },
+  {
+   "id": "vue-catalogue",
+   "nom": "Vue catalogue",
+   "groupe": "Navigation",
+   "win": "l",
+   "mac": "l",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "layout-grid"
+  },
+  {
+   "id": "onglet-presets",
+   "nom": "Onglet Préréglages",
+   "groupe": "Navigation",
+   "win": "t",
+   "mac": "t",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "bookmark"
+  },
+  {
+   "id": "onglet-outils",
+   "nom": "Onglet Outils",
+   "groupe": "Navigation",
+   "win": "e",
+   "mac": "e",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "wrench"
+  },
+  {
+   "id": "onglet-infos",
+   "nom": "Onglet Infos",
+   "groupe": "Navigation",
+   "win": "i",
+   "mac": "i",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "info"
+  },
+  {
+   "id": "comparer",
+   "nom": "Comparer",
+   "groupe": "Navigation",
+   "win": "semicolon",
+   "mac": "semicolon",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "git-compare"
+  },
+  {
+   "id": "zoom-avant",
+   "nom": "Zoom avant",
+   "groupe": "Navigation",
+   "win": "ctrl+plus",
+   "mac": "cmd+plus",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "zoom-arriere",
+   "nom": "Zoom arrière",
+   "groupe": "Navigation",
+   "win": "ctrl+minus",
+   "mac": "cmd+minus",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "zoom-100",
+   "nom": "Zoom 100 %",
+   "groupe": "Navigation",
+   "win": "ctrl+1",
+   "mac": "cmd+1",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "scan"
+  },
+  {
+   "id": "ajuster-ecran",
+   "nom": "Ajuster à l'écran",
+   "groupe": "Navigation",
+   "win": "ctrl+0",
+   "mac": "cmd+0",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "scan-line"
+  },
+  {
+   "id": "favori",
+   "nom": "Favori",
+   "groupe": "Notation",
+   "win": "p",
+   "mac": "p",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "heart"
+  },
+  {
+   "id": "rejeter",
+   "nom": "Rejeter",
+   "groupe": "Notation",
+   "win": "x",
+   "mac": "x",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "x-circle"
+  },
+  {
+   "id": "sans-marque",
+   "nom": "Sans marque",
+   "groupe": "Notation",
+   "win": "u",
+   "mac": "u",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "circle"
+  },
+  {
+   "id": "note-0",
+   "nom": "Sans note",
+   "groupe": "Notation",
+   "win": "0",
+   "mac": "0",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "star-off"
+  },
+  {
+   "id": "note-1",
+   "nom": "Note 1 étoile",
+   "groupe": "Notation",
+   "win": "1",
+   "mac": "1",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "star"
+  },
+  {
+   "id": "note-2",
+   "nom": "Note 2 étoiles",
+   "groupe": "Notation",
+   "win": "2",
+   "mac": "2",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "star"
+  },
+  {
+   "id": "note-3",
+   "nom": "Note 3 étoiles",
+   "groupe": "Notation",
+   "win": "3",
+   "mac": "3",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "star"
+  },
+  {
+   "id": "note-4",
+   "nom": "Note 4 étoiles",
+   "groupe": "Notation",
+   "win": "4",
+   "mac": "4",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "star"
+  },
+  {
+   "id": "note-5",
+   "nom": "Note 5 étoiles",
+   "groupe": "Notation",
+   "win": "5",
+   "mac": "5",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "star"
+  },
+  {
+   "id": "recadrage",
+   "nom": "Recadrage",
+   "groupe": "Outils",
+   "win": "c",
+   "mac": "c",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "crop"
+  },
+  {
+   "id": "pipette",
+   "nom": "Pipette",
+   "groupe": "Outils",
+   "win": "w",
+   "mac": "w",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "pipette"
+  },
+  {
+   "id": "tampon",
+   "nom": "Tampon de clonage",
+   "groupe": "Outils",
+   "win": "ctrl+j",
+   "mac": "cmd+j",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "stamp"
+  },
+  {
+   "id": "gomme",
+   "nom": "Gomme",
+   "groupe": "Outils",
+   "win": "ctrl+e",
+   "mac": "cmd+e",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "eraser"
+  },
+  {
+   "id": "pivoter-gauche",
+   "nom": "Pivoter à gauche",
+   "groupe": "Outils",
+   "win": "ctrl+bracketleft",
+   "mac": "cmd+bracketleft",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "rotate-ccw"
+  },
+  {
+   "id": "pivoter-droite",
+   "nom": "Pivoter à droite",
+   "groupe": "Outils",
+   "win": "ctrl+bracketright",
+   "mac": "cmd+bracketright",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "rotate-cw"
+  },
+  {
+   "id": "assistant-ia",
+   "nom": "Assistant IA",
+   "groupe": "Outils",
+   "win": "ctrl+k",
+   "mac": "ctrl+k",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "sparkles"
+  },
+  {
+   "id": "masque-pinceau",
+   "nom": "Masque au pinceau",
+   "groupe": "Masques",
+   "win": "b",
+   "mac": "b",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "brush"
+  },
+  {
+   "id": "masque-radial",
+   "nom": "Masque radial",
+   "groupe": "Masques",
+   "win": "r",
+   "mac": "r",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "circle-dot"
+  },
+  {
+   "id": "masque-degrade",
+   "nom": "Masque dégradé",
+   "groupe": "Masques",
+   "win": "g",
+   "mac": "g",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "blend"
+  },
+  {
+   "id": "masque-ia",
+   "nom": "Masque IA",
+   "groupe": "Masques",
+   "win": "a",
+   "mac": "a",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "wand-sparkles"
+  },
+  {
+   "id": "inverser-masque",
+   "nom": "Inverser le masque",
+   "groupe": "Masques",
+   "win": "ctrl+i",
+   "mac": "cmd+i",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "repeat"
+  },
+  {
+   "id": "effacer-masque",
+   "nom": "Effacer le masque",
+   "groupe": "Masques",
+   "win": "ctrl+delete",
+   "mac": "cmd+delete",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "eraser"
+  },
+  {
+   "id": "pinceau-plus",
+   "nom": "Pinceau plus grand",
+   "groupe": "Masques",
+   "win": "bracketright",
+   "mac": "bracketright",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "plus"
+  },
+  {
+   "id": "pinceau-moins",
+   "nom": "Pinceau plus petit",
+   "groupe": "Masques",
+   "win": "bracketleft",
+   "mac": "bracketleft",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "minus"
+  },
+  {
+   "id": "synchroniser",
+   "nom": "Synchro réglages",
+   "groupe": "Réglages",
+   "win": "ctrl+shift+s",
+   "mac": "shift+cmd+s",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "refresh-cw"
+  },
+  {
+   "id": "reinitialiser",
+   "nom": "Réinit. réglages",
+   "groupe": "Réglages",
+   "win": "ctrl+shift+r",
+   "mac": "shift+cmd+r",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "history"
+  },
+  {
+   "id": "ecretage",
+   "nom": "Écrêtage",
+   "groupe": "Navigation",
+   "win": "j",
+   "mac": "j",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "sun"
+  },
+  {
+   "id": "ajuster-100",
+   "nom": "Ajusté / 100 %",
+   "groupe": "Navigation",
+   "win": "space",
+   "mac": "space",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "scan"
+  },
+  {
+   "id": "afficher-dossier",
+   "nom": "Afficher fichier",
+   "groupe": "Fichier",
+   "win": "ctrl+r",
+   "mac": "cmd+r",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "folder-search"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Déplacer l'image zoomée",
+   "raison": "souris"
+  },
+  {
+   "nom": "Menu contextuel",
+   "raison": "souris"
+  },
+  {
+   "nom": "Sélection multiple de photos",
+   "raison": "souris"
+  },
+  {
+   "nom": "Avant / après",
+   "raison": "touche maintenue"
+  },
+  {
+   "nom": "Aperçu rapide",
+   "raison": "touche maintenue"
+  }
+ ]
+}

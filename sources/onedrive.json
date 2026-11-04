@@ -1,0 +1,17 @@
+{
+  "id": "onedrive",
+  "nom": "OneDrive Desktop",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/microsoft-365/onedrive/download-app",
+  "systemes": ["windows","mac"],
+  "lancement": { "windows": "OneDrive", "mac": "OneDrive" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation sans raccourci clavier documenté. Pages d'aide Microsoft consultées : 404, aucune source lue ; à recouper.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

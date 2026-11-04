@@ -1,0 +1,130 @@
+{
+  "id": "86box",
+  "nom": "86Box",
+  "editeur": "86Box",
+  "site": "https://86box.net/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "86Box",
+    "mac": "86Box",
+    "linux": "86Box"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de la documentation 86Box v6.0 (modifiables dans Préférences > Raccourcis). Équivalents Mac non confirmés : laissés vides. Ctrl+F12 envoie Ctrl+Alt+Suppr à la machine émulée.",
+  "sources": [
+    {
+      "url": "https://86box.readthedocs.io/en/v6.0/usage/menubar.html",
+      "titre": "86Box - Menu bar"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause / reprise",
+      "groupe": "Machine",
+      "win": "ctrl+alt+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "reset-force",
+      "nom": "Réinit. matérielle",
+      "groupe": "Machine",
+      "win": "ctrl+alt+f12",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "ctrl-alt-suppr",
+      "nom": "Ctrl+Alt+Suppr",
+      "groupe": "Machine",
+      "win": "ctrl+f12",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "ctrl-alt-echap",
+      "nom": "Ctrl+Alt+Échap",
+      "groupe": "Machine",
+      "win": "ctrl+f10",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "barres",
+      "nom": "Masquer les barres",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-top"
+    },
+    {
+      "id": "avance-rapide",
+      "nom": "Avance rapide",
+      "groupe": "Machine",
+      "win": "ctrl+alt+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "interpreteur",
+      "nom": "Mode interpréteur",
+      "groupe": "Machine",
+      "win": "ctrl+alt+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "cpu"
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Outils",
+      "win": "ctrl+f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "camera"
+    }
+  ],
+  "non_faisable": []
+}

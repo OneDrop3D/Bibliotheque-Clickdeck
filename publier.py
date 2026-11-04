@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
-Recalcule index.json à partir de modeles/ et plugins/, puis publie.
+Recalcule index.json et catalogue.json à partir de modeles/ et plugins/, puis publie.
+
+index.json est figé sur les éléments qu'il contient déjà : les applications
+jusqu'à la 1.18 refusent un index de plus de 500 entrées et téléchargent tout ce
+qu'il liste. Tout nouvel élément va uniquement dans catalogue.json, lu à partir
+de la 1.19.0 et consulté en ligne. Les maths n'y figurent pas : ils sont embarqués.
 
     ./publier.py              # contrôle, et montre ce qui partirait
     ./publier.py --publier    # écrit index.json, commite et pousse
@@ -19,6 +24,7 @@ import sys
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 INDEX = os.path.join(ICI, "index.json")
+CATALOGUE = os.path.join(ICI, "catalogue.json")
 DOSSIERS = {"models": "modeles", "plugins": "plugins"}
 IDENTIFIANT = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 VERSION = re.compile(r"^\d+\.\d+\.\d+$")
@@ -44,6 +50,7 @@ def touches(element):
 
 def lire_entrees(cle):
     entrees = []
+    fiches = []
     dossier = os.path.join(ICI, DOSSIERS[cle])
     for nom in sorted(os.listdir(dossier)):
         if not nom.endswith(".json"):
@@ -73,7 +80,27 @@ def lire_entrees(cle):
         if element.get("minAppVersion"):
             entree["minAppVersion"] = element["minAppVersion"]
         entrees.append(entree)
-    return entrees
+        if not re.match(r"^maths?-", identifiant):
+            fiches.append(fiche(element, entree, cle))
+    return entrees, fiches
+
+
+def fiche(element, entree, cle):
+    resultat = dict(entree)
+    resultat.update({
+        "name": element["name"],
+        "description": element.get("description", ""),
+        "author": element.get("author", ""),
+        "icon": element.get("icon", ""),
+        "section": element.get("section", "Général"),
+        "tags": element.get("tags", []),
+    })
+    if cle == "models":
+        resultat["category"] = element["category"]
+        resultat["pages"] = max(c["totalPages"] for c in [element["config"]] + list(element.get("variantConfigs") or []))
+    else:
+        resultat["actions"] = sum(len(c.get("actions", [])) for c in element.get("categories", []))
+    return resultat
 
 
 def comparer(cle, entrees, ancien):
@@ -102,11 +129,22 @@ def main():
         with open(INDEX, encoding="utf-8") as fichier:
             ancien = json.load(fichier)
 
+    ancien_catalogue = {}
+    if os.path.exists(CATALOGUE):
+        with open(CATALOGUE, encoding="utf-8") as fichier:
+            ancien_catalogue = json.load(fichier)
+
     index = {"schema": 1}
+    catalogue = {"schema": 2}
     changements = []
     for cle in DOSSIERS:
-        index[cle] = lire_entrees(cle)
+        entrees, fiches = lire_entrees(cle)
+        figes = {entree["id"] for entree in ancien.get(cle, [])}
+        index[cle] = [entree for entree in entrees if entree["id"] in figes]
+        catalogue[cle] = fiches
         changements += comparer(cle, index[cle], ancien)
+        changements += comparer(cle, fiches, ancien_catalogue)
+    changements = sorted(set(changements))
 
     print("\n".join(changements) or "Rien à publier.")
     if not options.publier or not changements:
@@ -115,6 +153,8 @@ def main():
     with open(INDEX, "w", encoding="utf-8") as fichier:
         json.dump(index, fichier, indent=1, ensure_ascii=False)
         fichier.write("\n")
+    with open(CATALOGUE, "w", encoding="utf-8") as fichier:
+        json.dump(catalogue, fichier, ensure_ascii=False, separators=(",", ":"))
     subprocess.run(["git", "add", "-A"], cwd=ICI, check=True)
     subprocess.run(["git", "commit", "-m", f"Bibliothèque : {len(changements)} changement(s)"], cwd=ICI, check=True)
     subprocess.run(["git", "push"], cwd=ICI, check=True)

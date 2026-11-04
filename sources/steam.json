@@ -1,0 +1,84 @@
+{
+  "id": "steam",
+  "nom": "Steam",
+  "editeur": "Valve",
+  "site": "https://store.steampowered.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Steam",
+    "mac": "Steam",
+    "linux": "Steam"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Une seule source tierce lue (defkey.com/steam-shortcuts, relue) : Maj+Tab, F12, Ctrl+F, Alt+Gauche confirmés pour Windows/Linux. Aucun recoupement (aide officielle en 403, recherche web épuisée). Mac non documenté, laissé vide.",
+  "sources": [
+    {
+      "url": "https://defkey.com/steam-shortcuts",
+      "titre": "Defkey - Steam shortcuts (source tierce)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "overlay-steam",
+      "nom": "Overlay Steam",
+      "groupe": "Interface",
+      "win": "shift+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Capture",
+      "win": "f12",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "rechercher-jeu",
+      "nom": "Rechercher un jeu",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Interface",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Steam Deck : menu rapide (QAM)",
+      "raison": "manette, pas de raccourci clavier"
+    },
+    {
+      "nom": "Navigation dans la bibliothèque",
+      "raison": "flèches et manette, pas de raccourci dédié vérifié"
+    }
+  ]
+}

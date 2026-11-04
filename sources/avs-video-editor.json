@@ -1,0 +1,423 @@
+{
+  "id": "avs-video-editor",
+  "nom": "AVS Video Editor",
+  "editeur": "Online Media Technologies (AVS4YOU)",
+  "site": "https://www.avs4you.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "AVS Video Editor"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune page officielle AVS4YOU n'a pu être lue. Raccourcis issus d'un seul site tiers (mis à jour en octobre 2025), qui attribue Suppr à plusieurs fonctions selon le contexte : Suppr est pris pour supprimer l'élément sélectionné. À recouper dans l'application. Windows uniquement.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/blog/avs-video-editor-shortcuts/",
+      "titre": "AVS Video Editor Keyboard Shortcuts (Tutorial Tactic, màj oct. 2025)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-projet",
+      "nom": "Ouvrir projet",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Fichier",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture ou pause",
+      "groupe": "Lecture",
+      "win": "ctrl+space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "volume-x"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Navigation",
+      "win": "left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Navigation",
+      "win": "right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "seconde-precedente",
+      "nom": "Seconde précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "seconde-suivante",
+      "nom": "Seconde suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "debut-projet",
+      "nom": "Début du projet",
+      "groupe": "Navigation",
+      "win": "home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "fin-projet",
+      "nom": "Fin du projet",
+      "groupe": "Navigation",
+      "win": "end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "marquer-debut",
+      "nom": "Marquer début",
+      "groupe": "Scènes",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bracket"
+    },
+    {
+      "id": "marquer-fin",
+      "nom": "Marquer fin",
+      "groupe": "Scènes",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bracket"
+    },
+    {
+      "id": "couper-scene",
+      "nom": "Couper la scène",
+      "groupe": "Scènes",
+      "win": "f8",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "fondu-entrant",
+      "nom": "Fondu entrant",
+      "groupe": "Scènes",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sunrise"
+    },
+    {
+      "id": "fondu-sortant",
+      "nom": "Fondu sortant",
+      "groupe": "Scènes",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sunset"
+    },
+    {
+      "id": "zoom-timeline",
+      "nom": "Zoom timeline",
+      "groupe": "Scènes",
+      "win": "f9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "detecter-scenes",
+      "nom": "Détecter scènes",
+      "groupe": "Scènes",
+      "win": "ctrl+alt+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "fusionner-scenes",
+      "nom": "Fusionner scènes",
+      "groupe": "Scènes",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "merge"
+    },
+    {
+      "id": "ajouter-chapitre",
+      "nom": "Ajouter chapitre",
+      "groupe": "Scènes",
+      "win": "insert",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "bookmark-plus"
+    },
+    {
+      "id": "panneau-projets",
+      "nom": "Projets",
+      "groupe": "Panneaux",
+      "win": "ctrl+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder"
+    },
+    {
+      "id": "panneau-mediatheque",
+      "nom": "Médiathèque",
+      "groupe": "Panneaux",
+      "win": "ctrl+2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "library"
+    },
+    {
+      "id": "panneau-transitions",
+      "nom": "Transitions",
+      "groupe": "Panneaux",
+      "win": "ctrl+3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "blend"
+    },
+    {
+      "id": "panneau-effets",
+      "nom": "Effets vidéo",
+      "groupe": "Panneaux",
+      "win": "ctrl+4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "panneau-texte",
+      "nom": "Texte",
+      "groupe": "Panneaux",
+      "win": "ctrl+5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "type"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "importer-media",
+      "nom": "Importer média",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-input"
+    },
+    {
+      "id": "produire",
+      "nom": "Produire",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Scènes",
+      "win": "ctrl+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Scènes",
+      "win": "ctrl+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    }
+  ],
+  "non_faisable": []
+}

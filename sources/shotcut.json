@@ -1,0 +1,309 @@
+{
+  "id": "shotcut",
+  "nom": "Shotcut",
+  "editeur": "Meltytech",
+  "site": "https://www.shotcut.org/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Shotcut",
+    "mac": "Shotcut"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "",
+  "sources": [
+    {
+      "url": "https://www.shotcut.org/howtos/keyboard-shortcuts/",
+      "titre": "Shotcut - Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "debut",
+      "nom": "Début",
+      "groupe": "Lecture",
+      "win": "home",
+      "mac": "home",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-left"
+    },
+    {
+      "id": "fin",
+      "nom": "Fin",
+      "groupe": "Lecture",
+      "win": "end",
+      "mac": "end",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-right"
+    },
+    {
+      "id": "edition-suivante",
+      "nom": "Coupe suiv.",
+      "groupe": "Lecture",
+      "win": "alt+right",
+      "mac": "alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "edition-precedente",
+      "nom": "Coupe préc.",
+      "groupe": "Lecture",
+      "win": "alt+left",
+      "mac": "alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "couper-curseur",
+      "nom": "Couper au curseur",
+      "groupe": "Montage",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "couper-toutes",
+      "nom": "Couper toutes",
+      "groupe": "Montage",
+      "win": "shift+s",
+      "mac": "shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors-line-dashed"
+    },
+    {
+      "id": "suppression-ripple",
+      "nom": "Supprimer (ripple)",
+      "groupe": "Montage",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "retirer",
+      "nom": "Retirer (lift)",
+      "groupe": "Montage",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "inserer",
+      "nom": "Insérer",
+      "groupe": "Montage",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "between-horizontal-start"
+    },
+    {
+      "id": "ecraser",
+      "nom": "Écraser",
+      "groupe": "Montage",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "marqueur",
+      "nom": "Marqueur",
+      "groupe": "Montage",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "entree",
+      "nom": "Point d'entrée",
+      "groupe": "Montage",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-in"
+    },
+    {
+      "id": "sortie",
+      "nom": "Point de sortie",
+      "groupe": "Montage",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-out"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter vidéo",
+      "groupe": "Export",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "exporter-image",
+      "nom": "Exporter image",
+      "groupe": "Export",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "equal",
+      "mac": "equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-ajuster",
+      "nom": "Zoom ajusté",
+      "groupe": "Affichage",
+      "win": "0",
+      "mac": "0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Molette de zoom de la timeline",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cpu-z",
+  "nom": "CPU-Z",
+  "editeur": "CPUID",
+  "site": "https://www.cpuid.com/softwares/cpu-z.html",
+  "systemes": ["windows"],
+  "lancement": { "windows": "CPU-Z", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement. Les touches de fonction listées par l'éditeur sont fixes.",
+  "sources": [ { "url": "https://www.cpuid.com/softwares/cpu-z.html", "titre": "CPUID - CPU-Z (touches spéciales)" } ],
+  "actions": [
+    { "id": "capture-bmp", "nom": "Capture BMP", "groupe": "Capture", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "camera" },
+    { "id": "copier-page", "nom": "Copier la page", "groupe": "Presse-papiers", "win": "f6", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-copy" },
+    { "id": "validation-cvf", "nom": "Validation CVF", "groupe": "Fichier", "win": "f7", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "file-check" },
+    { "id": "methode-horloge", "nom": "Méthode horloge", "groupe": "Réglages", "win": "f9", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "gauge" }
+  ],
+  "non_faisable": []
+}

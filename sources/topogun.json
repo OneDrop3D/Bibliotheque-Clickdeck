@@ -1,0 +1,17 @@
+{
+  "id": "topogun",
+  "nom": "Topogun",
+  "editeur": "Pilgway",
+  "site": "https://www.pilgway.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Topogun", "mac": "Topogun" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci vérifié. Les pages officielles consultées (pilgway.com/topogun/docs/ et pilgway.com/topogun/manual/) renvoient 404 et la page produit ne liste pas de raccourcis. Liste d'actions à compléter une fois la documentation Topogun accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

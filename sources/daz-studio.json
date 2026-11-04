@@ -1,0 +1,460 @@
+{
+  "id": "daz-studio",
+  "nom": "Daz Studio",
+  "editeur": "Daz 3D",
+  "site": "https://www.daz3d.com/daz-studio",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "DAZ Studio",
+    "mac": "DAZ Studio"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "F4 (Enregistrer la disposition) confirmé par la documentation officielle DAZ ; le reste vient d'une seule page tierce (tutorialtactic.com), non recoupée, donc fiabilité tierce. Sur Mac, les touches F1 à F4 demandent la touche fn. Vérifier dans Fenêtre > Espace de travail > Personnaliser.",
+  "sources": [
+    {
+      "url": "https://docs.daz3d.com/doku.php/public/software/dazstudio/4/userguide/chapters/navigating_the_interface/start",
+      "titre": "DAZ Studio 4 - Navigating the Interface"
+    },
+    {
+      "url": "https://tutorialtactic.com/blog/daz-studio-shortcuts/",
+      "titre": "DAZ Studio Keyboard Shortcuts (Windows & Mac)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-scene",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "fusionner",
+      "nom": "Fusionner",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "merge"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Édition",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "rendu",
+      "nom": "Rendu",
+      "groupe": "Rendu",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "reglages-rendu",
+      "nom": "Réglages de rendu",
+      "groupe": "Rendu",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "settings-2"
+    },
+    {
+      "id": "rendu-zone",
+      "nom": "Rendu de zone",
+      "groupe": "Rendu",
+      "win": "alt+shift+c",
+      "mac": "alt+shift+c",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "crop"
+    },
+    {
+      "id": "vue-perspective",
+      "nom": "Vue perspective",
+      "groupe": "Vue",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "box"
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Vue",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "vue-dessous",
+      "nom": "Vue de dessous",
+      "groupe": "Vue",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "cadrer-selection",
+      "nom": "Cadrer sélection",
+      "groupe": "Vue",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "focus"
+    },
+    {
+      "id": "viser-selection",
+      "nom": "Viser sélection",
+      "groupe": "Vue",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "crosshair"
+    },
+    {
+      "id": "reinit-camera",
+      "nom": "Réinit. caméra",
+      "groupe": "Vue",
+      "win": "ctrl+alt+r",
+      "mac": "cmd+alt+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "filaire",
+      "nom": "Filaire",
+      "groupe": "Style de rendu",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "ombrage-lisse",
+      "nom": "Ombrage lisse",
+      "groupe": "Style de rendu",
+      "win": "ctrl+7",
+      "mac": "cmd+7",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "texture-ombree",
+      "nom": "Textures ombrées",
+      "groupe": "Style de rendu",
+      "win": "ctrl+9",
+      "mac": "cmd+9",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "image"
+    },
+    {
+      "id": "nvidia-iray",
+      "nom": "NVIDIA Iray",
+      "groupe": "Style de rendu",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "sparkles"
+    },
+    {
+      "id": "poser-au-sol",
+      "nom": "Poser au sol",
+      "groupe": "Pose",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "pose-zero",
+      "nom": "Pose zéro",
+      "groupe": "Pose",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "person-standing"
+    },
+    {
+      "id": "activer-ik",
+      "nom": "Activer IK",
+      "groupe": "Pose",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "bone"
+    },
+    {
+      "id": "outil-translation",
+      "nom": "Translation",
+      "groupe": "Outils",
+      "win": "alt+shift+t",
+      "mac": "alt+shift+t",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "outil-rotation",
+      "nom": "Rotation",
+      "groupe": "Outils",
+      "win": "alt+shift+r",
+      "mac": "alt+shift+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "outil-echelle",
+      "nom": "Échelle",
+      "groupe": "Outils",
+      "win": "alt+shift+s",
+      "mac": "alt+shift+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "outil-universel",
+      "nom": "Universel",
+      "groupe": "Outils",
+      "win": "alt+shift+u",
+      "mac": "alt+shift+u",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "move-3d"
+    },
+    {
+      "id": "pose-active",
+      "nom": "Pose active",
+      "groupe": "Outils",
+      "win": "alt+shift+p",
+      "mac": "alt+shift+p",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "hand"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Interface",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "personnaliser",
+      "nom": "Personnaliser",
+      "groupe": "Interface",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "sauver-disposition",
+      "nom": "Sauver disposition",
+      "groupe": "Interface",
+      "win": "f4",
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-dashboard"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Interface",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Sélection multiple dans la scène",
+      "raison": "souris"
+    },
+    {
+      "nom": "Sélection multiple des surfaces",
+      "raison": "souris"
+    }
+  ]
+}

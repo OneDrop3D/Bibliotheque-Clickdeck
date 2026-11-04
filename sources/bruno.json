@@ -1,0 +1,306 @@
+{
+  "id": "bruno",
+  "nom": "Bruno",
+  "editeur": "Usebruno",
+  "site": "https://www.usebruno.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Bruno",
+    "mac": "Bruno",
+    "linux": "Bruno"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Keybindings. Ctrl sous Windows et Linux, Cmd sous Mac. Modifiables dans les préférences.",
+  "sources": [
+    {
+      "url": "https://docs.usebruno.com/get-started/configure/keybindings.md",
+      "titre": "Bruno - Keybindings"
+    }
+  ],
+  "actions": [
+    {
+      "id": "envoyer",
+      "nom": "Envoyer la requête",
+      "groupe": "Requête",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "nouvelle_requete",
+      "nom": "Nouvelle requête",
+      "groupe": "Requête",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "changer_orientation",
+      "nom": "Orientation",
+      "groupe": "Requête",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": "ctrl+j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "columns-2"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Onglets",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer_tout",
+      "nom": "Tout enregistrer",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "fermer_onglet",
+      "nom": "Fermer onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "fermer_tous",
+      "nom": "Fermer tous",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+w",
+      "mac": "cmd+shift+w",
+      "linux": "ctrl+shift+w",
+      "source": 0,
+      "priorite": 3,
+      "picto": "x-square"
+    },
+    {
+      "id": "rouvrir_onglet",
+      "nom": "Rouvrir onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": "ctrl+shift+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo"
+    },
+    {
+      "id": "onglet_suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+bracketright",
+      "mac": "cmd+shift+bracketright",
+      "linux": "ctrl+shift+bracketright",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet_precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+bracketleft",
+      "mac": "cmd+shift+bracketleft",
+      "linux": "ctrl+shift+bracketleft",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "dernier_onglet",
+      "nom": "Dernier onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+9",
+      "mac": "cmd+9",
+      "linux": "ctrl+9",
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right"
+    },
+    {
+      "id": "recherche_globale",
+      "nom": "Recherche globale",
+      "groupe": "Navigation",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": "ctrl+k",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "rechercher_barre",
+      "nom": "Chercher barre",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "reduire_barre",
+      "nom": "Réduire barre",
+      "groupe": "Navigation",
+      "win": "ctrl+backslash",
+      "mac": "cmd+backslash",
+      "linux": "ctrl+backslash",
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-left-close"
+    },
+    {
+      "id": "importer_collection",
+      "nom": "Importer",
+      "groupe": "Collections",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "import"
+    },
+    {
+      "id": "modifier_environnement",
+      "nom": "Environnement",
+      "groupe": "Collections",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "globe"
+    },
+    {
+      "id": "copier_element",
+      "nom": "Copier élément",
+      "groupe": "Collections",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller_element",
+      "nom": "Coller élément",
+      "groupe": "Collections",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "cloner_element",
+      "nom": "Cloner élément",
+      "groupe": "Collections",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "renommer_element",
+      "nom": "Renommer",
+      "groupe": "Collections",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "zoom_avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": "ctrl+equal",
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": "ctrl+minus",
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom_reinitialiser",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": "ctrl+0",
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal",
+      "groupe": "Outils",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Outils",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": "ctrl+comma",
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": []
+}

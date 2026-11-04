@@ -1,0 +1,31 @@
+{
+  "id": "readiris",
+  "nom": "Readiris",
+  "editeur": "IRIS",
+  "site": "https://www.irislink.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Readiris", "mac": "Readiris" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source ouverte pour cette application : seules les commandes standard de menu sont listées (deduit). Les raccourcis propres à l'OCR n'ont pas pu être vérifiés et ne sont pas inclus.",
+  "sources": [],
+  "actions": [
+{"id":"nouveau","nom":"Nouveau","groupe":"Fichier","win":"ctrl+n","mac":"cmd+n","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"file-plus"},
+{"id":"ouvrir","nom":"Ouvrir","groupe":"Fichier","win":"ctrl+o","mac":"cmd+o","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"folder-open"},
+{"id":"enregistrer","nom":"Enregistrer","groupe":"Fichier","win":"ctrl+s","mac":"cmd+s","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"save"},
+{"id":"enregistrer-sous","nom":"Enregistrer sous","groupe":"Fichier","win":"ctrl+shift+s","mac":"cmd+shift+s","linux":null,"source":null,"deduit":true,"priorite":2,"picto":"save-all"},
+{"id":"imprimer","nom":"Imprimer","groupe":"Fichier","win":"ctrl+p","mac":"cmd+p","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"printer"},
+{"id":"fermer","nom":"Fermer","groupe":"Fichier","win":"ctrl+w","mac":"cmd+w","linux":null,"source":null,"deduit":true,"priorite":2,"picto":"x"},
+{"id":"annuler","nom":"Annuler","groupe":"Édition","win":"ctrl+z","mac":"cmd+z","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"undo-2"},
+{"id":"retablir","nom":"Rétablir","groupe":"Édition","win":"ctrl+shift+z","mac":"cmd+shift+z","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"redo-2"},
+{"id":"copier","nom":"Copier","groupe":"Édition","win":"ctrl+c","mac":"cmd+c","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"copy"},
+{"id":"couper","nom":"Couper","groupe":"Édition","win":"ctrl+x","mac":"cmd+x","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"scissors"},
+{"id":"coller","nom":"Coller","groupe":"Édition","win":"ctrl+v","mac":"cmd+v","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"clipboard-paste"},
+{"id":"tout-selectionner","nom":"Tout sélectionner","groupe":"Édition","win":"ctrl+a","mac":"cmd+a","linux":null,"source":null,"deduit":true,"priorite":2,"picto":"square-dashed"},
+{"id":"rechercher","nom":"Rechercher","groupe":"Édition","win":"ctrl+f","mac":"cmd+f","linux":null,"source":null,"deduit":true,"priorite":1,"picto":"search"}
+  ],
+  "non_faisable": []
+}

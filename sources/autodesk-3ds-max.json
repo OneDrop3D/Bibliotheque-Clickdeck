@@ -1,0 +1,387 @@
+{
+  "id": "autodesk-3ds-max",
+  "nom": "Autodesk 3ds Max",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/3ds-max/overview",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "3ds Max",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Lu sur la page Autodesk 3ds Max Help Default Hotkey Maps (version 2025). Les raccourcis sont donnés pour Windows. 3ds Max n'existe plus sur Mac, d'où systemes Windows seul. Les raccourcis des éditeurs de matériaux, de Schematic View et de Track View ne sont pas repris. Les raccourcis se modifient avec l'éditeur de raccourcis (un jeu par défaut ne peut pas être modifié, il faut créer un jeu personnalisé).",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2025/ENU/3DSMax-Basics/files/GUID-A73E1B09-7BFE-4A22-8153-1D3D2237B8E9.htm",
+      "titre": "Autodesk 3ds Max Help - Default Hotkey Maps (Main UI)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Transformer",
+      "win": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Transformer",
+      "win": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "echelle",
+      "nom": "Mise à l'échelle",
+      "groupe": "Transformer",
+      "win": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "selection-intelligente",
+      "nom": "Sélection intelligente",
+      "groupe": "Transformer",
+      "win": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "accrochage-angle",
+      "nom": "Accrochage angle",
+      "groupe": "Transformer",
+      "win": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "angle"
+    },
+    {
+      "id": "accrochages",
+      "nom": "Accrochages",
+      "groupe": "Transformer",
+      "win": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "magnet"
+    },
+    {
+      "id": "cycle-echelle",
+      "nom": "Cycle échelle",
+      "groupe": "Transformer",
+      "win": "ctrl+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "selection-nom",
+      "nom": "Sélection par nom",
+      "groupe": "Sélection",
+      "win": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Tout désélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "ctrl+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "selection-similaire",
+      "nom": "Sélection similaire",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "copy-check"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "cloner",
+      "nom": "Cloner",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "aligner",
+      "nom": "Aligner",
+      "groupe": "Édition",
+      "win": "alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-horizontal-justify-center"
+    },
+    {
+      "id": "alignement-rapide",
+      "nom": "Alignement rapide",
+      "groupe": "Édition",
+      "win": "shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-center"
+    },
+    {
+      "id": "nouvelle-scene",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "enregistrer-incremental",
+      "nom": "Enregistrer incrém.",
+      "groupe": "Fichier",
+      "win": "ctrl+alt+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "history"
+    },
+    {
+      "id": "masquer-selection",
+      "nom": "Masquer sélection",
+      "groupe": "Affichage",
+      "win": "alt+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye-off"
+    },
+    {
+      "id": "masquer-non-selection",
+      "nom": "Masquer non sél.",
+      "groupe": "Affichage",
+      "win": "alt+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "tout-afficher",
+      "nom": "Tout afficher",
+      "groupe": "Affichage",
+      "win": "alt+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "masquer-geometrie",
+      "nom": "Masquer géométrie",
+      "groupe": "Affichage",
+      "win": "shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "box"
+    },
+    {
+      "id": "masquer-grilles",
+      "nom": "Masquer grilles",
+      "groupe": "Affichage",
+      "win": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "zoom-selection",
+      "nom": "Zoom sélection",
+      "groupe": "Affichage",
+      "win": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "zoom-tout",
+      "nom": "Zoom tout",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "rendu",
+      "nom": "Rendu",
+      "groupe": "Rendu",
+      "win": "shift+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "rendu-dernier",
+      "nom": "Rendu dernier",
+      "groupe": "Rendu",
+      "win": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "config-rendu",
+      "nom": "Config. rendu",
+      "groupe": "Rendu",
+      "win": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "editeur-materiaux",
+      "nom": "Éditeur matériaux",
+      "groupe": "Rendu",
+      "win": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette"
+    },
+    {
+      "id": "isoler-selection",
+      "nom": "Isoler sélection",
+      "groupe": "Affichage",
+      "win": "alt+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "focus"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Orbite et panoramique de vue",
+      "raison": "souris maintenue"
+    },
+    {
+      "nom": "Zoom de vue",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "adwcleaner",
+  "nom": "AdwCleaner",
+  "editeur": "Malwarebytes",
+  "site": "https://www.malwarebytes.com/adwcleaner",
+  "systemes": ["windows"],
+  "lancement": { "windows": "AdwCleaner", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de nettoyage ponctuel : la page officielle lue ne documente aucun raccourci clavier ni liste de fonctions détaillée. Aucune action ajoutée sans source.",
+  "sources": [
+    { "url": "https://www.malwarebytes.com/adwcleaner", "titre": "AdwCleaner - page officielle (lue le 2026-11-04)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancer l'analyse", "raison": "réglage sans raccourci documenté (bouton)" },
+    { "nom": "Nettoyer", "raison": "réglage sans raccourci documenté (bouton)" }
+  ]
+}

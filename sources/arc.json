@@ -1,0 +1,144 @@
+{
+  "id": "arc",
+  "nom": "Arc",
+  "editeur": "The Browser Company",
+  "site": "https://arc.net/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Arc",
+    "mac": "Arc"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "La page d'aide officielle des raccourcis n'a pas pu être lue pendant la collecte (domaine injoignable) et la recherche était indisponible. Seules les commandes standard de navigateur sont proposées, toutes marquées deduit. A recouper avec la page officielle.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Fichier",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "app-window"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    }
+  ],
+  "non_faisable": []
+}

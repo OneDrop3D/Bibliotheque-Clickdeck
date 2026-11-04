@@ -1,0 +1,20 @@
+{
+  "id": "3df-zephyr",
+  "nom": "3DF Zephyr",
+  "editeur": "3Dflow",
+  "site": "https://www.3dflow.net/",
+  "systemes": [],
+  "lancement": { "windows": "3DF Zephyr" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci relevé. Les pages 3dflow.net consultées (tutoriels, documentation HTML, page de raccourcis devinée) ne contiennent pas de liste de raccourcis ; le manuel PDF (plus de 10 Mo) n'a pas pu être lu. À compléter à partir du manuel 3DF Zephyr avant publication.",
+  "sources": [
+    { "url": "https://www.3dflow.net/technology/documents/3df-zephyr-tutorials/", "titre": "3DF Zephyr - tutoriels (consulté, sans raccourcis)" },
+    { "url": "https://www.3dflow.net/technology/documents/3df-zephyr-documentation/", "titre": "3DF Zephyr - documentation (consultée, sans raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

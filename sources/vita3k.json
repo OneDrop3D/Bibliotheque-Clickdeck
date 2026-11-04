@@ -1,0 +1,52 @@
+{
+  "id": "vita3k",
+  "nom": "Vita3K",
+  "editeur": "",
+  "site": "https://vita3k.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Vita3K",
+    "mac": "Vita3K"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Seuls deux raccourcis par défaut trouvés dans le code source (F11, T). Les autres sont à définir par l'utilisateur.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Vita3K/Vita3K/master/vita3k/config/include/config/config.h",
+      "titre": "Configuration par défaut (code source Vita3K)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "tactile",
+      "nom": "Écran tactile",
+      "groupe": "Entrées",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "hand"
+    }
+  ],
+  "non_faisable": []
+}

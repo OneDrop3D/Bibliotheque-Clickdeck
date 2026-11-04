@@ -1,0 +1,210 @@
+{
+  "id": "google-photos",
+  "nom": "Google Photos",
+  "editeur": "Google",
+  "site": "https://photos.google.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Google Photos",
+    "mac": "Google Photos"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "recoupee",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Version web (photos.google.com) dans un navigateur, sans modificateur sauf Maj : mêmes touches sous Windows et Mac (deduit). Les deux sources concordent. Le panneau Maj+? du site reste la référence. Zoom et Favori ne figurent que dans une source.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/blog/google-photos-shortcuts/",
+      "titre": "Google Photos Keyboard Shortcuts: The Complete List for Web (2026)"
+    },
+    {
+      "url": "https://www.guidingtech.com/google-photos-keyboard-shortcuts/",
+      "titre": "Top 11 Google Photos Keyboard Shortcuts (2022)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "photo-suivante",
+      "nom": "Photo suivante",
+      "groupe": "Navigation",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right",
+      "deduit": true
+    },
+    {
+      "id": "photo-precedente",
+      "nom": "Photo précédente",
+      "groupe": "Navigation",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "slash",
+      "mac": "slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Navigation",
+      "win": "plus",
+      "mac": "plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in",
+      "deduit": true
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Navigation",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out",
+      "deduit": true
+    },
+    {
+      "id": "editer",
+      "nom": "Éditer",
+      "groupe": "Édition",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil",
+      "deduit": true
+    },
+    {
+      "id": "amelioration-auto",
+      "nom": "Amélioration auto",
+      "groupe": "Édition",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand-sparkles",
+      "deduit": true
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation 90°",
+      "groupe": "Édition",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-cw",
+      "deduit": true
+    },
+    {
+      "id": "selectionner",
+      "nom": "Sélectionner",
+      "groupe": "Organisation",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-check",
+      "deduit": true
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Organisation",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "favori",
+      "nom": "Favori",
+      "groupe": "Organisation",
+      "win": "shift+equal",
+      "mac": "shift+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "star",
+      "deduit": true
+    },
+    {
+      "id": "archiver",
+      "nom": "Archiver",
+      "groupe": "Organisation",
+      "win": "shift+a",
+      "mac": "shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "archive",
+      "deduit": true
+    },
+    {
+      "id": "telecharger",
+      "nom": "Télécharger",
+      "groupe": "Organisation",
+      "win": "shift+d",
+      "mac": "shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "details",
+      "nom": "Détails",
+      "groupe": "Organisation",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "info",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Corbeille (touche #)",
+      "raison": "caractère # dépendant de la disposition du clavier, non retenu"
+    },
+    {
+      "nom": "Maintenir O pour voir l'original (en édition)",
+      "raison": "touche maintenue"
+    }
+  ]
+}

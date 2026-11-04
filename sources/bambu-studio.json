@@ -1,0 +1,67 @@
+{
+  "id": "bambu-studio",
+  "nom": "Bambu Studio",
+  "editeur": "Bambu Lab",
+  "site": "https://bambulab.com/en/download/studio",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Bambu Studio",
+    "mac": "Bambu Studio"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel de Bambu Studio (dialogue des raccourcis). Sur Mac, Ctrl devient Cmd (déduit : préfixe de raccourci du code) ; le code précise Préférences Cmd+virgule et Supprimer = Retour arrière. La liste tierce StackSheriff, partiellement fausse (Ctrl+P, Ctrl+D, vues pavé numérique, W, plateaux), a été écartée. Les raccourcis ne sont pas modifiables.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/bambulab/BambuStudio/master/src/slic3r/GUI/KBShortcutsDialog.cpp",
+      "titre": "Bambu Studio - KBShortcutsDialog.cpp (code source officiel)"
+    }
+  ],
+  "actions": [
+    {"id": "ouvrir", "nom": "Ouvrir projet", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true},
+    {"id": "nouveau", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 2, "picto": "file-plus", "deduit": true},
+    {"id": "sauver", "nom": "Enregistrer projet", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true},
+    {"id": "sauver_sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 3, "picto": "save", "deduit": true},
+    {"id": "importer", "nom": "Importer modèle", "groupe": "Fichier", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "file-input", "deduit": true},
+    {"id": "preferences", "nom": "Préférences", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 3, "picto": "settings", "deduit": true},
+    {"id": "trancher", "nom": "Trancher", "groupe": "Tranchage", "win": "ctrl+r", "mac": "cmd+r", "linux": null, "source": 0, "priorite": 1, "picto": "cpu", "deduit": true},
+    {"id": "export_gcode", "nom": "Exporter tranché", "groupe": "Tranchage", "win": "ctrl+g", "mac": "cmd+g", "linux": null, "source": 0, "priorite": 1, "picto": "file-output", "deduit": true},
+    {"id": "imprimer", "nom": "Imprimer plateau", "groupe": "Tranchage", "win": "ctrl+shift+g", "mac": "cmd+shift+g", "linux": null, "source": 0, "priorite": 1, "picto": "printer", "deduit": true},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "cmd+y", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 2, "picto": "scissors", "deduit": true},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true},
+    {"id": "tout_selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "box-select", "deduit": true},
+    {"id": "tout_desel", "nom": "Désélectionner", "groupe": "Édition", "win": "escape", "mac": "escape", "linux": null, "source": 0, "priorite": 2, "picto": "x"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "backspace", "linux": null, "source": 0, "priorite": 1, "picto": "trash-2", "deduit": true},
+    {"id": "tout_supprimer", "nom": "Tout supprimer", "groupe": "Édition", "win": "ctrl+shift+d", "mac": "cmd+shift+d", "linux": null, "source": 0, "priorite": 3, "picto": "trash", "deduit": true},
+    {"id": "deplacer", "nom": "Déplacer", "groupe": "Outils", "win": "m", "mac": "m", "linux": null, "source": 0, "priorite": 1, "picto": "move"},
+    {"id": "echelle", "nom": "Échelle", "groupe": "Outils", "win": "s", "mac": "s", "linux": null, "source": 0, "priorite": 1, "picto": "scaling"},
+    {"id": "rotation", "nom": "Rotation", "groupe": "Outils", "win": "r", "mac": "r", "linux": null, "source": 0, "priorite": 1, "picto": "rotate-cw"},
+    {"id": "couper_plan", "nom": "Couper (plan)", "groupe": "Outils", "win": "c", "mac": "c", "linux": null, "source": 0, "priorite": 1, "picto": "scissors"},
+    {"id": "poser_face", "nom": "Poser sur face", "groupe": "Outils", "win": "f", "mac": "f", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-down-to-line"},
+    {"id": "arranger", "nom": "Arranger", "groupe": "Outils", "win": "a", "mac": "a", "linux": null, "source": 0, "priorite": 1, "picto": "layout-grid"},
+    {"id": "arranger_sel", "nom": "Arranger sélection", "groupe": "Outils", "win": "shift+a", "mac": "shift+a", "linux": null, "source": 0, "priorite": 3, "picto": "layout-grid"},
+    {"id": "auto_orient", "nom": "Auto-orientation", "groupe": "Outils", "win": "shift+r", "mac": "shift+r", "linux": null, "source": 0, "priorite": 1, "picto": "compass"},
+    {"id": "ajuster_tout", "nom": "Ajuster à la vue", "groupe": "Vue 3D", "win": "z", "mac": "z", "linux": null, "source": 0, "priorite": 1, "picto": "maximize"},
+    {"id": "vue_defaut", "nom": "Vue par défaut", "groupe": "Vue 3D", "win": "ctrl+0", "mac": "cmd+0", "linux": null, "source": 0, "priorite": 2, "picto": "box", "deduit": true},
+    {"id": "vue_dessus", "nom": "Vue de dessus", "groupe": "Vue 3D", "win": "ctrl+1", "mac": "cmd+1", "linux": null, "source": 0, "priorite": 2, "picto": "panel-top", "deduit": true},
+    {"id": "vue_face", "nom": "Vue de face", "groupe": "Vue 3D", "win": "ctrl+3", "mac": "cmd+3", "linux": null, "source": 0, "priorite": 2, "picto": "square", "deduit": true},
+    {"id": "vue_iso", "nom": "Vue isométrique", "groupe": "Vue 3D", "win": "ctrl+7", "mac": "cmd+7", "linux": null, "source": 0, "priorite": 3, "picto": "box", "deduit": true},
+    {"id": "etiquettes", "nom": "Étiquettes", "groupe": "Vue 3D", "win": "ctrl+e", "mac": "cmd+e", "linux": null, "source": 0, "priorite": 3, "picto": "tag", "deduit": true},
+    {"id": "barre_laterale", "nom": "Barre latérale", "groupe": "Vue 3D", "win": "shift+tab", "mac": "shift+tab", "linux": null, "source": 0, "priorite": 3, "picto": "panel-left"},
+    {"id": "une_couche", "nom": "Une seule couche", "groupe": "Aperçu", "win": "l", "mac": "l", "linux": null, "source": 0, "priorite": 3, "picto": "layers-2"}
+  ],
+  "non_faisable": [
+    {"nom": "Orbite, panoramique, zoom", "raison": "souris et molette"},
+    {"nom": "Sélection par cadre ou d'une pièce", "raison": "souris (Maj/Alt + clic)"},
+    {"nom": "Peinture de supports", "raison": "souris"}
+  ]
+}

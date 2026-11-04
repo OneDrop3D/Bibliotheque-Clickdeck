@@ -1,0 +1,17 @@
+{
+  "id": "toon-boom-harmony",
+  "nom": "Toon Boom Harmony",
+  "editeur": "Toon Boom",
+  "site": "https://www.toonboom.com/products/harmony",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Toon Boom Harmony", "mac": "Toon Boom Harmony" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "NON VÉRIFIÉ : aucune source de raccourcis n'a pu être lue (pages officielles en 403 ou 404, budget de recherche épuisé). Aucune action n'est inventée. À relancer une fois les sources accessibles.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

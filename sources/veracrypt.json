@@ -1,0 +1,31 @@
+{
+  "id": "veracrypt",
+  "nom": "VeraCrypt",
+  "editeur": "IDRIX",
+  "site": "https://www.veracrypt.fr/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "VeraCrypt"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis système définis par l'utilisateur (Réglages > Raccourcis), aucun par défaut ; confirmé par la documentation officielle (Hot Keys). Pack de lancement uniquement.",
+  "sources": [
+    {
+      "url": "https://veracrypt.io/en/Hot%20Keys.html",
+      "titre": "VeraCrypt Documentation : Hot Keys"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Monter / démonter un volume",
+      "raison": "raccourci défini par l'utilisateur, aucun par défaut"
+    }
+  ]
+}

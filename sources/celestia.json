@@ -1,0 +1,371 @@
+{
+  "id": "celestia",
+  "nom": "Celestia",
+  "editeur": "Celestia Development Team",
+  "site": "https://celestiaproject.space/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Celestia",
+    "mac": "Celestia"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Touches simples tirées de la liste des contrôles du dépôt officiel Celestia ; supposées identiques sur Mac (deduit). Combinaisons Ctrl exclues faute d'équivalent Mac sourcé.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/CelestiaProject/Celestia/master/controls.txt",
+      "titre": "Celestia controls.txt"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause du temps",
+      "groupe": "Temps",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "inverser-temps",
+      "nom": "Inverser le temps",
+      "groupe": "Temps",
+      "win": "j",
+      "mac": "j",
+      "linux": "j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "temps-rapide",
+      "nom": "Temps ×10",
+      "groupe": "Temps",
+      "win": "l",
+      "mac": "l",
+      "linux": "l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward",
+      "deduit": true
+    },
+    {
+      "id": "temps-lent",
+      "nom": "Temps ÷10",
+      "groupe": "Temps",
+      "win": "k",
+      "mac": "k",
+      "linux": "k",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind",
+      "deduit": true
+    },
+    {
+      "id": "temps-1x",
+      "nom": "Temps normal",
+      "groupe": "Temps",
+      "win": "backslash",
+      "mac": "backslash",
+      "linux": "backslash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "centrer",
+      "nom": "Centrer",
+      "groupe": "Navigation",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair",
+      "deduit": true
+    },
+    {
+      "id": "aller-a",
+      "nom": "Aller à",
+      "groupe": "Navigation",
+      "win": "g",
+      "mac": "g",
+      "linux": "g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "navigation",
+      "deduit": true
+    },
+    {
+      "id": "suivre",
+      "nom": "Suivre",
+      "groupe": "Navigation",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "locate-fixed",
+      "deduit": true
+    },
+    {
+      "id": "pister",
+      "nom": "Pister",
+      "groupe": "Navigation",
+      "win": "t",
+      "mac": "t",
+      "linux": "t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan-eye",
+      "deduit": true
+    },
+    {
+      "id": "soleil",
+      "nom": "Système solaire",
+      "groupe": "Navigation",
+      "win": "h",
+      "mac": "h",
+      "linux": "h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun",
+      "deduit": true
+    },
+    {
+      "id": "constellations",
+      "nom": "Constellations",
+      "groupe": "Affichage",
+      "win": "slash",
+      "mac": "slash",
+      "linux": "slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "star",
+      "deduit": true
+    },
+    {
+      "id": "orbites",
+      "nom": "Orbites",
+      "groupe": "Affichage",
+      "win": "o",
+      "mac": "o",
+      "linux": "o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "orbit",
+      "deduit": true
+    },
+    {
+      "id": "noms-planetes",
+      "nom": "Noms planètes",
+      "groupe": "Étiquettes",
+      "win": "p",
+      "mac": "p",
+      "linux": "p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "noms-lunes",
+      "nom": "Noms lunes",
+      "groupe": "Étiquettes",
+      "win": "m",
+      "mac": "m",
+      "linux": "m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "fov-reduire",
+      "nom": "Zoom avant",
+      "groupe": "Vue",
+      "win": "comma",
+      "mac": "comma",
+      "linux": "comma",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in",
+      "deduit": true
+    },
+    {
+      "id": "fov-elargir",
+      "nom": "Zoom arrière",
+      "groupe": "Vue",
+      "win": "period",
+      "mac": "period",
+      "linux": "period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-plus",
+      "nom": "Vitesse +",
+      "groupe": "Vol",
+      "win": "a",
+      "mac": "a",
+      "linux": "a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-up",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-moins",
+      "nom": "Vitesse −",
+      "groupe": "Vol",
+      "win": "z",
+      "mac": "z",
+      "linux": "z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-down",
+      "deduit": true
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêt du vol",
+      "groupe": "Vol",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "octagon",
+      "deduit": true
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Divers",
+      "win": "f10",
+      "mac": "f10",
+      "linux": "f10",
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "orbite-synchrone",
+      "nom": "Orbite synchrone",
+      "groupe": "Navigation",
+      "win": "y",
+      "mac": "y",
+      "linux": "y",
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw",
+      "deduit": true
+    },
+    {
+      "id": "noms-etoiles",
+      "nom": "Noms étoiles",
+      "groupe": "Étiquettes",
+      "win": "b",
+      "mac": "b",
+      "linux": "b",
+      "source": 0,
+      "priorite": 2,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "noms-galaxies",
+      "nom": "Noms galaxies",
+      "groupe": "Étiquettes",
+      "win": "e",
+      "mac": "e",
+      "linux": "e",
+      "source": 0,
+      "priorite": 3,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "noms-constell",
+      "nom": "Noms constellat.",
+      "groupe": "Étiquettes",
+      "win": "equal",
+      "mac": "equal",
+      "linux": "equal",
+      "source": 0,
+      "priorite": 2,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "noms-sondes",
+      "nom": "Noms sondes",
+      "groupe": "Étiquettes",
+      "win": "n",
+      "mac": "n",
+      "linux": "n",
+      "source": 0,
+      "priorite": 3,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "galaxies",
+      "nom": "Galaxies",
+      "groupe": "Affichage",
+      "win": "u",
+      "mac": "u",
+      "linux": "u",
+      "source": 0,
+      "priorite": 3,
+      "picto": "orbit",
+      "deduit": true
+    },
+    {
+      "id": "retour-parent",
+      "nom": "Objet parent",
+      "groupe": "Navigation",
+      "win": "backspace",
+      "mac": "backspace",
+      "linux": "backspace",
+      "source": 0,
+      "priorite": 2,
+      "picto": "corner-left-up",
+      "deduit": true
+    },
+    {
+      "id": "fps",
+      "nom": "Afficher FPS",
+      "groupe": "Divers",
+      "win": "backquote",
+      "mac": "backquote",
+      "linux": "backquote",
+      "source": 0,
+      "priorite": 3,
+      "picto": "activity",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation de la caméra aux flèches",
+      "raison": "touche maintenue"
+    }
+  ]
+}

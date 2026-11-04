@@ -1,0 +1,21 @@
+{
+  "id": "dxtory",
+  "nom": "Dxtory",
+  "editeur": "non vérifié",
+  "site": "https://www.dxtory.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Dxtory" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut vérifié. Le site officiel dxtory.com n'a pas pu être lu (erreur de certificat) et aucune copie n'est accessible. Les forums et guides consultés donnent des touches contradictoires (égal, F12, pavé numérique) qui sont celles de leurs auteurs, pas des défauts vérifiés. Dxtory est un logiciel Windows uniquement. À définir dans Dxtory > Hotkeys (démarrer/arrêter l'enregistrement, capture d'écran). Aucune action n'est écrite pour cette raison.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Démarrer/arrêter enregistrement", "raison": "raccourci à définir, aucun défaut vérifié" },
+    { "nom": "Pause enregistrement", "raison": "raccourci à définir, aucun défaut vérifié" },
+    { "nom": "Capture d'écran", "raison": "raccourci à définir, aucun défaut vérifié" }
+  ]
+}

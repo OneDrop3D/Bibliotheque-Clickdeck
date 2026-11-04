@@ -1,0 +1,305 @@
+{
+  "id": "discord",
+  "nom": "Discord",
+  "editeur": "Discord Inc.",
+  "site": "https://discord.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Discord",
+    "mac": "Discord"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique (defkey, Windows/Linux) : page officielle Discord en 403. Mac déduit par Ctrl vers Cmd pour les raccourcis à Ctrl, à vérifier sur un Mac ; les touches avec Alt/Maj seules sont identiques. Lettres seules (E, R, P) non retenues car elles dépendent du focus. Mute/sourdine ne marchent que si Discord est au premier plan.",
+  "sources": [
+    {
+      "url": "https://defkey.com/discord-shortcuts",
+      "titre": "Discord shortcuts (defkey, Windows/Linux)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "muet-micro",
+      "nom": "Micro on/off",
+      "groupe": "Voix",
+      "win": "ctrl+shift+m",
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic",
+      "deduit": true
+    },
+    {
+      "id": "sourdine",
+      "nom": "Sourdine casque",
+      "groupe": "Voix",
+      "win": "ctrl+shift+d",
+      "mac": "cmd+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "headphones",
+      "deduit": true
+    },
+    {
+      "id": "repondre-appel",
+      "nom": "Répondre à l'appel",
+      "groupe": "Voix",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "phone",
+      "deduit": true
+    },
+    {
+      "id": "lancer-appel",
+      "nom": "Lancer un appel",
+      "groupe": "Voix",
+      "win": "ctrl+quote",
+      "mac": "cmd+quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "phone-call",
+      "deduit": true
+    },
+    {
+      "id": "selecteur",
+      "nom": "Sélecteur rapide",
+      "groupe": "Navigation",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "recherche",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "serveur-precedent",
+      "nom": "Serveur précédent",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+up",
+      "mac": "cmd+alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-up",
+      "deduit": true
+    },
+    {
+      "id": "serveur-suivant",
+      "nom": "Serveur suivant",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+down",
+      "mac": "cmd+alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-down",
+      "deduit": true
+    },
+    {
+      "id": "salon-precedent",
+      "nom": "Salon précédent",
+      "groupe": "Navigation",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "salon-suivant",
+      "nom": "Salon suivant",
+      "groupe": "Navigation",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "non-lu-prec",
+      "nom": "Non lu précédent",
+      "groupe": "Navigation",
+      "win": "alt+shift+up",
+      "mac": "alt+shift+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "non-lu-suiv",
+      "nom": "Non lu suivant",
+      "groupe": "Navigation",
+      "win": "alt+shift+down",
+      "mac": "alt+shift+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "nouveau-serveur",
+      "nom": "Créer un serveur",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "emoji",
+      "nom": "Sélecteur d'émojis",
+      "groupe": "Messages",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "smile",
+      "deduit": true
+    },
+    {
+      "id": "gif",
+      "nom": "Sélecteur de GIF",
+      "groupe": "Messages",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image",
+      "deduit": true
+    },
+    {
+      "id": "autocollants",
+      "nom": "Autocollants",
+      "groupe": "Messages",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sticker",
+      "deduit": true
+    },
+    {
+      "id": "envoyer-fichier",
+      "nom": "Envoyer un fichier",
+      "groupe": "Messages",
+      "win": "ctrl+shift+u",
+      "mac": "cmd+shift+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "upload",
+      "deduit": true
+    },
+    {
+      "id": "messages-epingles",
+      "nom": "Messages épinglés",
+      "groupe": "Messages",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pin",
+      "deduit": true
+    },
+    {
+      "id": "boite-reception",
+      "nom": "Boîte de réception",
+      "groupe": "Messages",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "inbox",
+      "deduit": true
+    },
+    {
+      "id": "liste-membres",
+      "nom": "Liste des membres",
+      "groupe": "Messages",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "users",
+      "deduit": true
+    },
+    {
+      "id": "marquer-lu",
+      "nom": "Marquer comme lu",
+      "groupe": "Messages",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check-check"
+    },
+    {
+      "id": "marquer-serveur-lu",
+      "nom": "Serveur comme lu",
+      "groupe": "Messages",
+      "win": "shift+escape",
+      "mac": "shift+escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "check"
+    },
+    {
+      "id": "recharger",
+      "nom": "Recharger",
+      "groupe": "Application",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Push-to-talk",
+      "raison": "touche maintenue"
+    }
+  ]
+}

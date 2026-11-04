@@ -1,0 +1,31 @@
+{
+  "id": "putty",
+  "nom": "PuTTY",
+  "editeur": "Simon Tatham",
+  "site": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "PuTTY"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Pas de raccourci utile sur une fenêtre de connexion ; la doc officielle (Chapitre 3) ne donne que Shift+Inser (coller), défilement Maj+PgUp et Ctrl+Break, non retenus.",
+  "sources": [
+    {
+      "url": "https://the.earth.li/~sgtatham/putty/latest/htmldoc/Chapter3.html",
+      "titre": "PuTTY manual, chapter 3"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Copier / coller du terminal",
+      "raison": "sélection à la souris"
+    }
+  ]
+}

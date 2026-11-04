@@ -1,0 +1,34 @@
+{
+  "id": "openvpn-connect",
+  "nom": "OpenVPN Connect",
+  "editeur": "OpenVPN Inc.",
+  "site": "https://openvpn.net/client/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "OpenVPN Connect",
+    "mac": "OpenVPN Connect"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de connexion VPN à une fenêtre : la page officielle lue ne documente aucun raccourci clavier. Pack de lancement.",
+  "sources": [
+    {
+      "url": "https://openvpn.net/client/",
+      "titre": "OpenVPN Connect - page de téléchargement"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Connecter / déconnecter le VPN",
+      "raison": "aucun raccourci vérifié"
+    }
+  ],
+  "panne": false
+}

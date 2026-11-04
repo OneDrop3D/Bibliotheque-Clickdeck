@@ -1,0 +1,98 @@
+{
+  "id": "candle",
+  "nom": "Candle (GRBL)",
+  "editeur": "Denvi (projet open source)",
+  "site": "https://github.com/Denvi/Candle",
+  "systemes": [
+    "windows",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Candle",
+    "linux": "Candle"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page du projet ne documente aucun raccourci. Seules les commandes standard de menu sont proposées (deduit). Le pilotage du jog au pavé numérique est mentionné sans correspondance de touches : non retenu. Pas de Mac.",
+  "sources": [
+    {
+      "url": "https://github.com/Denvi/Candle",
+      "titre": "Candle - dépôt du projet"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir G-code",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": "ctrl+o",
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": "ctrl+s",
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": "ctrl+c",
+      "deduit": true,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": "ctrl+v",
+      "deduit": true,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": "ctrl+z",
+      "deduit": true,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Jog des axes",
+      "raison": "touches de jog non documentées"
+    },
+    {
+      "nom": "Prise d'origine, déverrouillage, reset",
+      "raison": "aucun raccourci documenté"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "powertoys-always-on-top",
+  "nom": "PowerToys Always On Top",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/always-on-top",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerToys" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Utilitaire de PowerToys. Une seule action : épingler ou désépingler la fenêtre active au-dessus des autres. Raccourci par défaut Win+Ctrl+T, modifiable dans les réglages. Le raccourci est écrit 'cmd' selon la syntaxe du brief pour la touche Windows : à vérifier côté ClickDeck.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/powertoys/always-on-top", "titre": "PowerToys Always On Top utility for Windows (Microsoft Learn)" }
+  ],
+  "actions": [
+    { "id": "epingler-fenetre", "nom": "Épingler fenêtre", "groupe": "Fenêtres", "win": "cmd+ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "pin" }
+  ],
+  "non_faisable": [
+    { "nom": "Couleur et épaisseur de la bordure", "raison": "réglage sans raccourci" },
+    { "nom": "Exclusion d'applications", "raison": "réglage sans raccourci" }
+  ]
+}

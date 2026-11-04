@@ -1,0 +1,17 @@
+{
+  "id": "steelseries-gg",
+  "nom": "SteelSeries GG",
+  "editeur": "SteelSeries",
+  "site": "https://steelseries.com/gg",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "SteelSeries GG", "mac": "SteelSeries GG" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle consultée : aucun raccourci clavier par défaut mentionné. Aucune action n'est proposée.",
+  "sources": [ { "url": "https://steelseries.com/gg", "titre": "SteelSeries GG" } ],
+  "actions": [],
+  "non_faisable": []
+}

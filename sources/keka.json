@@ -1,0 +1,72 @@
+{
+  "id": "keka",
+  "nom": "Keka",
+  "editeur": "Aone",
+  "site": "https://www.keka.io/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Keka"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le site officiel consulté (accueil et FAQ, cette dernière introuvable) ne liste aucun raccourci. Seules des commandes standard macOS sont proposées, déduites (deduit: true), à vérifier dans les menus de Keka. Actions non confirmables retirées lors de la vérification.",
+  "sources": [
+    {
+      "url": "https://keka.io/",
+      "titre": "Site officiel Keka (aucun raccourci listé)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+q",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "power"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Glisser-déposer des fichiers sur la fenêtre Keka",
+      "raison": "souris"
+    },
+    {
+      "nom": "Compression via le menu Services du Finder",
+      "raison": "souris"
+    }
+  ]
+}

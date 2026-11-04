@@ -1,0 +1,31 @@
+{
+  "id": "instant-meshes",
+  "nom": "Instant Meshes",
+  "editeur": "ETH Zurich / Wenzel Jakob",
+  "site": "https://github.com/wjakob/instant-meshes",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Instant Meshes", "mac": "Instant Meshes" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source de la fenêtre (Viewer::keyboardEvent). Les touches de mise au point (espace, flèches haut/bas, M, F, /) n'existent que dans les builds de développement et ne sont pas incluses. Les touches sont identiques sur Mac, le code utilisant GLFW_MOD_CONTROL.",
+  "sources": [
+    { "url": "https://github.com/wjakob/instant-meshes/blob/master/src/viewer.cpp", "titre": "Instant Meshes - src/viewer.cpp (keyboardEvent)" }
+  ],
+  "actions": [
+    { "id": "sauver-etat", "nom": "Sauver l'état", "groupe": "Session", "win": "s", "mac": "s", "linux": null, "source": 0, "priorite": 2, "picto": "save" },
+    { "id": "charger-etat", "nom": "Charger l'état", "groupe": "Session", "win": "l", "mac": "l", "linux": null, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "entree-sortie", "nom": "Entrée / sortie", "groupe": "Affichage", "win": "backslash", "mac": "backslash", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-left-right" },
+    { "id": "sauver-vue-1", "nom": "Sauver vue 1", "groupe": "Caméra", "win": "ctrl+1", "mac": "ctrl+1", "linux": null, "source": 0, "priorite": 3, "picto": "camera" },
+    { "id": "sauver-vue-2", "nom": "Sauver vue 2", "groupe": "Caméra", "win": "ctrl+2", "mac": "ctrl+2", "linux": null, "source": 0, "priorite": 3, "picto": "camera" },
+    { "id": "sauver-vue-3", "nom": "Sauver vue 3", "groupe": "Caméra", "win": "ctrl+3", "mac": "ctrl+3", "linux": null, "source": 0, "priorite": 3, "picto": "camera" },
+    { "id": "restaurer-vue-1", "nom": "Restaurer vue 1", "groupe": "Caméra", "win": "shift+1", "mac": "shift+1", "linux": null, "source": 0, "priorite": 3, "picto": "rotate-ccw" },
+    { "id": "restaurer-vue-2", "nom": "Restaurer vue 2", "groupe": "Caméra", "win": "shift+2", "mac": "shift+2", "linux": null, "source": 0, "priorite": 3, "picto": "rotate-ccw" },
+    { "id": "restaurer-vue-3", "nom": "Restaurer vue 3", "groupe": "Caméra", "win": "shift+3", "mac": "shift+3", "linux": null, "source": 0, "priorite": 3, "picto": "rotate-ccw" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom et rotation de la vue", "raison": "souris" }
+  ]
+}

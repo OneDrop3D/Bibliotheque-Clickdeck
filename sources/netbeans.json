@@ -1,0 +1,160 @@
+{
+  "id": "netbeans",
+  "nom": "NetBeans",
+  "editeur": "Apache NetBeans",
+  "site": "https://netbeans.apache.org/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "NetBeans",
+    "mac": "NetBeans"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Incomplet : seules les commandes de menu standard et la complétion (Ctrl+Espace, citée par le tutoriel officiel) sont listées. Les raccourcis propres à NetBeans (formatage, exécution, débogage, aller au fichier) n'ont pas pu être vérifiés : les pages d'aide officielles étaient inaccessibles. Vérifier dans Outils > Options > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/",
+      "titre": "NetBeans Java Quick Start"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichiers",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichiers",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "completion",
+      "nom": "Complétion",
+      "groupe": "Édition",
+      "win": "ctrl+space",
+      "mac": "ctrl+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand"
+    }
+  ],
+  "non_faisable": []
+}

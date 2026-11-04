@@ -1,0 +1,375 @@
+{
+  "id": "xcode",
+  "nom": "Xcode",
+  "editeur": "Apple",
+  "site": "https://developer.apple.com/xcode/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Xcode"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "recoupee",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis des menus Xcode recoupés entre useyourloaf.com, dev.to (Peter Friese), avanderlee.com et la référence Apple (ancienne, pour le débogage). Modifiables dans Réglages > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://useyourloaf.com/blog/xcode-keyboard-shortcuts",
+      "titre": "Xcode Keyboard Shortcuts (Use Your Loaf)"
+    },
+    {
+      "url": "https://dev.to/peterfriese/essential-xcode-shortcuts-for-more-efficient-coding-1n3",
+      "titre": "Essential Xcode Shortcuts (Peter Friese)"
+    },
+    {
+      "url": "https://www.avanderlee.com/workflow/essential-shortcuts-xcode-workflow/",
+      "titre": "Essential shortcuts Xcode workflow"
+    },
+    {
+      "url": "https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html",
+      "titre": "Apple, Debug menu commands (archive)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "compiler",
+      "nom": "Compiler",
+      "groupe": "Exécution",
+      "win": null,
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hammer"
+    },
+    {
+      "id": "lancer",
+      "nom": "Lancer",
+      "groupe": "Exécution",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Exécution",
+      "win": null,
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "tester",
+      "nom": "Tester",
+      "groupe": "Exécution",
+      "win": null,
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flask-conical"
+    },
+    {
+      "id": "nettoyer",
+      "nom": "Nettoyer",
+      "groupe": "Exécution",
+      "win": null,
+      "mac": "cmd+shift+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush-cleaning"
+    },
+    {
+      "id": "pas-a-pas",
+      "nom": "Pas à pas",
+      "groupe": "Débogage",
+      "win": null,
+      "mac": "f6",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "step-forward"
+    },
+    {
+      "id": "entrer-dans",
+      "nom": "Entrer dans",
+      "groupe": "Débogage",
+      "win": null,
+      "mac": "f7",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "sortir",
+      "nom": "Sortir",
+      "groupe": "Débogage",
+      "win": null,
+      "mac": "f8",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "arrow-up-from-line"
+    },
+    {
+      "id": "continuer",
+      "nom": "Continuer",
+      "groupe": "Débogage",
+      "win": null,
+      "mac": "ctrl+cmd+y",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "play-circle"
+    },
+    {
+      "id": "point-arret",
+      "nom": "Point d'arrêt",
+      "groupe": "Débogage",
+      "win": null,
+      "mac": "cmd+backslash",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "octagon"
+    },
+    {
+      "id": "zone-debogage",
+      "nom": "Zone de débogage",
+      "groupe": "Débogage",
+      "win": null,
+      "mac": "cmd+shift+y",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "panel-bottom"
+    },
+    {
+      "id": "ouverture-rapide",
+      "nom": "Ouverture rapide",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "aller-definition",
+      "nom": "Aller définition",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "ctrl+cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hash"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédent",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "ctrl+cmd+left",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivant",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "ctrl+cmd+right",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "rechercher-projet",
+      "nom": "Dans le projet",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "navigateur",
+      "nom": "Navigateur",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "inspecteurs",
+      "nom": "Inspecteurs",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+alt+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-right"
+    },
+    {
+      "id": "navigateur-projet",
+      "nom": "Projet",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-tree"
+    },
+    {
+      "id": "navigateur-erreurs",
+      "nom": "Problèmes",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "triangle-alert"
+    },
+    {
+      "id": "editeur-assistant",
+      "nom": "Éditeur assistant",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "ctrl+alt+cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "columns-2"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "reindenter",
+      "nom": "Réindenter",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "ctrl+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-left"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "priorite": 3,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

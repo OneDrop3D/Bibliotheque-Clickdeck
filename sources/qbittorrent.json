@@ -1,0 +1,297 @@
+{
+  "id": "qbittorrent",
+  "nom": "qBittorrent",
+  "editeur": "qBittorrent",
+  "site": "https://www.qbittorrent.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "qBittorrent",
+    "mac": "qBittorrent"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du code source officiel (mainwindow.cpp). Les combinaisons Ctrl et Alt sont déduites pour macOS à partir de Qt::CTRL et Qt::ALT, qui correspondent à Cmd et Option sur Mac ; ce point n'est pas écrit dans le fichier source lu. La touche Supprimer est dépendante de la plateforme : Mac non renseigné.",
+  "sources": [
+    {
+      "url": "https://github.com/qbittorrent/qBittorrent/blob/master/src/gui/mainwindow.cpp",
+      "titre": "qBittorrent - mainwindow.cpp (createKeyboardShortcuts)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "demarrer",
+      "nom": "Démarrer",
+      "groupe": "Torrents",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Torrents",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "pause-session",
+      "nom": "Pause session",
+      "groupe": "Torrents",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": "ctrl+shift+p",
+      "source": 0,
+      "priorite": 2,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "reprise-session",
+      "nom": "Reprendre session",
+      "groupe": "Torrents",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "play-circle",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-url",
+      "nom": "Ajouter depuis URL",
+      "groupe": "Torrents",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": "ctrl+shift+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "link",
+      "deduit": true
+    },
+    {
+      "id": "creer-torrent",
+      "nom": "Créer un torrent",
+      "groupe": "Torrents",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Torrents",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Torrents",
+      "win": "delete",
+      "mac": null,
+      "linux": "delete",
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "priorite-max",
+      "nom": "Priorité max",
+      "groupe": "File d'attente",
+      "win": "ctrl+shift+plus",
+      "mac": "cmd+shift+plus",
+      "linux": "ctrl+shift+plus",
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-up",
+      "deduit": true
+    },
+    {
+      "id": "priorite-plus",
+      "nom": "Priorité +",
+      "groupe": "File d'attente",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": "ctrl+plus",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up",
+      "deduit": true
+    },
+    {
+      "id": "priorite-moins",
+      "nom": "Priorité -",
+      "groupe": "File d'attente",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": "ctrl+minus",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down",
+      "deduit": true
+    },
+    {
+      "id": "priorite-min",
+      "nom": "Priorité min",
+      "groupe": "File d'attente",
+      "win": "ctrl+shift+minus",
+      "mac": "cmd+shift+minus",
+      "linux": "ctrl+shift+minus",
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-down",
+      "deduit": true
+    },
+    {
+      "id": "onglet-transferts",
+      "nom": "Onglet Transferts",
+      "groupe": "Affichage",
+      "win": "alt+1",
+      "mac": "alt+1",
+      "linux": "alt+1",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-up",
+      "deduit": true
+    },
+    {
+      "id": "onglet-recherche",
+      "nom": "Onglet Recherche",
+      "groupe": "Affichage",
+      "win": "alt+2",
+      "mac": "alt+2",
+      "linux": "alt+2",
+      "source": 0,
+      "priorite": 3,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "onglet-rss",
+      "nom": "Onglet RSS",
+      "groupe": "Affichage",
+      "win": "alt+3",
+      "mac": "alt+3",
+      "linux": "alt+3",
+      "source": 0,
+      "priorite": 3,
+      "picto": "rss",
+      "deduit": true
+    },
+    {
+      "id": "journal",
+      "nom": "Journal",
+      "groupe": "Affichage",
+      "win": "alt+4",
+      "mac": "alt+4",
+      "linux": "alt+4",
+      "source": 0,
+      "priorite": 3,
+      "picto": "scroll-text",
+      "deduit": true
+    },
+    {
+      "id": "filtrer",
+      "nom": "Filtrer la liste",
+      "groupe": "Affichage",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "filter",
+      "deduit": true
+    },
+    {
+      "id": "options",
+      "nom": "Options",
+      "groupe": "Application",
+      "win": "alt+o",
+      "mac": "alt+o",
+      "linux": "alt+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings",
+      "deduit": true
+    },
+    {
+      "id": "statistiques",
+      "nom": "Statistiques",
+      "groupe": "Application",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": "ctrl+i",
+      "source": 0,
+      "priorite": 2,
+      "picto": "bar-chart-3",
+      "deduit": true
+    },
+    {
+      "id": "documentation",
+      "nom": "Documentation",
+      "groupe": "Application",
+      "win": "f1",
+      "mac": "f1",
+      "linux": "f1",
+      "source": 0,
+      "priorite": 3,
+      "picto": "book-open"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Application",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": "ctrl+q",
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Affichage",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 2,
+      "picto": "search",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Changer la taille des colonnes",
+      "raison": "souris"
+    }
+  ]
+}

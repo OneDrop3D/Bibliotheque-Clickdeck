@@ -1,0 +1,416 @@
+{
+  "id": "obs-studio",
+  "nom": "OBS Studio",
+  "editeur": "OBS Project",
+  "site": "https://obsproject.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "obs64",
+    "mac": "OBS"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Pas de raccourci global par défaut pour diffuser, enregistrer ou changer de scène : à lier soi-même dans Paramètres > Raccourcis (wiki officiel : « Here you can set hotkeys that do a variety of things »). Les actions Édition, Sources, Ordre, Transformer et Aperçu viennent de la page Keyboard Shortcuts (source 0) ; elles ne marchent que lorsque la source ou la boîte de sélection est active. Les actions Diffusion, Enregistrement, Replay, Scènes et Afficher/masquer utilisent des combinaisons conseillées non sourcées (F8 à F10, Maj+F1 à Maj+F5), à définir soi-même, identiques sur Windows et Mac. Mac : Début/Fin de liste demandent la touche Fn, non exprimable : mac à null. Les raccourcis Linux ne sont pas documentés dans la source : linux à null.",
+  "sources": [
+    {
+      "url": "https://obsproject.com/kb/keyboard-shortcuts",
+      "titre": "OBS Studio - Keyboard Shortcuts"
+    },
+    {
+      "url": "https://github.com/obsproject/obs-studio/wiki/obs-studio-overview",
+      "titre": "OBS Studio Overview (wiki officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "shift+cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "redo-2"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter OBS",
+      "groupe": "Édition",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "copier-source",
+      "nom": "Copier source",
+      "groupe": "Sources",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller-source",
+      "nom": "Coller source",
+      "groupe": "Sources",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "supprimer-source",
+      "nom": "Supprimer source",
+      "groupe": "Sources",
+      "win": "delete",
+      "mac": "backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "source-monter",
+      "nom": "Monter source",
+      "groupe": "Ordre",
+      "win": "ctrl+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "source-descendre",
+      "nom": "Descendre source",
+      "groupe": "Ordre",
+      "win": "ctrl+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "source-premiere",
+      "nom": "Source en haut",
+      "groupe": "Ordre",
+      "win": "ctrl+home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "source-derniere",
+      "nom": "Source en bas",
+      "groupe": "Ordre",
+      "win": "ctrl+end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "transfo-editer",
+      "nom": "Éditer transfo",
+      "groupe": "Transformer",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pencil"
+    },
+    {
+      "id": "transfo-reset",
+      "nom": "Réinitialiser",
+      "groupe": "Transformer",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "transfo-ecran",
+      "nom": "Ajuster écran",
+      "groupe": "Transformer",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "transfo-etirer",
+      "nom": "Étirer écran",
+      "groupe": "Transformer",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scaling"
+    },
+    {
+      "id": "transfo-centrer",
+      "nom": "Centrer écran",
+      "groupe": "Transformer",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-center"
+    },
+    {
+      "id": "apercu-haut",
+      "nom": "Décaler haut",
+      "groupe": "Aperçu",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-up"
+    },
+    {
+      "id": "apercu-bas",
+      "nom": "Décaler bas",
+      "groupe": "Aperçu",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-down"
+    },
+    {
+      "id": "apercu-gauche",
+      "nom": "Décaler gauche",
+      "groupe": "Aperçu",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-left"
+    },
+    {
+      "id": "apercu-droite",
+      "nom": "Décaler droite",
+      "groupe": "Aperçu",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-right"
+    },
+    {
+      "id": "stream",
+      "nom": "Stream on/off",
+      "groupe": "Diffusion",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "radio"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enreg. on/off",
+      "groupe": "Enregistrement",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "replay-sauver",
+      "nom": "Sauver replay",
+      "groupe": "Enregistrement",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "scene-1",
+      "nom": "Scène 1",
+      "groupe": "Scènes",
+      "win": "shift+f1",
+      "mac": "shift+f1",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "scene-2",
+      "nom": "Scène 2",
+      "groupe": "Scènes",
+      "win": "shift+f2",
+      "mac": "shift+f2",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "scene-3",
+      "nom": "Scène 3",
+      "groupe": "Scènes",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "scene-4",
+      "nom": "Scène 4",
+      "groupe": "Scènes",
+      "win": "shift+f4",
+      "mac": "shift+f4",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "source-afficher",
+      "nom": "Afficher/masquer",
+      "groupe": "Sources",
+      "win": "shift+f5",
+      "mac": "shift+f5",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "eye"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Push-to-talk",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Push-to-mute",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Mute micro (bascule)",
+      "raison": "aucun raccourci de bascule sourcé"
+    },
+    {
+      "nom": "Recadrer une source",
+      "raison": "maintenir Alt et glisser la souris"
+    },
+    {
+      "nom": "Étirer en glissant",
+      "raison": "maintenir Maj et glisser la souris"
+    },
+    {
+      "nom": "Désactiver l'accroche",
+      "raison": "maintenir Ctrl et glisser la souris"
+    },
+    {
+      "nom": "Déplacer l'aperçu",
+      "raison": "maintenir Espace et glisser la souris"
+    },
+    {
+      "nom": "Zoom de l'aperçu",
+      "raison": "maintenir Espace et utiliser la molette"
+    },
+    {
+      "nom": "Pause enregistrement",
+      "raison": "absente de la doc officielle lue"
+    },
+    {
+      "nom": "Screenshot",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Scène suivante / précédente",
+      "raison": "absente de la doc officielle lue"
+    },
+    {
+      "nom": "Transitions (cut / fondu)",
+      "raison": "absentes de la doc officielle lue"
+    },
+    {
+      "nom": "Changer de micro",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Changer de webcam",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Changer de profil",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Changer de collection de scènes",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Fond vert on/off",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Chat overlay",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Alertes test",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Verrouiller les sources",
+      "raison": "absent de la doc officielle lue"
+    },
+    {
+      "nom": "Mode studio",
+      "raison": "absent de la doc officielle lue"
+    }
+  ]
+}

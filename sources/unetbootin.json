@@ -1,0 +1,23 @@
+{
+  "id": "unetbootin",
+  "nom": "UNetbootin",
+  "editeur": "UNetbootin",
+  "site": "https://unetbootin.github.io/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "UNetbootin", "mac": "UNetbootin", "linux": "unetbootin" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur le site officiel. Seule la commande standard Quitter est proposée. Le site n'indique pas de date de mise à jour : à vérifier.",
+  "sources": [
+    { "url": "https://unetbootin.github.io/", "titre": "UNetbootin - site officiel" }
+  ],
+  "actions": [
+    { "id": "quitter", "nom": "Quitter", "groupe": "Application", "win": "alt+f4", "mac": "cmd+q", "linux": null, "source": 0, "priorite": 2, "picto": "log-out", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Création de la clé USB bootable", "raison": "séquence de réglages à la souris, pas de raccourci" }
+  ]
+}

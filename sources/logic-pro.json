@@ -1,0 +1,222 @@
+{
+  "id": "logic-pro",
+  "nom": "Logic Pro",
+  "editeur": "Apple",
+  "site": "https://www.apple.com/logic-pro/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Logic Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Mac issus d'une cheat sheet tierce (lecture/arrêt, enregistrement, métronome, cycle, scission, annulation concordent avec l'usage connu de Logic Pro) ; à vérifier dans Logic Pro > Commandes clavier. « Début du projet » = Retour (touche Return).",
+  "sources": [
+    {
+      "url": "https://www.audeobox.com/learn/logic-pro/logic-pro-keyboard-shortcuts-cheat-sheet/",
+      "titre": "Logic Pro Keyboard Shortcuts Cheat Sheet (tierce)"
+    },
+    {
+      "url": "https://support.apple.com/guide/logicpro/lgcp0b07c0c9/mac",
+      "titre": "Logic Pro - Guide utilisateur (Apple)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "mode-cycle",
+      "nom": "Mode cycle",
+      "groupe": "Transport",
+      "win": null,
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "scinder-curseur",
+      "nom": "Scinder au curseur",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "lecture-arret",
+      "nom": "Lecture / arrêt",
+      "groupe": "Transport",
+      "win": null,
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "enregistrer-piste",
+      "nom": "Enregistrer",
+      "groupe": "Transport",
+      "win": null,
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "metronome",
+      "nom": "Métronome",
+      "groupe": "Transport",
+      "win": null,
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "timer"
+    },
+    {
+      "id": "debut-projet",
+      "nom": "Début du projet",
+      "groupe": "Transport",
+      "win": null,
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Enregistrer en maintenant une touche",
+      "raison": "touche maintenue"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "retrobat",
+  "nom": "RetroBat",
+  "editeur": "RetroBat",
+  "site": "https://www.retrobat.org/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "RetroBat"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Touches clavier de l'interface EmulationStation (AZERTY pour Z et Q). Les raccourcis RetroArch et des émulateurs sont à la manette dans la documentation consultée, non relevés au clavier. Touches dépendantes de la disposition : Retour = Z en AZERTY (W en QWERTY), Aléatoire/État = Q en AZERTY (A en QWERTY). Touche Insert (musique suivante) retirée : hors syntaxe ClickDeck.",
+  "sources": [
+    {
+      "url": "https://wiki.retrobat.org/navigation/navigation-keys.md",
+      "titre": "RetroBat - Touches de navigation"
+    }
+  ],
+  "actions": [
+    {
+      "id": "valider",
+      "nom": "Valider / lancer",
+      "groupe": "Navigation",
+      "win": "x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour (Z AZERTY)",
+      "groupe": "Navigation",
+      "win": "z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "menu-principal",
+      "nom": "Menu principal",
+      "groupe": "Navigation",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "menu"
+    },
+    {
+      "id": "options-rapides",
+      "nom": "Options rapides",
+      "groupe": "Navigation",
+      "win": "backspace",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "systeme-precedent",
+      "nom": "Système précédent",
+      "groupe": "Navigation",
+      "win": "home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-left"
+    },
+    {
+      "id": "systeme-suivant",
+      "nom": "Système suivant",
+      "groupe": "Navigation",
+      "win": "end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-right"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up-from-line"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-from-line"
+    },
+    {
+      "id": "recherche",
+      "nom": "Recherche / filtre",
+      "groupe": "Navigation",
+      "win": "s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "jeu-aleatoire",
+      "nom": "Aléatoire (AZERTY)",
+      "groupe": "Navigation",
+      "win": "q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "shuffle"
+    },
+    {
+      "id": "lecteur-ecran",
+      "nom": "Lecteur d'écran",
+      "groupe": "Accessibilité",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "volume-2"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Ajouter aux favoris",
+      "raison": "appui long"
+    },
+    {
+      "nom": "Options du jeu",
+      "raison": "appui long sur valider"
+    },
+    {
+      "nom": "Raccourcis RetroArch (manette)",
+      "raison": "combinaisons à la manette, non relevées au clavier"
+    }
+  ]
+}

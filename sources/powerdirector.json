@@ -1,0 +1,52 @@
+{
+  "id": "powerdirector",
+  "nom": "PowerDirector",
+  "editeur": "CyberLink",
+  "site": "https://www.cyberlink.com/products/powerdirector-video-editing-software/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerDirector", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page d'aide CyberLink (learning.cyberlink.com), traduits en français. La page d'aide renvoie vers la page des raccourcis par défaut (réglages d'usine, Hotkey set « PowerDirector Default »). Version Windows uniquement : pas de champ Mac. PowerDirector Mobile n'est pas couvert. À vérifier : « Ctrl+Q » est listé comme import de médias dans la source, et ce doublon est à contrôler sur la version installée.",
+  "sources": [
+    { "url": "https://learning.cyberlink.com/powerdirector/how-to-use-keyboard-shortcuts", "titre": "CyberLink - PowerDirector, how to use keyboard shortcuts" },
+    { "url": "https://preview.cyberlink.com/stat/help/powerdirector/19/enu/97_01_00_default_hotkeys.html", "titre": "CyberLink PowerDirector 19 - Default hotkeys (réglages d'usine)" }
+  ],
+  "actions": [
+    { "id": "importer-medias", "nom": "Importer médias", "groupe": "Projet", "win": "ctrl+q", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-input" },
+    { "id": "importer-dossier", "nom": "Importer dossier", "groupe": "Projet", "win": "ctrl+w", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder-input" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Projet", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Montage", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Montage", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Montage", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Montage", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "scinder-curseur", "nom": "Scinder au curseur", "groupe": "Montage", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "supprimer-fermer", "nom": "Suppr. et combler", "groupe": "Montage", "win": "ctrl+delete", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "trash-2" },
+    { "id": "supprimer-vide", "nom": "Suppr. avec vide", "groupe": "Montage", "win": "shift+delete", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eraser" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Montage", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "box-select" },
+    { "id": "image-gauche", "nom": "Clip image gauche", "groupe": "Montage", "win": "alt+left", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-left" },
+    { "id": "image-droite", "nom": "Clip image droite", "groupe": "Montage", "win": "alt+right", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-right" },
+
+    { "id": "lecture-pause", "nom": "Lecture / pause", "groupe": "Lecture", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "unite-precedente", "nom": "Unité précédente", "groupe": "Lecture", "win": "comma", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "step-back" },
+    { "id": "unite-suivante", "nom": "Unité suivante", "groupe": "Lecture", "win": "period", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "step-forward" },
+    { "id": "seconde-avant", "nom": "Seconde avant", "groupe": "Lecture", "win": "alt+up", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "fast-forward" },
+    { "id": "seconde-arriere", "nom": "Seconde arrière", "groupe": "Lecture", "win": "alt+down", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rewind" },
+    { "id": "debut", "nom": "Début", "groupe": "Lecture", "win": "home", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "skip-back" },
+    { "id": "fin", "nom": "Fin", "groupe": "Lecture", "win": "end", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "skip-forward" },
+    { "id": "avance-rapide", "nom": "Avance rapide", "groupe": "Lecture", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "fast-forward" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Lecture", "win": "f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "zoom-timeline-plus", "nom": "Zoom timeline +", "groupe": "Affichage", "win": "plus", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in" },
+    { "id": "zoom-timeline-moins", "nom": "Zoom timeline -", "groupe": "Affichage", "win": "minus", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-out" }
+  ],
+  "non_faisable": [
+    { "nom": "Dupliquer un clip", "raison": "souris (maintenir D et glisser)" },
+    { "nom": "Défilement horizontal de la timeline", "raison": "molette" },
+    { "nom": "Défilement vertical de la timeline", "raison": "molette (avec Alt)" },
+    { "nom": "Zoom au curseur de la timeline", "raison": "molette (avec Ctrl)" }
+  ]
+}

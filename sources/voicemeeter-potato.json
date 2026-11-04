@@ -1,0 +1,22 @@
+{
+  "id": "voicemeeter-potato",
+  "nom": "VoiceMeeter Potato",
+  "editeur": "VB-Audio",
+  "site": "https://vb-audio.com/Voicemeeter/potato.htm",
+  "systemes": ["windows"],
+  "lancement": { "windows": "VoiceMeeter Potato", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut n'est documenté sur la page officielle de VB-Audio. Les raccourcis se définissent soi-même dans le panneau Macro boutons de l'application. Le manuel d'utilisation (PDF, lié depuis la page) n'a pas pu être consulté : à vérifier avant d'ajouter des actions.",
+  "sources": [
+    { "url": "https://vb-audio.com/Voicemeeter/potato.htm", "titre": "VoiceMeeter Potato - VB-Audio (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglage des faders de canal", "raison": "souris" },
+    { "nom": "Gain des canaux à la molette", "raison": "molette" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quicklook",
+  "nom": "QuickLook",
+  "editeur": "QL-Win (projet open source)",
+  "site": "https://github.com/QL-Win/QuickLook",
+  "systemes": ["windows"],
+  "lancement": { "windows": "QuickLook", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aperçu d'un fichier sélectionné dans l'Explorateur. Les touches agissent sur la fenêtre d'aperçu ou sur la sélection dans l'Explorateur.",
+  "sources": [ { "url": "https://github.com/QL-Win/QuickLook", "titre": "QL-Win/QuickLook (README, raccourcis)" } ],
+  "actions": [
+    { "id": "apercu-rapide", "nom": "Aperçu rapide", "groupe": "Aperçu", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eye" },
+    { "id": "fermer-apercu", "nom": "Fermer l'aperçu", "groupe": "Aperçu", "win": "escape", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "fichier-suivant", "nom": "Fichier suivant", "groupe": "Navigation", "win": "right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "arrow-right" },
+    { "id": "fichier-precedent", "nom": "Fichier précédent", "groupe": "Navigation", "win": "left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "arrow-left" },
+    { "id": "ouvrir-fichier", "nom": "Ouvrir le fichier", "groupe": "Navigation", "win": "enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "external-link" },
+    { "id": "page-suivante", "nom": "Page suivante", "groupe": "Affichage", "win": "pagedown", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "chevrons-down" },
+    { "id": "page-precedente", "nom": "Page précédente", "groupe": "Affichage", "win": "pageup", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "chevrons-up" },
+    { "id": "debut-apercu", "nom": "Début", "groupe": "Affichage", "win": "home", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "chevrons-left" },
+    { "id": "fin-apercu", "nom": "Fin", "groupe": "Affichage", "win": "end", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "chevrons-right" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom PDF", "raison": "molette" },
+    { "nom": "Zoom image", "raison": "molette" },
+    { "nom": "Rotation 3D", "raison": "souris" }
+  ]
+}

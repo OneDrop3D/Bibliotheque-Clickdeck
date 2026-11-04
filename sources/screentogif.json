@@ -1,0 +1,29 @@
+{
+  "id": "screentogif",
+  "nom": "ScreenToGif",
+  "editeur": "Nicke Manarin (projet open source)",
+  "site": "https://github.com/NickeManarin/ScreenToGif",
+  "systemes": ["windows"],
+  "lancement": { "windows": "ScreenToGif", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Les pages d'aide du wiki lues ne listent aucun raccourci d'enregistrement ou d'édition propre à l'application : seules les commandes standard de l'éditeur sont proposées (deduit). Le raccourci de démarrage et d'arrêt d'enregistrement reste à vérifier dans les réglages.",
+  "sources": [
+    { "url": "https://github.com/NickeManarin/ScreenToGif", "titre": "ScreenToGif (README)" },
+    { "url": "https://github.com/NickeManarin/ScreenToGif/wiki/Help", "titre": "ScreenToGif wiki: Help (index)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Général", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "square", "deduit": true },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Général", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder-open", "deduit": true }
+  ],
+  "non_faisable": []
+}

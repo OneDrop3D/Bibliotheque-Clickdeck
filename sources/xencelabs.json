@@ -1,0 +1,17 @@
+{
+  "id": "xencelabs",
+  "nom": "Xencelabs",
+  "editeur": "Xencelabs",
+  "site": "https://www.xencelabs.com/support",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Xencelabs", "mac": "Xencelabs" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel compagnon des tablettes Xencelabs : les boutons (Quick Keys, molette) s'assignent soi-même dans le pilote. La page support officielle (consultée) ne documente aucun raccourci par défaut. Aucune action proposée, donc pack de lancement.",
+  "sources": [ { "url": "https://www.xencelabs.com/support", "titre": "Xencelabs - Support (page consultée, aucun raccourci par défaut documenté)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Boutons Quick Keys et molette", "raison": "Aucun raccourci par défaut documenté, boutons à configurer dans le pilote" } ]
+}

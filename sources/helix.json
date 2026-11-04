@@ -1,0 +1,339 @@
+{
+  "id": "helix",
+  "nom": "Helix",
+  "editeur": "Helix Editor (communauté)",
+  "site": "https://helix-editor.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "hx",
+    "mac": "hx",
+    "linux": "hx"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Éditeur modal en terminal : les touches sont identiques sur tous les systèmes (disposition US pour ?, : et ~). Le mode normal est supposé actif. Les séquences (préfixes g, Ctrl-w, Espace) sont en non faisable. Touches vérifiées dans la page Keymap de Helix.",
+  "sources": [
+    {
+      "url": "https://docs.helix-editor.com/keymap.html",
+      "titre": "Helix - Keymap (mode normal)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "inserer-avant",
+      "nom": "Insérer avant",
+      "groupe": "Édition",
+      "win": "i",
+      "mac": "i",
+      "linux": "i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-cursor"
+    },
+    {
+      "id": "ajouter-apres",
+      "nom": "Ajouter après",
+      "groupe": "Édition",
+      "win": "a",
+      "mac": "a",
+      "linux": "a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-cursor-input"
+    },
+    {
+      "id": "ligne-dessous",
+      "nom": "Ligne dessous",
+      "groupe": "Édition",
+      "win": "o",
+      "mac": "o",
+      "linux": "o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "ligne-dessus",
+      "nom": "Ligne dessus",
+      "groupe": "Édition",
+      "win": "shift+o",
+      "mac": "shift+o",
+      "linux": "shift+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-up-right"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "u",
+      "mac": "u",
+      "linux": "u",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "shift+u",
+      "mac": "shift+u",
+      "linux": "shift+u",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "y",
+      "mac": "y",
+      "linux": "y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller-apres",
+      "nom": "Coller après",
+      "groupe": "Édition",
+      "win": "p",
+      "mac": "p",
+      "linux": "p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "coller-avant",
+      "nom": "Coller avant",
+      "groupe": "Édition",
+      "win": "shift+p",
+      "mac": "shift+p",
+      "linux": "shift+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "d",
+      "mac": "d",
+      "linux": "d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "changer",
+      "nom": "Changer",
+      "groupe": "Édition",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "ctrl+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "formater",
+      "nom": "Formater",
+      "groupe": "Édition",
+      "win": "equal",
+      "mac": "equal",
+      "linux": "equal",
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "mode-selection",
+      "nom": "Mode sélection",
+      "groupe": "Sélection",
+      "win": "v",
+      "mac": "v",
+      "linux": "v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "slash",
+      "mac": "slash",
+      "linux": "slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "recherche-inverse",
+      "nom": "Recherche arrière",
+      "groupe": "Recherche",
+      "win": "shift+slash",
+      "mac": "shift+slash",
+      "linux": "shift+slash",
+      "source": 0,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "n",
+      "mac": "n",
+      "linux": "n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Recherche",
+      "win": "shift+n",
+      "mac": "shift+n",
+      "linux": "shift+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "commande",
+      "nom": "Mode commande",
+      "groupe": "Navigation",
+      "win": "shift+semicolon",
+      "mac": "shift+semicolon",
+      "linux": "shift+semicolon",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "demi-page-bas",
+      "nom": "Demi-page bas",
+      "groupe": "Navigation",
+      "win": "ctrl+d",
+      "mac": "ctrl+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "demi-page-haut",
+      "nom": "Demi-page haut",
+      "groupe": "Navigation",
+      "win": "ctrl+u",
+      "mac": "ctrl+u",
+      "linux": "ctrl+u",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "ctrl+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-down"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "ctrl+b",
+      "linux": "ctrl+b",
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-up"
+    },
+    {
+      "id": "selectionner-ligne",
+      "nom": "Sélectionner ligne",
+      "groupe": "Sélection",
+      "win": "x",
+      "mac": "x",
+      "linux": "x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-select"
+    },
+    {
+      "id": "majuscule-minuscule",
+      "nom": "Changer la casse",
+      "groupe": "Édition",
+      "win": "shift+backquote",
+      "mac": "shift+backquote",
+      "linux": "shift+backquote",
+      "source": 0,
+      "priorite": 3,
+      "picto": "case-sensitive"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Aller à la définition",
+      "raison": "séquence (gd)"
+    },
+    {
+      "nom": "Aller au début du fichier",
+      "raison": "séquence (gg)"
+    },
+    {
+      "nom": "Diviser verticalement",
+      "raison": "séquence (Ctrl-w v)"
+    },
+    {
+      "nom": "Diviser horizontalement",
+      "raison": "séquence (Ctrl-w s)"
+    },
+    {
+      "nom": "Sélecteur de fichiers",
+      "raison": "séquence (Espace f)"
+    },
+    {
+      "nom": "Recherche globale",
+      "raison": "séquence (Espace /)"
+    },
+    {
+      "nom": "Palette de commandes",
+      "raison": "séquence (Espace ?)"
+    },
+    {
+      "nom": "Aller à la fin du fichier",
+      "raison": "comportement de G non confirmé (séquence ge)"
+    }
+  ]
+}

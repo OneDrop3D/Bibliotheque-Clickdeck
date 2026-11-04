@@ -1,0 +1,17 @@
+{
+  "id": "nasa-eyes",
+  "nom": "NASA Eyes",
+  "editeur": "NASA",
+  "site": "https://science.nasa.gov/eyes/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "NASA Eyes", "mac": "NASA Eyes" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application web de la NASA : la page d'aide officielle ne documente aucun raccourci clavier.",
+  "sources": [ { "url": "https://science.nasa.gov/eyes/", "titre": "NASA Eyes" } ],
+  "actions": [],
+  "non_faisable": []
+}

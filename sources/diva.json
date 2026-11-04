@@ -1,0 +1,25 @@
+{
+  "id": "diva",
+  "nom": "Diva",
+  "editeur": "u-he",
+  "site": "https://u-he.com/products/diva/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Diva", "mac": "Diva" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci documenté dans le manuel officiel. Les flèches du clavier ne servent qu'une fois le focus dans la liste de presets (déclaration d'un membre de l'équipe u-he sur le forum KVR, août 2020 : « Once you click into the list of presets, you can use cursor keys to go up/down »). Source ancienne (plus de 5 ans) : à recouper avec la version installée. Un forum u-he de 2024 indique que la navigation clavier de l'interface est en préparation, sans liste fixe.",
+  "sources": [
+    { "url": "https://www.kvraudio.com/forum/viewtopic.php?p=7864614", "titre": "KVR Audio - Navigating Presets with Keyboard? (réponse u-he, 2020)" }
+  ],
+  "actions": [
+    { "id": "preset-precedent", "nom": "Preset précédent", "groupe": "Presets", "win": "up", "mac": "up", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-up" },
+    { "id": "preset-suivant", "nom": "Preset suivant", "groupe": "Presets", "win": "down", "mac": "down", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-down" }
+  ],
+  "non_faisable": [
+    { "nom": "Modifier les paramètres à la souris", "raison": "souris" },
+    { "nom": "Changer de preset à la molette", "raison": "molette" }
+  ]
+}

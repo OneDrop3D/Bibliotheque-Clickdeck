@@ -1,0 +1,19 @@
+{
+  "id": "powershell",
+  "nom": "PowerShell",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/powershell/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "PowerShell", "mac": "PowerShell" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Shell en ligne de commande, sans raccourcis propres : les touches de saisie dépendent du terminal qui l'héberge (Windows Terminal, iTerm2, etc.). Pour les raccourcis de fenêtre et d'onglet, voir la fiche Windows Terminal. Aucune source de raccourcis n'a été lue pour cette fiche.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Navigation dans l'historique", "raison": "séquence de saisie dépendant du terminal hôte, pas un raccourci de PowerShell" }
+  ]
+}

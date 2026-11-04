@@ -1,0 +1,17 @@
+{
+  "id": "v-ray",
+  "nom": "V-Ray",
+  "editeur": "Chaos",
+  "site": "https://www.chaos.com/vray",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "V-Ray", "mac": "V-Ray" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Non renseigné : V-Ray est un moteur de rendu intégré à un logiciel hôte (3ds Max, Maya, Rhino, SketchUp, Blender...), et la documentation des raccourcis par hôte n'a pas pu être consultée (pages introuvables, recherche web indisponible). Relancer le relevé en précisant l'hôte.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

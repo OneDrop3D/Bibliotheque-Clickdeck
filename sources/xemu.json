@@ -1,0 +1,65 @@
+{
+  "id": "xemu",
+  "nom": "Xemu",
+  "editeur": "Projet Xemu (open source)",
+  "site": "https://xemu.app",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Xemu",
+    "mac": "Xemu"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le code source (ui/xemu.c) : modificateurs Ctrl gauche + Alt gauche (Ctrl physique, y compris sur Mac). Pas d'autres raccourcis par défaut trouvés ; instantanés F5-F8 à lier par l'utilisateur.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/xemu-project/xemu/master/ui/xemu.c",
+      "titre": "Code source Xemu (handle_keydown)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+f",
+      "mac": "ctrl+alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "capture-souris",
+      "nom": "Capturer la souris",
+      "groupe": "Entrées",
+      "win": "ctrl+alt+g",
+      "mac": "ctrl+alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click",
+      "deduit": true
+    },
+    {
+      "id": "ajuster-fenetre",
+      "nom": "Ajuster la fenêtre",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+u",
+      "mac": "ctrl+alt+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scaling",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

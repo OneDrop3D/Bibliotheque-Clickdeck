@@ -1,0 +1,21 @@
+{
+  "id": "docker",
+  "nom": "Docker Desktop",
+  "editeur": "Docker",
+  "site": "https://docs.docker.com/desktop/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Docker Desktop", "mac": "Docker", "linux": "Docker Desktop" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La documentation officielle de Docker Desktop ne liste pas de raccourcis clavier. Seule la recherche standard est proposée (deduit).",
+  "sources": [ { "url": "https://docs.docker.com/desktop/", "titre": "Docker Desktop documentation" } ],
+  "actions": [
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": "ctrl+f", "source": 0, "priorite": 2, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Démarrer / arrêter les conteneurs", "raison": "souris (boutons de l'interface)" }
+  ]
+}

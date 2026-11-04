@@ -1,0 +1,58 @@
+{
+  "id": "faststone-image-viewer",
+  "nom": "FastStone Image Viewer",
+  "editeur": "FastStone Soft",
+  "site": "https://www.faststone.org/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "FastStone Image Viewer"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page officielle (historique des versions, donc pas une liste complète). Pas de version Mac. Aucun raccourci documenté pour l'image suivante ou précédente. La copie d'image (Ctrl+Maj+C) est réservée au menu des miniatures et a été retirée. Alt+Gauche/Droite saute au dossier voisin en bout de dossier.",
+  "sources": [
+    {
+      "url": "https://www.faststone.org/FSViewerDetail.htm",
+      "titre": "FastStone Image Viewer - détail (raccourcis par version)"
+    }
+  ],
+  "actions": [
+    {"id": "zoom-100", "nom": "Zoom 100 %", "groupe": "Affichage", "win": "ctrl+0", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scan"},
+    {"id": "ajustement-auto", "nom": "Ajustement auto", "groupe": "Affichage", "win": "ctrl+shift+k", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "maximize"},
+    {"id": "ajuster-largeur", "nom": "Ajuster largeur", "groupe": "Affichage", "win": "shift+w", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "move-horizontal"},
+    {"id": "ajuster-hauteur", "nom": "Ajuster hauteur", "groupe": "Affichage", "win": "shift+h", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "move-vertical"},
+    {"id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "f11", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "fullscreen"},
+    {"id": "zoom-animation-plus", "nom": "GIF zoom avant", "groupe": "Affichage", "win": "plus", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "zoom-in"},
+    {"id": "zoom-animation-moins", "nom": "GIF zoom arrière", "groupe": "Affichage", "win": "minus", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "zoom-out"},
+    {"id": "dossier-suivant", "nom": "Dossier suivant", "groupe": "Navigation", "win": "alt+right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-output"},
+    {"id": "dossier-precedent", "nom": "Dossier précédent", "groupe": "Navigation", "win": "alt+left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-input"},
+    {"id": "cadre-suivant", "nom": "Cadre suivant", "groupe": "Navigation", "win": "ctrl+pagedown", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "skip-forward"},
+    {"id": "cadre-precedent", "nom": "Cadre précédent", "groupe": "Navigation", "win": "ctrl+pageup", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "skip-back"},
+    {"id": "pivoter-gauche", "nom": "Pivoter à gauche", "groupe": "Édition", "win": "l", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw"},
+    {"id": "pivoter-droite", "nom": "Pivoter à droite", "groupe": "Édition", "win": "r", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-cw"},
+    {"id": "ameliorer-couleurs", "nom": "Améliorer couleurs", "groupe": "Édition", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "palette"},
+    {"id": "recadrer", "nom": "Recadrer", "groupe": "Édition", "win": "x", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "crop"},
+    {"id": "auto-rotation-exif", "nom": "Rotation auto EXIF", "groupe": "Édition", "win": "ctrl+alt+a", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "refresh-cw"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Fichiers", "win": "delete", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "trash-2"},
+    {"id": "marquer-fichier", "nom": "Marquer fichier", "groupe": "Fichiers", "win": "q", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "tag"},
+    {"id": "ouvrir-externe", "nom": "Éditeur externe", "groupe": "Fichiers", "win": "e", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "external-link"},
+    {"id": "description", "nom": "Description", "groupe": "Fichiers", "win": "d", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "message-square"},
+    {"id": "proprietes", "nom": "Propriétés", "groupe": "Fichiers", "win": "alt+i", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "info"},
+    {"id": "dossier-explorateur", "nom": "Dans l'Explorateur", "groupe": "Fichiers", "win": "w", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open"},
+    {"id": "carte-gps", "nom": "Carte GPS", "groupe": "Fichiers", "win": "ctrl+shift+m", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "map-pin"},
+    {"id": "design-impression", "nom": "Design/impression", "groupe": "Outils", "win": "alt+p", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "printer"},
+    {"id": "numeriser", "nom": "Numériser", "groupe": "Outils", "win": "alt+s", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "scan-line"},
+    {"id": "parametres", "nom": "Paramètres", "groupe": "Application", "win": "f12", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "settings"},
+    {"id": "imprimer", "nom": "Imprimer", "groupe": "Application", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "printer", "deduit": true},
+    {"id": "verrouiller-zoom", "nom": "Verrouiller zoom", "groupe": "Affichage", "win": "ctrl+shift+l", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "lock"}
+  ],
+  "non_faisable": [
+    {"nom": "Zoom à la molette", "raison": "molette"},
+    {"nom": "Défilement de l'image", "raison": "molette"}
+  ]
+}

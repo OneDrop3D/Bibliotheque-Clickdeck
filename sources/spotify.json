@@ -1,0 +1,366 @@
+{
+  "id": "spotify",
+  "nom": "Spotify",
+  "editeur": "Spotify",
+  "site": "https://www.spotify.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Spotify",
+    "mac": "Spotify"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : page officielle Spotify Support « Keyboard shortcuts » (relue). Les lignes « Cmd ou Ctrl » sans étiquette sont reprises avec Cmd sur Mac et Ctrl sur Windows. Volume, playlists à ajouter, instantané et avance/recul podcast ne figurent pas sur la page : absents. raccourcis_modifiables à false : non vérifié. Retirées : Précédent/Suivant (flèches haut/bas), Ajouter à la file (flèche droite), Ajouter à la bibliothèque (flèche gauche) : flèches seules, probablement navigation dans les listes et non pas piste précédente/suivante, non confirmé. Mac : Maj/Alt+S et Alt+R pour aléatoire/répéter tels que publiés, non recoupés.",
+  "sources": [
+    {
+      "url": "https://support.spotify.com/us/article/keyboard-shortcuts/",
+      "titre": "Spotify Support - Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture/Pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Lecture",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "aleatoire",
+      "nom": "Aléatoire",
+      "groupe": "Lecture",
+      "win": "ctrl+s",
+      "mac": "alt+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shuffle"
+    },
+    {
+      "id": "repeter",
+      "nom": "Répéter",
+      "groupe": "Lecture",
+      "win": "ctrl+r",
+      "mac": "alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "voir-file",
+      "nom": "Voir la file",
+      "groupe": "Lecture",
+      "win": "shift+alt+q",
+      "mac": "shift+alt+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-music"
+    },
+    {
+      "id": "lecture-en-cours",
+      "nom": "Lecture en cours",
+      "groupe": "Lecture",
+      "win": "shift+alt+j",
+      "mac": "shift+alt+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "disc-3"
+    },
+    {
+      "id": "jaime",
+      "nom": "J'aime",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+b",
+      "mac": "shift+alt+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "heart"
+    },
+    {
+      "id": "aller-biblio",
+      "nom": "Bibliothèque",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+0",
+      "mac": "shift+alt+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "library"
+    },
+    {
+      "id": "playlists",
+      "nom": "Playlists",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+1",
+      "mac": "shift+alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-music"
+    },
+    {
+      "id": "titres-aimes",
+      "nom": "Titres aimés",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+s",
+      "mac": "shift+alt+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "heart"
+    },
+    {
+      "id": "podcasts",
+      "nom": "Podcasts",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+2",
+      "mac": "shift+alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "podcast"
+    },
+    {
+      "id": "artistes",
+      "nom": "Artistes",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+3",
+      "mac": "shift+alt+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic"
+    },
+    {
+      "id": "albums",
+      "nom": "Albums",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+4",
+      "mac": "shift+alt+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "disc"
+    },
+    {
+      "id": "livres-audio",
+      "nom": "Livres audio",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+5",
+      "mac": "shift+alt+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "book-open"
+    },
+    {
+      "id": "fait-pour-vous",
+      "nom": "Fait pour vous",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+m",
+      "mac": "shift+alt+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "user-round"
+    },
+    {
+      "id": "nouveautes",
+      "nom": "Nouveautés",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+n",
+      "mac": "shift+alt+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sparkles"
+    },
+    {
+      "id": "classements",
+      "nom": "Classements",
+      "groupe": "Bibliothèque",
+      "win": "shift+alt+c",
+      "mac": "shift+alt+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trending-up"
+    },
+    {
+      "id": "recherche",
+      "nom": "Recherche",
+      "groupe": "Navigation",
+      "win": "ctrl+l",
+      "mac": "shift+cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "filtrer",
+      "nom": "Filtrer",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "filter"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Navigation",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "accueil",
+      "nom": "Accueil",
+      "groupe": "Navigation",
+      "win": "shift+alt+h",
+      "mac": "shift+alt+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "menu-contextuel",
+      "nom": "Menu contextuel",
+      "groupe": "Navigation",
+      "win": "alt+j",
+      "mac": "alt+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "menu"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Navigation",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "barre-biblio",
+      "nom": "Barre biblio",
+      "groupe": "Navigation",
+      "win": "shift+alt+l",
+      "mac": "shift+alt+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-left"
+    },
+    {
+      "id": "panneau-lecture",
+      "nom": "Panneau lecture",
+      "groupe": "Navigation",
+      "win": "shift+alt+r",
+      "mac": "shift+alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-right"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Navigation",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "deconnexion",
+      "nom": "Déconnexion",
+      "groupe": "Compte",
+      "win": "shift+alt+f6",
+      "mac": "shift+alt+f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "ouvrir-recherche",
+      "nom": "Ouvrir recherche",
+      "groupe": "Navigation",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Reculer 15 s",
+      "raison": "absent de la page officielle lue"
+    },
+    {
+      "nom": "Avancer 15 s",
+      "raison": "absent de la page officielle lue"
+    },
+    {
+      "nom": "Vitesse podcast",
+      "raison": "absent de la page officielle lue"
+    },
+    {
+      "nom": "Volume +/-",
+      "raison": "absent de la page officielle lue"
+    },
+    {
+      "nom": "Ajouter à une playlist",
+      "raison": "absent de la page officielle lue"
+    },
+    {
+      "nom": "Instantané Spotify",
+      "raison": "absent de la page officielle lue"
+    },
+    {
+      "nom": "Piste précédente/suivante",
+      "raison": "aucun raccourci fiable confirmé"
+    }
+  ]
+}

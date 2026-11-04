@@ -1,0 +1,37 @@
+{
+  "id": "alacritty",
+  "nom": "Alacritty",
+  "editeur": "Alacritty project",
+  "site": "https://alacritty.org/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Alacritty" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste des raccourcis par défaut macOS tirée de la documentation Alacritty. Sous Windows et Linux, la documentation lue ne donne pas les raccourcis par défaut : ils ne sont pas proposés.",
+  "sources": [
+    { "url": "https://alacritty.org/config-alacritty-bindings.html", "titre": "Alacritty bindings (documentation)" }
+  ],
+  "actions": [
+    { "id": "nouvelle-fenetre", "nom": "Nouvelle fenêtre", "groupe": "Fenêtres", "win": null, "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "app-window" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Fenêtres", "win": null, "mac": "ctrl+cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "nouvel-onglet", "nom": "Nouvel onglet", "groupe": "Onglets", "win": null, "mac": "cmd+t", "linux": null, "source": 0, "priorite": 1, "picto": "square-plus" },
+    { "id": "onglet-suivant", "nom": "Onglet suivant", "groupe": "Onglets", "win": null, "mac": "shift+cmd+bracketright", "linux": null, "source": 0, "priorite": 2, "picto": "chevron-right" },
+    { "id": "onglet-precedent", "nom": "Onglet précédent", "groupe": "Onglets", "win": null, "mac": "shift+cmd+bracketleft", "linux": null, "source": 0, "priorite": 2, "picto": "chevron-left" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": null, "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "recherche-arriere", "nom": "Recherche arrière", "groupe": "Recherche", "win": null, "mac": "cmd+b", "linux": null, "source": 0, "priorite": 3, "picto": "search" },
+    { "id": "agrandir-police", "nom": "Agrandir police", "groupe": "Affichage", "win": null, "mac": "cmd+equal", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "reduire-police", "nom": "Réduire police", "groupe": "Affichage", "win": null, "mac": "cmd+minus", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "taille-police-defaut", "nom": "Taille par défaut", "groupe": "Affichage", "win": null, "mac": "cmd+0", "linux": null, "source": 0, "priorite": 2, "picto": "rotate-ccw" },
+    { "id": "effacer-historique", "nom": "Effacer historique", "groupe": "Affichage", "win": null, "mac": "cmd+k", "linux": null, "source": 0, "priorite": 2, "picto": "eraser" },
+    { "id": "defiler-haut", "nom": "Page précédente", "groupe": "Affichage", "win": null, "mac": "shift+pageup", "linux": null, "source": 0, "priorite": 2, "picto": "chevrons-up" },
+    { "id": "defiler-bas", "nom": "Page suivante", "groupe": "Affichage", "win": null, "mac": "shift+pagedown", "linux": null, "source": 0, "priorite": 2, "picto": "chevrons-down" },
+    { "id": "aller-debut", "nom": "Aller en haut", "groupe": "Affichage", "win": null, "mac": "shift+home", "linux": null, "source": 0, "priorite": 3, "picto": "arrow-up-to-line" },
+    { "id": "aller-fin", "nom": "Aller en bas", "groupe": "Affichage", "win": null, "mac": "shift+end", "linux": null, "source": 0, "priorite": 3, "picto": "arrow-down-to-line" }
+  ],
+  "non_faisable": []
+}

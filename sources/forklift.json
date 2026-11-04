@@ -1,0 +1,24 @@
+{
+  "id": "forklift",
+  "nom": "ForkLift",
+  "editeur": "Binary Nights",
+  "site": "https://binarynights.com/forklift/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "ForkLift" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis non vérifiés : la page de documentation n'a pas pu être trouvée depuis la page d'accueil. Seules les commandes standard de menu sont listées (règle 2 bis).",
+  "sources": [ { "url": "https://binarynights.com/forklift/", "titre": "Page d'accueil de ForkLift (sans liste de raccourcis)" } ],
+  "actions": [
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": null, "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": null, "mac": "cmd+a", "linux": null, "source": 0, "priorite": 2, "picto": "list-checks", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": null, "mac": "cmd+z", "linux": null, "source": 0, "priorite": 2, "picto": "undo-2", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": null, "mac": "cmd+f", "linux": null, "source": 0, "priorite": 2, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": []
+}

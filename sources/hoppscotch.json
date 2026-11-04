@@ -1,0 +1,287 @@
+{
+  "id": "hoppscotch",
+  "nom": "Hoppscotch Desktop",
+  "editeur": "Hoppscotch",
+  "site": "https://hoppscotch.io",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Hoppscotch",
+    "mac": "Hoppscotch",
+    "linux": "Hoppscotch"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Shortcuts. Ctrl sous Windows et Linux, Cmd sous Mac.",
+  "sources": [
+    {
+      "url": "https://docs.hoppscotch.io/documentation/features/shortcuts.md",
+      "titre": "Hoppscotch - Raccourcis"
+    }
+  ],
+  "actions": [
+    {
+      "id": "envoyer",
+      "nom": "Envoyer la requête",
+      "groupe": "Requête",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Requête",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "copier_lien",
+      "nom": "Copier le lien",
+      "groupe": "Requête",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": "ctrl+u",
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "reinitialiser",
+      "nom": "Réinitialiser",
+      "groupe": "Requête",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": "ctrl+i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "methode_suivante",
+      "nom": "Méthode suivante",
+      "groupe": "Requête",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": "alt+up",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "methode_precedente",
+      "nom": "Méthode précédente",
+      "groupe": "Requête",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": "alt+down",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "methode_get",
+      "nom": "Méthode GET",
+      "groupe": "Requête",
+      "win": "alt+g",
+      "mac": "alt+g",
+      "linux": "alt+g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "methode_post",
+      "nom": "Méthode POST",
+      "groupe": "Requête",
+      "win": "alt+p",
+      "mac": "alt+p",
+      "linux": "alt+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload"
+    },
+    {
+      "id": "methode_put",
+      "nom": "Méthode PUT",
+      "groupe": "Requête",
+      "win": "alt+u",
+      "mac": "alt+u",
+      "linux": "alt+u",
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "methode_head",
+      "nom": "Méthode HEAD",
+      "groupe": "Requête",
+      "win": "alt+h",
+      "mac": "alt+h",
+      "linux": "alt+h",
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye"
+    },
+    {
+      "id": "methode_delete",
+      "nom": "Méthode DELETE",
+      "groupe": "Requête",
+      "win": "alt+x",
+      "mac": "alt+x",
+      "linux": "alt+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "copier_reponse",
+      "nom": "Copier la réponse",
+      "groupe": "Réponse",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": "ctrl+period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "telecharger_reponse",
+      "nom": "Télécharger",
+      "groupe": "Réponse",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": "ctrl+j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-down"
+    },
+    {
+      "id": "page_precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": "ctrl+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "page_suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": "ctrl+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "page_rest",
+      "nom": "Page REST",
+      "groupe": "Navigation",
+      "win": "alt+r",
+      "mac": "alt+r",
+      "linux": "alt+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "globe"
+    },
+    {
+      "id": "page_graphql",
+      "nom": "Page GraphQL",
+      "groupe": "Navigation",
+      "win": "alt+q",
+      "mac": "alt+q",
+      "linux": "alt+q",
+      "source": 0,
+      "priorite": 1,
+      "picto": "hexagon"
+    },
+    {
+      "id": "page_parametres",
+      "nom": "Paramètres",
+      "groupe": "Navigation",
+      "win": "alt+s",
+      "mac": "alt+s",
+      "linux": "alt+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "page_temps_reel",
+      "nom": "Page temps réel",
+      "groupe": "Navigation",
+      "win": "alt+w",
+      "mac": "alt+w",
+      "linux": "alt+w",
+      "source": 0,
+      "priorite": 3,
+      "picto": "radio"
+    },
+    {
+      "id": "raccourcis_aide",
+      "nom": "Aide raccourcis",
+      "groupe": "Affichage",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": "ctrl+slash",
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": null,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": null,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

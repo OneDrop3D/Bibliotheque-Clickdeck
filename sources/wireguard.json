@@ -1,0 +1,17 @@
+{
+  "id": "wireguard",
+  "nom": "WireGuard",
+  "editeur": "WireGuard",
+  "site": "https://www.wireguard.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "WireGuard", "mac": "WireGuard" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Pas de raccourci clavier relevé dans la documentation officielle (guide de démarrage lu : uniquement des commandes en ligne de commande). Application à une fenêtre et service de tunnel : pack de lancement.",
+  "sources": [ { "url": "https://www.wireguard.com/quickstart/", "titre": "WireGuard Quick Start" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Activer / désactiver un tunnel", "raison": "aucun raccourci documenté" } ]
+}

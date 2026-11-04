@@ -1,0 +1,19 @@
+{
+  "id": "occt",
+  "nom": "OCCT",
+  "editeur": "OCBase",
+  "site": "https://www.ocbase.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "OCCT" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de test de stress à interface graphique, pilotée à la souris. La page officielle consultée ne mentionne aucun raccourci clavier. Pas de raccourci utile à proposer : à inclure dans un pack de lancement.",
+  "sources": [ { "url": "https://www.ocbase.com/", "titre": "OCBase - site officiel (page consultée, sans raccourci)" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancer un test de stress", "raison": "réglage sans raccourci, à la souris" }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "adobe-media-encoder",
+  "nom": "Adobe Media Encoder",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/media-encoder.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Adobe Media Encoder",
+    "mac": "Adobe Media Encoder"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page Adobe refusée en 403 et source Lynda redirigée (illisible) : aucune source relue. Gardés seulement Entrée (lancer la file), Échap (arrêter), Ctrl/Cmd+I (ajouter source), cohérents avec l'usage connu. Autres raccourcis retirés faute de confirmation.",
+  "sources": [
+    {
+      "url": "https://www.lynda.com/Premiere-Pro-tutorials/Essential-keyboard-shortcuts-Adobe-Media-Encoder/751343/787822-4.html",
+      "titre": "Lynda - Essential keyboard shortcuts Adobe Media Encoder (tiers, ancien)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lancer_file",
+      "nom": "Lancer la file",
+      "groupe": "File d'attente",
+      "win": "enter",
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "arreter_file",
+      "nom": "Arrêter la file",
+      "groupe": "File d'attente",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ajouter_source",
+      "nom": "Ajouter source",
+      "groupe": "File d'attente",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Arrêter l'élément, réinitialiser le statut, enregistrer, panneau de file",
+      "raison": "raccourcis non confirmés"
+    }
+  ]
+}

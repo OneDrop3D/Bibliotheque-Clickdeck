@@ -1,0 +1,311 @@
+{
+  "id": "dbeaver",
+  "nom": "DBeaver",
+  "editeur": "DBeaver",
+  "site": "https://dbeaver.io",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "DBeaver",
+    "mac": "DBeaver",
+    "linux": "DBeaver"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de l'éditeur SQL tirés du wiki officiel du projet DBeaver. Modifiables dans les préférences du clavier.",
+  "sources": [
+    {
+      "url": "https://github.com/dbeaver/dbeaver/wiki/Shortcuts",
+      "titre": "DBeaver - Shortcuts (wiki)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "executer_requete",
+      "nom": "Exécuter requête",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "executer_script",
+      "nom": "Exécuter script",
+      "groupe": "Éditeur SQL",
+      "win": "alt+x",
+      "mac": "alt+x",
+      "linux": "alt+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-play"
+    },
+    {
+      "id": "executer_natif",
+      "nom": "Exécuter natif",
+      "groupe": "Éditeur SQL",
+      "win": "alt+n",
+      "mac": "alt+n",
+      "linux": "alt+n",
+      "source": 0,
+      "priorite": 3,
+      "picto": "zap"
+    },
+    {
+      "id": "executer_onglets",
+      "nom": "Script en onglets",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+alt+shift+x",
+      "mac": "ctrl+alt+shift+x",
+      "linux": "ctrl+alt+shift+x",
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "nouveau_script",
+      "nom": "Nouveau script",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+bracketright",
+      "mac": "ctrl+bracketright",
+      "linux": "ctrl+bracketright",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "nouvelle_console",
+      "nom": "Nouvelle console",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+alt+enter",
+      "mac": "ctrl+alt+enter",
+      "linux": "ctrl+alt+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "ouvrir_script",
+      "nom": "Ouvrir script",
+      "groupe": "Éditeur SQL",
+      "win": "f3",
+      "mac": "f3",
+      "linux": "f3",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "formater_sql",
+      "nom": "Formater SQL",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+f",
+      "mac": "ctrl+shift+f",
+      "linux": "ctrl+shift+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+slash",
+      "mac": "ctrl+slash",
+      "linux": "ctrl+slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "commenter_bloc",
+      "nom": "Commenter bloc",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+slash",
+      "mac": "ctrl+shift+slash",
+      "linux": "ctrl+shift+slash",
+      "source": 0,
+      "priorite": 2,
+      "picto": "message-square-more"
+    },
+    {
+      "id": "plan_execution",
+      "nom": "Plan d'exécution",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+e",
+      "mac": "ctrl+shift+e",
+      "linux": "ctrl+shift+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-branch"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Recherche globale",
+      "groupe": "Édition",
+      "win": "ctrl+h",
+      "mac": "ctrl+h",
+      "linux": "ctrl+h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "chercher_workspace",
+      "nom": "Chercher texte",
+      "groupe": "Édition",
+      "win": "ctrl+alt+g",
+      "mac": "cmd+alt+g",
+      "linux": "ctrl+alt+g",
+      "source": 0,
+      "priorite": 3,
+      "picto": "text-search"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Édition",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": null,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": null,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": null,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "chercher_remplacer",
+      "nom": "Chercher/Remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": "ctrl+y",
+      "source": null,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle_connexion",
+      "nom": "Nouvelle connexion",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+n",
+      "mac": "ctrl+shift+n",
+      "linux": "ctrl+shift+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "plug"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Navigation",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Navigation",
+      "win": "f2",
+      "mac": "f2",
+      "linux": "f2",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "editeur_objet",
+      "nom": "Éditeur d'objet",
+      "groupe": "Navigation",
+      "win": "f4",
+      "mac": "f4",
+      "linux": "f4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "table-properties"
+    },
+    {
+      "id": "panneau_resultats",
+      "nom": "Panneau résultats",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+t",
+      "mac": "ctrl+t",
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-bottom"
+    },
+    {
+      "id": "majuscules",
+      "nom": "Majuscules",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+x",
+      "mac": "cmd+shift+x",
+      "linux": "ctrl+shift+x",
+      "source": 0,
+      "priorite": 3,
+      "picto": "case-upper"
+    }
+  ],
+  "non_faisable": []
+}

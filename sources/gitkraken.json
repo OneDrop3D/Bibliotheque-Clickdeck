@@ -1,0 +1,381 @@
+{
+  "id": "gitkraken",
+  "nom": "GitKraken",
+  "editeur": "Axosoft (GitKraken)",
+  "site": "https://www.gitkraken.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "GitKraken",
+    "mac": "GitKraken"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste issue de la documentation officielle GitKraken Desktop. Les actions sans raccourci n'y figurent pas et ne sont pas ajoutées.",
+  "sources": [
+    {
+      "url": "https://help.gitkraken.com/gitkraken-desktop/keyboard-shortcuts/",
+      "titre": "Keyboard shortcuts - GitKraken Desktop Help"
+    }
+  ],
+  "actions": [
+    {
+      "id": "creer-branche",
+      "nom": "Créer une branche",
+      "groupe": "Dépôts",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-branch-plus"
+    },
+    {
+      "id": "tout-recuperer",
+      "nom": "Tout récupérer",
+      "groupe": "Dépôts",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "ouvrir-depot",
+      "nom": "Ouvrir un dépôt",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "fermer-depot",
+      "nom": "Fermer le dépôt",
+      "groupe": "Dépôts",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Dépôts",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "palette-commandes",
+      "nom": "Palette commandes",
+      "groupe": "Dépôts",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "command"
+    },
+    {
+      "id": "rechercher-commits",
+      "nom": "Rechercher commits",
+      "groupe": "Dépôts",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "historique-fichier",
+      "nom": "Historique fichier",
+      "groupe": "Dépôts",
+      "win": "ctrl+shift+h",
+      "mac": "cmd+shift+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "ouvrir-terminal",
+      "nom": "Ouvrir le terminal",
+      "groupe": "Dépôts",
+      "win": "alt+t",
+      "mac": "alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir le dossier",
+      "groupe": "Dépôts",
+      "win": "alt+o",
+      "mac": "alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder"
+    },
+    {
+      "id": "outil-diff",
+      "nom": "Outil de diff",
+      "groupe": "Dépôts",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-diff"
+    },
+    {
+      "id": "indexer-fichier",
+      "nom": "Indexer le fichier",
+      "groupe": "Commits",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus-square"
+    },
+    {
+      "id": "indexer-tout",
+      "nom": "Indexer tout",
+      "groupe": "Commits",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "desindexer-fichier",
+      "nom": "Désindexer fichier",
+      "groupe": "Commits",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus-square"
+    },
+    {
+      "id": "desindexer-tout",
+      "nom": "Désindexer tout",
+      "groupe": "Commits",
+      "win": "ctrl+shift+u",
+      "mac": "cmd+shift+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-minus"
+    },
+    {
+      "id": "valider",
+      "nom": "Valider (commit)",
+      "groupe": "Commits",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-commit-horizontal"
+    },
+    {
+      "id": "valider-indexer",
+      "nom": "Indexer et valider",
+      "groupe": "Commits",
+      "win": "ctrl+shift+enter",
+      "mac": "cmd+shift+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-commit"
+    },
+    {
+      "id": "champ-message",
+      "nom": "Champ du message",
+      "groupe": "Commits",
+      "win": "ctrl+shift+m",
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "commit-suivant",
+      "nom": "Commit suivant",
+      "groupe": "Commits",
+      "win": "j",
+      "mac": "j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "commit-precedent",
+      "nom": "Commit précédent",
+      "groupe": "Commits",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "premier-commit",
+      "nom": "Premier commit",
+      "groupe": "Commits",
+      "win": "ctrl+home",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "dernier-commit",
+      "nom": "Dernier commit",
+      "groupe": "Commits",
+      "win": "ctrl+end",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Commits",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Commits",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "panneau-gauche",
+      "nom": "Panneau gauche",
+      "groupe": "Affichage",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "detail-commit",
+      "nom": "Détail du commit",
+      "groupe": "Affichage",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Affichage",
+      "win": "ctrl+tab",
+      "mac": "ctrl+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+tab",
+      "mac": "ctrl+shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-reset",
+      "nom": "Zoom par défaut",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "ctrl+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    }
+  ],
+  "non_faisable": []
+}

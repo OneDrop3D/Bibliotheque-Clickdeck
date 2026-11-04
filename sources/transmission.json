@@ -1,0 +1,349 @@
+{
+  "id": "transmission",
+  "nom": "Transmission",
+  "editeur": "Transmission Project",
+  "site": "https://transmissionbt.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Transmission",
+    "mac": "Transmission",
+    "linux": "transmission-gtk"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le code officiel : menus macOS (MainMenu.xib, source 0) et client Qt pour Windows (MainWindow.ui, source 1). Le client Qt n'a pas de raccourci pour tout reprendre/pauser ni pour les préférences.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/transmission/transmission/main/macosx/Base.lproj/MainMenu.xib",
+      "titre": "Transmission macOS - menus (MainMenu.xib)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/transmission/transmission/main/qt/MainWindow.ui",
+      "titre": "Transmission Qt - actions (MainWindow.ui)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-torrent",
+      "nom": "Ouvrir un torrent",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "ouvrir-adresse",
+      "nom": "Ouvrir une adresse",
+      "groupe": "Fichier",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "nouveau-torrent",
+      "nom": "Créer un torrent",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-options",
+      "nom": "Ouvrir + options",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings-2"
+    },
+    {
+      "id": "enregistrer-torrent",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "save"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu rapide",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "reprendre",
+      "nom": "Reprendre",
+      "groupe": "Transferts",
+      "win": "ctrl+s",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "pause",
+      "nom": "Mettre en pause",
+      "groupe": "Transferts",
+      "win": "ctrl+p",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "tout-reprendre",
+      "nom": "Tout reprendre",
+      "groupe": "Transferts",
+      "win": null,
+      "mac": "cmd+alt+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play-circle"
+    },
+    {
+      "id": "tout-pause",
+      "nom": "Tout en pause",
+      "groupe": "Transferts",
+      "win": null,
+      "mac": "cmd+alt+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause-circle"
+    },
+    {
+      "id": "demarrer-maintenant",
+      "nom": "Démarrer vite",
+      "groupe": "Transferts",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "zap"
+    },
+    {
+      "id": "verifier",
+      "nom": "Vérifier données",
+      "groupe": "Transferts",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "shield-check"
+    },
+    {
+      "id": "limite-debit",
+      "nom": "Limite de débit",
+      "groupe": "Transferts",
+      "win": null,
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    },
+    {
+      "id": "retirer",
+      "nom": "Retirer",
+      "groupe": "Transferts",
+      "win": "delete",
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash"
+    },
+    {
+      "id": "retirer-supprimer",
+      "nom": "Retirer + fichiers",
+      "groupe": "Transferts",
+      "win": "shift+delete",
+      "mac": "cmd+alt+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "afficher-dossier",
+      "nom": "Voir le dossier",
+      "groupe": "Transferts",
+      "win": "ctrl+e",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "monter-file",
+      "nom": "Monter en file",
+      "groupe": "File d'attente",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "descendre-file",
+      "nom": "Descendre en file",
+      "groupe": "File d'attente",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-check"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Tout désélection.",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+a",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "square"
+    },
+    {
+      "id": "inspecteur",
+      "nom": "Inspecteur",
+      "groupe": "Affichage",
+      "win": "alt+enter",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "vue-compacte",
+      "nom": "Vue compacte",
+      "groupe": "Affichage",
+      "win": "alt+c",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "barre-filtre",
+      "nom": "Barre de filtre",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "filter"
+    },
+    {
+      "id": "barre-etat",
+      "nom": "Barre d'état",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-bottom"
+    },
+    {
+      "id": "groupes",
+      "nom": "Utiliser groupes",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "statistiques",
+      "nom": "Statistiques",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bar-chart-3"
+    },
+    {
+      "id": "journal",
+      "nom": "Journal",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scroll-text"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Application",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Limite de débit (Windows)",
+      "raison": "aucun raccourci côté Qt"
+    }
+  ],
+  "panne": false
+}

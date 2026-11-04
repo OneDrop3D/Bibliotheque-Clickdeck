@@ -1,0 +1,21 @@
+{
+  "id": "virtualbox",
+  "nom": "VirtualBox",
+  "editeur": "Oracle",
+  "site": "https://www.virtualbox.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "VirtualBox", "mac": "VirtualBox", "linux": "VirtualBox" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Les raccourcis documentés passent par la touche hôte (Ctrl droite par défaut, Commande gauche sur Mac) suivie d'une lettre : Host+C (mode mis à l'échelle), Host+Q (fermer), Host+Suppr (Ctrl+Alt+Suppr dans l'invité). ClickDeck ne peut pas représenter la touche hôte seule, ces combinaisons sont donc listées dans non_faisable. Host+F, Host+L, Host+R et la capture non documentés dans le manuel lu.",
+  "sources": [ { "url": "https://www.virtualbox.org/manual/ch01.html", "titre": "VirtualBox User Manual, chapitre 1 (officiel)" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Mode mis à l'échelle", "raison": "séquence touche hôte + C" },
+    { "nom": "Fermer la machine", "raison": "séquence touche hôte + Q" },
+    { "nom": "Ctrl+Alt+Suppr dans l'invité", "raison": "séquence touche hôte + Suppr" }
+  ]
+}

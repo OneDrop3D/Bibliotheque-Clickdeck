@@ -1,0 +1,332 @@
+{
+  "id": "tracktion-waveform",
+  "nom": "Tracktion Waveform",
+  "editeur": "Tracktion",
+  "site": "https://www.tracktion.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Waveform",
+    "mac": "Waveform"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans un aide-mémoire communautaire écrit pour macOS (date non indiquée). Le guide indique que cmd correspond à ctrl sous Windows : ces équivalents sont donc marqués deduit. Le guide d'utilisation officiel (Scribd, chapitre Raccourcis clavier) n'a pas été lu. Les raccourcis marqués personnalisés dans la source (shift+r, shift+enter, etc.) ne sont pas inclus car l'utilisateur doit les configurer lui-même. Source de 2018 (plus de 5 ans) : à recouper avec la version actuelle.",
+  "sources": [
+    {
+      "url": "https://cheatography.com/naenyn/cheat-sheets/tracktion-waveform-shortcuts",
+      "titre": "Tracktion Waveform shortcuts (Cheatography)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture / arrêt",
+      "groupe": "Transport",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "enregistrement",
+      "nom": "Enregistrement",
+      "groupe": "Transport",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "boucle",
+      "nom": "Boucle",
+      "groupe": "Transport",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "clic",
+      "nom": "Métronome (clic)",
+      "groupe": "Transport",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "timer"
+    },
+    {
+      "id": "debut-morceau",
+      "nom": "Début du morceau",
+      "groupe": "Navigation",
+      "win": "home",
+      "mac": "home",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "fin-morceau",
+      "nom": "Fin du morceau",
+      "groupe": "Navigation",
+      "win": "end",
+      "mac": "end",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "navigateur",
+      "nom": "Navigateur",
+      "groupe": "Affichage",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder"
+    },
+    {
+      "id": "mixeur",
+      "nom": "Mixeur",
+      "groupe": "Affichage",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "plugins",
+      "nom": "Plugins",
+      "groupe": "Affichage",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "puzzle"
+    },
+    {
+      "id": "editeur-midi",
+      "nom": "Éditeur MIDI",
+      "groupe": "Affichage",
+      "win": "ctrl+p",
+      "mac": "ctrl+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "piano"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2",
+      "deduit": true
+    },
+    {
+      "id": "tout-desselectionner",
+      "nom": "Tout désélectionner",
+      "groupe": "Édition",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Clips",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "couper-clip",
+      "nom": "Couper le clip",
+      "groupe": "Clips",
+      "win": "slash",
+      "mac": "slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "inserer-clip-midi",
+      "nom": "Insérer clip MIDI",
+      "groupe": "Clips",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "inserer-piste",
+      "nom": "Insérer une piste",
+      "groupe": "Pistes",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "solo-pistes",
+      "nom": "Solo sur les pistes",
+      "groupe": "Pistes",
+      "win": "shift+s",
+      "mac": "shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "headphones"
+    },
+    {
+      "id": "muet-pistes",
+      "nom": "Muet sur les pistes",
+      "groupe": "Pistes",
+      "win": "shift+m",
+      "mac": "shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "monter-demi-ton",
+      "nom": "Monter d'un demi-ton",
+      "groupe": "Notes",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up",
+      "deduit": true
+    },
+    {
+      "id": "sauvegarder",
+      "nom": "Sauvegarder",
+      "groupe": "Édition",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Déplacer la position du morceau au glisser",
+      "raison": "souris"
+    }
+  ]
+}

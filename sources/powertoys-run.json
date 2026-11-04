@@ -1,0 +1,29 @@
+{
+  "id": "powertoys-run",
+  "nom": "PowerToys Run",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/run",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerToys Run", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Alt+Espace par défaut, modifiable dans les réglages. Les préfixes de commandes (=, >, ?, etc.) se saisissent au clavier et ne sont pas des raccourcis.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/powertoys/run", "titre": "PowerToys Run - Quick Launcher (Microsoft Learn)" }
+  ],
+  "actions": [
+    { "id": "ouvrir-lanceur", "nom": "Ouvrir le lanceur", "groupe": "Lanceur", "win": "alt+space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "fermer-lanceur", "nom": "Fermer le lanceur", "groupe": "Lanceur", "win": "escape", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "element-suivant", "nom": "Élément suivant", "groupe": "Résultats", "win": "tab", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "list" },
+    { "id": "copier-chemin", "nom": "Copier le chemin", "groupe": "Fichiers", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy" },
+    { "id": "dossier-parent", "nom": "Dossier contenant", "groupe": "Fichiers", "win": "ctrl+shift+e", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "lancer-admin", "nom": "Lancer en admin", "groupe": "Applications", "win": "ctrl+shift+enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "shield" },
+    { "id": "autre-utilisateur", "nom": "Autre utilisateur", "groupe": "Applications", "win": "ctrl+shift+u", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "user-round" }
+  ],
+  "non_faisable": [
+    { "nom": "Commandes avec préfixe (=, >, ?)", "raison": "saisie de texte, pas un raccourci" }
+  ]
+}

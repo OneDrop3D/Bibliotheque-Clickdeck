@@ -1,0 +1,17 @@
+{
+  "id": "rainmeter",
+  "nom": "Rainmeter",
+  "editeur": "Rainmeter",
+  "site": "https://www.rainmeter.net/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Rainmeter", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci global par défaut trouvé : les touches se définissent dans les skins. La page de raccourcis du manuel n'a pas pu être lue (404) ; aucune action n'est proposée.",
+  "sources": [ { "url": "https://github.com/rainmeter/rainmeter", "titre": "Rainmeter - dépôt officiel" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Raccourcis propres à chaque skin", "raison": "dépend des skins installés" } ]
+}

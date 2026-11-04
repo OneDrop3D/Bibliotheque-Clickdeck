@@ -1,0 +1,53 @@
+{
+  "id": "topaz-gigapixel",
+  "nom": "Topaz Gigapixel",
+  "editeur": "Topaz Labs",
+  "site": "https://www.topazlabs.com/gigapixel-ai",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Topaz Gigapixel",
+    "mac": "Topaz Gigapixel"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci documenté par l'éditeur. Seules les commandes standard (Ouvrir, Tout sélectionner) sont proposées, à vérifier dans l'application. Ctrl+Maj+A retiré (non confirmé). Nom de lancement à vérifier selon la version installée (Gigapixel AI avant la v8).",
+  "sources": [],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Fichier",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "list-checks",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom par presets",
+      "raison": "réglage sans raccourci documenté"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "melonds",
+  "nom": "melonDS",
+  "editeur": "Projet melonDS (open source)",
+  "site": "https://melonds.kuribo64.net",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "melonDS",
+    "mac": "melonDS"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seuls les raccourcis de sauvegarde et de chargement d'état sont confirmés par la FAQ officielle. Les touches par défaut de pause, plein écran, avance rapide et reset existent dans le code (HK_Pause, HK_FullscreenToggle, HK_Reset, HK_FastForward) mais leurs valeurs par défaut n'ont pas pu être relevées : à compléter après vérification.",
+  "sources": [
+    {
+      "url": "https://melonds.kuribo64.net/faq.php",
+      "titre": "melonDS - FAQ (sauvegardes d'état)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "charger-etat-1",
+      "nom": "Charger slot 1",
+      "groupe": "États",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-etat-1",
+      "nom": "Sauver slot 1",
+      "groupe": "États",
+      "win": "shift+f1",
+      "mac": "shift+f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger-slot-2",
+      "nom": "Charger slot 2",
+      "groupe": "États",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-slot-2",
+      "nom": "Sauver slot 2",
+      "groupe": "États",
+      "win": "shift+f2",
+      "mac": "shift+f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger-slot-3",
+      "nom": "Charger slot 3",
+      "groupe": "États",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-slot-3",
+      "nom": "Sauver slot 3",
+      "groupe": "États",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "annuler-chargement",
+      "nom": "Annuler chargement",
+      "groupe": "États",
+      "win": "f12",
+      "mac": "f12",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

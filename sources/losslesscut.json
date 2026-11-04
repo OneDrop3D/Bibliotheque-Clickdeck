@@ -1,0 +1,293 @@
+{
+  "id": "losslesscut",
+  "nom": "LosslessCut",
+  "editeur": "Mifi",
+  "site": "https://losslesscut.app/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "LosslessCut",
+    "mac": "LosslessCut",
+    "linux": "losslesscut"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut tirés du code source (keyBindings). Ils sont liés aux touches physiques : sur clavier non QWERTY, les lettres peuvent différer. Les touches sans modificateur sont identiques sur Mac.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/mifi/lossless-cut/master/src/main/configStore.ts",
+      "titre": "LosslessCut - configStore.ts (keyBindings par défaut)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mifi/lossless-cut/master/src/main/menu.ts",
+      "titre": "LosslessCut - menu.ts (accélérateurs)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "ralentir",
+      "nom": "Ralentir",
+      "groupe": "Lecture",
+      "win": "j",
+      "mac": "j",
+      "linux": "j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "accelerer",
+      "nom": "Accélérer",
+      "groupe": "Lecture",
+      "win": "l",
+      "mac": "l",
+      "linux": "l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "period",
+      "mac": "period",
+      "linux": "period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Lecture",
+      "win": "comma",
+      "mac": "comma",
+      "linux": "comma",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "avance",
+      "nom": "Avancer",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": "right",
+      "linux": "right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "recul",
+      "nom": "Reculer",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": "left",
+      "linux": "left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "aller-temps",
+      "nom": "Aller au temps",
+      "groupe": "Lecture",
+      "win": "g",
+      "mac": "g",
+      "linux": "g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clock"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Lecture",
+      "win": "m",
+      "mac": "m",
+      "linux": "m",
+      "source": 0,
+      "priorite": 2,
+      "picto": "volume-x"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Affichage",
+      "win": "r",
+      "mac": "r",
+      "linux": "r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "debut-segment",
+      "nom": "Début du segment",
+      "groupe": "Segments",
+      "win": "i",
+      "mac": "i",
+      "linux": "i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-in"
+    },
+    {
+      "id": "fin-segment",
+      "nom": "Fin du segment",
+      "groupe": "Segments",
+      "win": "o",
+      "mac": "o",
+      "linux": "o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-out"
+    },
+    {
+      "id": "couper-segment",
+      "nom": "Scinder le segment",
+      "groupe": "Segments",
+      "win": "b",
+      "mac": "b",
+      "linux": "b",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "supprimer-segment",
+      "nom": "Suppr. segment",
+      "groupe": "Segments",
+      "win": "backspace",
+      "mac": "backspace",
+      "linux": "backspace",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "segment-suivant",
+      "nom": "Segment suivant",
+      "groupe": "Segments",
+      "win": "down",
+      "mac": "down",
+      "linux": "down",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "segment-precedent",
+      "nom": "Segment précédent",
+      "groupe": "Segments",
+      "win": "up",
+      "mac": "up",
+      "linux": "up",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "etiquette",
+      "nom": "Étiqueter",
+      "groupe": "Segments",
+      "win": "enter",
+      "mac": "enter",
+      "linux": "enter",
+      "source": 0,
+      "priorite": 2,
+      "picto": "tag"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Export",
+      "win": "e",
+      "mac": "e",
+      "linux": "e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "capture",
+      "nom": "Capturer l'image",
+      "groupe": "Export",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": "ctrl+shift+z",
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Ajouter un segment (+)",
+      "raison": "touche liée à la disposition du clavier (Maj+Égal physique)"
+    }
+  ]
+}

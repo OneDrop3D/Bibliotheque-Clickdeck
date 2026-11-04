@@ -1,0 +1,71 @@
+{
+  "id": "autodesk-fusion-360",
+  "nom": "Autodesk Fusion 360",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/fusion-360/overview",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Autodesk Fusion", "mac": "Autodesk Fusion" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page de référence Autodesk (Keyboard shortcuts reference) lue. Les raccourcis d'outils (une lettre) valent pour Windows et Mac. Les raccourcis Ctrl (Windows) et Command (macOS) sont donnés séparément. Les raccourcis Form, Électronique et Simulation ne sont pas repris. Les raccourcis peuvent se modifier dans les préférences.",
+  "sources": [
+    { "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-GetStarted/files/GUID-F0491540-0324-470A-B651-2238D0EFAC30.htm", "titre": "Autodesk Fusion - Keyboard shortcuts reference" }
+  ],
+  "actions": [
+    { "id": "extruder", "nom": "Extruder", "groupe": "Créer", "win": "e", "mac": "e", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-up-from-line" },
+    { "id": "trou", "nom": "Trou", "groupe": "Créer", "win": "h", "mac": "h", "linux": null, "source": 0, "priorite": 2, "picto": "circle-dot" },
+    { "id": "press-pull", "nom": "Press Pull", "groupe": "Créer", "win": "q", "mac": "q", "linux": null, "source": 0, "priorite": 1, "picto": "move-vertical" },
+    { "id": "conge", "nom": "Congé", "groupe": "Créer", "win": "f", "mac": "f", "linux": null, "source": 0, "priorite": 1, "picto": "corner-down-right" },
+
+    { "id": "deplacer", "nom": "Déplacer", "groupe": "Modifier", "win": "m", "mac": "m", "linux": null, "source": 0, "priorite": 1, "picto": "move" },
+    { "id": "boite-outils", "nom": "Boîte à outils", "groupe": "Modifier", "win": "s", "mac": "s", "linux": null, "source": 0, "priorite": 2, "picto": "wrench" },
+    { "id": "apparence", "nom": "Apparence", "groupe": "Modifier", "win": "a", "mac": "a", "linux": null, "source": 0, "priorite": 2, "picto": "palette" },
+    { "id": "visibilite", "nom": "Visibilité", "groupe": "Modifier", "win": "v", "mac": "v", "linux": null, "source": 0, "priorite": 2, "picto": "eye" },
+    { "id": "couleurs-composants", "nom": "Couleurs compos.", "groupe": "Modifier", "win": "shift+n", "mac": "shift+n", "linux": null, "source": 0, "priorite": 3, "picto": "paint-bucket" },
+    { "id": "tout-calculer", "nom": "Tout calculer", "groupe": "Modifier", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "refresh-cw" },
+
+    { "id": "ligne", "nom": "Ligne", "groupe": "Croquis", "win": "l", "mac": "l", "linux": null, "source": 0, "priorite": 1, "picto": "pencil-line" },
+    { "id": "rectangle", "nom": "Rectangle", "groupe": "Croquis", "win": "r", "mac": "r", "linux": null, "source": 0, "priorite": 1, "picto": "square" },
+    { "id": "cercle", "nom": "Cercle", "groupe": "Croquis", "win": "c", "mac": "c", "linux": null, "source": 0, "priorite": 1, "picto": "circle" },
+    { "id": "rogner", "nom": "Rogner", "groupe": "Croquis", "win": "t", "mac": "t", "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "decalage", "nom": "Décalage", "groupe": "Croquis", "win": "o", "mac": "o", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-right-left" },
+    { "id": "mesurer", "nom": "Mesurer", "groupe": "Croquis", "win": "i", "mac": "i", "linux": null, "source": 0, "priorite": 1, "picto": "ruler" },
+    { "id": "projeter", "nom": "Projeter", "groupe": "Croquis", "win": "p", "mac": "p", "linux": null, "source": 0, "priorite": 1, "picto": "square-dashed" },
+    { "id": "cotation", "nom": "Cotation", "groupe": "Croquis", "win": "d", "mac": "d", "linux": null, "source": 0, "priorite": 1, "picto": "ruler-dimension-line" },
+    { "id": "construction", "nom": "Construction", "groupe": "Croquis", "win": "x", "mac": "x", "linux": null, "source": 0, "priorite": 2, "picto": "square-dashed" },
+
+    { "id": "joint", "nom": "Joint", "groupe": "Assemblage", "win": "j", "mac": "j", "linux": null, "source": 0, "priorite": 2, "picto": "link" },
+    { "id": "joint-tel-quel", "nom": "Joint tel quel", "groupe": "Assemblage", "win": "shift+j", "mac": "shift+j", "linux": null, "source": 0, "priorite": 3, "picto": "link-2" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "shift+cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 2, "picto": "scissors" },
+    { "id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "delete", "linux": null, "source": 0, "priorite": 1, "picto": "trash-2" },
+    { "id": "selection-fenetre", "nom": "Sélection fenêtre", "groupe": "Édition", "win": "1", "mac": "1", "linux": null, "source": 0, "priorite": 3, "picto": "mouse-pointer-2" },
+    { "id": "selection-libre", "nom": "Sélection libre", "groupe": "Édition", "win": "2", "mac": "2", "linux": null, "source": 0, "priorite": 3, "picto": "lasso" },
+    { "id": "selection-peinture", "nom": "Sélection peinture", "groupe": "Édition", "win": "3", "mac": "3", "linux": null, "source": 0, "priorite": 3, "picto": "paintbrush" },
+
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Système", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Système", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Système", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "sauvegarde-recup", "nom": "Sauvegarde récup.", "groupe": "Système", "win": "ctrl+shift+s", "mac": "shift+cmd+s", "linux": null, "source": 0, "priorite": 2, "picto": "history" },
+    { "id": "onglet-suivant", "nom": "Onglet suivant", "groupe": "Système", "win": "ctrl+tab", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "panel-top" },
+    { "id": "espace-precedent", "nom": "Espace précédent", "groupe": "Système", "win": "ctrl+bracketleft", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "layout-dashboard" },
+    { "id": "espace-suivant", "nom": "Espace suivant", "groupe": "Système", "win": "ctrl+bracketright", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "layout-dashboard" },
+    { "id": "scripts", "nom": "Scripts et modules", "groupe": "Système", "win": "shift+s", "mac": "shift+s", "linux": null, "source": 0, "priorite": 3, "picto": "terminal" },
+    { "id": "afficher-navigateur", "nom": "Navigateur", "groupe": "Système", "win": "ctrl+alt+b", "mac": "alt+cmd+b", "linux": null, "source": 0, "priorite": 3, "picto": "panel-left" },
+    { "id": "disposition-defaut", "nom": "Disposition défaut", "groupe": "Système", "win": "ctrl+alt+r", "mac": "alt+cmd+r", "linux": null, "source": 0, "priorite": 3, "picto": "layout" },
+    { "id": "viewcube", "nom": "ViewCube", "groupe": "Système", "win": "ctrl+alt+v", "mac": "alt+cmd+v", "linux": null, "source": 0, "priorite": 3, "picto": "box" }
+  ],
+  "non_faisable": [
+    { "nom": "Pan (déplacer la vue)", "raison": "bouton central de la souris" },
+    { "nom": "Zoom de la vue", "raison": "molette" },
+    { "nom": "Orbite", "raison": "Maj + bouton central (souris maintenue)" },
+    { "nom": "Contrainte coïncidente milieu", "raison": "touche Maj seule, maintenue" }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": "emby",
+  "nom": "Emby",
+  "editeur": "Emby LLC",
+  "site": "https://emby.media",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Emby"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Emby (Web et Windows). Non vérifiés pour macOS, donc colonne Mac vide. Page précédente/suivante retirées : PgUp/PgDn ont deux sens dans la source et sont signalés non fonctionnels.",
+  "sources": [
+    {
+      "url": "https://emby.media/support/articles/Keyboard-and-Remote-Support.html",
+      "titre": "Keyboard and Remote Support (Emby)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "stop",
+      "nom": "Stop",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "avancer",
+      "nom": "Avancer",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "reculer",
+      "nom": "Reculer",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "chapitre-suivant",
+      "nom": "Chapitre suivant",
+      "groupe": "Lecture",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "chapitre-precedent",
+      "nom": "Chapitre précédent",
+      "groupe": "Lecture",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "lire-selection",
+      "nom": "Lire la sélection",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-play"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Audio",
+      "win": "m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Audio",
+      "win": "f10",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume −",
+      "groupe": "Audio",
+      "win": "f9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "piste-audio",
+      "nom": "Piste audio",
+      "groupe": "Audio",
+      "win": "ctrl+shift+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "sous-titres",
+      "nom": "Sous-titres",
+      "groupe": "Audio",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "subtitles"
+    },
+    {
+      "id": "accueil",
+      "nom": "Accueil",
+      "groupe": "Navigation",
+      "win": "home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "avant",
+      "nom": "Avant",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "fin-liste",
+      "nom": "Fin de liste",
+      "groupe": "Navigation",
+      "win": "end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-down-up"
+    },
+    {
+      "id": "live-tv",
+      "nom": "TV en direct",
+      "groupe": "TV en direct",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "tv"
+    },
+    {
+      "id": "guide-tv",
+      "nom": "Guide TV",
+      "groupe": "TV en direct",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-days"
+    },
+    {
+      "id": "enregistrer-tv",
+      "nom": "Enregistrer",
+      "groupe": "TV en direct",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "enregistrements",
+      "nom": "Enregistrements",
+      "groupe": "TV en direct",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "library"
+    },
+    {
+      "id": "infos",
+      "nom": "Infos du contenu",
+      "groupe": "Navigation",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Clic droit sur le contenu",
+      "raison": "souris"
+    }
+  ]
+}

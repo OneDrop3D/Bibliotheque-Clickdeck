@@ -1,0 +1,322 @@
+{
+  "id": "cursor",
+  "nom": "Cursor",
+  "editeur": "Anysphere",
+  "site": "https://cursor.com/docs/configuration/kbd",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Cursor",
+    "mac": "Cursor",
+    "linux": "cursor"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Cursor tirés de la page officielle (macOS uniquement ; Windows/Linux déduits en remplaçant Cmd par Ctrl) et raccourcis de base hérités de VS Code. Cmd+/ sert aussi à alterner les modèles dans le chat, mais commente toujours dans l'éditeur. Vérifier dans Réglages > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://cursor.com/docs/configuration/kbd",
+      "titre": "Keyboard shortcuts - Cursor"
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/getstarted/keybindings",
+      "titre": "Key bindings for Visual Studio Code (base reprise par Cursor)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "palette-commandes",
+      "nom": "Palette commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": "ctrl+shift+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "ouvrir-fichier-rapide",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-search",
+      "deduit": true
+    },
+    {
+      "id": "recherche-globale",
+      "nom": "Recherche globale",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": "ctrl+shift+f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "aller-definition",
+      "nom": "Aller à définition",
+      "groupe": "Navigation",
+      "win": "f12",
+      "mac": "f12",
+      "linux": "f12",
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-down-right",
+      "deduit": true
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": "ctrl+b",
+      "source": 1,
+      "priorite": 2,
+      "picto": "panel-left",
+      "deduit": true
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal",
+      "groupe": "Navigation",
+      "win": "ctrl+backquote",
+      "mac": "ctrl+backquote",
+      "linux": "ctrl+backquote",
+      "source": 1,
+      "priorite": 1,
+      "picto": "square-terminal",
+      "deduit": true
+    },
+    {
+      "id": "panneau-ia",
+      "nom": "Panneau IA",
+      "groupe": "IA",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square",
+      "deduit": true
+    },
+    {
+      "id": "accepter-suggestion",
+      "nom": "Accepter suggestion",
+      "groupe": "IA",
+      "win": "tab",
+      "mac": "tab",
+      "linux": "tab",
+      "source": 0,
+      "priorite": 1,
+      "picto": "check",
+      "deduit": true
+    },
+    {
+      "id": "accepter-mot",
+      "nom": "Accepter un mot",
+      "groupe": "IA",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": "ctrl+right",
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-cursor",
+      "deduit": true
+    },
+    {
+      "id": "accepter-changements",
+      "nom": "Accepter changements",
+      "groupe": "IA",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "check-check",
+      "deduit": true
+    },
+    {
+      "id": "rejeter-changements",
+      "nom": "Rejeter changements",
+      "groupe": "IA",
+      "win": "ctrl+shift+backspace",
+      "mac": "cmd+shift+backspace",
+      "linux": "ctrl+shift+backspace",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-au-chat",
+      "nom": "Ajouter au chat",
+      "groupe": "IA",
+      "win": "ctrl+shift+l",
+      "mac": "cmd+shift+l",
+      "linux": "ctrl+shift+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "menu-modes",
+      "nom": "Menu des modes",
+      "groupe": "IA",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": "ctrl+period",
+      "source": 0,
+      "priorite": 2,
+      "picto": "list",
+      "deduit": true
+    },
+    {
+      "id": "lancer-debogage",
+      "nom": "Lancer le débogage",
+      "groupe": "Débogage",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 1,
+      "priorite": 1,
+      "picto": "bug-play",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+/",
+      "mac": "cmd+slash",
+      "linux": "ctrl+slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square-code",
+      "deduit": true
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+shift+k",
+      "mac": "cmd+shift+k",
+      "linux": "ctrl+shift+k",
+      "source": 1,
+      "priorite": 2,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "nouveau-fichier",
+      "nom": "Nouveau fichier",
+      "groupe": "Fichiers",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

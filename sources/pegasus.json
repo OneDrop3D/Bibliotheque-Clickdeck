@@ -1,0 +1,25 @@
+{
+  "id": "pegasus",
+  "nom": "Pegasus",
+  "editeur": "Mátyás Mustoha",
+  "site": "https://pegasus-frontend.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Pegasus",
+    "mac": "Pegasus",
+    "linux": "pegasus-fe"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis par défaut non vérifiés : la page officielle de documentation renvoie 404 et la recherche en ligne n'a pas pu être effectuée (budget de recherche épuisé). Aucune action n'est proposée tant que la documentation n'a pas été relue. Seconde passe : sources toujours inaccessibles ou muettes.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

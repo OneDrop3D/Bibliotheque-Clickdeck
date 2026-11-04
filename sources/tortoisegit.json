@@ -1,0 +1,19 @@
+{
+  "id": "tortoisegit",
+  "nom": "TortoiseGit",
+  "editeur": "TortoiseGit",
+  "site": "https://tortoisegit.org/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "TortoiseGit" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Extension de l'Explorateur Windows, pilotée au clic droit. Aucun raccourci global utile n'a été trouvé : la page de documentation consultée ne liste pas de raccourcis (page 404 à l'adresse testée). Aucune action listée.",
+  "sources": [ { "url": "https://tortoisegit.org/", "titre": "TortoiseGit" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Commandes Git via menu contextuel", "raison": "souris (clic droit dans l'Explorateur)" }
+  ]
+}

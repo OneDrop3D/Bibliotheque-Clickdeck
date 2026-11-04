@@ -1,0 +1,17 @@
+{
+  "id": "goxlr",
+  "nom": "GoXLR App",
+  "editeur": "TC-Helicon (Ulbrich)",
+  "site": "https://github.com/GoXLR-on-Linux/GoXLR-Utility",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "GoXLR App", "mac": "GoXLR App" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application de pilotage de la table de mixage GoXLR : les fonctions passent par les boutons physiques de la table. La page du projet GoXLR Utility consultée ne mentionne aucun raccourci clavier. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://github.com/GoXLR-on-Linux/GoXLR-Utility", "titre": "GoXLR Utility (aucun raccourci mentionné)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Commandes de la table de mixage", "raison": "boutons physiques de la table" } ]
+}

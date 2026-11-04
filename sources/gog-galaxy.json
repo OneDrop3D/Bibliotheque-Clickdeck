@@ -1,0 +1,17 @@
+{
+  "id": "gog-galaxy",
+  "nom": "GOG Galaxy",
+  "editeur": "GOG",
+  "site": "https://www.gog.com/galaxy",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "GOG Galaxy", "mac": "GOG Galaxy" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source n'a pu être ouverte : la page d'aide GOG renvoie 403, la copie web.archive.org est refusée et la recherche web est épuisée. Aucun raccourci n'est relevé. À reprendre quand les sources seront accessibles.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

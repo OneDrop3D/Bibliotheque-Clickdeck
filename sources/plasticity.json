@@ -1,0 +1,24 @@
+{
+  "id": "plasticity",
+  "nom": "Plasticity",
+  "editeur": "Nea3D",
+  "site": "https://www.plasticity.xyz",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Plasticity", "mac": "Plasticity" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste de raccourcis CAO non vérifiée : la liste officielle (PDF de la documentation doc.plasticity.xyz) n'a pas pu être lue. Seules les commandes standard sont listées. A compléter depuis la liste des commandes de l'application.",
+  "sources": [],
+  "actions": [
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": null, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "cmd+shift+z", "linux": null, "source": null, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": null, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": null, "priorite": 2, "picto": "clipboard-paste", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": null, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": null, "priorite": 2, "picto": "folder-open", "deduit": true }
+  ],
+  "non_faisable": []
+}

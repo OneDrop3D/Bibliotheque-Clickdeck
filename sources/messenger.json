@@ -1,0 +1,23 @@
+{
+  "id": "messenger",
+  "nom": "Messenger Desktop",
+  "editeur": "Meta",
+  "site": "https://www.messenger.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Messenger", "mac": "Messenger" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Pas d'application de bureau officielle Messenger identifiée : la page messenger.com ne propose que les apps mobiles et le web. Aucun raccourci spécifique relevé ; à rattacher au navigateur ou à ne pas publier hors pack de lancement.",
+  "sources": [
+    { "url": "https://www.messenger.com/", "titre": "Messenger - site officiel (aucun raccourci listé)" }
+  ],
+  "actions": [
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": "ctrl+f", "mac": "cmd+f", "linux": "ctrl+f", "source": 0, "priorite": 2, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Raccourcis spécifiques à Messenger", "raison": "aucune application de bureau officielle ni liste de raccourcis" }
+  ]
+}

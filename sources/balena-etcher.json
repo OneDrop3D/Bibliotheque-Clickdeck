@@ -1,0 +1,24 @@
+{
+  "id": "balena-etcher",
+  "nom": "balenaEtcher",
+  "editeur": "balena",
+  "site": "https://etcher.balena.io/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "balenaEtcher", "mac": "balenaEtcher", "linux": "balenaEtcher" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur le site officiel ni sur le dépôt GitHub (README). Seule la commande standard Quitter est proposée, avec sa combinaison usuelle du système.",
+  "sources": [
+    { "url": "https://etcher.balena.io/", "titre": "balenaEtcher - site officiel" },
+    { "url": "https://github.com/balena-io/etcher", "titre": "balena-io/etcher - README" }
+  ],
+  "actions": [
+    { "id": "quitter", "nom": "Quitter", "groupe": "Application", "win": "alt+f4", "mac": "cmd+q", "linux": null, "source": 0, "priorite": 2, "picto": "log-out", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Flash d'une image sur une clé USB", "raison": "séquence de sélection à la souris, pas de raccourci" }
+  ]
+}

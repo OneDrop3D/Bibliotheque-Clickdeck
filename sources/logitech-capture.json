@@ -1,0 +1,17 @@
+{
+  "id": "logitech-capture",
+  "nom": "Logitech Capture",
+  "editeur": "Logitech",
+  "site": "https://www.logitech.com/en-us/software/capture.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Logitech Capture", "mac": "Logitech Capture" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle Logitech lue : aucun raccourci clavier listé. Application de réglage de webcam, pilotée à la souris ; les fonctions utiles passent par les réglages de l'application.",
+  "sources": [ { "url": "https://www.logitech.com/en-us/software/capture.html", "titre": "Logitech Capture - page officielle" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages de la webcam", "raison": "réglage sans raccourci" } ]
+}

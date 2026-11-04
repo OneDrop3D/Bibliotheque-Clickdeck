@@ -1,0 +1,330 @@
+{
+  "id": "clip-studio-paint",
+  "nom": "Clip Studio Paint",
+  "editeur": "Celsys",
+  "site": "https://www.clipstudio.net/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "CLIP STUDIO PAINT",
+    "mac": "CLIP STUDIO PAINT"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste partielle : la page officielle consultée ne donne que les opérations avec modificateurs et souris ; les touches de menu et d'outils viennent d'un guide tiers (clipstudio.net, non daté) et restent à recouper. Mac : lettres identiques à Windows (application multiplateforme) et Ctrl remplacé par Cmd. Les raccourcis modifiables dans les réglages peuvent différer. Pot de peinture retiré : la touche F du guide tiers n'est pas confirmée (la touche habituelle du remplissage est G, non sourcée).",
+  "sources": [
+    {
+      "url": "https://help.clip-studio.com/en-us/manual_en/780_shortcuts/Shortcuts_usable_during_operation.htm",
+      "titre": "CLIP STUDIO PAINT manual - Shortcuts usable during operation (officielle)"
+    },
+    {
+      "url": "https://www.clipstudio.net/how-to-draw/archives/155375",
+      "titre": "Keyboard Shortcut Guide for Artists (guide tiers)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "outil-pinceau",
+      "nom": "Pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "outil-stylo",
+      "nom": "Stylo",
+      "groupe": "Outils",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "outil-gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "outil-pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "pinceau-plus",
+      "nom": "Pinceau plus large",
+      "groupe": "Outils",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "plus"
+    },
+    {
+      "id": "pinceau-moins",
+      "nom": "Pinceau plus fin",
+      "groupe": "Outils",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "afficher-palettes",
+      "nom": "Afficher palettes",
+      "groupe": "Affichage",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "panel-left"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Affichage",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 1,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer la vue (barre d'espace + glisser)",
+      "raison": "touche maintenue + souris"
+    },
+    {
+      "nom": "Pipette temporaire (Alt maintenu + clic)",
+      "raison": "touche maintenue + souris"
+    },
+    {
+      "nom": "Rotation de la vue (Maj + barre d'espace + glisser)",
+      "raison": "touche maintenue + souris"
+    },
+    {
+      "nom": "Taille du pinceau à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

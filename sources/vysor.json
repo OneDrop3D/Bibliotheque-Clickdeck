@@ -1,0 +1,25 @@
+{
+  "id": "vysor",
+  "nom": "Vysor",
+  "editeur": "Vysor",
+  "site": "https://www.vysor.io/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Vysor",
+    "mac": "Vysor",
+    "linux": "Vysor"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci confirmé par une source actuelle (seules des sources de 2015-2016 évoquent Échap et Accueil). Application de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

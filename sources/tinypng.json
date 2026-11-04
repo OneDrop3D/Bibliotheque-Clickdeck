@@ -1,0 +1,21 @@
+{
+  "id": "tinypng",
+  "nom": "TinyPNG",
+  "editeur": "Voormedia",
+  "site": "https://tinypng.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "TinyPNG", "mac": "TinyPNG" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Service web (navigateur) sans raccourci clavier documenté. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://tinypng.com", "titre": "TinyPNG - page d'accueil" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Compression PNG/JPG/WebP/AVIF", "raison": "sans raccourci clavier documenté" },
+    { "nom": "Glisser-déposer des images", "raison": "souris" },
+    { "nom": "Téléchargement des images compressées", "raison": "sans raccourci clavier documenté" }
+  ]
+}

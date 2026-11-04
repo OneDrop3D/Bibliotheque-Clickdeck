@@ -1,0 +1,17 @@
+{
+  "id": "makemkv",
+  "nom": "MakeMKV",
+  "editeur": "MakeMKV",
+  "site": "https://www.makemkv.com",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "MakeMKV", "mac": "MakeMKV", "linux": "makemkv" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier de l'interface graphique trouvé dans la documentation officielle lue (makemkvcon, options en ligne de commande uniquement). Pas de raccourci sourcé : fichier livré sans action, pour le pack de lancement.",
+  "sources": [ { "url": "https://www.makemkv.com/developers/usage.txt", "titre": "MakeMKV - usage (makemkvcon)" } ],
+  "actions": [],
+  "non_faisable": []
+}

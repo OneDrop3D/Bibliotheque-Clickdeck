@@ -1,0 +1,17 @@
+{
+  "id": "emastered",
+  "nom": "eMastered",
+  "editeur": "eMastered",
+  "site": "https://emastered.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "eMastered", "mac": "eMastered" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Service web de mastering : aucun raccourci clavier trouvé sur la page consultée (contenu tronqué). Recherche web épuisée, aide eMastered non lue.",
+  "sources": [ { "url": "https://emastered.com", "titre": "Page d'accueil eMastered (aucun raccourci trouvé)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Application web, aucun raccourci documenté", "raison": "sans raccourci" } ]
+}

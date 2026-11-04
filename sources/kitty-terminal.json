@@ -1,0 +1,236 @@
+{
+  "id": "kitty-terminal",
+  "nom": "Kitty",
+  "editeur": "Kovid Goyal",
+  "site": "https://sw.kovidgoyal.net/kitty/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "kitty"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis macOS tirés de la documentation de configuration de kitty (section Keyboard shortcuts). Sous Linux, le préfixe par défaut est ctrl+shift, non détaillé ici : ces actions ne sont pas proposées pour Linux.",
+  "sources": [
+    {
+      "url": "https://sw.kovidgoyal.net/kitty/conf/",
+      "titre": "kitty configuration (Keyboard shortcuts)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "fermer-fenetre",
+      "nom": "Fermer fenêtre",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "shift+cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "ctrl+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "agrandir-police",
+      "nom": "Agrandir police",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "reduire-police",
+      "nom": "Réduire police",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "taille-police-defaut",
+      "nom": "Taille par défaut",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "effacer-ecran",
+      "nom": "Effacer l'écran",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eraser"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "nouveau-panneau",
+      "nom": "Nouveau panneau",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "columns-2"
+    },
+    {
+      "id": "debut-historique",
+      "nom": "Aller en haut",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+home",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "fin-historique",
+      "nom": "Aller en bas",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+end",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-to-line"
+    }
+  ],
+  "non_faisable": []
+}

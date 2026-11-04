@@ -1,0 +1,290 @@
+{
+  "id": "zoom",
+  "nom": "Zoom",
+  "editeur": "Zoom",
+  "site": "https://zoom.us",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Zoom",
+    "mac": "zoom.us",
+    "linux": "zoom"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du client bureau selon la page officielle Zoom (KB0067050). Sous Windows, Alt+S, Alt+Maj+S et Alt+T ne marchent que si la barre de contrôles de réunion a le focus. Sur Mac, Vue galerie et Vue orateur sont un cycle sur Maj+Cmd+W. Couper tous (sauf l'hôte) est réservé à l'hôte. Modifiables dans les paramètres Raccourcis clavier. Vue orateur n'a pas de raccourci Mac distinct (même touche que Vue galerie, cycle).",
+  "sources": [
+    {
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067050",
+      "titre": "Using hot keys and keyboard shortcuts (Zoom)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "micro",
+      "nom": "Micro on/off",
+      "groupe": "Audio",
+      "win": "alt+a",
+      "mac": "shift+cmd+a",
+      "linux": "alt+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic"
+    },
+    {
+      "id": "couper-tous",
+      "nom": "Couper tous",
+      "groupe": "Audio",
+      "win": "alt+m",
+      "mac": "ctrl+cmd+m",
+      "linux": "alt+m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic-off"
+    },
+    {
+      "id": "camera",
+      "nom": "Caméra on/off",
+      "groupe": "Vidéo",
+      "win": "alt+v",
+      "mac": "shift+cmd+v",
+      "linux": "alt+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "video"
+    },
+    {
+      "id": "changer-camera",
+      "nom": "Changer caméra",
+      "groupe": "Vidéo",
+      "win": "alt+n",
+      "mac": "shift+cmd+n",
+      "linux": "alt+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "switch-camera"
+    },
+    {
+      "id": "vue-galerie",
+      "nom": "Vue galerie",
+      "groupe": "Vidéo",
+      "win": "alt+f2",
+      "mac": "shift+cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "vue-orateur",
+      "nom": "Vue orateur",
+      "groupe": "Vidéo",
+      "win": "alt+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "user"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Vidéo",
+      "win": "alt+f",
+      "mac": "shift+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "partage-ecran",
+      "nom": "Partage écran",
+      "groupe": "Partage",
+      "win": "alt+s",
+      "mac": "shift+cmd+s",
+      "linux": "alt+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "monitor-up"
+    },
+    {
+      "id": "pause-partage",
+      "nom": "Pause partage",
+      "groupe": "Partage",
+      "win": "alt+t",
+      "mac": "shift+cmd+t",
+      "linux": "alt+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "fenetres-partage",
+      "nom": "Fenêtres partage",
+      "groupe": "Partage",
+      "win": "shift+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "app-window"
+    },
+    {
+      "id": "lever-main",
+      "nom": "Lever la main",
+      "groupe": "Interaction",
+      "win": "alt+y",
+      "mac": "alt+y",
+      "linux": "alt+y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "reactions",
+      "nom": "Réactions",
+      "groupe": "Interaction",
+      "win": "ctrl+shift+y",
+      "mac": "shift+cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "smile"
+    },
+    {
+      "id": "chat",
+      "nom": "Chat",
+      "groupe": "Interaction",
+      "win": "alt+h",
+      "mac": "shift+cmd+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "participants",
+      "nom": "Participants",
+      "groupe": "Interaction",
+      "win": "alt+u",
+      "mac": "cmd+u",
+      "linux": "alt+u",
+      "source": 0,
+      "priorite": 1,
+      "picto": "users"
+    },
+    {
+      "id": "inviter",
+      "nom": "Inviter",
+      "groupe": "Interaction",
+      "win": "alt+i",
+      "mac": "cmd+i",
+      "linux": "alt+i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "user-plus"
+    },
+    {
+      "id": "copier-lien",
+      "nom": "Copier lien",
+      "groupe": "Interaction",
+      "win": "shift+alt+i",
+      "mac": "shift+cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "enregistrer-pc",
+      "nom": "Enregistrer PC",
+      "groupe": "Enregistrement",
+      "win": "alt+r",
+      "mac": "shift+cmd+r",
+      "linux": "alt+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "enregistrer-cloud",
+      "nom": "Enregistrer cloud",
+      "groupe": "Enregistrement",
+      "win": "alt+c",
+      "mac": "shift+cmd+c",
+      "linux": "alt+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "cloud"
+    },
+    {
+      "id": "pause-enregistrement",
+      "nom": "Pause enregistr.",
+      "groupe": "Enregistrement",
+      "win": "alt+p",
+      "mac": "shift+cmd+p",
+      "linux": "alt+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "barre-flottante",
+      "nom": "Barre flottante",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+alt+h",
+      "mac": "ctrl+alt+cmd+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-top"
+    },
+    {
+      "id": "quitter-reunion",
+      "nom": "Quitter réunion",
+      "groupe": "Session",
+      "win": "alt+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-out"
+    },
+    {
+      "id": "fermer-fenetre",
+      "nom": "Fermer fenêtre",
+      "groupe": "Session",
+      "win": "alt+f4",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "x"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Push-to-talk",
+      "raison": "touche maintenue (Espace sur Mac)"
+    },
+    {
+      "nom": "Changement d'appareil micro",
+      "raison": "pas de raccourci documenté dans la page officielle"
+    },
+    {
+      "nom": "Changement d'appareil caméra",
+      "raison": "pas de raccourci documenté dans la page officielle"
+    },
+    {
+      "nom": "Fond virtuel",
+      "raison": "pas de raccourci documenté dans la page officielle"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "arturia-v-collection",
+  "nom": "Arturia V Collection",
+  "editeur": "Arturia",
+  "site": "https://www.arturia.com/v-collection",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Arturia V Collection", "mac": "Arturia V Collection" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Collection de plugins d'instruments. Le manuel officiel de chaque instrument ne décrit que le clavier virtuel à l'écran. Un article de presse sur la version 9.1 mentionne des raccourcis de navigation des sons, mais aucune liste vérifiée n'a pu être ouverte (page de l'éditeur indisponible). À vérifier sur la version installée.",
+  "sources": [
+    { "url": "https://www.soundonsound.com/news/arturia-update-v-collection", "titre": "Sound On Sound - Arturia V Collection update (9.1)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Jouer les notes au clavier virtuel", "raison": "souris" },
+    { "nom": "Tourner les boutons des instruments", "raison": "souris ou molette" }
+  ]
+}

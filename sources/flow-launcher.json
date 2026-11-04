@@ -1,0 +1,181 @@
+{
+  "id": "flow-launcher",
+  "nom": "Flow Launcher",
+  "editeur": "Flow-Launcher (projet open source)",
+  "site": "https://www.flowlauncher.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Flow Launcher"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Alt+Espace ouvre la recherche par défaut ; ce raccourci est modifiable dans les réglages de Flow Launcher.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher/master/README.md",
+      "titre": "Flow Launcher - README officiel, section Hotkeys"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-recherche",
+      "nom": "Ouvrir recherche",
+      "groupe": "Recherche",
+      "win": "alt+space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "masquer",
+      "nom": "Masquer",
+      "groupe": "Recherche",
+      "win": "escape",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "executer",
+      "nom": "Exécuter",
+      "groupe": "Résultats",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Suivant",
+      "groupe": "Résultats",
+      "win": "tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Précédent",
+      "groupe": "Résultats",
+      "win": "shift+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "menu-contextuel",
+      "nom": "Menu contextuel",
+      "groupe": "Résultats",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "menu"
+    },
+    {
+      "id": "executer-admin",
+      "nom": "Exécuter en admin",
+      "groupe": "Résultats",
+      "win": "ctrl+shift+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "shield"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir dossier",
+      "groupe": "Fichiers",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "dossier-precedent",
+      "nom": "Dossier précédent",
+      "groupe": "Fichiers",
+      "win": "ctrl+backspace",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-up"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Recherche",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu",
+      "groupe": "Résultats",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye"
+    },
+    {
+      "id": "historique",
+      "nom": "Historique",
+      "groupe": "Recherche",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "history"
+    },
+    {
+      "id": "copier-chemin",
+      "nom": "Copier le chemin",
+      "groupe": "Fichiers",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "recharger-plugins",
+      "nom": "Recharger plugins",
+      "groupe": "Recherche",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    }
+  ],
+  "non_faisable": []
+}

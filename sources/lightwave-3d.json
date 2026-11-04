@@ -1,0 +1,372 @@
+{
+  "id": "lightwave-3d",
+  "nom": "LightWave 3D",
+  "editeur": "LightWave Group",
+  "site": "https://www.lightwave3d.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "LightWave 3D",
+    "mac": "LightWave 3D"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : liste communautaire DefKey, mise à jour en 2019, sans version précisée ; elle ne couvre que Modeler et Layout. Vérifier dans F1 (Configure Keys) avant publication. Raccourcis Mac non relevés : champs laissés vides. Les raccourcis Layout sont dans une seule section partielle de la liste. Les touches S, Ctrl+O, Ctrl+S, Maj+N s'appliquent à Modeler (objet) et Layout (scène). Couper/Copier/Coller/Supprimer sont des commandes standard non relevées dans la source.",
+  "sources": [
+    {
+      "url": "https://defkey.com/lightwave-3d-shortcuts",
+      "titre": "DefKey : LightWave 3D shortcuts (liste de 2019)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer-scene",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-objet-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "vider-scene",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "shift+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Édition",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help"
+    },
+    {
+      "id": "tout-cadrer",
+      "nom": "Tout cadrer",
+      "groupe": "Vue",
+      "win": "a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "cadrer-selection",
+      "nom": "Cadrer sélection",
+      "groupe": "Vue",
+      "win": "shift+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "focus"
+    },
+    {
+      "id": "centrer-curseur",
+      "nom": "Centrer curseur",
+      "groupe": "Vue",
+      "win": "g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Vue",
+      "win": "period",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Vue",
+      "win": "comma",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Modélisation",
+      "win": "t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Modélisation",
+      "win": "y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "taille",
+      "nom": "Taille",
+      "groupe": "Modélisation",
+      "win": "shift+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "extruder",
+      "nom": "Extruder",
+      "groupe": "Modélisation",
+      "win": "shift+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-up"
+    },
+    {
+      "id": "biseau",
+      "nom": "Biseau",
+      "groupe": "Modélisation",
+      "win": "b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box"
+    },
+    {
+      "id": "couteau",
+      "nom": "Couteau",
+      "groupe": "Modélisation",
+      "win": "shift+k",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "subdiviser",
+      "nom": "Subdiviser",
+      "groupe": "Modélisation",
+      "win": "shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "booleen",
+      "nom": "Booléen",
+      "groupe": "Modélisation",
+      "win": "shift+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "combine"
+    },
+    {
+      "id": "miroir",
+      "nom": "Miroir",
+      "groupe": "Modélisation",
+      "win": "shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "mode-points",
+      "nom": "Mode points",
+      "groupe": "Modélisation",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "dot"
+    },
+    {
+      "id": "mode-polygones",
+      "nom": "Mode polygones",
+      "groupe": "Modélisation",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hexagon"
+    },
+    {
+      "id": "masquer-selection",
+      "nom": "Masquer sélection",
+      "groupe": "Modélisation",
+      "win": "minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "editeur-scene",
+      "nom": "Éditeur de scène",
+      "groupe": "Fenêtres",
+      "win": "ctrl+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-list"
+    },
+    {
+      "id": "editeur-courbes",
+      "nom": "Éditeur de courbes",
+      "groupe": "Fenêtres",
+      "win": "ctrl+f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chart-spline"
+    },
+    {
+      "id": "editeur-surface",
+      "nom": "Éditeur de surface",
+      "groupe": "Fenêtres",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "palette"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation de la vue",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

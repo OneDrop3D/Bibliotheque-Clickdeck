@@ -1,0 +1,22 @@
+{
+  "id": "noxplayer",
+  "nom": "NoxPlayer",
+  "editeur": "Bignox",
+  "site": "https://www.bignox.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "NoxPlayer", "mac": "NoxPlayer" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Émulateur Android : la page officielle des touches (support.bignox.com/en/keyboard/full) ne liste aucun raccourci global par défaut. Les touches par défaut relevées concernent le mappage de jeu (WASD pour le pavé directionnel, flèches pour la vue). Le raccourci Ctrl+1 pour ouvrir le mappage de touches est mentionné par le blog officiel, non vérifié ici. Les réglages se font dans Paramètres > Raccourcis.",
+  "sources": [
+    { "url": "https://support.bignox.com/en/keyboard/full", "titre": "NoxPlayer - Keyboard (support officiel)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Touches de jeu par profil (WASD, visée)", "raison": "réglage sans raccourci global, défini par jeu" },
+    { "nom": "Zoom à la molette", "raison": "molette" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "kde-connect",
+  "nom": "KDE Connect",
+  "editeur": "KDE",
+  "site": "https://kdeconnect.kde.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "KDE Connect",
+    "mac": "KDE Connect",
+    "linux": "KDE Connect"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci global documenté ; application de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

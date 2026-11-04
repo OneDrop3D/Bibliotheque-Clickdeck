@@ -1,0 +1,19 @@
+{
+  "id": "vortex",
+  "nom": "Vortex",
+  "editeur": "Nexus Mods",
+  "site": "https://www.nexusmods.com/about/vortex",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Vortex" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté trouvé dans la documentation consultée (dépôt GitHub officiel). Aucune action retenue : à vérifier sur le site Nexus Mods avant de compléter.",
+  "sources": [
+    { "url": "https://github.com/nexus-mods/vortex", "titre": "Dépôt GitHub officiel de Vortex" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

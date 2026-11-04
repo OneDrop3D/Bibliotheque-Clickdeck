@@ -1,0 +1,20 @@
+{
+  "id": "waves-plugins",
+  "nom": "Waves Plugins",
+  "editeur": "Waves Audio",
+  "site": "https://www.waves.com/support/emotion-lv1-keyboard-shortcuts",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Waves Central", "mac": "Waves Central" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Suite de plugins sans table de raccourcis trouvée. La recherche n'a donné que les raccourcis de la console eMotion LV1 (non relevés ici, ce ne sont pas des raccourcis de plugin), et une page générale indiquant que la plupart des contrôles reviennent à leur valeur par défaut via un clic avec modificateur. Vérifier sur le site Waves avant de publier.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Remettre un contrôle à sa valeur par défaut", "raison": "souris (clic avec modificateur)" },
+    { "nom": "Régler un contrôle à la molette", "raison": "molette" }
+  ]
+}

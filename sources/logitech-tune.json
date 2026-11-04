@@ -1,0 +1,17 @@
+{
+  "id": "logitech-tune",
+  "nom": "Logitech Tune",
+  "editeur": "Logitech",
+  "site": "https://www.logitech.com/en-us/software/tune.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Logitech Tune", "mac": "Logitech Tune" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle non accessible au moment de la lecture (HTTP 404) et recherche web indisponible : aucun raccourci vérifié. Application de réglage audio à utiliser à la souris ; à revérifier.",
+  "sources": [ { "url": "https://www.logitech.com/en-us/software/tune.html", "titre": "Logitech Tune - page officielle (inaccessible, 404)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages du micro", "raison": "réglage sans raccourci" } ]
+}

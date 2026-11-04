@@ -1,0 +1,281 @@
+{
+  "id": "cinema-4d",
+  "nom": "Cinema 4D",
+  "editeur": "Maxon",
+  "site": "https://www.maxon.net/en/cinema-4d",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Cinema 4D",
+    "mac": "Cinema 4D"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis issus de la page officielle Maxon (Shortcuts, 2027) ; Mac : Cmd à la place de Ctrl d'après la page. Modes Points/Polygones (P/O) retirés : listés seulement pour le Gestionnaire de structure. Annuler (Ctrl+Z) est la commande standard ; la page cite Shift+Z (annulation d'action), non retenu. Redo non listé. Ctrl+Tab (plein écran) : Windows seulement, Cmd+Tab est réservé au système.",
+  "sources": [
+    {
+      "url": "https://help.maxon.net/c4d/2027/en-us/Content/html/Shortcuts.html.md",
+      "titre": "Cinema 4D 2027 : Shortcuts (Maxon)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Sélection",
+      "win": "backspace",
+      "mac": "backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "rendu-vue",
+      "nom": "Rendu de la vue",
+      "groupe": "Rendu",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "cadrer-geometrie",
+      "nom": "Cadrer géométrie",
+      "groupe": "Vue",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "cadrer-selection",
+      "nom": "Cadrer sélection",
+      "groupe": "Vue",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "focus"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Vue",
+      "win": "ctrl+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture",
+      "groupe": "Animation",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "enregistrer-cles",
+      "nom": "Enregistrer clés",
+      "groupe": "Animation",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "selection-active",
+      "nom": "Sélection active",
+      "groupe": "Sélection",
+      "win": "9",
+      "mac": "9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "selection-libre",
+      "nom": "Sélection libre",
+      "groupe": "Sélection",
+      "win": "8",
+      "mac": "8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lasso"
+    },
+    {
+      "id": "selection-rect",
+      "nom": "Sélection rect.",
+      "groupe": "Sélection",
+      "win": "0",
+      "mac": "0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "dissoudre",
+      "nom": "Dissoudre",
+      "groupe": "Sélection",
+      "win": "ctrl+backspace",
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "rendu-visionneuse",
+      "nom": "Rendu visionneuse",
+      "groupe": "Rendu",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêt",
+      "groupe": "Animation",
+      "win": "f7",
+      "mac": "f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation de la vue",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

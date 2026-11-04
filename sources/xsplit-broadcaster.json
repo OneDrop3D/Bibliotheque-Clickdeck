@@ -1,0 +1,21 @@
+{
+  "id": "xsplit-broadcaster",
+  "nom": "XSplit Broadcaster",
+  "editeur": "SplitmediaLabs",
+  "site": "https://www.xsplit.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "XSplit Broadcaster" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle des réglages (Hotkeys) décrit comment assigner des raccourcis, sans lister de raccourcis par défaut. Le mode Basic n'accepte que des combinaisons avec modificateur ; les modes Global et Application existent. Aucune liste par défaut n'a été trouvée : aucune action proposée. À définir dans XBC > Paramètres > Hotkeys.",
+  "sources": [ { "url": "https://support.xsplit.com/en/article/settings-9b70rh/", "titre": "XSplit - Settings (manuel utilisateur)" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Démarrer / arrêter diffusion", "raison": "aucun raccourci par défaut sourcé" },
+    { "nom": "Démarrer / arrêter enregistrement", "raison": "aucun raccourci par défaut sourcé" },
+    { "nom": "Changer de scène", "raison": "aucun raccourci par défaut sourcé" }
+  ]
+}

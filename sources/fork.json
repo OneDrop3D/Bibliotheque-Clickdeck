@@ -1,0 +1,185 @@
+{
+  "id": "fork",
+  "nom": "Fork",
+  "editeur": "Fork (Dan Pristupa)",
+  "site": "https://git-fork.com",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Fork"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Mac uniquement. Sources tierces non officielles ; commit, push, pull et onglets 1/2 concordent entre deux sources. Retirées car les sources se contredisent : nouvelle branche (cmd+b ou cmd+shift+b) et mise de côté (cmd+shift+s ou cmd+shift+h). Page officielle inaccessible (404).",
+  "sources": [
+    {
+      "url": "https://www.pie-menu.com/shortcuts/fork",
+      "titre": "Fork keyboard shortcuts (pie-menu, tiers, sans date)"
+    },
+    {
+      "url": "https://terminal.guide/tools/git-tool/fork",
+      "titre": "Fork, terminal.guide (tiers)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "valider",
+      "nom": "Valider (commit)",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-commit-horizontal"
+    },
+    {
+      "id": "valider-envoyer",
+      "nom": "Valider et envoyer",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+shift+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "upload"
+    },
+    {
+      "id": "envoyer",
+      "nom": "Envoyer (push)",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+shift+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload"
+    },
+    {
+      "id": "recuperer",
+      "nom": "Récupérer (fetch)",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "tirer",
+      "nom": "Tirer (pull)",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download-cloud"
+    },
+    {
+      "id": "ouvrir-depot",
+      "nom": "Ouvrir un dépôt",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "rafraichir",
+      "nom": "Rafraîchir",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "palette-rapide",
+      "nom": "Lancement rapide",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "rechercher-commits",
+      "nom": "Rechercher commits",
+      "groupe": "Dépôts",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "modifications",
+      "nom": "Modifications",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-diff"
+    },
+    {
+      "id": "tous-commits",
+      "nom": "Tous les commits",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "revenir-head",
+      "nom": "Revenir à HEAD",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "crosshair"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    }
+  ],
+  "non_faisable": []
+}

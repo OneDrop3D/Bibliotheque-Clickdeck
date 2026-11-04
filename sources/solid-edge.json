@@ -1,0 +1,39 @@
+{
+  "id": "solid-edge",
+  "nom": "Solid Edge",
+  "editeur": "Siemens",
+  "site": "https://solidedge.siemens.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Solid Edge" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le blog officiel Siemens (Ctrl+S/X/Z/Y/P, vues Ctrl+T/B/R/L/F/K/I/J/M). Alt+1, Alt+4, Alt+A, Alt+P et Ctrl+F1 retirés : absents de la source. Ctrl+O et Ctrl+Y/Z sont standard. Pour la liste complète, ouvrir Personnaliser > Clavier > Toutes les affectations de clavier.",
+  "sources": [
+    { "url": "https://blogs.sw.siemens.com/solidedge/keyboard-shortcuts-in-the-solid-edge-interface/", "titre": "Keyboard shortcuts in the Solid Edge Interface (blog Siemens)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scissors" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard", "deduit": true },
+    { "id": "vue-dessus", "nom": "Vue de dessus", "groupe": "Vues", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "arrow-down-to-line" },
+    { "id": "vue-dessous", "nom": "Vue de dessous", "groupe": "Vues", "win": "ctrl+b", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-up-to-line" },
+    { "id": "vue-droite", "nom": "Vue de droite", "groupe": "Vues", "win": "ctrl+r", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-right-to-line" },
+    { "id": "vue-gauche", "nom": "Vue de gauche", "groupe": "Vues", "win": "ctrl+l", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-left-to-line" },
+    { "id": "vue-face", "nom": "Vue de face", "groupe": "Vues", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "square" },
+    { "id": "vue-arriere", "nom": "Vue arrière", "groupe": "Vues", "win": "ctrl+k", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "square-dashed" },
+    { "id": "vue-isometrique", "nom": "Vue isométrique", "groupe": "Vues", "win": "ctrl+i", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "box" },
+    { "id": "vue-dimetrique", "nom": "Vue dimétrique", "groupe": "Vues", "win": "ctrl+j", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "box" },
+    { "id": "vue-trimetrique", "nom": "Vue trimétrique", "groupe": "Vues", "win": "ctrl+m", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "box" }
+  ],
+  "non_faisable": [
+    { "nom": "Angle entre (A puis B)", "raison": "séquence de touches" }
+  ]
+}

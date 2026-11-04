@@ -1,0 +1,23 @@
+{
+  "id": "sourcetree",
+  "nom": "Sourcetree",
+  "editeur": "Atlassian",
+  "site": "https://www.sourcetreeapp.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Sourcetree",
+    "mac": "Sourcetree"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune action : documentation officielle des raccourcis introuvable (404) et aucune source tierce lisible. À relever avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

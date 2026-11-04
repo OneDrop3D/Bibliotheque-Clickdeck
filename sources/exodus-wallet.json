@@ -1,0 +1,17 @@
+{
+  "id": "exodus-wallet",
+  "nom": "Exodus Wallet",
+  "editeur": "Exodus Movement",
+  "site": "https://www.exodus.com/support",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Exodus", "mac": "Exodus" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier vérifié : la page support Exodus renvoie 403 Forbidden, et la copie d'archive n'a pas pu être lue. Aucune liste de fonctions sourcée. Application de portefeuille crypto, à utiliser sans raccourcis ClickDeck tant qu'une source lisible n'est pas trouvée.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

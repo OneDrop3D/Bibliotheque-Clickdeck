@@ -1,0 +1,43 @@
+{
+  "id": "google-docs",
+  "nom": "Google Docs",
+  "editeur": "Google",
+  "site": "https://docs.google.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Google Docs", "mac": "Google Docs" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application web (PWA). Les commandes standard sont marquées deduit ; la modifiabilité des raccourcis n'a pas été vérifiée dans les sources.",
+  "sources": [
+    { "url": "https://support.google.com/docs/answer/179738?hl=fr", "titre": "Raccourcis clavier Google Docs" }
+  ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+p", "linux": null, "source": 0, "priorite": 1, "picto": "printer", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "shift+cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "coller-sans-format", "nom": "Coller sans format", "groupe": "Édition", "win": "ctrl+shift+v", "mac": "shift+cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-type" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "scan", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search", "deduit": true },
+    { "id": "remplacer", "nom": "Remplacer", "groupe": "Édition", "win": "ctrl+h", "mac": "shift+cmd+h", "linux": null, "source": 0, "priorite": 1, "picto": "replace" },
+    { "id": "rechercher-menus", "nom": "Rechercher menus", "groupe": "Édition", "win": "alt+slash", "mac": "alt+slash", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "gras", "nom": "Gras", "groupe": "Mise en forme", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "bold", "deduit": true },
+    { "id": "italique", "nom": "Italique", "groupe": "Mise en forme", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "italic", "deduit": true },
+    { "id": "souligne", "nom": "Souligné", "groupe": "Mise en forme", "win": "ctrl+u", "mac": "cmd+u", "linux": null, "source": 0, "priorite": 1, "picto": "underline", "deduit": true },
+    { "id": "lien", "nom": "Ajouter un lien", "groupe": "Mise en forme", "win": "ctrl+k", "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "link" },
+    { "id": "liste-puces", "nom": "Liste à puces", "groupe": "Mise en forme", "win": "ctrl+shift+8", "mac": "shift+cmd+8", "linux": null, "source": 0, "priorite": 1, "picto": "list" },
+    { "id": "liste-numerotee", "nom": "Liste numérotée", "groupe": "Mise en forme", "win": "ctrl+shift+7", "mac": "shift+cmd+7", "linux": null, "source": 0, "priorite": 1, "picto": "list-ordered" },
+    { "id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": "ctrl+plus", "mac": "cmd+plus", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": "ctrl+minus", "mac": "cmd+minus", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "commentaire", "nom": "Commentaire", "groupe": "Outils", "win": "ctrl+alt+m", "mac": "alt+cmd+m", "linux": null, "source": 0, "priorite": 1, "picto": "message-square" },
+    { "id": "nombre-mots", "nom": "Nombre de mots", "groupe": "Outils", "win": "ctrl+shift+c", "mac": "shift+cmd+c", "linux": null, "source": 0, "priorite": 2, "picto": "hash" },
+    { "id": "orthographe", "nom": "Orthographe", "groupe": "Outils", "win": "ctrl+alt+x", "mac": "alt+cmd+x", "linux": null, "source": 0, "priorite": 3, "picto": "spell-check" }
+  ]
+}

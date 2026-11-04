@@ -1,0 +1,17 @@
+{
+  "id": "blue-sherpa",
+  "nom": "Blue Sherpa",
+  "editeur": "Blue Microphones (Logitech)",
+  "site": "https://www.logitechg.com/streaminggear",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Blue Sherpa", "mac": "Blue Sherpa" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page Blue Microphones redirigée vers la boutique Logitech G au moment de la lecture ; aucun raccourci vérifié. Application de réglage de micro à utiliser à la souris ; à revérifier.",
+  "sources": [ { "url": "https://www.bluemic.com/en-us/products/blue-sherpa/", "titre": "Blue Sherpa - page Blue Microphones (redirigée)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages du micro", "raison": "réglage sans raccourci" } ]
+}

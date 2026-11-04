@@ -1,0 +1,122 @@
+{
+  "id": "powertoys-fancyzones",
+  "nom": "PowerToys FancyZones",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/fancyzones",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "PowerToys",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. La touche Windows est notée cmd dans les raccourcis (token commun, à vérifier sur le firmware). Les raccourcis Win+flèches ne fonctionnent que si l'option Override Windows Snap est activée. Les commandes Win+Ctrl+Alt+chiffre n'existent qu'après avoir assigné une touche à un layout personnalisé. Win+Haut/Bas ne pilotent les zones qu'avec « Position relative » ; avec « Index de zone », seuls Win+Gauche/Droite sont repris.",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/powertoys/fancyzones",
+      "titre": "FancyZones - Microsoft Learn"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-editeur",
+      "nom": "Ouvrir l'éditeur",
+      "groupe": "Zones",
+      "win": "cmd+shift+backquote",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "fenetre-suivante",
+      "nom": "Fenêtre suivante",
+      "groupe": "Zones",
+      "win": "cmd+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "fenetre-precedente",
+      "nom": "Fenêtre précédente",
+      "groupe": "Zones",
+      "win": "cmd+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "zone-gauche",
+      "nom": "Zone à gauche",
+      "groupe": "Zones",
+      "win": "cmd+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "zone-droite",
+      "nom": "Zone à droite",
+      "groupe": "Zones",
+      "win": "cmd+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "zone-haut",
+      "nom": "Zone du haut",
+      "groupe": "Zones",
+      "win": "cmd+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "zone-bas",
+      "nom": "Zone du bas",
+      "groupe": "Zones",
+      "win": "cmd+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Snap à la souris (Maj + glisser)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Changer de layout à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Rotation entre écrans (Alt+X maintenu)",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Layout rapide Win+Ctrl+Alt+chiffre",
+      "raison": "réglage sans raccourci par défaut"
+    }
+  ]
+}

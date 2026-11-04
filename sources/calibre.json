@@ -1,0 +1,349 @@
+{
+  "id": "calibre",
+  "nom": "calibre",
+  "editeur": "Kovid Goyal",
+  "site": "https://calibre-ebook.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "calibre",
+    "mac": "calibre"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Windows/Linux tirés du manuel officiel (vérifié). Les raccourcis Ctrl ne sont pas confirmés sur Mac (le manuel ne donne que Cmd+V pour Visualiser un format) : colonne Mac vide pour ceux-là. Les touches seules (et Shift) sont identiques sur Mac. Rechercher : la touche / (barre oblique) met le focus sur la recherche, utilisée sur Mac.",
+  "sources": [
+    {
+      "url": "https://manual.calibre-ebook.com/gui.html",
+      "titre": "calibre manual - Keyboard shortcuts for the main calibre program"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ajouter-livres",
+      "nom": "Ajouter livres",
+      "groupe": "Livres",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "book-plus"
+    },
+    {
+      "id": "ajouter-formats",
+      "nom": "Ajouter formats",
+      "groupe": "Livres",
+      "win": "shift+a",
+      "mac": "shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "convertir",
+      "nom": "Convertir",
+      "groupe": "Livres",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-output"
+    },
+    {
+      "id": "envoyer-appareil",
+      "nom": "Envoyer appareil",
+      "groupe": "Livres",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Livres",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "metadonnees",
+      "nom": "Métadonnées",
+      "groupe": "Livres",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "tags"
+    },
+    {
+      "id": "telecharger-infos",
+      "nom": "Télécharger infos",
+      "groupe": "Livres",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "cloud-download"
+    },
+    {
+      "id": "obtenir-livres",
+      "nom": "Obtenir livres",
+      "groupe": "Livres",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shopping-bag"
+    },
+    {
+      "id": "details-livre",
+      "nom": "Détails du livre",
+      "groupe": "Livres",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "visualiser",
+      "nom": "Visualiser",
+      "groupe": "Livres",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "book-open"
+    },
+    {
+      "id": "dernier-livre-lu",
+      "nom": "Dernier livre lu",
+      "groupe": "Livres",
+      "win": "shift+v",
+      "mac": "shift+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "history"
+    },
+    {
+      "id": "enregistrer-disque",
+      "nom": "Enregistrer disque",
+      "groupe": "Livres",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hard-drive-download"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir dossier",
+      "groupe": "Livres",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "modifier-livre",
+      "nom": "Modifier le livre",
+      "groupe": "Livres",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "fusionner",
+      "nom": "Fusionner",
+      "groupe": "Livres",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-merge"
+    },
+    {
+      "id": "marquer",
+      "nom": "Marquer livres",
+      "groupe": "Livres",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "polir",
+      "nom": "Polir",
+      "groupe": "Livres",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sparkles"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "texte-integral",
+      "nom": "Texte intégral",
+      "groupe": "Recherche",
+      "win": "ctrl+slash",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "recherche-avancee",
+      "nom": "Recherche avancée",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-filter"
+    },
+    {
+      "id": "livre-suivant",
+      "nom": "Livre suivant",
+      "groupe": "Recherche",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-down"
+    },
+    {
+      "id": "livre-precedent",
+      "nom": "Livre précédent",
+      "groupe": "Recherche",
+      "win": "shift+n",
+      "mac": "shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-up"
+    },
+    {
+      "id": "quick-view",
+      "nom": "Aperçu rapide",
+      "groupe": "Recherche",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "barre-recherche",
+      "nom": "Barre recherche",
+      "groupe": "Affichage",
+      "win": "shift+alt+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-top"
+    },
+    {
+      "id": "navigateur-tags",
+      "nom": "Navigateur tags",
+      "groupe": "Affichage",
+      "win": "alt+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "tags"
+    },
+    {
+      "id": "couvertures",
+      "nom": "Couvertures",
+      "groupe": "Affichage",
+      "win": "alt+shift+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "panneau-details",
+      "nom": "Panneau détails",
+      "groupe": "Affichage",
+      "win": "alt+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Application",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power",
+      "deduit": true
+    },
+    {
+      "id": "defilement-auto",
+      "nom": "Défilement auto",
+      "groupe": "Affichage",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-up"
+    }
+  ],
+  "non_faisable": []
+}

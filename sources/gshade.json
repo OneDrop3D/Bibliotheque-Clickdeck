@@ -1,0 +1,26 @@
+{
+  "id": "gshade",
+  "nom": "GShade",
+  "editeur": "Mortalitas",
+  "site": "https://github.com/Mortalitas/GShade",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "GShade"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci confirmé : le guide de référence est sur Google Drive, inaccessible. Fiche laissée vide.",
+  "sources": [
+    {
+      "url": "https://github.com/Mortalitas/GShade",
+      "titre": "GShade (dépôt, sans raccourci)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

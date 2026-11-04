@@ -1,0 +1,276 @@
+{
+  "id": "rectangle",
+  "nom": "Rectangle",
+  "editeur": "Ryan Hanson (projet open source)",
+  "site": "https://rectangleapp.com/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Rectangle"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Combinaisons du jeu alternatif de Rectangle (Ctrl+Option), lues dans le code source. Le jeu Spectacle (Cmd+Option) existe aussi ; l'utilisateur choisit l'un ou l'autre au premier lancement. Les actions sans raccourci par défaut (presque plein écran, déplacements) sont retirées.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/rxhanson/Rectangle/main/Rectangle/WindowAction.swift",
+      "titre": "Rectangle WindowAction.swift (raccourcis par défaut et alternatifs)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "moitie-gauche",
+      "nom": "Moitié gauche",
+      "groupe": "Moitiés",
+      "win": null,
+      "mac": "ctrl+alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left",
+      "deduit": false
+    },
+    {
+      "id": "moitie-droite",
+      "nom": "Moitié droite",
+      "groupe": "Moitiés",
+      "win": null,
+      "mac": "ctrl+alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right",
+      "deduit": false
+    },
+    {
+      "id": "moitie-haut",
+      "nom": "Moitié haute",
+      "groupe": "Moitiés",
+      "win": null,
+      "mac": "ctrl+alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-top",
+      "deduit": false
+    },
+    {
+      "id": "moitie-bas",
+      "nom": "Moitié basse",
+      "groupe": "Moitiés",
+      "win": null,
+      "mac": "ctrl+alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-bottom",
+      "deduit": false
+    },
+    {
+      "id": "maximiser",
+      "nom": "Maximiser",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "ctrl+alt+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": false
+    },
+    {
+      "id": "centrer",
+      "nom": "Centrer",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "ctrl+alt+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "focus",
+      "deduit": false
+    },
+    {
+      "id": "restaurer",
+      "nom": "Restaurer la taille",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "ctrl+alt+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw",
+      "deduit": false
+    },
+    {
+      "id": "ecran-suivant",
+      "nom": "Écran suivant",
+      "groupe": "Écrans",
+      "win": null,
+      "mac": "ctrl+alt+cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "monitor",
+      "deduit": false
+    },
+    {
+      "id": "ecran-precedent",
+      "nom": "Écran précédent",
+      "groupe": "Écrans",
+      "win": null,
+      "mac": "ctrl+alt+cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "monitor",
+      "deduit": false
+    },
+    {
+      "id": "tiers-premier",
+      "nom": "Premier tiers",
+      "groupe": "Tiers",
+      "win": null,
+      "mac": "ctrl+alt+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left",
+      "deduit": false
+    },
+    {
+      "id": "tiers-centre",
+      "nom": "Tiers central",
+      "groupe": "Tiers",
+      "win": null,
+      "mac": "ctrl+alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "columns-3",
+      "deduit": false
+    },
+    {
+      "id": "tiers-dernier",
+      "nom": "Dernier tiers",
+      "groupe": "Tiers",
+      "win": null,
+      "mac": "ctrl+alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right",
+      "deduit": false
+    },
+    {
+      "id": "deux-tiers-premiers",
+      "nom": "Deux premiers tiers",
+      "groupe": "Tiers",
+      "win": null,
+      "mac": "ctrl+alt+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left",
+      "deduit": false
+    },
+    {
+      "id": "deux-tiers-derniers",
+      "nom": "Deux derniers tiers",
+      "groupe": "Tiers",
+      "win": null,
+      "mac": "ctrl+alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right",
+      "deduit": false
+    },
+    {
+      "id": "quart-haut-gauche",
+      "nom": "Quart haut gauche",
+      "groupe": "Quarts",
+      "win": null,
+      "mac": "ctrl+alt+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": false
+    },
+    {
+      "id": "quart-haut-droit",
+      "nom": "Quart haut droit",
+      "groupe": "Quarts",
+      "win": null,
+      "mac": "ctrl+alt+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": false
+    },
+    {
+      "id": "quart-bas-gauche",
+      "nom": "Quart bas gauche",
+      "groupe": "Quarts",
+      "win": null,
+      "mac": "ctrl+alt+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": false
+    },
+    {
+      "id": "quart-bas-droit",
+      "nom": "Quart bas droit",
+      "groupe": "Quarts",
+      "win": null,
+      "mac": "ctrl+alt+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": false
+    },
+    {
+      "id": "agrandir",
+      "nom": "Agrandir",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "ctrl+alt+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "reduire",
+      "nom": "Réduire",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "ctrl+alt+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "hauteur-max",
+      "nom": "Hauteur maximale",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "ctrl+alt+shift+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-vertical"
+    }
+  ],
+  "non_faisable": []
+}

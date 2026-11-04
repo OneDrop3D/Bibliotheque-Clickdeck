@@ -1,0 +1,17 @@
+{
+  "id": "cryptomator",
+  "nom": "Cryptomator",
+  "editeur": "Skymatic",
+  "site": "https://cryptomator.org",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Cryptomator", "mac": "Cryptomator", "linux": "Cryptomator" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La documentation officielle (docs.cryptomator.org) ne décrit aucun raccourci clavier par défaut. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://docs.cryptomator.org/en/latest/", "titre": "Cryptomator documentation" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Déverrouiller / verrouiller un coffre", "raison": "réglage sans raccourci" } ]
+}

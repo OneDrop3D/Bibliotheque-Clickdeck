@@ -1,0 +1,17 @@
+{
+  "id": "wacom-center",
+  "nom": "Wacom Desktop Center",
+  "editeur": "Wacom",
+  "site": "https://www.wacom.com/en-us/support/product-support/drivers",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Wacom Desktop Center", "mac": "Wacom Desktop Center" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de mises à jour et de réglages de tablette, sans raccourcis clavier documentés. La page d'aide officielle ne décrit que des manipulations à la souris. Aucune action proposée.",
+  "sources": [ { "url": "https://www.wacom.com/en-us/support/product-support/drivers", "titre": "Wacom support - drivers (aucun raccourci trouvé)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Ouvrir les réglages de la tablette", "raison": "sans raccourci documenté" } ]
+}

@@ -1,0 +1,434 @@
+{
+  "id": "everything",
+  "nom": "Everything",
+  "editeur": "voidtools",
+  "site": "https://www.voidtools.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Everything"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de la page officielle des raccourcis clavier. Everything n'a pas de raccourci global fixe : il se règle dans Options > Clavier. Ctrl+I bascule la casse, Ctrl+B le mot entier.",
+  "sources": [
+    {
+      "url": "https://www.voidtools.com/support/everything/keyboard_shortcuts/",
+      "titre": "Everything - Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "rechercher",
+      "nom": "Chercher",
+      "groupe": "Recherche",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "casse",
+      "nom": "Respecter la casse",
+      "groupe": "Recherche",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "case-sensitive"
+    },
+    {
+      "id": "mot-entier",
+      "nom": "Mot entier",
+      "groupe": "Recherche",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "whole-word"
+    },
+    {
+      "id": "regex",
+      "nom": "Regex",
+      "groupe": "Recherche",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "regex"
+    },
+    {
+      "id": "chemin",
+      "nom": "Chercher le chemin",
+      "groupe": "Recherche",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-search"
+    },
+    {
+      "id": "diacritiques",
+      "nom": "Diacritiques",
+      "groupe": "Recherche",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "languages"
+    },
+    {
+      "id": "recherche-precedente",
+      "nom": "Recherche préc.",
+      "groupe": "Recherche",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "recherche-suivante",
+      "nom": "Recherche suiv.",
+      "groupe": "Recherche",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "accueil",
+      "nom": "Accueil",
+      "groupe": "Recherche",
+      "win": "alt+home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "house"
+    },
+    {
+      "id": "historique",
+      "nom": "Historique",
+      "groupe": "Recherche",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "marque-page",
+      "nom": "Marque-page",
+      "groupe": "Recherche",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtre",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "apercu",
+      "nom": "Volet d'aperçu",
+      "groupe": "Fenêtre",
+      "win": "alt+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-right"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Fenêtre",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "toujours-dessus",
+      "nom": "Toujours devant",
+      "groupe": "Fenêtre",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pin"
+    },
+    {
+      "id": "options",
+      "nom": "Options",
+      "groupe": "Fenêtre",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Fenêtre",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "taille-texte-plus",
+      "nom": "Agrandir le texte",
+      "groupe": "Fenêtre",
+      "win": "ctrl+plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "taille-texte-moins",
+      "nom": "Réduire le texte",
+      "groupe": "Fenêtre",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer la fenêtre",
+      "groupe": "Fenêtre",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Résultats",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "external-link"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir le dossier",
+      "groupe": "Résultats",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Résultats",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Résultats",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "corbeille",
+      "nom": "Corbeille",
+      "groupe": "Résultats",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "suppr-definitive",
+      "nom": "Suppr. définitive",
+      "groupe": "Résultats",
+      "win": "shift+delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash"
+    },
+    {
+      "id": "copier-chemin",
+      "nom": "Copier le chemin",
+      "groupe": "Résultats",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-copy"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Résultats",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Résultats",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Résultats",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Résultats",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-check"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Résultats",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download"
+    },
+    {
+      "id": "ouvrir-liste",
+      "nom": "Ouvrir une liste",
+      "groupe": "Résultats",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-input"
+    },
+    {
+      "id": "tri-nom",
+      "nom": "Trier par nom",
+      "groupe": "Tri",
+      "win": "ctrl+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-a-z"
+    },
+    {
+      "id": "tri-chemin",
+      "nom": "Trier par chemin",
+      "groupe": "Tri",
+      "win": "ctrl+2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "route"
+    },
+    {
+      "id": "tri-taille",
+      "nom": "Trier par taille",
+      "groupe": "Tri",
+      "win": "ctrl+3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scaling"
+    },
+    {
+      "id": "tri-date",
+      "nom": "Trier par date",
+      "groupe": "Tri",
+      "win": "ctrl+6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-clock"
+    }
+  ],
+  "non_faisable": []
+}

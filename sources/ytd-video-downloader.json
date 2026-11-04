@@ -1,0 +1,17 @@
+{
+  "id": "ytd-video-downloader",
+  "nom": "YTD Video Downloader",
+  "editeur": "Non confirmé",
+  "site": "",
+  "systemes": ["windows"],
+  "lancement": { "windows": "YTD Video Downloader" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci trouvé. Le site ytdownloader.com n'a pas pu être lu (connexion fermée) et la recherche ne donne pas de documentation. La plateforme Windows est supposée, non vérifiée. Pack de lancement, sans action.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,375 @@
+{
+  "id": "jetbrains-intellij-idea",
+  "nom": "JetBrains IntelliJ IDEA",
+  "editeur": "JetBrains",
+  "site": "https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "IntelliJ IDEA",
+    "mac": "IntelliJ IDEA",
+    "linux": "idea"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du keymap par défaut JetBrains (Windows/Linux) et du keymap macOS. Pour macOS, seules les touches présentes dans le keymap Mac officiel sont renseignées ; les autres restent vides et peuvent se régler dans Settings > Keymap. Les touches sans modificateur (F7, F8, F10, F1) sont déduites. Ctrl+O n'ouvre pas de fichier dans JetBrains (Surcharger des méthodes) : action « Ouvrir » retirée. Les raccourcis Mac complétés suivent la carte de référence JetBrains pour macOS.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/JetBrains/intellij-community/master/platform/platform-resources/src/keymaps/%24default.xml",
+      "titre": "Keymap par défaut JetBrains (Windows/Linux)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/JetBrains/intellij-community/master/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml",
+      "titre": "Keymap macOS JetBrains"
+    },
+    {
+      "url": "https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html",
+      "titre": "Mastering keyboard shortcuts - IntelliJ IDEA"
+    }
+  ],
+  "actions": [
+    {
+      "id": "executer",
+      "nom": "Exécuter",
+      "groupe": "Exécution",
+      "win": "shift+f10",
+      "mac": "ctrl+r",
+      "linux": "shift+f10",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "deboguer",
+      "nom": "Déboguer",
+      "groupe": "Exécution",
+      "win": "shift+f9",
+      "mac": "ctrl+d",
+      "linux": "shift+f9",
+      "source": 0,
+      "priorite": 1,
+      "picto": "bug"
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Exécution",
+      "win": "ctrl+f2",
+      "mac": "cmd+f2",
+      "linux": "ctrl+f2",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "point-arret",
+      "nom": "Point d'arrêt",
+      "groupe": "Exécution",
+      "win": "ctrl+f8",
+      "mac": "cmd+f8",
+      "linux": "ctrl+f8",
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pas-a-pas-principal",
+      "nom": "Pas à pas principal",
+      "groupe": "Exécution",
+      "win": "f8",
+      "mac": "f8",
+      "linux": "f8",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "pas-a-pas-detaille",
+      "nom": "Pas à pas détaillé",
+      "groupe": "Exécution",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down",
+      "deduit": true
+    },
+    {
+      "id": "rechercher-action",
+      "nom": "Rechercher action",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": "ctrl+shift+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "aller-fichier",
+      "nom": "Aller au fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+o",
+      "linux": "ctrl+shift+n",
+      "source": 1,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "fichiers-recents",
+      "nom": "Fichiers récents",
+      "groupe": "Navigation",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "aller-declaration",
+      "nom": "Aller déclaration",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": "ctrl+b",
+      "source": 1,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "rechercher-usages",
+      "nom": "Rechercher usages",
+      "groupe": "Navigation",
+      "win": "alt+f7",
+      "mac": "alt+f7",
+      "linux": "alt+f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-search"
+    },
+    {
+      "id": "recherche-globale",
+      "nom": "Recherche globale",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": "ctrl+shift+f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "files"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    },
+    {
+      "id": "documentation",
+      "nom": "Documentation",
+      "groupe": "Navigation",
+      "win": "ctrl+q",
+      "mac": "f1",
+      "linux": "ctrl+q",
+      "source": 1,
+      "priorite": 1,
+      "picto": "book-open"
+    },
+    {
+      "id": "fenetre-projet",
+      "nom": "Fenêtre Projet",
+      "groupe": "Fenêtres",
+      "win": "alt+1",
+      "mac": "cmd+1",
+      "linux": "alt+1",
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-tree"
+    },
+    {
+      "id": "fenetre-terminal",
+      "nom": "Fenêtre Terminal",
+      "groupe": "Fenêtres",
+      "win": "alt+f12",
+      "mac": "alt+f12",
+      "linux": "alt+f12",
+      "source": 0,
+      "priorite": 2,
+      "picto": "terminal"
+    },
+    {
+      "id": "fenetre-commit",
+      "nom": "Fenêtre Commit",
+      "groupe": "Fenêtres",
+      "win": "alt+0",
+      "mac": "cmd+0",
+      "linux": "alt+0",
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-commit"
+    },
+    {
+      "id": "refactoring-rapide",
+      "nom": "Refactoring rapide",
+      "groupe": "Fenêtres",
+      "win": "ctrl+alt+shift+t",
+      "mac": "ctrl+t",
+      "linux": "ctrl+alt+shift+t",
+      "source": 0,
+      "priorite": 2,
+      "picto": "wrench"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+/",
+      "mac": "cmd+/",
+      "linux": "ctrl+/",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "dupliquer-ligne",
+      "nom": "Dupliquer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+backspace",
+      "linux": "ctrl+y",
+      "source": 1,
+      "priorite": 2,
+      "picto": "eraser"
+    },
+    {
+      "id": "reformater-code",
+      "nom": "Reformater code",
+      "groupe": "Édition",
+      "win": "ctrl+alt+l",
+      "mac": "cmd+alt+l",
+      "linux": "ctrl+alt+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "actions-intention",
+      "nom": "Actions intention",
+      "groupe": "Édition",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": "alt+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "lightbulb"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 2,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 2,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 2,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 2,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "source": 2,
+      "priorite": 1,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 2,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rechercher partout",
+      "raison": "geste (double Maj), pas une combinaison"
+    },
+    {
+      "nom": "Exécuter tout (Run Anything)",
+      "raison": "geste (double Ctrl)"
+    }
+  ]
+}

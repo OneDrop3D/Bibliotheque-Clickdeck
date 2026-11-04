@@ -1,0 +1,335 @@
+{
+  "id": "keepass",
+  "nom": "KeePass",
+  "editeur": "Dominik Reichl",
+  "site": "https://keepass.info",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "KeePass"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle keepass.info (KeePass 2). Les raccourcis globaux (saisie automatique, afficher la fenêtre) ont des valeurs par défaut modifiables dans Outils > Options > Intégration. Ctrl+C copie le mot de passe de l'entrée sélectionnée, pas un texte générique.",
+  "sources": [
+    {
+      "url": "https://keepass.info/help/kb/keyb_shortcuts.html",
+      "titre": "KeePass : raccourcis clavier (page officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-base",
+      "nom": "Nouvelle base",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-base",
+      "nom": "Ouvrir fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Fichier",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lock"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "ajouter-entree",
+      "nom": "Ajouter entrée",
+      "groupe": "Entrées",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "modifier-entree",
+      "nom": "Modifier entrée",
+      "groupe": "Entrées",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "dupliquer-entree",
+      "nom": "Dupliquer entrée",
+      "groupe": "Entrées",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "supprimer-entree",
+      "nom": "Supprimer entrée",
+      "groupe": "Entrées",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "copier-identifiant",
+      "nom": "Copier identifiant",
+      "groupe": "Entrées",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "user"
+    },
+    {
+      "id": "copier-mdp",
+      "nom": "Copier mdp",
+      "groupe": "Entrées",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "key-round"
+    },
+    {
+      "id": "ouvrir-url",
+      "nom": "Ouvrir l'URL",
+      "groupe": "Entrées",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "external-link"
+    },
+    {
+      "id": "copier-url",
+      "nom": "Copier l'URL",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "link"
+    },
+    {
+      "id": "copier-otp",
+      "nom": "Copier code OTP",
+      "groupe": "Entrées",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "shield-check"
+    },
+    {
+      "id": "saisie-auto",
+      "nom": "Saisie automatique",
+      "groupe": "Entrées",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "keyboard"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Entrées",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "chercher-groupe",
+      "nom": "Chercher groupe",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-search"
+    },
+    {
+      "id": "groupe-entree",
+      "nom": "Groupe de l'entrée",
+      "groupe": "Recherche",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-tree"
+    },
+    {
+      "id": "base-suivante",
+      "nom": "Base suivante",
+      "groupe": "Général",
+      "win": "ctrl+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "auto-type-global",
+      "nom": "Auto-type global",
+      "groupe": "Général",
+      "win": "ctrl+alt+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "keyboard-music"
+    },
+    {
+      "id": "afficher-keepass",
+      "nom": "Afficher KeePass",
+      "groupe": "Général",
+      "win": "ctrl+alt+k",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "app-window"
+    },
+    {
+      "id": "recherche-rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Recherche",
+      "win": "ctrl+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "fermer-base",
+      "nom": "Fermer la base",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "synchroniser",
+      "nom": "Synchroniser",
+      "groupe": "Fichier",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "auto-type-mdp",
+      "nom": "Auto-type mdp seul",
+      "groupe": "Général",
+      "win": "ctrl+alt+shift+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "key"
+    },
+    {
+      "id": "afficher-otp",
+      "nom": "Afficher code OTP",
+      "groupe": "Entrées",
+      "win": "ctrl+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye"
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "ultimaker-cura",
+  "nom": "Ultimaker Cura",
+  "editeur": "Ultimaker",
+  "site": "https://ultimaker.com/software/ultimaker-cura",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Ultimaker Cura",
+    "mac": "Ultimaker Cura"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source de Cura (Actions.qml et outils Uranium) ; la liste tierce defkey (Q/A pour Déplacer/Échelle) était fausse et a été écartée. Sur Mac, Ctrl devient Cmd (Qt). Ctrl+M (Multiplier) est laissé vide sur Mac car réservé au système.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/Ultimaker/Cura/main/resources/qml/Actions.qml",
+      "titre": "Cura - Actions.qml (code source)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Ultimaker/Uranium/main/plugins/Tools/TranslateTool/TranslateTool.py",
+      "titre": "Uranium - outils Déplacer/Échelle/Rotation/Miroir (code source)"
+    }
+  ],
+  "actions": [
+    {"id": "ouvrir", "nom": "Ouvrir fichier", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true},
+    {"id": "nouveau", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus", "deduit": true},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true},
+    {"id": "tout_selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "box-select", "deduit": true},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "backspace", "linux": null, "source": 0, "priorite": 1, "picto": "trash-2"},
+    {"id": "vider_plateau", "nom": "Vider le plateau", "groupe": "Édition", "win": "ctrl+d", "mac": "cmd+d", "linux": null, "source": 0, "priorite": 2, "picto": "trash", "deduit": true},
+    {"id": "recharger", "nom": "Recharger modèles", "groupe": "Édition", "win": "f5", "mac": "f5", "linux": null, "source": 0, "priorite": 3, "picto": "refresh-cw"},
+    {"id": "grouper", "nom": "Grouper", "groupe": "Modèles", "win": "ctrl+g", "mac": "cmd+g", "linux": null, "source": 0, "priorite": 1, "picto": "group", "deduit": true},
+    {"id": "degrouper", "nom": "Dégrouper", "groupe": "Modèles", "win": "ctrl+shift+g", "mac": "cmd+shift+g", "linux": null, "source": 0, "priorite": 2, "picto": "ungroup", "deduit": true},
+    {"id": "fusionner", "nom": "Fusionner", "groupe": "Modèles", "win": "ctrl+alt+g", "mac": "cmd+alt+g", "linux": null, "source": 0, "priorite": 3, "picto": "merge", "deduit": true},
+    {"id": "multiplier", "nom": "Multiplier", "groupe": "Modèles", "win": "ctrl+m", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy-plus"},
+    {"id": "arranger", "nom": "Tout arranger", "groupe": "Modèles", "win": "ctrl+r", "mac": "cmd+r", "linux": null, "source": 0, "priorite": 1, "picto": "layout-grid", "deduit": true},
+    {"id": "arranger_grille", "nom": "Arranger en grille", "groupe": "Modèles", "win": "ctrl+shift+r", "mac": "cmd+shift+r", "linux": null, "source": 0, "priorite": 3, "picto": "layout-grid", "deduit": true},
+    {"id": "deposer", "nom": "Poser sur plateau", "groupe": "Modèles", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-down-to-line", "deduit": true},
+    {"id": "deplacer", "nom": "Déplacer", "groupe": "Outils", "win": "t", "mac": "t", "linux": null, "source": 1, "priorite": 1, "picto": "move"},
+    {"id": "echelle", "nom": "Échelle", "groupe": "Outils", "win": "s", "mac": "s", "linux": null, "source": 1, "priorite": 1, "picto": "scaling"},
+    {"id": "rotation", "nom": "Rotation", "groupe": "Outils", "win": "r", "mac": "r", "linux": null, "source": 1, "priorite": 1, "picto": "rotate-cw"},
+    {"id": "miroir", "nom": "Miroir", "groupe": "Outils", "win": "m", "mac": "m", "linux": null, "source": 1, "priorite": 1, "picto": "flip-horizontal"}
+  ],
+  "non_faisable": [
+    {"nom": "Rotation et zoom de la caméra", "raison": "souris et molette"},
+    {"nom": "Sélection multiple", "raison": "souris (Maj + clic)"},
+    {"nom": "Trancher, enregistrer, vues caméra", "raison": "aucun raccourci dans le code source"}
+  ]
+}

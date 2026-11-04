@@ -1,0 +1,124 @@
+{
+  "id": "citra",
+  "nom": "Citra",
+  "editeur": "",
+  "site": "https://citra-emu.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Citra",
+    "mac": "Citra"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Émulateur 3DS, abandonné ; successeur Azahar. Raccourcis relevés dans le code des forks Azahar et Lime3DS (même table Qt héritée de Citra), non dans Citra lui-même (dépôt retiré). Ctrl vaut Cmd sous Qt/Mac. Ctrl+M (muet) omis car cmd+m est réservé.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/azahar-emu/azahar/master/src/citra_qt/configuration/config.cpp",
+      "titre": "Azahar, table des raccourcis par défaut"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lime3DS/Lime3DS/master/src/citra_qt/configuration/config.cpp",
+      "titre": "Lime3DS, table des raccourcis par défaut"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause / Reprise",
+      "groupe": "Émulation",
+      "win": "f4",
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêter",
+      "groupe": "Émulation",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "redemarrer",
+      "nom": "Redémarrer",
+      "groupe": "Émulation",
+      "win": "f6",
+      "mac": "f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "echanger-ecrans",
+      "nom": "Échanger écrans",
+      "groupe": "Affichage",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "disposition",
+      "nom": "Disposition écrans",
+      "groupe": "Affichage",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-template"
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Outils",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir-fichier",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

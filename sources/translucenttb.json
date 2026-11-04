@@ -1,0 +1,17 @@
+{
+  "id": "translucenttb",
+  "nom": "TranslucentTB",
+  "editeur": "TranslucentTB",
+  "site": "https://github.com/TranslucentTB/TranslucentTB",
+  "systemes": ["windows"],
+  "lancement": { "windows": "TranslucentTB" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier par défaut documenté. Le réglage passe par le menu de l'icône de la barre des tâches.",
+  "sources": [ { "url": "https://github.com/TranslucentTB/TranslucentTB", "titre": "Dépôt officiel TranslucentTB (README)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Choisir l'état de la barre", "raison": "réglage sans raccourci" } ]
+}

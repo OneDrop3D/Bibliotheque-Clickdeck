@@ -1,0 +1,331 @@
+{
+  "id": "todoist",
+  "nom": "Todoist",
+  "editeur": "Doist",
+  "site": "https://todoist.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Todoist",
+    "mac": "Todoist"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans l'aide officielle Todoist. Les raccourcis à une seule lettre ne fonctionnent que si aucun champ de texte n'a le focus. Ajout rapide global : Ctrl+Espace (Windows) / Option+Espace (Mac), application réduite.",
+  "sources": [
+    {
+      "url": "https://www.todoist.com/help/articles/use-keyboard-shortcuts-in-todoist-Wyovn2",
+      "titre": "Use keyboard shortcuts in Todoist (Todoist Help)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ajout-rapide",
+      "nom": "Ajout rapide",
+      "groupe": "Création",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "ajout-global",
+      "nom": "Ajout global",
+      "groupe": "Création",
+      "win": "ctrl+space",
+      "mac": "alt+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "nouvelle-tache",
+      "nom": "Nouvelle tâche",
+      "groupe": "Création",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "tache-en-bas",
+      "nom": "Tâche en bas",
+      "groupe": "Création",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-end"
+    },
+    {
+      "id": "tache-en-haut",
+      "nom": "Tâche en haut",
+      "groupe": "Création",
+      "win": "shift+a",
+      "mac": "shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-start"
+    },
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Création",
+      "win": "alt+p",
+      "mac": "alt+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "terminer",
+      "nom": "Terminer la tâche",
+      "groupe": "Tâches",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check"
+    },
+    {
+      "id": "modifier",
+      "nom": "Modifier la tâche",
+      "groupe": "Tâches",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-pen"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Tâches",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "date",
+      "nom": "Définir la date",
+      "groupe": "Tâches",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar"
+    },
+    {
+      "id": "etiquette",
+      "nom": "Ajouter étiquette",
+      "groupe": "Tâches",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "tag"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer vers",
+      "groupe": "Tâches",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-right"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Tâches",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "message-square"
+    },
+    {
+      "id": "assigner",
+      "nom": "Assigner",
+      "groupe": "Tâches",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "user-plus"
+    },
+    {
+      "id": "retrait-plus",
+      "nom": "Augmenter retrait",
+      "groupe": "Tâches",
+      "win": "ctrl+bracketright",
+      "mac": "ctrl+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "indent-increase"
+    },
+    {
+      "id": "retrait-moins",
+      "nom": "Réduire retrait",
+      "groupe": "Tâches",
+      "win": "ctrl+bracketleft",
+      "mac": "ctrl+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "indent-decrease"
+    },
+    {
+      "id": "sous-taches",
+      "nom": "Sous-tâches",
+      "groupe": "Tâches",
+      "win": "shift+e",
+      "mac": "shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list-tree"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Tâches",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "boite-reception",
+      "nom": "Boîte de réception",
+      "groupe": "Navigation",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "inbox"
+    },
+    {
+      "id": "aujourdhui",
+      "nom": "Aujourd'hui",
+      "groupe": "Navigation",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun"
+    },
+    {
+      "id": "a-venir",
+      "nom": "À venir",
+      "groupe": "Navigation",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-range"
+    },
+    {
+      "id": "recherche-rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Navigation",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Navigation",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "ouvrir-projet",
+      "nom": "Ouvrir son projet",
+      "groupe": "Navigation",
+      "win": "shift+g",
+      "mac": "shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-open"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer la vue",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "aide-raccourcis",
+      "nom": "Aide raccourcis",
+      "groupe": "Navigation",
+      "win": "shift+slash",
+      "mac": "shift+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Aller à Boîte de réception (G puis I)",
+      "raison": "séquence"
+    }
+  ]
+}

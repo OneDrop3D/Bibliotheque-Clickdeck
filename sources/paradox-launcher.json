@@ -1,0 +1,23 @@
+{
+  "id": "paradox-launcher",
+  "nom": "Paradox Launcher",
+  "editeur": "Paradox Interactive",
+  "site": "https://www.paradoxinteractive.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Paradox Launcher",
+    "mac": "Paradox Launcher"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Lanceur de jeux à une fenêtre, sans raccourcis documentés. Aucune source n'a pu être consultée (recherche indisponible) : à vérifier avant publication. Seconde passe : recherche web indisponible (quota épuisé), fiche laissée telle quelle.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,486 @@
+{
+  "id": "fl-studio",
+  "nom": "FL Studio",
+  "editeur": "Image-Line",
+  "site": "https://www.image-line.com/fl-studio/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "FL Studio",
+    "mac": "FL Studio"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : manuel officiel Image-Line (Basics > Keyboard & Mouse Shortcuts). La page indique elle-même les substitutions Mac (Ctrl vers Cmd, Alt vers Opt). Les raccourcis à une touche ne marchent que si « Typing keyboard to piano » (Ctrl/Cmd+T) est désactivé. Les raccourcis dépendent de la fenêtre active. FL Studio ne permet pas de réassigner les touches. Fonctions du manuel non listées ici : touches des menus contextuels. Retirés/ajustés : Ctrl+H (Arrêt des sons) retiré car Cmd+H est réservé sur Mac ; Métronome sans raccourci Mac (Cmd+M réservé).",
+  "sources": [
+    {
+      "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/basics_shortcuts.htm",
+      "titre": "FL Studio Keyboard & Mouse Shortcuts (manuel officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture/arrêt",
+      "groupe": "Transport",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Transport",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "pattern-morceau",
+      "nom": "Pattern/Morceau",
+      "groupe": "Transport",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "metronome",
+      "nom": "Métronome",
+      "groupe": "Transport",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "metronome"
+    },
+    {
+      "id": "sauvegarder",
+      "nom": "Sauvegarder",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "sauvegarder-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "shift+cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "nouvelle-version",
+      "nom": "Nouvelle version",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "exporter-wav",
+      "nom": "Exporter WAV",
+      "groupe": "Fichier",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-audio"
+    },
+    {
+      "id": "exporter-mp3",
+      "nom": "Exporter MP3",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+r",
+      "mac": "shift+cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-music"
+    },
+    {
+      "id": "exporter-midi",
+      "nom": "Exporter MIDI",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+m",
+      "mac": "shift+cmd+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-music"
+    },
+    {
+      "id": "playlist",
+      "nom": "Playlist",
+      "groupe": "Fenêtres",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-music"
+    },
+    {
+      "id": "piano-roll",
+      "nom": "Piano roll",
+      "groupe": "Fenêtres",
+      "win": "f7",
+      "mac": "f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "piano"
+    },
+    {
+      "id": "mixer",
+      "nom": "Mixer",
+      "groupe": "Fenêtres",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "step-sequencer",
+      "nom": "Step sequencer",
+      "groupe": "Fenêtres",
+      "win": "f6",
+      "mac": "f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "plugin-picker",
+      "nom": "Choisir plugin",
+      "groupe": "Fenêtres",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "plug"
+    },
+    {
+      "id": "navigateur-echantillons",
+      "nom": "Navigateur",
+      "groupe": "Fenêtres",
+      "win": "alt+f8",
+      "mac": "alt+f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left"
+    },
+    {
+      "id": "reglages-midi",
+      "nom": "Réglages MIDI",
+      "groupe": "Fenêtres",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "fermer-fenetres",
+      "nom": "Fermer fenêtres",
+      "groupe": "Fenêtres",
+      "win": "f12",
+      "mac": "f12",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "x"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Fenêtres",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "annuler-pas",
+      "nom": "Annuler pas à pas",
+      "groupe": "Édition",
+      "win": "ctrl+alt+z",
+      "mac": "alt+cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "dupliquer-droite",
+      "nom": "Dupliquer à droite",
+      "groupe": "Édition",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "grouper-clips",
+      "nom": "Grouper clips",
+      "groupe": "Édition",
+      "win": "shift+g",
+      "mac": "shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "group"
+    },
+    {
+      "id": "outil-selection",
+      "nom": "Outil sélection",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "outil-crayon",
+      "nom": "Outil crayon",
+      "groupe": "Outils",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "outil-pinceau",
+      "nom": "Outil pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "brush"
+    },
+    {
+      "id": "outil-trancher",
+      "nom": "Outil trancher",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "outil-supprimer",
+      "nom": "Outil supprimer",
+      "groupe": "Outils",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eraser"
+    },
+    {
+      "id": "outil-muet",
+      "nom": "Outil muet",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "volume-x"
+    },
+    {
+      "id": "outil-zoom",
+      "nom": "Outil zoom",
+      "groupe": "Outils",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "outil-lecture",
+      "nom": "Outil lecture",
+      "groupe": "Outils",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "play"
+    },
+    {
+      "id": "transposer-haut",
+      "nom": "Transposer +1",
+      "groupe": "Outils",
+      "win": "8",
+      "mac": "8",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "transposer-bas",
+      "nom": "Transposer -1",
+      "groupe": "Outils",
+      "win": "7",
+      "mac": "7",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Tempo +/-",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Avance rapide",
+      "raison": "touche pavé numérique 0 maintenue, non détaillée"
+    },
+    {
+      "nom": "Molette (zoom, réglages)",
+      "raison": "molette"
+    },
+    {
+      "nom": "Clic droit / glisser",
+      "raison": "souris"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "poser",
+  "nom": "Poser",
+  "editeur": "Smith Micro (Poser)",
+  "site": "",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Poser", "mac": "Poser" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source ouverte pendant la recherche : la page officielle de raccourcis n'a pas pu être lue (404) et la recherche web était épuisée. Aucun raccourci n'a été relevé ; à compléter depuis la documentation Poser avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

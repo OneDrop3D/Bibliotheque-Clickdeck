@@ -1,0 +1,42 @@
+{
+  "id": "catia",
+  "nom": "CATIA",
+  "editeur": "Dassault Systèmes",
+  "site": "https://www.3ds.com/products/catia/catia-v5",
+  "systemes": ["windows"],
+  "lancement": { "windows": "CATIA" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "recoupee",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Ctrl+PageUp/PageDown zooment le graphe (arbre), pas la vue 3D. Aucune source officielle Dassault lue : les raccourcis viennent de deux sites tiers (defkey.com et tutorialtactic.com), concordants pour les commandes de fichier et d'édition. Ils ne précisent pas toujours s'ils sont par défaut. Ctrl+D et Ctrl+E ne concernent que l'atelier Assemblage. Version Mac non couverte (CATIA est Windows).",
+  "sources": [
+    { "url": "https://defkey.com/catia-v5-shortcuts", "titre": "Catia V5 keyboard shortcuts (defkey.com, date non indiquée)" },
+    { "url": "https://tutorialtactic.com/blog/catia-v5-shortcuts/", "titre": "CATIA V5 Keyboard Shortcuts: The Complete List (tutorialtactic.com)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Fichier", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "search" },
+    { "id": "mise-a-jour", "nom": "Mettre à jour", "groupe": "Fichier", "win": "ctrl+u", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "refresh-cw" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard" },
+    { "id": "proprietes", "nom": "Propriétés", "groupe": "Édition", "win": "alt+enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "settings" },
+    { "id": "masquer-afficher", "nom": "Masquer/Afficher", "groupe": "Affichage", "win": "f9", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "eye-off" },
+    { "id": "arbre-specifications", "nom": "Arbre de spécif.", "groupe": "Affichage", "win": "f3", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "list-tree" },
+    { "id": "zoom-avant", "nom": "Zoom avant arbre", "groupe": "Affichage", "win": "ctrl+pageup", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière arbre", "groupe": "Affichage", "win": "ctrl+pagedown", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "ensembles-selection", "nom": "Ensembles de sél.", "groupe": "Outils", "win": "ctrl+g", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "group" },
+    { "id": "multi-instanciation", "nom": "Multi-instances", "groupe": "Outils", "win": "ctrl+d", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "copy-plus" },
+    { "id": "aide", "nom": "Aide contextuelle", "groupe": "Outils", "win": "f1", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "help-circle" },
+    { "id": "lancer-macro", "nom": "Lancer macro", "groupe": "Outils", "win": "alt+f8", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "terminal" },
+    { "id": "fenetre-suivante", "nom": "Fenêtre suivante", "groupe": "Outils", "win": "ctrl+tab", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "app-window" }
+  ],
+  "non_faisable": []
+}

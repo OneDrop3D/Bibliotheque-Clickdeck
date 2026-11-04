@@ -1,0 +1,41 @@
+{
+  "id": "winsnap",
+  "nom": "WinSnap",
+  "editeur": "NTWind",
+  "site": "https://www.ntwind.com/software/winsnap.html",
+  "systemes": ["windows"],
+  "lancement": { "windows": "WinSnap" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Ctrl+1 à 5 et les touches de fichier ne fonctionnent que quand la fenêtre WinSnap est au premier plan. La capture globale passe par la touche Impr écran, non prise en charge par ClickDeck. Plateforme : Windows uniquement.",
+  "sources": [
+    { "url": "https://www.ntwind.com/software/winsnap/shortcuts.html", "titre": "WinSnap Keyboard Shortcuts" }
+  ],
+  "actions": [
+    { "id": "capture-ecran", "nom": "Capture écran", "groupe": "Capture", "win": "ctrl+1", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "monitor" },
+    { "id": "capture-appli", "nom": "Capture appli", "groupe": "Capture", "win": "ctrl+2", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "app-window" },
+    { "id": "capture-fenetre", "nom": "Capture fenêtre", "groupe": "Capture", "win": "ctrl+3", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "panel-top" },
+    { "id": "capture-objet", "nom": "Capture objet", "groupe": "Capture", "win": "ctrl+4", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "mouse-pointer-click" },
+    { "id": "capture-zone", "nom": "Capture zone", "groupe": "Capture", "win": "ctrl+5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "crop" },
+    { "id": "nouvelle-capture", "nom": "Nouvelle capture", "groupe": "Capture", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "camera" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "save" },
+    { "id": "ouvrir-image", "nom": "Ouvrir image", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "dossier-image", "nom": "Ouvrir dossier", "groupe": "Fichier", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "folder-search" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer" },
+    { "id": "vers-imprimante", "nom": "Vers imprimante", "groupe": "Fichier", "win": "ctrl+shift+p", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "printer" },
+    { "id": "copier-image", "nom": "Copier image", "groupe": "Image", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "copier-vignette", "nom": "Copier vignette", "groupe": "Image", "win": "ctrl+shift+c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "image" },
+    { "id": "coller-image", "nom": "Coller image", "groupe": "Image", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard" },
+    { "id": "copier-chemin", "nom": "Copier chemin", "groupe": "Image", "win": "ctrl+alt+c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "link" },
+    { "id": "effacer-image", "nom": "Effacer image", "groupe": "Image", "win": "delete", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "eraser" },
+    { "id": "reglages", "nom": "Réglages", "groupe": "Réglages", "win": "f2", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "settings" }
+  ],
+  "non_faisable": [
+    { "nom": "Capture globale (Impr écran)", "raison": "touche Impr écran non prise en charge par la syntaxe" },
+    { "nom": "Sélection d'objet à la souris", "raison": "souris" }
+  ]
+}

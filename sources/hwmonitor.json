@@ -1,0 +1,21 @@
+{
+  "id": "hwmonitor",
+  "nom": "HWMonitor",
+  "editeur": "CPUID",
+  "site": "https://www.cpuid.com/softwares/hwmonitor.html",
+  "systemes": ["windows"],
+  "lancement": { "windows": "HWMonitor" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Windows de surveillance des capteurs (températures, tensions, ventilateurs, charges), sans raccourci clavier documenté sur la page officielle CPUID. Aucune action proposée.",
+  "sources": [
+    { "url": "https://www.cpuid.com/softwares/hwmonitor.html", "titre": "HWMonitor (page officielle CPUID)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Consultation des capteurs", "raison": "souris" }
+  ]
+}

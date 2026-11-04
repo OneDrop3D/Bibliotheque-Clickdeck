@@ -1,0 +1,29 @@
+{
+  "id": "powertoys-peek",
+  "nom": "PowerToys Peek",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/peek",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerToys Peek", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Espace ouvre l'aperçu du fichier sélectionné dans l'Explorateur, et le referme quand il a le focus. Activation modifiable dans les réglages.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/powertoys/peek", "titre": "PowerToys Peek - Microsoft Learn" }
+  ],
+  "actions": [
+    { "id": "afficher-apercu", "nom": "Afficher l'aperçu", "groupe": "Aperçu", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eye" },
+    { "id": "fichier-suivant", "nom": "Fichier suivant", "groupe": "Navigation", "win": "alt+right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right" },
+    { "id": "fichier-precedent", "nom": "Fichier précédent", "groupe": "Navigation", "win": "alt+left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left" },
+    { "id": "fermer-apercu", "nom": "Fermer l'aperçu", "groupe": "Aperçu", "win": "escape", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "ouvrir-fichier", "nom": "Ouvrir le fichier", "groupe": "Fichier", "win": "enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "external-link" },
+    { "id": "supprimer-fichier", "nom": "Supprimer fichier", "groupe": "Fichier", "win": "delete", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "trash-2" }
+  ],
+  "non_faisable": [
+    { "nom": "Épingler la fenêtre", "raison": "bouton de la barre de titre : Tab puis Entrée, séquence" },
+    { "nom": "Zoom de l'aperçu", "raison": "molette" }
+  ]
+}

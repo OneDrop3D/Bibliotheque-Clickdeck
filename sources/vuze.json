@@ -1,0 +1,61 @@
+{
+  "id": "vuze",
+  "nom": "Vuze",
+  "editeur": "Vuze",
+  "site": "https://www.vuze.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Vuze",
+    "mac": "Vuze"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source de raccourcis n'a pu être lue (recherche web épuisée, pages officielles introuvables). Seules les commandes standard de menu sont listées, avec deduit true. À vérifier dans le menu de l'application. Seconde passe : recherche web épuisée (quota de session) ; pages officielles lues sans raccourci documenté. Fiche conservée, à compléter quand la recherche sera disponible.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "square-check"
+    }
+  ],
+  "non_faisable": [],
+  "panne": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "logitech-options",
+  "nom": "Logitech Options+",
+  "editeur": "Logitech",
+  "site": "https://www.logitech.com/software/options-plus.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Logitech Options+", "mac": "Logitech Options+" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de configuration de périphériques Logitech sans raccourci utile. La page officielle consultée a renvoyé 404, aucune combinaison vérifiée. Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Actions des boutons de souris", "raison": "molette ou souris" } ]
+}

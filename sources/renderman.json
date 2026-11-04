@@ -1,0 +1,17 @@
+{
+  "id": "renderman",
+  "nom": "RenderMan",
+  "editeur": "Pixar",
+  "site": "https://renderman.pixar.com",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "RenderMan", "mac": "RenderMan", "linux": "RenderMan" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Vérification impossible : la documentation Pixar (rendermandocs.pixar.com) est introuvable depuis l'accès et la recherche web était épuisée. Aucun raccourci n'a été relevé ni inventé. RenderMan est un moteur de rendu intégré à Maya, Houdini ou Katana : ses raccourcis dépendent de l'hôte.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

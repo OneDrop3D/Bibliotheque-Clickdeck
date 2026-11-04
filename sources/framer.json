@@ -1,0 +1,134 @@
+{
+  "id": "framer",
+  "nom": "Framer",
+  "editeur": "Framer B.V.",
+  "site": "https://www.framer.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Framer",
+    "mac": "Framer"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Relevé incomplet : la page officielle framer.com/shortcuts a été relue, son tableau reste partiellement illisible. Retenues : les trois lignes Aperçu à combinaison claire (Mac et Windows) et les commandes d'édition standard déduites. Z (aperçu adaptatif) et Tab (cycle de sélection) non retenus car ambigus. Liste complète dans l'application. Vérifier avant publication.",
+  "sources": [
+    {
+      "url": "https://framer.com/shortcuts",
+      "titre": "Move faster with keyboard shortcuts (Framer)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "actualiser-apercu",
+      "nom": "Actualiser aperçu",
+      "groupe": "Aperçu",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "inspecter",
+      "nom": "Inspecter",
+      "groupe": "Aperçu",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search-code"
+    },
+    {
+      "id": "surligner-apercu",
+      "nom": "Surlignages",
+      "groupe": "Aperçu",
+      "win": "ctrl+shift+h",
+      "mac": "cmd+shift+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "highlighter"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

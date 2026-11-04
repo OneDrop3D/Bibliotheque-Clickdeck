@@ -1,0 +1,17 @@
+{
+  "id": "wallpaper-engine",
+  "nom": "Wallpaper Engine",
+  "editeur": "Wallpaper Engine Team",
+  "site": "https://www.wallpaperengine.io/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Wallpaper Engine", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté trouvé sur l'aide officielle. Le contrôle se fait via les lignes de commande de l'application, non via des touches. Aucune action proposée.",
+  "sources": [ { "url": "https://help.wallpaperengine.io/", "titre": "Wallpaper Engine - aide officielle" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Contrôle par ligne de commande", "raison": "pas un raccourci clavier" } ]
+}

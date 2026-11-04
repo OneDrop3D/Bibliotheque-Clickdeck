@@ -1,0 +1,396 @@
+{
+  "id": "blender",
+  "nom": "Blender",
+  "editeur": "Blender Foundation",
+  "site": "https://www.blender.org",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Blender",
+    "mac": "Blender"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Sources ouvertes : manuel Blender (keymap par défaut, vue 3D) et code officiel blender_default.py (branche main). Les touches sans modificateur sont identiques sur Windows et Mac. Les raccourcis Ctrl sont donnés pour Windows ; Cmd est proposé pour les commandes standard seulement (marqué déduit). G, R, S (déplacer, rotation, échelle) et A (tout sélectionner) confirmés dans blender_default.py. Sur Mac, Ctrl est conservé pour biseau, boucle de coupe, joindre, mode pose (déduit).",
+  "sources": [
+    {
+      "url": "https://docs.blender.org/manual/en/latest/interface/keymap/blender_default.html",
+      "titre": "Blender Manual - Default Keymap"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blender/blender/main/scripts/presets/keyconfig/keymap_data/blender_default.py",
+      "titre": "Blender source - keymap_data/blender_default.py"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "deduit": true,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "deduit": true,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "deduit": true,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "shift+cmd+z",
+      "deduit": true,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "shift+d",
+      "mac": "shift+d",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "menu-ajouter",
+      "nom": "Menu Ajouter",
+      "groupe": "Édition",
+      "win": "shift+a",
+      "mac": "shift+a",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "joindre",
+      "nom": "Joindre",
+      "groupe": "Édition",
+      "win": "ctrl+j",
+      "mac": "ctrl+j",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "combine",
+      "deduit": true
+    },
+    {
+      "id": "image-cle",
+      "nom": "Image-clé",
+      "groupe": "Édition",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "diamond"
+    },
+    {
+      "id": "rendu-image",
+      "nom": "Rendu image",
+      "groupe": "Rendu",
+      "win": "f12",
+      "mac": "f12",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "mode-edition",
+      "nom": "Mode édition",
+      "groupe": "Modes",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "mode-pose",
+      "nom": "Mode pose",
+      "groupe": "Modes",
+      "win": "ctrl+tab",
+      "mac": "ctrl+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "accessibility",
+      "deduit": true
+    },
+    {
+      "id": "sommets",
+      "nom": "Sommets",
+      "groupe": "Modes",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "dot"
+    },
+    {
+      "id": "aretes",
+      "nom": "Arêtes",
+      "groupe": "Modes",
+      "win": "2",
+      "mac": "2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "faces",
+      "nom": "Faces",
+      "groupe": "Modes",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "extruder",
+      "nom": "Extruder",
+      "groupe": "Modes",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "arrow-up-from-line"
+    },
+    {
+      "id": "couteau",
+      "nom": "Couteau",
+      "groupe": "Modes",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "biseau",
+      "nom": "Biseau",
+      "groupe": "Modes",
+      "win": "ctrl+b",
+      "mac": "ctrl+b",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "box",
+      "deduit": true
+    },
+    {
+      "id": "boucle-coupe",
+      "nom": "Boucle de coupe",
+      "groupe": "Modes",
+      "win": "ctrl+r",
+      "mac": "ctrl+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "grid-3x3",
+      "deduit": true
+    },
+    {
+      "id": "remplir",
+      "nom": "Remplir",
+      "groupe": "Modes",
+      "win": "alt+f",
+      "mac": "alt+f",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "cadrer-selection",
+      "nom": "Cadrer sélection",
+      "groupe": "Vue 3D",
+      "win": "numperiod",
+      "mac": "numperiod",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "menu-navigation",
+      "nom": "Menu navigation",
+      "groupe": "Vue 3D",
+      "win": "backquote",
+      "mac": "backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "compass"
+    },
+    {
+      "id": "gizmos",
+      "nom": "Gizmos",
+      "groupe": "Vue 3D",
+      "win": "ctrl+backquote",
+      "mac": "ctrl+backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-3d",
+      "deduit": true
+    },
+    {
+      "id": "naviguer-fly",
+      "nom": "Naviguer (fly)",
+      "groupe": "Vue 3D",
+      "win": "shift+backquote",
+      "mac": "shift+backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plane"
+    },
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture/pause",
+      "groupe": "Animation",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Animation",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Animation",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Édition",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Édition",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Édition",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Orbite de vue (bouton central)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Panoramique (Maj + bouton central)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom de vue (Ctrl + bouton central)",
+      "raison": "souris"
+    }
+  ]
+}

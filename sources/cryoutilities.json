@@ -1,0 +1,24 @@
+{
+  "id": "cryoutilities",
+  "nom": "CryoUtilities",
+  "editeur": "CryoByte33",
+  "site": "https://github.com/CryoByte33/steam-deck-utilities",
+  "systemes": ["linux"],
+  "lancement": { "linux": "CryoUtilities" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire d'optimisation pour Steam Deck, piloté par son interface et sa ligne de commande. Aucun raccourci clavier n'est documenté.",
+  "sources": [
+    { "url": "https://github.com/CryoByte33/steam-deck-utilities", "titre": "CryoUtilities README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Appliquer les préréglages recommandés", "raison": "réglage sans raccourci" },
+    { "nom": "Revenir aux réglages d'origine", "raison": "réglage sans raccourci" },
+    { "nom": "Réglage de la mémoire swap", "raison": "réglage sans raccourci" },
+    { "nom": "Nettoyage du stockage des shaders", "raison": "réglage sans raccourci" }
+  ]
+}

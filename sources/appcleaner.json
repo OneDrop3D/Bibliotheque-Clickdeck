@@ -1,0 +1,35 @@
+{
+  "id": "appcleaner",
+  "nom": "AppCleaner",
+  "editeur": "FreeMacSoft",
+  "site": "https://freemacsoft.net/appcleaner/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "AppCleaner"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne documente aucun raccourci clavier (seulement : glisser une application sur la fenêtre). L'aperçu rapide à la barre d'espace n'a pas pu être confirmé et a été retiré. Application pilotée à la souris : à mettre dans un pack de lancement.",
+  "sources": [
+    {
+      "url": "https://freemacsoft.net/appcleaner/",
+      "titre": "AppCleaner - FreeMacSoft"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Glisser une application dans la fenêtre",
+      "raison": "souris"
+    },
+    {
+      "nom": "Supprimer l'application et ses fichiers liés",
+      "raison": "bouton à la souris, aucun raccourci documenté"
+    }
+  ]
+}

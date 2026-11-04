@@ -1,0 +1,65 @@
+{
+  "id": "adobe-digital-editions",
+  "nom": "Adobe Digital Editions",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/solutions/ebook/digital-editions.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Adobe Digital Editions",
+    "mac": "Adobe Digital Editions"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci propre à l'application n'a pu être vérifié (aide Adobe inaccessible, archive bloquée). Seules trois commandes standard de menu sont conservées, avec deduit true ; Imprimer, Rechercher et Tout sélectionner retirés faute de certitude qu'ils existent dans l'application. À recouper.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Tourner les pages",
+      "raison": "souris ou molette"
+    }
+  ]
+}

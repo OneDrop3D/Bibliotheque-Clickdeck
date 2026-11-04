@@ -1,0 +1,39 @@
+{
+  "id": "natron",
+  "nom": "Natron",
+  "editeur": "Natron (projet libre)",
+  "site": "https://natron.fr",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Natron", "mac": "Natron" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune liste officielle complète des raccourcis par défaut de Natron n'a été trouvée. Seuls trois raccourcis d'onglets et la touche 0 à 9 (sortie d'un nœud dans le Viewer) viennent de la documentation Natron (rb-2.6). Les autres (fichier, édition) sont les commandes standard, sans source, à vérifier dans Préférences > Raccourcis (Shortcut Editor). Un forum de 2014 indique que les raccourcis sont proches de Nuke : non utilisé, source trop ancienne. Mac : Cmd remplace Ctrl, à vérifier.",
+  "sources": [
+    { "url": "https://natron.readthedocs.io/en/rb-2.6/_sources/guide/getstarted-environment-menus.rst.txt", "titre": "Natron documentation - Environment menus (rb-2.6)" }
+  ],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": null, "priorite": 1, "picto": "file-plus", "deduit": true },
+    { "id": "ouvrir", "nom": "Ouvrir projet", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": null, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": null, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": null, "priorite": 2, "picto": "save-all", "deduit": true },
+    { "id": "fermer", "nom": "Fermer", "groupe": "Fichier", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": null, "priorite": 2, "picto": "x", "deduit": true },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": null, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": null, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": null, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": null, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": null, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "delete", "linux": null, "source": null, "priorite": 1, "picto": "trash-2", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": null, "priorite": 2, "picto": "box-select", "deduit": true },
+
+    { "id": "onglet-precedent", "nom": "Onglet précédent", "groupe": "Onglets", "win": "ctrl+shift+t", "mac": "cmd+shift+t", "linux": null, "source": 0, "priorite": 2, "picto": "chevron-left", "deduit": true },
+    { "id": "onglet-suivant", "nom": "Onglet suivant", "groupe": "Onglets", "win": "ctrl+t", "mac": "cmd+t", "linux": null, "source": 0, "priorite": 2, "picto": "chevron-right", "deduit": true },
+    { "id": "fermer-onglet", "nom": "Fermer onglet", "groupe": "Onglets", "win": "shift+escape", "mac": "shift+escape", "linux": null, "source": 0, "priorite": 3, "picto": "x", "deduit": true },
+
+    { "id": "sortie-noeud-1", "nom": "Sortie nœud 1", "groupe": "Viewer", "win": "1", "mac": "1", "linux": null, "source": 0, "priorite": 2, "picto": "monitor", "deduit": true }
+  ],
+  "non_faisable": []
+}

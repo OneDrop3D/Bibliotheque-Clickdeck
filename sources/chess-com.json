@@ -1,0 +1,106 @@
+{
+  "id": "chess-com",
+  "nom": "Chess.com Desktop",
+  "editeur": "Chess.com",
+  "site": "https://www.chess.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Chess.com",
+    "mac": "Chess.com"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Application de bureau qui affiche le site Chess.com ; raccourcis du site relevés sur une seule source tierce (Defkey), touches sans modificateur identiques Windows/Mac. Support Chess.com en 404. À recouper.",
+  "sources": [
+    {
+      "url": "https://defkey.com/chess-com-shortcuts",
+      "titre": "Chess.com shortcuts (Defkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "retourner",
+      "nom": "Retourner plateau",
+      "groupe": "Plateau",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw",
+      "deduit": true
+    },
+    {
+      "id": "coup-suivant",
+      "nom": "Coup suivant",
+      "groupe": "Plateau",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right",
+      "deduit": true
+    },
+    {
+      "id": "coup-precedent",
+      "nom": "Coup précédent",
+      "groupe": "Plateau",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left",
+      "deduit": true
+    },
+    {
+      "id": "premier-coup",
+      "nom": "Premier coup",
+      "groupe": "Plateau",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-left",
+      "deduit": true
+    },
+    {
+      "id": "dernier-coup",
+      "nom": "Dernier coup",
+      "groupe": "Plateau",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-right",
+      "deduit": true
+    },
+    {
+      "id": "mode-focus",
+      "nom": "Mode focus",
+      "groupe": "Plateau",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "focus",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Surligner une case",
+      "raison": "clic droit"
+    }
+  ]
+}

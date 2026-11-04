@@ -1,0 +1,274 @@
+{
+  "id": "greenshot",
+  "nom": "Greenshot",
+  "editeur": "Greenshot",
+  "site": "https://getgreenshot.org/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Greenshot"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Les raccourcis de capture par défaut utilisent tous la touche Impr écran, que ClickDeck ne peut pas envoyer ; ils sont donc en non faisable. Les actions proposées sont celles de l'éditeur d'images (fenêtre d'édition ouverte), d'après l'aide officielle getgreenshot.org/help. Annuler/Rétablir déduits (commandes standard). Windows uniquement.",
+  "sources": [
+    {
+      "url": "https://github.com/greenshot/greenshot/blob/main/docs/capture-user-guide.md",
+      "titre": "Greenshot - Guide de capture (docs officielles)"
+    },
+    {
+      "url": "https://getgreenshot.org/help/",
+      "titre": "Greenshot - Aide (raccourcis de l'éditeur d'images)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "outil-selection",
+      "nom": "Sélection",
+      "groupe": "Outils",
+      "win": "escape",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ellipse",
+      "nom": "Ellipse",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "circle"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Outils",
+      "win": "l",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "fleche",
+      "nom": "Flèche",
+      "groupe": "Outils",
+      "win": "a",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "arrow-up-right"
+    },
+    {
+      "id": "main-levee",
+      "nom": "Main levée",
+      "groupe": "Outils",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "surligner",
+      "nom": "Surligner",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "highlighter"
+    },
+    {
+      "id": "masquer",
+      "nom": "Masquer",
+      "groupe": "Outils",
+      "win": "o",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "eye-off"
+    },
+    {
+      "id": "recadrer",
+      "nom": "Recadrer",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "valider-recadrage",
+      "nom": "Valider recadrage",
+      "groupe": "Recadrage",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "check"
+    },
+    {
+      "id": "recadrer-elements",
+      "nom": "Recadrer éléments",
+      "groupe": "Recadrage",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Export",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Export",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "copier-image",
+      "nom": "Copier l'image",
+      "groupe": "Export",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller-image",
+      "nom": "Coller une image",
+      "groupe": "Export",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Export",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "envoyer-courriel",
+      "nom": "Envoyer par e-mail",
+      "groupe": "Export",
+      "win": "ctrl+e",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "mail"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "redo",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Capture région",
+      "raison": "Impr écran : touche non prise en charge"
+    },
+    {
+      "nom": "Capture fenêtre",
+      "raison": "Alt+Impr écran : touche non prise en charge"
+    },
+    {
+      "nom": "Plein écran",
+      "raison": "Ctrl+Impr écran : touche non prise en charge"
+    },
+    {
+      "nom": "Dernière zone",
+      "raison": "Maj+Impr écran : touche non prise en charge"
+    },
+    {
+      "nom": "Capture Internet Explorer",
+      "raison": "Ctrl+Maj+Impr écran : touche non prise en charge"
+    }
+  ]
+}

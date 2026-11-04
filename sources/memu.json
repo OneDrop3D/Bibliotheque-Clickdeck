@@ -1,0 +1,21 @@
+{
+  "id": "memu",
+  "nom": "MEmu",
+  "editeur": "Microvirt",
+  "site": "https://www.memuplay.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "MEmu", "mac": "MEmu" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Émulateur Android. Aucune liste officielle de raccourcis globaux par défaut n'a été trouvée sur le site (memuplay.com ; page d'aide raccourcis introuvable, 404). Les contrôles documentés sont des mappages intégrés (Smart Controls) par jeu. Non vérifié : la recherche web était indisponible pendant ce relevé.",
+  "sources": [
+    { "url": "https://www.memuplay.com/", "titre": "MEmu Play - site officiel (aucune liste de raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Smart Controls (mappage par jeu)", "raison": "réglage sans raccourci global" }
+  ]
+}

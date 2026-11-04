@@ -1,0 +1,17 @@
+{
+  "id": "mkvcleaver",
+  "nom": "MKVCleaver",
+  "editeur": "Non identifié (outil tiers)",
+  "site": "",
+  "systemes": ["windows"],
+  "lancement": { "windows": "MKVCleaver" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Interface graphique de MKVToolNix pour extraire les pistes. Aucun raccourci trouvé. Les critiques de VideoHelp indiquent Windows seulement et un développement arrêté. Le site de l'éditeur n'a pas pu être ouvert. Pack de lancement, sans action.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

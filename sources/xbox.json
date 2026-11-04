@@ -1,0 +1,17 @@
+{
+  "id": "xbox",
+  "nom": "Xbox App (PC)",
+  "editeur": "Microsoft",
+  "site": "https://www.xbox.com/fr-FR/apps/xbox-app-pc",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Xbox" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "L'application Xbox n'a pas de raccourcis globaux documentés vérifiés. Les raccourcis système utiles (Win+G pour la barre de jeu, capture) relèvent de Windows. La page d'aide Xbox consultée ne contenait pas la liste. À recontrôler.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Barre de jeu (Win+G)", "raison": "raccourci système Windows, hors application" } ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "foobar2000",
+  "nom": "foobar2000",
+  "editeur": "Peter Pawlowski",
+  "site": "https://www.foobar2000.org/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "foobar2000",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Une seule source tierce (DefKey) : 9 raccourcis prédéfinis, aucun pour la lecture (à assigner dans Préférences > Keyboard Shortcuts). Tout sélectionner est une commande standard déduite.",
+  "sources": [
+    {
+      "url": "https://defkey.com/foobar2000-shortcuts",
+      "titre": "foobar2000 shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": false
+    },
+    {
+      "id": "nouvelle-liste",
+      "nom": "Nouvelle liste",
+      "groupe": "Listes",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "enregistrer-liste",
+      "nom": "Enreg. la liste",
+      "groupe": "Listes",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "fermer-liste",
+      "nom": "Fermer la liste",
+      "groupe": "Listes",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-x"
+    },
+    {
+      "id": "ajouter-adresse",
+      "nom": "Ajouter adresse",
+      "groupe": "Fichier",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Édition",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Options",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "toujours-dessus",
+      "nom": "Toujours dessus",
+      "groupe": "Options",
+      "win": "alt+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pin"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Lecture / pause",
+      "raison": "raccourci par défaut non vérifié"
+    },
+    {
+      "nom": "Piste suivante",
+      "raison": "raccourci par défaut non vérifié"
+    },
+    {
+      "nom": "Piste précédente",
+      "raison": "raccourci par défaut non vérifié"
+    },
+    {
+      "nom": "Volume +/-",
+      "raison": "raccourci par défaut non vérifié"
+    },
+    {
+      "nom": "Mute",
+      "raison": "raccourci par défaut non vérifié"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "simplewall",
+  "nom": "simplewall",
+  "editeur": "Henry++",
+  "site": "https://github.com/henrypp/simplewall",
+  "systemes": ["windows"],
+  "lancement": { "windows": "simplewall", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle lue ne documente aucun raccourci clavier. Pare-feu pilotable principalement à la souris (règles, filtres, bouton de création de règle). Aucune action ajoutée sans source.",
+  "sources": [
+    { "url": "https://github.com/henrypp/simplewall", "titre": "simplewall - dépôt officiel (lu le 2026-11-04)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Créer une règle utilisateur", "raison": "réglage sans raccourci documenté (bouton de la barre d'outils)" },
+    { "nom": "Désactiver les filtres", "raison": "réglage sans raccourci documenté (bouton)" }
+  ]
+}

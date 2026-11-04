@@ -1,0 +1,317 @@
+{
+  "id": "davinci-resolve",
+  "nom": "DaVinci Resolve",
+  "editeur": "Blackmagic Design",
+  "site": "https://www.blackmagicdesign.com/products/davinciresolve",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "DaVinci Resolve",
+    "mac": "DaVinci Resolve"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Une seule source, tierce (Editors Keys, article de 2026 qui indique Resolve 21). Le PDF officiel Blackmagic lu était une version 15 illisible. Raccourcis de changement de page (Maj+chiffre) écartés : sources contradictoires. Vérifier dans DaVinci Resolve > Keyboard Customization (Ctrl+Alt+K / Cmd+Option+K).",
+  "sources": [
+    {
+      "url": "https://www.editorskeys.com/blogs/news/25-davinci-resolve-keyboard-shortcuts-every-video-editor-should-know-in-2026-edit-faster-save-hours",
+      "titre": "Editors Keys - 25 DaVinci Resolve keyboard shortcuts (tiers, Resolve 21)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture/pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lecture_arriere",
+      "nom": "Lecture arrière",
+      "groupe": "Lecture",
+      "win": "j",
+      "mac": "j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "stop",
+      "nom": "Stop",
+      "groupe": "Lecture",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "lecture_avant",
+      "nom": "Lecture avant",
+      "groupe": "Lecture",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "marquer_entree",
+      "nom": "Marquer entrée",
+      "groupe": "Montage",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "marquer_sortie",
+      "nom": "Marquer sortie",
+      "groupe": "Montage",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "couper_curseur",
+      "nom": "Couper au curseur",
+      "groupe": "Montage",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "insert",
+      "nom": "Insérer",
+      "groupe": "Montage",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "ecraser",
+      "nom": "Écraser",
+      "groupe": "Montage",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "ripple_delete",
+      "nom": "Suppr. ondulation",
+      "groupe": "Montage",
+      "win": "shift+delete",
+      "mac": "shift+delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Montage",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "append",
+      "nom": "Ajouter à la fin",
+      "groupe": "Montage",
+      "win": "shift+f12",
+      "mac": "shift+f12",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus"
+    },
+    {
+      "id": "mode_trim",
+      "nom": "Mode trim",
+      "groupe": "Montage",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "outil_selection",
+      "nom": "Outil sélection",
+      "groupe": "Montage",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "accrochage",
+      "nom": "Accrochage",
+      "groupe": "Montage",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "magnet"
+    },
+    {
+      "id": "activer_clip",
+      "nom": "Activer clip",
+      "groupe": "Montage",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "edit_precedent",
+      "nom": "Coupe précédente",
+      "groupe": "Montage",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "edit_suivant",
+      "nom": "Coupe suivante",
+      "groupe": "Montage",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "tout_selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "zoom_timeline_avant",
+      "nom": "Zoom timeline +",
+      "groupe": "Navigation",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_timeline_arriere",
+      "nom": "Zoom timeline -",
+      "groupe": "Navigation",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "ajuster_timeline",
+      "nom": "Ajuster timeline",
+      "groupe": "Navigation",
+      "win": "shift+z",
+      "mac": "shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Changer de page (Maj+chiffre)",
+      "raison": "sources contradictoires"
+    },
+    {
+      "nom": "Avance image par image",
+      "raison": "touche K maintenue avec J ou L"
+    },
+    {
+      "nom": "Zoom timeline à la molette",
+      "raison": "molette"
+    }
+  ]
+}

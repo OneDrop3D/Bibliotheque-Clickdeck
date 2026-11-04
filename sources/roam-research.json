@@ -1,0 +1,129 @@
+{
+  "id": "roam-research",
+  "nom": "Roam Research Desktop",
+  "editeur": "Roam Research",
+  "site": "https://roamresearch.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Roam Research",
+    "mac": "Roam Research"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "panne": false,
+  "note": "Source unique incohérente (defkey, sections Windows/Mac mélangées) : seules les actions Mac sont conservées, Windows non vérifié. Fiche faible, à recouper.",
+  "sources": [
+    {
+      "url": "https://defkey.com/roam-research-shortcuts",
+      "titre": "Roam Research shortcuts (defkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "recherche",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "recherche-page",
+      "nom": "Chercher dans page",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan-search"
+    },
+    {
+      "id": "todo",
+      "nom": "Basculer tâche",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check-square"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "lien",
+      "nom": "Créer un lien",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "barre",
+      "nom": "Barré",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "strikethrough"
+    },
+    {
+      "id": "notes-jour",
+      "nom": "Notes du jour",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "ctrl+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-days"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "select-all"
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "line",
+  "nom": "LINE Desktop",
+  "editeur": "LINE Corporation",
+  "site": "https://line.me/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "LINE", "mac": "LINE" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "À compléter : aucune source sur les raccourcis de LINE Desktop n'a pu être ouverte (page d'aide officielle sans contenu sur le sujet, recherche web épuisée). Aucune action n'a été ajoutée sans source.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

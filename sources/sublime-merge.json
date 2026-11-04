@@ -1,0 +1,87 @@
+{
+  "id": "sublime-merge",
+  "nom": "Sublime Merge",
+  "editeur": "Sublime HQ",
+  "site": "https://www.sublimemerge.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Sublime Merge",
+    "mac": "Sublime Merge",
+    "linux": "smerge"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seule la palette de commandes (Getting Started) est documentée par l'éditeur ; la liste complète des raccourcis par défaut n'est pas publiée dans la documentation accessible. Les commandes standard sont déduites. À compléter depuis Préférences > Key Bindings.",
+  "sources": [
+    {
+      "url": "https://www.sublimemerge.com/docs/key_bindings",
+      "titre": "Sublime Merge - Key Bindings"
+    },
+    {
+      "url": "https://www.sublimemerge.com/docs/getting_started",
+      "titre": "Sublime Merge - Getting Started"
+    }
+  ],
+  "actions": [
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "palette",
+      "nom": "Palette commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "terminal-square"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Navigation dans l'historique (précédent / suivant)",
+      "raison": "réglage sans raccourci fixe vérifié"
+    }
+  ]
+}

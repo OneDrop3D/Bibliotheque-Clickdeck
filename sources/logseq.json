@@ -1,0 +1,60 @@
+{
+  "id": "logseq",
+  "nom": "Logseq",
+  "editeur": "Logseq",
+  "site": "https://logseq.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Logseq", "mac": "Logseq" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du fichier de configuration officiel (src/main/frontend/modules/shortcut/config.cljs, branche master). Mod = Ctrl sous Windows, Cmd sous Mac. Les raccourcis en séquence (g j, t t, p t...) ne sont pas utilisables avec une seule touche. La version installée peut différer du master.",
+  "sources": [
+    { "url": "https://raw.githubusercontent.com/logseq/logseq/master/src/main/frontend/modules/shortcut/config.cljs", "titre": "Logseq - shortcut config.cljs (code source officiel)" }
+  ],
+  "actions": [
+    { "id": "recherche", "nom": "Recherche", "groupe": "Navigation", "win": "ctrl+k", "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "palette", "nom": "Palette commandes", "groupe": "Navigation", "win": "ctrl+shift+p", "mac": "cmd+shift+p", "linux": null, "source": 0, "priorite": 1, "picto": "terminal" },
+    { "id": "chercher-page", "nom": "Chercher dans page", "groupe": "Navigation", "win": "ctrl+shift+k", "mac": "cmd+shift+k", "linux": null, "source": 0, "priorite": 1, "picto": "file-search" },
+    { "id": "page-precedente", "nom": "Page précédente", "groupe": "Navigation", "win": "ctrl+bracketleft", "mac": "cmd+bracketleft", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-left" },
+    { "id": "page-suivante", "nom": "Page suivante", "groupe": "Navigation", "win": "ctrl+bracketright", "mac": "cmd+bracketright", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-right" },
+    { "id": "journal-jour", "nom": "Journal en latéral", "groupe": "Navigation", "win": "alt+shift+j", "mac": "cmd+shift+j", "linux": null, "source": 0, "priorite": 1, "picto": "calendar" },
+    { "id": "favori", "nom": "Favori", "groupe": "Navigation", "win": "ctrl+shift+f", "mac": "cmd+shift+f", "linux": null, "source": 0, "priorite": 3, "picto": "star" },
+    { "id": "ouvrir-lien", "nom": "Ouvrir le lien", "groupe": "Navigation", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 2, "picto": "external-link" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "copier-texte", "nom": "Copier en texte", "groupe": "Édition", "win": "ctrl+shift+c", "mac": "cmd+shift+c", "linux": null, "source": 0, "priorite": 3, "picto": "clipboard-type" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 2, "picto": "text-select", "deduit": true },
+    { "id": "inserer-lien", "nom": "Insérer un lien", "groupe": "Édition", "win": "ctrl+l", "mac": "cmd+l", "linux": null, "source": 0, "priorite": 1, "picto": "link" },
+    { "id": "nouveau-bloc", "nom": "Nouveau bloc", "groupe": "Édition", "win": "enter", "mac": "enter", "linux": null, "source": 0, "priorite": 1, "picto": "corner-down-left" },
+    { "id": "nouvelle-ligne", "nom": "Nouvelle ligne", "groupe": "Édition", "win": "shift+enter", "mac": "shift+enter", "linux": null, "source": 0, "priorite": 1, "picto": "wrap-text" },
+    { "id": "indenter", "nom": "Indenter", "groupe": "Édition", "win": "tab", "mac": "tab", "linux": null, "source": 0, "priorite": 1, "picto": "indent" },
+    { "id": "desindenter", "nom": "Désindenter", "groupe": "Édition", "win": "shift+tab", "mac": "shift+tab", "linux": null, "source": 0, "priorite": 1, "picto": "outdent" },
+    { "id": "monter-bloc", "nom": "Monter le bloc", "groupe": "Édition", "win": "alt+shift+up", "mac": "cmd+shift+up", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-up" },
+    { "id": "descendre-bloc", "nom": "Descendre le bloc", "groupe": "Édition", "win": "alt+shift+down", "mac": "cmd+shift+down", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-down" },
+
+    { "id": "gras", "nom": "Gras", "groupe": "Mise en forme", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "bold" },
+    { "id": "italique", "nom": "Italique", "groupe": "Mise en forme", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "italic" },
+    { "id": "surligner", "nom": "Surligner", "groupe": "Mise en forme", "win": "ctrl+shift+h", "mac": "cmd+shift+h", "linux": null, "source": 0, "priorite": 1, "picto": "highlighter" },
+    { "id": "barre", "nom": "Barré", "groupe": "Mise en forme", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 1, "picto": "strikethrough" },
+
+    { "id": "developper", "nom": "Développer blocs", "groupe": "Blocs", "win": "ctrl+down", "mac": "cmd+down", "linux": null, "source": 0, "priorite": 3, "picto": "chevrons-down" },
+    { "id": "reduire", "nom": "Réduire blocs", "groupe": "Blocs", "win": "ctrl+up", "mac": "cmd+up", "linux": null, "source": 0, "priorite": 3, "picto": "chevrons-up" },
+    { "id": "zoom-bloc", "nom": "Zoom sur le bloc", "groupe": "Blocs", "win": "alt+right", "mac": "cmd+period", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "propriete", "nom": "Ajouter propriété", "groupe": "Blocs", "win": "ctrl+alt+p", "mac": "cmd+p", "linux": null, "source": 0, "priorite": 3, "picto": "tag" },
+
+    { "id": "reglages", "nom": "Réglages", "groupe": "Affichage", "win": null, "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 3, "picto": "settings" }
+  ],
+  "non_faisable": [
+    { "nom": "Journal (g j)", "raison": "séquence de touches" },
+    { "nom": "Basculer thème (t t)", "raison": "séquence de touches" },
+    { "nom": "Basculer barre latérale droite (t r)", "raison": "séquence de touches" },
+    { "nom": "Graphe (g g)", "raison": "séquence de touches" },
+    { "nom": "Réglages sous Windows (t s)", "raison": "séquence de touches, pas de raccourci à une seule touche" }
+  ]
+}

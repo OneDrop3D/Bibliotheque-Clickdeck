@@ -1,0 +1,49 @@
+{
+  "id": "dolphin",
+  "nom": "Dolphin",
+  "editeur": "Dolphin Emulator Project",
+  "site": "https://dolphin-emu.org/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Dolphin", "mac": "Dolphin" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut lus dans le code source (HotkeyManager.cpp, LoadDefaults), identiques sur Windows et autres systèmes. Le code n'a pas de variante macOS : Alt = Option, et les touches F1 à F12 peuvent exiger fn. Les raccourcis à Ctrl (ouvrir, etc.) ne sont pas repris pour le Mac car leur équivalent Mac n'est pas confirmé.",
+  "sources": [
+    { "url": "https://github.com/dolphin-emu/dolphin/blob/master/Source/Core/Core/HotkeyManager.cpp", "titre": "Code source Dolphin : raccourcis par défaut" }
+  ],
+  "actions": [
+    { "id": "pause", "nom": "Pause / reprise", "groupe": "Émulation", "win": "f10", "mac": "f10", "linux": null, "source": 0, "priorite": 1, "picto": "pause", "deduit": true },
+    { "id": "arret", "nom": "Arrêter le jeu", "groupe": "Émulation", "win": "escape", "mac": "escape", "linux": null, "source": 0, "priorite": 1, "picto": "square", "deduit": true },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Émulation", "win": "alt+enter", "mac": "alt+enter", "linux": null, "source": 0, "priorite": 1, "picto": "maximize", "deduit": true },
+    { "id": "capture-ecran", "nom": "Capture d'écran", "groupe": "Émulation", "win": "f9", "mac": "f9", "linux": null, "source": 0, "priorite": 1, "picto": "camera", "deduit": true },
+    { "id": "charger-1", "nom": "Charger état 1", "groupe": "États", "win": "f1", "mac": "f1", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "charger-2", "nom": "Charger état 2", "groupe": "États", "win": "f2", "mac": "f2", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "charger-3", "nom": "Charger état 3", "groupe": "États", "win": "f3", "mac": "f3", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "charger-4", "nom": "Charger état 4", "groupe": "États", "win": "f4", "mac": "f4", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "charger-5", "nom": "Charger état 5", "groupe": "États", "win": "f5", "mac": "f5", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "charger-6", "nom": "Charger état 6", "groupe": "États", "win": "f6", "mac": "f6", "linux": null, "source": 0, "priorite": 2, "picto": "folder-open", "deduit": true },
+    { "id": "charger-7", "nom": "Charger état 7", "groupe": "États", "win": "f7", "mac": "f7", "linux": null, "source": 0, "priorite": 2, "picto": "folder-open", "deduit": true },
+    { "id": "charger-8", "nom": "Charger état 8", "groupe": "États", "win": "f8", "mac": "f8", "linux": null, "source": 0, "priorite": 2, "picto": "folder-open", "deduit": true },
+    { "id": "sauver-1", "nom": "Sauver état 1", "groupe": "États", "win": "shift+f1", "mac": "shift+f1", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "sauver-2", "nom": "Sauver état 2", "groupe": "États", "win": "shift+f2", "mac": "shift+f2", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "sauver-3", "nom": "Sauver état 3", "groupe": "États", "win": "shift+f3", "mac": "shift+f3", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "sauver-4", "nom": "Sauver état 4", "groupe": "États", "win": "shift+f4", "mac": "shift+f4", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "sauver-5", "nom": "Sauver état 5", "groupe": "États", "win": "shift+f5", "mac": "shift+f5", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "sauver-6", "nom": "Sauver état 6", "groupe": "États", "win": "shift+f6", "mac": "shift+f6", "linux": null, "source": 0, "priorite": 2, "picto": "save", "deduit": true },
+    { "id": "sauver-7", "nom": "Sauver état 7", "groupe": "États", "win": "shift+f7", "mac": "shift+f7", "linux": null, "source": 0, "priorite": 2, "picto": "save", "deduit": true },
+    { "id": "sauver-8", "nom": "Sauver état 8", "groupe": "États", "win": "shift+f8", "mac": "shift+f8", "linux": null, "source": 0, "priorite": 2, "picto": "save", "deduit": true },
+    { "id": "annuler-chargement", "nom": "Annuler chargement", "groupe": "États", "win": "f12", "mac": "f12", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "annuler-sauvegarde", "nom": "Annuler sauvegarde", "groupe": "États", "win": "shift+f12", "mac": "shift+f12", "linux": null, "source": 0, "priorite": 1, "picto": "undo", "deduit": true },
+    { "id": "wiimote-1", "nom": "Connecter Wiimote 1", "groupe": "Wii", "win": "alt+f5", "mac": "alt+f5", "linux": null, "source": 0, "priorite": 2, "picto": "gamepad-2", "deduit": true },
+    { "id": "wiimote-2", "nom": "Connecter Wiimote 2", "groupe": "Wii", "win": "alt+f6", "mac": "alt+f6", "linux": null, "source": 0, "priorite": 3, "picto": "gamepad-2", "deduit": true },
+    { "id": "wiimote-3", "nom": "Connecter Wiimote 3", "groupe": "Wii", "win": "alt+f7", "mac": "alt+f7", "linux": null, "source": 0, "priorite": 3, "picto": "gamepad-2", "deduit": true },
+    { "id": "wiimote-4", "nom": "Connecter Wiimote 4", "groupe": "Wii", "win": "alt+f8", "mac": "alt+f8", "linux": null, "source": 0, "priorite": 3, "picto": "gamepad-2", "deduit": true },
+    { "id": "balance-board", "nom": "Balance Board", "groupe": "Wii", "win": "alt+f9", "mac": "alt+f9", "linux": null, "source": 0, "priorite": 3, "picto": "scale", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Désactiver la limite de vitesse (Tab)", "raison": "touche maintenue" }
+  ]
+}

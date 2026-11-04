@@ -1,0 +1,17 @@
+{
+  "id": "nzxt-cam",
+  "nom": "NZXT CAM",
+  "editeur": "NZXT",
+  "site": "https://nzxt.com/product/cam",
+  "systemes": ["windows"],
+  "lancement": { "windows": "CAM", "mac": "CAM" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de supervision de matériel sans raccourcis clavier relevés. La page officielle n'a pu être relue qu'en partie, la limite de requêtes ayant été atteinte. Aucune action n'est proposée.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

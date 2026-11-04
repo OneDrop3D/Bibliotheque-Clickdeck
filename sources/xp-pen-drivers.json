@@ -1,0 +1,17 @@
+{
+  "id": "xp-pen-drivers",
+  "nom": "XP-Pen drivers",
+  "editeur": "XP-Pen",
+  "site": "https://www.xp-pen.com/download/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "XP-PenTablet", "mac": "XP-PenTablet" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le pilote règle les touches express de la tablette, mais la page de téléchargement officielle consultée ne liste aucun raccourci par défaut. Aucune action proposée ; les touches se configurent dans le pilote.",
+  "sources": [ { "url": "https://www.xp-pen.com/download/", "titre": "XP-Pen download (aucun raccourci trouvé)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Touches express de la tablette", "raison": "réglage dans le pilote, sans raccourci par défaut documenté" } ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "polycam",
+  "nom": "Polycam Desktop",
+  "editeur": "Polycam",
+  "site": "https://poly.cam/",
+  "systemes": [],
+  "lancement": {},
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci relevé : la page officielle consultée (poly.cam) ne documente aucune version desktop ni aucun raccourci, et le centre d'aide (learn.poly.cam) a refusé la lecture (403). Polycam est principalement une application mobile et web ; l'existence et les plateformes d'une version desktop restent à confirmer avant publication.",
+  "sources": [
+    { "url": "https://poly.cam/", "titre": "Polycam - page d'accueil (consultée, sans raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

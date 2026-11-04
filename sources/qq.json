@@ -1,0 +1,17 @@
+{
+  "id": "qq",
+  "nom": "QQ Desktop",
+  "editeur": "Tencent",
+  "site": "https://im.qq.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "QQ", "mac": "QQ" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "À compléter : aucune source sur les raccourcis de QQ Desktop n'a pu être ouverte (recherche web épuisée). Aucune action n'a été ajoutée sans source.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

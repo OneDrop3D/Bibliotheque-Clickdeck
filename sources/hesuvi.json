@@ -1,0 +1,21 @@
+{
+  "id": "hesuvi",
+  "nom": "HeSuVi",
+  "editeur": "Nurgo (projet communautaire)",
+  "site": "https://sourceforge.net/projects/hesuvi/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "HeSuVi"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Fiche incomplète : la page du projet consultée renvoie 404 et la recherche web était indisponible (quota épuisé). Aucun raccourci vérifié, donc aucune action proposée. À reprendre avec la documentation du projet.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

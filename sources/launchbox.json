@@ -1,0 +1,21 @@
+{
+  "id": "launchbox",
+  "nom": "LaunchBox",
+  "editeur": "Unbroken Studios",
+  "site": "https://www.launchbox-app.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "LaunchBox"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis par défaut non vérifiés : la recherche en ligne n'a pas pu être effectuée (budget de recherche épuisé). Aucune action n'est proposée tant que la documentation officielle n'a pas été relue. Seconde passe : sources toujours inaccessibles ou muettes.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

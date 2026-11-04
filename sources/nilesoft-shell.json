@@ -1,0 +1,21 @@
+{
+  "id": "nilesoft-shell",
+  "nom": "Nilesoft Shell",
+  "editeur": "Nilesoft",
+  "site": "https://nilesoft.org/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Nilesoft Shell" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Gestionnaire de menu contextuel de l'Explorateur Windows, configuré par le fichier shell.nss. La page officielle ne documente aucun raccourci clavier par défaut. Pas de version Mac.",
+  "sources": [
+    { "url": "https://nilesoft.org/", "titre": "Nilesoft Shell - page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Menu contextuel", "raison": "clic droit, souris" }
+  ]
+}

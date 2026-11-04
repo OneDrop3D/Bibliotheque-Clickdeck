@@ -1,0 +1,81 @@
+{
+  "id": "reason",
+  "nom": "Reason",
+  "editeur": "Reason Studios",
+  "site": "https://www.reasonstudios.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Reason",
+    "mac": "Reason"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la documentation officielle Reason 13 (Key Commands). La page source est tronquée après la section Mimic : les raccourcis spécifiques aux instruments (NN-XT, Redrum, Kong, etc.) ne sont pas repris. Ctrl = Windows, Cmd = Mac, comme dans la source.",
+  "sources": [
+    {
+      "url": "https://docs.reasonstudios.com/reason13/key-commands",
+      "titre": "Reason 13 Operation Manual - Key Commands"
+    }
+  ],
+  "actions": [
+    {"id": "nouveau-song", "nom": "Nouveau Song", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus"},
+    {"id": "ouvrir-song", "nom": "Ouvrir Song", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open"},
+    {"id": "enregistrer-song", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save"},
+    {"id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 2, "picto": "save-all"},
+    {"id": "fermer-song", "nom": "Fermer Song", "groupe": "Fichier", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": 0, "priorite": 2, "picto": "x"},
+    {"id": "importer-audio", "nom": "Importer audio", "groupe": "Fichier", "win": "ctrl+shift+i", "mac": "cmd+alt+i", "linux": null, "source": 0, "priorite": 3, "picto": "file-audio"},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2"},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "cmd+y", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2"},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors"},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste"},
+    {"id": "dupliquer", "nom": "Dupliquer", "groupe": "Édition", "win": "ctrl+d", "mac": "cmd+d", "linux": null, "source": 0, "priorite": 1, "picto": "copy-plus"},
+    {"id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer-2"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "delete", "linux": null, "source": 0, "priorite": 1, "picto": "trash-2"},
+    {"id": "piste-audio", "nom": "Piste audio", "groupe": "Création", "win": "ctrl+t", "mac": "cmd+t", "linux": null, "source": 0, "priorite": 1, "picto": "audio-lines"},
+    {"id": "creer-instrument", "nom": "Créer instrument", "groupe": "Création", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "piano"},
+    {"id": "creer-effet", "nom": "Créer effet", "groupe": "Création", "win": "ctrl+e", "mac": "cmd+e", "linux": null, "source": 0, "priorite": 1, "picto": "sliders-horizontal"},
+    {"id": "mix-channel", "nom": "Mix Channel", "groupe": "Création", "win": "ctrl+shift+m", "mac": "cmd+shift+m", "linux": null, "source": 0, "priorite": 2, "picto": "sliders-vertical"},
+    {"id": "maximiser-mixer", "nom": "Maximiser Mixer", "groupe": "Affichage", "win": "f5", "mac": "f5", "linux": null, "source": 0, "priorite": 2, "picto": "sliders-vertical"},
+    {"id": "maximiser-rack", "nom": "Maximiser Rack", "groupe": "Affichage", "win": "f6", "mac": "f6", "linux": null, "source": 0, "priorite": 2, "picto": "server"},
+    {"id": "maximiser-sequenceur", "nom": "Maximiser Séq.", "groupe": "Affichage", "win": "f7", "mac": "f7", "linux": null, "source": 0, "priorite": 2, "picto": "list-music"},
+    {"id": "afficher-browser", "nom": "Afficher Browser", "groupe": "Affichage", "win": "f9", "mac": "f9", "linux": null, "source": 0, "priorite": 2, "picto": "panel-left"},
+    {"id": "device-palette", "nom": "Device Palette", "groupe": "Affichage", "win": "f3", "mac": "f3", "linux": null, "source": 0, "priorite": 3, "picto": "layout-grid"},
+    {"id": "spectrum-eq", "nom": "Spectrum EQ", "groupe": "Affichage", "win": "f2", "mac": "f2", "linux": null, "source": 0, "priorite": 3, "picto": "audio-waveform"},
+    {"id": "piano-virtuel", "nom": "Piano virtuel", "groupe": "Affichage", "win": "f4", "mac": "f4", "linux": null, "source": 0, "priorite": 3, "picto": "keyboard"},
+    {"id": "zone-edition", "nom": "Zone édition", "groupe": "Affichage", "win": "f8", "mac": "f8", "linux": null, "source": 0, "priorite": 3, "picto": "pencil-ruler"},
+    {"id": "basculer-rack", "nom": "Rack avant/arrière", "groupe": "Affichage", "win": "tab", "mac": "tab", "linux": null, "source": 0, "priorite": 3, "picto": "repeat"},
+    {"id": "lecture", "nom": "Lecture / stop", "groupe": "Transport", "win": "space", "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "play"},
+    {"id": "enregistrer-transport", "nom": "Lancer enreg.", "groupe": "Transport", "win": "ctrl+enter", "mac": "cmd+enter", "linux": null, "source": 0, "priorite": 1, "picto": "circle"},
+    {"id": "retour-debut", "nom": "Retour au début", "groupe": "Transport", "win": "shift+enter", "mac": "shift+enter", "linux": null, "source": 0, "priorite": 2, "picto": "skip-back"},
+    {"id": "boucle", "nom": "Boucle on/off", "groupe": "Transport", "win": "l", "mac": "l", "linux": null, "source": 0, "priorite": 1, "picto": "repeat"},
+    {"id": "metronome", "nom": "Métronome", "groupe": "Transport", "win": "c", "mac": "c", "linux": null, "source": 0, "priorite": 1, "picto": "timer"},
+    {"id": "suivre-song", "nom": "Suivre la Song", "groupe": "Transport", "win": "f", "mac": "f", "linux": null, "source": 0, "priorite": 2, "picto": "crosshair"},
+    {"id": "outil-fleche", "nom": "Outil flèche", "groupe": "Séquenceur", "win": "q", "mac": "q", "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer-2"},
+    {"id": "crayon", "nom": "Crayon", "groupe": "Séquenceur", "win": "w", "mac": "w", "linux": null, "source": 0, "priorite": 1, "picto": "pencil"},
+    {"id": "gomme", "nom": "Gomme", "groupe": "Séquenceur", "win": "e", "mac": "e", "linux": null, "source": 0, "priorite": 2, "picto": "eraser"},
+    {"id": "cutter", "nom": "Cutter", "groupe": "Séquenceur", "win": "r", "mac": "r", "linux": null, "source": 0, "priorite": 2, "picto": "scissors"},
+    {"id": "muet-clip", "nom": "Muet clip", "groupe": "Séquenceur", "win": "t", "mac": "t", "linux": null, "source": 0, "priorite": 2, "picto": "volume-x"},
+    {"id": "loupe", "nom": "Loupe", "groupe": "Séquenceur", "win": "y", "mac": "y", "linux": null, "source": 0, "priorite": 2, "picto": "search"},
+    {"id": "main", "nom": "Main", "groupe": "Séquenceur", "win": "u", "mac": "u", "linux": null, "source": 0, "priorite": 3, "picto": "hand"},
+    {"id": "snap", "nom": "Snap on/off", "groupe": "Séquenceur", "win": "s", "mac": "s", "linux": null, "source": 0, "priorite": 1, "picto": "magnet"},
+    {"id": "quantifier", "nom": "Quantifier", "groupe": "Séquenceur", "win": "ctrl+k", "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "align-vertical-distribute-center"},
+    {"id": "joindre", "nom": "Joindre", "groupe": "Séquenceur", "win": "ctrl+j", "mac": "cmd+j", "linux": null, "source": 0, "priorite": 2, "picto": "link"},
+    {"id": "ouvrir-clip", "nom": "Ouvrir le clip", "groupe": "Séquenceur", "win": "enter", "mac": "enter", "linux": null, "source": 0, "priorite": 2, "picto": "file-music"},
+    {"id": "fermer-clip", "nom": "Fermer le clip", "groupe": "Séquenceur", "win": "escape", "mac": "escape", "linux": null, "source": 0, "priorite": 3, "picto": "x"},
+    {"id": "crossfade-audio", "nom": "Crossfade audio", "groupe": "Séquenceur", "win": "x", "mac": "x", "linux": null, "source": 0, "priorite": 3, "picto": "arrow-left-right"},
+    {"id": "zoom-avant-horizontal", "nom": "Zoom avant horiz.", "groupe": "Zoom et vue", "win": "h", "mac": "h", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in"},
+    {"id": "zoom-arriere-horizontal", "nom": "Zoom arr. horiz.", "groupe": "Zoom et vue", "win": "g", "mac": "g", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out"},
+    {"id": "zoom-selection", "nom": "Zoom sélection", "groupe": "Zoom et vue", "win": "z", "mac": "z", "linux": null, "source": 0, "priorite": 2, "picto": "maximize"}
+  ],
+  "non_faisable": [
+    {"nom": "Réglage de fader à la molette", "raison": "molette"},
+    {"nom": "Précision accrue au glisser de souris", "raison": "souris"}
+  ]
+}

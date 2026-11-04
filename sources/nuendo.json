@@ -1,0 +1,17 @@
+{
+  "id": "nuendo",
+  "nom": "Nuendo",
+  "editeur": "Steinberg",
+  "site": "https://www.steinberg.net/nuendo/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Nuendo", "mac": "Nuendo" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Non vérifié : les pages Steinberg 'Default Key Commands' renvoient 403 à la lecture, et l'archive de la page v9 (Cubase/Nuendo) n'a pas été lisible. Aucune action relevée à ce stade. Les raccourcis sont listés dans File > Key Commands.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "persepolis",
+  "nom": "Persepolis",
+  "editeur": "Persepolis Download Manager (projet open source)",
+  "site": "https://github.com/persepolisdm/persepolis",
+  "systemes": ["linux"],
+  "lancement": { "linux": "Persepolis" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le README officiel ne décrit aucun raccourci clavier. Options en ligne de commande seulement (--link, --tray). Plateformes non vérifiées au-delà de Linux.",
+  "sources": [ { "url": "https://github.com/persepolisdm/persepolis", "titre": "README Persepolis (GitHub)" } ],
+  "actions": [],
+  "non_faisable": []
+}

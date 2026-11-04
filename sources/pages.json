@@ -1,0 +1,53 @@
+{
+  "id": "pages",
+  "nom": "Pages",
+  "editeur": "Apple",
+  "site": "https://www.apple.com/fr/pages/",
+  "systemes": ["mac"],
+  "lancement": { "windows": null, "mac": "Pages" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application macOS uniquement. Raccourcis lus sur la page officielle Apple ; ceux marqués deduit viennent des commandes standard du menu.",
+  "sources": [
+    { "url": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac", "titre": "Raccourcis clavier dans Pages sur Mac" }
+  ],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": null, "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": null, "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": null, "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": null, "mac": "shift+alt+cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save-all" },
+    { "id": "dupliquer", "nom": "Dupliquer", "groupe": "Fichier", "win": null, "mac": "shift+cmd+s", "linux": null, "source": 0, "priorite": 2, "picto": "copy" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": null, "mac": "cmd+p", "linux": null, "source": 0, "priorite": 1, "picto": "printer" },
+    { "id": "fermer", "nom": "Fermer fenêtre", "groupe": "Fichier", "win": null, "mac": "cmd+w", "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": null, "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": null, "mac": "shift+cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": null, "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "coller-style", "nom": "Coller et adapter", "groupe": "Édition", "win": null, "mac": "shift+alt+cmd+v", "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-paste" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": null, "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "scan" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": null, "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "gras", "nom": "Gras", "groupe": "Mise en forme", "win": null, "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "bold" },
+    { "id": "italique", "nom": "Italique", "groupe": "Mise en forme", "win": null, "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "italic" },
+    { "id": "souligne", "nom": "Souligné", "groupe": "Mise en forme", "win": null, "mac": "cmd+u", "linux": null, "source": 0, "priorite": 1, "picto": "underline" },
+    { "id": "lien", "nom": "Ajouter un lien", "groupe": "Mise en forme", "win": null, "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "link" },
+    { "id": "police-plus", "nom": "Police +", "groupe": "Mise en forme", "win": null, "mac": "cmd+plus", "linux": null, "source": 0, "priorite": 1, "picto": "a-large-small" },
+    { "id": "police-moins", "nom": "Police -", "groupe": "Mise en forme", "win": null, "mac": "cmd+minus", "linux": null, "source": 0, "priorite": 2, "picto": "a-small" },
+    { "id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": null, "mac": "shift+cmd+period", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": null, "mac": "shift+cmd+comma", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-out" },
+    { "id": "taille-reelle", "nom": "Taille réelle", "groupe": "Affichage", "win": null, "mac": "cmd+0", "linux": null, "source": 0, "priorite": 2, "picto": "scan" },
+    { "id": "regle", "nom": "Règle", "groupe": "Affichage", "win": null, "mac": "cmd+r", "linux": null, "source": 0, "priorite": 3, "picto": "ruler" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": null, "mac": "ctrl+cmd+f", "linux": null, "source": 0, "priorite": 2, "picto": "maximize" },
+    { "id": "nombre-mots", "nom": "Nombre de mots", "groupe": "Affichage", "win": null, "mac": "shift+cmd+w", "linux": null, "source": 0, "priorite": 2, "picto": "hash" },
+    { "id": "saut-page", "nom": "Saut de page", "groupe": "Insertion", "win": null, "mac": "cmd+return", "linux": null, "source": 0, "priorite": 2, "picto": "separator-horizontal" },
+    { "id": "car-speciaux", "nom": "Car. spéciaux", "groupe": "Insertion", "win": null, "mac": "ctrl+cmd+space", "linux": null, "source": 0, "priorite": 3, "picto": "type" },
+    { "id": "saut-ligne", "nom": "Saut de ligne", "groupe": "Insertion", "win": null, "mac": "shift+return", "linux": null, "source": 0, "priorite": 3, "picto": "corner-down-left" },
+    { "id": "barre-laterale", "nom": "Barre latérale", "groupe": "Panneaux", "win": null, "mac": "alt+cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "panel-right" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom à la molette", "raison": "molette" }
+  ]
+}

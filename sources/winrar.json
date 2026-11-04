@@ -1,0 +1,411 @@
+{
+  "id": "winrar",
+  "nom": "WinRAR",
+  "editeur": "win.rar GmbH",
+  "site": "https://www.win-rar.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "WinRAR"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur une seule source tierce (defkey.com) ; le manuel officiel n'a pas pu être lu (404). Windows uniquement. Ctrl+A, Ctrl+C, Ctrl+V, F3 sont aussi des commandes standard des menus.",
+  "sources": [
+    {
+      "url": "https://defkey.com/winrar-shortcuts",
+      "titre": "WinRAR keyboard shortcuts - DefKey"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir archive",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer WinRAR",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "mdp",
+      "nom": "Mot de passe",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "key-round"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check-check",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Sélection",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Sélection",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "inverser",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "numstar",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "grp-sel",
+      "nom": "Sélection groupe",
+      "groupe": "Sélection",
+      "win": "numplus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks"
+    },
+    {
+      "id": "grp-desel",
+      "nom": "Désélection groupe",
+      "groupe": "Sélection",
+      "win": "numminus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list-x"
+    },
+    {
+      "id": "ajouter",
+      "nom": "Ajouter archive",
+      "groupe": "Commandes",
+      "win": "alt+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "archive"
+    },
+    {
+      "id": "extraire-vers",
+      "nom": "Extraire vers…",
+      "groupe": "Commandes",
+      "win": "alt+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-output"
+    },
+    {
+      "id": "extraire-direct",
+      "nom": "Extraire direct",
+      "groupe": "Commandes",
+      "win": "alt+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "package-open"
+    },
+    {
+      "id": "tester",
+      "nom": "Tester l'archive",
+      "groupe": "Commandes",
+      "win": "alt+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shield-check"
+    },
+    {
+      "id": "afficher",
+      "nom": "Afficher fichier",
+      "groupe": "Commandes",
+      "win": "alt+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Commandes",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Commandes",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "commentaire",
+      "nom": "Commentaire",
+      "groupe": "Commandes",
+      "win": "alt+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "message-square"
+    },
+    {
+      "id": "proteger",
+      "nom": "Protéger l'archive",
+      "groupe": "Commandes",
+      "win": "alt+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shield"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Commandes",
+      "win": "alt+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "lock"
+    },
+    {
+      "id": "reparer",
+      "nom": "Réparer l'archive",
+      "groupe": "Outils",
+      "win": "alt+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wrench"
+    },
+    {
+      "id": "convertir",
+      "nom": "Convertir archive",
+      "groupe": "Outils",
+      "win": "alt+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "sfx",
+      "nom": "Convertir en SFX",
+      "groupe": "Outils",
+      "win": "alt+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-cog"
+    },
+    {
+      "id": "analyser",
+      "nom": "Analyser antivirus",
+      "groupe": "Outils",
+      "win": "alt+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bug"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Outils",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "informations",
+      "nom": "Informations",
+      "groupe": "Outils",
+      "win": "alt+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "racine",
+      "nom": "Dossier racine",
+      "groupe": "Navigation",
+      "win": "ctrl+backslash",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-left-up"
+    },
+    {
+      "id": "precedent",
+      "nom": "Dossier précédent",
+      "groupe": "Navigation",
+      "win": "backspace",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "recul",
+      "nom": "Retour historique",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "avance",
+      "nom": "Avance historique",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Options",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "vue-plate",
+      "nom": "Vue à plat",
+      "groupe": "Options",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layout-list"
+    },
+    {
+      "id": "arbre",
+      "nom": "Arborescence",
+      "groupe": "Options",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-tree"
+    },
+    {
+      "id": "journal",
+      "nom": "Journal",
+      "groupe": "Options",
+      "win": "ctrl+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scroll-text"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Aide",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Compresser / extraire via le menu contextuel",
+      "raison": "menu contextuel de l'Explorateur, pas de raccourci"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "procreate",
+  "nom": "Procreate",
+  "editeur": "Savage Interactive",
+  "site": "https://procreate.com",
+  "systemes": ["mac"],
+  "lancement": {"windows": null, "mac": "Procreate"},
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application iPad (pas de version Mac) utilisée avec un clavier matériel : les touches Cmd viennent de la liste officielle du manuel Procreate 5.4. Exclus : Cmd+H, Cmd+M, Cmd+W (système ou fermeture). Cmd+O (Ouvrir) ne fonctionne pas, Cmd+A est exclu (action ambiguë). Le raccourci Cmd+0 bascule le plein écran dans l'interface de Procreate.",
+  "sources": [
+    {"url": "https://help.procreate.com/procreate/handbook/interface-gestures/keyboard", "titre": "Procreate Handbook - Keyboard Shortcuts (v5.4)"}
+  ],
+  "actions": [
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": null, "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2"},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": null, "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2"},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": null, "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors"},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste"},
+    {"id": "dupliquer", "nom": "Dupliquer", "groupe": "Édition", "win": null, "mac": "cmd+j", "linux": null, "source": 0, "priorite": 1, "picto": "copy-plus"},
+    {"id": "desel", "nom": "Désélectionner", "groupe": "Édition", "win": null, "mac": "cmd+d", "linux": null, "source": 0, "priorite": 1, "picto": "x"},
+    {"id": "effacer-calque", "nom": "Effacer le contenu", "groupe": "Édition", "win": null, "mac": "cmd+backspace", "linux": null, "source": 0, "priorite": 1, "picto": "eraser"},
+    {"id": "couleur-precedente", "nom": "Couleur précédente", "groupe": "Édition", "win": null, "mac": "x", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-left-right"},
+    {"id": "pinceau", "nom": "Pinceau", "groupe": "Outils", "win": null, "mac": "b", "linux": null, "source": 0, "priorite": 1, "picto": "brush"},
+    {"id": "gomme", "nom": "Gomme", "groupe": "Outils", "win": null, "mac": "e", "linux": null, "source": 0, "priorite": 1, "picto": "eraser"},
+    {"id": "selection", "nom": "Sélection", "groupe": "Outils", "win": null, "mac": "s", "linux": null, "source": 0, "priorite": 1, "picto": "square-dashed"},
+    {"id": "transformer", "nom": "Transformer", "groupe": "Outils", "win": null, "mac": "v", "linux": null, "source": 0, "priorite": 1, "picto": "move"},
+    {"id": "calques", "nom": "Calques", "groupe": "Outils", "win": null, "mac": "l", "linux": null, "source": 0, "priorite": 1, "picto": "layers"},
+    {"id": "couleurs", "nom": "Couleurs", "groupe": "Outils", "win": null, "mac": "c", "linux": null, "source": 0, "priorite": 1, "picto": "palette"},
+    {"id": "quickmenu", "nom": "QuickMenu", "groupe": "Outils", "win": null, "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "menu"},
+    {"id": "taille-moins5", "nom": "Taille −5 %", "groupe": "Pinceau", "win": null, "mac": "bracketleft", "linux": null, "source": 0, "priorite": 1, "picto": "circle-minus"},
+    {"id": "taille-plus5", "nom": "Taille +5 %", "groupe": "Pinceau", "win": null, "mac": "bracketright", "linux": null, "source": 0, "priorite": 1, "picto": "circle-plus"},
+    {"id": "taille-moins1", "nom": "Taille −1 %", "groupe": "Pinceau", "win": null, "mac": "cmd+bracketleft", "linux": null, "source": 0, "priorite": 2, "picto": "minus"},
+    {"id": "taille-plus1", "nom": "Taille +1 %", "groupe": "Pinceau", "win": null, "mac": "cmd+bracketright", "linux": null, "source": 0, "priorite": 2, "picto": "plus"},
+    {"id": "taille-moins10", "nom": "Taille −10 %", "groupe": "Pinceau", "win": null, "mac": "shift+bracketleft", "linux": null, "source": 0, "priorite": 2, "picto": "minus"},
+    {"id": "taille-plus10", "nom": "Taille +10 %", "groupe": "Pinceau", "win": null, "mac": "shift+bracketright", "linux": null, "source": 0, "priorite": 2, "picto": "plus"},
+    {"id": "actions", "nom": "Menu Actions", "groupe": "Affichage", "win": null, "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "wrench"},
+    {"id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": null, "mac": "cmd+0", "linux": null, "source": 0, "priorite": 1, "picto": "maximize"},
+    {"id": "guide-perspective", "nom": "Guide perspective", "groupe": "Affichage", "win": null, "mac": "cmd+semicolon", "linux": null, "source": 0, "priorite": 3, "picto": "grid-3x3"},
+    {"id": "teinte-sat", "nom": "Teinte/Saturation", "groupe": "Réglages", "win": null, "mac": "cmd+u", "linux": null, "source": 0, "priorite": 1, "picto": "sliders-horizontal"},
+    {"id": "equilibre-couleurs", "nom": "Équilibre couleurs", "groupe": "Réglages", "win": null, "mac": "cmd+b", "linux": null, "source": 0, "priorite": 3, "picto": "sliders-horizontal"}
+  ],
+  "non_faisable": [
+    {"nom": "Taille du pinceau par glissement", "raison": "geste tactile ou stylet"}
+  ]
+}

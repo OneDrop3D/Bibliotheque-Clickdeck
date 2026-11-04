@@ -1,0 +1,429 @@
+{
+  "id": "audacity",
+  "nom": "Audacity",
+  "editeur": "Audacity Team",
+  "site": "https://www.audacityteam.org",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Audacity",
+    "mac": "Audacity"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : manuel officiel Audacity (Commands and Keyboard Shortcut Reference), lu le 4 nov. 2026. La page indique « Mac users: Ctrl = ⌘ and Alt = Option » : les touches Ctrl sont lues en ⌘ (deduit), les touches nues sont identiques sur les deux systèmes (deduit). Normaliser, Amplifier, Fondus et Réduction de bruit n'ont pas de raccourci dans la doc. Plein écran (F11) retiré : F11 est réservé par macOS. Refaire sur Mac mis à ⇧⌘Z (usage Mac habituel d'Audacity), la page ne donne que Ctrl+Y.",
+  "sources": [
+    {
+      "url": "https://manual.audacityteam.org/man/keyboard_shortcut_reference.html",
+      "titre": "Commands and Keyboard Shortcut Reference (manuel Audacity)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture/arrêt",
+      "groupe": "Transport",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Transport",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Transport",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-piste-enreg",
+      "nom": "Nouvel enreg.",
+      "groupe": "Transport",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-plus",
+      "deduit": true
+    },
+    {
+      "id": "arret-curseur",
+      "nom": "Arrêt + curseur",
+      "groupe": "Transport",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "lecture-selection",
+      "nom": "Lire jusqu'à sél.",
+      "groupe": "Transport",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "apercu-coupe",
+      "nom": "Aperçu coupe",
+      "groupe": "Transport",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "debut-projet",
+      "nom": "Début projet",
+      "groupe": "Transport",
+      "win": "home",
+      "mac": "home",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back",
+      "deduit": true
+    },
+    {
+      "id": "fin-projet",
+      "nom": "Fin projet",
+      "groupe": "Transport",
+      "win": "end",
+      "mac": "end",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "boucle",
+      "nom": "Boucle on/off",
+      "groupe": "Transport",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "refaire",
+      "nom": "Refaire",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "shift+cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "silence",
+      "nom": "Silence audio",
+      "groupe": "Édition",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "volume-x",
+      "deduit": true
+    },
+    {
+      "id": "rogner",
+      "nom": "Rogner audio",
+      "groupe": "Édition",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "crop",
+      "deduit": true
+    },
+    {
+      "id": "diviser",
+      "nom": "Diviser",
+      "groupe": "Édition",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "split",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-etiquette",
+      "nom": "Ajouter étiquette",
+      "groupe": "Édition",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "tag",
+      "deduit": true
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in",
+      "deduit": true
+    },
+    {
+      "id": "zoom-normal",
+      "nom": "Zoom normal",
+      "groupe": "Affichage",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out",
+      "deduit": true
+    },
+    {
+      "id": "zoom-selection",
+      "nom": "Zoom sélection",
+      "groupe": "Affichage",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan",
+      "deduit": true
+    },
+    {
+      "id": "ajuster-largeur",
+      "nom": "Ajuster largeur",
+      "groupe": "Affichage",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-horizontal",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir projet",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-projet",
+      "nom": "Enregistrer projet",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "exporter-audio",
+      "nom": "Exporter audio",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+e",
+      "mac": "shift+cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-audio"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Normaliser",
+      "raison": "aucun raccourci assigné dans la doc"
+    },
+    {
+      "nom": "Amplifier",
+      "raison": "aucun raccourci assigné dans la doc"
+    },
+    {
+      "nom": "Fondu entrant",
+      "raison": "aucun raccourci assigné dans la doc"
+    },
+    {
+      "nom": "Fondu sortant",
+      "raison": "aucun raccourci assigné dans la doc"
+    },
+    {
+      "nom": "Réduction de bruit",
+      "raison": "aucun raccourci assigné dans la doc"
+    },
+    {
+      "nom": "Export MP3",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Tempo / pitch",
+      "raison": "non relevé dans la doc lue"
+    }
+  ]
+}

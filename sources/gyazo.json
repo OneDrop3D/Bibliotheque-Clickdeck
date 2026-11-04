@@ -1,0 +1,19 @@
+{
+  "id": "gyazo",
+  "nom": "Gyazo",
+  "editeur": "Nota Inc.",
+  "site": "https://gyazo.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Gyazo", "mac": "Gyazo" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci relevé : la page d'aide des raccourcis (gyazo.com/help/shortcuts) et la page d'aide anglaise renvoient 404 au moment de la recherche. Les captures se déclenchent par des touches globales à définir dans les réglages de l'application ; à vérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Capture (touche globale à définir)", "raison": "réglage sans raccourci par défaut documenté" }
+  ]
+}

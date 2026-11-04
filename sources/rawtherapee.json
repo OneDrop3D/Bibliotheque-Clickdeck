@@ -1,0 +1,338 @@
+{
+  "id": "rawtherapee",
+  "nom": "RawTherapee",
+  "editeur": "Projet RawTherapee",
+  "site": "https://rawtherapee.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "RawTherapee",
+    "mac": "RawTherapee",
+    "linux": "RawTherapee"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de RawPedia. La source ne mentionne pas Cmd : mac à null pour les combinaisons Ctrl/Alt/F-touches non confirmées, touches simples identiques. Ctrl+S sert aussi à lancer la file dans l'onglet File d'attente (non proposé pour éviter le doublon). Personnalisation non confirmée.",
+  "sources": [
+    {
+      "url": "https://rawpedia.pixls.us/keyboard_shortcuts/",
+      "titre": "RawPedia : Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": "ctrl+shift+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier-profil",
+      "nom": "Copier le profil",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller-profil",
+      "nom": "Coller le profil",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-file",
+      "nom": "Ajouter à la file",
+      "groupe": "File d'attente",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": "ctrl+b",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "onglet-navigateur",
+      "nom": "Onglet navigateur",
+      "groupe": "Navigation",
+      "win": "ctrl+f2",
+      "mac": null,
+      "linux": "ctrl+f2",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "onglet-editeur",
+      "nom": "Onglet éditeur",
+      "groupe": "Navigation",
+      "win": "ctrl+f4",
+      "mac": null,
+      "linux": "ctrl+f4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "onglet-file",
+      "nom": "Aller à la file",
+      "groupe": "Navigation",
+      "win": "ctrl+f3",
+      "mac": null,
+      "linux": "ctrl+f3",
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-ordered"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Zoom",
+      "win": "z",
+      "mac": "z",
+      "linux": "z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan-search"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Zoom",
+      "win": "plus",
+      "mac": "plus",
+      "linux": "plus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Zoom",
+      "win": "minus",
+      "mac": "minus",
+      "linux": "minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-recadrage",
+      "nom": "Zoom sur recadrage",
+      "groupe": "Zoom",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "ajuster-fenetre",
+      "nom": "Image entière",
+      "groupe": "Zoom",
+      "win": "alt+f",
+      "mac": null,
+      "linux": "alt+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": "f11",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "masquer-panneaux",
+      "nom": "Masquer panneaux",
+      "groupe": "Affichage",
+      "win": "m",
+      "mac": "m",
+      "linux": "m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "panels-top-left"
+    },
+    {
+      "id": "avant-apres",
+      "nom": "Avant / après",
+      "groupe": "Affichage",
+      "win": "shift+b",
+      "mac": "shift+b",
+      "linux": "shift+b",
+      "source": 0,
+      "priorite": 1,
+      "picto": "columns-2"
+    },
+    {
+      "id": "outil-recadrage",
+      "nom": "Outil recadrage",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "outil-main",
+      "nom": "Outil main",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": "h",
+      "linux": "h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "pipette-bb",
+      "nom": "Pipette blancs",
+      "groupe": "Outils",
+      "win": "w",
+      "mac": "w",
+      "linux": "w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "ligne-droite",
+      "nom": "Ligne droite",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "ruler"
+    },
+    {
+      "id": "rotation-gauche",
+      "nom": "Rotation gauche",
+      "groupe": "Rotation",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": "bracketleft",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "rotation-droite",
+      "nom": "Rotation droite",
+      "groupe": "Rotation",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": "bracketright",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "snapshot",
+      "nom": "Ajouter instantané",
+      "groupe": "Édition",
+      "win": "alt+s",
+      "mac": null,
+      "linux": "alt+s",
+      "source": 0,
+      "priorite": 3,
+      "picto": "camera"
+    },
+    {
+      "id": "note-1",
+      "nom": "Noter 1 étoile",
+      "groupe": "Notation",
+      "win": "shift+1",
+      "mac": "shift+1",
+      "linux": "shift+1",
+      "source": 0,
+      "priorite": 2,
+      "picto": "star"
+    },
+    {
+      "id": "note-5",
+      "nom": "Noter 5 étoiles",
+      "groupe": "Notation",
+      "win": "shift+5",
+      "mac": "shift+5",
+      "linux": "shift+5",
+      "source": 0,
+      "priorite": 2,
+      "picto": "star"
+    },
+    {
+      "id": "note-retirer",
+      "nom": "Retirer la note",
+      "groupe": "Notation",
+      "win": "shift+0",
+      "mac": "shift+0",
+      "linux": "shift+0",
+      "source": 0,
+      "priorite": 3,
+      "picto": "star-off"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "syncthing",
+  "nom": "Syncthing",
+  "editeur": "Syncthing Foundation",
+  "site": "https://syncthing.net",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Syncthing", "mac": "Syncthing" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Interface web pilotée à la souris (bouton Ajouter un dossier, pause, rescan, modifier). La documentation officielle lue ne décrit aucun raccourci clavier. Utilitaire de synchronisation en arrière-plan, sans raccourcis utiles.",
+  "sources": [
+    { "url": "https://docs.syncthing.net/intro/gui.html", "titre": "Syncthing - Documentation de l'interface" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Ajouter un dossier", "raison": "souris, pas de raccourci documenté" },
+    { "nom": "Pause / reprise de la synchronisation", "raison": "souris, pas de raccourci documenté" }
+  ]
+}

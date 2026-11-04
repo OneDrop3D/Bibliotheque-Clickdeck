@@ -1,0 +1,21 @@
+{
+  "id": "sunshine",
+  "nom": "Sunshine",
+  "editeur": "LizardByte (open source)",
+  "site": "https://github.com/LizardByte/Sunshine",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Sunshine" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Serveur de streaming en arrière-plan, configuré par interface web. La page officielle ne définit aucun raccourci clavier.",
+  "sources": [
+    { "url": "https://github.com/LizardByte/Sunshine", "titre": "Sunshine - README officiel" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Démarrer / arrêter le serveur", "raison": "service en arrière-plan, sans raccourci" }
+  ]
+}

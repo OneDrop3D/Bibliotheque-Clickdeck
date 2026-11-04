@@ -1,0 +1,20 @@
+{
+  "id": "izotope-neutron",
+  "nom": "iZotope Neutron",
+  "editeur": "iZotope",
+  "site": "https://s3.amazonaws.com/izotopedownloads/docs/neutron4/en/presets/index.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "iZotope Neutron", "mac": "iZotope Neutron" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune table de raccourcis n'a été trouvée pour Neutron : la page du manuel Neutron 4 consultée ne contient que la gestion des presets (uniquement à la souris), et la recherche n'a donné que des raccourcis de RX ou Nectar, qui ne sont pas recopiés ici. Vérifier dans les préférences clavier de la DAW hôte.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Changer de preset", "raison": "souris (flèches du module Presets)" },
+    { "nom": "Régler un module à la molette", "raison": "molette" }
+  ]
+}

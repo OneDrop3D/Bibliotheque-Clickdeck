@@ -1,0 +1,90 @@
+{
+  "id": "winzip",
+  "nom": "WinZip",
+  "editeur": "Corel",
+  "site": "https://www.winzip.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "WinZip",
+    "mac": "WinZip"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le support officiel consulté ne liste aucun raccourci. Commandes standard de menu proposées, déduites (deduit: true) ; côté Mac, Cmd remplace Ctrl par convention macOS, à vérifier. Actions non confirmables retirées lors de la vérification.",
+  "sources": [
+    {
+      "url": "https://www.winzip.com/en/support/",
+      "titre": "Support officiel WinZip (aucun raccourci listé)"
+    },
+    {
+      "url": "https://kb.winzip.com/",
+      "titre": "Base de connaissances WinZip (aucun raccourci listé)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouvelle archive",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "list-checks"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "alt+f4",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "power"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Glisser-déposer une archive dans la fenêtre",
+      "raison": "souris"
+    },
+    {
+      "nom": "Compression via le menu contextuel de l'Explorateur",
+      "raison": "souris"
+    }
+  ]
+}

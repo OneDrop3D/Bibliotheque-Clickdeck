@@ -1,0 +1,556 @@
+{
+  "id": "android-studio",
+  "nom": "Android Studio",
+  "editeur": "Google (JetBrains)",
+  "site": "https://developer.android.com/studio",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Android Studio",
+    "mac": "Android Studio"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut du keymap Windows/macOS. Les actions de type menu (annuler, rétablir, copier, couper, coller) sont ajoutées sans source.",
+  "sources": [
+    {
+      "url": "https://developer.android.com/studio/intro/keyboard-shortcuts",
+      "titre": "Keyboard shortcuts (Android Studio)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer-tout",
+      "nom": "Enregistrer tout",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "dupliquer-ligne",
+      "nom": "Dupliquer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "message-square"
+    },
+    {
+      "id": "formater-code",
+      "nom": "Formater le code",
+      "groupe": "Édition",
+      "win": "ctrl+alt+l",
+      "mac": "cmd+alt+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "align-left"
+    },
+    {
+      "id": "correction-rapide",
+      "nom": "Correction rapide",
+      "groupe": "Édition",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lightbulb"
+    },
+    {
+      "id": "completion-base",
+      "nom": "Complétion",
+      "groupe": "Édition",
+      "win": "ctrl+space",
+      "mac": "ctrl+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "wand"
+    },
+    {
+      "id": "completion-ciblee",
+      "nom": "Complétion ciblée",
+      "groupe": "Édition",
+      "win": "ctrl+shift+space",
+      "mac": "ctrl+shift+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "etendre-selection",
+      "nom": "Étendre sélection",
+      "groupe": "Édition",
+      "win": "ctrl+w",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "expand"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "f3",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Recherche",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    },
+    {
+      "id": "dans-projet",
+      "nom": "Dans le projet",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "trouver-classe",
+      "nom": "Trouver classe",
+      "groupe": "Recherche",
+      "win": "ctrl+n",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-code"
+    },
+    {
+      "id": "trouver-fichier",
+      "nom": "Trouver fichier",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "trouver-symbole",
+      "nom": "Trouver symbole",
+      "groupe": "Recherche",
+      "win": "ctrl+alt+shift+n",
+      "mac": "cmd+alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "braces"
+    },
+    {
+      "id": "trouver-action",
+      "nom": "Rechercher action",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "terminal"
+    },
+    {
+      "id": "fichiers-recents",
+      "nom": "Fichiers récents",
+      "groupe": "Recherche",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "aller-declaration",
+      "nom": "Aller déclaration",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "implementations",
+      "nom": "Implémentations",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+b",
+      "mac": "cmd+alt+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hash"
+    },
+    {
+      "id": "structure-fichier",
+      "nom": "Structure fichier",
+      "groupe": "Navigation",
+      "win": "ctrl+f12",
+      "mac": "cmd+f12",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-tree"
+    },
+    {
+      "id": "trouver-usages",
+      "nom": "Trouver usages",
+      "groupe": "Navigation",
+      "win": "alt+f7",
+      "mac": "alt+f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-fork"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer onglet",
+      "groupe": "Navigation",
+      "win": "ctrl+f4",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "retour-editeur",
+      "nom": "Retour éditeur",
+      "groupe": "Navigation",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "corner-left-up"
+    },
+    {
+      "id": "executer",
+      "nom": "Exécuter",
+      "groupe": "Exécution",
+      "win": "shift+f10",
+      "mac": "ctrl+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "compiler",
+      "nom": "Compiler",
+      "groupe": "Exécution",
+      "win": "ctrl+f9",
+      "mac": "cmd+f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hammer"
+    },
+    {
+      "id": "deboguer",
+      "nom": "Déboguer",
+      "groupe": "Débogage",
+      "win": "shift+f9",
+      "mac": "ctrl+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bug"
+    },
+    {
+      "id": "pas-a-pas",
+      "nom": "Pas à pas",
+      "groupe": "Débogage",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-forward"
+    },
+    {
+      "id": "entrer-dans",
+      "nom": "Entrer dans",
+      "groupe": "Débogage",
+      "win": "f7",
+      "mac": "f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "sortir",
+      "nom": "Sortir",
+      "groupe": "Débogage",
+      "win": "shift+f8",
+      "mac": "shift+f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up-from-line"
+    },
+    {
+      "id": "point-arret",
+      "nom": "Point d'arrêt",
+      "groupe": "Débogage",
+      "win": "ctrl+f8",
+      "mac": "cmd+f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "octagon"
+    },
+    {
+      "id": "reprendre",
+      "nom": "Reprendre",
+      "groupe": "Débogage",
+      "win": "f9",
+      "mac": "cmd+alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play-circle"
+    },
+    {
+      "id": "evaluer",
+      "nom": "Évaluer",
+      "groupe": "Débogage",
+      "win": "alt+f8",
+      "mac": "alt+f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "calculator"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Remaniement",
+      "win": "shift+f6",
+      "mac": "shift+f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "extraire-methode",
+      "nom": "Extraire méthode",
+      "groupe": "Remaniement",
+      "win": "ctrl+alt+m",
+      "mac": "cmd+alt+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors-line-dashed"
+    },
+    {
+      "id": "extraire-variable",
+      "nom": "Extraire variable",
+      "groupe": "Remaniement",
+      "win": "ctrl+alt+v",
+      "mac": "cmd+alt+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "variable"
+    },
+    {
+      "id": "afficher-projet",
+      "nom": "Afficher projet",
+      "groupe": "Fenêtres",
+      "win": "alt+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-tree"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Fenêtres",
+      "win": "ctrl+alt+s",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "optimiser-imports",
+      "nom": "Optimiser imports",
+      "groupe": "Édition",
+      "win": "ctrl+alt+o",
+      "mac": "ctrl+alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "package-check"
+    },
+    {
+      "id": "doc-rapide",
+      "nom": "Doc rapide",
+      "groupe": "Navigation",
+      "win": "ctrl+q",
+      "mac": "ctrl+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "book-open"
+    },
+    {
+      "id": "aller-super",
+      "nom": "Aller au parent",
+      "groupe": "Navigation",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up-left"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Push-to-talk",
+      "raison": "touche maintenue"
+    }
+  ]
+}

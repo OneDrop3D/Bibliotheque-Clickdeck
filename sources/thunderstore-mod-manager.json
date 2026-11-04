@@ -1,0 +1,26 @@
+{
+  "id": "thunderstore-mod-manager",
+  "nom": "Thunderstore Mod Manager",
+  "editeur": "Thunderstore",
+  "site": "https://thunderstore.io",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Thunderstore Mod Manager"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Gestionnaire de mods (r2modman). Le README du dépôt officiel ebkr/r2modmanPlus ne mentionne aucun raccourci clavier. Aucun raccourci proposé.",
+  "sources": [
+    {
+      "url": "https://github.com/ebkr/r2modmanPlus",
+      "titre": "Dépôt r2modmanPlus (README, sans raccourci)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

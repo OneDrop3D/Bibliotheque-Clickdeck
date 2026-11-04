@@ -1,0 +1,450 @@
+{
+  "id": "safari",
+  "nom": "Safari",
+  "editeur": "Apple",
+  "site": "https://www.apple.com/safari/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Safari"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application macOS uniquement. Raccourcis tirés du guide officiel Apple ; les commandes d'édition et de fichier standard (ouvrir, enregistrer, copier, etc.) sont ajoutées avec deduit=true. Zoom : la source écrit Commande-+ et Commande--, notés ici en cmd+equal et cmd+minus. Les raccourcis se personnalisent dans Réglages > Clavier. Recharger (Cmd+R) et Fenêtre privée (Maj+Cmd+N) : entrées de menu absentes de la page, déduites.",
+  "sources": [
+    {
+      "url": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac",
+      "titre": "Raccourcis clavier et gestes dans Safari sur Mac (Apple)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "square-plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "rouvrir-onglet",
+      "nom": "Rouvrir onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "ctrl+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "ctrl+shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "onglet-suivant-alt",
+      "nom": "Onglet suivant (2)",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent-alt",
+      "nom": "Onglet préc. (2)",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "dernier-onglet",
+      "nom": "Dernier onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+9",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "vue-onglets",
+      "nom": "Vue d'ensemble",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+backslash",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "passer-fenetre",
+      "nom": "Autre fenêtre",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "cmd+backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "accueil",
+      "nom": "Page d'accueil",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "shift+cmd+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "house"
+    },
+    {
+      "id": "barre-adresse",
+      "nom": "Barre d'adresse",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "haut-page",
+      "nom": "Haut de page",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "bas-page",
+      "nom": "Bas de page",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "rechercher-page",
+      "nom": "Rechercher page",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "zoom-plus",
+      "nom": "Zoom +",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-moins",
+      "nom": "Zoom -",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "lecteur",
+      "nom": "Lecteur",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "shift+cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "book-open"
+    },
+    {
+      "id": "barre-signets",
+      "nom": "Volet signets",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "ctrl+cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "bookmark"
+    },
+    {
+      "id": "liste-lecture",
+      "nom": "Liste de lecture",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "ctrl+cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list"
+    },
+    {
+      "id": "ajouter-liste-lecture",
+      "nom": "Ajouter à lecture",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "shift+cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "select-all"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "shift+cmd+z",
+      "linux": null,
+      "source": 0,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages Safari",
+      "groupe": "Système",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "recharger",
+      "nom": "Recharger",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "navigation-privee",
+      "nom": "Navigation privée",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "shift+cmd+n",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Défilement à la molette ou au trackpad",
+      "raison": "molette"
+    },
+    {
+      "nom": "Lecture vidéo",
+      "raison": "pas de raccourci dans la doc officielle"
+    }
+  ]
+}

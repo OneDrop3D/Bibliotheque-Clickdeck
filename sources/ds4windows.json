@@ -1,0 +1,21 @@
+{
+  "id": "ds4windows",
+  "nom": "DS4Windows",
+  "editeur": "Ryochan7 (projet open source)",
+  "site": "https://github.com/Ryochan7/DS4Windows",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "DS4Windows"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Pilote de manette PlayStation qui émule une manette Xbox : il n'envoie pas de raccourcis clavier à l'application au premier plan, et ses profils se définissent par l'utilisateur. Le dépôt GitHub et le wiki n'ont pas pu être lus (erreur 404 à la lecture), donc aucune combinaison n'a été relevée. Utilitaire de manette sans fenêtre de travail.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

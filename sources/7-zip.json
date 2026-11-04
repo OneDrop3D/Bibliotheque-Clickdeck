@@ -1,0 +1,17 @@
+{
+  "id": "7-zip",
+  "nom": "7-Zip",
+  "editeur": "Igor Pavlov",
+  "site": "https://www.7-zip.org/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "7-Zip" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La FAQ officielle de 7-Zip ne liste aucun raccourci clavier de l'interface. Application Windows uniquement. Aucune action proposée.",
+  "sources": [ { "url": "https://www.7-zip.org/faq.html", "titre": "7-Zip FAQ" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Compresser / extraire via le menu contextuel", "raison": "menu contextuel de l'Explorateur, pas de raccourci" } ]
+}

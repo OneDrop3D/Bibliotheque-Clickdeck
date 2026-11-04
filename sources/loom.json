@@ -1,0 +1,117 @@
+{
+  "id": "loom",
+  "nom": "Loom Desktop",
+  "editeur": "Atlassian (Loom)",
+  "site": "https://www.loom.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Loom",
+    "mac": "Loom"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de l'application de bureau. Loom ne documente pas de Démarrer/arrêter pour Mac : la touche est vide. Sur Mac, Enregistrer écran et Capture écran entier partagent alt+shift+1 dans la doc ; seule la fonction Enregistrer écran reçoit cette touche. Capture zone perso. : alt+shift+4 sur Mac est aussi la touche de l'enregistrement caméra seule, donc ambigu : non retenu.",
+  "sources": [
+    {
+      "url": "https://support.atlassian.com/loom/docs/use-looms-keyboard-shortcuts/",
+      "titre": "Use Loom's keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "demarrer-arreter",
+      "nom": "Démarrer / arrêter",
+      "groupe": "Enregistrement",
+      "win": "ctrl+shift+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pause-reprendre",
+      "nom": "Pause / reprendre",
+      "groupe": "Enregistrement",
+      "win": "alt+shift+p",
+      "mac": "ctrl+alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "annuler-enregistrement",
+      "nom": "Annuler",
+      "groupe": "Enregistrement",
+      "win": "alt+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "redemarrer",
+      "nom": "Redémarrer",
+      "groupe": "Enregistrement",
+      "win": "ctrl+shift+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "dessiner",
+      "nom": "Dessiner",
+      "groupe": "Enregistrement",
+      "win": "ctrl+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pencil"
+    },
+    {
+      "id": "enregistrer-ecran",
+      "nom": "Enregistrer écran",
+      "groupe": "Enregistrement",
+      "win": null,
+      "mac": "alt+shift+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "monitor"
+    },
+    {
+      "id": "capture-ecran-entier",
+      "nom": "Capture écran entier",
+      "groupe": "Captures",
+      "win": "ctrl+shift+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "camera"
+    },
+    {
+      "id": "capture-zone",
+      "nom": "Capture zone perso.",
+      "groupe": "Captures",
+      "win": "ctrl+shift+2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "crop"
+    }
+  ],
+  "non_faisable": []
+}

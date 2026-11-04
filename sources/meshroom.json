@@ -1,0 +1,35 @@
+{
+  "id": "meshroom",
+  "nom": "Meshroom",
+  "editeur": "AliceVision",
+  "site": "https://alicevision.org/#meshroom",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "Meshroom", "linux": "Meshroom" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel (meshroom/ui/qml/Application.qml, relu en entier lors de la vérification). Colonne Mac vide : aucune source Mac vérifiée, la notation Ctrl n'a pas été convertie en Cmd. Systèmes limités à Windows et Linux d'après les sources lues, macOS non vérifié.",
+  "sources": [
+    { "url": "https://github.com/alicevision/Meshroom/blob/develop/meshroom/ui/qml/Application.qml", "titre": "Meshroom - Application.qml (code source officiel)" }
+  ],
+  "actions": [
+    { "id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Projet", "win": "ctrl+n", "mac": null, "linux": "ctrl+n", "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir-projet", "nom": "Ouvrir projet", "groupe": "Projet", "win": "ctrl+o", "mac": null, "linux": "ctrl+o", "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Projet", "win": "ctrl+s", "mac": null, "linux": "ctrl+s", "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Projet", "win": "ctrl+shift+s", "mac": null, "linux": "ctrl+shift+s", "source": 0, "priorite": 1, "picto": "save-all" },
+    { "id": "nouvelle-version", "nom": "Nouvelle version", "groupe": "Projet", "win": "ctrl+alt+s", "mac": null, "linux": "ctrl+alt+s", "source": 0, "priorite": 2, "picto": "copy-plus" },
+    { "id": "importer-projet", "nom": "Importer projet", "groupe": "Projet", "win": "ctrl+shift+i", "mac": null, "linux": "ctrl+shift+i", "source": 0, "priorite": 2, "picto": "file-input" },
+    { "id": "enregistrer-modele", "nom": "Sauver gabarit", "groupe": "Projet", "win": "ctrl+shift+t", "mac": null, "linux": "ctrl+shift+t", "source": 0, "priorite": 3, "picto": "bookmark" },
+    { "id": "importer-images", "nom": "Importer images", "groupe": "Images", "win": "ctrl+i", "mac": null, "linux": "ctrl+i", "source": 0, "priorite": 1, "picto": "image-plus" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": "ctrl+z", "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": null, "linux": "ctrl+shift+z", "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "recharger-plugins", "nom": "Recharger plugins", "groupe": "Avancé", "win": "ctrl+shift+r", "mac": null, "linux": "ctrl+shift+r", "source": 0, "priorite": 3, "picto": "refresh-cw" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "ctrl+f", "mac": null, "linux": "ctrl+f", "source": 0, "priorite": 2, "picto": "maximize" },
+    { "id": "aide", "nom": "Aide", "groupe": "Aide", "win": "f1", "mac": null, "linux": "f1", "source": 0, "priorite": 3, "picto": "help-circle" }
+  ],
+  "non_faisable": [
+    { "nom": "Navigation 3D dans la vue", "raison": "souris" }
+  ]
+}

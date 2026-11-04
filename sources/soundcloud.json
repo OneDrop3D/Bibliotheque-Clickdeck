@@ -1,0 +1,25 @@
+{
+  "id": "soundcloud",
+  "nom": "SoundCloud Desktop",
+  "editeur": "SoundCloud",
+  "site": "https://soundcloud.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "SoundCloud", "mac": "SoundCloud" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le centre d'aide SoundCloud n'a pas pu être consulté (domaine introuvable) et aucune source de raccourcis n'a pu être trouvée. Aucun raccourci documenté : l'application ne propose pas de raccourcis utiles vérifiés. Fichier écrit pour le pack de lancement.",
+  "sources": [
+    { "url": "https://soundcloud.com/", "titre": "SoundCloud (site officiel, consulté sans raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lecture / pause", "raison": "aucun raccourci documenté" },
+    { "nom": "Piste suivante", "raison": "aucun raccourci documenté" },
+    { "nom": "Piste précédente", "raison": "aucun raccourci documenté" },
+    { "nom": "Volume +/-", "raison": "aucun raccourci documenté" },
+    { "nom": "Mute", "raison": "aucun raccourci documenté" }
+  ]
+}

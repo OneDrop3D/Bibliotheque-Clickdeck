@@ -1,0 +1,17 @@
+{
+  "id": "monogram",
+  "nom": "Monogram",
+  "editeur": "Monogram",
+  "site": "https://monogram.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Monogram", "mac": "Monogram" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Contrôleur créatif : les boutons se paramètrent dans le logiciel Monogram. Le site officiel (monogram.com) a renvoyé une erreur 403 et l'archive n'a pas pu être lue, aucun raccourci par défaut vérifié. Aucune action proposée, donc pack de lancement.",
+  "sources": [ { "url": "https://monogram.com", "titre": "Monogram (accès refusé, 403)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Boutons et molettes du contrôleur", "raison": "Mappage configuré dans le logiciel, pas de raccourci par défaut vérifié" } ]
+}

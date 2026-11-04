@@ -1,0 +1,26 @@
+{
+  "id": "vital",
+  "nom": "Vital",
+  "editeur": "Vital Audio",
+  "site": "https://vital.audio",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Vital", "mac": "Vital" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun manuel officiel listant des raccourcis n'a été trouvé. Les deux raccourcis ci-dessous viennent uniquement de retours d'utilisateurs sur le forum officiel (non confirmés par l'éditeur) ; à vérifier sur la version installée. Le clavier d'ordinateur sert aussi à jouer des notes, et ce comportement dépend de la station de travail hôte.",
+  "sources": [
+    { "url": "https://forum.vital.audio/t/keyboard-shortcuts-in-vital/5946", "titre": "Forum Vital - Keyboard Shortcuts in Vital? (retours utilisateurs)" }
+  ],
+  "actions": [
+    { "id": "preset-precedent", "nom": "Preset précédent", "groupe": "Presets", "win": "up", "mac": "up", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-up" },
+    { "id": "preset-suivant", "nom": "Preset suivant", "groupe": "Presets", "win": "down", "mac": "down", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-down" }
+  ],
+  "non_faisable": [
+    { "nom": "Balayer les wavetables", "raison": "fonctionne seulement dans le navigateur de wavetables ouvert" },
+    { "nom": "Régler les paramètres à la molette", "raison": "molette" },
+    { "nom": "Maintenir une note pour la verrouiller", "raison": "maintien de touche et souris" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "decky-loader",
+  "nom": "Decky Loader",
+  "editeur": "Steam Deck Homebrew",
+  "site": "https://github.com/SteamDeckHomebrew/decky-loader",
+  "systemes": ["linux"],
+  "lancement": { "linux": "Decky Loader" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Lanceur de plugins pour Steam Deck, utilisé depuis le menu Accès rapide de la console (non un raccourci clavier). Le README ne documente aucun raccourci. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://github.com/SteamDeckHomebrew/decky-loader", "titre": "Decky Loader - README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Ouvrir le menu Decky", "raison": "menu Accès rapide de la manette, pas de raccourci clavier" },
+    { "nom": "Installer un plugin", "raison": "parcours dans le menu de la console" }
+  ]
+}

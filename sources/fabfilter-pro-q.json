@@ -1,0 +1,26 @@
+{
+  "id": "fabfilter-pro-q",
+  "nom": "FabFilter Pro-Q",
+  "editeur": "FabFilter",
+  "site": "https://www.fabfilter.com/help/pro-q/using/eqdisplay",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "FabFilter Pro-Q", "mac": "FabFilter Pro-Q" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Plugin d'égalisation : la documentation officielle (aide Pro-Q 4, affichage EQ) ne décrit que des actions à la souris combinées à des modificateurs (Ctrl/Cmd, Alt, Shift). Aucune touche seule n'est documentée, donc aucune action n'est relevée. Les fonctions utiles sont listées dans non_faisable.",
+  "sources": [
+    { "url": "https://www.fabfilter.com/help/pro-q/using/eqdisplay", "titre": "FabFilter Pro-Q 4 online help - EQ display" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Créer une bande", "raison": "souris (Alt + clic ou glisser)" },
+    { "nom": "Sélectionner plusieurs bandes", "raison": "souris (Ctrl/Cmd + clic)" },
+    { "nom": "Ajuster Q de toutes les bandes", "raison": "souris (Ctrl/Cmd + glisser vertical)" },
+    { "nom": "Ajuster le gain à la molette", "raison": "molette" },
+    { "nom": "Affiner le réglage d'une bande", "raison": "souris (Shift + glisser ou molette)" },
+    { "nom": "Copier / coller les bandes", "raison": "menu clic droit" }
+  ]
+}

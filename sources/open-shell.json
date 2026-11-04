@@ -1,0 +1,17 @@
+{
+  "id": "open-shell",
+  "nom": "Open-Shell",
+  "editeur": "Open-Shell",
+  "site": "https://github.com/Open-Shell/Open-Shell-Menu",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Open-Shell" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier par défaut documenté. Le menu démarrer s'ouvre avec la touche Windows, gérée par Windows.",
+  "sources": [ { "url": "https://github.com/Open-Shell/Open-Shell-Menu", "titre": "Dépôt officiel Open-Shell Menu" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Ouvrir le menu démarrer", "raison": "touche Windows non exprimable" } ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "hitmanpro",
+  "nom": "HitmanPro",
+  "editeur": "Sophos",
+  "site": "https://www.hitmanpro.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "HitmanPro" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source n'a pu être consultée (limite de recherches web atteinte pendant la session) : aucun raccourci vérifié. Scanner ponctuel sans raccourcis utiles connus ; à vérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "xpadder",
+  "nom": "Xpadder",
+  "editeur": "Xpadder",
+  "site": "https://www.xpadder.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Xpadder" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de mappage manette vers clavier et souris : les touches envoyées sont celles que l'utilisateur assigne à chaque bouton dans ses profils, il n'existe pas de raccourci par défaut à relever. La page d'accueil officielle a été ouverte, mais elle ne décrit ni les fonctions ni les raccourcis de l'interface.",
+  "sources": [ { "url": "https://www.xpadder.com", "titre": "Xpadder.com - page d'accueil officielle" } ],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,175 @@
+{
+  "id": "meshmixer",
+  "nom": "Meshmixer",
+  "editeur": "Autodesk",
+  "site": "https://meshmixer.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Meshmixer",
+    "mac": "Meshmixer"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Logiciel abandonné par Autodesk en 2021 mais toujours utilisable. Raccourcis relevés sur l'aide Autodesk (Brush Hotkeys) ; sur Mac, Ctrl devient Cmd (source), les autres touches sont identiques.",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2019/ENU/MSHMXR/files/GUID-25F70E87-AB24-43BA-8FA6-AFFC173A334C.htm",
+      "titre": "Meshmixer - Brush Hotkeys (aide Autodesk)"
+    },
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2019/ENU/MSHMXR/files/GUID-A99E9FC7-A11A-48B7-B3B6-EA1A429F61C9.htm",
+      "titre": "Meshmixer - Camera Controls (aide Autodesk)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "outil-selection",
+      "nom": "Outil sélection",
+      "groupe": "Sélection",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "quitter-outil",
+      "nom": "Quitter l'outil",
+      "groupe": "Sélection",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "etendre-connexes",
+      "nom": "Étendre connexes",
+      "groupe": "Sélection",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "expand"
+    },
+    {
+      "id": "etendre-groupes",
+      "nom": "Étendre groupes",
+      "groupe": "Sélection",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "group"
+    },
+    {
+      "id": "inverser",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "inverser-connexes",
+      "nom": "Inverser connexes",
+      "groupe": "Sélection",
+      "win": "shift+i",
+      "mac": "shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "creer-groupe-faces",
+      "nom": "Groupe de faces",
+      "groupe": "Sélection",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "retirer-groupe-faces",
+      "nom": "Retirer groupe",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-minus"
+    },
+    {
+      "id": "optimiser-bord",
+      "nom": "Optimiser le bord",
+      "groupe": "Sélection",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "wand"
+    },
+    {
+      "id": "changer-pinceau",
+      "nom": "Changer de pinceau",
+      "groupe": "Pinceau",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "brush"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Orbite, panoramique, zoom (Alt + 3 boutons)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Taille et force du pinceau",
+      "raison": "molette"
+    }
+  ]
+}

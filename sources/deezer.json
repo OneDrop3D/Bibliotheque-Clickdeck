@@ -1,0 +1,17 @@
+{
+  "id": "deezer",
+  "nom": "Deezer Desktop",
+  "editeur": "Deezer",
+  "site": "https://www.deezer.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Deezer", "mac": "Deezer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune action relevée : les pages d'aide Deezer consultées étaient en erreur (404) et la copie d'archive a été refusée pendant cette passe. À reprendre avec une source lisible avant toute publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "finalburn-neo",
+  "nom": "FinalBurn Neo",
+  "editeur": "",
+  "site": "https://neo-source.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "FinalBurn Neo",
+    "mac": "FinalBurn Neo",
+    "linux": "fbneo"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis par défaut non vérifiés : le README indique seulement un 'standard FinalBurn layout' sans touches listées ; neo-source.com renvoie 403. Aucune action renseignée. Seconde passe : sources toujours inaccessibles ou muettes.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

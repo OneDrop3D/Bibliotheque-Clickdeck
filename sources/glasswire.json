@@ -1,0 +1,17 @@
+{
+  "id": "glasswire",
+  "nom": "GlassWire",
+  "editeur": "SecureMix",
+  "site": "https://www.glasswire.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "GlassWire", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source n'a pu être lue : la page d'assistance officielle a été consultée sans résultat exploitable et la recherche web n'était plus disponible (quota de la session atteint). Aucun raccourci n'a donc été relevé. Pare-feu et moniteur réseau pilotés à la souris. À recouper avant d'ajouter des actions.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

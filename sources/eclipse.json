@@ -1,0 +1,379 @@
+{
+  "id": "eclipse",
+  "nom": "Eclipse",
+  "editeur": "Eclipse Foundation",
+  "site": "https://eclipseide.org/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Eclipse",
+    "mac": "Eclipse"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la fiche officielle Eclipse IDE Keybindings (colonnes Windows et Mac). Complétion (Ctrl+Espace) omise sur Mac car réservée au système. Modifiables dans Préférences > Général > Touches.",
+  "sources": [
+    {
+      "url": "https://eclipseide.org/getting-started/documents/eclipse-ide-keybindings.pdf",
+      "titre": "Eclipse IDE Keybindings (officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichiers",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichiers",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "priorite": 3,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichiers",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "x",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": null,
+      "priorite": 3,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "priorite": 3,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Recherche",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "replace"
+    },
+    {
+      "id": "ouvrir-ressource",
+      "nom": "Ouvrir ressource",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-search"
+    },
+    {
+      "id": "ouvrir-type",
+      "nom": "Ouvrir un type",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-code"
+    },
+    {
+      "id": "references",
+      "nom": "Références",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-fork"
+    },
+    {
+      "id": "acces-rapide",
+      "nom": "Accès rapide",
+      "groupe": "Recherche",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zap"
+    },
+    {
+      "id": "aller-declaration",
+      "nom": "Aller déclaration",
+      "groupe": "Navigation",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "aller-ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hash"
+    },
+    {
+      "id": "hierarchie-type",
+      "nom": "Hiérarchie types",
+      "groupe": "Navigation",
+      "win": "f4",
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "erreur-suivante",
+      "nom": "Erreur suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "correction-rapide",
+      "nom": "Correction rapide",
+      "groupe": "Édition",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lightbulb"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Édition",
+      "win": "alt+shift+r",
+      "mac": "cmd+alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Édition",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "compiler",
+      "nom": "Tout compiler",
+      "groupe": "Exécution",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hammer"
+    },
+    {
+      "id": "executer-dernier",
+      "nom": "Relancer",
+      "groupe": "Exécution",
+      "win": "ctrl+f11",
+      "mac": "cmd+shift+f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "deboguer-dernier",
+      "nom": "Déboguer",
+      "groupe": "Exécution",
+      "win": "f11",
+      "mac": "cmd+f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bug"
+    },
+    {
+      "id": "pas-a-pas",
+      "nom": "Pas à pas",
+      "groupe": "Débogage",
+      "win": "f6",
+      "mac": "f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-forward"
+    },
+    {
+      "id": "entrer-dans",
+      "nom": "Entrer dans",
+      "groupe": "Débogage",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "sortir",
+      "nom": "Sortir",
+      "groupe": "Débogage",
+      "win": "f7",
+      "mac": "f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up-from-line"
+    },
+    {
+      "id": "reprendre",
+      "nom": "Reprendre",
+      "groupe": "Débogage",
+      "win": "f8",
+      "mac": "f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play-circle"
+    },
+    {
+      "id": "inspecter",
+      "nom": "Inspecter",
+      "groupe": "Débogage",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye"
+    }
+  ],
+  "non_faisable": []
+}

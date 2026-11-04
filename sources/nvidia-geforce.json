@@ -1,0 +1,21 @@
+{
+  "id": "nvidia-geforce",
+  "nom": "NVIDIA App / GeForce",
+  "editeur": "NVIDIA",
+  "site": "https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "NVIDIA App" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci n'a pu être vérifié : la page ShadowPlay consultée décrit les fonctions (replay instantané, enregistrement, overlay) sans lister les touches, la FAQ indiquée renvoie une erreur 404, et la recherche web n'était plus disponible pendant ce relevé. Les raccourcis par défaut de l'overlay et de ShadowPlay sont donc à vérifier (source NVIDIA ou recherche ultérieure) avant d'être ajoutés. Aucune action proposée pour l'instant.",
+  "sources": [
+    { "url": "https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay/", "titre": "ShadowPlay (page officielle NVIDIA, sans liste de raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Replay instantané, enregistrement et overlay", "raison": "raccourcis par défaut non vérifiés dans les sources consultées" }
+  ]
+}

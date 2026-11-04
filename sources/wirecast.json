@@ -1,0 +1,25 @@
+{
+  "id": "wirecast",
+  "nom": "Wirecast",
+  "editeur": "Telestream",
+  "site": "https://www.wirecast.io/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Wirecast", "mac": "Wirecast" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Wirecast a un jeu Default en lecture seule (Configure > Duplicate Set), mais la liste de ses combinaisons par défaut n'a pas pu être lue. Les fonctions sont listées sans combinaison : à assigner dans l'application. Les combinaisons de la documentation sont des exemples, non des défauts, et ne sont pas retenues.",
+  "sources": [
+    { "url": "https://www.wirecast.io/en/application-shortcuts-document-hotkeys-in-wirecast/", "titre": "Application Shortcuts and Document Hotkeys in Wirecast" }
+  ],
+  "actions": [
+    { "id": "demarrer-diffusion", "nom": "Démarrer diffusion", "groupe": "Diffusion", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "radio" },
+    { "id": "demarrer-enregistrement", "nom": "Démarrer enregistr.", "groupe": "Diffusion", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot" },
+    { "id": "plan-suivant", "nom": "Plan suivant", "groupe": "Plans", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-right" },
+    { "id": "plan-precedent", "nom": "Plan précédent", "groupe": "Plans", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-left" },
+    { "id": "muet-plan", "nom": "Muet (plan)", "groupe": "Audio", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "volume-x" }
+  ],
+  "non_faisable": []
+}

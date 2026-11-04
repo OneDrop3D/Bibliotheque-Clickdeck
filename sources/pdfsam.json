@@ -1,0 +1,25 @@
+{
+  "id": "pdfsam",
+  "nom": "PDFsam",
+  "editeur": "PDFsam.org",
+  "site": "https://pdfsam.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "PDFsam Basic", "mac": "PDFsam Basic", "linux": "PDFsam Basic" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de fusion, division, extraction, rotation et mélange de PDF. La page officielle ne documente aucun raccourci clavier. Fonctions relevées pour une touche de macro ou de lancement, sans touche associée.",
+  "sources": [
+    { "url": "https://pdfsam.org/", "titre": "Site officiel PDFsam" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Fusionner des PDF", "raison": "réglage sans raccourci" },
+    { "nom": "Diviser un PDF", "raison": "réglage sans raccourci" },
+    { "nom": "Extraire des pages", "raison": "réglage sans raccourci" },
+    { "nom": "Faire pivoter des pages", "raison": "réglage sans raccourci" },
+    { "nom": "Mélanger des PDF", "raison": "réglage sans raccourci" }
+  ]
+}

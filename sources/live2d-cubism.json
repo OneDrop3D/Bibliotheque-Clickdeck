@@ -1,0 +1,69 @@
+{
+  "id": "live2d-cubism",
+  "nom": "Live2D Cubism",
+  "editeur": "Live2D",
+  "site": "https://www.live2d.com/en/cubism/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Live2D Cubism Editor", "mac": "Live2D Cubism Editor" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle du manuel Cubism Editor (docs.live2d.com, version non précisée dans la page). Les raccourcis Mac ne sont pas donnés par la source : ils sont null quand la combinaison utilise Ctrl ou Alt propre à l'éditeur, et deduit=true seulement pour les commandes standard de menu et les touches sans modificateur. Ctrl sur Windows correspond à Cmd sur Mac selon la pratique habituelle, non confirmée par la page.",
+  "sources": [
+    { "url": "https://docs.live2d.com/en/cubism-editor-manual/shortcut/", "titre": "List of Shortcut Keys - Cubism Editor Manual (Live2D)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "save-all" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "nouveau-modele", "nom": "Nouveau modèle", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "file-plus" },
+    { "id": "exporter-moc3", "nom": "Exporter MOC3", "groupe": "Fichier", "win": "ctrl+alt+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "package" },
+    { "id": "exporter-mouvement", "nom": "Exporter mouvement", "groupe": "Fichier", "win": "ctrl+alt+shift+s", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "film" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "cmd+shift+z", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "clipboard" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "scan" },
+    { "id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "backspace", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "trash-2" },
+    { "id": "desselectionner", "nom": "Désélectionner", "groupe": "Édition", "win": "escape", "mac": "escape", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "circle-slash" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "deduit": true, "source": 0, "priorite": 3, "picto": "search" },
+
+    { "id": "mode-maillage", "nom": "Mode maillage", "groupe": "Modélisation", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "grid-3x3" },
+    { "id": "reinitialiser", "nom": "Réinitialiser", "groupe": "Modélisation", "win": "ctrl+1", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw" },
+    { "id": "verrouiller-selection", "nom": "Verrouiller objets", "groupe": "Modélisation", "win": "ctrl+2", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "lock" },
+    { "id": "masquer-selection", "nom": "Masquer sélection", "groupe": "Modélisation", "win": "ctrl+3", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "eye-off" },
+    { "id": "tout-afficher", "nom": "Tout afficher", "groupe": "Modélisation", "win": "ctrl+alt+3", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "eye" },
+    { "id": "atlas-textures", "nom": "Atlas de textures", "groupe": "Modélisation", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "image" },
+    { "id": "maillage-auto", "nom": "Maillage auto", "groupe": "Modélisation", "win": "ctrl+shift+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "wand-sparkles" },
+    { "id": "coins-auto", "nom": "Coins auto", "groupe": "Modélisation", "win": "ctrl+4", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "square" },
+    { "id": "creer-snapshot", "nom": "Créer un snapshot", "groupe": "Modélisation", "win": "ctrl+5", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "camera" },
+
+    { "id": "lecture", "nom": "Lecture / arrêt", "groupe": "Animation", "win": "enter", "mac": "enter", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "image-precedente", "nom": "Image précédente", "groupe": "Animation", "win": "pageup", "mac": "pageup", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "skip-back" },
+    { "id": "image-suivante", "nom": "Image suivante", "groupe": "Animation", "win": "pagedown", "mac": "pagedown", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "skip-forward" },
+    { "id": "cle-precedente", "nom": "Clé précédente", "groupe": "Animation", "win": "j", "mac": "j", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "chevron-left" },
+    { "id": "cle-suivante", "nom": "Clé suivante", "groupe": "Animation", "win": "k", "mac": "k", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "chevron-right" },
+    { "id": "debut-timeline", "nom": "Début timeline", "groupe": "Animation", "win": "home", "mac": "home", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "chevrons-left" },
+    { "id": "fin-timeline", "nom": "Fin timeline", "groupe": "Animation", "win": "end", "mac": "end", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "chevrons-right" },
+    { "id": "marqueur-precedent", "nom": "Marqueur préc.", "groupe": "Animation", "win": "ctrl+j", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "bookmark" },
+    { "id": "marqueur-suivant", "nom": "Marqueur suiv.", "groupe": "Animation", "win": "ctrl+k", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "bookmark" },
+
+    { "id": "centrer-selection", "nom": "Centrer sélection", "groupe": "Affichage", "win": "f", "mac": "f", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "crosshair" },
+    { "id": "afficher-zone", "nom": "Afficher zone", "groupe": "Affichage", "win": "shift+f", "mac": "shift+f", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "maximize" },
+    { "id": "retourner-canevas", "nom": "Retourner canevas", "groupe": "Affichage", "win": "r", "mac": "r", "linux": null, "deduit": true, "source": 0, "priorite": 3, "picto": "flip-horizontal" },
+    { "id": "solo", "nom": "Solo", "groupe": "Affichage", "win": "s", "mac": "s", "linux": null, "deduit": true, "source": 0, "priorite": 3, "picto": "user" },
+
+    { "id": "outil-fleche", "nom": "Outil flèche", "groupe": "Outils", "win": "a", "mac": "a", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "mouse-pointer" },
+    { "id": "outil-lasso", "nom": "Outil lasso", "groupe": "Outils", "win": "l", "mac": "l", "linux": null, "deduit": true, "source": 0, "priorite": 1, "picto": "lasso" },
+    { "id": "selection-pinceau", "nom": "Sélection pinceau", "groupe": "Outils", "win": "b", "mac": "b", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "paintbrush" },
+    { "id": "chemin-deformation", "nom": "Chemin déformation", "groupe": "Outils", "win": "p", "mac": "p", "linux": null, "deduit": true, "source": 0, "priorite": 2, "picto": "spline" }
+  ],
+  "non_faisable": [
+    { "nom": "Niveau d'édition 1 / 2 / 3", "raison": "réglage sans raccourci fiable à confirmer" },
+    { "nom": "Zoom de la vue", "raison": "molette" }
+  ]
+}

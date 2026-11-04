@@ -1,0 +1,17 @@
+{
+  "id": "tourbox-console",
+  "nom": "TourBox Console",
+  "editeur": "TourBox Tech",
+  "site": "https://www.tourboxtech.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "TourBox Console", "mac": "TourBox Console" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Contrôleur à boutons et molettes : la console associe chaque bouton à un raccourci dans son propre logiciel. Les préréglages Photoshop et Lightroom existent, mais leur détail touche par touche n'a pas pu être vérifié (page officielle de la version 5.11.0 consultée sans liste ; recherche web indisponible). Aucune action proposée, donc pack de lancement.",
+  "sources": [ { "url": "https://www.tourboxtech.com/en/news/tourbox-console-5-11-0-for-pc.html", "titre": "TourBox Console 5.11.0 for PC (sans liste de raccourcis)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Boutons et molettes du contrôleur", "raison": "Mappage matériel configuré dans la console, pas de raccourci par défaut vérifié" } ]
+}

@@ -1,0 +1,610 @@
+{
+  "id": "firealpaca",
+  "nom": "FireAlpaca",
+  "editeur": "Firealpaca",
+  "site": "https://firealpaca.net/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "FireAlpaca",
+    "mac": "FireAlpaca"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur le manuel officiel (Windows et Mac). La touche Insert et la pipette Alt+clic ne sont pas repris (non gérés ou non modifiables par ClickDeck).",
+  "sources": [
+    {
+      "url": "https://firealpaca.net/manual/shortcut-keys/shortcut-keys/",
+      "titre": "FireAlpaca - Manuel : raccourcis clavier"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Fichier",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier-calque",
+      "nom": "Copier calque",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "copier-fusionne",
+      "nom": "Copier fusionné",
+      "groupe": "Édition",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-check"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "taille-image",
+      "nom": "Taille de l'image",
+      "groupe": "Édition",
+      "win": "ctrl+alt+i",
+      "mac": "cmd+alt+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image"
+    },
+    {
+      "id": "taille-toile",
+      "nom": "Taille de la toile",
+      "groupe": "Édition",
+      "win": "ctrl+alt+c",
+      "mac": "cmd+alt+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "frame"
+    },
+    {
+      "id": "dupliquer-calque",
+      "nom": "Dupliquer",
+      "groupe": "Calque",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "fusion-inferieure",
+      "nom": "Fusion inférieure",
+      "groupe": "Calque",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-merge"
+    },
+    {
+      "id": "effacer",
+      "nom": "Effacer",
+      "groupe": "Calque",
+      "win": "delete",
+      "mac": "backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "effacer-travers",
+      "nom": "Effacer à travers",
+      "groupe": "Calque",
+      "win": "shift+delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eraser"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-x"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    },
+    {
+      "id": "transformer",
+      "nom": "Transformer",
+      "groupe": "Sélection",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "bordure-selection",
+      "nom": "Bordure sélection",
+      "groupe": "Sélection",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "pinceau",
+      "nom": "Pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "paintbrush"
+    },
+    {
+      "id": "gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "selection",
+      "nom": "Sélection",
+      "groupe": "Outils",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "lasso",
+      "nom": "Lasso",
+      "groupe": "Outils",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lasso"
+    },
+    {
+      "id": "baguette",
+      "nom": "Baguette magique",
+      "groupe": "Outils",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "seau",
+      "nom": "Seau",
+      "groupe": "Outils",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "degrade",
+      "nom": "Dégradé",
+      "groupe": "Outils",
+      "win": "shift+g",
+      "mac": "shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "blend"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "type"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pipette"
+    },
+    {
+      "id": "main",
+      "nom": "Main",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "hand"
+    },
+    {
+      "id": "pinceau-point",
+      "nom": "Pinceau point",
+      "groupe": "Outils",
+      "win": "shift+b",
+      "mac": "shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "dot"
+    },
+    {
+      "id": "gomme-selection",
+      "nom": "Gomme sélection",
+      "groupe": "Outils",
+      "win": "shift+s",
+      "mac": "shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eraser"
+    },
+    {
+      "id": "taille-pinceau-plus",
+      "nom": "Taille pinceau +",
+      "groupe": "Outils",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "taille-pinceau-moins",
+      "nom": "Taille pinceau −",
+      "groupe": "Outils",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "ajuster-fenetre",
+      "nom": "Ajuster fenêtre",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "grille",
+      "nom": "Grille",
+      "groupe": "Affichage",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "parametres-grille",
+      "nom": "Paramètres grille",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings-2"
+    },
+    {
+      "id": "rotation-droite",
+      "nom": "Rotation à droite",
+      "groupe": "Affichage",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "rotation-gauche",
+      "nom": "Rotation à gauche",
+      "groupe": "Affichage",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "retourner",
+      "nom": "Retourner",
+      "groupe": "Affichage",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "annuler-rotation",
+      "nom": "Annuler rotation",
+      "groupe": "Affichage",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "undo"
+    },
+    {
+      "id": "panneaux",
+      "nom": "Afficher/masquer",
+      "groupe": "Affichage",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left"
+    },
+    {
+      "id": "image-precedente-calque",
+      "nom": "Image précédente",
+      "groupe": "Animation",
+      "win": "ctrl+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-down"
+    },
+    {
+      "id": "image-suivante-calque",
+      "nom": "Image suivante",
+      "groupe": "Animation",
+      "win": "ctrl+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-up"
+    },
+    {
+      "id": "permuter-couleurs",
+      "nom": "Permuter couleurs",
+      "groupe": "Outils",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left-right"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Changer la taille du pinceau",
+      "raison": "maintien et glissement de souris (Ctrl+Alt+glisser)"
+    },
+    {
+      "nom": "Zoom avant/arrière",
+      "raison": "maintien et glissement de souris"
+    }
+  ]
+}

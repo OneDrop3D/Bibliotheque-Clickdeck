@@ -1,0 +1,467 @@
+{
+  "id": "aegisub",
+  "nom": "Aegisub",
+  "editeur": "Aegisub Project",
+  "site": "https://aegisub.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Aegisub",
+    "mac": "Aegisub",
+    "linux": "aegisub"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Relevé depuis le fichier officiel default_hotkey.json (code source). Les touches y sont notées Ctrl/Alt/Shift sans variante Mac : Mac laissé à null sauf commandes standard (deduit) et touches sans modificateur. Les lettres du groupe Audio ne fonctionnent que lorsque la zone audio a le focus.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub/master/src/libresrc/default_hotkey.json",
+      "titre": "Aegisub - default_hotkey.json"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir sous-titres",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "options",
+      "nom": "Options",
+      "groupe": "Fichier",
+      "win": "alt+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo",
+      "deduit": true
+    },
+    {
+      "id": "copier-ligne",
+      "nom": "Copier ligne",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper-ligne",
+      "nom": "Couper ligne",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller-ligne",
+      "nom": "Coller ligne",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "mouse-pointer-square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "suivant-recherche",
+      "nom": "Résultat suivant",
+      "groupe": "Édition",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Rechercher/remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "supprimer-ligne",
+      "nom": "Supprimer ligne",
+      "groupe": "Lignes",
+      "win": "ctrl+delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "scinder-avant",
+      "nom": "Scinder avant",
+      "groupe": "Lignes",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "split"
+    },
+    {
+      "id": "decaler-temps",
+      "nom": "Décaler les temps",
+      "groupe": "Temps",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clock"
+    },
+    {
+      "id": "lecture-video",
+      "nom": "Lecture vidéo",
+      "groupe": "Vidéo",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "aller-au-debut",
+      "nom": "Début de ligne",
+      "groupe": "Vidéo",
+      "win": "ctrl+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "aller-a-la-fin",
+      "nom": "Fin de ligne",
+      "groupe": "Vidéo",
+      "win": "ctrl+2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "aller-a",
+      "nom": "Aller à l'image",
+      "groupe": "Vidéo",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "locate"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Vidéo",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-forward",
+      "deduit": true
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Vidéo",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-back",
+      "deduit": true
+    },
+    {
+      "id": "images-avant",
+      "nom": "Saut avant",
+      "groupe": "Vidéo",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "images-arriere",
+      "nom": "Saut arrière",
+      "groupe": "Vidéo",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "image-cle-suivante",
+      "nom": "Image clé suivante",
+      "groupe": "Vidéo",
+      "win": "shift+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-right"
+    },
+    {
+      "id": "image-cle-precedente",
+      "nom": "Image clé préc.",
+      "groupe": "Vidéo",
+      "win": "shift+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-left"
+    },
+    {
+      "id": "ligne-bas",
+      "nom": "Descendre la ligne",
+      "groupe": "Lignes",
+      "win": "alt+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-down"
+    },
+    {
+      "id": "ligne-haut",
+      "nom": "Monter la ligne",
+      "groupe": "Lignes",
+      "win": "alt+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-up"
+    },
+    {
+      "id": "couleur-primaire",
+      "nom": "Couleur primaire",
+      "groupe": "Texte",
+      "win": "alt+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "palette"
+    },
+    {
+      "id": "couleur-contour",
+      "nom": "Couleur contour",
+      "groupe": "Texte",
+      "win": "alt+3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "palette"
+    },
+    {
+      "id": "couleur-ombre",
+      "nom": "Couleur ombre",
+      "groupe": "Texte",
+      "win": "alt+4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "palette"
+    },
+    {
+      "id": "verrouiller-audio",
+      "nom": "Valider audio",
+      "groupe": "Audio",
+      "win": "g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check"
+    },
+    {
+      "id": "lire-selection",
+      "nom": "Lire sélection",
+      "groupe": "Audio",
+      "win": "s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "arreter-audio",
+      "nom": "Arrêter audio",
+      "groupe": "Audio",
+      "win": "h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "lire-ligne",
+      "nom": "Lire la ligne",
+      "groupe": "Audio",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play-circle"
+    },
+    {
+      "id": "ligne-audio-suivante",
+      "nom": "Ligne suivante",
+      "groupe": "Audio",
+      "win": "x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "ligne-audio-precedente",
+      "nom": "Ligne précédente",
+      "groupe": "Audio",
+      "win": "z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Accrochage des marqueurs (forme d'onde)",
+      "raison": "touche maintenue (Maj)"
+    }
+  ]
+}

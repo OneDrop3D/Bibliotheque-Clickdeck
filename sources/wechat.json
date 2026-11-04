@@ -1,0 +1,23 @@
+{
+  "id": "wechat",
+  "nom": "WeChat Desktop",
+  "editeur": "Tencent",
+  "site": "https://weixin.qq.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "WeChat", "mac": "WeChat" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source officielle de raccourcis relevée et la recherche web n'était plus disponible pour ce relevé. Seules les commandes standard sont listées ; raccourcis propres à WeChat à vérifier avant publication.",
+  "sources": [
+    { "url": "https://weixin.qq.com/", "titre": "WeChat - site officiel (raccourcis non relevés)" }
+  ],
+  "actions": [
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 2, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": []
+}

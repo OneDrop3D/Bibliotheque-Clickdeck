@@ -1,0 +1,22 @@
+{
+  "id": "spitfire-audio",
+  "nom": "Spitfire Audio",
+  "editeur": "Spitfire Audio",
+  "site": "https://www.spitfireaudio.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Spitfire Audio", "mac": "Spitfire Audio" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Bibliothèques d'instruments (fonctionnent dans Kontakt ou dans le lecteur Spitfire) et non une application à raccourcis. Aucun raccourci clavier documenté n'a été trouvé ; les commandes (transposition, keyswitches) se règlent dans l'interface. Les anciens instruments LABS sont désormais proposés via Splice Instrument.",
+  "sources": [
+    { "url": "https://mail.syntheticorchestra.com/blog/26.shtml", "titre": "Synthetic Orchestra - A tour of the 2024 UI (Spitfire)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Transposer l'instrument", "raison": "réglage dans l'interface, sans raccourci" },
+    { "nom": "Déplacer les keyswitches", "raison": "réglage dans l'interface, sans raccourci" }
+  ]
+}

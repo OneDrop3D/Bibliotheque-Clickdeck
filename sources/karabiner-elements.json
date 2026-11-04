@@ -1,0 +1,21 @@
+{
+  "id": "karabiner-elements",
+  "nom": "Karabiner-Elements",
+  "editeur": "pqrs.org",
+  "site": "https://karabiner-elements.pqrs.org/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Karabiner-Elements" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Karabiner-Elements est un outil de remappage de touches : sa page officielle ne décrit aucun raccourci global par défaut. Les remappages se définissent dans ses réglages. Aucune action proposée.",
+  "sources": [
+    { "url": "https://karabiner-elements.pqrs.org/", "titre": "Karabiner-Elements - page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Remappage des touches", "raison": "réglage sans raccourci" }
+  ]
+}

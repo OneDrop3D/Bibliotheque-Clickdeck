@@ -1,0 +1,120 @@
+{
+  "id": "ppsspp",
+  "nom": "PPSSPP",
+  "editeur": "",
+  "site": "https://www.ppsspp.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "PPSSPP",
+    "mac": "PPSSPP"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis lus dans le code source de PPSSPP. Échap, accent grave : multiplateforme. Ctrl+O/W/B/T et F11 viennent de la table d'accélérateurs Windows ; Mac non confirmé donc laissé vide. Les raccourcis sont modifiables dans Réglages > Commandes.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/Core/KeyMapDefaults.cpp",
+      "titre": "Raccourcis clavier par défaut (code source PPSSPP)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/Windows/ppsspp.rc",
+      "titre": "Table d'accélérateurs Windows (code source PPSSPP)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause / menu",
+      "groupe": "Émulation",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "vitesse",
+      "nom": "Vitesse alternée",
+      "groupe": "Émulation",
+      "win": "backquote",
+      "mac": "backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "reinitialiser",
+      "nom": "Réinitialiser",
+      "groupe": "Émulation",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Émulation",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "charger",
+      "nom": "Charger un jeu",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "triche",
+      "nom": "Activer les astuces",
+      "groupe": "Jeu",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "wand-sparkles"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Avance rapide (Tab)",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Sauvegarde/chargement rapide (F2-F4)",
+      "raison": "correspondance fonction/touche non confirmée"
+    }
+  ]
+}

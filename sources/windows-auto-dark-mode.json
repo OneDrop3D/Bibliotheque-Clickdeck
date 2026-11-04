@@ -1,0 +1,21 @@
+{
+  "id": "windows-auto-dark-mode",
+  "nom": "Windows Auto Dark Mode",
+  "editeur": "AutoDarkMode (open source)",
+  "site": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Windows Auto Dark Mode" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Bascule automatique thème clair/sombre. La page du projet mentionne des raccourcis clavier sans en documenter aucun. Pack de lancement, pas de liste d'actions.",
+  "sources": [
+    { "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode", "titre": "Windows Auto Dark Mode (dépôt officiel du projet)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Basculer le thème clair/sombre", "raison": "réglage sans raccourci" }
+  ]
+}

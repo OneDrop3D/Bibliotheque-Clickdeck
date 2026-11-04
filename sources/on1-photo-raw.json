@@ -1,0 +1,519 @@
+{
+  "id": "on1-photo-raw",
+  "nom": "ON1 Photo RAW",
+  "editeur": "ON Software (ON1)",
+  "site": "https://www.on1.com/photo-raw/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "ON1 Photo RAW",
+    "mac": "ON1 Photo RAW"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans la liste officielle ON1 « Common Keyboard Hotkeys » (PDF, colonnes Windows et macOS). Modifiables dans l'application. Certaines lettres de module (S, G) sont aussi utilisées par des outils : le contexte détermine l'effet.",
+  "sources": [
+    {
+      "url": "https://ononesoft.cachefly.net/content/ON1-Keyboard-Shortcut-List.pdf",
+      "titre": "ON1 Photo RAW : Common Keyboard Hotkeys (PDF officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "module-parcourir",
+      "nom": "Parcourir",
+      "groupe": "Modules",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "module-develop",
+      "nom": "Développer",
+      "groupe": "Modules",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "module-effets",
+      "nom": "Effets",
+      "groupe": "Modules",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sparkles"
+    },
+    {
+      "id": "module-portrait",
+      "nom": "Portrait",
+      "groupe": "Modules",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "user"
+    },
+    {
+      "id": "module-local",
+      "nom": "Retouches locales",
+      "groupe": "Modules",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "brush"
+    },
+    {
+      "id": "module-taille",
+      "nom": "Redimensionner",
+      "groupe": "Modules",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scaling"
+    },
+    {
+      "id": "vue-photo",
+      "nom": "Vue photo",
+      "groupe": "Affichage",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "comparer",
+      "nom": "Comparer",
+      "groupe": "Affichage",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "columns-2"
+    },
+    {
+      "id": "masquer-panneaux",
+      "nom": "Masquer panneaux",
+      "groupe": "Affichage",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left-close"
+    },
+    {
+      "id": "avant-apres",
+      "nom": "Vue originale",
+      "groupe": "Affichage",
+      "win": "backslash",
+      "mac": "backslash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "afficher-masque",
+      "nom": "Afficher masque",
+      "groupe": "Affichage",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Zoom",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Zoom",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "ajuster-ecran",
+      "nom": "Ajuster à l'écran",
+      "groupe": "Zoom",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Zoom",
+      "win": "ctrl+alt+0",
+      "mac": "cmd+alt+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "parcourir-dossier",
+      "nom": "Parcourir dossier",
+      "groupe": "Parcourir",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Parcourir",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-check"
+    },
+    {
+      "id": "j-aime",
+      "nom": "J'aime",
+      "groupe": "Parcourir",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "thumbs-up"
+    },
+    {
+      "id": "je-naime-pas",
+      "nom": "Je n'aime pas",
+      "groupe": "Parcourir",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "thumbs-down"
+    },
+    {
+      "id": "effacer-note",
+      "nom": "Effacer J'aime",
+      "groupe": "Parcourir",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eraser"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Parcourir",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Parcourir",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "pivoter-90",
+      "nom": "Pivoter 90°",
+      "groupe": "Retouche",
+      "win": "ctrl+bracketright",
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "pivoter-moins-90",
+      "nom": "Pivoter -90°",
+      "groupe": "Retouche",
+      "win": "ctrl+bracketleft",
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "copier-reglages",
+      "nom": "Copier réglages",
+      "groupe": "Retouche",
+      "win": "ctrl+shift+c",
+      "mac": "cmd+shift+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller-reglages",
+      "nom": "Coller réglages",
+      "groupe": "Retouche",
+      "win": "ctrl+shift+v",
+      "mac": "cmd+shift+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "reinit-reglages",
+      "nom": "Réinitialiser tout",
+      "groupe": "Retouche",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "creer-version",
+      "nom": "Créer version",
+      "groupe": "Retouche",
+      "win": "ctrl+quote",
+      "mac": "cmd+quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "outil-recadrage",
+      "nom": "Recadrage",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "outil-pinceau",
+      "nom": "Pinceau de réglage",
+      "groupe": "Outils",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "paintbrush"
+    },
+    {
+      "id": "outil-degrade",
+      "nom": "Dégradé réglable",
+      "groupe": "Outils",
+      "win": "shift+k",
+      "mac": "shift+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "blend"
+    },
+    {
+      "id": "outil-correcteur",
+      "nom": "Correcteur",
+      "groupe": "Outils",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bandage"
+    },
+    {
+      "id": "outil-retouche",
+      "nom": "Pinceau retouche",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "wand"
+    },
+    {
+      "id": "outil-pinceau-masque",
+      "nom": "Pinceau de masque",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "brush"
+    },
+    {
+      "id": "outil-deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move"
+    },
+    {
+      "id": "outil-texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "type"
+    },
+    {
+      "id": "inverser-masque",
+      "nom": "Inverser masque",
+      "groupe": "Outils",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "contrast"
+    },
+    {
+      "id": "pinceau-plus",
+      "nom": "Pinceau + grand",
+      "groupe": "Outils",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "plus"
+    },
+    {
+      "id": "pinceau-moins",
+      "nom": "Pinceau + petit",
+      "groupe": "Outils",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minus"
+    },
+    {
+      "id": "export-rapide",
+      "nom": "Export rapide",
+      "groupe": "Divers",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "share"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Divers",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Divers",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Divers",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer la photo (Espace maintenu)",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Afficher l'écrêtage (J maintenu)",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Ligne droite au pinceau",
+      "raison": "souris"
+    },
+    {
+      "nom": "Opacité du pinceau (Alt + 1 à 0)",
+      "raison": "réglage de valeur par chiffre, hors action unique"
+    }
+  ]
+}

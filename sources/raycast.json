@@ -1,0 +1,381 @@
+{
+  "id": "raycast",
+  "nom": "Raycast",
+  "editeur": "Raycast",
+  "site": "https://www.raycast.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Raycast",
+    "mac": "Raycast"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourci d'ouverture par défaut : Alt+Espace sur Windows. Sur Mac, la page indique Cmd+Espace, combinaison réservée à Spotlight : non envoyable, donc laissée vide. Raccourcis de la page officielle.",
+  "sources": [
+    {
+      "url": "https://manual.raycast.com/keyboard-shortcuts",
+      "titre": "Raycast Manual - Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-raycast",
+      "nom": "Ouvrir Raycast",
+      "groupe": "Lancement",
+      "win": "alt+space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "action-principale",
+      "nom": "Action principale",
+      "groupe": "Lancement",
+      "win": "enter",
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "panneau-actions",
+      "nom": "Panneau d'actions",
+      "groupe": "Lancement",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "action-secondaire",
+      "nom": "Action secondaire",
+      "groupe": "Lancement",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Navigation",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "fermer-fenetre",
+      "nom": "Fermer la fenêtre",
+      "groupe": "Navigation",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Navigation",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "section-precedente",
+      "nom": "Section précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "section-suivante",
+      "nom": "Section suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "favori",
+      "nom": "Ajouter favori",
+      "groupe": "Éléments",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "ouvrir-element",
+      "nom": "Ouvrir",
+      "groupe": "Éléments",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "external-link"
+    },
+    {
+      "id": "voir-dans-finder",
+      "nom": "Voir dans Finder",
+      "groupe": "Éléments",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "ouvrir-avec",
+      "nom": "Ouvrir avec",
+      "groupe": "Éléments",
+      "win": "ctrl+alt+o",
+      "mac": "cmd+alt+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "app-window"
+    },
+    {
+      "id": "apercu-rapide",
+      "nom": "Aperçu rapide",
+      "groupe": "Éléments",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "informations",
+      "nom": "Informations",
+      "groupe": "Éléments",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Éléments",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "epingler",
+      "nom": "Épingler",
+      "groupe": "Éléments",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pin"
+    },
+    {
+      "id": "supprimer-element",
+      "nom": "Supprimer",
+      "groupe": "Éléments",
+      "win": "ctrl+x",
+      "mac": "ctrl+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "redo-2"
+    },
+    {
+      "id": "historique-chats",
+      "nom": "Historique chats",
+      "groupe": "Chat IA",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "envoyer-a-ia",
+      "nom": "Envoyer à l'IA",
+      "groupe": "Chat IA",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sparkles"
+    },
+    {
+      "id": "changer-modele",
+      "nom": "Changer modèle",
+      "groupe": "Chat IA",
+      "win": "ctrl+shift+m",
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "cpu"
+    },
+    {
+      "id": "archiver-chat",
+      "nom": "Archiver chat",
+      "groupe": "Chat IA",
+      "win": "ctrl+alt+a",
+      "mac": "cmd+alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "archive"
+    },
+    {
+      "id": "guide-utilisateur",
+      "nom": "Guide utilisateur",
+      "groupe": "Aide",
+      "win": "ctrl+shift+slash",
+      "mac": "cmd+shift+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "book-open"
+    },
+    {
+      "id": "retour-racine",
+      "nom": "Retour à la racine",
+      "groupe": "Navigation",
+      "win": "shift+escape",
+      "mac": "cmd+escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "modifier",
+      "nom": "Modifier",
+      "groupe": "Éléments",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "dictee",
+      "nom": "Dictée",
+      "groupe": "Chat IA",
+      "win": "ctrl+m",
+      "mac": "ctrl+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mic"
+    },
+    {
+      "id": "rechercher-chats",
+      "nom": "Chercher les chats",
+      "groupe": "Chat IA",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "envoyer-formulaire",
+      "nom": "Envoyer formulaire",
+      "groupe": "Formulaires",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "send"
+    }
+  ],
+  "non_faisable": []
+}

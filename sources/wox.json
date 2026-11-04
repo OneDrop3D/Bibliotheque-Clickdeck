@@ -1,0 +1,29 @@
+{
+  "id": "wox",
+  "nom": "Wox",
+  "editeur": "Wox Launcher",
+  "site": "https://github.com/Wox-launcher/Wox",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Wox", "mac": "Wox", "linux": "Wox" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourci principal par défaut : Alt+Espace sous Windows, Ctrl+Espace sous Linux. Sous Mac, Cmd+Espace est réservé au système : non proposé, à définir dans les réglages de Wox. Les actions Ctrl+H et Cmd+H ne sont proposées que sous Windows, Cmd+H étant réservé au système.",
+  "sources": [
+    { "url": "https://github.com/Wox-launcher/Wox/blob/master/www/docs/guide/usage/hotkeys.md", "titre": "Wox - Hotkeys (documentation du dépôt)" },
+    { "url": "https://github.com/Wox-launcher/Wox/blob/master/wox.core/setting/wox_setting.go", "titre": "Wox - wox_setting.go (valeurs par défaut)" }
+  ],
+  "actions": [
+    { "id": "ouvrir-wox", "nom": "Ouvrir Wox", "groupe": "Lanceur", "win": "alt+space", "mac": null, "linux": "ctrl+space", "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "panneau-actions", "nom": "Panneau d'actions", "groupe": "Lanceur", "win": "ctrl+k", "mac": "cmd+k", "linux": "ctrl+k", "source": 0, "priorite": 1, "picto": "list" },
+    { "id": "ouvrir-webview", "nom": "Ouvrir en WebView", "groupe": "WebView", "win": "ctrl+enter", "mac": "cmd+enter", "linux": "ctrl+enter", "source": 0, "priorite": 2, "picto": "globe" },
+    { "id": "fermer-page", "nom": "Fermer la page", "groupe": "WebView", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": 0, "priorite": 2, "picto": "x" },
+    { "id": "masquer-page", "nom": "Masquer la page", "groupe": "WebView", "win": "ctrl+h", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "eye-off" }
+  ],
+  "non_faisable": [
+    { "nom": "Raccourcis de requête personnalisés", "raison": "définis par l'utilisateur, aucun raccourci par défaut" },
+    { "nom": "Raccourci de sélection", "raison": "défini par l'utilisateur, pas de valeur par défaut documentée" }
+  ]
+}

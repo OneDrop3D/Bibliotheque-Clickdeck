@@ -1,0 +1,23 @@
+{
+  "id": "universal-usb-installer",
+  "nom": "Universal USB Installer",
+  "editeur": "pendrivelinux.com",
+  "site": "https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Universal USB Installer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier propre à l'application n'est documenté (seuls des raccourcis du BIOS et de Linux sont cités). Seule la commande standard Quitter est proposée. Le site mélange les dates de mise à jour : à vérifier.",
+  "sources": [
+    { "url": "https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/", "titre": "Universal USB Installer - page de l'auteur" }
+  ],
+  "actions": [
+    { "id": "quitter", "nom": "Quitter", "groupe": "Application", "win": "alt+f4", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "log-out", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Création de la clé USB bootable", "raison": "séquence de réglages à la souris, pas de raccourci" }
+  ]
+}

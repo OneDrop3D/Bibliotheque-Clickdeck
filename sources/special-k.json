@@ -1,0 +1,38 @@
+{
+  "id": "special-k",
+  "nom": "Special K",
+  "editeur": "Kaldaien",
+  "site": "https://www.special-k.info/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Special K"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Windows uniquement. Seule la macro par défaut Ctrl+Maj+O (affichage OSD) a été lue dans le code source ; la touche du panneau de contrôle n'a pas pu être confirmée.",
+  "sources": [
+    {
+      "url": "https://github.com/SpecialKO/SpecialK/blob/main/src/config.cpp",
+      "titre": "Code source Special K, macros par défaut"
+    }
+  ],
+  "actions": [
+    {
+      "id": "osd",
+      "nom": "Afficher l'OSD",
+      "groupe": "Général",
+      "win": "ctrl+shift+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    }
+  ],
+  "non_faisable": []
+}

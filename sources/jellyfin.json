@@ -1,0 +1,30 @@
+{
+  "id": "jellyfin",
+  "nom": "Jellyfin",
+  "editeur": "Jellyfin Project",
+  "site": "https://jellyfin.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Jellyfin",
+    "mac": "Jellyfin",
+    "linux": "jellyfin"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du lecteur non vérifiés : aucune liste officielle trouvée (le code source ne montre que des touches multimédia et la navigation TV). L'action Ouvrir précédemment proposée a été retirée (Jellyfin est un client web sans commande Ouvrir). Pack de lancement seulement.",
+  "sources": [
+    {
+      "url": "https://jellyfin.org/docs/general/clients/",
+      "titre": "Documentation Jellyfin : clients (aucune liste de raccourcis)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

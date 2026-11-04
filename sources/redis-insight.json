@@ -1,0 +1,30 @@
+{
+  "id": "redis-insight",
+  "nom": "Redis Insight",
+  "editeur": "Redis",
+  "site": "https://redis.io/docs/latest/develop/tools/insight/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Redis Insight",
+    "mac": "Redis Insight",
+    "linux": "Redis Insight"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci documenté dans la documentation officielle ni le wiki GitHub.",
+  "sources": [
+    {
+      "url": "https://redis.io/docs/latest/develop/tools/insight/",
+      "titre": "Redis Insight - documentation officielle (aucun raccourci documenté)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

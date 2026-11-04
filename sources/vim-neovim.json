@@ -1,0 +1,222 @@
+{
+  "id": "vim-neovim",
+  "nom": "Vim / Neovim",
+  "editeur": "Vim (communauté) / Neovim",
+  "site": "https://www.vim.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "vim",
+    "mac": "vim",
+    "linux": "vim"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Éditeur modal en terminal. Les touches du mode normal sont identiques sur Vim et Neovim, et sur tous les systèmes. Vérifié sur la documentation Vim uniquement. Les commandes Ex (:w, :q, :wq) n'ont pas pu être confirmées et sont omises.",
+  "sources": [
+    {
+      "url": "https://vimhelp.org/index.txt.html",
+      "titre": "Vim - index des commandes (aide officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "inserer-avant",
+      "nom": "Insérer avant",
+      "groupe": "Édition",
+      "win": "i",
+      "mac": "i",
+      "linux": "i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-cursor"
+    },
+    {
+      "id": "ajouter-apres",
+      "nom": "Ajouter après",
+      "groupe": "Édition",
+      "win": "a",
+      "mac": "a",
+      "linux": "a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-cursor-input"
+    },
+    {
+      "id": "ligne-dessous",
+      "nom": "Ligne dessous",
+      "groupe": "Édition",
+      "win": "o",
+      "mac": "o",
+      "linux": "o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "u",
+      "mac": "u",
+      "linux": "u",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+r",
+      "mac": "ctrl+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "supprimer-caractere",
+      "nom": "Supprimer caractère",
+      "groupe": "Édition",
+      "win": "x",
+      "mac": "x",
+      "linux": "x",
+      "source": 0,
+      "priorite": 2,
+      "picto": "delete"
+    },
+    {
+      "id": "coller-apres",
+      "nom": "Coller après",
+      "groupe": "Édition",
+      "win": "p",
+      "mac": "p",
+      "linux": "p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "bloc-visuel",
+      "nom": "Bloc visuel",
+      "groupe": "Sélection",
+      "win": "ctrl+v",
+      "mac": "ctrl+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "slash",
+      "mac": "slash",
+      "linux": "slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "n",
+      "mac": "n",
+      "linux": "n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "aller-fin",
+      "nom": "Aller à la fin",
+      "groupe": "Navigation",
+      "win": "shift+g",
+      "mac": "shift+g",
+      "linux": "shift+g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "ctrl+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-down"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "ctrl+b",
+      "linux": "ctrl+b",
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-up"
+    },
+    {
+      "id": "retour-saut",
+      "nom": "Retour saut",
+      "groupe": "Navigation",
+      "win": "ctrl+o",
+      "mac": "ctrl+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 3,
+      "picto": "undo"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Supprimer ligne",
+      "raison": "séquence (dd)"
+    },
+    {
+      "nom": "Copier ligne",
+      "raison": "séquence (yy)"
+    },
+    {
+      "nom": "Aller au début",
+      "raison": "séquence (gg)"
+    },
+    {
+      "nom": "Aller à la définition",
+      "raison": "séquence (gd)"
+    },
+    {
+      "nom": "Centrer la ligne",
+      "raison": "séquence (zz)"
+    },
+    {
+      "nom": "Enregistrer et quitter",
+      "raison": "séquence (ZZ)"
+    },
+    {
+      "nom": "Diviser horizontalement",
+      "raison": "séquence (Ctrl-w s)"
+    },
+    {
+      "nom": "Diviser verticalement",
+      "raison": "séquence (Ctrl-w v)"
+    },
+    {
+      "nom": "Fenêtre suivante",
+      "raison": "séquence (Ctrl-w w)"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "kitty-ssh",
+  "nom": "KiTTY",
+  "editeur": "KiTTY (fork de PuTTY)",
+  "site": "http://www.9bis.net/kitty/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "KiTTY"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Fork de PuTTY : pas de raccourci utile pour un clavier de macros. Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Copier / coller du terminal",
+      "raison": "sélection à la souris"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "wemod",
+  "nom": "WeMod",
+  "editeur": "WeMod",
+  "site": "https://www.wemod.com",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "WeMod", "linux": "WeMod" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Les raccourcis des trainers sont définis par trainer et par l'utilisateur ; aucun raccourci par défaut documenté trouvé dans la page support consultée. Aucune action retenue.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Raccourcis des trainers", "raison": "définis par trainer, sans valeur par défaut documentée" }
+  ]
+}

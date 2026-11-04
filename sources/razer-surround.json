@@ -1,0 +1,23 @@
+{
+  "id": "razer-surround",
+  "nom": "Razer Surround",
+  "editeur": "Razer",
+  "site": "https://www.razer.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Razer Synapse",
+    "mac": "Razer Synapse"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Fiche incomplète : les pages officielles consultées renvoient 404 et la recherche web était indisponible (quota épuisé). Aucun raccourci vérifié, donc aucune action proposée. Razer Surround se règle dans Razer Synapse. À reprendre avec une page officielle valide.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

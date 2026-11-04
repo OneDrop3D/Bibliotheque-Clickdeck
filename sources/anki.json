@@ -1,0 +1,248 @@
+{
+  "id": "anki",
+  "nom": "Anki",
+  "editeur": "Ankitects",
+  "site": "https://apps.ankiweb.net/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Anki",
+    "mac": "Anki"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste partielle : les pages de documentation ne donnent pas les raccourcis d'annulation, de suspension, d'enterrement ni de mise en forme de l'éditeur (affichés au survol des boutons). Suppression de note retirée (Ctrl+Suppr non confirmé par la doc). Rechercher et Annuler sont des commandes standard marquées deduit.",
+  "sources": [
+    {
+      "url": "https://docs.ankiweb.net/browsing.html",
+      "titre": "Anki Manual - Browsing (documentation officielle)"
+    },
+    {
+      "url": "https://docs.ankiweb.net/editing.html",
+      "titre": "Anki Manual - Editing (documentation officielle)"
+    },
+    {
+      "url": "https://docs.ankiweb.net/studying.html",
+      "titre": "Anki Manual - Studying (documentation officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ajouter-note",
+      "nom": "Ajouter la note",
+      "groupe": "Éditeur",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "plus-circle"
+    },
+    {
+      "id": "ouvrir-navigateur",
+      "nom": "Ouvrir navigateur",
+      "groupe": "Navigateur",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-list"
+    },
+    {
+      "id": "cartes-notes",
+      "nom": "Cartes ou notes",
+      "groupe": "Navigateur",
+      "win": "ctrl+alt+t",
+      "mac": "cmd+alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "drapeau-1",
+      "nom": "Drapeau 1",
+      "groupe": "Révision",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "drapeau-2",
+      "nom": "Drapeau 2",
+      "groupe": "Révision",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "drapeau-3",
+      "nom": "Drapeau 3",
+      "groupe": "Révision",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "drapeau-4",
+      "nom": "Drapeau 4",
+      "groupe": "Révision",
+      "win": "ctrl+4",
+      "mac": "cmd+4",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "drapeau-5",
+      "nom": "Drapeau 5",
+      "groupe": "Révision",
+      "win": "ctrl+5",
+      "mac": "cmd+5",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "drapeau-6",
+      "nom": "Drapeau 6",
+      "groupe": "Révision",
+      "win": "ctrl+6",
+      "mac": "cmd+6",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "drapeau-7",
+      "nom": "Drapeau 7",
+      "groupe": "Révision",
+      "win": "ctrl+7",
+      "mac": "cmd+7",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "flag"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigateur",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "afficher-reponse",
+      "nom": "Afficher réponse",
+      "groupe": "Révision",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "encore",
+      "nom": "Encore",
+      "groupe": "Révision",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "difficile",
+      "nom": "Difficile",
+      "groupe": "Révision",
+      "win": "2",
+      "mac": "2",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "thumbs-down"
+    },
+    {
+      "id": "bien",
+      "nom": "Bien",
+      "groupe": "Révision",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "thumbs-up"
+    },
+    {
+      "id": "facile",
+      "nom": "Facile",
+      "groupe": "Révision",
+      "win": "4",
+      "mac": "4",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "etudier",
+      "nom": "Étudier le paquet",
+      "groupe": "Révision",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "changer-paquet",
+      "nom": "Changer de paquet",
+      "groupe": "Navigation",
+      "win": "slash",
+      "mac": "slash",
+      "linux": null,
+      "source": 2,
+      "priorite": 2,
+      "picto": "arrow-right-left"
+    }
+  ],
+  "non_faisable": []
+}

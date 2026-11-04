@@ -1,0 +1,312 @@
+{
+  "id": "clipchamp",
+  "nom": "Clipchamp",
+  "editeur": "Microsoft",
+  "site": "https://www.clipchamp.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Clipchamp",
+    "mac": "Clipchamp"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page d'aide officielle Microsoft, revérifiée. Supprimer, Échap, Espace et flèches : une seule touche indiquée pour les deux systèmes (sur Mac, Supprimer = touche retour arrière).",
+  "sources": [
+    {
+      "url": "https://support.microsoft.com/en-US/Clipchamp/keyboard-shortcuts-for-clipchamp",
+      "titre": "Keyboard shortcuts for Clipchamp (Microsoft)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Édition",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Édition",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ungroup"
+    },
+    {
+      "id": "diviser",
+      "nom": "Diviser le clip",
+      "groupe": "Montage",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture ou pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "reculer-lecture",
+      "nom": "Reculer la lecture",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "avancer-lecture",
+      "nom": "Avancer la lecture",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "deduit": true,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "aller-debut",
+      "nom": "Aller au début",
+      "groupe": "Navigation",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "aller-fin",
+      "nom": "Aller à la fin",
+      "groupe": "Navigation",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "ajuster-timeline",
+      "nom": "Ajuster timeline",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+2",
+      "mac": "cmd+alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "raccourcis-clavier",
+      "nom": "Raccourcis clavier",
+      "groupe": "Aide",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    },
+    {
+      "id": "reculer-rapide",
+      "nom": "Reculer rapide",
+      "groupe": "Lecture",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind",
+      "deduit": true
+    },
+    {
+      "id": "avancer-rapide",
+      "nom": "Avancer rapide",
+      "groupe": "Lecture",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward",
+      "deduit": true
+    },
+    {
+      "id": "replier-timeline",
+      "nom": "Replier timeline",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+3",
+      "mac": "cmd+alt+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-bottom"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rogner le début du clip (Z + flèche)",
+      "raison": "séquence"
+    },
+    {
+      "nom": "Rogner la fin du clip (C + flèche)",
+      "raison": "séquence"
+    },
+    {
+      "nom": "Déplacer un élément (X + flèche)",
+      "raison": "séquence"
+    }
+  ]
+}

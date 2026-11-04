@@ -1,0 +1,24 @@
+{
+  "id": "dxo-pureraw",
+  "nom": "DxO PureRAW",
+  "editeur": "DxO",
+  "site": "https://www.dxo.com/dxo-pureraw/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "DxO PureRAW", "mac": "DxO PureRAW" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Très peu de raccourcis documentés. Le guide officiel (PureRAW 6, interface) ne mentionne que la visionneuse (espace) ; le tableau des raccourcis (plein écran, préférences) n'a pas pu être lu sur la page ouverte et n'est pas repris faute de vérification.",
+  "sources": [
+    { "url": "https://userguides.dxo.com/pureraw/interface/", "titre": "DxO PureRAW User Guide : Interface" }
+  ],
+  "actions": [
+    { "id": "visionneuse", "nom": "Ouvrir visionneuse", "groupe": "Affichage", "win": "space", "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "maximize" }
+  ],
+  "non_faisable": [
+    { "nom": "Sélection multiple de vignettes", "raison": "souris" },
+    { "nom": "Sélection d'une plage de vignettes", "raison": "souris" }
+  ]
+}

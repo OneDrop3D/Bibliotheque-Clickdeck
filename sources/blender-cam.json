@@ -1,0 +1,28 @@
+{
+  "id": "blender-cam",
+  "nom": "Blender CAM",
+  "editeur": "Vilem Duha (communauté)",
+  "site": "https://github.com/vilemduha/blendercam",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Blender", "mac": "Blender" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Blender CAM est un module complémentaire de Blender : il s'utilise par les panneaux et les boutons, sans raccourci propre. La documentation consultée (wiki du dépôt) ne mentionne aucun raccourci. Seules les commandes standard de Blender sont proposées, avec deduit = true.",
+  "sources": [
+    { "url": "https://github.com/vilemduha/blendercam/wiki", "titre": "Blender CAM - wiki du dépôt (aucun raccourci décrit)" }
+  ],
+  "actions": [
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 2, "picto": "folder-open", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Calculer le chemin d'outil", "raison": "réglage sans raccourci" },
+    { "nom": "Exporter le G-code", "raison": "réglage sans raccourci" },
+    { "nom": "Simuler les opérations", "raison": "réglage sans raccourci" }
+  ]
+}

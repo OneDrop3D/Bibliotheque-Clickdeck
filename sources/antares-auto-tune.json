@@ -1,0 +1,23 @@
+{
+  "id": "antares-auto-tune",
+  "nom": "Antares Auto-Tune",
+  "editeur": "Antares",
+  "site": "https://www.antarestech.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Auto-Tune Pro",
+    "mac": "Auto-Tune Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut n'a pu être vérifié. Le manuel officiel n'a pas été lu (les sources consultées sont des revendeurs ou des copies de manuel tierces, et la table des raccourcis n'apparaît pas dans les extraits). Le manuel mentionne une section Key Bindings et les versions 11 ajoutent des raccourcis du mode graphique : à compléter depuis le manuel de la version installée avant d'utiliser ce fichier.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

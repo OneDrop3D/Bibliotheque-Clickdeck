@@ -1,0 +1,42 @@
+{
+  "id": "mkvtoolnix",
+  "nom": "MKVToolnix",
+  "editeur": "Moritz Bunkus (MKVToolNix)",
+  "site": "https://mkvtoolnix.download/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "MKVToolNix GUI",
+    "mac": "MKVToolNix"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "La documentation consultée ne cite aucun raccourci de l'interface graphique. Seule la commande Ouvrir (standard, deduit) est conservée ; Quitter et Aide retirées faute de confirmation. Application quasi sans raccourcis utiles.",
+  "sources": [
+    {
+      "url": "https://mkvtoolnix.download/doc/mkvtoolnix-gui.html",
+      "titre": "Documentation MKVToolNix (page consultée, sans raccourcis GUI)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

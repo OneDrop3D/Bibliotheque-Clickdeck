@@ -1,0 +1,302 @@
+{
+  "id": "windows-terminal",
+  "nom": "Windows Terminal",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/terminal/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Windows Terminal"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut tirés de la documentation Microsoft (Terminal.* defaults). La palette de commandes (ctrl+shift+p) est un défaut connu mais absent de la page lue. Les 'dupliquer panneau' de la doc sont nommés Diviser (séparer le panneau).",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/terminal/customize-settings/actions",
+      "titre": "Windows Terminal Actions (Microsoft Learn)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-plus"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": "ctrl+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "fermer-panneau",
+      "nom": "Fermer le panneau",
+      "groupe": "Panneaux",
+      "win": "ctrl+shift+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "dupliquer-droite",
+      "nom": "Diviser à droite",
+      "groupe": "Panneaux",
+      "win": "alt+shift+plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "columns-2"
+    },
+    {
+      "id": "dupliquer-bas",
+      "nom": "Diviser en bas",
+      "groupe": "Panneaux",
+      "win": "alt+shift+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rows-2"
+    },
+    {
+      "id": "dupliquer-auto",
+      "nom": "Diviser auto",
+      "groupe": "Panneaux",
+      "win": "alt+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtres",
+      "win": "ctrl+shift+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Fenêtres",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-select"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "agrandir-police",
+      "nom": "Agrandir police",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "reduire-police",
+      "nom": "Réduire police",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "taille-police-defaut",
+      "nom": "Taille par défaut",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "defiler-haut",
+      "nom": "Défiler page haut",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "defiler-bas",
+      "nom": "Défiler page bas",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "dupliquer-onglet",
+      "nom": "Dupliquer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Fenêtres",
+      "win": "ctrl+comma",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "focus-gauche",
+      "nom": "Panneau à gauche",
+      "groupe": "Panneaux",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "focus-droite",
+      "nom": "Panneau à droite",
+      "groupe": "Panneaux",
+      "win": "alt+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "focus-haut",
+      "nom": "Panneau en haut",
+      "groupe": "Panneaux",
+      "win": "alt+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "focus-bas",
+      "nom": "Panneau en bas",
+      "groupe": "Panneaux",
+      "win": "alt+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "palette",
+      "nom": "Palette commandes",
+      "groupe": "Fenêtres",
+      "win": "ctrl+shift+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "command"
+    }
+  ],
+  "non_faisable": []
+}

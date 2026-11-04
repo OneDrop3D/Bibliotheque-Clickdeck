@@ -1,0 +1,461 @@
+{
+  "id": "sumatra-pdf",
+  "nom": "Sumatra PDF",
+  "editeur": "Krzysztof Kowalczyk (SumatraPDF)",
+  "site": "https://www.sumatrapdfreader.org/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "SumatraPDF"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement. Raccourcis relevés sur la page officielle de la documentation. Source relue : Ctrl+S = Enregistrer sous ; rotation Ctrl+Maj+-/].",
+  "sources": [
+    {
+      "url": "https://www.sumatrapdfreader.org/docs/Keyboard-shortcuts",
+      "titre": "Keyboard shortcuts (SumatraPDF)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "recharger",
+      "nom": "Recharger",
+      "groupe": "Fichier",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Fichier",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pencil"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Recherche",
+      "win": "shift+f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-down"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-up"
+    },
+    {
+      "id": "premiere-page",
+      "nom": "Première page",
+      "groupe": "Navigation",
+      "win": "home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "derniere-page",
+      "nom": "Dernière page",
+      "groupe": "Navigation",
+      "win": "end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "aller-a-la-page",
+      "nom": "Aller à la page",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hash"
+    },
+    {
+      "id": "ajouter-favori",
+      "nom": "Ajouter favori",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "bookmark"
+    },
+    {
+      "id": "page-entiere",
+      "nom": "Page entière",
+      "groupe": "Zoom",
+      "win": "ctrl+0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "taille-reelle",
+      "nom": "Taille réelle",
+      "groupe": "Zoom",
+      "win": "ctrl+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "largeur-page",
+      "nom": "Largeur de la page",
+      "groupe": "Zoom",
+      "win": "ctrl+2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Zoom",
+      "win": "plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Zoom",
+      "win": "minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "mode-presentation",
+      "nom": "Mode présentation",
+      "groupe": "Affichage",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "presentation"
+    },
+    {
+      "id": "afficher-signets",
+      "nom": "Signets",
+      "groupe": "Affichage",
+      "win": "f12",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": "ctrl+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": "ctrl+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left"
+    },
+    {
+      "id": "palette-commandes",
+      "nom": "Palette commandes",
+      "groupe": "Outils",
+      "win": "ctrl+k",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "command"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Outils",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "rotation-gauche",
+      "nom": "Rotation gauche",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "rotation-droite",
+      "nom": "Rotation droite",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+bracketright",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "surligner",
+      "nom": "Surligner",
+      "groupe": "Outils",
+      "win": "a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "highlighter"
+    },
+    {
+      "id": "souligner",
+      "nom": "Souligner",
+      "groupe": "Outils",
+      "win": "u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "underline"
+    },
+    {
+      "id": "enreg-annotations",
+      "nom": "Enreg. annotations",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "app-window"
+    },
+    {
+      "id": "page-unique",
+      "nom": "Page unique",
+      "groupe": "Affichage",
+      "win": "ctrl+6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file"
+    },
+    {
+      "id": "double-page",
+      "nom": "Double page",
+      "groupe": "Affichage",
+      "win": "ctrl+7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "book-open"
+    },
+    {
+      "id": "mode-continu",
+      "nom": "Mode continu",
+      "groupe": "Affichage",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scroll-text"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "ajuster-contenu",
+      "nom": "Ajuster au contenu",
+      "groupe": "Zoom",
+      "win": "ctrl+3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "cycle-zoom",
+      "nom": "Changer le zoom",
+      "groupe": "Zoom",
+      "win": "z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

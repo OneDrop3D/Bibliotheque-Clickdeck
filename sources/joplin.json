@@ -1,0 +1,121 @@
+{
+ "id": "joplin",
+ "nom": "Joplin",
+ "editeur": "Laurent Cozic",
+ "site": "https://joplinapp.org",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "Joplin",
+  "mac": "Joplin"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Bureautique, documents & PDF",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Seules les commandes standard sont listées (deduit, source null), documentation illisible. Ouvrir, Enregistrer, Imprimer et Fermer retirés : Ctrl+P ouvre « Aller à » dans Joplin et ces commandes n'existent pas dans ses menus. Raccourcis propres (nouvelle tâche, carnet, bascule d'éditeur) à relever.",
+ "sources": [],
+ "actions": [
+  {
+   "id": "nouveau",
+   "nom": "Nouvelle note",
+   "groupe": "Fichier",
+   "win": "ctrl+n",
+   "mac": "cmd+n",
+   "linux": "ctrl+n",
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "file-plus"
+  },
+  {
+   "id": "annuler",
+   "nom": "Annuler",
+   "groupe": "Édition",
+   "win": "ctrl+z",
+   "mac": "cmd+z",
+   "linux": "ctrl+z",
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "retablir",
+   "nom": "Rétablir",
+   "groupe": "Édition",
+   "win": "ctrl+y",
+   "mac": "cmd+shift+z",
+   "linux": "ctrl+y",
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "redo-2"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+c",
+   "mac": "cmd+c",
+   "linux": "ctrl+c",
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "couper",
+   "nom": "Couper",
+   "groupe": "Édition",
+   "win": "ctrl+x",
+   "mac": "cmd+x",
+   "linux": "ctrl+x",
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "scissors"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+v",
+   "mac": "cmd+v",
+   "linux": "ctrl+v",
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "clipboard"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+a",
+   "mac": "cmd+a",
+   "linux": "ctrl+a",
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "text-select"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Recherche",
+   "win": "ctrl+f",
+   "mac": "cmd+f",
+   "linux": "ctrl+f",
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "search"
+  }
+ ],
+ "non_faisable": []
+}

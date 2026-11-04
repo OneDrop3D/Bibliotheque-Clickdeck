@@ -1,0 +1,19 @@
+{
+  "id": "twistedbrush",
+  "nom": "TwistedBrush",
+  "editeur": "Pixarra",
+  "site": "https://help.pixarra.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "TwistedBrush", "mac": "TwistedBrush" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune action retenue : les pages officielles Pixarra (liste des raccourcis) renvoient HTTP 403 et aucune copie n'était lisible. Les extraits de recherche ne suffisent pas à fixer des raccourcis. A reprendre avec un accès à la documentation.",
+  "sources": [
+    { "url": "https://help.pixarra.com/m/reference_manual/l/594819-keyboard-shortcuts", "titre": "TwistedBrush Pro Studio - Keyboard Shortcuts (page non lue, HTTP 403)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

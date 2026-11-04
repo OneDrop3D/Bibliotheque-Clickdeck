@@ -1,0 +1,57 @@
+{
+  "id": "jpegview",
+  "nom": "JPEGView",
+  "editeur": "David Kleiner",
+  "site": "https://sourceforge.net/projects/jpegview/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "JPEGView"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du fichier KeyMap.txt.default du dépôt actif (sylikc/jpegview), qui prévaut sur l'ancien readme. Les flèches Haut/Bas pivotent l'image (rotation d'affichage). F1 (aide) vient de l'ancien readme, non revérifié. Pas de version Mac.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/sylikc/jpegview/master/src/JPEGView/Config/KeyMap.txt.default",
+      "titre": "JPEGView (sylikc) : KeyMap.txt.default, raccourcis par défaut"
+    }
+  ],
+  "actions": [
+    {"id": "image-suivante", "nom": "Image suivante", "groupe": "Navigation", "win": "right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right"},
+    {"id": "image-precedente", "nom": "Image précédente", "groupe": "Navigation", "win": "left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left"},
+    {"id": "premiere-image", "nom": "Première image", "groupe": "Navigation", "win": "home", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevrons-left"},
+    {"id": "derniere-image", "nom": "Dernière image", "groupe": "Navigation", "win": "end", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevrons-right"},
+    {"id": "marquer-image", "nom": "Marquer image", "groupe": "Navigation", "win": "ctrl+m", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "bookmark"},
+    {"id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": "plus", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in"},
+    {"id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": "minus", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-out"},
+    {"id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "f11", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "fullscreen"},
+    {"id": "ajuster-ecran", "nom": "Ajuster à l'écran", "groupe": "Affichage", "win": "enter", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "minimize-2"},
+    {"id": "bascule-100", "nom": "Ajuster / 100 %", "groupe": "Affichage", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scan"},
+    {"id": "remplir-recadre", "nom": "Remplir (recadré)", "groupe": "Affichage", "win": "ctrl+enter", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "crop"},
+    {"id": "fenetre-sur-image", "nom": "Fenêtre sur image", "groupe": "Affichage", "win": "ctrl+f11", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "frame"},
+    {"id": "toujours-dessus", "nom": "Toujours au-dessus", "groupe": "Affichage", "win": "shift+f12", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "pin"},
+    {"id": "infos-image", "nom": "Infos image", "groupe": "Affichage", "win": "f2", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "info"},
+    {"id": "pivoter-droite", "nom": "Pivoter à droite", "groupe": "Édition", "win": "down", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-cw"},
+    {"id": "pivoter-gauche", "nom": "Pivoter à gauche", "groupe": "Édition", "win": "up", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw"},
+    {"id": "correction-auto", "nom": "Correction auto", "groupe": "Édition", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "wand-sparkles"},
+    {"id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichiers", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open"},
+    {"id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichiers", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Fichiers", "win": "delete", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "trash-2"},
+    {"id": "copier-image", "nom": "Copier l'image", "groupe": "Fichiers", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "coller", "nom": "Coller", "groupe": "Fichiers", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-paste"},
+    {"id": "copier-chemin", "nom": "Copier le chemin", "groupe": "Fichiers", "win": "ctrl+shift+c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "link"},
+    {"id": "imprimer", "nom": "Imprimer", "groupe": "Fichiers", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "printer"},
+    {"id": "recharger", "nom": "Recharger image", "groupe": "Fichiers", "win": "ctrl+r", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "refresh-cw"},
+    {"id": "dans-explorateur", "nom": "Dans l'Explorateur", "groupe": "Fichiers", "win": "w", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-search"},
+    {"id": "boucle-dossier", "nom": "Boucler le dossier", "groupe": "Navigation", "win": "f7", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "repeat"},
+    {"id": "aide", "nom": "Aide", "groupe": "Affichage", "win": "f1", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "help-circle"}
+  ],
+  "non_faisable": [
+    {"nom": "Défilement de l'image", "raison": "souris ou Maj+flèches maintenues"}
+  ]
+}

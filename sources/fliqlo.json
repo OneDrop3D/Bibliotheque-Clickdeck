@@ -1,0 +1,21 @@
+{
+  "id": "fliqlo",
+  "nom": "Fliqlo",
+  "editeur": "Fliqlo",
+  "site": "https://fliqlo.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Fliqlo", "mac": "Fliqlo" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Écran de veille horloge à flips (macOS et Windows ; l'app iOS/iPadOS est hors périmètre). La page officielle ne documente aucun raccourci clavier. Ses réglages (format 12/24 h, orientation, atténuation, flaps, taille) n'ont pas de touche documentée. Aucune action n'est donc retenue. La recherche web était indisponible pendant ce relevé, donc aucune source tierce n'a été recoupée.",
+  "sources": [
+    { "url": "https://fliqlo.com", "titre": "Fliqlo, page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages de l'écran de veille", "raison": "réglage sans raccourci" }
+  ]
+}

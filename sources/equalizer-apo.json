@@ -1,0 +1,21 @@
+{
+  "id": "equalizer-apo",
+  "nom": "Equalizer APO",
+  "editeur": "Equalizer APO (projet open source)",
+  "site": "https://sourceforge.net/p/equalizerapo/wiki/Configuration%20reference/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Equalizer APO", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Equalizer APO est un égaliseur système piloté par un fichier de configuration, sans interface ni raccourci clavier. La page de référence officielle ne documente aucun raccourci. Pour un contrôle au clavier, passer par une interface graphique (Peace EQ) ou un raccourci du système.",
+  "sources": [
+    { "url": "https://sourceforge.net/p/equalizerapo/wiki/Configuration%20reference/", "titre": "Equalizer APO - Configuration reference (wiki officiel)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Sélection d'un profil EQ", "raison": "réglage sans raccourci : fichier de configuration" }
+  ]
+}

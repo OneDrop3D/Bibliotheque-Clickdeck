@@ -1,0 +1,41 @@
+{
+  "id": "mod-organizer-2",
+  "nom": "Mod Organizer 2",
+  "editeur": "MO2 Team (ModOrganizer2)",
+  "site": "https://www.modorganizer2.org",
+  "systemes": ["windows"],
+  "lancement": { "windows": "ModOrganizer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page « List of MO2 Shortcuts » du wiki officiel. Certains dépendent de la fenêtre ou de la sélection active ; le saut à la lettre (taper une lettre) n'est pas repris.",
+  "sources": [
+    { "url": "https://github.com/ModOrganizer2/modorganizer/wiki/List-of-MO2-Shortcuts", "titre": "List of MO2 Shortcuts (wiki officiel)" }
+  ],
+  "actions": [
+    { "id": "activer-mod", "nom": "Activer/désactiver", "groupe": "Liste des mods", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "toggle-right" },
+    { "id": "filtrer-liste", "nom": "Filtrer la liste", "groupe": "Liste des mods", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Liste des mods", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "list-checks" },
+    { "id": "editer-champ", "nom": "Éditer le champ", "groupe": "Liste des mods", "win": "f2", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "pencil" },
+    { "id": "supprimer-mod", "nom": "Supprimer le mod", "groupe": "Liste des mods", "win": "delete", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "trash-2" },
+    { "id": "monter-mod", "nom": "Monter le mod", "groupe": "Liste des mods", "win": "ctrl+up", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-up" },
+    { "id": "descendre-mod", "nom": "Descendre le mod", "groupe": "Liste des mods", "win": "ctrl+down", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-down" },
+    { "id": "ouvrir-dossier", "nom": "Ouvrir dossier", "groupe": "Liste des mods", "win": "ctrl+enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "replier-separateur", "nom": "Replier séparateur", "groupe": "Liste des mods", "win": "shift+enter", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "fold-vertical" },
+    { "id": "actualiser", "nom": "Actualiser", "groupe": "Général", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "refresh-cw" },
+    { "id": "installer-archive", "nom": "Installer archive", "groupe": "Général", "win": "ctrl+m", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "package-plus" },
+    { "id": "page-nexus", "nom": "Page Nexus du jeu", "groupe": "Général", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "globe" },
+    { "id": "executables", "nom": "Exécutables", "groupe": "Fenêtres", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "play" },
+    { "id": "profils", "nom": "Profils", "groupe": "Fenêtres", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "user-round" },
+    { "id": "parametres", "nom": "Paramètres", "groupe": "Fenêtres", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "settings" },
+    { "id": "fermer-fenetre", "nom": "Fermer la fenêtre", "groupe": "Fenêtres", "win": "escape", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "x" }
+  ],
+  "non_faisable": [
+    { "nom": "Sélectionner un séparateur (Alt maintenu)", "raison": "touche maintenue" },
+    { "nom": "Ouvrir dans l'Explorateur (Ctrl + double-clic)", "raison": "souris" },
+    { "nom": "Aller sur Nexus (Maj + double-clic)", "raison": "souris" },
+    { "nom": "Saut à la lettre tapée", "raison": "saisie de lettre, non réductible à une touche" }
+  ]
+}

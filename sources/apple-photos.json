@@ -1,0 +1,432 @@
+{
+  "id": "apple-photos",
+  "nom": "Apple Photos",
+  "editeur": "Apple",
+  "site": "https://www.apple.com/fr/macos/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Photos"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Version macOS uniquement. Raccourcis tirés de l'aide officielle Apple (Photos pour Mac). Cmd+1/2/3 : Années, Mois, Toutes (l'aide ne précise pas l'ordre).",
+  "sources": [
+    {
+      "url": "https://support.apple.com/guide/photos/keyboard-shortcuts-and-gestures-pht9b4411b24/mac",
+      "titre": "Keyboard shortcuts and gestures (Photos pour Mac)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-photo",
+      "nom": "Ouvrir la photo",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "fermer-photo",
+      "nom": "Fermer la photo",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "photo-precedente",
+      "nom": "Photo précédente",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "photo-suivante",
+      "nom": "Photo suivante",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "vue-annees",
+      "nom": "Vue Années",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "calendar"
+    },
+    {
+      "id": "vue-mois",
+      "nom": "Vue Mois",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "calendar-days"
+    },
+    {
+      "id": "vue-toutes",
+      "nom": "Toutes les photos",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "images"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "ctrl+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-check-big"
+    },
+    {
+      "id": "deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "ajuster",
+      "nom": "Ajuster",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "amelioration-auto",
+      "nom": "Amélioration auto",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "recadrer",
+      "nom": "Recadrer",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "filtre",
+      "nom": "Filtre",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette"
+    },
+    {
+      "id": "style",
+      "nom": "Style",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "paintbrush"
+    },
+    {
+      "id": "rotation-gauche",
+      "nom": "Rotation gauche",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "rotation-droite",
+      "nom": "Rotation droite",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan-search"
+    },
+    {
+      "id": "zoom-plus",
+      "nom": "Zoom avant",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-moins",
+      "nom": "Zoom arrière",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "masquer-photo",
+      "nom": "Masquer la photo",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    },
+    {
+      "id": "favori",
+      "nom": "Favori",
+      "groupe": "Organisation",
+      "win": null,
+      "mac": "period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "heart"
+    },
+    {
+      "id": "nouvel-album",
+      "nom": "Nouvel album",
+      "groupe": "Organisation",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "book-image"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Organisation",
+      "win": null,
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "infos",
+      "nom": "Infos",
+      "groupe": "Organisation",
+      "win": null,
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "supprimer-photos",
+      "nom": "Supprimer",
+      "groupe": "Organisation",
+      "win": null,
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Partage",
+      "win": null,
+      "mac": "shift+cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Partage",
+      "win": null,
+      "mac": "shift+cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Partage",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Organisation",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Lecture/pause vidéo ou Live Photo",
+      "raison": "Option+Espace, fonctionnel mais non vérifié comme action distincte"
+    },
+    {
+      "nom": "Maintenir M pour voir l'original",
+      "raison": "touche maintenue"
+    }
+  ]
+}

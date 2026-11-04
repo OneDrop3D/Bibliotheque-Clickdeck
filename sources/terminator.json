@@ -1,0 +1,32 @@
+{
+  "id": "terminator",
+  "nom": "Terminator",
+  "editeur": "Projet Terminator",
+  "site": "https://gnome-terminator.org/",
+  "systemes": ["linux"],
+  "lancement": { "linux": "Terminator" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Linux uniquement. Raccourcis tirés de la page de manuel Ubuntu (copie de la doc de Terminator, pas le site officiel). Les colonnes Windows et Mac sont vides.",
+  "sources": [
+    { "url": "https://manpages.ubuntu.com/manpages/noble/en/man1/terminator.1.html", "titre": "terminator(1) manual page (Ubuntu)" }
+  ],
+  "actions": [
+    { "id": "diviser-horizontal", "nom": "Diviser horizontal", "groupe": "Panneaux", "win": null, "mac": null, "linux": "ctrl+shift+o", "source": 0, "priorite": 1, "picto": "separator-horizontal" },
+    { "id": "diviser-vertical", "nom": "Diviser vertical", "groupe": "Panneaux", "win": null, "mac": null, "linux": "ctrl+shift+e", "source": 0, "priorite": 1, "picto": "separator-vertical" },
+    { "id": "fermer-terminal", "nom": "Fermer terminal", "groupe": "Panneaux", "win": null, "mac": null, "linux": "ctrl+shift+w", "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "maximiser", "nom": "Maximiser", "groupe": "Panneaux", "win": null, "mac": null, "linux": "ctrl+shift+x", "source": 0, "priorite": 2, "picto": "maximize" },
+    { "id": "zoom-terminal", "nom": "Zoom terminal", "groupe": "Panneaux", "win": null, "mac": null, "linux": "ctrl+shift+z", "source": 0, "priorite": 3, "picto": "zoom-in" },
+    { "id": "nouvel-onglet", "nom": "Nouvel onglet", "groupe": "Onglets", "win": null, "mac": null, "linux": "ctrl+shift+t", "source": 0, "priorite": 1, "picto": "plus-square" },
+    { "id": "terminal-suivant", "nom": "Terminal suivant", "groupe": "Navigation", "win": null, "mac": null, "linux": "ctrl+shift+n", "source": 0, "priorite": 2, "picto": "arrow-right" },
+    { "id": "terminal-precedent", "nom": "Terminal précédent", "groupe": "Navigation", "win": null, "mac": null, "linux": "ctrl+shift+p", "source": 0, "priorite": 2, "picto": "arrow-left" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": null, "mac": null, "linux": "f11", "source": 0, "priorite": 2, "picto": "maximize-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": null, "linux": "ctrl+shift+c", "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": null, "linux": "ctrl+shift+v", "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "rechercher-historique", "nom": "Rechercher", "groupe": "Édition", "win": null, "mac": null, "linux": "ctrl+shift+f", "source": 0, "priorite": 2, "picto": "search" }
+  ],
+  "non_faisable": []
+}

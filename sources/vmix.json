@@ -1,0 +1,27 @@
+{
+  "id": "vmix",
+  "nom": "vMix",
+  "editeur": "StudioCoast (vMix)",
+  "site": "https://www.vmix.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "vMix" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "vMix n'a pas de raccourcis actifs par défaut : ils se définissent dans Paramètres > Raccourcis (Ajouter, puis Find pour choisir la touche). Les fonctions sont listées sans combinaison, à assigner par l'utilisateur. Liste des fonctions à compléter après vérification dans l'interface.",
+  "sources": [
+    { "url": "https://www.vmix.com/help26/KeyboardShortcuts.html", "titre": "vMix - Keyboard, MIDI and Controller Shortcuts" }
+  ],
+  "actions": [
+    { "id": "lancer-diffusion", "nom": "Lancer diffusion", "groupe": "Diffusion", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "radio" },
+    { "id": "lancer-enregistrement", "nom": "Lancer enregistrement", "groupe": "Diffusion", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot" },
+    { "id": "couper-transition", "nom": "Couper (cut)", "groupe": "Transitions", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "transition-fondu", "nom": "Fondu (fade)", "groupe": "Transitions", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "blend" },
+    { "id": "entree-suivante", "nom": "Entrée suivante", "groupe": "Entrées", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-right" },
+    { "id": "entree-precedente", "nom": "Entrée précédente", "groupe": "Entrées", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "arrow-left" },
+    { "id": "muet-entree", "nom": "Muet (entrée)", "groupe": "Audio", "win": null, "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "volume-x" }
+  ],
+  "non_faisable": []
+}

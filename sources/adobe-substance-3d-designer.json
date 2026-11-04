@@ -1,0 +1,84 @@
+{
+  "id": "adobe-substance-3d-designer",
+  "nom": "Adobe Substance 3D Designer",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/substance3d-designer.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Adobe Substance 3D Designer",
+    "mac": "Adobe Substance 3D Designer"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source consultée : la page officielle des raccourcis répond 403 et la copie d'archive est inaccessible, et la recherche web n'était plus disponible. Seules les commandes standard de menu sont listées (deduit). Les raccourcis propres au graphe de nœuds restent à vérifier dans la documentation de l'éditeur. Rétablir retiré : la touche (Ctrl+Y ou Ctrl+Maj+Z) n'a pu être confirmée.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau graphe",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vidcoder",
+  "nom": "VidCoder",
+  "editeur": "RandomEngy",
+  "site": "https://github.com/RandomEngy/VidCoder",
+  "systemes": ["windows"],
+  "lancement": { "windows": "VidCoder" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Transcodeur Blu-ray, DVD et vidéo pour Windows uniquement. La page du projet ne mentionne aucun raccourci clavier.",
+  "sources": [
+    { "url": "https://github.com/RandomEngy/VidCoder", "titre": "VidCoder (page du projet)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Transcodage Blu-ray / DVD / vidéo", "raison": "aucun raccourci documenté" }
+  ]
+}

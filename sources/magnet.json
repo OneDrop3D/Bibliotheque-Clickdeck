@@ -1,0 +1,31 @@
+{
+  "id": "magnet",
+  "nom": "Magnet",
+  "editeur": "Crowd Cafe",
+  "site": "https://magnet.crowdcafe.com/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Magnet"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle et la recherche ne publient pas de combinaisons par défaut : à définir dans les préférences de Magnet. Aucune action renseignée.",
+  "sources": [
+    {
+      "url": "https://magnet.crowdcafe.com/",
+      "titre": "Magnet - site officiel"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Déplacement par glisser-déposer vers les bords",
+      "raison": "souris"
+    }
+  ]
+}

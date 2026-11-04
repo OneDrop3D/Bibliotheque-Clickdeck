@@ -1,0 +1,21 @@
+{
+  "id": "audials",
+  "nom": "Audials",
+  "editeur": "Audials AG",
+  "site": "https://www.audials.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Audials"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci par défaut documenté trouvé pour Audials (interface à pages, pas de menus classiques). Les anciennes commandes génériques non confirmées ont été retirées ; l'application sert au lancement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

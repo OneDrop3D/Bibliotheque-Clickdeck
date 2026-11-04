@@ -1,0 +1,20 @@
+{
+  "id": "ditto",
+  "nom": "Ditto",
+  "editeur": "Ditto (open source)",
+  "site": "https://github.com/sabrogden/Ditto",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Ditto", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Windows uniquement. Seuls deux raccourcis sont documentés dans la source ; la recherche et la navigation dans l'historique ne le sont pas et ne figurent donc pas ici.",
+  "sources": [ { "url": "https://github.com/sabrogden/Ditto", "titre": "Ditto - dépôt officiel (README)" } ],
+  "actions": [
+    { "id": "ouvrir-historique", "nom": "Ouvrir historique", "groupe": "Historique", "win": "ctrl+backquote", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-list" },
+    { "id": "coller-element", "nom": "Coller l'élément", "groupe": "Historique", "win": "enter", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" }
+  ],
+  "non_faisable": []
+}

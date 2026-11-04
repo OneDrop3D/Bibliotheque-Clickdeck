@@ -1,0 +1,17 @@
+{
+  "id": "vmware-workstation",
+  "nom": "VMware Workstation",
+  "editeur": "Broadcom (VMware)",
+  "site": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "VMware Workstation", "linux": "vmware" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Panne : la recherche web était épuisée et la page Broadcom de raccourcis (keyboard-shortcuts.html) était introuvable. Aucun raccourci vérifié. Fiche non complétée.",
+  "sources": [ { "url": "https://techdocs.broadcom.com/us/en/vmware-cis/desktop-hypervisors/workstation-pro/17-0/using-vmware-workstation-pro.html", "titre": "Using VMware Workstation Pro 17 (page d'index, sans raccourcis)" } ],
+  "actions": [],
+  "non_faisable": []
+}

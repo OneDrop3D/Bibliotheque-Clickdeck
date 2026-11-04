@@ -1,0 +1,19 @@
+{
+  "id": "cinebench",
+  "nom": "Cinebench",
+  "editeur": "Maxon",
+  "site": "https://www.maxon.net/en/cinebench",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Cinebench", "mac": "Cinebench" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur la page officielle de Cinebench. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://www.maxon.net/en/cinebench", "titre": "Cinebench - Maxon (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

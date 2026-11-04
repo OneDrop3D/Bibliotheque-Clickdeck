@@ -1,0 +1,331 @@
+{
+  "id": "microsoft-teams",
+  "nom": "Microsoft Teams",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/microsoft-teams",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Microsoft Teams",
+    "mac": "Microsoft Teams"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de l'application bureau selon la page officielle Microsoft (© 2026). Windows : Ctrl ; Mac : Cmd. Modifiables sous Windows avec Ctrl+. (fenêtre Raccourcis clavier). Ctrl+Entrée envoie le message seulement si l'option « Entrée envoie » est désactivée ou la zone de rédaction agrandie.",
+  "sources": [
+    {
+      "url": "https://support.microsoft.com/office/2e8e2a70-e8d8-4a19-949b-4c36dd5292d2",
+      "titre": "Keyboard shortcuts for Microsoft Teams"
+    }
+  ],
+  "actions": [
+    {
+      "id": "micro-on-off",
+      "nom": "Micro on/off",
+      "groupe": "Réunion",
+      "win": "ctrl+shift+m",
+      "mac": "shift+cmd+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic"
+    },
+    {
+      "id": "camera-on-off",
+      "nom": "Caméra on/off",
+      "groupe": "Réunion",
+      "win": "ctrl+shift+o",
+      "mac": "shift+cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "video"
+    },
+    {
+      "id": "lever-main",
+      "nom": "Lever la main",
+      "groupe": "Réunion",
+      "win": "ctrl+shift+k",
+      "mac": "shift+cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "barre-partage",
+      "nom": "Barre de partage",
+      "groupe": "Réunion",
+      "win": "ctrl+shift+space",
+      "mac": "shift+cmd+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "monitor-up"
+    },
+    {
+      "id": "rejoindre-reunion",
+      "nom": "Rejoindre réunion",
+      "groupe": "Réunion",
+      "win": "alt+shift+j",
+      "mac": "ctrl+cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-in"
+    },
+    {
+      "id": "planifier-reunion",
+      "nom": "Planifier réunion",
+      "groupe": "Réunion",
+      "win": "alt+n",
+      "mac": "ctrl+cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-plus"
+    },
+    {
+      "id": "demarrer-video",
+      "nom": "Démarrer vidéo",
+      "groupe": "Appels",
+      "win": "alt+shift+v",
+      "mac": "shift+cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "video"
+    },
+    {
+      "id": "demarrer-audio",
+      "nom": "Démarrer audio",
+      "groupe": "Appels",
+      "win": "alt+shift+a",
+      "mac": "alt+cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "phone-call"
+    },
+    {
+      "id": "accepter-video",
+      "nom": "Accepter vidéo",
+      "groupe": "Appels",
+      "win": "ctrl+shift+a",
+      "mac": "shift+cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "phone-incoming"
+    },
+    {
+      "id": "accepter-audio",
+      "nom": "Accepter audio",
+      "groupe": "Appels",
+      "win": "ctrl+shift+s",
+      "mac": "shift+cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "phone"
+    },
+    {
+      "id": "refuser-appel",
+      "nom": "Refuser appel",
+      "groupe": "Appels",
+      "win": "ctrl+shift+d",
+      "mac": "shift+cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "phone-off"
+    },
+    {
+      "id": "terminer-appel",
+      "nom": "Terminer appel",
+      "groupe": "Appels",
+      "win": "ctrl+shift+h",
+      "mac": "shift+cmd+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "phone-x"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Discussion",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "nouveau-chat",
+      "nom": "Nouveau chat",
+      "groupe": "Discussion",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-pen"
+    },
+    {
+      "id": "liste-chats",
+      "nom": "Liste des chats",
+      "groupe": "Discussion",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "envoyer-message",
+      "nom": "Envoyer message",
+      "groupe": "Rédaction",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Rédaction",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Rédaction",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Rédaction",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "underline"
+    },
+    {
+      "id": "inserer-lien",
+      "nom": "Insérer lien",
+      "groupe": "Rédaction",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "developper-saisie",
+      "nom": "Agrandir saisie",
+      "groupe": "Rédaction",
+      "win": "ctrl+shift+x",
+      "mac": "shift+cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "afficher-raccourcis",
+      "nom": "Voir raccourcis",
+      "groupe": "Général",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "keyboard"
+    },
+    {
+      "id": "parametres",
+      "nom": "Paramètres",
+      "groupe": "Général",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "epingler-fenetre",
+      "nom": "Épingler fenêtre",
+      "groupe": "Général",
+      "win": "ctrl+shift+t",
+      "mac": "shift+cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pin"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Général",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Général",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "activite-non-lus",
+      "nom": "Voir non lus",
+      "groupe": "Général",
+      "win": "ctrl+alt+u",
+      "mac": "alt+cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "bell"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Réactiver micro temporairement",
+      "raison": "touche maintenue (Ctrl+Espace / Option+Espace)"
+    }
+  ]
+}

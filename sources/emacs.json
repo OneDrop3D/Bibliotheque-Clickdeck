@@ -1,0 +1,232 @@
+{
+  "id": "emacs",
+  "nom": "Emacs",
+  "editeur": "Projet GNU",
+  "site": "https://www.gnu.org/software/emacs/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "emacs",
+    "mac": "Emacs",
+    "linux": "emacs"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Emacs de base (touches à une seule combinaison). Le manuel GNU confirme les touches préfixes ; la carte de référence PDF n'a pas pu être lue, les touches viennent donc de la connaissance de l'application et sont à recouper. Sur Mac, Meta correspond à Option par défaut dans Emacs.app. Les commandes C-x C-s, C-x C-f, C-x b sont des séquences (non faisable).",
+  "sources": [
+    {
+      "url": "https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf",
+      "titre": "GNU Emacs Reference Card"
+    },
+    {
+      "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Keys.html",
+      "titre": "GNU Emacs Manual - Keys"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler-saisie",
+      "nom": "Annuler la saisie",
+      "groupe": "Édition",
+      "win": "ctrl+g",
+      "mac": "ctrl+g",
+      "linux": "ctrl+g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "ctrl+slash",
+      "linux": "ctrl+slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller (yank)",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "ctrl+y",
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "couper-region",
+      "nom": "Couper la région",
+      "groupe": "Édition",
+      "win": "ctrl+w",
+      "mac": "ctrl+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier-region",
+      "nom": "Copier la région",
+      "groupe": "Édition",
+      "win": "alt+w",
+      "mac": "alt+w",
+      "linux": "alt+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper-ligne",
+      "nom": "Couper fin de ligne",
+      "groupe": "Édition",
+      "win": "ctrl+k",
+      "mac": "ctrl+k",
+      "linux": "ctrl+k",
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "commande",
+      "nom": "Commande M-x",
+      "groupe": "Application",
+      "win": "alt+x",
+      "mac": "alt+x",
+      "linux": "alt+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+s",
+      "mac": "ctrl+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "rechercher-arriere",
+      "nom": "Recherche arrière",
+      "groupe": "Recherche",
+      "win": "ctrl+r",
+      "mac": "ctrl+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "debut-ligne",
+      "nom": "Début de ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+a",
+      "mac": "ctrl+a",
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left-to-line"
+    },
+    {
+      "id": "fin-ligne",
+      "nom": "Fin de ligne",
+      "groupe": "Navigation",
+      "win": "ctrl+e",
+      "mac": "ctrl+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right-to-line"
+    },
+    {
+      "id": "ligne-suivante",
+      "nom": "Ligne suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+n",
+      "mac": "ctrl+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "ligne-precedente",
+      "nom": "Ligne précédente",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "ctrl+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "ctrl+v",
+      "mac": "ctrl+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-down"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "alt+v",
+      "mac": "alt+v",
+      "linux": "alt+v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-up"
+    },
+    {
+      "id": "recentrer",
+      "nom": "Recentrer",
+      "groupe": "Navigation",
+      "win": "ctrl+l",
+      "mac": "ctrl+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-vertical-justify-center"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Enregistrer",
+      "raison": "séquence (C-x C-s)"
+    },
+    {
+      "nom": "Ouvrir un fichier",
+      "raison": "séquence (C-x C-f)"
+    },
+    {
+      "nom": "Changer de tampon",
+      "raison": "séquence (C-x b)"
+    },
+    {
+      "nom": "Quitter",
+      "raison": "séquence (C-x C-c)"
+    },
+    {
+      "nom": "Marquer la région",
+      "raison": "Ctrl+Espace réservé par macOS pour le changement de clavier"
+    }
+  ]
+}

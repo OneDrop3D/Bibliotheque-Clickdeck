@@ -1,0 +1,17 @@
+{
+  "id": "startallback",
+  "nom": "StartAllBack",
+  "editeur": "StartAllBack",
+  "site": "https://www.startallback.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "StartAllBack" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Un seul raccourci documenté (notes de version 3.8.11) : Win+Alt+T bascule le masquage automatique de la barre des tâches. Il utilise la touche Windows, non exprimable ici.",
+  "sources": [ { "url": "https://www.startallback.com/", "titre": "Site officiel StartAllBack (notes de version 3.8.11)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Masquer la barre des tâches (Win+Alt+T)", "raison": "touche Windows non exprimable" } ]
+}

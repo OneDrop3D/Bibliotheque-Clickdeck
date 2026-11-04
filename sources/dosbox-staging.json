@@ -1,0 +1,33 @@
+{
+  "id": "dosbox-staging",
+  "nom": "DOSBox Staging",
+  "editeur": "DOSBox Staging Team",
+  "site": "https://www.dosbox-staging.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "DOSBox Staging", "mac": "DOSBox Staging", "linux": "dosbox-staging" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du manuel officiel 0.83 (Windows/Linux et macOS). La pause Windows/Linux (Alt+Pause) n'est pas proposée : la touche Pause ne figure pas dans la liste autorisée.",
+  "sources": [ { "url": "https://www.dosbox-staging.org/0.83/manual/appendices/shortcuts/", "titre": "DOSBox Staging manual 0.83 - Keyboard shortcuts" } ],
+  "actions": [
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "alt+enter", "mac": "alt+enter", "linux": "alt+enter", "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "pause", "nom": "Pause", "groupe": "Système", "win": null, "mac": "cmd+p", "linux": null, "source": 0, "priorite": 1, "picto": "pause" },
+    { "id": "mappeur", "nom": "Mappeur touches", "groupe": "Système", "win": "ctrl+f1", "mac": "cmd+f1", "linux": "ctrl+f1", "source": 0, "priorite": 1, "picto": "keyboard" },
+    { "id": "capture-ecran", "nom": "Capture d'écran", "groupe": "Capture", "win": "ctrl+f5", "mac": "cmd+f5", "linux": "ctrl+f5", "source": 0, "priorite": 1, "picto": "camera" },
+    { "id": "capture-rendue", "nom": "Capture rendue", "groupe": "Capture", "win": "alt+f5", "mac": "alt+f5", "linux": "alt+f5", "source": 0, "priorite": 2, "picto": "image" },
+    { "id": "enregistrer-video", "nom": "Enregistrer vidéo", "groupe": "Capture", "win": "ctrl+f7", "mac": "cmd+f7", "linux": "ctrl+f7", "source": 0, "priorite": 2, "picto": "video" },
+    { "id": "enregistrer-audio", "nom": "Enregistrer audio", "groupe": "Capture", "win": "ctrl+f6", "mac": "cmd+f6", "linux": "ctrl+f6", "source": 0, "priorite": 3, "picto": "mic" },
+    { "id": "couper-son", "nom": "Couper le son", "groupe": "Audio", "win": "ctrl+f8", "mac": "cmd+f8", "linux": "ctrl+f8", "source": 0, "priorite": 2, "picto": "volume-x" },
+    { "id": "turbo", "nom": "Turbo", "groupe": "Vitesse", "win": "alt+f12", "mac": "alt+f12", "linux": "alt+f12", "source": 0, "priorite": 2, "picto": "gauge" },
+    { "id": "moins-cycles", "nom": "Moins de cycles", "groupe": "Vitesse", "win": "ctrl+f11", "mac": "cmd+f11", "linux": "ctrl+f11", "source": 0, "priorite": 3, "picto": "cpu" },
+    { "id": "plus-cycles", "nom": "Plus de cycles", "groupe": "Vitesse", "win": "ctrl+f12", "mac": "cmd+f12", "linux": "ctrl+f12", "source": 0, "priorite": 3, "picto": "cpu" },
+    { "id": "changer-disque", "nom": "Changer disque", "groupe": "Système", "win": "ctrl+f4", "mac": "cmd+f4", "linux": "ctrl+f4", "source": 0, "priorite": 2, "picto": "disc" },
+    { "id": "liberer-souris", "nom": "Libérer souris", "groupe": "Système", "win": "ctrl+f10", "mac": "cmd+f10", "linux": "ctrl+f10", "source": 0, "priorite": 2, "picto": "mouse-pointer" },
+    { "id": "redemarrer", "nom": "Redémarrer", "groupe": "Système", "win": "ctrl+alt+home", "mac": "ctrl+cmd+home", "linux": "ctrl+alt+home", "source": 0, "priorite": 3, "picto": "rotate-ccw" },
+    { "id": "quitter", "nom": "Quitter DOSBox", "groupe": "Système", "win": "ctrl+f9", "mac": "cmd+f9", "linux": "ctrl+f9", "source": 0, "priorite": 1, "picto": "power" }
+  ],
+  "non_faisable": [ { "nom": "Pause (Windows et Linux)", "raison": "touche Pause absente de la liste autorisée" } ]
+}

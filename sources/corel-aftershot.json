@@ -1,0 +1,41 @@
+{
+  "id": "corel-aftershot",
+  "nom": "Corel AfterShot",
+  "editeur": "Corel",
+  "site": "https://learn.corel.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": {"windows": "AfterShot Pro", "mac": "AfterShot Pro"},
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page Corel Learn sur les raccourcis d'AfterShot Pro (version non précisée). Les touches sans modificateur sont identiques sur Mac ; les raccourcis Mac avec Ctrl/Cmd ne sont pas donnés par la page (plan de touches en image) et restent vides, sauf Annuler (commande standard).",
+  "sources": [
+    {"url": "https://learn.corel.com/aftershot-pro-shortcuts/", "titre": "Corel Learn - Edit Photos Faster: Know Your Shortcuts in AfterShot Pro"}
+  ],
+  "actions": [
+    {"id": "photo-precedente", "nom": "Photo précédente", "groupe": "Navigation", "win": "bracketleft", "mac": "bracketleft", "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left"},
+    {"id": "photo-suivante", "nom": "Photo suivante", "groupe": "Navigation", "win": "bracketright", "mac": "bracketright", "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right"},
+    {"id": "outil-main", "nom": "Outil main", "groupe": "Navigation", "win": "h", "mac": "h", "linux": null, "source": 0, "priorite": 2, "picto": "hand"},
+    {"id": "recadrer", "nom": "Recadrer", "groupe": "Retouche", "win": "c", "mac": "c", "linux": null, "source": 0, "priorite": 1, "picto": "crop"},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Retouche", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Retouche", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2"},
+    {"id": "rejeter", "nom": "Rejeter", "groupe": "Notation", "win": "comma", "mac": "comma", "linux": null, "source": 0, "priorite": 1, "picto": "thumbs-down"},
+    {"id": "choisir", "nom": "Choisir", "groupe": "Notation", "win": "period", "mac": "period", "linux": null, "source": 0, "priorite": 1, "picto": "thumbs-up"},
+    {"id": "effacer-drapeau", "nom": "Effacer drapeau", "groupe": "Notation", "win": "slash", "mac": "slash", "linux": null, "source": 0, "priorite": 2, "picto": "flag-off"},
+    {"id": "note-1", "nom": "Note 1 étoile", "groupe": "Notation", "win": "1", "mac": "1", "linux": null, "source": 0, "priorite": 1, "picto": "star"},
+    {"id": "note-2", "nom": "Note 2 étoiles", "groupe": "Notation", "win": "2", "mac": "2", "linux": null, "source": 0, "priorite": 1, "picto": "star"},
+    {"id": "note-3", "nom": "Note 3 étoiles", "groupe": "Notation", "win": "3", "mac": "3", "linux": null, "source": 0, "priorite": 1, "picto": "star"},
+    {"id": "note-4", "nom": "Note 4 étoiles", "groupe": "Notation", "win": "4", "mac": "4", "linux": null, "source": 0, "priorite": 1, "picto": "star"},
+    {"id": "note-5", "nom": "Note 5 étoiles", "groupe": "Notation", "win": "5", "mac": "5", "linux": null, "source": 0, "priorite": 1, "picto": "star"},
+    {"id": "copier-reglages", "nom": "Copier réglages", "groupe": "Réglages", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "coller-reglages", "nom": "Coller réglages", "groupe": "Réglages", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "clipboard-paste"},
+    {"id": "copie-selective", "nom": "Copie sélective", "groupe": "Réglages", "win": "ctrl+shift+c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "copy-check"},
+    {"id": "collage-selectif", "nom": "Collage sélectif", "groupe": "Réglages", "win": "ctrl+shift+v", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "clipboard-check"},
+    {"id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "f11", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "maximize"}
+  ],
+  "non_faisable": [
+    {"nom": "Outil main temporaire", "raison": "touche espace maintenue"}
+  ]
+}

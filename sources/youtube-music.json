@@ -1,0 +1,17 @@
+{
+  "id": "youtube-music",
+  "nom": "YouTube Music Desktop",
+  "editeur": "Google",
+  "site": "https://music.youtube.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "YouTube Music", "mac": "YouTube Music" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune actions relevées : les pages d'aide Google consultées étaient en erreur (404, 503), la copie d'archive a été refusée et la recherche web était épuisée pendant cette passe. À reprendre avec une source lisible avant toute publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

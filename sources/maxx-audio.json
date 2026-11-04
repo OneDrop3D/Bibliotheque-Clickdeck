@@ -1,0 +1,17 @@
+{
+  "id": "maxx-audio",
+  "nom": "Maxx Audio (Waves)",
+  "editeur": "Waves Audio",
+  "site": "https://www.waves.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Maxx Audio Control" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Panneau de réglage audio (effets Maxx, égaliseur) sans raccourcis clavier documentés. Aucune source consultable n'a pu confirmer de raccourci. Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages des effets Maxx", "raison": "réglage sans raccourci" } ]
+}

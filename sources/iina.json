@@ -1,0 +1,280 @@
+{
+  "id": "iina",
+  "nom": "IINA",
+  "editeur": "IINA Project",
+  "site": "https://iina.io/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "IINA"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du fichier de keymap par défaut d'IINA (Meta = Cmd). Seul Ouvrir est une commande standard déduite.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/iina/iina/develop/iina/config/iina-default-input.conf",
+      "titre": "IINA iina-default-input.conf (raccourcis par défaut, code source officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "mac": "cmd+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "mac": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "arret",
+      "nom": "Arrêter",
+      "groupe": "Lecture",
+      "mac": "cmd+period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "avance",
+      "nom": "Avancer 5 s",
+      "groupe": "Lecture",
+      "mac": "right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "recul",
+      "nom": "Reculer 5 s",
+      "groupe": "Lecture",
+      "mac": "left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "image-suiv",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "mac": "alt+right",
+      "source": 0,
+      "priorite": 2,
+      "picto": "step-forward"
+    },
+    {
+      "id": "image-prec",
+      "nom": "Image précédente",
+      "groupe": "Lecture",
+      "mac": "alt+left",
+      "source": 0,
+      "priorite": 2,
+      "picto": "step-back"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivant",
+      "groupe": "Lecture",
+      "mac": "cmd+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédent",
+      "groupe": "Lecture",
+      "mac": "cmd+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "boucle-ab",
+      "nom": "Boucle A-B",
+      "groupe": "Lecture",
+      "mac": "cmd+l",
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "vitesse-moins",
+      "nom": "Vitesse /2",
+      "groupe": "Vitesse",
+      "mac": "cmd+bracketleft",
+      "source": 0,
+      "priorite": 2,
+      "picto": "gauge"
+    },
+    {
+      "id": "vitesse-plus",
+      "nom": "Vitesse x2",
+      "groupe": "Vitesse",
+      "mac": "cmd+bracketright",
+      "source": 0,
+      "priorite": 2,
+      "picto": "gauge"
+    },
+    {
+      "id": "vitesse-normale",
+      "nom": "Vitesse normale",
+      "groupe": "Vitesse",
+      "mac": "cmd+backslash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Audio",
+      "mac": "up",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume -",
+      "groupe": "Audio",
+      "mac": "down",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Audio",
+      "mac": "cmd+slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "piste-audio",
+      "nom": "Piste audio",
+      "groupe": "Audio",
+      "mac": "ctrl+cmd+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "mac": "ctrl+cmd+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "quitter-plein-ecran",
+      "nom": "Quitter le plein",
+      "groupe": "Affichage",
+      "mac": "escape",
+      "source": 0,
+      "priorite": 1,
+      "picto": "minimize"
+    },
+    {
+      "id": "premier-plan",
+      "nom": "Toujours dessus",
+      "groupe": "Affichage",
+      "mac": "ctrl+cmd+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pin"
+    },
+    {
+      "id": "pip",
+      "nom": "Image dans l'image",
+      "groupe": "Affichage",
+      "mac": "ctrl+cmd+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "picture-in-picture-2"
+    },
+    {
+      "id": "taille-reelle",
+      "nom": "Taille 100 %",
+      "groupe": "Affichage",
+      "mac": "cmd+1",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Affichage",
+      "mac": "cmd+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "liste-lecture",
+      "nom": "Liste de lecture",
+      "groupe": "Panneaux",
+      "mac": "shift+cmd+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-video"
+    },
+    {
+      "id": "chapitres",
+      "nom": "Chapitres",
+      "groupe": "Panneaux",
+      "mac": "shift+cmd+c",
+      "source": 0,
+      "priorite": 3,
+      "picto": "list"
+    },
+    {
+      "id": "piste-sous-titres",
+      "nom": "Piste sous-titres",
+      "groupe": "Sous-titres",
+      "mac": "ctrl+cmd+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "captions"
+    },
+    {
+      "id": "sub-retard-moins",
+      "nom": "Sous-titres -0,5 s",
+      "groupe": "Sous-titres",
+      "mac": "z",
+      "source": 0,
+      "priorite": 3,
+      "picto": "captions"
+    },
+    {
+      "id": "sub-retard-plus",
+      "nom": "Sous-titres +0,5 s",
+      "groupe": "Sous-titres",
+      "mac": "x",
+      "source": 0,
+      "priorite": 3,
+      "picto": "captions"
+    }
+  ],
+  "non_faisable": []
+}

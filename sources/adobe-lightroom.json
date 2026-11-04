@@ -1,0 +1,262 @@
+{
+ "id": "adobe-lightroom",
+ "nom": "Adobe Lightroom",
+ "editeur": "Adobe",
+ "site": "https://www.adobe.com/products/photoshop-lightroom-classic.html",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "Lightroom Classic",
+  "mac": "Adobe Lightroom Classic"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Photo & gestion d'images",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Seules les touches Mac d'un guide tiers (mis à jour en mars 2026) ont pu être relevées. La page officielle Adobe (helpx.adobe.com) a renvoyé HTTP 403 et la copie web.archive.org n'est pas accessible. Les raccourcis Windows ne sont donc pas renseignés. Plusieurs touches ne sont pas confirmées comme défaut d'usine. Liste à recouper avec la page officielle. Revue : Coller réglages corrigé en Maj+Cmd+V (Alt+Cmd+V = coller depuis la précédente) ; la touche \\ affiche seulement la vue Avant (Y = avant/après) ; lancement fixé sur Lightroom Classic, dont viennent ces raccourcis. Toujours non confirmé par la page Adobe (403).",
+ "sources": [
+  {
+   "url": "https://shuttermuse.com/21-essential-adobe-lightroom-shortcuts/",
+   "titre": "21 Essential Adobe Lightroom Classic Shortcuts (mis à jour mars 2026)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "mode-grille",
+   "nom": "Mode grille",
+   "groupe": "Bibliothèque",
+   "win": null,
+   "mac": "g",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "grid-3x3"
+  },
+  {
+   "id": "module-developper",
+   "nom": "Module Développer",
+   "groupe": "Modules",
+   "win": null,
+   "mac": "d",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "sliders-horizontal"
+  },
+  {
+   "id": "ajouter-collection",
+   "nom": "Vers collection",
+   "groupe": "Bibliothèque",
+   "win": null,
+   "mac": "b",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "folder-plus"
+  },
+  {
+   "id": "masquer-panneaux",
+   "nom": "Masquer panneaux",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "shift+tab",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "panels-top-left"
+  },
+  {
+   "id": "avant-apres",
+   "nom": "Vue avant seule",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "backslash",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "columns-2"
+  },
+  {
+   "id": "mode-survol",
+   "nom": "Vue Survey",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "n",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "scan-eye"
+  },
+  {
+   "id": "extinction-lumieres",
+   "nom": "Lumières éteintes",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "l",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "moon"
+  },
+  {
+   "id": "ecretage",
+   "nom": "Écrêtage",
+   "groupe": "Affichage",
+   "win": null,
+   "mac": "j",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "contrast"
+  },
+  {
+   "id": "note-1",
+   "nom": "Note 1 étoile",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "1",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-2",
+   "nom": "Note 2 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "2",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-3",
+   "nom": "Note 3 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "3",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-4",
+   "nom": "Note 4 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "4",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "note-5",
+   "nom": "Note 5 étoiles",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "5",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "marquer-selection",
+   "nom": "Marquer sélection",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "p",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "flag"
+  },
+  {
+   "id": "marquer-rejet",
+   "nom": "Marquer rejet",
+   "groupe": "Notation",
+   "win": null,
+   "mac": "x",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "flag-off"
+  },
+  {
+   "id": "coller-reglages",
+   "nom": "Coller réglages",
+   "groupe": "Réglages",
+   "win": null,
+   "mac": "shift+cmd+v",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "noir-blanc",
+   "nom": "Noir et blanc",
+   "groupe": "Réglages",
+   "win": null,
+   "mac": "v",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "contrast"
+  },
+  {
+   "id": "filtre-radial",
+   "nom": "Filtre radial",
+   "groupe": "Masquage",
+   "win": null,
+   "mac": "shift+m",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "circle-dashed"
+  },
+  {
+   "id": "masque-ajustement",
+   "nom": "Voir le masque",
+   "groupe": "Masquage",
+   "win": null,
+   "mac": "o",
+   "linux": null,
+   "source": 0,
+   "priorite": 3,
+   "picto": "eye"
+  },
+  {
+   "id": "ouvrir-photoshop",
+   "nom": "Ouvrir Photoshop",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+e",
+   "linux": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "external-link"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Ajuster un curseur à la molette",
+   "raison": "molette"
+  },
+  {
+   "nom": "Recadrer et redresser",
+   "raison": "séquence de plusieurs combinaisons (R puis cmd)"
+  },
+  {
+   "nom": "Étiquettes de couleur 6 à 9",
+   "raison": "affectation des couleurs non confirmée"
+  }
+ ]
+}

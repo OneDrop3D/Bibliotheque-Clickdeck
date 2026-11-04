@@ -1,0 +1,31 @@
+{
+  "id": "bandicam",
+  "nom": "Bandicam",
+  "editeur": "Bandicam Company",
+  "site": "https://www.bandicam.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Bandicam", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Ctrl+Alt+D est indiqué à la fois pour le mode dessin (enregistrement d'écran) et pour afficher/masquer l'outil de dessin : un des deux sera en conflit. Le raccourci de capture vidéo et de capture d'image peut être changé dans les réglages.",
+  "sources": [ { "url": "https://www.bandicam.com/support/tips/bandicam-hotkeys", "titre": "Bandicam Hotkeys" } ],
+  "actions": [
+    { "id": "demarrer-arreter", "nom": "Démarrer/Arrêter", "groupe": "Enregistrement", "win": "f12", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot" },
+    { "id": "pause", "nom": "Pause", "groupe": "Enregistrement", "win": "shift+f12", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "pause" },
+    { "id": "annuler-enregistrement", "nom": "Annuler", "groupe": "Enregistrement", "win": "ctrl+shift+f12", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "circle-x" },
+    { "id": "capture-image", "nom": "Capture d'écran", "groupe": "Enregistrement", "win": "f11", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "camera" },
+    { "id": "micro-coupe", "nom": "Micro coupé", "groupe": "Audio", "win": "ctrl+alt+m", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "mic-off" },
+    { "id": "son-coupe", "nom": "Son coupé", "groupe": "Audio", "win": "ctrl+alt+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "volume-x" },
+    { "id": "mode-dessin", "nom": "Mode dessin", "groupe": "Dessin", "win": "ctrl+alt+d", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "pencil" },
+    { "id": "outil-stylo", "nom": "Stylo", "groupe": "Dessin", "win": "ctrl+alt+2", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "pen-tool" },
+    { "id": "surligneur", "nom": "Surligneur", "groupe": "Dessin", "win": "ctrl+alt+3", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "highlighter" },
+    { "id": "fleche", "nom": "Flèche", "groupe": "Dessin", "win": "ctrl+alt+5", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "move-up-right" },
+    { "id": "gomme", "nom": "Gomme", "groupe": "Dessin", "win": "ctrl+alt+9", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "eraser" },
+    { "id": "effacer-tout", "nom": "Effacer tout", "groupe": "Dessin", "win": "ctrl+alt+0", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "trash-2" },
+    { "id": "afficher-fps", "nom": "Afficher FPS", "groupe": "Jeu", "win": "f9", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "gauge" }
+  ],
+  "non_faisable": [ { "nom": "Webcam : aperçu en plein écran", "raison": "touche Maj+Tab liée au mode de capture, non retenue" } ]
+}

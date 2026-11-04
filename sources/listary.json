@@ -1,0 +1,98 @@
+{
+  "id": "listary",
+  "nom": "Listary",
+  "editeur": "Listary",
+  "site": "https://www.listary.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Listary"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de la page officielle Hotkeys (V6), modifiables dans Options > Hotkeys. Le lancement par double appui sur Ctrl n'est pas envoyable par une touche.",
+  "sources": [
+    {
+      "url": "https://help.listary.com/hotkeys",
+      "titre": "Listary - Hotkeys"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir le fichier",
+      "groupe": "Recherche",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "external-link"
+    },
+    {
+      "id": "ouvrir-dossier",
+      "nom": "Ouvrir le dossier",
+      "groupe": "Recherche",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "monter",
+      "nom": "Résultat précédent",
+      "groupe": "Recherche",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "descendre",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu",
+      "groupe": "Recherche",
+      "win": "alt+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "actions",
+      "nom": "Actions",
+      "groupe": "Recherche",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Lancer Listary",
+      "raison": "double appui sur Ctrl, séquence"
+    }
+  ]
+}

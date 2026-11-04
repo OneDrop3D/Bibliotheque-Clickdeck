@@ -1,0 +1,17 @@
+{
+  "id": "traktor-pro",
+  "nom": "Traktor Pro",
+  "editeur": "Native Instruments",
+  "site": "https://www.native-instruments.com/en/products/traktor/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Traktor Pro", "mac": "Traktor Pro" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Panne : la recherche web et les pages de l'éditeur n'ont pas pu être lues lors de cette passe (quota de recherche épuisé, pages 404). Aucun raccourci vérifié : à refaire.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

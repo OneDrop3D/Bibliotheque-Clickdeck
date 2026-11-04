@@ -1,0 +1,32 @@
+{
+  "id": "tightvnc",
+  "nom": "TightVNC",
+  "editeur": "GlavSoft",
+  "site": "https://www.tightvnc.com/docs.php",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "TightVNC Viewer"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "La page de documentation officielle lue ne liste aucun raccourci clavier pour le visualiseur. Aucune action n'est proposée faute de source vérifiée ; à compléter après lecture du manuel complet.",
+  "sources": [
+    {
+      "url": "https://www.tightvnc.com/docs.php",
+      "titre": "TightVNC - Documentation"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Plein écran, Ctrl+Alt+Suppr",
+      "raison": "aucun raccourci documenté trouvé dans la source lue"
+    }
+  ],
+  "panne": true
+}

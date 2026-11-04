@@ -1,0 +1,156 @@
+{
+  "id": "datagrip",
+  "nom": "DataGrip",
+  "editeur": "JetBrains",
+  "site": "https://www.jetbrains.com/datagrip/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "DataGrip",
+    "mac": "DataGrip",
+    "linux": "DataGrip"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur les keymaps JetBrains Windows et macOS par défaut. Exécution de requête, nouvelle console et Double Maj (Search Everywhere) non retenus : non confirmés ou non faisables.",
+  "sources": [
+    {
+      "url": "https://www.jetbrains.com/help/datagrip/reference-keymap-win-default.html",
+      "titre": "DataGrip keymap Windows par défaut"
+    },
+    {
+      "url": "https://www.jetbrains.com/help/datagrip/reference-keymap-mac-default.html",
+      "titre": "DataGrip keymap macOS par défaut"
+    }
+  ],
+  "actions": [
+    {
+      "id": "action",
+      "nom": "Chercher action",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "commit",
+      "nom": "Valider (commit)",
+      "groupe": "Git",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-commit-horizontal"
+    },
+    {
+      "id": "formater",
+      "nom": "Formater le code",
+      "groupe": "Édition",
+      "win": "ctrl+alt+l",
+      "mac": "cmd+alt+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-left"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter la ligne",
+      "groupe": "Édition",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer la ligne",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "suppr-ligne",
+      "nom": "Supprimer la ligne",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "recents",
+      "nom": "Fichiers récents",
+      "groupe": "Navigation",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Refactorisation",
+      "win": "shift+f6",
+      "mac": "shift+f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "declaration",
+      "nom": "Aller à déclaration",
+      "groupe": "Navigation",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "replace"
+    }
+  ],
+  "non_faisable": []
+}

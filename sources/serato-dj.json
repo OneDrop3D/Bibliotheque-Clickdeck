@@ -1,0 +1,435 @@
+{
+  "id": "serato-dj",
+  "nom": "Serato DJ",
+  "editeur": "Serato",
+  "site": "https://serato.com/dj",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Serato DJ Pro",
+    "mac": "Serato DJ Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de l'article officiel Serato « Serato DJ Keyboard Shortcuts » (daté de juillet 2020, à recouper avec la fenêtre Help > Show Shortcut Keys de la version installée). Sur Mac, Ctrl correspond à Cmd et Alt à Option, selon la même source. Touches Mac déduites du même article. Esc quitte Serato DJ. Si l'option « playback keys use shift » est active, les touches de lecture demandent Shift ou Verr Maj.",
+  "sources": [
+    {
+      "url": "https://the-drop.serato.com/how-to/serato-dj-keyboard-shortcuts/",
+      "titre": "Serato DJ Keyboard Shortcuts (Serato, 2020)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-gauche",
+      "nom": "Lecture gauche",
+      "groupe": "Lecture",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lecture-droite",
+      "nom": "Lecture droite",
+      "groupe": "Lecture",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "arriere-gauche",
+      "nom": "Lecture arrière G",
+      "groupe": "Lecture",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "arriere-droite",
+      "nom": "Lecture arrière D",
+      "groupe": "Lecture",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "charger-gauche",
+      "nom": "Charger morceau G",
+      "groupe": "Platines",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "charger-droite",
+      "nom": "Charger morceau D",
+      "groupe": "Platines",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "suivant-gauche",
+      "nom": "Charger suivant G",
+      "groupe": "Platines",
+      "win": "alt+w",
+      "mac": "alt+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "suivant-droite",
+      "nom": "Charger suivant D",
+      "groupe": "Platines",
+      "win": "alt+s",
+      "mac": "alt+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "boucle-gauche",
+      "nom": "Boucle G on/off",
+      "groupe": "Boucles",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "boucle-droite",
+      "nom": "Boucle D on/off",
+      "groupe": "Boucles",
+      "win": "quote",
+      "mac": "quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "reboucle-gauche",
+      "nom": "Reboucler G",
+      "groupe": "Boucles",
+      "win": "alt+bracketleft",
+      "mac": "alt+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "entree-boucle-gauche",
+      "nom": "Entrée boucle G",
+      "groupe": "Boucles",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-in"
+    },
+    {
+      "id": "sortie-boucle-gauche",
+      "nom": "Sortie boucle G",
+      "groupe": "Boucles",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out"
+    },
+    {
+      "id": "cue1-poser-gauche",
+      "nom": "Poser cue 1 G",
+      "groupe": "Cue points",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin",
+      "deduit": true
+    },
+    {
+      "id": "cue1-aller-gauche",
+      "nom": "Aller au cue 1 G",
+      "groupe": "Cue points",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "cue1-aller-droite",
+      "nom": "Aller au cue 1 D",
+      "groupe": "Cue points",
+      "win": "6",
+      "mac": "6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "cue-temporaire-gauche",
+      "nom": "Cue temporaire G",
+      "groupe": "Cue points",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "timer"
+    },
+    {
+      "id": "pitch-bas-gauche",
+      "nom": "Pitch bend bas G",
+      "groupe": "Tempo",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "minus"
+    },
+    {
+      "id": "pitch-haut-gauche",
+      "nom": "Pitch bend haut G",
+      "groupe": "Tempo",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus"
+    },
+    {
+      "id": "keylock-gauche",
+      "nom": "Keylock G",
+      "groupe": "Tempo",
+      "win": "f5",
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "keylock-droite",
+      "nom": "Keylock D",
+      "groupe": "Tempo",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "morceau-precedent",
+      "nom": "Morceau précédent",
+      "groupe": "Bibliothèque",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "morceau-suivant",
+      "nom": "Morceau suivant",
+      "groupe": "Bibliothèque",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "localiser-morceau",
+      "nom": "Localiser morceau",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "locate",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir-lecteur",
+      "nom": "Ouvrir dans lecteur",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "external-link",
+      "deduit": true
+    },
+    {
+      "id": "annuler-chargement",
+      "nom": "Annuler chargement",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "zoom-forme-onde",
+      "nom": "Zoom forme d'onde",
+      "groupe": "Affichage",
+      "win": "plus",
+      "mac": "plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "mode-grille",
+      "nom": "Édition de grille",
+      "groupe": "Affichage",
+      "win": "alt+space",
+      "mac": "alt+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter Serato",
+      "groupe": "Affichage",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "cue-temporaire-droite",
+      "nom": "Cue temporaire D",
+      "groupe": "Cue points",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "timer"
+    },
+    {
+      "id": "reboucle-droite",
+      "nom": "Reboucler D",
+      "groupe": "Boucles",
+      "win": "alt+quote",
+      "mac": "alt+quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "entree-boucle-droite",
+      "nom": "Entrée boucle D",
+      "groupe": "Boucles",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-in"
+    },
+    {
+      "id": "sortie-boucle-droite",
+      "nom": "Sortie boucle D",
+      "groupe": "Boucles",
+      "win": "semicolon",
+      "mac": "semicolon",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out"
+    },
+    {
+      "id": "pitch-bas-droite",
+      "nom": "Pitch bend bas D",
+      "groupe": "Tempo",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "minus"
+    },
+    {
+      "id": "pitch-haut-droite",
+      "nom": "Pitch bend haut D",
+      "groupe": "Tempo",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom de la forme d'onde à la molette",
+      "raison": "molette"
+    }
+  ]
+}

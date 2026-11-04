@@ -1,0 +1,275 @@
+{
+  "id": "smplayer",
+  "nom": "SMPlayer",
+  "editeur": "SMPlayer Project",
+  "site": "https://www.smplayer.info/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "SMPlayer",
+    "mac": "SMPlayer",
+    "linux": "smplayer"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du code source officiel (basegui.cpp), lu en partie seulement (fichier tronqué). Sous macOS, Qt convertit Ctrl en Cmd (déduit). Les touches < et > (piste suivante/précédente) sont omises car dépendantes de la disposition du clavier.",
+  "sources": [
+    {
+      "url": "https://www.smplayer.info/",
+      "titre": "Site officiel SMPlayer (aucune liste de raccourcis)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/smplayer-dev/smplayer/master/src/basegui.cpp",
+      "titre": "SMPlayer basegui.cpp (raccourcis par défaut, code source)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 1,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f",
+      "mac": "f",
+      "linux": "f",
+      "source": 1,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Volume",
+      "win": "m",
+      "mac": "m",
+      "linux": "m",
+      "source": 1,
+      "priorite": 1,
+      "picto": "volume-x",
+      "deduit": true
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume -",
+      "groupe": "Volume",
+      "win": "9",
+      "mac": "9",
+      "linux": "9",
+      "source": 1,
+      "priorite": 1,
+      "picto": "volume-1",
+      "deduit": true
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Volume",
+      "win": "0",
+      "mac": "0",
+      "linux": "0",
+      "source": 1,
+      "priorite": 1,
+      "picto": "volume-2",
+      "deduit": true
+    },
+    {
+      "id": "recul",
+      "nom": "Reculer",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": "left",
+      "linux": "left",
+      "source": 1,
+      "priorite": 1,
+      "picto": "rewind",
+      "deduit": true
+    },
+    {
+      "id": "avance",
+      "nom": "Avancer",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": "right",
+      "linux": "right",
+      "source": 1,
+      "priorite": 1,
+      "picto": "fast-forward",
+      "deduit": true
+    },
+    {
+      "id": "recul-moyen",
+      "nom": "Reculer (moyen)",
+      "groupe": "Lecture",
+      "win": "down",
+      "mac": "down",
+      "linux": "down",
+      "source": 1,
+      "priorite": 1,
+      "picto": "skip-back",
+      "deduit": true
+    },
+    {
+      "id": "avance-moyen",
+      "nom": "Avancer (moyen)",
+      "groupe": "Lecture",
+      "win": "up",
+      "mac": "up",
+      "linux": "up",
+      "source": 1,
+      "priorite": 1,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "recul-long",
+      "nom": "Reculer (long)",
+      "groupe": "Lecture",
+      "win": "pagedown",
+      "mac": "pagedown",
+      "linux": "pagedown",
+      "source": 1,
+      "priorite": 1,
+      "picto": "chevrons-left",
+      "deduit": true
+    },
+    {
+      "id": "avance-long",
+      "nom": "Avancer (long)",
+      "groupe": "Lecture",
+      "win": "pageup",
+      "mac": "pageup",
+      "linux": "pageup",
+      "source": 1,
+      "priorite": 1,
+      "picto": "chevrons-right",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-normale",
+      "nom": "Vitesse normale",
+      "groupe": "Vitesse",
+      "win": "backspace",
+      "mac": "backspace",
+      "linux": "backspace",
+      "source": 1,
+      "priorite": 1,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-moins",
+      "nom": "Vitesse -",
+      "groupe": "Vitesse",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": "bracketleft",
+      "source": 1,
+      "priorite": 1,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "vitesse-plus",
+      "nom": "Vitesse +",
+      "groupe": "Vitesse",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": "bracketright",
+      "source": 1,
+      "priorite": 1,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Affichage",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 1,
+      "priorite": 1,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "sub-retard-moins",
+      "nom": "Sous-titres -",
+      "groupe": "Sous-titres",
+      "win": "z",
+      "mac": "z",
+      "linux": "z",
+      "source": 1,
+      "priorite": 1,
+      "picto": "captions",
+      "deduit": true
+    },
+    {
+      "id": "sub-retard-plus",
+      "nom": "Sous-titres +",
+      "groupe": "Sous-titres",
+      "win": "x",
+      "mac": "x",
+      "linux": "x",
+      "source": 1,
+      "priorite": 1,
+      "picto": "captions",
+      "deduit": true
+    },
+    {
+      "id": "sub-prec",
+      "nom": "Sous-titre préc.",
+      "groupe": "Sous-titres",
+      "win": "shift+j",
+      "mac": "shift+j",
+      "linux": "shift+j",
+      "source": 1,
+      "priorite": 1,
+      "picto": "captions",
+      "deduit": true
+    },
+    {
+      "id": "sub-suiv",
+      "nom": "Sous-titre suiv.",
+      "groupe": "Sous-titres",
+      "win": "j",
+      "mac": "j",
+      "linux": "j",
+      "source": 1,
+      "priorite": 1,
+      "picto": "captions",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

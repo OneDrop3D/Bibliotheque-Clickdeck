@@ -1,0 +1,17 @@
+{
+  "id": "msi-afterburner",
+  "nom": "MSI Afterburner",
+  "editeur": "MSI",
+  "site": "https://www.msi.com/Landing/afterburner",
+  "systemes": ["windows"],
+  "lancement": { "windows": "MSI Afterburner" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Les raccourcis d'Afterburner ne sont pas définis par défaut : ils se configurent dans les paramètres de l'application. Aucune liste officielle n'a pu être lue (page de l'éditeur refusée, HTTP 403). Aucune action n'est proposée à ce stade.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

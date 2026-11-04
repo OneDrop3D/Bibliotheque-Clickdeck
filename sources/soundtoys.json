@@ -1,0 +1,22 @@
+{
+  "id": "soundtoys",
+  "nom": "Soundtoys",
+  "editeur": "Soundtoys",
+  "site": "https://www.soundtoys.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Effect Rack", "mac": "Effect Rack" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Suite d'effets VST/AU/AAX (Effect Rack) pilotée par la DAW hôte. La page Soundtoys consultée ne liste aucun raccourci clavier ; seules des manipulations à la souris sont décrites (Tap Tempo, Mix). Pas d'action proposée. Le lancement vise Effect Rack, le plugin le plus courant de la suite.",
+  "sources": [
+    { "url": "https://www.soundtoys.com/?p=7399", "titre": "Soundtoys - Effect Rack (page produit)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages des effets", "raison": "souris" },
+    { "nom": "Tap Tempo", "raison": "souris, pas de raccourci documenté" }
+  ]
+}

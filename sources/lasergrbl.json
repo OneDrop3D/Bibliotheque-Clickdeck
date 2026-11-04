@@ -1,0 +1,55 @@
+{
+  "id": "lasergrbl",
+  "nom": "LaserGRBL",
+  "editeur": "Arkypita (LaserGRBL)",
+  "site": "https://lasergrbl.com",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "LaserGRBL",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "LaserGRBL n'a pas de liste publique de raccourcis par défaut dans les sources consultées. Seuls Échap (annuler) et Entrée (valider) sont des raccourcis standard de boîtes de dialogue, confirmés par le développeur sur GitHub. Ctrl+O est seulement suggéré dans le fil GitHub, pas confirmé. Les autres touches (jog, etc.) ne sont pas vérifiées et ne sont pas incluses : l'utilisateur peut les définir dans les réglages de LaserGRBL. Application Windows uniquement, Mac non concerné. Ctrl+O retiré (non confirmé).",
+  "sources": [
+    {
+      "url": "https://github.com/arkypita/LaserGRBL/issues/157",
+      "titre": "LaserGRBL issue 157 (raccourcis, développeur)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "valider-dialogue",
+      "nom": "Valider",
+      "groupe": "Dialogues",
+      "win": "enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "check"
+    },
+    {
+      "id": "annuler-dialogue",
+      "nom": "Annuler",
+      "groupe": "Dialogues",
+      "win": "escape",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Jog et commandes de déplacement",
+      "raison": "raccourcis non vérifiés dans les sources"
+    }
+  ]
+}

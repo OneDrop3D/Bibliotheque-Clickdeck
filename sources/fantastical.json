@@ -1,0 +1,219 @@
+{
+  "id": "fantastical",
+  "nom": "Fantastical",
+  "editeur": "Flexibits",
+  "site": "https://flexibits.com/fantastical",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Fantastical"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application macOS uniquement. Raccourcis relevés dans l'aide officielle de Flexibits ; le raccourci d'ouverture est modifiable dans les réglages.",
+  "sources": [
+    {
+      "url": "https://flexibits.com/fantastical/help/keyboard-shortcuts",
+      "titre": "Fantastical Help: Keyboard Shortcuts (Flexibits)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-fantastical",
+      "nom": "Ouvrir Fantastical",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "ctrl+alt+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar"
+    },
+    {
+      "id": "nouvel-evenement",
+      "nom": "Nouvel événement",
+      "groupe": "Création",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-plus"
+    },
+    {
+      "id": "basculer-tache",
+      "nom": "Événement / tâche",
+      "groupe": "Création",
+      "win": null,
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-todo"
+    },
+    {
+      "id": "aujourdhui",
+      "nom": "Aujourd'hui",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-check"
+    },
+    {
+      "id": "mois-suivant",
+      "nom": "Mois suivant",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "mois-precedent",
+      "nom": "Mois précédent",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "jour-suivant",
+      "nom": "Jour suivant",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "shift+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "jour-precedent",
+      "nom": "Jour précédent",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "shift+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "afficher-taches",
+      "nom": "Liste des tâches",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-checks"
+    },
+    {
+      "id": "details",
+      "nom": "Afficher détails",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-right"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "preferences",
+      "nom": "Réglages",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "semaine-suivante",
+      "nom": "Semaine suivante",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "shift+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-right"
+    },
+    {
+      "id": "semaine-precedente",
+      "nom": "Semaine précédente",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "shift+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-left"
+    },
+    {
+      "id": "infos",
+      "nom": "Informations",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "info"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Dupliquer un événement par glisser",
+      "raison": "souris"
+    }
+  ]
+}

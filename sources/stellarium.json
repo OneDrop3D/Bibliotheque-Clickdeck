@@ -1,0 +1,688 @@
+{
+ "id": "stellarium",
+ "nom": "Stellarium",
+ "editeur": "Stellarium Team",
+ "site": "https://stellarium.org/",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "Stellarium",
+  "mac": "Stellarium"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Divers desktop grand public",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Relevé depuis le code source officiel (branche master, fichiers d'actions StelGui, StelCore, StelMovementMgr, GridLinesMgr, ConstellationMgr, LandscapeMgr, SolarSystem, NebulaMgr, StarMgr, StelApp, StelMainView). Raccourcis Qt : Ctrl devient Cmd sur Mac (déduit). Exclus car réservés au système Mac : Ctrl+Espace, Cmd+M, F11, Cmd+Q.",
+ "sources": [
+  {
+   "url": "https://github.com/Stellarium/stellarium/tree/master/src",
+   "titre": "Code source Stellarium (définitions des actions et raccourcis)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "atmosphere",
+   "nom": "Atmosphère",
+   "groupe": "Affichage",
+   "win": "a",
+   "mac": "a",
+   "linux": "a",
+   "source": 0,
+   "priorite": 1,
+   "picto": "cloud"
+  },
+  {
+   "id": "sol",
+   "nom": "Sol",
+   "groupe": "Affichage",
+   "win": "g",
+   "mac": "g",
+   "linux": "g",
+   "source": 0,
+   "priorite": 1,
+   "picto": "mountain"
+  },
+  {
+   "id": "constellations",
+   "nom": "Constellations",
+   "groupe": "Affichage",
+   "win": "c",
+   "mac": "c",
+   "linux": "c",
+   "source": 0,
+   "priorite": 1,
+   "picto": "star"
+  },
+  {
+   "id": "noms-constellations",
+   "nom": "Noms constellat.",
+   "groupe": "Affichage",
+   "win": "v",
+   "mac": "v",
+   "linux": "v",
+   "source": 0,
+   "priorite": 1,
+   "picto": "tag"
+  },
+  {
+   "id": "etoiles",
+   "nom": "Étoiles",
+   "groupe": "Affichage",
+   "win": "s",
+   "mac": "s",
+   "linux": "s",
+   "source": 0,
+   "priorite": 1,
+   "picto": "sparkles"
+  },
+  {
+   "id": "planetes",
+   "nom": "Planètes",
+   "groupe": "Affichage",
+   "win": "p",
+   "mac": "p",
+   "linux": "p",
+   "source": 0,
+   "priorite": 1,
+   "picto": "globe"
+  },
+  {
+   "id": "orbites",
+   "nom": "Orbites",
+   "groupe": "Grilles/lignes",
+   "win": "o",
+   "mac": "o",
+   "linux": "o",
+   "source": 0,
+   "priorite": 1,
+   "picto": "orbit"
+  },
+  {
+   "id": "ciel-profond",
+   "nom": "Objets ciel prof.",
+   "groupe": "Affichage",
+   "win": "d",
+   "mac": "d",
+   "linux": "d",
+   "source": 0,
+   "priorite": 1,
+   "picto": "telescope"
+  },
+  {
+   "id": "grille-equatoriale",
+   "nom": "Grille équatoriale",
+   "groupe": "Grilles/lignes",
+   "win": "e",
+   "mac": "e",
+   "linux": "e",
+   "source": 0,
+   "priorite": 1,
+   "picto": "grid-3x3"
+  },
+  {
+   "id": "grille-azimutale",
+   "nom": "Grille azimutale",
+   "groupe": "Grilles/lignes",
+   "win": "z",
+   "mac": "z",
+   "linux": "z",
+   "source": 0,
+   "priorite": 1,
+   "picto": "grid-3x3"
+  },
+  {
+   "id": "points-cardinaux",
+   "nom": "Points cardinaux",
+   "groupe": "Affichage",
+   "win": "q",
+   "mac": "q",
+   "linux": "q",
+   "source": 0,
+   "priorite": 1,
+   "picto": "compass"
+  },
+  {
+   "id": "mode-nuit",
+   "nom": "Mode nuit",
+   "groupe": "Affichage",
+   "win": "ctrl+n",
+   "mac": "cmd+n",
+   "linux": "ctrl+n",
+   "source": 0,
+   "priorite": 1,
+   "picto": "moon",
+   "deduit": true
+  },
+  {
+   "id": "art-constellations",
+   "nom": "Art constellat.",
+   "groupe": "Affichage",
+   "win": "r",
+   "mac": "r",
+   "linux": "r",
+   "source": 0,
+   "priorite": 2,
+   "picto": "image"
+  },
+  {
+   "id": "limites-constellations",
+   "nom": "Limites const.",
+   "groupe": "Affichage",
+   "win": "b",
+   "mac": "b",
+   "linux": "b",
+   "source": 0,
+   "priorite": 2,
+   "picto": "square-dashed"
+  },
+  {
+   "id": "brouillard",
+   "nom": "Brouillard",
+   "groupe": "Affichage",
+   "win": "f",
+   "mac": "f",
+   "linux": "f",
+   "source": 0,
+   "priorite": 2,
+   "picto": "cloud-fog"
+  },
+  {
+   "id": "ligne-ecliptique",
+   "nom": "Écliptique",
+   "groupe": "Grilles/lignes",
+   "win": "comma",
+   "mac": "comma",
+   "linux": "comma",
+   "source": 0,
+   "priorite": 2,
+   "picto": "sun"
+  },
+  {
+   "id": "ligne-equateur",
+   "nom": "Équateur",
+   "groupe": "Grilles/lignes",
+   "win": "period",
+   "mac": "period",
+   "linux": "period",
+   "source": 0,
+   "priorite": 2,
+   "picto": "minus"
+  },
+  {
+   "id": "ligne-meridien",
+   "nom": "Méridien",
+   "groupe": "Grilles/lignes",
+   "win": "semicolon",
+   "mac": "semicolon",
+   "linux": "semicolon",
+   "source": 0,
+   "priorite": 2,
+   "picto": "ruler"
+  },
+  {
+   "id": "ligne-horizon",
+   "nom": "Horizon",
+   "groupe": "Grilles/lignes",
+   "win": "h",
+   "mac": "h",
+   "linux": "h",
+   "source": 0,
+   "priorite": 2,
+   "picto": "sunset"
+  },
+  {
+   "id": "noms-planetes",
+   "nom": "Noms des planètes",
+   "groupe": "Affichage",
+   "win": "alt+p",
+   "mac": "alt+p",
+   "linux": "alt+p",
+   "source": 0,
+   "priorite": 2,
+   "picto": "tag"
+  },
+  {
+   "id": "noms-etoiles",
+   "nom": "Noms des étoiles",
+   "groupe": "Affichage",
+   "win": "alt+s",
+   "mac": "alt+s",
+   "linux": "alt+s",
+   "source": 0,
+   "priorite": 2,
+   "picto": "tag"
+  },
+  {
+   "id": "trajectoires",
+   "nom": "Trajectoires",
+   "groupe": "Grilles/lignes",
+   "win": "shift+t",
+   "mac": "shift+t",
+   "linux": "shift+t",
+   "source": 0,
+   "priorite": 3,
+   "picto": "route"
+  },
+  {
+   "id": "marqueurs-planetes",
+   "nom": "Marqueurs planètes",
+   "groupe": "Affichage",
+   "win": "ctrl+p",
+   "mac": "cmd+p",
+   "linux": "ctrl+p",
+   "source": 0,
+   "priorite": 3,
+   "picto": "map-pin",
+   "deduit": true
+  },
+  {
+   "id": "illumination-paysage",
+   "nom": "Illumination sol",
+   "groupe": "Affichage",
+   "win": "shift+g",
+   "mac": "shift+g",
+   "linux": "shift+g",
+   "source": 0,
+   "priorite": 3,
+   "picto": "lightbulb"
+  },
+  {
+   "id": "centrer-objet",
+   "nom": "Centrer sur objet",
+   "groupe": "Navigation",
+   "win": "space",
+   "mac": "space",
+   "linux": "space",
+   "source": 0,
+   "priorite": 1,
+   "picto": "crosshair"
+  },
+  {
+   "id": "suivre-objet",
+   "nom": "Suivre l'objet",
+   "groupe": "Navigation",
+   "win": "t",
+   "mac": "t",
+   "linux": "t",
+   "source": 0,
+   "priorite": 1,
+   "picto": "locate-fixed"
+  },
+  {
+   "id": "zoom-objet",
+   "nom": "Zoom sur objet",
+   "groupe": "Navigation",
+   "win": "slash",
+   "mac": "slash",
+   "linux": "slash",
+   "source": 0,
+   "priorite": 2,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "dezoomer",
+   "nom": "Dézoomer",
+   "groupe": "Navigation",
+   "win": "backslash",
+   "mac": "backslash",
+   "linux": "backslash",
+   "source": 0,
+   "priorite": 2,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "remettre-objet",
+   "nom": "Rechoisir objet",
+   "groupe": "Navigation",
+   "win": "shift+space",
+   "mac": "shift+space",
+   "linux": "shift+space",
+   "source": 0,
+   "priorite": 3,
+   "picto": "undo-2"
+  },
+  {
+   "id": "monture",
+   "nom": "Monture équ./azim.",
+   "groupe": "Navigation",
+   "win": "ctrl+m",
+   "mac": null,
+   "linux": "ctrl+m",
+   "source": 0,
+   "priorite": 3,
+   "picto": "axis-3d"
+  },
+  {
+   "id": "regarder-nord",
+   "nom": "Regarder au nord",
+   "groupe": "Navigation",
+   "win": "shift+n",
+   "mac": "shift+n",
+   "linux": "shift+n",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-up"
+  },
+  {
+   "id": "regarder-sud",
+   "nom": "Regarder au sud",
+   "groupe": "Navigation",
+   "win": "shift+s",
+   "mac": "shift+s",
+   "linux": "shift+s",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-down"
+  },
+  {
+   "id": "regarder-est",
+   "nom": "Regarder à l'est",
+   "groupe": "Navigation",
+   "win": "shift+e",
+   "mac": "shift+e",
+   "linux": "shift+e",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "regarder-ouest",
+   "nom": "Regarder à l'ouest",
+   "groupe": "Navigation",
+   "win": "shift+w",
+   "mac": "shift+w",
+   "linux": "shift+w",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "regarder-zenith",
+   "nom": "Regarder au zénith",
+   "groupe": "Navigation",
+   "win": "shift+z",
+   "mac": "shift+z",
+   "linux": "shift+z",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-up-to-line"
+  },
+  {
+   "id": "temps-accelerer",
+   "nom": "Accélérer le temps",
+   "groupe": "Temps",
+   "win": "l",
+   "mac": "l",
+   "linux": "l",
+   "source": 0,
+   "priorite": 1,
+   "picto": "fast-forward"
+  },
+  {
+   "id": "temps-ralentir",
+   "nom": "Ralentir le temps",
+   "groupe": "Temps",
+   "win": "j",
+   "mac": "j",
+   "linux": "j",
+   "source": 0,
+   "priorite": 1,
+   "picto": "rewind"
+  },
+  {
+   "id": "temps-normal",
+   "nom": "Temps normal",
+   "groupe": "Temps",
+   "win": "k",
+   "mac": "k",
+   "linux": "k",
+   "source": 0,
+   "priorite": 1,
+   "picto": "play"
+  },
+  {
+   "id": "temps-maintenant",
+   "nom": "Heure actuelle",
+   "groupe": "Temps",
+   "win": "8",
+   "mac": "8",
+   "linux": "8",
+   "source": 0,
+   "priorite": 1,
+   "picto": "clock"
+  },
+  {
+   "id": "temps-pause",
+   "nom": "Arrêter le temps",
+   "groupe": "Temps",
+   "win": "7",
+   "mac": "7",
+   "linux": "7",
+   "source": 0,
+   "priorite": 2,
+   "picto": "pause"
+  },
+  {
+   "id": "temps-inverser",
+   "nom": "Temps inversé",
+   "groupe": "Temps",
+   "win": "0",
+   "mac": "0",
+   "linux": "0",
+   "source": 0,
+   "priorite": 2,
+   "picto": "undo"
+  },
+  {
+   "id": "jour-plus",
+   "nom": "+1 jour",
+   "groupe": "Temps",
+   "win": "equal",
+   "mac": "equal",
+   "linux": "equal",
+   "source": 0,
+   "priorite": 2,
+   "picto": "calendar-plus"
+  },
+  {
+   "id": "jour-moins",
+   "nom": "-1 jour",
+   "groupe": "Temps",
+   "win": "minus",
+   "mac": "minus",
+   "linux": "minus",
+   "source": 0,
+   "priorite": 2,
+   "picto": "calendar-minus"
+  },
+  {
+   "id": "semaine-plus",
+   "nom": "+7 jours",
+   "groupe": "Temps",
+   "win": "bracketright",
+   "mac": "bracketright",
+   "linux": "bracketright",
+   "source": 0,
+   "priorite": 3,
+   "picto": "calendar-plus"
+  },
+  {
+   "id": "semaine-moins",
+   "nom": "-7 jours",
+   "groupe": "Temps",
+   "win": "bracketleft",
+   "mac": "bracketleft",
+   "linux": "bracketleft",
+   "source": 0,
+   "priorite": 3,
+   "picto": "calendar-minus"
+  },
+  {
+   "id": "heure-plus",
+   "nom": "+1 heure",
+   "groupe": "Temps",
+   "win": "ctrl+equal",
+   "mac": "cmd+equal",
+   "linux": "ctrl+equal",
+   "source": 0,
+   "priorite": 3,
+   "picto": "clock-arrow-up",
+   "deduit": true
+  },
+  {
+   "id": "heure-moins",
+   "nom": "-1 heure",
+   "groupe": "Temps",
+   "win": "ctrl+minus",
+   "mac": "cmd+minus",
+   "linux": "ctrl+minus",
+   "source": 0,
+   "priorite": 3,
+   "picto": "clock-arrow-down",
+   "deduit": true
+  },
+  {
+   "id": "fenetre-recherche",
+   "nom": "Recherche",
+   "groupe": "Fenêtres",
+   "win": "f3",
+   "mac": "f3",
+   "linux": "f3",
+   "source": 0,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "fenetre-date",
+   "nom": "Date et heure",
+   "groupe": "Fenêtres",
+   "win": "f5",
+   "mac": "f5",
+   "linux": "f5",
+   "source": 0,
+   "priorite": 1,
+   "picto": "calendar-clock"
+  },
+  {
+   "id": "fenetre-lieu",
+   "nom": "Lieu",
+   "groupe": "Fenêtres",
+   "win": "f6",
+   "mac": "f6",
+   "linux": "f6",
+   "source": 0,
+   "priorite": 1,
+   "picto": "map-pin"
+  },
+  {
+   "id": "capture",
+   "nom": "Capture d'écran",
+   "groupe": "Fenêtres",
+   "win": "ctrl+s",
+   "mac": "cmd+s",
+   "linux": "ctrl+s",
+   "source": 0,
+   "priorite": 1,
+   "picto": "camera",
+   "deduit": true
+  },
+  {
+   "id": "fenetre-aide",
+   "nom": "Aide",
+   "groupe": "Fenêtres",
+   "win": "f1",
+   "mac": "f1",
+   "linux": "f1",
+   "source": 0,
+   "priorite": 2,
+   "picto": "circle-help"
+  },
+  {
+   "id": "fenetre-config",
+   "nom": "Configuration",
+   "groupe": "Fenêtres",
+   "win": "f2",
+   "mac": "f2",
+   "linux": "f2",
+   "source": 0,
+   "priorite": 2,
+   "picto": "settings"
+  },
+  {
+   "id": "fenetre-ciel",
+   "nom": "Options du ciel",
+   "groupe": "Fenêtres",
+   "win": "f4",
+   "mac": "f4",
+   "linux": "f4",
+   "source": 0,
+   "priorite": 2,
+   "picto": "sliders-horizontal"
+  },
+  {
+   "id": "fenetre-raccourcis",
+   "nom": "Raccourcis",
+   "groupe": "Fenêtres",
+   "win": "f7",
+   "mac": "f7",
+   "linux": "f7",
+   "source": 0,
+   "priorite": 3,
+   "picto": "keyboard"
+  },
+  {
+   "id": "liste-observation",
+   "nom": "Liste observation",
+   "groupe": "Fenêtres",
+   "win": "alt+b",
+   "mac": "alt+b",
+   "linux": "alt+b",
+   "source": 0,
+   "priorite": 3,
+   "picto": "list-checks"
+  },
+  {
+   "id": "masquer-interface",
+   "nom": "Masquer interface",
+   "groupe": "Fenêtres",
+   "win": "ctrl+t",
+   "mac": "cmd+t",
+   "linux": "ctrl+t",
+   "source": 0,
+   "priorite": 2,
+   "picto": "eye-off",
+   "deduit": true
+  },
+  {
+   "id": "copier-infos",
+   "nom": "Copier infos objet",
+   "groupe": "Fenêtres",
+   "win": "ctrl+shift+c",
+   "mac": "cmd+shift+c",
+   "linux": "ctrl+shift+c",
+   "source": 0,
+   "priorite": 3,
+   "picto": "copy",
+   "deduit": true
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Déplacement du ciel aux flèches",
+   "raison": "touche maintenue"
+  },
+  {
+   "nom": "Zoom Page haut/bas",
+   "raison": "touche maintenue"
+  },
+  {
+   "nom": "Plein écran (F11)",
+   "raison": "F11 réservé par macOS"
+  }
+ ]
+}

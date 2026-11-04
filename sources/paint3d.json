@@ -1,0 +1,31 @@
+{
+  "id": "paint3d",
+  "nom": "Paint 3D",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/windows/whats-new/deprecated-features-resources#paint-3d",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Paint 3D", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Paint 3D est déprécié depuis août 2024 et retiré du Microsoft Store le 4 novembre 2024 : seules les installations existantes fonctionnent. Aucune liste officielle de raccourcis propres à Paint 3D n'a été trouvée ; seules les commandes standard de menu sont proposées, avec deduit = true.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/windows/whats-new/deprecated-features-resources#paint-3d", "titre": "Microsoft Learn - Resources for deprecated features (Paint 3D)" }
+  ],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "file-plus", "deduit": true },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "mouse-pointer-2", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Pinceau et forme à la molette", "raison": "molette" }
+  ]
+}

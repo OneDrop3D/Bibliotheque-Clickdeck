@@ -1,0 +1,134 @@
+{
+  "id": "pale-moon",
+  "nom": "Pale Moon",
+  "editeur": "Moonchild Productions",
+  "site": "https://www.palemoon.org",
+  "systemes": [
+    "windows",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Pale Moon",
+    "linux": "palemoon"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source de raccourcis lisible ; Pale Moon n'a pas de build Mac officiel. Seules les commandes standard des menus sont listées (déduites) ; à compléter après vérification.",
+  "sources": [],
+  "actions": [
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "linux": "ctrl+c",
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "linux": "ctrl+x",
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "linux": "ctrl+v",
+      "priorite": 1,
+      "picto": "clipboard",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "linux": "ctrl+a",
+      "priorite": 2,
+      "picto": "text-select",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "linux": "ctrl+f",
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "linux": "ctrl+p",
+      "priorite": 2,
+      "picto": "printer",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "linux": "ctrl+s",
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir un fichier",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "linux": "ctrl+o",
+      "priorite": 2,
+      "picto": "folder-open",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtres",
+      "win": "ctrl+n",
+      "linux": "ctrl+n",
+      "priorite": 2,
+      "picto": "app-window",
+      "deduit": true,
+      "mac": null
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+w",
+      "linux": "ctrl+w",
+      "priorite": 1,
+      "picto": "x",
+      "deduit": true,
+      "mac": null
+    }
+  ],
+  "non_faisable": []
+}

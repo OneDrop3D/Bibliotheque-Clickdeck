@@ -1,0 +1,17 @@
+{
+  "id": "explorerpatcher",
+  "nom": "ExplorerPatcher",
+  "editeur": "valinet",
+  "site": "https://github.com/valinet/ExplorerPatcher",
+  "systemes": ["windows"],
+  "lancement": { "windows": "ExplorerPatcher" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier par défaut documenté. Les réglages se font dans le menu de configuration de l'utilitaire.",
+  "sources": [ { "url": "https://github.com/valinet/ExplorerPatcher", "titre": "Dépôt officiel ExplorerPatcher (README)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Changer le style de l'explorateur", "raison": "réglage sans raccourci" } ]
+}

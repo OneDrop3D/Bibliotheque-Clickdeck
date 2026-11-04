@@ -1,0 +1,17 @@
+{
+  "id": "plexamp",
+  "nom": "Plexamp",
+  "editeur": "Plex",
+  "site": "https://plexamp.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Plexamp", "mac": "Plexamp" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune liste de raccourcis n'a pu être lue : la page d'accueil plexamp.com ne contient que le titre, et les pages d'aide testées renvoient 404 ou ne résolvent pas. Aucune action n'est donc renseignée. À refaire quand une source officielle est accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

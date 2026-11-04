@@ -1,0 +1,26 @@
+{
+  "id": "bottles",
+  "nom": "Bottles",
+  "editeur": "Bottles (projet open source)",
+  "site": "https://usebottles.com",
+  "systemes": ["linux"],
+  "lancement": { "linux": "Bottles" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Linux uniquement (gestionnaire de préfixes Wine). Raccourcis relevés dans le code source officiel (bottles/frontend/main.py, déclarés avec set_accels_for_action).",
+  "sources": [
+    { "url": "https://github.com/bottlesdevs/Bottles/blob/main/bottles/frontend/main.py", "titre": "bottles/frontend/main.py (code source officiel)" }
+  ],
+  "actions": [
+    { "id": "nouvelle-bouteille", "nom": "Nouvelle bouteille", "groupe": "Bouteilles", "win": null, "mac": null, "linux": "ctrl+n", "source": 0, "priorite": 1, "picto": "plus" },
+    { "id": "importer", "nom": "Importer", "groupe": "Bouteilles", "win": null, "mac": null, "linux": "ctrl+i", "source": 0, "priorite": 2, "picto": "download" },
+    { "id": "journal", "nom": "Journal", "groupe": "Application", "win": null, "mac": null, "linux": "ctrl+j", "source": 0, "priorite": 2, "picto": "scroll-text" },
+    { "id": "preferences", "nom": "Préférences", "groupe": "Application", "win": null, "mac": null, "linux": "ctrl+comma", "source": 0, "priorite": 2, "picto": "settings" },
+    { "id": "aide", "nom": "Aide", "groupe": "Application", "win": null, "mac": null, "linux": "f1", "source": 0, "priorite": 3, "picto": "circle-help" },
+    { "id": "quitter", "nom": "Quitter", "groupe": "Application", "win": null, "mac": null, "linux": "ctrl+q", "source": 0, "priorite": 2, "picto": "power" }
+  ],
+  "non_faisable": []
+}

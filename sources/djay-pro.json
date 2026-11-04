@@ -1,0 +1,526 @@
+{
+  "id": "djay-pro",
+  "nom": "djay Pro",
+  "editeur": "Algoriddim",
+  "site": "https://www.algoriddim.com/djay-pro",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "djay Pro",
+    "mac": "djay Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut du manuel officiel (Mac et Windows). Les combinaisons AltGr de Windows sont omises. Raccourcis modifiables dans Préférences > Raccourcis.",
+  "sources": [
+    {
+      "url": "https://help.algoriddim.com/user-manual/djay-pro-mac/settings/shortcuts",
+      "titre": "djay Pro for Mac: Keyboard shortcuts"
+    },
+    {
+      "url": "https://help.algoriddim.com/user-manual/djay-pro-windows/settings/shortcuts",
+      "titre": "djay Pro for Windows: Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "d1-lecture",
+      "nom": "Lecture Deck 1",
+      "groupe": "Platine 1",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "d1-sync",
+      "nom": "Sync Deck 1",
+      "groupe": "Platine 1",
+      "win": "2",
+      "mac": "2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "d1-cue1",
+      "nom": "Cue 1 Deck 1",
+      "groupe": "Platine 1",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d1-cue2",
+      "nom": "Cue 2 Deck 1",
+      "groupe": "Platine 1",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d1-cue3",
+      "nom": "Cue 3 Deck 1",
+      "groupe": "Platine 1",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d1-cue4",
+      "nom": "Cue 4 Deck 1",
+      "groupe": "Platine 1",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d1-debut",
+      "nom": "Début Deck 1",
+      "groupe": "Platine 1",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "d1-recul",
+      "nom": "Reculer Deck 1",
+      "groupe": "Platine 1",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "d1-avance",
+      "nom": "Avancer Deck 1",
+      "groupe": "Platine 1",
+      "win": "4",
+      "mac": "4",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "d1-fx1",
+      "nom": "Effet 1 Deck 1",
+      "groupe": "Platine 1",
+      "win": "5",
+      "mac": "5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sparkles"
+    },
+    {
+      "id": "d1-autoloop",
+      "nom": "Autoloop Deck 1",
+      "groupe": "Platine 1",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "d1-boucle-in",
+      "nom": "Boucle in Deck 1",
+      "groupe": "Platine 1",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-in"
+    },
+    {
+      "id": "d1-boucle-out",
+      "nom": "Boucle out Deck 1",
+      "groupe": "Platine 1",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out"
+    },
+    {
+      "id": "d1-accord",
+      "nom": "Accord Deck 1",
+      "groupe": "Platine 1",
+      "win": "shift+2",
+      "mac": "shift+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "music"
+    },
+    {
+      "id": "d2-lecture",
+      "nom": "Lecture Deck 2",
+      "groupe": "Platine 2",
+      "win": "0",
+      "mac": "0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "d2-sync",
+      "nom": "Sync Deck 2",
+      "groupe": "Platine 2",
+      "win": "9",
+      "mac": "9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "d2-cue1",
+      "nom": "Cue 1 Deck 2",
+      "groupe": "Platine 2",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d2-cue2",
+      "nom": "Cue 2 Deck 2",
+      "groupe": "Platine 2",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d2-cue3",
+      "nom": "Cue 3 Deck 2",
+      "groupe": "Platine 2",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d2-cue4",
+      "nom": "Cue 4 Deck 2",
+      "groupe": "Platine 2",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "map-pin"
+    },
+    {
+      "id": "d2-debut",
+      "nom": "Début Deck 2",
+      "groupe": "Platine 2",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "d2-recul",
+      "nom": "Reculer Deck 2",
+      "groupe": "Platine 2",
+      "win": "7",
+      "mac": "7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "d2-avance",
+      "nom": "Avancer Deck 2",
+      "groupe": "Platine 2",
+      "win": "8",
+      "mac": "8",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "d2-fx1",
+      "nom": "Effet 1 Deck 2",
+      "groupe": "Platine 2",
+      "win": "6",
+      "mac": "6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sparkles"
+    },
+    {
+      "id": "d2-autoloop",
+      "nom": "Autoloop Deck 2",
+      "groupe": "Platine 2",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "d2-boucle-in",
+      "nom": "Boucle in Deck 2",
+      "groupe": "Platine 2",
+      "win": "j",
+      "mac": "j",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-in"
+    },
+    {
+      "id": "d2-boucle-out",
+      "nom": "Boucle out Deck 2",
+      "groupe": "Platine 2",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out"
+    },
+    {
+      "id": "d2-accord",
+      "nom": "Accord Deck 2",
+      "groupe": "Platine 2",
+      "win": "shift+9",
+      "mac": "shift+9",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "music"
+    },
+    {
+      "id": "cut",
+      "nom": "Couper crossfader",
+      "groupe": "Mixeur",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "trans-g",
+      "nom": "Transition gauche",
+      "groupe": "Mixeur",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "trans-d",
+      "nom": "Transition droite",
+      "groupe": "Mixeur",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "vol-plus",
+      "nom": "Volume +",
+      "groupe": "Mixeur",
+      "win": "plus",
+      "mac": "equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "vol-moins",
+      "nom": "Volume -",
+      "groupe": "Mixeur",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "automix",
+      "nom": "Automix",
+      "groupe": "Mixeur",
+      "win": null,
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shuffle"
+    },
+    {
+      "id": "charger-d1",
+      "nom": "Charger Deck 1",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "charger-d2",
+      "nom": "Charger Deck 2",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "localiser",
+      "nom": "Localiser le titre",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "locate"
+    },
+    {
+      "id": "trouver",
+      "nom": "Rechercher",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "sample1",
+      "nom": "Échantillon 1",
+      "groupe": "Sampler",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "sample2",
+      "nom": "Échantillon 2",
+      "groupe": "Sampler",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "sample3",
+      "nom": "Échantillon 3",
+      "groupe": "Sampler",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "raccourcis",
+      "nom": "Liste raccourcis",
+      "groupe": "Général",
+      "win": null,
+      "mac": "shift+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    },
+    {
+      "id": "micro",
+      "nom": "Micro",
+      "groupe": "Général",
+      "win": null,
+      "mac": "shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mic"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrement",
+      "groupe": "Général",
+      "win": null,
+      "mac": "alt+cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dot"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Pitch bend (maintenu)",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Auto-cut (Windows)",
+      "raison": "touche maintenue"
+    }
+  ]
+}

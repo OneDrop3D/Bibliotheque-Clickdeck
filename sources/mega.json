@@ -1,0 +1,17 @@
+{
+  "id": "mega",
+  "nom": "MEGA Desktop",
+  "editeur": "MEGA",
+  "site": "https://mega.io/desktop",
+  "systemes": ["windows","mac"],
+  "lancement": { "windows": "MEGAsync", "mac": "MEGAsync" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation sans raccourci clavier documenté. Pages MEGA consultées : inaccessibles ; à recouper.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

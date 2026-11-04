@@ -1,0 +1,299 @@
+{
+ "id": "hyper",
+ "nom": "Hyper",
+ "editeur": "Vercel",
+ "site": "https://hyper.is",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "Hyper",
+  "mac": "Hyper",
+  "linux": "hyper"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Développement & terminal (desktop)",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis relevés dans les keymaps par défaut du dépôt Vercel (app/keymaps/darwin.json et win32.json ; Linux identique à Windows pour ces actions). Sur Mac, Cmd+W ferme le panneau ; Cmd+Maj+W ferme la fenêtre.",
+ "sources": [
+  {
+   "url": "https://github.com/vercel/hyper/blob/canary/app/keymaps/darwin.json",
+   "titre": "Hyper - keymap macOS"
+  },
+  {
+   "url": "https://github.com/vercel/hyper/blob/canary/app/keymaps/win32.json",
+   "titre": "Hyper - keymap Windows"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouvel-onglet",
+   "nom": "Nouvel onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+t",
+   "mac": "cmd+t",
+   "linux": "ctrl+shift+t",
+   "source": 0,
+   "priorite": 1,
+   "picto": "plus"
+  },
+  {
+   "id": "onglet-suivant",
+   "nom": "Onglet suivant",
+   "groupe": "Onglets",
+   "win": "ctrl+tab",
+   "mac": "ctrl+tab",
+   "linux": "ctrl+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-right"
+  },
+  {
+   "id": "onglet-precedent",
+   "nom": "Onglet précédent",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+tab",
+   "mac": "ctrl+shift+tab",
+   "linux": "ctrl+shift+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-left"
+  },
+  {
+   "id": "onglet-1",
+   "nom": "Onglet 1",
+   "groupe": "Onglets",
+   "win": "ctrl+1",
+   "mac": "cmd+1",
+   "linux": "ctrl+1",
+   "source": 0,
+   "priorite": 1,
+   "picto": "hash"
+  },
+  {
+   "id": "onglet-2",
+   "nom": "Onglet 2",
+   "groupe": "Onglets",
+   "win": "ctrl+2",
+   "mac": "cmd+2",
+   "linux": "ctrl+2",
+   "source": 0,
+   "priorite": 2,
+   "picto": "hash"
+  },
+  {
+   "id": "diviser-droite",
+   "nom": "Diviser à droite",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+d",
+   "mac": "cmd+d",
+   "linux": "ctrl+shift+d",
+   "source": 0,
+   "priorite": 1,
+   "picto": "columns-2"
+  },
+  {
+   "id": "diviser-bas",
+   "nom": "Diviser en bas",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+e",
+   "mac": "cmd+shift+d",
+   "linux": "ctrl+shift+e",
+   "source": 0,
+   "priorite": 1,
+   "picto": "rows-2"
+  },
+  {
+   "id": "fermer-panneau",
+   "nom": "Fermer panneau",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+w",
+   "mac": "cmd+w",
+   "linux": "ctrl+shift+w",
+   "source": 0,
+   "priorite": 1,
+   "picto": "x"
+  },
+  {
+   "id": "panneau-suivant",
+   "nom": "Panneau suivant",
+   "groupe": "Panneaux",
+   "win": "ctrl+pageup",
+   "mac": "cmd+bracketright",
+   "linux": "ctrl+pageup",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "panneau-precedent",
+   "nom": "Panneau précédent",
+   "groupe": "Panneaux",
+   "win": "ctrl+pagedown",
+   "mac": "cmd+bracketleft",
+   "linux": "ctrl+pagedown",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "f11",
+   "mac": "ctrl+cmd+f",
+   "linux": "f11",
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize-2"
+  },
+  {
+   "id": "agrandir-texte",
+   "nom": "Agrandir texte",
+   "groupe": "Affichage",
+   "win": "ctrl+equal",
+   "mac": "cmd+equal",
+   "linux": "ctrl+equal",
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "reduire-texte",
+   "nom": "Réduire texte",
+   "groupe": "Affichage",
+   "win": "ctrl+minus",
+   "mac": "cmd+minus",
+   "linux": "ctrl+minus",
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "taille-normale",
+   "nom": "Taille normale",
+   "groupe": "Affichage",
+   "win": "ctrl+0",
+   "mac": "cmd+0",
+   "linux": "ctrl+0",
+   "source": 0,
+   "priorite": 1,
+   "picto": "rotate-ccw"
+  },
+  {
+   "id": "nouvelle-fenetre",
+   "nom": "Nouvelle fenêtre",
+   "groupe": "Affichage",
+   "win": "ctrl+shift+n",
+   "mac": "cmd+n",
+   "linux": "ctrl+shift+n",
+   "source": 0,
+   "priorite": 1,
+   "picto": "app-window"
+  },
+  {
+   "id": "fermer-fenetre",
+   "nom": "Fermer fenêtre",
+   "groupe": "Affichage",
+   "win": "ctrl+shift+q",
+   "mac": "cmd+shift+w",
+   "linux": "ctrl+shift+q",
+   "source": 0,
+   "priorite": 1,
+   "picto": "circle-x"
+  },
+  {
+   "id": "recharger",
+   "nom": "Recharger",
+   "groupe": "Affichage",
+   "win": "ctrl+shift+r",
+   "mac": "cmd+shift+r",
+   "linux": "ctrl+shift+r",
+   "source": 0,
+   "priorite": 2,
+   "picto": "refresh-cw"
+  },
+  {
+   "id": "outils-dev",
+   "nom": "Outils dev",
+   "groupe": "Affichage",
+   "win": "ctrl+shift+i",
+   "mac": "cmd+alt+i",
+   "linux": "ctrl+shift+i",
+   "source": 0,
+   "priorite": 3,
+   "picto": "bug"
+  },
+  {
+   "id": "preferences",
+   "nom": "Préférences",
+   "groupe": "Affichage",
+   "win": "ctrl+comma",
+   "mac": "cmd+comma",
+   "linux": "ctrl+comma",
+   "source": 0,
+   "priorite": 1,
+   "picto": "settings"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+shift+c",
+   "mac": "cmd+c",
+   "linux": "ctrl+shift+c",
+   "source": 0,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+shift+v",
+   "mac": "cmd+v",
+   "linux": "ctrl+shift+v",
+   "source": 0,
+   "priorite": 1,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Édition",
+   "win": "ctrl+shift+f",
+   "mac": "cmd+f",
+   "linux": "ctrl+shift+f",
+   "source": 0,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "effacer",
+   "nom": "Effacer terminal",
+   "groupe": "Édition",
+   "win": "ctrl+shift+k",
+   "mac": "cmd+k",
+   "linux": "ctrl+shift+k",
+   "source": 0,
+   "priorite": 1,
+   "picto": "eraser"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+shift+a",
+   "mac": "cmd+a",
+   "linux": "ctrl+shift+a",
+   "source": 0,
+   "priorite": 2,
+   "picto": "text-select"
+  }
+ ],
+ "non_faisable": []
+}

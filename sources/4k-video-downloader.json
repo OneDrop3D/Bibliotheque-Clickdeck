@@ -1,0 +1,27 @@
+{
+  "id": "4k-video-downloader",
+  "nom": "4K Video Downloader",
+  "editeur": "4K Download",
+  "site": "https://www.4kdownload.com/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "4K Video Downloader", "mac": "4K Video Downloader", "linux": "4K Video Downloader" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la FAQ officielle 4K Download (tableau 4K Video Downloader Plus). Le téléchargement lui-même se lance en collant un lien, sans raccourci dédié. Le plein écran n'a pas de raccourci documenté sur Mac.",
+  "sources": [ { "url": "https://www.4kdownload.com/faq/faq-what-keyboard-shortcuts-can-i-use-in-4kdownload-apps", "titre": "What Keyboard Shortcuts Can I Use in 4K Download Apps?" } ],
+  "actions": [
+    { "id": "coller-lien", "nom": "Coller le lien", "groupe": "Téléchargement", "win": "ctrl+v", "mac": "cmd+v", "linux": "ctrl+v", "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "retirer", "nom": "Retirer l'élément", "groupe": "Téléchargement", "win": "delete", "mac": "backspace", "linux": "delete", "source": 0, "priorite": 2, "picto": "x" },
+    { "id": "supprimer-fichier", "nom": "Effacer le fichier", "groupe": "Téléchargement", "win": "shift+delete", "mac": "cmd+backspace", "linux": "shift+delete", "source": 0, "priorite": 3, "picto": "trash-2" },
+    { "id": "navigateur", "nom": "Navigateur", "groupe": "Téléchargement", "win": "ctrl+b", "mac": "cmd+b", "linux": "ctrl+b", "source": 0, "priorite": 2, "picto": "globe" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Interface", "win": "ctrl+f", "mac": "cmd+f", "linux": "ctrl+f", "source": 0, "priorite": 2, "picto": "search" },
+    { "id": "reglages", "nom": "Réglages", "groupe": "Interface", "win": null, "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 2, "picto": "settings" },
+    { "id": "fermer-app", "nom": "Fermer l'app", "groupe": "Interface", "win": "ctrl+w", "mac": "cmd+w", "linux": "ctrl+w", "source": 0, "priorite": 2, "picto": "power" },
+    { "id": "aide", "nom": "Aide", "groupe": "Interface", "win": "f1", "mac": "cmd+shift+slash", "linux": "f1", "source": 0, "priorite": 3, "picto": "circle-help" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Interface", "win": "f11", "mac": null, "linux": "ctrl+f11", "source": 0, "priorite": 3, "picto": "maximize" }
+  ],
+  "non_faisable": [ { "nom": "Choisir la qualité de téléchargement", "raison": "réglage sans raccourci" } ]
+}

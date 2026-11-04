@@ -1,0 +1,94 @@
+{
+  "id": "nvidia-shadowplay-geforce-experience",
+  "nom": "NVIDIA ShadowPlay",
+  "editeur": "NVIDIA",
+  "site": "https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "NVIDIA GeForce Experience",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "La page officielle NVIDIA consultée ne donne aucune liste de raccourcis. Les combinaisons viennent de guides tiers qui se recoupent partiellement (un guide cite Ctrl+Alt+S pour la sauvegarde, non retenu car isolé). Alt+Shift+F10 (activer la rediffusion) retiré car absent de la source. Vérifier dans l'application : Alt+Z, puis l'engrenage, puis Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://recorder.easeus.com/screen-recording-resource/nvidia-screen-recorder-hotkey.html",
+      "titre": "NVIDIA Screen Recorder Hotkey (EaseUS)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "overlay",
+      "nom": "Ouvrir l'overlay",
+      "groupe": "Overlay",
+      "win": "alt+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "demarrer-arreter",
+      "nom": "Démarrer/Arrêter",
+      "groupe": "Enregistrement",
+      "win": "alt+f9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Enregistrement",
+      "win": "alt+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "sauver-rediffusion",
+      "nom": "Sauver la rediffusion",
+      "groupe": "Rediffusion",
+      "win": "alt+f10",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "photo-scene",
+      "nom": "Photo de la scène",
+      "groupe": "Enregistrement",
+      "win": "alt+f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image"
+    },
+    {
+      "id": "diffusion",
+      "nom": "Démarrer diffusion",
+      "groupe": "Diffusion",
+      "win": "alt+f8",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "radio"
+    }
+  ],
+  "non_faisable": []
+}

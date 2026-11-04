@@ -1,0 +1,17 @@
+{
+  "id": "hyperx-ngenuity",
+  "nom": "HyperX NGENUITY",
+  "editeur": "HyperX",
+  "site": "https://www.hyperx.com/pages/ngenuity",
+  "systemes": ["windows"],
+  "lancement": { "windows": "NGENUITY", "mac": "NGENUITY" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle consultée : aucun raccourci clavier par défaut mentionné, seulement des macros et liaisons de touches à définir. Application Windows, non vérifiée sur Mac.",
+  "sources": [ { "url": "https://www.hyperx.com/pages/ngenuity", "titre": "HyperX NGENUITY" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Macros et liaisons de touches", "raison": "à définir par l'utilisateur dans l'application" } ]
+}

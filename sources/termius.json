@@ -1,0 +1,94 @@
+{
+  "id": "termius",
+  "nom": "Termius",
+  "editeur": "Termius",
+  "site": "https://termius.com",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Termius",
+    "mac": "Termius"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la documentation et des notes de version. Fractionnement, diffusion et fermeture d'onglet : sources contradictoires ou incomplètes, non proposés. Réglables dans Réglages > Raccourcis.",
+  "sources": [
+    {
+      "url": "https://docs.termius.com/llms-full.txt",
+      "titre": "Termius - documentation officielle"
+    },
+    {
+      "url": "https://docs.termius.com/llms-full.txt",
+      "titre": "Termius - notes de version (raccourcis)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "terminal-local",
+      "nom": "Terminal local",
+      "groupe": "Connexions",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "connexion-serie",
+      "nom": "Connexion série",
+      "groupe": "Connexions",
+      "win": "ctrl+alt+s",
+      "mac": "cmd+alt+s",
+      "linux": "ctrl+alt+s",
+      "source": 0,
+      "priorite": 2,
+      "picto": "cable"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "palette",
+      "nom": "Recherche",
+      "groupe": "Navigation",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "panneau",
+      "nom": "Panneau latéral",
+      "groupe": "Navigation",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-right"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Session SSH (nouvel hôte)",
+      "raison": "pas de raccourci par défaut documenté"
+    }
+  ]
+}

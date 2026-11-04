@@ -1,0 +1,17 @@
+{
+  "id": "playstation",
+  "nom": "PlayStation App Desktop",
+  "editeur": "Sony Interactive Entertainment",
+  "site": "https://www.playstation.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "PlayStation App", "mac": "PlayStation App" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté trouvé : la page d'aide officielle n'a pas pu être consultée (404), et la recherche n'a pas donné de source fiable. À revérifier avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

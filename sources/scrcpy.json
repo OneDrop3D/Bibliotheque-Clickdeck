@@ -1,0 +1,352 @@
+{
+  "id": "scrcpy",
+  "nom": "scrcpy",
+  "editeur": "Genymobile",
+  "site": "https://github.com/Genymobile/scrcpy",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "scrcpy",
+    "mac": "scrcpy"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Modificateur par défaut : Alt gauche ou touche Windows sous Windows/Linux, Cmd sous macOS. Les combinaisons Ctrl+touche sont transmises à l'appareil. Le modificateur se change au lancement avec --shortcut-mod. Sur macOS, Accueil (Cmd+h) et Menu (Cmd+m) ne sont pas proposés : combinaisons réservées au système. Sur Mac, le modificateur par défaut est la touche Super (Cmd), déduit de la documentation ('Alt ou Super').",
+  "sources": [
+    {
+      "url": "https://github.com/Genymobile/scrcpy/blob/master/doc/shortcuts.md",
+      "titre": "scrcpy - shortcuts.md (documentation officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "pixel-parfait",
+      "nom": "Pixel parfait 1:1",
+      "groupe": "Affichage",
+      "win": "alt+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan",
+      "deduit": true
+    },
+    {
+      "id": "bordures",
+      "nom": "Retirer bordures",
+      "groupe": "Affichage",
+      "win": "alt+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop",
+      "deduit": true
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation appareil",
+      "groupe": "Affichage",
+      "win": "alt+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw",
+      "deduit": true
+    },
+    {
+      "id": "pivoter-gauche",
+      "nom": "Pivoter à gauche",
+      "groupe": "Affichage",
+      "win": "alt+left",
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw",
+      "deduit": true
+    },
+    {
+      "id": "pivoter-droite",
+      "nom": "Pivoter à droite",
+      "groupe": "Affichage",
+      "win": "alt+right",
+      "mac": "cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw",
+      "deduit": true
+    },
+    {
+      "id": "pause-affichage",
+      "nom": "Pause affichage",
+      "groupe": "Affichage",
+      "win": "alt+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "reprise-affichage",
+      "nom": "Reprendre affichage",
+      "groupe": "Affichage",
+      "win": "alt+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "fps",
+      "nom": "Compteur FPS",
+      "groupe": "Affichage",
+      "win": "alt+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "gauge",
+      "deduit": true
+    },
+    {
+      "id": "accueil",
+      "nom": "Accueil",
+      "groupe": "Android",
+      "win": "alt+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Android",
+      "win": "alt+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left",
+      "deduit": true
+    },
+    {
+      "id": "multitache",
+      "nom": "Multitâche",
+      "groupe": "Android",
+      "win": "alt+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": true
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Android",
+      "win": "alt+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2",
+      "deduit": true
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume −",
+      "groupe": "Android",
+      "win": "alt+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1",
+      "deduit": true
+    },
+    {
+      "id": "ecran-off",
+      "nom": "Éteindre l'écran",
+      "groupe": "Android",
+      "win": "alt+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "monitor-off",
+      "deduit": true
+    },
+    {
+      "id": "ecran-on",
+      "nom": "Allumer l'écran",
+      "groupe": "Android",
+      "win": "alt+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "monitor",
+      "deduit": true
+    },
+    {
+      "id": "notifications",
+      "nom": "Notifications",
+      "groupe": "Android",
+      "win": "alt+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bell",
+      "deduit": true
+    },
+    {
+      "id": "fermer-panneaux",
+      "nom": "Fermer panneaux",
+      "groupe": "Android",
+      "win": "alt+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bell-off",
+      "deduit": true
+    },
+    {
+      "id": "power",
+      "nom": "Bouton Power",
+      "groupe": "Android",
+      "win": "alt+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power",
+      "deduit": true
+    },
+    {
+      "id": "menu",
+      "nom": "Menu",
+      "groupe": "Android",
+      "win": "alt+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "menu"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Presse-papiers",
+      "win": "alt+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Presse-papiers",
+      "win": "alt+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller-sync",
+      "nom": "Coller (sync)",
+      "groupe": "Presse-papiers",
+      "win": "alt+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "texte-pc",
+      "nom": "Texte du PC",
+      "groupe": "Presse-papiers",
+      "win": "alt+shift+v",
+      "mac": "cmd+shift+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-type",
+      "deduit": true
+    },
+    {
+      "id": "clavier",
+      "nom": "Clavier HID",
+      "groupe": "Système",
+      "win": "alt+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard",
+      "deduit": true
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter scrcpy",
+      "groupe": "Système",
+      "win": "alt+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Réglages rapides (Alt+N puis N)",
+      "raison": "séquence de plusieurs combinaisons"
+    },
+    {
+      "nom": "Clic droit = allumer l'appareil",
+      "raison": "souris"
+    },
+    {
+      "nom": "Boutons souris Accueil, Retour, Multitâche",
+      "raison": "souris"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "adobe-bridge",
+ "nom": "Adobe Bridge",
+ "editeur": "Adobe",
+ "site": "https://www.adobe.com/products/bridge.html",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "Bridge",
+  "mac": "Adobe Bridge"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Photo & gestion d'images",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Aucun raccourci spécifique à Bridge n'a pu être vérifié. La page officielle Adobe (helpx.adobe.com) a renvoyé HTTP 403 et la copie web.archive.org n'est pas accessible. Seules les commandes standard de menu ont été ajoutées, sans source (deduit). Le fichier est donc incomplet : notation, étiquettes, filtres et vues de Bridge sont à relever une fois la page officielle lisible. Revue : Plein écran et Imprimer retirés (non confirmés dans Bridge).",
+ "sources": [
+  {
+   "url": "https://helpx.adobe.com/bridge/using/adobe-bridge-keyboard-shortcuts.html",
+   "titre": "Adobe Bridge keyboard shortcuts (non lue : HTTP 403)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "ouvrir",
+   "nom": "Ouvrir",
+   "groupe": "Fichier",
+   "win": "ctrl+o",
+   "mac": "cmd+o",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "folder-open"
+  },
+  {
+   "id": "fermer",
+   "nom": "Fermer fenêtre",
+   "groupe": "Fichier",
+   "win": "ctrl+w",
+   "mac": "cmd+w",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "x"
+  },
+  {
+   "id": "annuler",
+   "nom": "Annuler",
+   "groupe": "Édition",
+   "win": "ctrl+z",
+   "mac": "cmd+z",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "retablir",
+   "nom": "Rétablir",
+   "groupe": "Édition",
+   "win": "ctrl+shift+z",
+   "mac": "shift+cmd+z",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "redo-2"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+c",
+   "mac": "cmd+c",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "copy"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+v",
+   "mac": "cmd+v",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+a",
+   "mac": "cmd+a",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "square-dashed"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Édition",
+   "win": "ctrl+f",
+   "mac": "cmd+f",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "search"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Taille des vignettes à la molette",
+   "raison": "molette"
+  }
+ ]
+}

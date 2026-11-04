@@ -1,0 +1,21 @@
+{
+  "id": "caesium",
+  "nom": "Caesium",
+  "editeur": "Saerasoft",
+  "site": "https://saerasoft.com/caesium",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Caesium", "mac": "Caesium", "linux": "Caesium" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle sans raccourci clavier documenté. Outil de ligne de commande disponible.",
+  "sources": [ { "url": "https://saerasoft.com/caesium", "titre": "Caesium - page officielle" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Compression d'images par lot", "raison": "sans raccourci clavier documenté" },
+    { "nom": "Options de métadonnées (EXIF, ICC)", "raison": "sans raccourci clavier documenté" },
+    { "nom": "Compression en ligne de commande", "raison": "ligne de commande, hors touches" }
+  ]
+}

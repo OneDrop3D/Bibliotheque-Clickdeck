@@ -1,0 +1,343 @@
+{
+  "id": "adobe-fresco",
+  "nom": "Adobe Fresco",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/fresco.html",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Fresco"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page officielle Adobe (helpx.adobe.com, fresco/using/keyboard-shortcuts) : HTTP 403 ou non lue ; seul un résumé de recherche a été obtenu, sans page ouverte directement : à vérifier. Application surtout iPad : la liste couvre la version Windows. Les équivalents Mac ne sont pas vérifiés et restent vides (null). Les commandes de menu (Ctrl+A, Ctrl+C, Ctrl+V) sont ajoutées en deduit. Contrôle : Publier & exporter et Accueil retirés (non confirmés) ; mac mis à null.",
+  "sources": [
+    {
+      "url": "https://helpx.adobe.com/fresco/using/keyboard-shortcuts.html",
+      "titre": "Keyboard shortcuts in Adobe Fresco (Adobe, page 403 : résumé de recherche) - officielle"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pinceau-pixel",
+      "nom": "Pinceau pixel",
+      "groupe": "Outils",
+      "win": "p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "pinceau-live",
+      "nom": "Pinceau live",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "pinceau-vectoriel",
+      "nom": "Pinceau vectoriel",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pen-line"
+    },
+    {
+      "id": "dernier-pinceau",
+      "nom": "Dernier pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo"
+    },
+    {
+      "id": "gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "lasso",
+      "nom": "Lasso",
+      "groupe": "Outils",
+      "win": "l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lasso"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pipette"
+    },
+    {
+      "id": "remplissage",
+      "nom": "Remplissage",
+      "groupe": "Outils",
+      "win": "g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "transformation",
+      "nom": "Transformation",
+      "groupe": "Outils",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "rotation-toile",
+      "nom": "Rotation toile",
+      "groupe": "Affichage",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "retourner-h",
+      "nom": "Retourner horiz.",
+      "groupe": "Affichage",
+      "win": "shift+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "retourner-v",
+      "nom": "Retourner vert.",
+      "groupe": "Affichage",
+      "win": "shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-vertical"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "selecteur-couleur",
+      "nom": "Sélecteur couleur",
+      "groupe": "Affichage",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "palette"
+    },
+    {
+      "id": "nouveau-calque",
+      "nom": "Nouveau calque",
+      "groupe": "Calques",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "masquer-calque",
+      "nom": "Masquer calque",
+      "groupe": "Calques",
+      "win": "ctrl+comma",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "calque-precedent",
+      "nom": "Calque précédent",
+      "groupe": "Calques",
+      "win": "alt+bracketleft",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "calque-suivant",
+      "nom": "Calque suivant",
+      "groupe": "Calques",
+      "win": "alt+bracketright",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "export-rapide",
+      "nom": "Export rapide",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "share"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "desselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Édition",
+      "win": "ctrl+shift+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "list-checks"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "clipboard"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer la toile (Espace maintenu)",
+      "raison": "touche maintenue"
+    }
+  ]
+}

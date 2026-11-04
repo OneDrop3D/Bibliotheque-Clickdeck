@@ -1,0 +1,17 @@
+{
+  "id": "xsplit-vcam",
+  "nom": "XSplit VCam",
+  "editeur": "XSplit",
+  "site": "https://www.xsplit.com/vcam",
+  "systemes": ["windows"],
+  "lancement": { "windows": "XSplit VCam" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application de fond virtuel pour webcam, sans raccourcis documentés trouvés. La version Mac n'est pas vérifiée (systemes limité à Windows).",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

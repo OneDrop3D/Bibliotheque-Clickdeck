@@ -1,0 +1,17 @@
+{
+  "id": "shureplus-motiv",
+  "nom": "ShurePlus MOTIV",
+  "editeur": "Shure",
+  "site": "https://www.shure.com/en-US/support/downloads/shureplus-motiv",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "ShurePlus MOTIV", "mac": "ShurePlus MOTIV" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle non accessible au moment de la lecture (HTTP 404) et recherche web indisponible : aucun raccourci vérifié. Application de réglage de micro à utiliser à la souris ; à revérifier.",
+  "sources": [ { "url": "https://www.shure.com/en-US/support/downloads/shureplus-motiv", "titre": "ShurePlus MOTIV - page officielle (inaccessible, 404)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages du micro", "raison": "réglage sans raccourci" } ]
+}

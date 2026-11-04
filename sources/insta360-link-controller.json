@@ -1,0 +1,17 @@
+{
+  "id": "insta360-link-controller",
+  "nom": "Insta360 Link Controller",
+  "editeur": "Insta360",
+  "site": "https://www.insta360.com/support/link",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Insta360 Link Controller", "mac": "Insta360 Link Controller" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle non lue : accès refusé (403), copie d'archive inaccessible. Aucun raccourci vérifié ; aucune action proposée. À reprendre quand la page est accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages de la webcam", "raison": "sans raccourci vérifié" } ]
+}

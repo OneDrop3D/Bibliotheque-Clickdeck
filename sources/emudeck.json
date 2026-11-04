@@ -1,0 +1,19 @@
+{
+  "id": "emudeck",
+  "nom": "EmuDeck",
+  "editeur": "EmuDeck",
+  "site": "https://www.emudeck.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "EmuDeck" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Pack d'installation d'émulateurs, pas une fenêtre de raccourcis. Les touches documentées passent par les profils Steam Input à la manette ; aucun raccourci clavier n'a été relevé. Page consultée : emudeck.github.io (sections hotkeys, sans contenu exploitable).",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Raccourcis des émulateurs", "raison": "gérés par manette via Steam Input" }
+  ]
+}

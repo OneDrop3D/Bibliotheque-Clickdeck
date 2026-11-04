@@ -1,0 +1,193 @@
+{
+  "id": "mgba",
+  "nom": "mGBA",
+  "editeur": "Projet mGBA (open source)",
+  "site": "https://mgba.io",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "mGBA",
+    "mac": "mGBA"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel (src/platform/qt/Window.cpp). Qt traduit Ctrl en Cmd sur Mac (Plein écran : Alt+Entrée sous Windows, Ctrl+F ailleurs, donc Cmd+F sur Mac ; Masquer le menu absent sur Mac). Avance rapide maintenue (Tab) et image précédente non repris.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/mgba-emu/mgba/master/src/platform/qt/Window.cpp",
+      "titre": "mGBA - src/platform/qt/Window.cpp (raccourcis par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Lecture",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "accel-bascule",
+      "nom": "Accél. (bascule)",
+      "groupe": "Lecture",
+      "win": "shift+tab",
+      "mac": "shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward",
+      "deduit": true
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "step-forward",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+enter",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "masquer-menu",
+      "nom": "Masquer le menu",
+      "groupe": "Affichage",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-top"
+    },
+    {
+      "id": "charger-etat",
+      "nom": "Charger l'état",
+      "groupe": "États",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload",
+      "deduit": true
+    },
+    {
+      "id": "sauver-etat",
+      "nom": "Sauvegarder l'état",
+      "groupe": "États",
+      "win": "shift+f10",
+      "mac": "shift+f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "annuler-chargement",
+      "nom": "Annuler chargement",
+      "groupe": "États",
+      "win": "f11",
+      "mac": "f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "annuler-sauvegarde",
+      "nom": "Annuler sauvegarde",
+      "groupe": "États",
+      "win": "shift+f11",
+      "mac": "shift+f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "undo",
+      "deduit": true
+    },
+    {
+      "id": "charger-slot-1",
+      "nom": "Charger slot 1",
+      "groupe": "États",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download",
+      "deduit": true
+    },
+    {
+      "id": "sauver-slot-1",
+      "nom": "Sauver slot 1",
+      "groupe": "États",
+      "win": "shift+f1",
+      "mac": "shift+f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Capture",
+      "win": "f12",
+      "mac": "f12",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "reinitialiser",
+      "nom": "Réinitialiser",
+      "groupe": "Système",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Avance rapide (maintenue)",
+      "raison": "touche maintenue (Tab)"
+    },
+    {
+      "nom": "Rembobinage",
+      "raison": "touche maintenue ou combinaison incertaine"
+    }
+  ]
+}

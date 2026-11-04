@@ -1,0 +1,289 @@
+{
+  "id": "mobaxterm",
+  "nom": "MobaXterm",
+  "editeur": "Mobatek",
+  "site": "https://mobaxterm.mobatek.net",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "MobaXterm"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Windows uniquement. Les raccourcis de la liste « Configurable shortcuts » sont les valeurs par défaut et peuvent être modifiés.",
+  "sources": [
+    {
+      "url": "https://mobaxterm.mobatek.net/documentation.html",
+      "titre": "MobaXterm - Documentation"
+    }
+  ],
+  "actions": [
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": "ctrl+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+tab",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+alt+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "dupliquer-onglet",
+      "nom": "Dupliquer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "detacher-onglet",
+      "nom": "Détacher l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "external-link"
+    },
+    {
+      "id": "nouveau-terminal",
+      "nom": "Nouveau terminal",
+      "groupe": "Terminal",
+      "win": "ctrl+alt+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-terminal"
+    },
+    {
+      "id": "rechercher-terminal",
+      "nom": "Rechercher",
+      "groupe": "Terminal",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Terminal",
+      "win": "ctrl+shift+f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "coller-terminal",
+      "nom": "Coller",
+      "groupe": "Terminal",
+      "win": "shift+insert",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "enregistrer-sortie",
+      "nom": "Enregistrer la sortie",
+      "groupe": "Terminal",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer-sortie",
+      "nom": "Imprimer la sortie",
+      "groupe": "Terminal",
+      "win": "ctrl+shift+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "defiler-haut",
+      "nom": "Défiler vers le haut",
+      "groupe": "Terminal",
+      "win": "shift+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "defiler-bas",
+      "nom": "Défiler vers le bas",
+      "groupe": "Terminal",
+      "win": "shift+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "debut-sortie",
+      "nom": "Début de la sortie",
+      "groupe": "Terminal",
+      "win": "shift+home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "fin-sortie",
+      "nom": "Fin de la sortie",
+      "groupe": "Terminal",
+      "win": "shift+end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "nouvelle-session",
+      "nom": "Nouvelle session",
+      "groupe": "Sessions",
+      "win": "ctrl+shift+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "connexion-rapide",
+      "nom": "Connexion rapide",
+      "groupe": "Sessions",
+      "win": "ctrl+shift+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Sessions",
+      "win": "ctrl+shift+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left"
+    },
+    {
+      "id": "un-terminal",
+      "nom": "Un terminal",
+      "groupe": "Disposition",
+      "win": "ctrl+alt+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square"
+    },
+    {
+      "id": "division-verticale",
+      "nom": "Division verticale",
+      "groupe": "Disposition",
+      "win": "ctrl+alt+2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "columns-2"
+    },
+    {
+      "id": "division-horizontale",
+      "nom": "Diviser horizontal",
+      "groupe": "Disposition",
+      "win": "ctrl+alt+3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rows-2"
+    },
+    {
+      "id": "quatre-terminaux",
+      "nom": "4 terminaux",
+      "groupe": "Disposition",
+      "win": "ctrl+alt+4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Disposition",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Défilement à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Lancer une macro",
+      "raison": "pas de raccourci documenté (ligne de commande uniquement)"
+    }
+  ]
+}

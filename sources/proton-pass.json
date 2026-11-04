@@ -1,0 +1,19 @@
+{
+  "id": "proton-pass",
+  "nom": "Proton Pass",
+  "editeur": "Proton",
+  "site": "https://proton.me/pass",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Proton Pass", "mac": "Proton Pass" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté pour l'application de bureau n'a été trouvé. Les demandes d'utilisateurs (forum UserVoice de Proton) indiquent l'absence de raccourci d'auto-remplissage. La page d'aide consultée (proton.me/support/pass-desktop-app) renvoyait 404. Les actions ci-dessous sont vides ; à recouper avec la documentation officielle à jour.",
+  "sources": [
+    { "url": "https://protonmail.uservoice.com/forums/953584-proton-pass/suggestions/49621652-accessibility-request-improve-keyboard-navigation", "titre": "Demande d'accessibilité : raccourcis clavier (forum Proton)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

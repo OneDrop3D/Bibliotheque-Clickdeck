@@ -1,0 +1,17 @@
+{
+  "id": "ubisoft-connect",
+  "nom": "Ubisoft Connect",
+  "editeur": "Ubisoft",
+  "site": "https://connect.ubisoft.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Ubisoft Connect" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci global par défaut vérifié dans une source. La page d'aide d'Ubisoft consultée redirige vers l'accueil de l'aide sans liste de raccourcis. À recontrôler.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Lancer un jeu", "raison": "réglage sans raccourci" } ]
+}

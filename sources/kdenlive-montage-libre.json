@@ -1,0 +1,282 @@
+{
+  "id": "kdenlive-montage-libre",
+  "nom": "Kdenlive",
+  "editeur": "KDE",
+  "site": "https://kdenlive.org/",
+  "systemes": [
+    "windows",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "kdenlive",
+    "linux": "kdenlive"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la documentation officielle (Windows et Linux). Les équivalents Mac ne sont pas documentés et sont laissés vides. Menu standard (annuler, copier, coller, enregistrer, ouvrir, nouveau) ajouté sans source (deduit).",
+  "sources": [
+    {
+      "url": "https://docs.kdenlive.org/en/user_interface/shortcuts.html",
+      "titre": "Kdenlive - Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": null,
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": null,
+      "linux": "right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": null,
+      "linux": "left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "entree",
+      "nom": "Point d'entrée",
+      "groupe": "Lecture",
+      "win": "i",
+      "mac": null,
+      "linux": "i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-in"
+    },
+    {
+      "id": "sortie",
+      "nom": "Point de sortie",
+      "groupe": "Lecture",
+      "win": "o",
+      "mac": null,
+      "linux": "o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "log-out"
+    },
+    {
+      "id": "couper-curseur",
+      "nom": "Couper au curseur",
+      "groupe": "Montage",
+      "win": "shift+r",
+      "mac": null,
+      "linux": "shift+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "rasoir",
+      "nom": "Outil rasoir",
+      "groupe": "Montage",
+      "win": "x",
+      "mac": null,
+      "linux": "x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "slice"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Montage",
+      "win": "delete",
+      "mac": null,
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "marqueur",
+      "nom": "Repère (guide)",
+      "groupe": "Montage",
+      "win": "g",
+      "mac": null,
+      "linux": "g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Montage",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": "ctrl+g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Montage",
+      "win": "ctrl+shift+g",
+      "mac": null,
+      "linux": "ctrl+shift+g",
+      "source": 0,
+      "priorite": 1,
+      "picto": "ungroup"
+    },
+    {
+      "id": "extraire",
+      "nom": "Extraire la zone",
+      "groupe": "Montage",
+      "win": "shift+x",
+      "mac": null,
+      "linux": "shift+x",
+      "source": 0,
+      "priorite": 2,
+      "picto": "separator-horizontal"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": null,
+      "linux": "ctrl+shift+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "rendu",
+      "nom": "Rendu vidéo",
+      "groupe": "Export",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clapperboard"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": null,
+      "linux": "ctrl+equal",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": "ctrl+minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

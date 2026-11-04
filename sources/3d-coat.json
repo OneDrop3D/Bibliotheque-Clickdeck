@@ -1,0 +1,517 @@
+{
+  "id": "3d-coat",
+  "nom": "3D-Coat",
+  "editeur": "Pilgway",
+  "site": "https://3dcoat.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "3D-Coat",
+    "mac": "3D-Coat"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page officielle des raccourcis (manuel 3D-Coat), version Windows. La page ne donne pas de variante Mac pour les combinaisons avec Ctrl : le champ mac est laissé vide pour elles. Les touches sans modificateur sont reprises sur Mac (deduit).",
+  "sources": [
+    {
+      "url": "https://3dcoat.com/documentation/manual/hotkeys/",
+      "titre": "3D-Coat - Hotkeys (manuel officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-scene",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+alt+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "importer-modele",
+      "nom": "Importer modèle",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "outils-rapides",
+      "nom": "Panneau d'outils",
+      "groupe": "Outils",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": true
+    },
+    {
+      "id": "couleur",
+      "nom": "Sélecteur couleur",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette",
+      "deduit": true
+    },
+    {
+      "id": "liste-calques",
+      "nom": "Liste des calques",
+      "groupe": "Calques",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers",
+      "deduit": true
+    },
+    {
+      "id": "ajouter-calque",
+      "nom": "Ajouter calque",
+      "groupe": "Calques",
+      "win": "ctrl+shift+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers-plus"
+    },
+    {
+      "id": "dupliquer-calque",
+      "nom": "Dupliquer calque",
+      "groupe": "Calques",
+      "win": "ctrl+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "fusion-calque",
+      "nom": "Fusionner vers bas",
+      "groupe": "Calques",
+      "win": "ctrl+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "merge"
+    },
+    {
+      "id": "degeler-tout",
+      "nom": "Tout dégeler",
+      "groupe": "Gel",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "snowflake"
+    },
+    {
+      "id": "inverser-gel",
+      "nom": "Inverser le gel",
+      "groupe": "Gel",
+      "win": "ctrl+shift+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "symetrie",
+      "nom": "Symétrie",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flip-horizontal",
+      "deduit": true
+    },
+    {
+      "id": "rayon-moins",
+      "nom": "Rayon -",
+      "groupe": "Réglages",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus",
+      "deduit": true
+    },
+    {
+      "id": "rayon-plus",
+      "nom": "Rayon +",
+      "groupe": "Réglages",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": true
+    },
+    {
+      "id": "vue-ortho",
+      "nom": "Persp. / ortho",
+      "groupe": "Vues",
+      "win": "num5",
+      "mac": "num5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box",
+      "deduit": true
+    },
+    {
+      "id": "vue-face",
+      "nom": "Vue de face",
+      "groupe": "Vues",
+      "win": "num2",
+      "mac": "num2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Vues",
+      "win": "num7",
+      "mac": "num7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "vue-gauche",
+      "nom": "Vue de gauche",
+      "groupe": "Vues",
+      "win": "num4",
+      "mac": "num4",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "vue-droite",
+      "nom": "Vue de droite",
+      "groupe": "Vues",
+      "win": "num6",
+      "mac": "num6",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "vue-fil",
+      "nom": "Fil de fer",
+      "groupe": "Vues",
+      "win": "4",
+      "mac": "4",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3",
+      "deduit": true
+    },
+    {
+      "id": "vue-ombre",
+      "nom": "Modèle ombré",
+      "groupe": "Vues",
+      "win": "5",
+      "mac": "5",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "box",
+      "deduit": true
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette couleur",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pipette",
+      "deduit": true
+    },
+    {
+      "id": "echanger-couleurs",
+      "nom": "Échanger couleurs",
+      "groupe": "Outils",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-right",
+      "deduit": true
+    },
+    {
+      "id": "pivot",
+      "nom": "Point de pivot",
+      "groupe": "Outils",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair",
+      "deduit": true
+    },
+    {
+      "id": "canal-profondeur",
+      "nom": "Canal profondeur",
+      "groupe": "Outils",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mountain",
+      "deduit": true
+    },
+    {
+      "id": "canal-couleur",
+      "nom": "Canal couleur",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette",
+      "deduit": true
+    },
+    {
+      "id": "liste-pinceaux",
+      "nom": "Liste des pinceaux",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush",
+      "deduit": true
+    },
+    {
+      "id": "liste-materiaux",
+      "nom": "Liste matériaux",
+      "groupe": "Outils",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle",
+      "deduit": true
+    },
+    {
+      "id": "types-dessin",
+      "nom": "Types de dessin",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil",
+      "deduit": true
+    },
+    {
+      "id": "vue-dessous",
+      "nom": "Vue de dessous",
+      "groupe": "Vues",
+      "win": "num1",
+      "mac": "num1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "vue-arriere",
+      "nom": "Vue arrière",
+      "groupe": "Vues",
+      "win": "num8",
+      "mac": "num8",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "fusion-visibles",
+      "nom": "Fusionner visibles",
+      "groupe": "Calques",
+      "win": "ctrl+shift+e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "merge"
+    },
+    {
+      "id": "enreg-incr",
+      "nom": "Enreg. incrémental",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "save"
+    },
+    {
+      "id": "afficher-gel",
+      "nom": "Voir/masquer gel",
+      "groupe": "Gel",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye"
+    },
+    {
+      "id": "bascule-gel",
+      "nom": "Basculer vue gel",
+      "groupe": "Gel",
+      "win": "alt+f",
+      "mac": "alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "snowflake",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Taille du pinceau au glisser",
+      "raison": "souris"
+    },
+    {
+      "nom": "Pinceau : rayon et profondeur à la souris",
+      "raison": "souris"
+    },
+    {
+      "nom": "Lissage avec molette",
+      "raison": "molette"
+    }
+  ]
+}

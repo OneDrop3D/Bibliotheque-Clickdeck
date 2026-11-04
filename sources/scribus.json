@@ -1,0 +1,542 @@
+{
+  "id": "scribus",
+  "nom": "Scribus",
+  "editeur": "Projet Scribus",
+  "site": "https://www.scribus.net",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Scribus",
+    "mac": "Scribus"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Une seule source ouverte : defkey.com (site tiers, date non indiquée, à recouper). La page officielle du manuel (fossies.org) et le wiki Scribus n'ont pas pu être lus (401 et accès refusé). Les raccourcis Ctrl sont donnés pour Windows ; le site indique d'utiliser Cmd à la place de Ctrl sur Mac, d'où les champs Mac marqués déduits. Les raccourcis Mac sont à vérifier sur une version macOS. Préférences > Raccourcis clavier permet de les modifier. Ctrl+I sert à importer du texte dans un cadre texte et une image dans un cadre image (contextes différents). Page defkey relue : touches confirmées, s'appuie sur le wiki Scribus.",
+  "sources": [
+    {
+      "url": "https://defkey.com/scribus-shortcuts",
+      "titre": "defkey - Scribus shortcuts (site tiers)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "shift+cmd+s",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "apercu-impression",
+      "nom": "Aperçu impression",
+      "groupe": "Fichier",
+      "win": "ctrl+alt+p",
+      "mac": "alt+cmd+p",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-search"
+    },
+    {
+      "id": "exporter-image",
+      "nom": "Exporter image",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+e",
+      "mac": "shift+cmd+e",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-output"
+    },
+    {
+      "id": "fermer-document",
+      "nom": "Fermer document",
+      "groupe": "Fichier",
+      "win": "ctrl+f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Tout désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": "shift+cmd+a",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Objet",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Objet",
+      "win": "ctrl+shift+g",
+      "mac": "shift+cmd+g",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "ungroup"
+    },
+    {
+      "id": "monter-objet",
+      "nom": "Monter objet",
+      "groupe": "Objet",
+      "win": "ctrl+home",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "descendre-objet",
+      "nom": "Descendre objet",
+      "groupe": "Objet",
+      "win": "ctrl+end",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Objet",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "lock"
+    },
+    {
+      "id": "inserer-texte",
+      "nom": "Insérer texte",
+      "groupe": "Texte",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "editer-texte",
+      "nom": "Éditer texte",
+      "groupe": "Texte",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Texte",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "orthographe",
+      "nom": "Orthographe",
+      "groupe": "Texte",
+      "win": "shift+f7",
+      "mac": "shift+f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "spell-check"
+    },
+    {
+      "id": "importer-texte",
+      "nom": "Importer texte",
+      "groupe": "Texte",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-input"
+    },
+    {
+      "id": "inserer-image",
+      "nom": "Insérer image",
+      "groupe": "Image",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "importer-image",
+      "nom": "Importer image",
+      "groupe": "Image",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image-up"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Image",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pipette"
+    },
+    {
+      "id": "forme",
+      "nom": "Forme",
+      "groupe": "Formes",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Formes",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "polygone",
+      "nom": "Polygone",
+      "groupe": "Formes",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "hexagon"
+    },
+    {
+      "id": "bezier",
+      "nom": "Bézier",
+      "groupe": "Formes",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "spline"
+    },
+    {
+      "id": "tableau",
+      "nom": "Tableau",
+      "groupe": "Formes",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "table"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "ajuster-page",
+      "nom": "Ajuster page",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "afficher-regles",
+      "nom": "Afficher règles",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+r",
+      "mac": "shift+cmd+r",
+      "deduit": true,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ruler"
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Affichage",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Affichage",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer à la souris",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Contrainte 15° en tournant",
+      "raison": "Ctrl maintenu pendant un glisser"
+    }
+  ]
+}

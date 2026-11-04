@@ -1,0 +1,17 @@
+{
+  "id": "izotope-ozone",
+  "nom": "iZotope Ozone",
+  "editeur": "iZotope",
+  "site": "https://www.izotope.com/en/products/ozone.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "iZotope Ozone", "mac": "iZotope Ozone" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Non vérifié : aucune liste de raccourcis Ozone n'a pu être lue. Dans Ozone, les raccourcis dépendent du réglage Options > Keyboard Support (Full, Minimal, None) ; à passer sur Full pour les raccourcis complets. Aucune action relevée à ce stade.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

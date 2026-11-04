@@ -1,0 +1,35 @@
+{
+  "id": "pcsx2",
+  "nom": "PCSX2",
+  "editeur": "PCSX2 Team",
+  "site": "https://pcsx2.net/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "PCSX2", "mac": "PCSX2" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut lus dans le code source (SetDefaultHotkeyConfig). Le code n'a pas de variante Mac ; touches sans Ctrl uniquement (Alt = Option, F1 à F10 peuvent exiger fn sur Mac). Les raccourcis à Ctrl (muet, zoom) sont écartés car leur équivalent Mac n'est pas confirmé.",
+  "sources": [
+    { "url": "https://github.com/PCSX2/pcsx2/blob/master/pcsx2/SIO/Pad/Pad.cpp", "titre": "Code source PCSX2 : raccourcis par défaut" }
+  ],
+  "actions": [
+    { "id": "pause", "nom": "Pause / reprise", "groupe": "Émulation", "win": "space", "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "pause", "deduit": true },
+    { "id": "menu-pause", "nom": "Menu pause", "groupe": "Émulation", "win": "escape", "mac": "escape", "linux": null, "source": 0, "priorite": 1, "picto": "menu", "deduit": true },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Émulation", "win": "alt+enter", "mac": "alt+enter", "linux": null, "source": 0, "priorite": 1, "picto": "maximize", "deduit": true },
+    { "id": "turbo", "nom": "Turbo on/off", "groupe": "Vitesse", "win": "tab", "mac": "tab", "linux": null, "source": 0, "priorite": 1, "picto": "fast-forward", "deduit": true },
+    { "id": "limiteur", "nom": "Limiteur d'images", "groupe": "Vitesse", "win": "f4", "mac": "f4", "linux": null, "source": 0, "priorite": 2, "picto": "gauge", "deduit": true },
+    { "id": "sauver-etat", "nom": "Sauver l'état", "groupe": "États", "win": "f1", "mac": "f1", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "emplacement-suivant", "nom": "Emplacement suiv.", "groupe": "États", "win": "f2", "mac": "f2", "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right", "deduit": true },
+    { "id": "emplacement-precedent", "nom": "Emplacement préc.", "groupe": "États", "win": "shift+f2", "mac": "shift+f2", "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left", "deduit": true },
+    { "id": "charger-etat", "nom": "Charger l'état", "groupe": "États", "win": "f3", "mac": "f3", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "capture-ecran", "nom": "Capture d'écran", "groupe": "Vidéo", "win": "f8", "mac": "f8", "linux": null, "source": 0, "priorite": 1, "picto": "camera", "deduit": true },
+    { "id": "format-image", "nom": "Format d'image", "groupe": "Vidéo", "win": "f6", "mac": "f6", "linux": null, "source": 0, "priorite": 2, "picto": "ratio", "deduit": true },
+    { "id": "entrelacement", "nom": "Désentrelacement", "groupe": "Vidéo", "win": "f5", "mac": "f5", "linux": null, "source": 0, "priorite": 3, "picto": "layers", "deduit": true },
+    { "id": "rendu-logiciel", "nom": "Rendu logiciel", "groupe": "Vidéo", "win": "f9", "mac": "f9", "linux": null, "source": 0, "priorite": 3, "picto": "cpu", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Turbo maintenu (point)", "raison": "touche maintenue" }
+  ]
+}

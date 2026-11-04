@@ -1,0 +1,19 @@
+{
+  "id": "touch-portal",
+  "nom": "Touch Portal",
+  "editeur": "Reignite",
+  "site": "https://www.touchportal.app/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Touch Portal", "mac": "Touch Portal" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application de macropad sur téléphone : les boutons sont créés dans l'application mobile et déclenchent des actions sur le PC. Aucun raccourci clavier par défaut n'a pu être vérifié (le domaine de documentation consulté était introuvable). Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Boutons de l'écran tactile du téléphone", "raison": "réglage sans raccourci" }
+  ]
+}

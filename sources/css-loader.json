@@ -1,0 +1,21 @@
+{
+  "id": "css-loader",
+  "nom": "CSS Loader",
+  "editeur": "DeckThemes",
+  "site": "https://github.com/DeckThemes/SDH-CssLoader",
+  "systemes": ["linux"],
+  "lancement": { "linux": "CSS Loader" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Chargeur de thèmes CSS pour l'interface Steam Deck, géré depuis le menu Steam de la console. Aucun raccourci clavier documenté. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://github.com/DeckThemes/SDH-CssLoader", "titre": "SDH-CssLoader - README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Activer ou changer un thème", "raison": "réglage dans le menu de la console, pas de raccourci clavier" }
+  ]
+}

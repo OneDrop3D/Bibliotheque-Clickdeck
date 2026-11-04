@@ -1,0 +1,152 @@
+{
+  "id": "insomnia",
+  "nom": "Insomnia",
+  "editeur": "Kong",
+  "site": "https://insomnia.rest/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Insomnia",
+    "mac": "Insomnia",
+    "linux": "Insomnia"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Kong (colonne Windows reprise pour Linux). Enregistrer retiré : non listé par la doc (Insomnia enregistre automatiquement). Renommage et plein écran absents de la doc.",
+  "sources": [
+    {
+      "url": "https://developer.konghq.com/insomnia/keyboard-shortcuts/",
+      "titre": "Keyboard shortcuts for Insomnia (Kong)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "envoyer-requete",
+      "nom": "Envoyer la requête",
+      "groupe": "Requêtes",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "send"
+    },
+    {
+      "id": "nouvelle-requete",
+      "nom": "Nouvelle requête",
+      "groupe": "Requêtes",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Requêtes",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": "ctrl+shift+n",
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "dupliquer-requete",
+      "nom": "Dupliquer",
+      "groupe": "Requêtes",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "supprimer-requete",
+      "nom": "Supprimer",
+      "groupe": "Requêtes",
+      "win": "ctrl+shift+backspace",
+      "mac": "cmd+shift+backspace",
+      "linux": "ctrl+shift+backspace",
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "editeur-environnement",
+      "nom": "Éditeur d'environ.",
+      "groupe": "Environnements",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "changer-environnement",
+      "nom": "Changer d'env.",
+      "groupe": "Environnements",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": "ctrl+shift+e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "recherche-rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "filtrer-barre",
+      "nom": "Filtrer la barre",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": "ctrl+shift+f",
+      "source": 0,
+      "priorite": 3,
+      "picto": "list-filter"
+    },
+    {
+      "id": "barre-laterale",
+      "nom": "Barre latérale",
+      "groupe": "Navigation",
+      "win": "ctrl+backslash",
+      "mac": "cmd+backslash",
+      "linux": "ctrl+backslash",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Navigation",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    }
+  ],
+  "non_faisable": []
+}

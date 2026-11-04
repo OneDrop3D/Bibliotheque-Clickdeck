@@ -1,0 +1,17 @@
+{
+  "id": "myasus",
+  "nom": "MyASUS",
+  "editeur": "ASUS",
+  "site": "https://www.asus.com/support/faq/1046547/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "MyASUS" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire ASUS pour portables. La page ASUS consultée ne décrit aucun raccourci MyASUS. Aucun raccourci proposé : utilitaire sans raccourci global vérifié.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

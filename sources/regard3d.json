@@ -1,0 +1,19 @@
+{
+  "id": "regard3d",
+  "nom": "Regard3D",
+  "editeur": "Regard3D",
+  "site": "https://regard3d.org",
+  "systemes": [],
+  "lancement": { "windows": "Regard3D", "mac": "Regard3D", "linux": "Regard3D" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci relevé. La page regard3d.org consultée ne contient aucun raccourci (seulement des liens vers une documentation). Les URL de documentation et du dépôt testées renvoient 404. Aucune source joignable : fiche à compléter avant publication.",
+  "sources": [
+    { "url": "https://regard3d.org", "titre": "Regard3D - page d'accueil (consultée, sans raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

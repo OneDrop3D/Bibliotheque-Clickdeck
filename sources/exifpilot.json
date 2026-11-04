@@ -1,0 +1,22 @@
+{
+  "id": "exifpilot",
+  "nom": "ExifPilot",
+  "editeur": "Two Pilots",
+  "site": "https://www.twopilots.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Exif Pilot" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Éditeur officiel (twopilots.com) inaccessible : le domaine est revendu. Aucune documentation de raccourcis clavier trouvée. Édition des métadonnées à la souris uniquement ; les sources divergent sur ce que propose la version gratuite (édition unitaire ou lecture seule). Pas de raccourcis utiles à relever.",
+  "sources": [
+    { "url": "https://www.ghacks.net/?p=136874", "titre": "gHacks - Exif Pilot Editor (tiers)" },
+    { "url": "https://alternativeto.net/software/exif-pilot/about/", "titre": "AlternativeTo - Exif Pilot (tiers)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Édition des métadonnées", "raison": "réglage à la souris, sans raccourci documenté" }
+  ]
+}

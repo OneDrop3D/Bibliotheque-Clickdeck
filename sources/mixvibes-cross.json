@@ -1,0 +1,28 @@
+{
+  "id": "mixvibes-cross",
+  "nom": "Mixvibes Cross",
+  "editeur": "Mixvibes",
+  "site": "https://www.mixvibes.com/cross/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Cross DJ",
+    "mac": "Cross DJ"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci vérifié : les pages officielles consultées (mixvibes.com, aide, produit Cross DJ) ne publient pas de liste de raccourcis clavier et la recherche web n'a pas pu être menée. Fichier à compléter avec la documentation de l'éditeur avant publication ; sans cela, l'application ne doit pas être proposée. Le nom de lancement est supposé « Cross DJ ».",
+  "sources": [
+    {
+      "url": "https://www.mixvibes.com/help",
+      "titre": "Aide officielle Mixvibes (aucune liste de raccourcis publiée)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

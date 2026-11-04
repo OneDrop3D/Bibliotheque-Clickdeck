@@ -1,0 +1,20 @@
+{
+  "id": "native-instruments-komplete-kontrol",
+  "nom": "Komplete Kontrol",
+  "editeur": "Native Instruments",
+  "site": "https://docs.native-instruments.com/pdf-guides/komplete_kontrol/KOMPLETE_KONTROL_S-Series_MK1_Manual_English_220119.pdf",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Komplete Kontrol", "mac": "Komplete Kontrol" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier vérifié. Le manuel officiel S-Series (section 'Feature Overview and Keyboard Shortcuts') n'a pas pu être lu : le PDF renvoyé était illisible. Un fil de la communauté indique que certaines fonctions sont codées en dur pour le contrôleur HUI et ne répondent pas au clavier. À reprendre avec le manuel de la version concernée.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Changer de page des contrôles assignables", "raison": "pas de raccourci confirmé" },
+    { "nom": "Naviguer avec l'encodeur du contrôleur", "raison": "matériel (encodeur ou molette)" }
+  ]
+}

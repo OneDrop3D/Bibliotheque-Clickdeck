@@ -1,0 +1,204 @@
+{
+  "id": "serato-studio",
+  "nom": "Serato Studio",
+  "editeur": "Serato",
+  "site": "https://serato.com/studio",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Serato Studio",
+    "mac": "Serato Studio"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste incomplète : seules les touches des pads (grille 4x4 : 1-4, Q-R, A-F, Z-V) ont été trouvées dans les notes officielles (annonce Serato Studio 1.7, 2022). Les pads d'instrument suivent une disposition piano (A, W, S, E, D). Toutes les touches sont dans Aide > Show Shortcut Keys de la version installée, à compléter.",
+  "sources": [
+    {
+      "url": "https://the-drop.serato.com/announcements/serato-studio-1-7/",
+      "titre": "Serato Studio 1.7 (Serato, 2022)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pad-batterie-1",
+      "nom": "Pad batterie 1",
+      "groupe": "Pads",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-2",
+      "nom": "Pad batterie 2",
+      "groupe": "Pads",
+      "win": "2",
+      "mac": "2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-3",
+      "nom": "Pad batterie 3",
+      "groupe": "Pads",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-4",
+      "nom": "Pad batterie 4",
+      "groupe": "Pads",
+      "win": "4",
+      "mac": "4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-5",
+      "nom": "Pad batterie 5",
+      "groupe": "Pads",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-6",
+      "nom": "Pad batterie 6",
+      "groupe": "Pads",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-7",
+      "nom": "Pad batterie 7",
+      "groupe": "Pads",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-8",
+      "nom": "Pad batterie 8",
+      "groupe": "Pads",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-9",
+      "nom": "Pad batterie 9",
+      "groupe": "Pads",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-10",
+      "nom": "Pad batterie 10",
+      "groupe": "Pads",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-11",
+      "nom": "Pad batterie 11",
+      "groupe": "Pads",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-12",
+      "nom": "Pad batterie 12",
+      "groupe": "Pads",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-13",
+      "nom": "Pad batterie 13",
+      "groupe": "Pads",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-14",
+      "nom": "Pad batterie 14",
+      "groupe": "Pads",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-15",
+      "nom": "Pad batterie 15",
+      "groupe": "Pads",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "pad-batterie-16",
+      "nom": "Pad batterie 16",
+      "groupe": "Pads",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    }
+  ]
+}

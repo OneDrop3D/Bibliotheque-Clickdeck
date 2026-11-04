@@ -1,0 +1,17 @@
+{
+  "id": "ledger-live",
+  "nom": "Ledger Live",
+  "editeur": "Ledger",
+  "site": "https://www.ledger.com/ledger-live",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Ledger Live", "mac": "Ledger Live" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier trouvé : la page officielle Ledger Live redirige vers la boutique Ledger sans contenu exploitable, et l'article de support sur les raccourcis Ledger Live n'a renvoyé aucun texte. Application de gestion de portefeuille matériel, à utiliser sans raccourcis ClickDeck. À reprendre si Ledger publie une liste lisible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Confirmer une transaction sur l'appareil", "raison": "action physique sur le Ledger" } ]
+}

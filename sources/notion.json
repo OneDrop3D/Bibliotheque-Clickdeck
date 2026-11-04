@@ -1,0 +1,45 @@
+{
+  "id": "notion",
+  "nom": "Notion",
+  "editeur": "Notion Labs",
+  "site": "https://www.notion.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Notion", "mac": "Notion" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus sur l'aide officielle Notion. Ctrl+K sert à la recherche rapide : le lien n'a donc pas de touche dédiée ici. La modifiabilité des raccourcis n'a pas été vérifiée.",
+  "sources": [
+    { "url": "https://www.notion.com/help/keyboard-shortcuts", "titre": "Keyboard shortcuts - Notion Help Center" }
+  ],
+  "actions": [
+    { "id": "recherche-rapide", "nom": "Recherche rapide", "groupe": "Navigation", "win": "ctrl+k", "mac": "cmd+k", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "chercher-page", "nom": "Chercher dans page", "groupe": "Navigation", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "file-search" },
+    { "id": "nouvelle-page", "nom": "Nouvelle page", "groupe": "Navigation", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "nouvel-onglet", "nom": "Nouvel onglet", "groupe": "Navigation", "win": "ctrl+t", "mac": "cmd+t", "linux": null, "source": 0, "priorite": 1, "picto": "plus" },
+    { "id": "nouvelle-fenetre", "nom": "Nouvelle fenêtre", "groupe": "Navigation", "win": "ctrl+shift+n", "mac": "shift+cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "app-window" },
+    { "id": "page-precedente", "nom": "Page précédente", "groupe": "Navigation", "win": "ctrl+bracketleft", "mac": "cmd+bracketleft", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-left" },
+    { "id": "page-suivante", "nom": "Page suivante", "groupe": "Navigation", "win": "ctrl+bracketright", "mac": "cmd+bracketright", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-right" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "shift+cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "scan", "deduit": true },
+    { "id": "dupliquer", "nom": "Dupliquer blocs", "groupe": "Édition", "win": "ctrl+d", "mac": "cmd+d", "linux": null, "source": 0, "priorite": 1, "picto": "copy-plus" },
+    { "id": "gras", "nom": "Gras", "groupe": "Mise en forme", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 1, "picto": "bold" },
+    { "id": "italique", "nom": "Italique", "groupe": "Mise en forme", "win": "ctrl+i", "mac": "cmd+i", "linux": null, "source": 0, "priorite": 1, "picto": "italic" },
+    { "id": "souligne", "nom": "Souligné", "groupe": "Mise en forme", "win": "ctrl+u", "mac": "cmd+u", "linux": null, "source": 0, "priorite": 1, "picto": "underline" },
+    { "id": "barre", "nom": "Barré", "groupe": "Mise en forme", "win": "ctrl+shift+s", "mac": "shift+cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "strikethrough" },
+    { "id": "commentaire", "nom": "Commentaire", "groupe": "Mise en forme", "win": "ctrl+shift+m", "mac": "shift+cmd+m", "linux": null, "source": 0, "priorite": 1, "picto": "message-square" },
+    { "id": "code-en-ligne", "nom": "Code en ligne", "groupe": "Mise en forme", "win": "ctrl+e", "mac": "cmd+e", "linux": null, "source": 0, "priorite": 2, "picto": "code" },
+    { "id": "mode-sombre", "nom": "Mode sombre", "groupe": "Navigation", "win": "ctrl+shift+l", "mac": "shift+cmd+l", "linux": null, "source": 0, "priorite": 2, "picto": "moon" },
+    { "id": "case-a-cocher", "nom": "Case à cocher", "groupe": "Édition", "win": "ctrl+enter", "mac": "cmd+enter", "linux": null, "source": 0, "priorite": 2, "picto": "square-check" }
+  ],
+  "non_faisable": [
+    { "nom": "Pleine largeur", "raison": "raccourci non documenté dans la source" },
+    { "nom": "Historique de page", "raison": "raccourci non documenté dans la source" }
+  ]
+}

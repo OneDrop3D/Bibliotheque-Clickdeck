@@ -1,0 +1,59 @@
+{
+  "id": "cakewalk-by-bandlab",
+  "nom": "Cakewalk by BandLab",
+  "editeur": "BandLab",
+  "site": "https://www.bandlab.com",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Cakewalk"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Liste partielle, tirée d'une seule source tierce (Tutorial Tactic, mise à jour le 27/10/2025), qui ne couvre que Windows : pas de raccourcis Mac. La page officielle d'aide BandLab renvoie 403 et le manuel PDF de Cakewalk Next est trop lourd pour être lu. Ctrl+N et Ctrl+O sont des commandes standard de menu, ajoutées sans source. À vérifier dans Aide > Raccourcis clavier. Espace (lecture/arrêt) ajouté sans source de la page, comme commande universelle de Cakewalk. F3 est le métronome d'enregistrement.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/blog/cakewalk-by-bandlab-shortcuts/",
+      "titre": "128 Cakewalk by BandLab Keyboard Shortcuts (Tutorial Tactic, MAJ 27/10/2025)"
+    }
+  ],
+  "actions": [
+    {"id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "file-plus", "deduit": true},
+    {"id": "ouvrir-projet", "nom": "Ouvrir projet", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true},
+    {"id": "enregistrer-projet", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "save"},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "undo-2"},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "redo-2"},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scissors"},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste"},
+    {"id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer-2"},
+    {"id": "tout-deselectionner", "nom": "Désélect. tout", "groupe": "Édition", "win": "ctrl+shift+a", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer"},
+    {"id": "diviser-clip", "nom": "Diviser clip", "groupe": "Édition", "win": "s", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "scissors"},
+    {"id": "piste-audio", "nom": "Piste audio", "groupe": "Pistes", "win": "ctrl+t", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "audio-lines"},
+    {"id": "piste-midi", "nom": "Piste MIDI", "groupe": "Pistes", "win": "ctrl+shift+t", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "piano"},
+    {"id": "armer-toutes-pistes", "nom": "Armer les pistes", "groupe": "Pistes", "win": "ctrl+r", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot"},
+    {"id": "enregistrer", "nom": "Lancer enreg.", "groupe": "Transport", "win": "r", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "circle"},
+    {"id": "metronome", "nom": "Métro enreg.", "groupe": "Transport", "win": "f3", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "timer"},
+    {"id": "inserer-marqueur", "nom": "Insérer marqueur", "groupe": "Transport", "win": "m", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "flag"},
+    {"id": "vue-pistes", "nom": "Vue Pistes", "groupe": "Affichage", "win": "alt+1", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "layout-list"},
+    {"id": "barre-controle", "nom": "Barre de contrôle", "groupe": "Affichage", "win": "c", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "sliders-horizontal"},
+    {"id": "inspecteur", "nom": "Inspecteur", "groupe": "Affichage", "win": "i", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "panel-right"},
+    {"id": "navigateur", "nom": "Navigateur", "groupe": "Affichage", "win": "b", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "panel-left"},
+    {"id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "f11", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "maximize"},
+    {"id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": "ctrl+right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in"},
+    {"id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": "ctrl+left", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out"},
+    {"id": "preferences", "nom": "Préférences", "groupe": "Affichage", "win": "p", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "settings"},
+    {"id": "outil-smart", "nom": "Outil Smart", "groupe": "Outils", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "wand-sparkles"},
+    {"id": "outil-selection", "nom": "Outil sélection", "groupe": "Outils", "win": "f6", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "mouse-pointer-2"},
+    {"id": "outil-deplacer", "nom": "Outil déplacer", "groupe": "Outils", "win": "f7", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "move"},
+    {"id": "accrochage-grille", "nom": "Accrochage grille", "groupe": "Outils", "win": "n", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "magnet"},
+    {"id": "lecture", "nom": "Lecture / stop", "groupe": "Transport", "win": "space", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "play", "deduit": true}
+  ],
+  "non_faisable": [
+    {"nom": "Zoom à la molette", "raison": "molette"}
+  ]
+}

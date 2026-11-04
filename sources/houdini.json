@@ -1,0 +1,205 @@
+{
+  "id": "houdini",
+  "nom": "Houdini",
+  "editeur": "SideFX",
+  "site": "https://www.sidefx.com/products/houdini/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Houdini",
+    "mac": "Houdini"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Pas de tableau officiel complet relevé : la documentation SideFX renvoie à Edit > Hotkeys sans liste par défaut lisible. Les raccourcis viennent d'un guide tiers daté de juin 2026 (vérifié selon lui sur Houdini 21.0). Doute : le guide donne S/T/R/E pour sélection/déplacement/rotation/échelle, ce qui n'a pas été recoupé ; à vérifier dans Edit > Hotkeys. Fonctions de cadrage non retenues faute de source cohérente. Annuler, Rétablir, Enregistrer, Ouvrir, Nouveau et Supprimer sont des commandes de menu standard.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/keyboard-shortcuts/houdini-shortcuts/",
+      "titre": "Guide Houdini (tierce, juin 2026, vérifié sur 21.0)"
+    },
+    {
+      "url": "https://www.sidefx.com/docs/houdini/basics/hotkeys",
+      "titre": "SideFX : Hotkeys (documentation Houdini)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "menu-noeuds",
+      "nom": "Menu des nœuds",
+      "groupe": "Réseau",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouvelle scène",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "selection",
+      "nom": "Sélection",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "dernier-outil",
+      "nom": "Dernier outil",
+      "groupe": "Outils",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "shift+n",
+      "mac": "shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Navigation de vue temporaire",
+      "raison": "touche Espace ou Alt maintenue"
+    },
+    {
+      "nom": "Rotation de la vue",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "treesize",
+  "nom": "TreeSize",
+  "editeur": "Jam Software",
+  "site": "https://www.jam-software.com/treesize_free",
+  "systemes": ["windows"],
+  "lancement": { "windows": "TreeSize" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle TreeSize Free ne documente aucun raccourci clavier pour ses fonctions (analyse, ouverture, suppression, export). Une page dédiée aux raccourcis (jam-software.com/treesize_free/keyboard-shortcuts) renvoie 404. Application pilotée à la souris : à mettre dans un pack de lancement.",
+  "sources": [
+    { "url": "https://www.jam-software.com/treesize_free", "titre": "TreeSize Free - page officielle Jam Software" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Analyser un dossier et naviguer dans l'arborescence", "raison": "souris, aucun raccourci documenté" }
+  ]
+}

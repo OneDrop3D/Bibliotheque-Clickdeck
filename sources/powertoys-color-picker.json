@@ -1,0 +1,24 @@
+{
+  "id": "powertoys-color-picker",
+  "nom": "PowerToys Color Picker",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/color-picker",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerToys Color Picker", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourci par défaut Win+Maj+C : la touche Windows n'est pas gérée par la syntaxe ClickDeck, donc non proposé. Les actions de sélection de couleur se font à la souris (clic gauche, molette, clic droit). Pas d'action clavier utilisable.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/powertoys/color-picker", "titre": "Color Picker Utility - Microsoft Learn" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Activer la pipette", "raison": "Win+Maj+C : touche Windows non gérée" },
+    { "nom": "Copier la couleur sous le curseur", "raison": "clic gauche, souris" },
+    { "nom": "Zoom sur la zone", "raison": "molette" },
+    { "nom": "Fermer la pipette", "raison": "clic droit, souris" }
+  ]
+}

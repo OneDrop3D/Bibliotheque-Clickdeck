@@ -1,0 +1,186 @@
+{
+  "id": "cyberduck",
+  "nom": "Cyberduck",
+  "editeur": "Iterate GmbH",
+  "site": "https://cyberduck.io/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Cyberduck",
+    "mac": "Cyberduck"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Doc officielle introuvable (404). Raccourcis Windows issus d'une seule source tierce (DefKey) ; non vérifiés sur Mac, donc Mac laissé vide pour ces actions. Copier/coller/tout sélectionner sont les commandes du menu Édition (déduits).",
+  "sources": [
+    {
+      "url": "https://defkey.com/cyberduck-shortcuts",
+      "titre": "Cyberduck shortcuts (DefKey, Windows)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "square-dashed-mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search",
+      "deduit": true
+    },
+    {
+      "id": "nouvelle-connexion",
+      "nom": "Nouvelle connexion",
+      "groupe": "Connexion",
+      "win": "ctrl+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plug"
+    },
+    {
+      "id": "deconnecter",
+      "nom": "Déconnecter",
+      "groupe": "Connexion",
+      "win": "ctrl+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "unplug"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "aller-au-dossier",
+      "nom": "Aller au dossier",
+      "groupe": "Navigation",
+      "win": "ctrl+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-input"
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Fichiers",
+      "win": "ctrl+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "telecharger",
+      "nom": "Télécharger",
+      "groupe": "Transferts",
+      "win": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "televerser",
+      "nom": "Téléverser",
+      "groupe": "Transferts",
+      "win": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload"
+    },
+    {
+      "id": "informations",
+      "nom": "Informations",
+      "groupe": "Fichiers",
+      "win": "alt+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "fichiers-caches",
+      "nom": "Fichiers cachés",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye"
+    },
+    {
+      "id": "transferts",
+      "nom": "Transferts",
+      "groupe": "Affichage",
+      "win": "ctrl+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left-right"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Transfert de fichiers par glisser-déposer",
+      "raison": "souris"
+    },
+    {
+      "nom": "Gestion des connexions et signets",
+      "raison": "réglage sans raccourci"
+    }
+  ]
+}

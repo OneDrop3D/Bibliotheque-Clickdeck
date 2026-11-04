@@ -1,0 +1,22 @@
+{
+  "id": "gamemode",
+  "nom": "GameMode",
+  "editeur": "Feral Interactive",
+  "site": "https://github.com/FeralInteractive/gamemode",
+  "systemes": ["linux"],
+  "lancement": { "linux": "GameMode" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Démon et bibliothèque Linux sans interface ni raccourci clavier : il s'active par la ligne de commande (gamemoderun) ou dans les options de lancement Steam. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://github.com/FeralInteractive/gamemode", "titre": "GameMode - README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancer un jeu avec GameMode", "raison": "commande gamemoderun, pas de raccourci clavier" },
+    { "nom": "Vérifier l'installation (gamemoded -t)", "raison": "commande terminal" }
+  ]
+}

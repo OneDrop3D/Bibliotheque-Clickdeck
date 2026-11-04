@@ -1,0 +1,69 @@
+{
+  "id": "bitwig-studio",
+  "nom": "Bitwig Studio",
+  "editeur": "Bitwig",
+  "site": "https://www.bitwig.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Bitwig Studio",
+    "mac": "Bitwig Studio"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune table officielle lue. Sources tierces : Muted.io (Bitwig 3.3, ancien) et RouteNote (déc. 2024, peu fiable : plusieurs combinaisons s'y contredisent). Seules les touches de Muted.io ou confirmées par les deux sont gardées ; Importer, Grouper, Piano roll, Rechercher, Aide et Inspecteur/Éditeur en Ctrl+Alt ont été retirés faute de confirmation. À vérifier dans Settings > Shortcuts.",
+  "sources": [
+    {
+      "url": "https://create.routenote.com/blog/50-keyboard-shortcuts-for-faster-workflow-in-bitwig-studio/",
+      "titre": "50 Keyboard Shortcuts for Faster Workflow in Bitwig Studio (RouteNote, 13/12/2024)"
+    },
+    {
+      "url": "https://www.muted.io/bitwig-keyboard-shortcuts/",
+      "titre": "Bitwig Keyboard Shortcuts (Muted.io, Bitwig 3.3)"
+    }
+  ],
+  "actions": [
+    {"id": "nouveau-projet", "nom": "Nouveau projet", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus"},
+    {"id": "ouvrir-projet", "nom": "Ouvrir projet", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open"},
+    {"id": "enregistrer-projet", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save"},
+    {"id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 1, "picto": "save-all"},
+    {"id": "fermer-projet", "nom": "Fermer projet", "groupe": "Fichier", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": 0, "priorite": 2, "picto": "x"},
+    {"id": "exporter-audio", "nom": "Exporter audio", "groupe": "Fichier", "win": "ctrl+shift+b", "mac": "cmd+shift+b", "linux": null, "source": 1, "priorite": 2, "picto": "download"},
+    {"id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2"},
+    {"id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2"},
+    {"id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors"},
+    {"id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Édition", "win": "delete", "mac": "delete", "linux": null, "source": 0, "priorite": 1, "picto": "trash-2"},
+    {"id": "dupliquer", "nom": "Dupliquer", "groupe": "Édition", "win": "ctrl+d", "mac": "cmd+d", "linux": null, "source": 0, "priorite": 1, "picto": "copy-plus"},
+    {"id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer-2", "deduit": true},
+    {"id": "quantifier", "nom": "Quantifier", "groupe": "Montage", "win": "q", "mac": "q", "linux": null, "source": 1, "priorite": 1, "picto": "align-vertical-distribute-center"},
+    {"id": "couper-temps", "nom": "Couper le temps", "groupe": "Montage", "win": "ctrl+shift+x", "mac": "cmd+shift+x", "linux": null, "source": 1, "priorite": 3, "picto": "scissors"},
+    {"id": "coller-temps", "nom": "Coller le temps", "groupe": "Montage", "win": "ctrl+shift+v", "mac": "cmd+shift+v", "linux": null, "source": 1, "priorite": 3, "picto": "clipboard-paste"},
+    {"id": "preferences", "nom": "Préférences", "groupe": "Panneaux", "win": "ctrl+comma", "mac": "cmd+comma", "linux": null, "source": 1, "priorite": 2, "picto": "settings"},
+    {"id": "lecture", "nom": "Lecture / arrêt", "groupe": "Transport", "win": "space", "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "play"},
+    {"id": "boucle", "nom": "Boucle", "groupe": "Transport", "win": "ctrl+l", "mac": "cmd+l", "linux": null, "source": 1, "priorite": 1, "picto": "repeat"},
+    {"id": "outil-pointeur", "nom": "Outil pointeur", "groupe": "Outils", "win": "1", "mac": "1", "linux": null, "source": 1, "priorite": 1, "picto": "mouse-pointer-2"},
+    {"id": "outil-selection", "nom": "Outil sélection", "groupe": "Outils", "win": "2", "mac": "2", "linux": null, "source": 1, "priorite": 2, "picto": "text-select"},
+    {"id": "outil-crayon", "nom": "Outil crayon", "groupe": "Outils", "win": "3", "mac": "3", "linux": null, "source": 1, "priorite": 1, "picto": "pencil"},
+    {"id": "outil-gomme", "nom": "Outil gomme", "groupe": "Outils", "win": "4", "mac": "4", "linux": null, "source": 1, "priorite": 2, "picto": "eraser"},
+    {"id": "outil-couteau", "nom": "Outil couteau", "groupe": "Outils", "win": "5", "mac": "5", "linux": null, "source": 1, "priorite": 2, "picto": "scissors"},
+    {"id": "zoom-tout", "nom": "Zoom tout", "groupe": "Outils", "win": "z", "mac": "z", "linux": null, "source": 1, "priorite": 2, "picto": "maximize"},
+    {"id": "focus-piste", "nom": "Focus piste", "groupe": "Outils", "win": "t", "mac": "t", "linux": null, "source": 1, "priorite": 3, "picto": "crosshair"},
+    {"id": "inspecteur", "nom": "Inspecteur", "groupe": "Panneaux", "win": "i", "mac": "i", "linux": null, "source": 1, "priorite": 1, "picto": "panel-right"},
+    {"id": "mixeur", "nom": "Mixeur", "groupe": "Panneaux", "win": "m", "mac": "m", "linux": null, "source": 1, "priorite": 1, "picto": "sliders-vertical"},
+    {"id": "panneau-appareils", "nom": "Appareils", "groupe": "Panneaux", "win": "d", "mac": "d", "linux": null, "source": 1, "priorite": 1, "picto": "plug"},
+    {"id": "editeur-detail", "nom": "Éditeur détail", "groupe": "Panneaux", "win": "e", "mac": "e", "linux": null, "source": 1, "priorite": 2, "picto": "panel-bottom"},
+    {"id": "automation", "nom": "Automation", "groupe": "Panneaux", "win": "a", "mac": "a", "linux": null, "source": 1, "priorite": 2, "picto": "activity"},
+    {"id": "diviser-clip", "nom": "Diviser", "groupe": "Montage", "win": "ctrl+e", "mac": "cmd+e", "linux": null, "source": 1, "priorite": 1, "picto": "scissors"}
+  ],
+  "non_faisable": [
+    {"nom": "Zoom à la molette", "raison": "molette"},
+    {"nom": "Réglage des valeurs au glisser de souris", "raison": "souris"}
+  ]
+}

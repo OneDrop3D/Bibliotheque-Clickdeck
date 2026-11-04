@@ -1,0 +1,19 @@
+{
+  "id": "memtest86",
+  "nom": "MemTest86",
+  "editeur": "Passmark Software",
+  "site": "https://www.memtest86.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "MemTest86" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Test de mémoire qui s'exécute au démarrage depuis une clé USB, hors de Windows : il n'a pas de raccourcis utiles dans une session de bureau. La page officielle consultée ne mentionne aucune touche. Les touches de l'écran de test ne sont donc pas relevées. À inclure dans un pack de lancement.",
+  "sources": [ { "url": "https://www.memtest86.com/", "titre": "MemTest86 - site officiel (page consultée, sans raccourci)" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancement du test au démarrage", "raison": "se fait au démarrage de la machine, hors de l'application" }
+  ]
+}

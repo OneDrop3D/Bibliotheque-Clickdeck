@@ -1,0 +1,56 @@
+{
+  "id": "f-lux",
+  "nom": "f.lux",
+  "editeur": "f.lux Software",
+  "site": "https://justgetflux.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "flux",
+    "mac": "f.lux"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis Windows uniquement (Alt+Pg. préc. / Alt+Pg. suiv.) ; aucun raccourci sur Mac. Actifs par défaut, désactivables dans les options.",
+  "sources": [
+    {
+      "url": "https://justgetflux.com/faq.html",
+      "titre": "f.lux - FAQ"
+    }
+  ],
+  "actions": [
+    {
+      "id": "assombrir",
+      "nom": "Assombrir",
+      "groupe": "Luminosité",
+      "win": "alt+pagedown",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun-dim"
+    },
+    {
+      "id": "eclaircir",
+      "nom": "Éclaircir",
+      "groupe": "Luminosité",
+      "win": "alt+pageup",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun-medium"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Activer ou désactiver f.lux",
+      "raison": "aucun raccourci global documenté"
+    }
+  ]
+}

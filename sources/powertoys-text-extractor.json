@@ -1,0 +1,25 @@
+{
+  "id": "powertoys-text-extractor",
+  "nom": "PowerToys Text Extractor",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/text-extractor",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerToys Text Extractor", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourci par défaut Win+Maj+T : la touche Windows n'est pas gérée par la syntaxe ClickDeck, donc non proposé. La capture se fait à la souris (cliquer-glisser). Seule l'annulation par Échap est proposée.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/powertoys/text-extractor", "titre": "Text Extractor Utility - Microsoft Learn" }
+  ],
+  "actions": [
+    { "id": "annuler-capture", "nom": "Annuler la capture", "groupe": "Capture", "win": "escape", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "x" }
+  ],
+  "non_faisable": [
+    { "nom": "Lancer la capture OCR", "raison": "Win+Maj+T : touche Windows non gérée" },
+    { "nom": "Tracer la zone de capture", "raison": "souris (cliquer-glisser)" },
+    { "nom": "Déplacer la zone de capture", "raison": "maintien de Maj : touche maintenue" }
+  ]
+}

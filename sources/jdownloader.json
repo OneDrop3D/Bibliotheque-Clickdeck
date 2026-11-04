@@ -1,0 +1,17 @@
+{
+  "id": "jdownloader",
+  "nom": "JDownloader",
+  "editeur": "AppWork GmbH",
+  "site": "https://jdownloader.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "JDownloader", "mac": "JDownloader", "linux": "JDownloader" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté dans le wiki officiel (rubrique Interface graphique incluse). Les fonctions principales (LinkGrabber, onglet Téléchargements, ajout de liens) se font à la souris ; pas de raccourci à proposer sans source.",
+  "sources": [ { "url": "https://jdownloader.org/knowledge/wiki/gui/index", "titre": "JDownloader wiki - Graphical User Interface" } ],
+  "actions": [],
+  "non_faisable": []
+}

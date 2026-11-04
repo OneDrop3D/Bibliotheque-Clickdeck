@@ -1,0 +1,22 @@
+{
+  "id": "freefilesync",
+  "nom": "FreeFileSync",
+  "editeur": "FreeFileSync",
+  "site": "https://freefilesync.org",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "FreeFileSync", "mac": "FreeFileSync" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le manuel officiel ouvert (freefilesync.org/manual.php) ne contient aucune liste de raccourcis clavier. La page dédiée aux raccourcis n'a pas pu être ouverte (erreur 404). Recherche web indisponible. Utilitaire de synchronisation dont l'usage est principalement à la souris. À recouper avant publication.",
+  "sources": [
+    { "url": "https://freefilesync.org/manual.php", "titre": "FreeFileSync - Manuel" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Comparer les dossiers", "raison": "bouton à la souris, pas de raccourci vérifié" },
+    { "nom": "Synchroniser", "raison": "bouton à la souris, pas de raccourci vérifié" }
+  ]
+}

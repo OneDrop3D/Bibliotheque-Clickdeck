@@ -1,0 +1,19 @@
+{
+  "id": "3dmark",
+  "nom": "3DMark",
+  "editeur": "UL Benchmarks",
+  "site": "https://benchmarks.ul.com/3dmark",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "3DMark", "mac": "3DMark" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur la page officielle de 3DMark. Pack de lancement uniquement. Version macOS limitée aux puces Apple M-series selon la page officielle.",
+  "sources": [
+    { "url": "https://benchmarks.ul.com/3dmark", "titre": "3DMark - UL Benchmarks (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

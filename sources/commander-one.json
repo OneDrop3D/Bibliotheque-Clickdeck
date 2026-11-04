@@ -1,0 +1,181 @@
+{
+  "id": "commander-one",
+  "nom": "Commander One (macOS)",
+  "editeur": "Eltima Software",
+  "site": "https://www.commander-one.com/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Commander One"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le manuel officiel (onglet Hotkeys des Préférences). Liste non exhaustive : le manuel ne reproduit pas tout le tableau. F6/F7 non repris faute de source lue.",
+  "sources": [
+    {
+      "url": "https://www.commander-one.com/manual/",
+      "titre": "Commander One - Manuel (officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "f5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "f8",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "modifier",
+      "nom": "Modifier",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-pen"
+    },
+    {
+      "id": "visualiser",
+      "nom": "Visualiser",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye"
+    },
+    {
+      "id": "file-attente",
+      "nom": "File d'attente",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-ordered"
+    },
+    {
+      "id": "supprimer-definitivement",
+      "nom": "Suppr. définitive",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "shift+delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Lancer l'appli",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "external-link"
+    },
+    {
+      "id": "infos-fichier",
+      "nom": "Infos du fichier",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "alias",
+      "nom": "Créer un alias",
+      "groupe": "Fichiers",
+      "win": null,
+      "mac": "cmd+alt+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "link"
+    },
+    {
+      "id": "rechercher-fichier",
+      "nom": "Rechercher texte",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "alt+f7",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "connexions",
+      "nom": "Connexions",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "network"
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal intégré",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "ctrl+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "terminal"
+    },
+    {
+      "id": "ouvrir-bundle",
+      "nom": "Ouvrir le bundle",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "alt+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "package-open"
+    },
+    {
+      "id": "taille-dossier",
+      "nom": "Taille du dossier",
+      "groupe": "Navigation",
+      "win": null,
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "ruler"
+    }
+  ],
+  "non_faisable": []
+}

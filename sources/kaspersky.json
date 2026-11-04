@@ -1,0 +1,19 @@
+{
+  "id": "kaspersky",
+  "nom": "Kaspersky",
+  "editeur": "Kaspersky",
+  "site": "https://www.kaspersky.fr",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Kaspersky", "mac": "Kaspersky" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté pour Kaspersky n'a été trouvé sur le centre d'aide officiel (support.kaspersky.com), qui ne liste pas de raccourcis. Actions vides.",
+  "sources": [
+    { "url": "https://support.kaspersky.com/", "titre": "Kaspersky Knowledge Center" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

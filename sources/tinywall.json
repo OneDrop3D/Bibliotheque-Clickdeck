@@ -1,0 +1,17 @@
+{
+  "id": "tinywall",
+  "nom": "TinyWall",
+  "editeur": "valinet",
+  "site": "https://github.com/valinet/TinyWall",
+  "systemes": ["windows"],
+  "lancement": { "windows": "TinyWall", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source n'a pu être lue : la page du dépôt officiel renvoie une erreur 404 et la recherche web n'était plus disponible (quota de la session atteint). Aucun raccourci n'a donc été relevé. Pare-feu pilotable à la souris, à recouper avant d'ajouter des actions.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

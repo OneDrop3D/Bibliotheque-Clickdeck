@@ -1,0 +1,19 @@
+{
+  "id": "furmark",
+  "nom": "FurMark",
+  "editeur": "Geeks3D",
+  "site": "https://geeks3d.com/furmark/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "FurMark" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur la page officielle de FurMark. Pack de lancement uniquement : le test se lance et s'arrête depuis l'interface.",
+  "sources": [
+    { "url": "https://geeks3d.com/furmark/", "titre": "FurMark - Geeks3D (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

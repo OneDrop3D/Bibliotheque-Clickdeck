@@ -1,0 +1,19 @@
+{
+  "id": "revolt",
+  "nom": "Revolt",
+  "editeur": "Revolt",
+  "site": "https://revolt.chat/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Revolt", "mac": "Revolt" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "À compléter : le dépôt GitHub revoltchat/desktop ne documente aucun raccourci. Aucune autre source n'a pu être ouverte (recherche web épuisée). Aucune action n'a été ajoutée sans source.",
+  "sources": [
+    { "url": "https://github.com/revoltchat/desktop", "titre": "revoltchat/desktop (README, sans raccourcis)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

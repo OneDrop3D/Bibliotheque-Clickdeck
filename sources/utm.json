@@ -1,0 +1,50 @@
+{
+  "id": "utm",
+  "nom": "UTM (macOS)",
+  "editeur": "UTM Project",
+  "site": "https://mac.getutm.app/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "UTM"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Très peu de raccourcis dans le code et la documentation ; seul Cmd+0 (afficher UTM) est confirmé. Cmd+N est une commande standard déduite.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/macOS/UTMMenuBarExtraScene.swift",
+      "titre": "Code source UTM (menu)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "afficher",
+      "nom": "Afficher UTM",
+      "groupe": "Fenêtre",
+      "win": null,
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-dashboard"
+    },
+    {
+      "id": "nouvelle-vm",
+      "nom": "Nouvelle VM",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

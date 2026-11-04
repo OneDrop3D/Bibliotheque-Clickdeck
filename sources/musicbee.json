@@ -1,0 +1,249 @@
+{
+  "id": "musicbee",
+  "nom": "MusicBee",
+  "editeur": "Steven Mayall",
+  "site": "https://www.getmusicbee.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "MusicBee",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Une seule source tierce (DefKey). Ctrl+O ouvre les préférences dans MusicBee (ancienne action Ouvrir retirée). Raccourcis possiblement modifiables dans Édition > Préférences > Raccourcis clavier.",
+  "sources": [
+    {
+      "url": "https://defkey.com/musicbee-shortcuts",
+      "titre": "MusicBee shortcuts (DefKey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "suivant",
+      "nom": "Piste suivante",
+      "groupe": "Lecture",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "precedent",
+      "nom": "Piste précédente",
+      "groupe": "Lecture",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "stop",
+      "nom": "Arrêt",
+      "groupe": "Lecture",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume -",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "muet",
+      "nom": "Muet",
+      "groupe": "Lecture",
+      "win": "ctrl+alt+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-x"
+    },
+    {
+      "id": "lire-maintenant",
+      "nom": "Lire maintenant",
+      "groupe": "File d'attente",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "play-circle"
+    },
+    {
+      "id": "file-fin",
+      "nom": "Ajouter à la fin",
+      "groupe": "File d'attente",
+      "win": "ctrl+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-end"
+    },
+    {
+      "id": "file-suivant",
+      "nom": "Lire ensuite",
+      "groupe": "File d'attente",
+      "win": "ctrl+shift+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-start"
+    },
+    {
+      "id": "recherche",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "editer-tags",
+      "nom": "Éditer les tags",
+      "groupe": "Édition",
+      "win": "shift+enter",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "tag"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Édition",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Options",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "visualiseur",
+      "nom": "Visualiseur",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "note-5",
+      "nom": "Note 5 étoiles",
+      "groupe": "Notes",
+      "win": "ctrl+alt+5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "star"
+    },
+    {
+      "id": "note-0",
+      "nom": "Note 0 étoile",
+      "groupe": "Notes",
+      "win": "ctrl+alt+0",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "star-off"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tmux",
+  "nom": "tmux",
+  "editeur": "Projet tmux",
+  "site": "https://github.com/tmux/tmux",
+  "systemes": ["mac", "linux"],
+  "lancement": { "mac": "tmux", "linux": "tmux" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "tmux fonctionne par séquences : préfixe Ctrl+B puis une touche. Aucune combinaison unique n'est exploitable, donc aucune action. Les commandes sont listées dans non_faisable à titre indicatif. Source : page de manuel man7.org (copie de la doc tmux).",
+  "sources": [
+    { "url": "https://man7.org/linux/man-pages/man1/tmux.1.html", "titre": "tmux(1) manual page" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Nouvelle fenêtre (Ctrl+B puis c)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Fenêtre suivante (Ctrl+B puis n)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Fenêtre précédente (Ctrl+B puis p)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Découper horizontal (Ctrl+B puis %)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Découper vertical (Ctrl+B puis guillemet)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Panneau suivant (Ctrl+B puis o)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Zoom panneau (Ctrl+B puis z)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Mode copie (Ctrl+B puis crochet)", "raison": "séquence de plusieurs combinaisons" },
+    { "nom": "Détacher la session (Ctrl+B puis d)", "raison": "séquence de plusieurs combinaisons" }
+  ]
+}

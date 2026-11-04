@@ -1,0 +1,27 @@
+{
+  "id": "adobe-acrobat-reader",
+  "nom": "Adobe Acrobat Reader",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/acrobat/pdf-reader.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Acrobat Reader", "mac": "Adobe Acrobat Reader" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page officielle des raccourcis Adobe refusée à la lecture (HTTP 403) et copie d'archive inaccessible. Seules les commandes standard de menu sont listées, déduites (deduit: true). Les raccourcis de navigation et d'affichage propres à Reader restent à vérifier.",
+  "sources": [],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "save-all" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+p", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "printer" },
+    { "id": "fermer", "nom": "Fermer", "groupe": "Fichier", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "x" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "copy" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": null, "deduit": true, "priorite": 3, "picto": "mouse-pointer-2" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "search" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom à la molette", "raison": "molette" }
+  ]
+}

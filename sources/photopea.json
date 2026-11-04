@@ -1,0 +1,540 @@
+{
+  "id": "photopea",
+  "nom": "Photopea",
+  "editeur": "Ivan Kutskir",
+  "site": "https://www.photopea.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Google Chrome",
+    "mac": "Google Chrome"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application web (version bureau du navigateur). Source unique : guide tiers tutorialtactic (raccourcis calqués sur Photoshop, Ctrl = ⌘ selon ce guide). Pas de deuxième source concordante : fiabilité tierce. Vérifier les touches dans l'app (touche ?). Le guide signale que les extensions de navigateur peuvent intercepter les touches. Contrôle : retirés Courbes (cmd+m réduit la fenêtre sur Mac), Rechercher (ctrl+f non confirmé) et la liste des raccourcis (non confirmée). Nouveau calque sans Mac (cmd+shift+n est réservé par le navigateur). Transformation libre Mac déduite (Ctrl = Cmd selon la source).",
+  "sources": [
+    {
+      "url": "https://www.photopea.com/learn/workspace",
+      "titre": "Photopea - Learn (workspace)"
+    },
+    {
+      "url": "https://tutorialtactic.com/blog/photopea-shortcuts/",
+      "titre": "Photopea Keyboard Shortcuts (Tutorial Tactic)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Fichier",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Fichier",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Fichier",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Fichier",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fichier",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "settings",
+      "deduit": true
+    },
+    {
+      "id": "calque-par-copie",
+      "nom": "Calque par copie",
+      "groupe": "Calques",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "copy-plus",
+      "deduit": true
+    },
+    {
+      "id": "nouveau-calque",
+      "nom": "Nouveau calque",
+      "groupe": "Calques",
+      "win": "ctrl+shift+n",
+      "mac": null,
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "layers",
+      "deduit": true
+    },
+    {
+      "id": "grouper-calques",
+      "nom": "Grouper calques",
+      "groupe": "Calques",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "folder",
+      "deduit": true
+    },
+    {
+      "id": "fusionner-calques",
+      "nom": "Fusionner calques",
+      "groupe": "Calques",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "merge",
+      "deduit": true
+    },
+    {
+      "id": "transformation-libre",
+      "nom": "Transfo. libre",
+      "groupe": "Calques",
+      "win": "alt+ctrl+t",
+      "mac": "cmd+alt+t",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "move-diagonal",
+      "deduit": true
+    },
+    {
+      "id": "niveaux",
+      "nom": "Niveaux",
+      "groupe": "Réglages",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "sliders-horizontal",
+      "deduit": true
+    },
+    {
+      "id": "teinte-saturation",
+      "nom": "Teinte/saturation",
+      "groupe": "Réglages",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "palette",
+      "deduit": true
+    },
+    {
+      "id": "inverser-image",
+      "nom": "Inverser image",
+      "groupe": "Réglages",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "contrast",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "desselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "selection-inversee",
+      "nom": "Sélection inversée",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "replace",
+      "deduit": true
+    },
+    {
+      "id": "selection-rectangle",
+      "nom": "Sél. rectangle",
+      "groupe": "Sélection",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "lasso",
+      "nom": "Lasso",
+      "groupe": "Sélection",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "lasso"
+    },
+    {
+      "id": "baguette-magique",
+      "nom": "Baguette magique",
+      "groupe": "Sélection",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "masque-rapide",
+      "nom": "Masque rapide",
+      "groupe": "Sélection",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zoom-in",
+      "deduit": true
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zoom-out",
+      "deduit": true
+    },
+    {
+      "id": "regles",
+      "nom": "Règles",
+      "groupe": "Affichage",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "ruler",
+      "deduit": true
+    },
+    {
+      "id": "reperes",
+      "nom": "Repères",
+      "groupe": "Affichage",
+      "win": "ctrl+semicolon",
+      "mac": "cmd+semicolon",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "separator-horizontal",
+      "deduit": true
+    },
+    {
+      "id": "grille",
+      "nom": "Grille",
+      "groupe": "Affichage",
+      "win": "ctrl+quote",
+      "mac": "cmd+quote",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "grid-3x3",
+      "deduit": true
+    },
+    {
+      "id": "deplacement",
+      "nom": "Déplacement",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "pinceau",
+      "nom": "Pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "tampon-clonage",
+      "nom": "Tampon de clonage",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "stamp"
+    },
+    {
+      "id": "correction",
+      "nom": "Correcteur",
+      "groupe": "Outils",
+      "win": "j",
+      "mac": "j",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "bandage"
+    },
+    {
+      "id": "plume",
+      "nom": "Plume",
+      "groupe": "Outils",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "degrade",
+      "nom": "Dégradé",
+      "groupe": "Outils",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "forme",
+      "nom": "Forme",
+      "groupe": "Outils",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "main",
+      "nom": "Main",
+      "groupe": "Outils",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "hand"
+    },
+    {
+      "id": "zoom-outil",
+      "nom": "Zoom (outil)",
+      "groupe": "Outils",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "inverser-couleurs",
+      "nom": "Inverser couleurs",
+      "groupe": "Outils",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-left-right"
+    },
+    {
+      "id": "couleurs-par-defaut",
+      "nom": "Couleurs défaut",
+      "groupe": "Outils",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer la vue (espace maintenu)",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Taille du pinceau à la molette",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "id": "virtualdj",
+  "nom": "VirtualDJ",
+  "editeur": "Atomix Productions",
+  "site": "https://www.virtualdj.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "VirtualDJ",
+    "mac": "VirtualDJ"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Mappage clavier par défaut de VirtualDJ (platine gauche ; la platine droite a ses propres touches). Sur Mac, Alt = Option et Ctrl = Cmd selon la page officielle. Les touches alphanumériques seules vont à la recherche du navigateur. Le mappage Rekordbox ou Serato est un autre préréglage.",
+  "sources": [
+    {
+      "url": "https://www.virtualdj.com/manuals/hardware/keyboard/default.html",
+      "titre": "VirtualDJ Default Keyboard Mapping"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-lecture",
+      "nom": "Lecture",
+      "groupe": "Lecture",
+      "win": "alt+1",
+      "mac": "alt+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lecture-cue",
+      "nom": "Cue",
+      "groupe": "Lecture",
+      "win": "alt+2",
+      "mac": "alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "lecture-stop",
+      "nom": "Stop",
+      "groupe": "Lecture",
+      "win": "alt+3",
+      "mac": "alt+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "lecture-synchro",
+      "nom": "Synchro",
+      "groupe": "Lecture",
+      "win": "alt+q",
+      "mac": "alt+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "lecture-nudge-gauche",
+      "nom": "Nudge gauche",
+      "groupe": "Lecture",
+      "win": "alt+w",
+      "mac": "alt+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "lecture-nudge-droite",
+      "nom": "Nudge droite",
+      "groupe": "Lecture",
+      "win": "alt+e",
+      "mac": "alt+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "boucles-boucle",
+      "nom": "Boucle",
+      "groupe": "Boucles",
+      "win": "alt+4",
+      "mac": "alt+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "boucles-boucle-2",
+      "nom": "Boucle ÷2",
+      "groupe": "Boucles",
+      "win": "alt+5",
+      "mac": "alt+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "divide"
+    },
+    {
+      "id": "boucles-boucle-2",
+      "nom": "Boucle ×2",
+      "groupe": "Boucles",
+      "win": "alt+6",
+      "mac": "alt+6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "tempo-tempo",
+      "nom": "Tempo −",
+      "groupe": "Tempo",
+      "win": "alt+r",
+      "mac": "alt+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "tempo-tempo",
+      "nom": "Tempo +",
+      "groupe": "Tempo",
+      "win": "alt+t",
+      "mac": "alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "tempo-tempo-d-origine",
+      "nom": "Tempo d'origine",
+      "groupe": "Tempo",
+      "win": "alt+y",
+      "mac": "alt+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "tempo-tempo-global",
+      "nom": "Tempo global +",
+      "groupe": "Tempo",
+      "win": "alt+up",
+      "mac": "alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "tempo-tempo-global",
+      "nom": "Tempo global −",
+      "groupe": "Tempo",
+      "win": "alt+down",
+      "mac": "alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "pads-pad-1",
+      "nom": "Pad 1",
+      "groupe": "Pads",
+      "win": "alt+a",
+      "mac": "alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-2",
+      "nom": "Pad 2",
+      "groupe": "Pads",
+      "win": "alt+s",
+      "mac": "alt+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-3",
+      "nom": "Pad 3",
+      "groupe": "Pads",
+      "win": "alt+d",
+      "mac": "alt+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-4",
+      "nom": "Pad 4",
+      "groupe": "Pads",
+      "win": "alt+f",
+      "mac": "alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-5",
+      "nom": "Pad 5",
+      "groupe": "Pads",
+      "win": "alt+z",
+      "mac": "alt+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-6",
+      "nom": "Pad 6",
+      "groupe": "Pads",
+      "win": "alt+x",
+      "mac": "alt+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-7",
+      "nom": "Pad 7",
+      "groupe": "Pads",
+      "win": "alt+c",
+      "mac": "alt+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-pad-8",
+      "nom": "Pad 8",
+      "groupe": "Pads",
+      "win": "alt+v",
+      "mac": "alt+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "pads-page-de-pads",
+      "nom": "Page de pads",
+      "groupe": "Pads",
+      "win": "alt+g",
+      "mac": "alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "mixage-charger-a-gauche",
+      "nom": "Charger à gauche",
+      "groupe": "Mixage",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "mixage-charger-a-droite",
+      "nom": "Charger à droite",
+      "groupe": "Mixage",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "mixage-mix-maintenant",
+      "nom": "Mix maintenant",
+      "groupe": "Mixage",
+      "win": "alt+backspace",
+      "mac": "alt+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "shuffle"
+    },
+    {
+      "id": "mixage-fondu-a-gauche",
+      "nom": "Fondu à gauche",
+      "groupe": "Mixage",
+      "win": "alt+left",
+      "mac": "alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "mixage-fondu-a-droite",
+      "nom": "Fondu à droite",
+      "groupe": "Mixage",
+      "win": "alt+right",
+      "mac": "alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "mixage-platine-suivante",
+      "nom": "Platine suivante",
+      "groupe": "Mixage",
+      "win": "alt+backquote",
+      "mac": "alt+backquote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat-2"
+    },
+    {
+      "id": "navigation-fenetre-navigateur",
+      "nom": "Fenêtre navigateur",
+      "groupe": "Navigation",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder"
+    },
+    {
+      "id": "navigation-dossier-precedent",
+      "nom": "Dossier précédent",
+      "groupe": "Navigation",
+      "win": "ctrl+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-up"
+    },
+    {
+      "id": "navigation-dossier-suivant",
+      "nom": "Dossier suivant",
+      "groupe": "Navigation",
+      "win": "ctrl+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-down"
+    },
+    {
+      "id": "navigation-parametres",
+      "nom": "Paramètres",
+      "groupe": "Navigation",
+      "win": "shift+escape",
+      "mac": "shift+escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Nudge continu",
+      "raison": "touche maintenue"
+    }
+  ]
+}

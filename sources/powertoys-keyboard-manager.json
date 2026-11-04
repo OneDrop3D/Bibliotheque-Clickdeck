@@ -1,0 +1,23 @@
+{
+  "id": "powertoys-keyboard-manager",
+  "nom": "PowerToys Keyboard Manager",
+  "editeur": "Microsoft",
+  "site": "https://learn.microsoft.com/en-us/windows/powertoys/keyboard-manager",
+  "systemes": ["windows"],
+  "lancement": { "windows": "PowerToys" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de remappage : il n'a pas de raccourci par défaut. Il se configure dans PowerToys (touches, raccourcis, texte, lancement d'application). Pack de lancement, pas de liste d'actions.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/windows/powertoys/keyboard-manager", "titre": "Remap Keys and Shortcuts with PowerToys Keyboard Manager (Microsoft Learn)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Remapper une touche", "raison": "réglage sans raccourci" },
+    { "nom": "Remapper un raccourci", "raison": "réglage sans raccourci" },
+    { "nom": "Texte ou lancement d'app sur raccourci", "raison": "réglage sans raccourci" }
+  ]
+}

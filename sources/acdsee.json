@@ -1,0 +1,48 @@
+{
+  "id": "acdsee",
+  "nom": "ACDSee",
+  "editeur": "ACD Systems",
+  "site": "https://www.acdsee.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "ACDSee" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : liste de l'éditeur ACDSee Pro (2025), pas ACDSee Photo Studio. Aucune page officielle lisible pour la liste par défaut. À recouper avant publication. Les commandes standard sont données par déduction.",
+  "sources": [
+    { "url": "https://tutorialtactic.com/blog/acdsee-shortcuts/", "titre": "60 ACDSee Keyboard Shortcuts (ACDSee Pro, 2025)" }
+  ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "fermer-image", "nom": "Fermer l'image", "groupe": "Fichier", "win": "ctrl+f4", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "x" },
+    { "id": "renommer", "nom": "Renommer", "groupe": "Fichier", "win": "alt+r", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "pen-line" },
+    { "id": "ajouter-panier", "nom": "Ajouter au panier", "groupe": "Fichier", "win": "ctrl+b", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "shopping-basket" },
+    { "id": "editer", "nom": "Ouvrir en édition", "groupe": "Édition", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "pencil" },
+    { "id": "developper", "nom": "Mode Développer", "groupe": "Édition", "win": "ctrl+d", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "sliders-horizontal" },
+    { "id": "exporter", "nom": "Exporter", "groupe": "Édition", "win": "ctrl+alt+e", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "upload" },
+    { "id": "edition-lot", "nom": "Édition par lot", "groupe": "Édition", "win": "ctrl+alt+b", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "layers" },
+    { "id": "rotation-gauche", "nom": "Rotation gauche", "groupe": "Édition", "win": "ctrl+alt+left", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "rotate-ccw" },
+    { "id": "rotation-droite", "nom": "Rotation droite", "groupe": "Édition", "win": "ctrl+alt+right", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "rotate-cw" },
+    { "id": "format-lot", "nom": "Changer format", "groupe": "Édition", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "file-image" },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "f", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": "equal", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in" },
+    { "id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": "minus", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "histogramme", "nom": "Histogramme", "groupe": "Affichage", "win": "ctrl+shift+a", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "chart-column" },
+    { "id": "navigateur", "nom": "Navigateur", "groupe": "Affichage", "win": "ctrl+shift+s", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "map" },
+    { "id": "proprietes", "nom": "Propriétés", "groupe": "Affichage", "win": "alt+enter", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "info" },
+    { "id": "image-precedente", "nom": "Image précédente", "groupe": "Navigation", "win": "ctrl+left", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "arrow-left" },
+    { "id": "image-suivante", "nom": "Image suivante", "groupe": "Navigation", "win": "ctrl+right", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "arrow-right" },
+    { "id": "noter-1", "nom": "Noter 1 étoile", "groupe": "Notes", "win": "ctrl+1", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "star" },
+    { "id": "noter-5", "nom": "Noter 5 étoiles", "groupe": "Notes", "win": "ctrl+5", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "stars" },
+    { "id": "retirer-note", "nom": "Retirer la note", "groupe": "Notes", "win": "ctrl+0", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "star-off" },
+    { "id": "actualiser", "nom": "Actualiser", "groupe": "Affichage", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "refresh-cw" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": null, "linux": null, "source": null, "priorite": 2, "picto": "copy", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": null, "linux": null, "source": null, "priorite": 1, "picto": "undo-2", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom à la molette", "raison": "molette" },
+    { "nom": "Calque de surexposition (E)", "raison": "bascule dont le nom exact varie selon l'édition" }
+  ]
+}

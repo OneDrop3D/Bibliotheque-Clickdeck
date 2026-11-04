@@ -1,0 +1,260 @@
+{
+  "id": "qgis",
+  "nom": "QGIS",
+  "editeur": "QGIS Project",
+  "site": "https://qgis.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "qgis-ltr-bin",
+    "mac": "QGIS",
+    "linux": "qgis"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du manuel officiel QGIS 3.34 (dernière version lue ; la version latest est sur docs.qgis.org/latest). La page ne donne que Ctrl ; la colonne Mac est laissée vide car la source ne dit pas que Cmd remplace Ctrl (seule exception : Quitter, Cmd+Q). Raccourcis Linux non documentés.",
+  "sources": [
+    {
+      "url": "https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html",
+      "titre": "QGIS 3.34 User Manual - Interface graphique"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Projet",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-projet",
+      "nom": "Ouvrir",
+      "groupe": "Projet",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer-projet",
+      "nom": "Enregistrer",
+      "groupe": "Projet",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Projet",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Vue",
+      "win": "ctrl+alt+equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Vue",
+      "win": "ctrl+alt+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-etendue",
+      "nom": "Étendue complète",
+      "groupe": "Vue",
+      "win": "ctrl+shift+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "zoom-selection",
+      "nom": "Zoom sélection",
+      "groupe": "Vue",
+      "win": "ctrl+j",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan-search"
+    },
+    {
+      "id": "identifier",
+      "nom": "Identifier",
+      "groupe": "Outils",
+      "win": "ctrl+shift+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "mesurer-ligne",
+      "nom": "Mesurer ligne",
+      "groupe": "Outils",
+      "win": "ctrl+shift+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "ruler"
+    },
+    {
+      "id": "mesurer-surface",
+      "nom": "Mesurer surface",
+      "groupe": "Outils",
+      "win": "ctrl+shift+j",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "selection-valeur",
+      "nom": "Sél. par valeur",
+      "groupe": "Édition",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "filter"
+    },
+    {
+      "id": "selection-expression",
+      "nom": "Sél. expression",
+      "groupe": "Édition",
+      "win": "ctrl+f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "code"
+    },
+    {
+      "id": "ajouter-entite",
+      "nom": "Ajouter entité",
+      "groupe": "Édition",
+      "win": "ctrl+period",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus-square"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer la carte (main)",
+      "raison": "Aucun raccourci documenté dans la page source"
+    },
+    {
+      "nom": "Basculer l'édition",
+      "raison": "Aucun raccourci documenté dans la page source"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nintendo-switch-online",
+  "nom": "Nintendo Switch Online (web)",
+  "editeur": "Nintendo",
+  "site": "https://www.nintendo.com/us/switch-online/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Nintendo Switch Online", "mac": "Nintendo Switch Online" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Site web sans raccourcis clavier : la page officielle ne documente aucun raccourci. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://www.nintendo.com/us/switch-online/", "titre": "Nintendo Switch Online (page officielle)" } ],
+  "actions": [],
+  "non_faisable": []
+}

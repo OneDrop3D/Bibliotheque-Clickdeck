@@ -1,0 +1,65 @@
+{
+  "id": "pro-tools",
+  "nom": "Pro Tools",
+  "editeur": "Avid",
+  "site": "https://www.avid.com/pro-tools",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Pro Tools", "mac": "Pro Tools" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du guide officiel Avid Pro Tools Shortcuts 2025.10. Les touches simples (A, S, D, F, G, B, R, T, E) ne fonctionnent que si « Commands Keyboard Focus » est activé (Cmd+Option+1 sur Mac, Ctrl+Alt+1 sur Windows) ; elles sont regroupées dans le groupe Montage.",
+  "sources": [
+    { "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_Shortcuts_2025.10.pdf", "titre": "Pro Tools Shortcuts Guide 2025.10 (Avid)" }
+  ],
+  "actions": [
+    { "id": "nouvelle-session", "nom": "Nouvelle session", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir-session", "nom": "Ouvrir session", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer-session", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "fermer-session", "nom": "Fermer session", "groupe": "Fichier", "win": "ctrl+shift+w", "mac": "cmd+shift+w", "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "importer-audio", "nom": "Importer audio", "groupe": "Fichier", "win": "ctrl+shift+i", "mac": "cmd+shift+i", "linux": null, "source": 0, "priorite": 1, "picto": "file-audio" },
+    { "id": "bounce-mix", "nom": "Bounce mix", "groupe": "Fichier", "win": "ctrl+alt+b", "mac": "cmd+alt+b", "linux": null, "source": 0, "priorite": 2, "picto": "download" },
+    { "id": "imprimer-partition", "nom": "Imprimer partition", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+p", "linux": null, "source": 0, "priorite": 3, "picto": "printer" },
+
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "dupliquer", "nom": "Dupliquer", "groupe": "Édition", "win": "ctrl+d", "mac": "cmd+d", "linux": null, "source": 0, "priorite": 1, "picto": "copy-plus" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "mouse-pointer-2" },
+    { "id": "effacer", "nom": "Effacer", "groupe": "Édition", "win": "ctrl+b", "mac": "cmd+b", "linux": null, "source": 0, "priorite": 2, "picto": "eraser" },
+    { "id": "inserer-silence", "nom": "Insérer silence", "groupe": "Édition", "win": "ctrl+shift+e", "mac": "cmd+shift+e", "linux": null, "source": 0, "priorite": 3, "picto": "pause" },
+    { "id": "trouver-clip", "nom": "Trouver un clip", "groupe": "Édition", "win": "ctrl+shift+f", "mac": "cmd+shift+f", "linux": null, "source": 0, "priorite": 3, "picto": "search" },
+
+    { "id": "lecture", "nom": "Lecture / arrêt", "groupe": "Transport", "win": "space", "mac": "space", "linux": null, "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "boucle-lecture", "nom": "Boucle lecture", "groupe": "Transport", "win": "ctrl+shift+l", "mac": "cmd+shift+l", "linux": null, "source": 0, "priorite": 1, "picto": "repeat" },
+    { "id": "boucle-enregistrement", "nom": "Boucle enreg.", "groupe": "Transport", "win": "alt+l", "mac": "alt+l", "linux": null, "source": 0, "priorite": 2, "picto": "repeat-1" },
+    { "id": "arret-sans-garder", "nom": "Arrêt sans garder", "groupe": "Transport", "win": "ctrl+period", "mac": "cmd+period", "linux": null, "source": 0, "priorite": 3, "picto": "square" },
+
+    { "id": "armer-piste", "nom": "Armer piste", "groupe": "Pistes", "win": "shift+r", "mac": "shift+r", "linux": null, "source": 0, "priorite": 1, "picto": "circle-dot" },
+    { "id": "solo-piste", "nom": "Solo piste", "groupe": "Pistes", "win": "shift+s", "mac": "shift+s", "linux": null, "source": 0, "priorite": 1, "picto": "headphones" },
+    { "id": "muet-piste", "nom": "Muet piste", "groupe": "Pistes", "win": "shift+m", "mac": "shift+m", "linux": null, "source": 0, "priorite": 1, "picto": "volume-x" },
+
+    { "id": "outil-zoom", "nom": "Outil zoom", "groupe": "Zoom et outils", "win": "f5", "mac": "f5", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in" },
+    { "id": "outil-trimmer", "nom": "Outil trimmer", "groupe": "Zoom et outils", "win": "f6", "mac": "f6", "linux": null, "source": 0, "priorite": 1, "picto": "crop" },
+    { "id": "mode-grille", "nom": "Mode grille", "groupe": "Zoom et outils", "win": "f4", "mac": "f4", "linux": null, "source": 0, "priorite": 2, "picto": "grid-3x3" },
+    { "id": "zoom-avant-horizontal", "nom": "Zoom avant horiz.", "groupe": "Zoom et outils", "win": "t", "mac": "t", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "zoom-arriere-horizontal", "nom": "Zoom arr. horiz.", "groupe": "Zoom et outils", "win": "r", "mac": "r", "linux": null, "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "zoom-bascule", "nom": "Zoom bascule", "groupe": "Zoom et outils", "win": "e", "mac": "e", "linux": null, "source": 0, "priorite": 2, "picto": "maximize" },
+
+    { "id": "rogner-debut", "nom": "Rogner début", "groupe": "Montage", "win": "a", "mac": "a", "linux": null, "source": 0, "priorite": 1, "picto": "bracket-left" },
+    { "id": "rogner-fin", "nom": "Rogner fin", "groupe": "Montage", "win": "s", "mac": "s", "linux": null, "source": 0, "priorite": 1, "picto": "bracket-right" },
+    { "id": "separer", "nom": "Séparer", "groupe": "Montage", "win": "b", "mac": "b", "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "fondu-debut", "nom": "Fondu début", "groupe": "Montage", "win": "d", "mac": "d", "linux": null, "source": 0, "priorite": 2, "picto": "trending-up" },
+    { "id": "crossfade", "nom": "Crossfade", "groupe": "Montage", "win": "f", "mac": "f", "linux": null, "source": 0, "priorite": 2, "picto": "arrow-left-right" },
+    { "id": "fondu-fin", "nom": "Fondu fin", "groupe": "Montage", "win": "g", "mac": "g", "linux": null, "source": 0, "priorite": 2, "picto": "trending-down" }
+  ],
+  "non_faisable": [
+    { "nom": "Volume de piste à la molette", "raison": "molette" },
+    { "nom": "Déplacement des clips à la molette", "raison": "molette" },
+    { "nom": "Déplacer un fader sans groupe (Control + glisser)", "raison": "souris" }
+  ]
+}

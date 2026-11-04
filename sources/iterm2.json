@@ -1,0 +1,248 @@
+{
+  "id": "iterm2",
+  "nom": "iTerm2",
+  "editeur": "iTerm2 (George Nachman)",
+  "site": "https://iterm2.com/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "iTerm"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis propres à iTerm2 tirés de la documentation officielle (split, panneaux, plein écran, historique de collage, onglets) ; commandes standard de menu déduites. Le raccourci d'effacement du tampon n'a pas été confirmé dans la documentation lue : non proposé.",
+  "sources": [
+    {
+      "url": "https://iterm2.com/documentation-one-page.html",
+      "titre": "iTerm2 documentation (raccourcis par défaut)"
+    },
+    {
+      "url": "https://iterm2.com/documentation-menu-items.html",
+      "titre": "iTerm2 menu items"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "square-plus"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "text-select"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "diviser-vertical",
+      "nom": "Diviser colonnes",
+      "groupe": "Panneaux",
+      "win": null,
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "columns-2"
+    },
+    {
+      "id": "diviser-horizontal",
+      "nom": "Diviser en lignes",
+      "groupe": "Panneaux",
+      "win": null,
+      "mac": "shift+cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rows-2"
+    },
+    {
+      "id": "panneau-precedent",
+      "nom": "Panneau précédent",
+      "groupe": "Panneaux",
+      "win": null,
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "panneau-suivant",
+      "nom": "Panneau suivant",
+      "groupe": "Panneaux",
+      "win": null,
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "agrandir-panneau",
+      "nom": "Agrandir panneau",
+      "groupe": "Panneaux",
+      "win": null,
+      "mac": "shift+cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": null,
+      "mac": "shift+cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "historique-collage",
+      "nom": "Historique collage",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "shift+cmd+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-list"
+    },
+    {
+      "id": "autocompletion",
+      "nom": "Autocomplétion",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+semicolon",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "text-cursor-input"
+    },
+    {
+      "id": "ouverture-rapide",
+      "nom": "Ouverture rapide",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "shift+cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zap"
+    }
+  ],
+  "non_faisable": []
+}

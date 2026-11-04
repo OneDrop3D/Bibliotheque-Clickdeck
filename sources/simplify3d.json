@@ -1,0 +1,413 @@
+{
+  "id": "simplify3d",
+  "nom": "Simplify3D",
+  "editeur": "Simplify3D",
+  "site": "https://www.simplify3d.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Simplify3D",
+    "mac": "Simplify3D"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relus dans le PDF officiel « Simplify3D Keyboard Shortcuts » (daté de 2015, version ancienne mais seule liste officielle). Le PDF indique que Mac remplace Ctrl par Cmd (champ Mac déduit). Les combinaisons Ctrl+Maj du PDF ont été confirmées en le relisant. Doute : Cmd+W (Filaire) coïncide avec « Fermer la fenêtre » sur Mac. Le champ « modifiable » n'est pas documenté.",
+  "sources": [
+    {
+      "url": "https://Simplify3D.com/public/Simplify3D-Keyboard-Shortcuts.pdf",
+      "titre": "Simplify3D Keyboard Shortcuts (PDF officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all",
+      "deduit": true
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "import",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "desselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square",
+      "deduit": true
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus",
+      "deduit": true
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Édition",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group",
+      "deduit": true
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Édition",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "ungroup",
+      "deduit": true
+    },
+    {
+      "id": "selection-normale",
+      "nom": "Sélection normale",
+      "groupe": "Transformation",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Transformation",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "echelle",
+      "nom": "Échelle",
+      "groupe": "Transformation",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Transformation",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "centrer-disposer",
+      "nom": "Centrer/disposer",
+      "groupe": "Transformation",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid",
+      "deduit": true
+    },
+    {
+      "id": "poser-plateau",
+      "nom": "Poser sur plateau",
+      "groupe": "Transformation",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "cuboid",
+      "deduit": true
+    },
+    {
+      "id": "poser-table",
+      "nom": "Poser sur table",
+      "groupe": "Transformation",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-to-line",
+      "deduit": true
+    },
+    {
+      "id": "vue-defaut",
+      "nom": "Vue par défaut",
+      "groupe": "Affichage",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-3d",
+      "deduit": true
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Affichage",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-top",
+      "deduit": true
+    },
+    {
+      "id": "vue-face",
+      "nom": "Vue de face",
+      "groupe": "Affichage",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-bottom",
+      "deduit": true
+    },
+    {
+      "id": "vue-cote",
+      "nom": "Vue de côté",
+      "groupe": "Affichage",
+      "win": "ctrl+4",
+      "mac": "cmd+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left",
+      "deduit": true
+    },
+    {
+      "id": "filaire",
+      "nom": "Filaire",
+      "groupe": "Affichage",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "frame",
+      "deduit": true
+    },
+    {
+      "id": "coupe-transversale",
+      "nom": "Coupe transversale",
+      "groupe": "Affichage",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "preparer-impression",
+      "nom": "Préparer impr.",
+      "groupe": "Outils",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "panneau-machine",
+      "nom": "Panneau machine",
+      "groupe": "Outils",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings-2",
+      "deduit": true
+    },
+    {
+      "id": "supports",
+      "nom": "Supports",
+      "groupe": "Outils",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Sélection multiple de modèles",
+      "raison": "souris (Maj + clic)"
+    },
+    {
+      "nom": "Déplacer le plateau",
+      "raison": "souris (clic gauche + glisser)"
+    },
+    {
+      "nom": "Orienter le plateau",
+      "raison": "souris (clic droit + glisser)"
+    },
+    {
+      "nom": "Zoom sur le plateau",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rode-central",
+  "nom": "Rode Central",
+  "editeur": "RØDE Microphones",
+  "site": "https://rode.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "RODE Central", "mac": "RODE Central" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Gestionnaire de firmware et réglages des micros RØDE sans raccourcis clavier documentés. Aucune source consultable n'a pu confirmer de raccourci (recherche web indisponible). Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Mises à jour du firmware", "raison": "réglage sans raccourci" } ]
+}

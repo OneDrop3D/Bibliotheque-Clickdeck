@@ -1,0 +1,19 @@
+{
+  "id": "nimbus-capture",
+  "nom": "Nimbus Capture",
+  "editeur": "Nimbus Tools",
+  "site": "https://nimbus.guru/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Nimbus Capture", "mac": "Nimbus Capture" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci relevé : le site officiel n'a pas pu être lu (connexion interrompue) et aucune source fiable n'a été trouvée, la recherche web étant épuisée. Fichier à compléter avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Capture (raccourcis non vérifiés)", "raison": "raccourcis par défaut non relevés" }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+ "id": "chromium",
+ "nom": "Chromium",
+ "editeur": "Projet Chromium",
+ "site": "https://www.chromium.org",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "Chromium",
+  "mac": "Chromium"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Navigateurs, communication & réseau desktop",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis repris de la page d'aide de Google Chrome (même navigateur de base) ; à vérifier sur Chromium. Mac : « Recharger » (cmd+r) absent de la source, déduit du standard Chrome Mac. Plein écran Mac non retenu (la source indique Fn+f, douteux). Recherche d'onglets : non retenue.",
+ "sources": [
+  {
+   "url": "https://support.google.com/chrome/answer/157179",
+   "titre": "Raccourcis clavier Google Chrome (aide Google)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouvel-onglet",
+   "nom": "Nouvel onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+t",
+   "mac": "cmd+t",
+   "linux": "ctrl+t",
+   "source": 0,
+   "priorite": 1,
+   "picto": "plus"
+  },
+  {
+   "id": "fermer-onglet",
+   "nom": "Fermer l'onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+w",
+   "mac": "cmd+w",
+   "linux": "ctrl+w",
+   "source": 0,
+   "priorite": 1,
+   "picto": "x"
+  },
+  {
+   "id": "rouvrir-onglet",
+   "nom": "Rouvrir l'onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+t",
+   "mac": "cmd+shift+t",
+   "linux": "ctrl+shift+t",
+   "source": 0,
+   "priorite": 1,
+   "picto": "undo"
+  },
+  {
+   "id": "onglet-suivant",
+   "nom": "Onglet suivant",
+   "groupe": "Onglets",
+   "win": "ctrl+tab",
+   "mac": "cmd+alt+right",
+   "linux": "ctrl+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "onglet-precedent",
+   "nom": "Onglet précédent",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+tab",
+   "mac": "cmd+alt+left",
+   "linux": "ctrl+shift+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "adresse",
+   "nom": "Barre d'adresse",
+   "groupe": "Navigation",
+   "win": "ctrl+l",
+   "mac": "cmd+l",
+   "linux": "ctrl+l",
+   "source": 0,
+   "priorite": 1,
+   "picto": "link"
+  },
+  {
+   "id": "recharger",
+   "nom": "Recharger",
+   "groupe": "Navigation",
+   "win": "ctrl+r",
+   "mac": "cmd+r",
+   "linux": "ctrl+r",
+   "source": 0,
+   "priorite": 1,
+   "picto": "refresh-cw",
+   "deduit": true
+  },
+  {
+   "id": "recharger-sans-cache",
+   "nom": "Rechargement forcé",
+   "groupe": "Navigation",
+   "win": "ctrl+shift+r",
+   "mac": "cmd+shift+r",
+   "linux": "ctrl+shift+r",
+   "source": 0,
+   "priorite": 1,
+   "picto": "refresh-ccw"
+  },
+  {
+   "id": "historique",
+   "nom": "Historique",
+   "groupe": "Navigation",
+   "win": "ctrl+h",
+   "mac": "cmd+y",
+   "linux": "ctrl+h",
+   "source": 0,
+   "priorite": 1,
+   "picto": "history"
+  },
+  {
+   "id": "telechargements",
+   "nom": "Téléchargements",
+   "groupe": "Navigation",
+   "win": "ctrl+j",
+   "mac": "cmd+shift+j",
+   "linux": "ctrl+j",
+   "source": 0,
+   "priorite": 1,
+   "picto": "download"
+  },
+  {
+   "id": "ajouter-favori",
+   "nom": "Ajouter favori",
+   "groupe": "Favoris",
+   "win": "ctrl+d",
+   "mac": "cmd+d",
+   "linux": "ctrl+d",
+   "source": 0,
+   "priorite": 1,
+   "picto": "bookmark"
+  },
+  {
+   "id": "barre-favoris",
+   "nom": "Barre des favoris",
+   "groupe": "Favoris",
+   "win": "ctrl+shift+b",
+   "mac": "cmd+shift+b",
+   "linux": "ctrl+shift+b",
+   "source": 0,
+   "priorite": 3,
+   "picto": "bookmark-plus"
+  },
+  {
+   "id": "gestionnaire-favoris",
+   "nom": "Gestion favoris",
+   "groupe": "Favoris",
+   "win": "ctrl+shift+o",
+   "mac": "cmd+alt+b",
+   "linux": "ctrl+shift+o",
+   "source": 0,
+   "priorite": 3,
+   "picto": "bookmark"
+  },
+  {
+   "id": "zoom-avant",
+   "nom": "Zoom avant",
+   "groupe": "Affichage",
+   "win": "ctrl+equal",
+   "mac": "cmd+equal",
+   "linux": "ctrl+equal",
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "zoom-arriere",
+   "nom": "Zoom arrière",
+   "groupe": "Affichage",
+   "win": "ctrl+minus",
+   "mac": "cmd+minus",
+   "linux": "ctrl+minus",
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "zoom-normal",
+   "nom": "Zoom 100 %",
+   "groupe": "Affichage",
+   "win": "ctrl+0",
+   "mac": "cmd+0",
+   "linux": "ctrl+0",
+   "source": 0,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "fenetre-privee",
+   "nom": "Navigation privée",
+   "groupe": "Vie privée",
+   "win": "ctrl+shift+n",
+   "mac": "cmd+shift+n",
+   "linux": "ctrl+shift+n",
+   "source": 0,
+   "priorite": 1,
+   "picto": "eye-off"
+  },
+  {
+   "id": "nouvelle-fenetre",
+   "nom": "Nouvelle fenêtre",
+   "groupe": "Onglets",
+   "win": "ctrl+n",
+   "mac": "cmd+n",
+   "linux": "ctrl+n",
+   "source": 0,
+   "priorite": 1,
+   "picto": "app-window",
+   "deduit": true
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Navigation",
+   "win": "ctrl+f",
+   "mac": "cmd+f",
+   "linux": "ctrl+f",
+   "source": 0,
+   "priorite": 1,
+   "picto": "search",
+   "deduit": true
+  },
+  {
+   "id": "outils-dev",
+   "nom": "Outils développeur",
+   "groupe": "Affichage",
+   "win": "f12",
+   "mac": "cmd+alt+i",
+   "linux": "f12",
+   "source": 0,
+   "priorite": 1,
+   "picto": "terminal"
+  },
+  {
+   "id": "imprimer",
+   "nom": "Imprimer",
+   "groupe": "Page",
+   "win": "ctrl+p",
+   "mac": "cmd+p",
+   "linux": "ctrl+p",
+   "source": 0,
+   "priorite": 1,
+   "picto": "printer",
+   "deduit": true
+  },
+  {
+   "id": "enregistrer-page",
+   "nom": "Enregistrer page",
+   "groupe": "Page",
+   "win": "ctrl+s",
+   "mac": "cmd+s",
+   "linux": "ctrl+s",
+   "source": 0,
+   "priorite": 3,
+   "picto": "save",
+   "deduit": true
+  },
+  {
+   "id": "code-source",
+   "nom": "Code source",
+   "groupe": "Page",
+   "win": "ctrl+u",
+   "mac": "cmd+alt+u",
+   "linux": "ctrl+u",
+   "source": 0,
+   "priorite": 3,
+   "picto": "code"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "f11",
+   "mac": null,
+   "linux": "f11",
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize"
+  },
+  {
+   "id": "favoris-onglets",
+   "nom": "Onglets en favoris",
+   "groupe": "Favoris",
+   "win": "ctrl+shift+d",
+   "mac": "cmd+shift+d",
+   "linux": "ctrl+shift+d",
+   "source": 0,
+   "priorite": 3,
+   "picto": "bookmark-check"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Zoom à la molette",
+   "raison": "molette"
+  }
+ ]
+}

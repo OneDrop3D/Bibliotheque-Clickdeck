@@ -1,0 +1,34 @@
+{
+  "id": "protonvpn",
+  "nom": "ProtonVPN",
+  "editeur": "Proton AG",
+  "site": "https://protonvpn.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "ProtonVPN",
+    "mac": "ProtonVPN"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de connexion VPN à une fenêtre : la page officielle lue ne documente aucun raccourci clavier. Pack de lancement.",
+  "sources": [
+    {
+      "url": "https://protonvpn.com/support/",
+      "titre": "ProtonVPN - centre d aide"
+    }
+  ],
+  "actions": [],
+  "non_faisable": [
+    {
+      "nom": "Connecter / déconnecter le VPN",
+      "raison": "aucun raccourci vérifié"
+    }
+  ],
+  "panne": false
+}

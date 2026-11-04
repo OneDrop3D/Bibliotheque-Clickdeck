@@ -1,0 +1,291 @@
+{
+  "id": "final-cut-pro",
+  "nom": "Final Cut Pro",
+  "editeur": "Apple",
+  "site": "https://www.apple.com/final-cut-pro/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Final Cut Pro"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Mac uniquement. Seules les combinaisons lues dans le guide Apple (version 12.4) sont listées ; lecture, sélection, trim, insertion, marques et export n'ont pas pu être lus dans la version tronquée et ne sont pas inclus. Commandes standard repérées avec deduit. Pour le reste, Option+Cmd+K ouvre l'éditeur de commandes de l'app.",
+  "sources": [
+    {
+      "url": "https://support.apple.com/guide/final-cut-pro/ver90ba5929/mac",
+      "titre": "Apple - Keyboard shortcuts in Final Cut Pro for Mac (guide 12.4)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "couper_curseur",
+      "nom": "Couper au curseur",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "couper_tout",
+      "nom": "Couper tout",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "shift+cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "connecter",
+      "nom": "Connecter",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "connecter_retour",
+      "nom": "Connecter (retour)",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "shift+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "link-2"
+    },
+    {
+      "id": "ajouter_fin",
+      "nom": "Ajouter à la fin",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "supprimer_sans_combler",
+      "nom": "Supprimer en vide",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "alt+cmd+delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eraser"
+    },
+    {
+      "id": "activer_clip",
+      "nom": "Activer clip",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "allonger_montage",
+      "nom": "Prolonger montage",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "shift+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "step-forward"
+    },
+    {
+      "id": "modifier_duree",
+      "nom": "Modifier la durée",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "ctrl+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "timer"
+    },
+    {
+      "id": "detecter_coupures",
+      "nom": "Détecter coupures",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "creer_storyline",
+      "nom": "Créer storyline",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layers"
+    },
+    {
+      "id": "connecter_titre",
+      "nom": "Connecter titre",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "ctrl+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "type"
+    },
+    {
+      "id": "detacher_audio",
+      "nom": "Détacher l'audio",
+      "groupe": "Montage",
+      "win": null,
+      "mac": "ctrl+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "tout_deselectionner",
+      "nom": "Tout désélectionner",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "shift+cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "shift+cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout_selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir_bibliotheque",
+      "nom": "Ouvrir la biblio",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Lecture, marques, insertion et trim (non lus)",
+      "raison": "guide tronqué, à compléter depuis Option+Cmd+K"
+    }
+  ]
+}

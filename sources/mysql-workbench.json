@@ -1,0 +1,310 @@
+{
+  "id": "mysql-workbench",
+  "nom": "MySQL Workbench",
+  "editeur": "Oracle",
+  "site": "https://www.mysql.com/products/workbench/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "MySQL Workbench",
+    "mac": "MySQL Workbench"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de la page officielle Keyboard Shortcuts (dev.mysql.com), où Modifier = Ctrl (Windows) ou Cmd (macOS). Ceux de l'éditeur SQL sont actifs seulement dans cet onglet. Complétion automatique (Modifier+Espace) non reprise car Cmd+Espace est réservé au Mac. Tout sélectionner est standard, déduit.",
+  "sources": [
+    {
+      "url": "https://dev.mysql.com/doc/workbench/en/wb-keys.html",
+      "titre": "MySQL Workbench - Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "executer-instruction",
+      "nom": "Exécuter requête",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "executer-script",
+      "nom": "Exécuter tout",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+enter",
+      "mac": "cmd+shift+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "nouvel-onglet-sql",
+      "nom": "Nouvel onglet SQL",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "ouvrir-script",
+      "nom": "Ouvrir script SQL",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer-script",
+      "nom": "Enregistrer script",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "embellir",
+      "nom": "Embellir requête",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter lignes",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square-code"
+    },
+    {
+      "id": "recherche-avancee",
+      "nom": "Recherche avancée",
+      "groupe": "Édition",
+      "win": "ctrl+alt+f",
+      "mac": "cmd+alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "search-code"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivante",
+      "groupe": "Édition",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédente",
+      "groupe": "Édition",
+      "win": "shift+f3",
+      "mac": "shift+f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-select",
+      "deduit": true
+    },
+    {
+      "id": "fenetre-sortie",
+      "nom": "Fenêtre de sortie",
+      "groupe": "Affichage",
+      "win": "ctrl+f2",
+      "mac": "cmd+alt+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "interroger-base",
+      "nom": "Interroger la base",
+      "groupe": "Base de données",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "database"
+    },
+    {
+      "id": "console-script",
+      "nom": "Console de script",
+      "groupe": "Affichage",
+      "win": "ctrl+f3",
+      "mac": "cmd+alt+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-terminal"
+    },
+    {
+      "id": "aide",
+      "nom": "Index de l'aide",
+      "groupe": "Aide",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Complétion automatique",
+      "raison": "Cmd+Espace réservé au système sur Mac"
+    }
+  ]
+}

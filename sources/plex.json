@@ -1,0 +1,28 @@
+{
+  "id": "plex",
+  "nom": "Plex Desktop",
+  "editeur": "Plex",
+  "site": "https://www.plex.tv/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Plex",
+    "mac": "Plex"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis non vérifiés : la page d'aide officielle Plex renvoie une erreur 403. L'action Ouvrir précédemment proposée a été retirée (Plex n'a pas de commande Ouvrir un fichier). Fichier utilisable seulement en pack de lancement.",
+  "sources": [
+    {
+      "url": "https://support.plex.tv/articles/201780008-keyboard-shortcuts-for-plex-web/",
+      "titre": "Plex : raccourcis clavier (page non accessible)"
+    }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

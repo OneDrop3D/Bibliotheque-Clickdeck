@@ -1,0 +1,414 @@
+{
+  "id": "netfabb",
+  "nom": "Netfabb",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/netfabb/overview",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Netfabb"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de l'aide Autodesk (édition 2025). Ctrl+C copie une référence de pièce depuis 2025 (la capture d'écran est sur Maj+Ctrl+P). Les fonctions du module Réparation n'ont pas de raccourci par défaut.",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2025/ENU/NETF/files/GUID-84E7122E-7C06-4175-BA4D-49F3C05D7DEE.htm",
+      "titre": "Keyboard shortcuts (Netfabb 2025)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "dupliquer-plateau",
+      "nom": "Dupliquer plateau",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "dupliquer-meme-place",
+      "nom": "Dupl. même place",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-check"
+    },
+    {
+      "id": "copier-reference",
+      "nom": "Copier référence",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Édition",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Édition",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-projet",
+      "nom": "Ouvrir projet",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer-projet",
+      "nom": "Enregistrer projet",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Fichier",
+      "win": "shift+ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "camera"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-selection",
+      "nom": "Zoom sélection",
+      "groupe": "Affichage",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "vue-accueil",
+      "nom": "Vue d'accueil",
+      "groupe": "Affichage",
+      "win": "h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "house"
+    },
+    {
+      "id": "vue-suivante",
+      "nom": "Vue suivante",
+      "groupe": "Affichage",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "vue-precedente",
+      "nom": "Vue précédente",
+      "groupe": "Affichage",
+      "win": "shift+space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "afficher-plateau",
+      "nom": "Afficher plateau",
+      "groupe": "Affichage",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "couleur-texture",
+      "nom": "Couleur et texture",
+      "groupe": "Affichage",
+      "win": "ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "palette"
+    },
+    {
+      "id": "pivoter",
+      "nom": "Pivoter pièces",
+      "groupe": "Transformation",
+      "win": "shift+ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "rotation-x",
+      "nom": "Rotation autour X",
+      "groupe": "Transformation",
+      "win": "x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "rotation-y",
+      "nom": "Rotation autour Y",
+      "groupe": "Transformation",
+      "win": "y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "rotation-z",
+      "nom": "Rotation autour Z",
+      "groupe": "Transformation",
+      "win": "z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "echelle",
+      "nom": "Mettre à l'échelle",
+      "groupe": "Transformation",
+      "win": "shift+ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scaling"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer pièces",
+      "groupe": "Transformation",
+      "win": "shift+ctrl+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "orienter",
+      "nom": "Orienter pièce",
+      "groupe": "Transformation",
+      "win": "shift+ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "compass"
+    },
+    {
+      "id": "poser-plateau",
+      "nom": "Poser sur plateau",
+      "groupe": "Transformation",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "aligner",
+      "nom": "Aligner pièces",
+      "groupe": "Transformation",
+      "win": "f7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-center"
+    },
+    {
+      "id": "masquer-pieces",
+      "nom": "Masquer pièces",
+      "groupe": "Visibilité",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye-off"
+    },
+    {
+      "id": "afficher-pieces",
+      "nom": "Afficher pièces",
+      "groupe": "Visibilité",
+      "win": "shift+ctrl+h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "collision",
+      "nom": "Détecter collisions",
+      "groupe": "Visibilité",
+      "win": "ctrl+k",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "git-compare"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Réparation automatique",
+      "raison": "module Réparation sans raccourci par défaut"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Rotation de la vue à la souris",
+      "raison": "souris"
+    }
+  ]
+}

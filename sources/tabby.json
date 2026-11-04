@@ -1,0 +1,358 @@
+{
+ "id": "tabby",
+ "nom": "Tabby",
+ "editeur": "Eugeny",
+ "site": "https://tabby.sh",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "Tabby",
+  "mac": "Tabby",
+  "linux": "tabby"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Développement & terminal (desktop)",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis relevés dans les fichiers de configuration par défaut du dépôt Tabby (configDefaults.*.yaml, config.ts). Sous Windows/Linux, Ctrl+C reste l'interruption ; copier = Ctrl+Shift+C. Fermer panneau et Effacer n'ont pas de raccourci par défaut sous Windows/Linux.",
+ "sources": [
+  {
+   "url": "https://github.com/Eugeny/tabby/tree/master/tabby-core/src",
+   "titre": "Tabby - configDefaults.yaml / .macos / .windows / .linux"
+  },
+  {
+   "url": "https://github.com/Eugeny/tabby/blob/master/tabby-terminal/src/config.ts",
+   "titre": "Tabby - tabby-terminal config.ts (copier, coller, zoom, recherche)"
+  },
+  {
+   "url": "https://github.com/Eugeny/tabby/blob/master/tabby-local/src/config.ts",
+   "titre": "Tabby - tabby-local config.ts (nouvel onglet)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouvel-onglet",
+   "nom": "Nouvel onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+t",
+   "mac": "cmd+t",
+   "linux": "ctrl+shift+t",
+   "source": 2,
+   "priorite": 1,
+   "picto": "plus"
+  },
+  {
+   "id": "fermer-onglet",
+   "nom": "Fermer onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+w",
+   "mac": "cmd+w",
+   "linux": "ctrl+shift+w",
+   "source": 0,
+   "priorite": 1,
+   "picto": "x"
+  },
+  {
+   "id": "rouvrir-onglet",
+   "nom": "Rouvrir onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+z",
+   "mac": "cmd+shift+t",
+   "linux": "ctrl+shift+z",
+   "source": 0,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "onglet-suivant",
+   "nom": "Onglet suivant",
+   "groupe": "Onglets",
+   "win": "ctrl+tab",
+   "mac": "ctrl+tab",
+   "linux": "ctrl+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-right"
+  },
+  {
+   "id": "onglet-precedent",
+   "nom": "Onglet précédent",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+tab",
+   "mac": "ctrl+shift+tab",
+   "linux": "ctrl+shift+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-left"
+  },
+  {
+   "id": "onglet-1",
+   "nom": "Onglet 1",
+   "groupe": "Onglets",
+   "win": "alt+1",
+   "mac": "cmd+1",
+   "linux": "alt+1",
+   "source": 0,
+   "priorite": 2,
+   "picto": "hash"
+  },
+  {
+   "id": "onglet-2",
+   "nom": "Onglet 2",
+   "groupe": "Onglets",
+   "win": "alt+2",
+   "mac": "cmd+2",
+   "linux": "alt+2",
+   "source": 0,
+   "priorite": 2,
+   "picto": "hash"
+  },
+  {
+   "id": "renommer-onglet",
+   "nom": "Renommer onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+r",
+   "mac": "cmd+r",
+   "linux": "ctrl+shift+r",
+   "source": 0,
+   "priorite": 2,
+   "picto": "pencil"
+  },
+  {
+   "id": "onglet-a-gauche",
+   "nom": "Onglet à gauche",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+pageup",
+   "mac": "cmd+shift+left",
+   "linux": "ctrl+shift+pageup",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "onglet-a-droite",
+   "nom": "Onglet à droite",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+pagedown",
+   "mac": "cmd+shift+right",
+   "linux": "ctrl+shift+pagedown",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "diviser-droite",
+   "nom": "Diviser à droite",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+s",
+   "mac": "cmd+shift+d",
+   "linux": "ctrl+shift+s",
+   "source": 0,
+   "priorite": 1,
+   "picto": "columns-2"
+  },
+  {
+   "id": "diviser-bas",
+   "nom": "Diviser en bas",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+d",
+   "mac": "cmd+d",
+   "linux": "ctrl+shift+d",
+   "source": 0,
+   "priorite": 1,
+   "picto": "rows-2"
+  },
+  {
+   "id": "panneau-gauche",
+   "nom": "Panneau gauche",
+   "groupe": "Panneaux",
+   "win": "ctrl+alt+left",
+   "mac": "cmd+alt+left",
+   "linux": "ctrl+alt+left",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "panneau-droite",
+   "nom": "Panneau droite",
+   "groupe": "Panneaux",
+   "win": "ctrl+alt+right",
+   "mac": "cmd+alt+right",
+   "linux": "ctrl+alt+right",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "panneau-haut",
+   "nom": "Panneau du haut",
+   "groupe": "Panneaux",
+   "win": "ctrl+alt+up",
+   "mac": "cmd+alt+up",
+   "linux": "ctrl+alt+up",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-up"
+  },
+  {
+   "id": "panneau-bas",
+   "nom": "Panneau du bas",
+   "groupe": "Panneaux",
+   "win": "ctrl+alt+down",
+   "mac": "cmd+alt+down",
+   "linux": "ctrl+alt+down",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-down"
+  },
+  {
+   "id": "maximiser-panneau",
+   "nom": "Maximiser panneau",
+   "groupe": "Panneaux",
+   "win": "ctrl+alt+enter",
+   "mac": "cmd+alt+enter",
+   "linux": "ctrl+alt+enter",
+   "source": 0,
+   "priorite": 2,
+   "picto": "maximize"
+  },
+  {
+   "id": "fermer-panneau",
+   "nom": "Fermer panneau",
+   "groupe": "Panneaux",
+   "win": null,
+   "mac": "cmd+shift+w",
+   "linux": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "square-x"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "f11",
+   "mac": "ctrl+cmd+f",
+   "linux": "f11",
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize-2"
+  },
+  {
+   "id": "agrandir-texte",
+   "nom": "Agrandir texte",
+   "groupe": "Affichage",
+   "win": "ctrl+equal",
+   "mac": "cmd+equal",
+   "linux": "ctrl+equal",
+   "source": 1,
+   "priorite": 1,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "reduire-texte",
+   "nom": "Réduire texte",
+   "groupe": "Affichage",
+   "win": "ctrl+minus",
+   "mac": "cmd+minus",
+   "linux": "ctrl+minus",
+   "source": 1,
+   "priorite": 1,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "taille-normale",
+   "nom": "Taille normale",
+   "groupe": "Affichage",
+   "win": "ctrl+0",
+   "mac": "cmd+0",
+   "linux": "ctrl+0",
+   "source": 1,
+   "priorite": 1,
+   "picto": "rotate-ccw"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+shift+c",
+   "mac": "cmd+c",
+   "linux": "ctrl+shift+c",
+   "source": 1,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+shift+v",
+   "mac": "cmd+v",
+   "linux": "ctrl+shift+v",
+   "source": 1,
+   "priorite": 1,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Édition",
+   "win": "ctrl+shift+f",
+   "mac": "cmd+f",
+   "linux": "ctrl+shift+f",
+   "source": 1,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": "ctrl+shift+a",
+   "mac": "cmd+a",
+   "linux": "ctrl+shift+a",
+   "source": 1,
+   "priorite": 2,
+   "picto": "text-select"
+  },
+  {
+   "id": "effacer",
+   "nom": "Effacer le terminal",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+k",
+   "linux": null,
+   "source": 1,
+   "priorite": 2,
+   "picto": "eraser"
+  },
+  {
+   "id": "palette-commandes",
+   "nom": "Palette commandes",
+   "groupe": "Commandes",
+   "win": "ctrl+shift+p",
+   "mac": "cmd+shift+p",
+   "linux": "ctrl+shift+p",
+   "source": 0,
+   "priorite": 1,
+   "picto": "terminal"
+  },
+  {
+   "id": "selecteur-profil",
+   "nom": "Sélecteur profil",
+   "groupe": "Commandes",
+   "win": "ctrl+shift+e",
+   "mac": "cmd+e",
+   "linux": "ctrl+shift+e",
+   "source": 0,
+   "priorite": 1,
+   "picto": "list"
+  }
+ ],
+ "non_faisable": []
+}

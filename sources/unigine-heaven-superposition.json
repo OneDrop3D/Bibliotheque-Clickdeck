@@ -1,0 +1,19 @@
+{
+  "id": "unigine-heaven-superposition",
+  "nom": "Unigine Heaven/Superposition",
+  "editeur": "Unigine",
+  "site": "https://benchmark.unigine.com/superposition",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Superposition" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier documenté sur la page officielle de Superposition. Heaven est un ancien benchmark Unigine, non documenté ici. Plateformes à vérifier : seule la page Superposition a été consultée.",
+  "sources": [
+    { "url": "https://benchmark.unigine.com/superposition", "titre": "Superposition - Unigine (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": []
+}

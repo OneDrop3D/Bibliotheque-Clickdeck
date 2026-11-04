@@ -1,0 +1,23 @@
+{
+  "id": "whatsapp",
+  "nom": "WhatsApp",
+  "editeur": "Meta",
+  "site": "https://www.whatsapp.com/download",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "WhatsApp",
+    "mac": "WhatsApp"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune action relevée : les pages d'aide WhatsApp ouvertes (faq.whatsapp.com) renvoient « Page introuvable » et aucune source de raccourcis n'a pu être lue. Aucun raccourci ajouté faute de source.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

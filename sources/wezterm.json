@@ -1,0 +1,369 @@
+{
+ "id": "wezterm",
+ "nom": "WezTerm",
+ "editeur": "Wez Furlong",
+ "site": "https://wezterm.org",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "WezTerm",
+  "mac": "WezTerm",
+  "linux": "wezterm"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Développement & terminal (desktop)",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis par défaut de la documentation officielle (la page ne distingue pas les systèmes : sur Mac, SUPER = Cmd). Les combinaisons Ctrl+Shift existent aussi sous Mac ; elles sont reprises avec deduit=true là où Cmd n'a pas d'équivalent. Ctrl+Shift évite les conflits avec le shell.",
+ "sources": [
+  {
+   "url": "https://wezterm.org/config/default-keys.html",
+   "titre": "WezTerm - Default key assignments"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouvel-onglet",
+   "nom": "Nouvel onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+t",
+   "mac": "cmd+t",
+   "linux": "ctrl+shift+t",
+   "source": 0,
+   "priorite": 1,
+   "picto": "plus"
+  },
+  {
+   "id": "fermer-onglet",
+   "nom": "Fermer onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+w",
+   "mac": "cmd+w",
+   "linux": "ctrl+shift+w",
+   "source": 0,
+   "priorite": 1,
+   "picto": "x"
+  },
+  {
+   "id": "onglet-suivant",
+   "nom": "Onglet suivant",
+   "groupe": "Onglets",
+   "win": "ctrl+tab",
+   "mac": "cmd+shift+bracketright",
+   "linux": "ctrl+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-right"
+  },
+  {
+   "id": "onglet-precedent",
+   "nom": "Onglet précédent",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+tab",
+   "mac": "cmd+shift+bracketleft",
+   "linux": "ctrl+shift+tab",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-left"
+  },
+  {
+   "id": "onglet-1",
+   "nom": "Onglet 1",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+1",
+   "mac": "cmd+1",
+   "linux": "ctrl+shift+1",
+   "source": 0,
+   "priorite": 2,
+   "picto": "hash"
+  },
+  {
+   "id": "dernier-onglet",
+   "nom": "Dernier onglet",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+9",
+   "mac": "cmd+9",
+   "linux": "ctrl+shift+9",
+   "source": 0,
+   "priorite": 3,
+   "picto": "chevrons-right"
+  },
+  {
+   "id": "diviser-vertical",
+   "nom": "Diviser en bas",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+alt+quote",
+   "mac": "ctrl+shift+alt+quote",
+   "linux": "ctrl+shift+alt+quote",
+   "source": 0,
+   "priorite": 1,
+   "picto": "rows-2",
+   "deduit": true
+  },
+  {
+   "id": "diviser-horizontal",
+   "nom": "Diviser à droite",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+alt+5",
+   "mac": "ctrl+shift+alt+5",
+   "linux": "ctrl+shift+alt+5",
+   "source": 0,
+   "priorite": 1,
+   "picto": "columns-2",
+   "deduit": true
+  },
+  {
+   "id": "panneau-gauche",
+   "nom": "Panneau gauche",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+left",
+   "mac": "ctrl+shift+left",
+   "linux": "ctrl+shift+left",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-left",
+   "deduit": true
+  },
+  {
+   "id": "panneau-droite",
+   "nom": "Panneau droite",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+right",
+   "mac": "ctrl+shift+right",
+   "linux": "ctrl+shift+right",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-right",
+   "deduit": true
+  },
+  {
+   "id": "panneau-haut",
+   "nom": "Panneau du haut",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+up",
+   "mac": "ctrl+shift+up",
+   "linux": "ctrl+shift+up",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-up",
+   "deduit": true
+  },
+  {
+   "id": "panneau-bas",
+   "nom": "Panneau du bas",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+down",
+   "mac": "ctrl+shift+down",
+   "linux": "ctrl+shift+down",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-down",
+   "deduit": true
+  },
+  {
+   "id": "zoom-panneau",
+   "nom": "Zoom panneau",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+z",
+   "mac": "ctrl+shift+z",
+   "linux": "ctrl+shift+z",
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize",
+   "deduit": true
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "alt+enter",
+   "mac": "alt+enter",
+   "linux": "alt+enter",
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize-2",
+   "deduit": true
+  },
+  {
+   "id": "agrandir-texte",
+   "nom": "Agrandir texte",
+   "groupe": "Affichage",
+   "win": "ctrl+equal",
+   "mac": "cmd+equal",
+   "linux": "ctrl+equal",
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-in"
+  },
+  {
+   "id": "reduire-texte",
+   "nom": "Réduire texte",
+   "groupe": "Affichage",
+   "win": "ctrl+minus",
+   "mac": "cmd+minus",
+   "linux": "ctrl+minus",
+   "source": 0,
+   "priorite": 1,
+   "picto": "zoom-out"
+  },
+  {
+   "id": "taille-normale",
+   "nom": "Taille normale",
+   "groupe": "Affichage",
+   "win": "ctrl+0",
+   "mac": "cmd+0",
+   "linux": "ctrl+0",
+   "source": 0,
+   "priorite": 1,
+   "picto": "rotate-ccw"
+  },
+  {
+   "id": "nouvelle-fenetre",
+   "nom": "Nouvelle fenêtre",
+   "groupe": "Affichage",
+   "win": "ctrl+shift+n",
+   "mac": "cmd+n",
+   "linux": "ctrl+shift+n",
+   "source": 0,
+   "priorite": 1,
+   "picto": "app-window"
+  },
+  {
+   "id": "recharger-config",
+   "nom": "Recharger config",
+   "groupe": "Affichage",
+   "win": "ctrl+shift+r",
+   "mac": "cmd+r",
+   "linux": "ctrl+shift+r",
+   "source": 0,
+   "priorite": 3,
+   "picto": "refresh-cw"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+shift+c",
+   "mac": "cmd+c",
+   "linux": "ctrl+shift+c",
+   "source": 0,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+shift+v",
+   "mac": "cmd+v",
+   "linux": "ctrl+shift+v",
+   "source": 0,
+   "priorite": 1,
+   "picto": "clipboard-paste"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Édition",
+   "win": "ctrl+shift+f",
+   "mac": "cmd+f",
+   "linux": "ctrl+shift+f",
+   "source": 0,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "palette-commandes",
+   "nom": "Palette commandes",
+   "groupe": "Édition",
+   "win": "ctrl+shift+p",
+   "mac": "ctrl+shift+p",
+   "linux": "ctrl+shift+p",
+   "source": 0,
+   "priorite": 1,
+   "picto": "terminal",
+   "deduit": true
+  },
+  {
+   "id": "vider-historique",
+   "nom": "Vider historique",
+   "groupe": "Édition",
+   "win": "ctrl+shift+k",
+   "mac": "cmd+k",
+   "linux": "ctrl+shift+k",
+   "source": 0,
+   "priorite": 2,
+   "picto": "eraser"
+  },
+  {
+   "id": "mode-copie",
+   "nom": "Mode copie",
+   "groupe": "Édition",
+   "win": "ctrl+shift+x",
+   "mac": "ctrl+shift+x",
+   "linux": "ctrl+shift+x",
+   "source": 0,
+   "priorite": 3,
+   "picto": "mouse-pointer-click",
+   "deduit": true
+  },
+  {
+   "id": "selection-rapide",
+   "nom": "Sélection rapide",
+   "groupe": "Édition",
+   "win": "ctrl+shift+space",
+   "mac": "ctrl+shift+space",
+   "linux": "ctrl+shift+space",
+   "source": 0,
+   "priorite": 3,
+   "picto": "scan-search",
+   "deduit": true
+  },
+  {
+   "id": "caracteres",
+   "nom": "Caractères",
+   "groupe": "Édition",
+   "win": "ctrl+shift+u",
+   "mac": "ctrl+shift+u",
+   "linux": "ctrl+shift+u",
+   "source": 0,
+   "priorite": 3,
+   "picto": "type",
+   "deduit": true
+  },
+  {
+   "id": "deplacer-onglet-gauche",
+   "nom": "Onglet à gauche",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+pageup",
+   "mac": "ctrl+shift+pageup",
+   "linux": "ctrl+shift+pageup",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-left-to-line",
+   "deduit": true
+  },
+  {
+   "id": "deplacer-onglet-droite",
+   "nom": "Onglet à droite",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+pagedown",
+   "mac": "ctrl+shift+pagedown",
+   "linux": "ctrl+shift+pagedown",
+   "source": 0,
+   "priorite": 3,
+   "picto": "arrow-right-to-line",
+   "deduit": true
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Zoom à la molette",
+   "raison": "molette"
+  }
+ ]
+}

@@ -1,0 +1,516 @@
+{
+  "id": "figma",
+  "nom": "Figma",
+  "editeur": "Figma",
+  "site": "https://www.figma.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Figma",
+    "mac": "Figma"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "recoupee",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page officielle des raccourcis d'outils illisible (image). Raccourcis recoupés par trois guides tiers récents concordants ; zoom confirmé par l'aide Figma. Mac : mêmes lettres, Ctrl devient Cmd (indiqué par les sources). Ctrl+Maj+H sert aussi à d'autres fonctions selon les guides : vérifier.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/blog/figma-shortcuts/",
+      "titre": "Tutorial Tactic - Figma shortcuts (juil. 2026, tierce)"
+    },
+    {
+      "url": "https://verpex.com/blog/marketing-tips/essential-figma-shortcuts-you-need-to-know",
+      "titre": "Verpex - Essential Figma shortcuts (août 2025, tierce)"
+    },
+    {
+      "url": "https://www.skillademia.com/shortcuts/figma-shortcuts/",
+      "titre": "Skillademia - Figma shortcuts (2026, tierce)"
+    },
+    {
+      "url": "https://help.figma.com/hc/en-us/articles/360040328653-Keyboard-shortcuts-in-Figma",
+      "titre": "Figma Help - Keyboard shortcuts in Figma (officielle, zoom)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 2,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "search"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Outils",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "cadre",
+      "nom": "Cadre",
+      "groupe": "Outils",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "frame"
+    },
+    {
+      "id": "rectangle",
+      "nom": "Rectangle",
+      "groupe": "Outils",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ellipse",
+      "nom": "Ellipse",
+      "groupe": "Outils",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Outils",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "fleche",
+      "nom": "Flèche",
+      "groupe": "Outils",
+      "win": "shift+l",
+      "mac": "shift+l",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "move-up-right"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "plume",
+      "nom": "Plume",
+      "groupe": "Outils",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "crayon",
+      "nom": "Crayon",
+      "groupe": "Outils",
+      "win": "shift+p",
+      "mac": "shift+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "commentaire",
+      "nom": "Commentaire",
+      "groupe": "Outils",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "message-circle"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pipette"
+    },
+    {
+      "id": "decoupe",
+      "nom": "Tranche",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "slice"
+    },
+    {
+      "id": "grouper",
+      "nom": "Grouper",
+      "groupe": "Objets",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "degrouper",
+      "nom": "Dégrouper",
+      "groupe": "Objets",
+      "win": "ctrl+shift+g",
+      "mac": "cmd+shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ungroup"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Objets",
+      "win": "ctrl+shift+l",
+      "mac": "cmd+shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "masquer",
+      "nom": "Masquer / afficher",
+      "groupe": "Objets",
+      "win": "ctrl+shift+h",
+      "mac": "cmd+shift+h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye-off"
+    },
+    {
+      "id": "encadrer",
+      "nom": "Encadrer sélection",
+      "groupe": "Objets",
+      "win": "ctrl+alt+g",
+      "mac": "cmd+alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "frame"
+    },
+    {
+      "id": "auto-layout",
+      "nom": "Auto Layout",
+      "groupe": "Objets",
+      "win": "shift+a",
+      "mac": "shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-template"
+    },
+    {
+      "id": "composant",
+      "nom": "Créer composant",
+      "groupe": "Objets",
+      "win": "ctrl+alt+k",
+      "mac": "cmd+alt+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "component"
+    },
+    {
+      "id": "avancer",
+      "nom": "Avancer",
+      "groupe": "Objets",
+      "win": "ctrl+bracketright",
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bring-to-front"
+    },
+    {
+      "id": "reculer",
+      "nom": "Reculer",
+      "groupe": "Objets",
+      "win": "ctrl+bracketleft",
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "send-to-back"
+    },
+    {
+      "id": "premier-plan",
+      "nom": "Premier plan",
+      "groupe": "Objets",
+      "win": "ctrl+shift+bracketright",
+      "mac": "cmd+shift+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "arriere-plan",
+      "nom": "Arrière-plan",
+      "groupe": "Objets",
+      "win": "ctrl+shift+bracketleft",
+      "mac": "cmd+shift+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 3,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-tout",
+      "nom": "Tout afficher",
+      "groupe": "Affichage",
+      "win": "shift+1",
+      "mac": "shift+1",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "zoom-selection",
+      "nom": "Zoom sélection",
+      "groupe": "Affichage",
+      "win": "shift+2",
+      "mac": "shift+2",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "scan-search"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "shift+0",
+      "mac": "shift+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan"
+    },
+    {
+      "id": "regles",
+      "nom": "Règles",
+      "groupe": "Affichage",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "ruler"
+    },
+    {
+      "id": "masquer-interface",
+      "nom": "Masquer interface",
+      "groupe": "Affichage",
+      "win": "ctrl+backslash",
+      "mac": "cmd+backslash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-left-close"
+    },
+    {
+      "id": "mode-dev",
+      "nom": "Mode Dev",
+      "groupe": "Affichage",
+      "win": "shift+d",
+      "mac": "shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "code"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Texte",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Texte",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Texte",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "underline"
+    }
+  ],
+  "non_faisable": []
+}

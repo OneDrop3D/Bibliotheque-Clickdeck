@@ -1,0 +1,70 @@
+{
+  "id": "honeyview",
+  "nom": "Honeyview",
+  "editeur": "Bandisoft",
+  "site": "https://www.bandisoft.com/honeyview/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Honeyview"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page d'aide officielle de Bandisoft. Pas de version Mac.",
+  "sources": [
+    {
+      "url": "https://be.bandisoft.com/honeyview/help/shortcut/",
+      "titre": "Honeyview : raccourcis clavier (aide officielle)"
+    }
+  ],
+  "actions": [
+    {"id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichiers", "win": "ctrl+o", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-open"},
+    {"id": "ouvrir-dossier", "nom": "Ouvrir un dossier", "groupe": "Fichiers", "win": "f", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "folder"},
+    {"id": "fermer-fichier", "nom": "Fermer le fichier", "groupe": "Fichiers", "win": "f4", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "x"},
+    {"id": "supprimer", "nom": "Supprimer", "groupe": "Fichiers", "win": "delete", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "trash-2"},
+    {"id": "supprimer-definitivement", "nom": "Suppr. définitive", "groupe": "Fichiers", "win": "shift+delete", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "trash"},
+    {"id": "editeur-externe", "nom": "Éditeur externe", "groupe": "Fichiers", "win": "ctrl+e", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "external-link"},
+    {"id": "afficher-explorateur", "nom": "Dans l'Explorateur", "groupe": "Fichiers", "win": "ctrl+enter", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-search"},
+    {"id": "copier-image", "nom": "Copier l'image", "groupe": "Fichiers", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy"},
+    {"id": "copier-image-redim", "nom": "Copier réduite", "groupe": "Fichiers", "win": "ctrl+alt+c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "copy"},
+    {"id": "copier-chemin", "nom": "Copier le chemin", "groupe": "Fichiers", "win": "ctrl+alt+shift+c", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "link"},
+    {"id": "imprimer", "nom": "Imprimer", "groupe": "Fichiers", "win": "ctrl+p", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "printer"},
+    {"id": "image-suivante", "nom": "Image suivante", "groupe": "Navigation", "win": "pagedown", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-right"},
+    {"id": "image-precedente", "nom": "Image précédente", "groupe": "Navigation", "win": "pageup", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevron-left"},
+    {"id": "premiere-image", "nom": "Première image", "groupe": "Navigation", "win": "home", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevrons-left"},
+    {"id": "derniere-image", "nom": "Dernière image", "groupe": "Navigation", "win": "end", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "chevrons-right"},
+    {"id": "dossier-suivant", "nom": "Dossier suivant", "groupe": "Navigation", "win": "bracketright", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-output"},
+    {"id": "dossier-precedent", "nom": "Dossier précédent", "groupe": "Navigation", "win": "bracketleft", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "folder-input"},
+    {"id": "page-10-suivante", "nom": "10 suivantes", "groupe": "Navigation", "win": "ctrl+pagedown", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "skip-forward"},
+    {"id": "zoom-avant", "nom": "Zoom avant", "groupe": "Affichage", "win": "plus", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in"},
+    {"id": "zoom-arriere", "nom": "Zoom arrière", "groupe": "Affichage", "win": "minus", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "zoom-out"},
+    {"id": "taille-originale", "nom": "Taille originale", "groupe": "Affichage", "win": "0", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "maximize-2"},
+    {"id": "ajuster-fenetre", "nom": "Ajuster fenêtre", "groupe": "Affichage", "win": "9", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "minimize-2"},
+    {"id": "ajuster-largeur", "nom": "Ajuster largeur", "groupe": "Affichage", "win": "8", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "move-horizontal"},
+    {"id": "figer-zoom", "nom": "Figer le zoom", "groupe": "Affichage", "win": "ctrl+k", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "lock"},
+    {"id": "double-page", "nom": "Double page", "groupe": "Affichage", "win": "2", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "book-open"},
+    {"id": "infos-exif", "nom": "Infos EXIF", "groupe": "Affichage", "win": "tab", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "info"},
+    {"id": "pivoter-gauche", "nom": "Pivoter à gauche", "groupe": "Transformation", "win": "ctrl+l", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw"},
+    {"id": "pivoter-droite", "nom": "Pivoter à droite", "groupe": "Transformation", "win": "ctrl+r", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "rotate-cw"},
+    {"id": "miroir-horizontal", "nom": "Miroir horizontal", "groupe": "Transformation", "win": "ctrl+m", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "flip-horizontal"},
+    {"id": "miroir-vertical", "nom": "Miroir vertical", "groupe": "Transformation", "win": "ctrl+f", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "flip-vertical"},
+    {"id": "inverser-couleurs", "nom": "Inverser couleurs", "groupe": "Transformation", "win": "ctrl+i", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "contrast"},
+    {"id": "plein-ecran", "nom": "Plein écran", "groupe": "Fenêtre", "win": "enter", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "fullscreen"},
+    {"id": "toujours-au-premier-plan", "nom": "Toujours dessus", "groupe": "Fenêtre", "win": "ctrl+a", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "pin"},
+    {"id": "fond-ecran", "nom": "Fond d'écran", "groupe": "Fenêtre", "win": "ctrl+alt+w", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "monitor"},
+    {"id": "ajouter-favoris", "nom": "Ajouter favori", "groupe": "Fenêtre", "win": "b", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "bookmark"},
+    {"id": "configuration", "nom": "Configuration", "groupe": "Application", "win": "f5", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "settings"},
+    {"id": "infos-programme", "nom": "Infos programme", "groupe": "Application", "win": "f1", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "help-circle"},
+    {"id": "quitter", "nom": "Quitter", "groupe": "Application", "win": "ctrl+w", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "log-out"},
+    {"id": "fenetre-max", "nom": "Agrandir/restaurer", "groupe": "Fenêtre", "win": "m", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "maximize"},
+    {"id": "page-10-precedente", "nom": "10 précédentes", "groupe": "Navigation", "win": "ctrl+pageup", "mac": null, "linux": null, "source": 0, "priorite": 3, "picto": "skip-back"}
+  ],
+  "non_faisable": [
+    {"nom": "Zoom à la molette", "raison": "molette"},
+    {"nom": "Défilement à la souris", "raison": "molette"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ableton-note",
+  "nom": "Ableton Note",
+  "editeur": "Ableton",
+  "site": "https://www.ableton.com/en/note/",
+  "systemes": ["ios"],
+  "lancement": { "ios": "Note" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application mobile (iOS) sans raccourcis clavier documentés : la page d'aide officielle (ableton.com/en/help/note/) ne mentionne pas de raccourcis. Ne peut pas être pilotée par un clavier ClickDeck sur ordinateur ; à placer dans un pack de lancement. Vérification de la plateforme limitée à la page officielle.",
+  "sources": [
+    { "url": "https://www.ableton.com/en/help/note/", "titre": "Aide officielle Ableton Note (aucun raccourci listé)" }
+  ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Toutes les fonctions", "raison": "application mobile sans raccourcis clavier" } ]
+}

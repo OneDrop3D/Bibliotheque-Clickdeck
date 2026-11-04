@@ -1,0 +1,21 @@
+{
+  "id": "libre-hardware-monitor",
+  "nom": "Libre Hardware Monitor",
+  "editeur": "Projet LibreHardwareMonitor",
+  "site": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+  "systemes": ["windows"],
+  "lancement": { "windows": "LibreHardwareMonitor" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Windows open source (licence MPL-2.0) de surveillance des capteurs, sans raccourci clavier documenté dans son dépôt. Aucune action proposée.",
+  "sources": [
+    { "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor", "titre": "Dépôt GitHub LibreHardwareMonitor" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Consultation des capteurs", "raison": "souris" }
+  ]
+}

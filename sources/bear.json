@@ -1,0 +1,142 @@
+{
+ "id": "bear",
+ "nom": "Bear",
+ "editeur": "Shiny Frog",
+ "site": "https://bear.app",
+ "systemes": [
+  "mac"
+ ],
+ "lancement": {
+  "mac": "Bear"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "tierce",
+ "section": "Bureautique, documents & PDF",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Application macOS uniquement. Seules les commandes standard de menu sont listées (deduit, source null), pages d'aide illisibles. Ouvrir et Enregistrer retirés (absents de Bear, qui enregistre seul). Raccourcis propres à relever.",
+ "sources": [],
+ "actions": [
+  {
+   "id": "nouveau",
+   "nom": "Nouvelle note",
+   "groupe": "Fichier",
+   "win": null,
+   "mac": "cmd+n",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "file-plus"
+  },
+  {
+   "id": "imprimer",
+   "nom": "Imprimer",
+   "groupe": "Fichier",
+   "win": null,
+   "mac": "cmd+p",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "printer"
+  },
+  {
+   "id": "fermer",
+   "nom": "Fermer",
+   "groupe": "Fichier",
+   "win": null,
+   "mac": "cmd+w",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "x"
+  },
+  {
+   "id": "annuler",
+   "nom": "Annuler",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+z",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "undo-2"
+  },
+  {
+   "id": "retablir",
+   "nom": "Rétablir",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+shift+z",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "redo-2"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+c",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "couper",
+   "nom": "Couper",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+x",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "scissors"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+v",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "clipboard"
+  },
+  {
+   "id": "tout-selectionner",
+   "nom": "Tout sélectionner",
+   "groupe": "Édition",
+   "win": null,
+   "mac": "cmd+a",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 2,
+   "picto": "text-select"
+  },
+  {
+   "id": "rechercher",
+   "nom": "Rechercher",
+   "groupe": "Recherche",
+   "win": null,
+   "mac": "cmd+f",
+   "linux": null,
+   "source": null,
+   "deduit": true,
+   "priorite": 1,
+   "picto": "search"
+  }
+ ],
+ "non_faisable": []
+}

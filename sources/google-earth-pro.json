@@ -1,0 +1,196 @@
+{
+  "id": "google-earth-pro",
+  "nom": "Google Earth Pro",
+  "editeur": "Google",
+  "site": "https://www.google.com/earth/versions/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "googleearth",
+    "mac": "Google Earth Pro"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de l'aide officielle Google Earth : simulateur de vol et tableau de navigation (page « Use keyboard shortcuts to navigate »). Le tableau de navigation est partagé Windows/Linux/Mac. Les raccourcis de menus (recherche, couches) ne sont pas confirmés et ne sont pas inclus.",
+  "sources": [
+    {
+      "url": "https://support.google.com/earth/answer/148089",
+      "titre": "Google Earth Help - Fly around the world"
+    },
+    {
+      "url": "https://support.google.com/earth/answer/148115?hl=en",
+      "titre": "Google Earth Help - Use keyboard shortcuts to navigate"
+    }
+  ],
+  "actions": [
+    {
+      "id": "simulateur-vol",
+      "nom": "Simulateur de vol",
+      "groupe": "Vol",
+      "win": "ctrl+alt+a",
+      "mac": "cmd+alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plane"
+    },
+    {
+      "id": "nord-haut",
+      "nom": "Nord en haut",
+      "groupe": "Navigation",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "compass"
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue du dessus",
+      "groupe": "Navigation",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "centrer-terre",
+      "nom": "Centrer la Terre",
+      "groupe": "Navigation",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "globe"
+    },
+    {
+      "id": "arreter-mouvement",
+      "nom": "Arrêter mouvement",
+      "groupe": "Navigation",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Navigation",
+      "win": "plus",
+      "mac": "plus",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Navigation",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 1,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "deplacer-gauche",
+      "nom": "Déplacer à gauche",
+      "groupe": "Navigation",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "deplacer-droite",
+      "nom": "Déplacer à droite",
+      "groupe": "Navigation",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "deplacer-haut",
+      "nom": "Déplacer en haut",
+      "groupe": "Navigation",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "deplacer-bas",
+      "nom": "Déplacer en bas",
+      "groupe": "Navigation",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "rotation-horaire",
+      "nom": "Rotation horaire",
+      "groupe": "Navigation",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "rotation-antihoraire",
+      "nom": "Rotation antihoraire",
+      "groupe": "Navigation",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "apercu",
+      "nom": "Fenêtre Aperçu",
+      "groupe": "Vue",
+      "win": "ctrl+m",
+      "mac": "shift+alt+cmd+m",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "picture-in-picture"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Accélérer et virer au clavier",
+      "raison": "Flèches et touches Alt/Ctrl maintenues, séquence non exprimable en raccourci unique"
+    },
+    {
+      "nom": "Incliner la vue (Windows)",
+      "raison": "Shift + glisser à la souris sous Windows"
+    }
+  ]
+}

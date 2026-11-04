@@ -1,0 +1,17 @@
+{
+  "id": "amazon-music",
+  "nom": "Amazon Music Desktop",
+  "editeur": "Amazon",
+  "site": "https://music.amazon.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Amazon Music", "mac": "Amazon Music" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune action relevée : la page d'aide Amazon consultée était en erreur (404) et la recherche web était épuisée pendant cette passe. À reprendre avec une source lisible avant toute publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

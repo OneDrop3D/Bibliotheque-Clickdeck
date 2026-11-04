@@ -1,0 +1,21 @@
+{
+  "id": "usb-bt-joystick-gold",
+  "nom": "USB/BT Joystick Gold",
+  "editeur": "Inconnu",
+  "site": "",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "USB/BT Joystick Gold"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application de pilotage de manette sans raccourci clavier utile à relever. Éditeur et site officiel non vérifiés : la recherche web était indisponible pendant la session, et aucune source n'a pu être ouverte. Fiche à recouper avant publication. Utilitaire de manette sans fenêtre de travail.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

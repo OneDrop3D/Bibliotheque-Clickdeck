@@ -1,0 +1,30 @@
+{
+  "id": "qemu",
+  "nom": "QEMU",
+  "editeur": "QEMU Project",
+  "site": "https://www.qemu.org/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "qemu-system-x86_64", "mac": "qemu-system-x86_64", "linux": "qemu-system-x86_64" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de la fenêtre d'affichage QEMU (modificateur Ctrl+Alt par défaut, modifiable avec les options -display mod= ou grab-mod=). La page officielle ne précise pas les équivalents macOS : colonne mac laissée vide. Le raccourci Ctrl+Alt+2 est le moniteur ; le port série est Ctrl+Alt+3. Pas de raccourci de sortie documenté.",
+  "sources": [
+    { "url": "https://www.qemu.org/docs/master/system/keys.html", "titre": "QEMU - Keys (documentation officielle)" }
+  ],
+  "actions": [
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": "ctrl+alt+f", "mac": null, "linux": "ctrl+alt+f", "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "capturer-souris", "nom": "Capturer la souris", "groupe": "Affichage", "win": "ctrl+alt+g", "mac": null, "linux": "ctrl+alt+g", "source": 0, "priorite": 1, "picto": "mouse" },
+    { "id": "agrandir-ecran", "nom": "Agrandir l'écran", "groupe": "Affichage", "win": "ctrl+alt+plus", "mac": null, "linux": "ctrl+alt+plus", "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "reduire-ecran", "nom": "Réduire l'écran", "groupe": "Affichage", "win": "ctrl+alt+minus", "mac": null, "linux": "ctrl+alt+minus", "source": 0, "priorite": 2, "picto": "zoom-out" },
+    { "id": "taille-normale", "nom": "Taille normale", "groupe": "Affichage", "win": "ctrl+alt+0", "mac": null, "linux": "ctrl+alt+0", "source": 0, "priorite": 2, "picto": "scan" },
+    { "id": "ecran-cible", "nom": "Écran de la cible", "groupe": "Console", "win": "ctrl+alt+1", "mac": null, "linux": "ctrl+alt+1", "source": 0, "priorite": 2, "picto": "monitor" },
+    { "id": "moniteur", "nom": "Moniteur", "groupe": "Console", "win": "ctrl+alt+2", "mac": null, "linux": "ctrl+alt+2", "source": 0, "priorite": 2, "picto": "terminal" },
+    { "id": "port-serie", "nom": "Port série", "groupe": "Console", "win": "ctrl+alt+3", "mac": null, "linux": "ctrl+alt+3", "source": 0, "priorite": 3, "picto": "cable" }
+  ],
+  "non_faisable": [
+    { "nom": "Défilement du journal dans la console", "raison": "molette" }
+  ]
+}

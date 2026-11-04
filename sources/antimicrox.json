@@ -1,0 +1,17 @@
+{
+  "id": "antimicrox",
+  "nom": "AntiMicroX",
+  "editeur": "AntiMicroX (projet open source)",
+  "site": "https://github.com/AntiMicroX/antimicrox",
+  "systemes": ["windows", "linux"],
+  "lancement": { "windows": "AntiMicroX" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Mappeur open source manette vers clavier, souris, scripts et macros, configuré par profil. Le dépôt officiel ne documente aucun raccourci clavier pour son interface.",
+  "sources": [ { "url": "https://github.com/AntiMicroX/antimicrox", "titre": "AntiMicroX - dépôt officiel" } ],
+  "actions": [],
+  "non_faisable": []
+}

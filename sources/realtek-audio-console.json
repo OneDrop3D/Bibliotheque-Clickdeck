@@ -1,0 +1,17 @@
+{
+  "id": "realtek-audio-console",
+  "nom": "Realtek Audio Console",
+  "editeur": "Realtek",
+  "site": "https://www.realtek.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Realtek Audio Console" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de réglage audio (égaliseur, sorties, micro) sans raccourcis clavier documentés. La page de téléchargement Realtek consultée ne mentionne aucun raccourci. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://www.realtek.com/Download/List?cate_id=584", "titre": "Realtek - liste des téléchargements (aucun raccourci mentionné)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Réglages du volume et des effets", "raison": "réglage sans raccourci" } ]
+}

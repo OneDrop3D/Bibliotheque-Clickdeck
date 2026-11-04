@@ -1,0 +1,101 @@
+{
+  "id": "money-manager-ex",
+  "nom": "Money Manager Ex",
+  "editeur": "Money Manager Ex",
+  "site": "https://www.moneymanagerex.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Money Manager Ex",
+    "mac": "Money Manager Ex"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Accélérateurs relevés dans les menus du code source (lecture partielle) : Ctrl-O, F6, F1. Mac déduit (wxWidgets, Ctrl=Cmd). Nouveau déduit des menus. Écartés : F11 (système Mac), Alt-F12, Imprimer non confirmé. Passe 3 : ajout de Quitter (Ctrl-Q, source mmFrame.cpp ; Cmd+Q déduit) et Plein écran (F11, Windows seulement).",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/moneymanagerex/moneymanagerex/master/src/app/mmFrame.cpp",
+      "titre": "Code source Money Manager Ex (menus, lecture partielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "navigateur",
+      "nom": "Navigateur",
+      "groupe": "Affichage",
+      "win": "f6",
+      "mac": "f6",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left",
+      "deduit": true
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Aide",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help",
+      "deduit": true
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    }
+  ],
+  "non_faisable": []
+}

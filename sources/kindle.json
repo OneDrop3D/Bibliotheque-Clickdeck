@@ -1,0 +1,305 @@
+{
+  "id": "kindle",
+  "nom": "Kindle Desktop",
+  "editeur": "Amazon",
+  "site": "https://www.amazon.com/kindle-dbs/fd/kcp",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Kindle",
+    "mac": "Kindle"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page d'aide officielle d'Amazon pour Kindle pour Windows (vérifiée). Cette page précise que l'ancienne application (Kindle for PC) n'est plus prise en charge depuis le 30 juin 2026 : la nouvelle application Kindle peut avoir d'autres raccourcis, à vérifier. Source Windows uniquement : colonne Mac limitée aux touches de navigation ; F5, Retour arrière, Espace et les raccourcis Ctrl laissés vides sur Mac. Lecteur d'assistance à activer d'abord avec Ctrl+A ou le menu Aa.",
+  "sources": [
+    {
+      "url": "https://digprjsurvey.amazon.com/csad/help/node/GPC7U392HH93VPC8",
+      "titre": "Amazon - Kindle for Windows Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Lecture",
+      "win": "pagedown",
+      "mac": "pagedown",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Lecture",
+      "win": "pageup",
+      "mac": "pageup",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "retour",
+      "nom": "Retour",
+      "groupe": "Lecture",
+      "win": "backspace",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "agrandir-police",
+      "nom": "Agrandir police",
+      "groupe": "Lecture",
+      "win": "ctrl+equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "reduire-police",
+      "nom": "Réduire police",
+      "groupe": "Lecture",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "type"
+    },
+    {
+      "id": "marque-page",
+      "nom": "Marque-page",
+      "groupe": "Lecture",
+      "win": "ctrl+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "carnet-annotations",
+      "nom": "Carnet notes",
+      "groupe": "Lecture",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "notebook-pen"
+    },
+    {
+      "id": "aller-emplacement",
+      "nom": "Aller à",
+      "groupe": "Lecture",
+      "win": "ctrl+g",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Lecture",
+      "win": "ctrl+f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "fermer-livre",
+      "nom": "Fermer le livre",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+w",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "book-x"
+    },
+    {
+      "id": "synchroniser",
+      "nom": "Synchroniser",
+      "groupe": "Bibliothèque",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "livre-haut",
+      "nom": "Livre au-dessus",
+      "groupe": "Bibliothèque",
+      "win": "up",
+      "mac": "up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "livre-bas",
+      "nom": "Livre en dessous",
+      "groupe": "Bibliothèque",
+      "win": "down",
+      "mac": "down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "livre-gauche",
+      "nom": "Livre à gauche",
+      "groupe": "Bibliothèque",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "livre-droite",
+      "nom": "Livre à droite",
+      "groupe": "Bibliothèque",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "menu-livre",
+      "nom": "Menu du livre",
+      "groupe": "Bibliothèque",
+      "win": "shift+f10",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "menu"
+    },
+    {
+      "id": "lecture-vocale",
+      "nom": "Lecture vocale",
+      "groupe": "Lecture vocale",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "pause-lecture",
+      "nom": "Pause / reprise",
+      "groupe": "Lecture vocale",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "phrase-precedente",
+      "nom": "Phrase précédente",
+      "groupe": "Lecture vocale",
+      "win": "ctrl+shift+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "skip-back"
+    },
+    {
+      "id": "phrase-suivante",
+      "nom": "Phrase suivante",
+      "groupe": "Lecture vocale",
+      "win": "ctrl+shift+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "vitesse-plus",
+      "nom": "Vitesse +",
+      "groupe": "Lecture vocale",
+      "win": "shift+equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "vitesse-moins",
+      "nom": "Vitesse -",
+      "groupe": "Lecture vocale",
+      "win": "shift+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "lecture-continue",
+      "nom": "Lecture continue",
+      "groupe": "Lecture vocale",
+      "win": "ctrl+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "repeat"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Application",
+      "win": "ctrl+f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Application",
+      "win": "alt+f4",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

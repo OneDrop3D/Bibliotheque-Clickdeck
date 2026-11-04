@@ -1,0 +1,125 @@
+{
+  "id": "charles-proxy",
+  "nom": "Charles Proxy",
+  "editeur": "XK72",
+  "site": "https://www.charlesproxy.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Charles",
+    "mac": "Charles"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis spécifiques à Charles (enregistrement, effacer, points d'arrêt, débit) non vérifiés : la documentation ne les liste pas. Seules les commandes standard du menu Fichier/Édition sont conservées, avec touches déduites (deduit true). Annuler, Rétablir, Imprimer et Couper retirés (non confirmés dans Charles).",
+  "sources": [],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "clipboard"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "search"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Démarrer / arrêter l'enregistrement",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    },
+    {
+      "nom": "Effacer la session",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    },
+    {
+      "nom": "Points d'arrêt (breakpoints)",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    },
+    {
+      "nom": "Limitation de débit (throttling)",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    }
+  ]
+}

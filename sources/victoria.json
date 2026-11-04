@@ -1,0 +1,17 @@
+{
+  "id": "victoria",
+  "nom": "Victoria",
+  "editeur": "Sergey Kolodka",
+  "site": "",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Victoria", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source officielle ouverte ni aucun raccourci trouvé : la page cherchée n'était pas pertinente et la recherche web n'a pas pu être menée (quota atteint). Utilitaire Windows à une fenêtre, aucune action proposée. À recouper.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

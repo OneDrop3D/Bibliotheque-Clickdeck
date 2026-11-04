@@ -1,0 +1,458 @@
+{
+  "id": "ableton-live",
+  "nom": "Ableton Live",
+  "editeur": "Ableton",
+  "site": "https://www.ableton.com/en/live/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Ableton Live",
+    "mac": "Ableton Live"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Source unique : manuel officiel Live 12 (Live Keyboard Shortcuts), colonnes Windows et Mac lues séparément. Plein écran Mac imprimé « CtrlCmdF » par la page : repris tel quel (ctrl+cmd+f), à vérifier. Les fonctions absentes de la partie lue du manuel ne figurent pas ici (boucle, punch, tempo, zoom, mute) : elles ne sont pas forcément absentes de Live. Boucle (Toggle Loop Brace) et Retour à l'arrangement ajoutés, vérifiés dans le manuel.",
+  "sources": [
+    {
+      "url": "https://www.ableton.com/en/manual/live-keyboard-shortcuts/",
+      "titre": "Live Keyboard Shortcuts (manuel Live 12)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture/arrêt",
+      "groupe": "Transport",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Transport",
+      "win": "f9",
+      "mac": "f9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "metronome",
+      "nom": "Métronome",
+      "groupe": "Transport",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "metronome"
+    },
+    {
+      "id": "boucle",
+      "nom": "Boucle on/off",
+      "groupe": "Transport",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "retour-arrangement",
+      "nom": "Retour arrangement",
+      "groupe": "Transport",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "shift+cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Édition",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select"
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Édition",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "quantifier",
+      "nom": "Quantifier",
+      "groupe": "Édition",
+      "win": "ctrl+u",
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "reglages-quantification",
+      "nom": "Réglages quantif.",
+      "groupe": "Édition",
+      "win": "ctrl+shift+u",
+      "mac": "shift+cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "sauvegarder",
+      "nom": "Sauvegarder set",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "sauvegarder-sous",
+      "nom": "Sauvegarder sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "shift+cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "nouveau-set",
+      "nom": "Nouveau set",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-set",
+      "nom": "Ouvrir set",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "exporter-audio",
+      "nom": "Exporter audio",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+r",
+      "mac": "shift+cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-audio"
+    },
+    {
+      "id": "exporter-midi",
+      "nom": "Exporter MIDI",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+e",
+      "mac": "shift+cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "file-music"
+    },
+    {
+      "id": "piste-audio",
+      "nom": "Piste audio",
+      "groupe": "Pistes",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "audio-waveform"
+    },
+    {
+      "id": "piste-midi",
+      "nom": "Piste MIDI",
+      "groupe": "Pistes",
+      "win": "ctrl+shift+t",
+      "mac": "shift+cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "music"
+    },
+    {
+      "id": "piste-retour",
+      "nom": "Piste de retour",
+      "groupe": "Pistes",
+      "win": "ctrl+alt+t",
+      "mac": "alt+cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "grouper-pistes",
+      "nom": "Grouper pistes",
+      "groupe": "Pistes",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder"
+    },
+    {
+      "id": "armer",
+      "nom": "Armer piste",
+      "groupe": "Pistes",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mic"
+    },
+    {
+      "id": "solo",
+      "nom": "Solo piste",
+      "groupe": "Pistes",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "headphones"
+    },
+    {
+      "id": "desactiver-piste",
+      "nom": "Désactiver piste",
+      "groupe": "Pistes",
+      "win": "0",
+      "mac": "0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "power-off"
+    },
+    {
+      "id": "vue-session",
+      "nom": "Vue session/arr.",
+      "groupe": "Affichage",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "appareil-clip",
+      "nom": "Appareil/clip",
+      "groupe": "Affichage",
+      "win": "shift+tab",
+      "mac": "shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "toggle-left"
+    },
+    {
+      "id": "navigateur",
+      "nom": "Navigateur",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+b",
+      "mac": "alt+cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "mixer",
+      "nom": "Mixer",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+m",
+      "mac": "alt+cmd+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "vue-clip",
+      "nom": "Vue clip",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+3",
+      "mac": "alt+cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-bottom"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "ctrl+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "maximize"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Affichage",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Boucle on/off",
+      "raison": "non relevé dans la partie lue du manuel"
+    },
+    {
+      "nom": "Tap tempo / Tempo +/-",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Punch in/out",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Mute piste",
+      "raison": "aucun raccourci de mute listé ; seul « Désactiver piste » (0) figure dans la doc lue"
+    },
+    {
+      "nom": "Volume / pan piste +/-",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Ajouter instrument / effet",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Choisir preset +/-",
+      "raison": "non relevé dans la doc lue"
+    },
+    {
+      "nom": "Macros knobs",
+      "raison": "non relevé dans la doc lue"
+    }
+  ]
+}

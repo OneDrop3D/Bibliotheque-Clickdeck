@@ -1,0 +1,17 @@
+{
+  "id": "audible",
+  "nom": "Audible Desktop",
+  "editeur": "Audible (Amazon)",
+  "site": "https://www.audible.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Audible", "mac": "Audible" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source exploitable : la page Audible testée est une page de connexion, et l'article d'aide desktop renvoie 404. Pas de raccourcis renseignés. Vérifier si l'application desktop en propose avant de conclure à leur absence.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

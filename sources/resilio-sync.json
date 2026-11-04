@@ -1,0 +1,17 @@
+{
+  "id": "resilio-sync",
+  "nom": "Resilio Sync",
+  "editeur": "Resilio",
+  "site": "https://www.resilio.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Resilio Sync", "mac": "Resilio Sync" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune page de raccourcis clavier n'a pu être ouverte : les pages de documentation officielle testées renvoient une erreur 404 ou ne décrivent aucun raccourci. Recherche web indisponible pendant ce relevé. Utilitaire de synchronisation sans raccourcis vérifiés. À recouper avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

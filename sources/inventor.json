@@ -1,0 +1,354 @@
+{
+  "id": "inventor",
+  "nom": "Autodesk Inventor",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/inventor/overview",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Inventor"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Inventor n'existe que sous Windows. Les raccourcis sont des alias de commande : une lettre suffit (E = Extruder). Les alias à plusieurs lettres sont des séquences, donc classés dans non_faisable. Liste établie sur la documentation Inventor 2026 ; les versions précédentes peuvent différer.",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2026/ENU/Inventor-Help/files/GUID-DEEB0723-DFC7-4B28-95F4-099CC1E1EBF8.htm",
+      "titre": "Keyboard Shortcut Reference (Inventor 2026)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "croquis",
+      "nom": "Croquis 2D",
+      "groupe": "Esquisse",
+      "win": "s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil-ruler"
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Esquisse",
+      "win": "l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "cote",
+      "nom": "Cote générale",
+      "groupe": "Esquisse",
+      "win": "d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ruler"
+    },
+    {
+      "id": "texte",
+      "nom": "Texte",
+      "groupe": "Esquisse",
+      "win": "t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "type"
+    },
+    {
+      "id": "extruder",
+      "nom": "Extruder",
+      "groupe": "Pièce",
+      "win": "e",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box"
+    },
+    {
+      "id": "revolution",
+      "nom": "Révolution",
+      "groupe": "Pièce",
+      "win": "r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "conge",
+      "nom": "Congé",
+      "groupe": "Pièce",
+      "win": "f",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right"
+    },
+    {
+      "id": "percage",
+      "nom": "Perçage",
+      "groupe": "Pièce",
+      "win": "h",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dashed"
+    },
+    {
+      "id": "placer",
+      "nom": "Placer composant",
+      "groupe": "Assemblage",
+      "win": "p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "package-plus"
+    },
+    {
+      "id": "contrainte",
+      "nom": "Contrainte",
+      "groupe": "Assemblage",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer composant",
+      "groupe": "Assemblage",
+      "win": "m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move"
+    },
+    {
+      "id": "creer",
+      "nom": "Créer composant",
+      "groupe": "Assemblage",
+      "win": "n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "box"
+    },
+    {
+      "id": "imate",
+      "nom": "Créer iMate",
+      "groupe": "Assemblage",
+      "win": "q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "git-merge"
+    },
+    {
+      "id": "zoom",
+      "nom": "Zoom",
+      "groupe": "Navigation",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "rotation",
+      "nom": "Rotation",
+      "groupe": "Navigation",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "panoramique",
+      "nom": "Panoramique",
+      "groupe": "Navigation",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hand"
+    },
+    {
+      "id": "vue_precedente",
+      "nom": "Vue précédente",
+      "groupe": "Navigation",
+      "win": "f5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2"
+    },
+    {
+      "id": "vue_isometrique",
+      "nom": "Vue isométrique",
+      "groupe": "Navigation",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "box"
+    },
+    {
+      "id": "axe",
+      "nom": "Axe de travail",
+      "groupe": "Repères",
+      "win": "slash",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "axis-3d"
+    },
+    {
+      "id": "plan",
+      "nom": "Plan de travail",
+      "groupe": "Repères",
+      "win": "bracketright",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "quitter_commande",
+      "nom": "Quitter commande",
+      "groupe": "Édition",
+      "win": "escape",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "selection_autre",
+      "nom": "Sélectionner autre",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Édition",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Ajuster (TR)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Chanfrein (CH)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Balayage (SW)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Lissage (LO)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Miroir (MI)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Motif rectangulaire (RP)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Motif circulaire (CP)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Rotation composant (RO)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Contrainte de liaison",
+      "raison": "touche maintenue + souris (Alt + glisser)"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

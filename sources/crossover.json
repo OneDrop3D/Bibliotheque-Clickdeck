@@ -1,0 +1,22 @@
+{
+  "id": "crossover",
+  "nom": "CrossOver",
+  "editeur": "CodeWeavers",
+  "site": "https://www.codeweavers.com/crossover",
+  "systemes": ["mac", "linux"],
+  "lancement": { "mac": "CrossOver", "linux": "CrossOver" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Wine commercial. La liste officielle des raccourcis n'a pas pu être lue : le guide PDF de CodeWeavers ne fournit pas de texte exploitable, et la page support renvoie 404. Seules les commandes standard de menu sont proposées, avec leur équivalent deduit. A vérifier dans le menu Bottle de l'application.",
+  "sources": [],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": null, "mac": "cmd+n", "linux": "ctrl+n", "source": null, "deduit": true, "priorite": 2, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": null, "mac": "cmd+o", "linux": "ctrl+o", "source": null, "deduit": true, "priorite": 2, "picto": "folder-open" }
+  ],
+  "non_faisable": [
+    { "nom": "Lancer un programme Windows dans une bouteille", "raison": "raccourci non vérifié dans la documentation" }
+  ]
+}

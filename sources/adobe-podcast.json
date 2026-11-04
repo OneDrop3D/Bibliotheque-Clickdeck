@@ -1,0 +1,17 @@
+{
+  "id": "adobe-podcast",
+  "nom": "Adobe Podcast",
+  "editeur": "Adobe",
+  "site": "https://podcast.adobe.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Adobe Podcast", "mac": "Adobe Podcast" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application web : aucun raccourci clavier documenté n'a été trouvé sur la page consultée. La recherche web était épuisée, la documentation d'Adobe n'a pas été lue.",
+  "sources": [ { "url": "https://podcast.adobe.com", "titre": "Page d'accueil Adobe Podcast (aucun raccourci trouvé)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Application web, aucun raccourci documenté", "raison": "sans raccourci" } ]
+}

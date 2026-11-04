@@ -1,0 +1,164 @@
+{
+  "id": "revit",
+  "nom": "Autodesk Revit",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/revit/overview",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Revit"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "recoupee",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Revit n'a presque que des raccourcis en deux lettres (séquences) : ils sont listés dans non_faisable. La liste complète officielle (PDF/XLS Autodesk) n'a pas pu être lue ; seules les séquences présentes chez deux sources tierces concordantes sont retenues. Les raccourcis Ctrl sont standard (deduit). Windows uniquement.",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2026/ENU/Revit-HaveYouTried/files/GUID-D216F1C0-6346-445B-9FA6-74E5FD43D9A4.htm",
+      "titre": "Keyboard Shortcuts (Revit 2026, Autodesk)"
+    },
+    {
+      "url": "https://blog.blocksrvt.com/?p=9783",
+      "titre": "Revit shortcuts: what the main ones do (BlocksRVT)"
+    },
+    {
+      "url": "https://www.myarchitectai.com/blog/revit-keyboard-shortcuts",
+      "titre": "Revit Keyboard Shortcuts (MyArchitectAI, 2026)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacer (MV)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Copier (CO)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Aligner (AL)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Cote alignée (DI)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Ajuster / prolonger (TR)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Visibilité / graphismes (VG)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Mur (WA)",
+      "raison": "séquence (deux lettres)"
+    },
+    {
+      "nom": "Porte (DR)",
+      "raison": "séquence (deux lettres)"
+    }
+  ]
+}

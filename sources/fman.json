@@ -1,0 +1,266 @@
+{
+  "id": "fman",
+  "nom": "fman",
+  "editeur": "fman.io",
+  "site": "https://fman.io/",
+  "systemes": [
+    "windows",
+    "linux",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "fman",
+    "mac": "fman"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur la page officielle ; la page ne précise pas les touches Mac pour les touches de fonction, traitées comme identiques (deduit). Liste non exhaustive.",
+  "sources": [
+    {
+      "url": "https://fman.io/docs/shortcuts",
+      "titre": "fman - Shortcuts (documentation officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Fichiers",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "deplacer",
+      "nom": "Déplacer",
+      "groupe": "Fichiers",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 1,
+      "picto": "move",
+      "deduit": true
+    },
+    {
+      "id": "renommer",
+      "nom": "Renommer",
+      "groupe": "Fichiers",
+      "win": "shift+f6",
+      "mac": "shift+f6",
+      "linux": "shift+f6",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil",
+      "deduit": true
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Fichiers",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus",
+      "deduit": true
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Fichiers",
+      "win": "f8",
+      "mac": "f8",
+      "linux": "f8",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2",
+      "deduit": true
+    },
+    {
+      "id": "compresser",
+      "nom": "Compresser",
+      "groupe": "Fichiers",
+      "win": "alt+f5",
+      "mac": "cmd+f5",
+      "linux": "alt+f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "archive"
+    },
+    {
+      "id": "modifier",
+      "nom": "Modifier",
+      "groupe": "Fichiers",
+      "win": "f4",
+      "mac": "f4",
+      "linux": "f4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-pen",
+      "deduit": true
+    },
+    {
+      "id": "creer-modifier",
+      "nom": "Créer et modifier",
+      "groupe": "Fichiers",
+      "win": "shift+f4",
+      "mac": "shift+f4",
+      "linux": "shift+f4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "palette",
+      "nom": "Palette commandes",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+p",
+      "mac": "cmd+shift+p",
+      "linux": "ctrl+shift+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "command"
+    },
+    {
+      "id": "aller-dossier",
+      "nom": "Aller au dossier",
+      "groupe": "Navigation",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-search"
+    },
+    {
+      "id": "precedent",
+      "nom": "Dossier précédent",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": "cmd+left",
+      "linux": "alt+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "suivant",
+      "nom": "Dossier suivant",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": "cmd+right",
+      "linux": "alt+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "changer-panneau",
+      "nom": "Changer de panneau",
+      "groupe": "Navigation",
+      "win": "tab",
+      "mac": "tab",
+      "linux": "tab",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-right",
+      "deduit": true
+    },
+    {
+      "id": "terminal",
+      "nom": "Terminal ici",
+      "groupe": "Navigation",
+      "win": "f9",
+      "mac": "f9",
+      "linux": "f9",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal",
+      "deduit": true
+    },
+    {
+      "id": "explorateur-natif",
+      "nom": "Explorateur natif",
+      "groupe": "Navigation",
+      "win": "f10",
+      "mac": "f10",
+      "linux": "f10",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "copier-chemin",
+      "nom": "Copier le chemin",
+      "groupe": "Navigation",
+      "win": "f11",
+      "mac": "f11",
+      "linux": "f11",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard",
+      "deduit": true
+    },
+    {
+      "id": "selectionner",
+      "nom": "Sélectionner",
+      "groupe": "Sélection",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "check-square"
+    },
+    {
+      "id": "desselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "fichiers-caches",
+      "nom": "Fichiers cachés",
+      "groupe": "Affichage",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": "ctrl+period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "dossier-parent",
+      "nom": "Dossier parent",
+      "groupe": "Navigation",
+      "win": "backspace",
+      "mac": "backspace",
+      "linux": "backspace",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Panneau gauche/droite (Ctrl+flèches)",
+      "raison": "touches Mac non précisées par la source"
+    }
+  ]
+}

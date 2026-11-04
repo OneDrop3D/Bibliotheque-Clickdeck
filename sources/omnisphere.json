@@ -1,0 +1,25 @@
+{
+  "id": "omnisphere",
+  "nom": "Omnisphere",
+  "editeur": "Spectrasonics",
+  "site": "https://www.spectrasonics.net",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Omnisphere", "mac": "Omnisphere" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Synthétiseur VST/AU/AAX piloté par la DAW hôte : ses touches relèvent de la DAW. Le manuel officiel ne liste aucun raccourci clavier par défaut ; les commandes connues sont des clics avec modificateur (Ctrl/Cmd, Maj, Alt/Option), listés dans non_faisable. Le mode autonome a un clavier virtuel (Ctrl/Cmd+K selon un extrait tiers non vérifié) : non retenu faute de confirmation.",
+  "sources": [
+    { "url": "https://support.spectrasonics.net/manual/Omnisphere2/concepts/interface/page11.html", "titre": "Omnisphere 2 - Interface (conventions de clic et modificateurs)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réinitialiser un bouton ou curseur", "raison": "souris (Ctrl/Cmd+clic)" },
+    { "nom": "Réglage fin d'un curseur ou bouton", "raison": "souris (Maj+clic-glisser)" },
+    { "nom": "Activer l'accrochage de l'enveloppe", "raison": "souris (Alt/Option+clic)" },
+    { "nom": "Verrouiller l'enveloppe", "raison": "souris (Ctrl/Cmd+clic)" },
+    { "nom": "Saisir une valeur de paramètre", "raison": "menu contextuel, pas de raccourci" }
+  ]
+}

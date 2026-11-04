@@ -1,0 +1,167 @@
+{
+  "id": "gnucash",
+  "nom": "GnuCash",
+  "editeur": "GnuCash Project",
+  "site": "https://www.gnucash.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "GnuCash",
+    "mac": "GnuCash",
+    "linux": "gnucash"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de navigation issus du wiki GnuCash, qui précise être encore basé sur GTK2 (version 3.x en GTK3) : certaines combinaisons peuvent différer. Le manuel officiel v5 ne liste pas les raccourcis. Les raccourcis de menu sont modifiables via le fichier accelerator-map de GnuCash. Les commandes standard sont ajoutées sans source (deduit). Annuler retiré : GnuCash n'a pas de commande Annuler globale. Sur Mac, Ctrl+Option+Page précédente/suivante pour les onglets selon le wiki.",
+  "sources": [
+    {
+      "url": "https://wiki.gnucash.org/wiki/Keyboard_Shortcuts",
+      "titre": "GnuCash Wiki - Keyboard Shortcuts"
+    },
+    {
+      "url": "https://www.gnucash.org/viewdoc.phtml?rev=5&lang=C&doc=help",
+      "titre": "GnuCash Manual v5"
+    }
+  ],
+  "actions": [
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+pagedown",
+      "mac": "ctrl+alt+pagedown",
+      "linux": "ctrl+alt+pagedown",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Navigation",
+      "win": "ctrl+alt+pageup",
+      "mac": "ctrl+alt+pageup",
+      "linux": "ctrl+alt+pageup",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left"
+    },
+    {
+      "id": "transaction-vierge",
+      "nom": "Transaction vierge",
+      "groupe": "Registre",
+      "win": "shift+pagedown",
+      "mac": "shift+pagedown",
+      "linux": "shift+pagedown",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "developper-compte",
+      "nom": "Développer compte",
+      "groupe": "Comptes",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": "shift+right",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "reduire-compte",
+      "nom": "Réduire compte",
+      "groupe": "Comptes",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": "shift+left",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": null,
+      "deduit": true,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "search"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Molette de défilement du registre",
+      "raison": "molette"
+    }
+  ]
+}

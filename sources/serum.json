@@ -1,0 +1,24 @@
+{
+  "id": "serum",
+  "nom": "Serum",
+  "editeur": "Xfer Records",
+  "site": "https://xferrecords.com/web-manual/serum-2/getting-in-touch",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Serum", "mac": "Serum" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Plugin de synthèse chargé dans un DAW : il n'a pas de raccourcis globaux documentés. Le manuel officiel (Serum 2, section « Using the Serum Keyboard », « Undo and Redo ») ne décrit que des boutons de l'interface (annuler/rétablir dans l'en-tête) et le clavier d'ordinateur servant à jouer des notes. Les fonctions se pilotent à la souris ou au clavier de la station (DAW).",
+  "sources": [
+    { "url": "https://www.xferrecords.com/web-manual/serum-2/using-the-serum-keyboard", "titre": "Serum 2 manual - Using the Serum Keyboard" },
+    { "url": "https://www.xferrecords.com/web-manual/serum-2/undo-and-redo", "titre": "Serum 2 manual - Undo and Redo" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages de la synthèse à la molette", "raison": "molette" },
+    { "nom": "Tourner les boutons (knobs) et curseurs", "raison": "souris" },
+    { "nom": "Annuler / rétablir", "raison": "bouton de l'interface, pas de raccourci documenté" }
+  ]
+}

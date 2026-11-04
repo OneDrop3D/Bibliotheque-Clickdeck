@@ -1,0 +1,19 @@
+{
+  "id": "amd-relive",
+  "nom": "AMD ReLive",
+  "editeur": "AMD",
+  "site": "https://www.amd.com/en/support/kb/faq/gpu-101",
+  "systemes": ["windows"],
+  "lancement": { "windows": "AMD Software", "mac": null },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci par défaut fiable n'a pu être confirmé. La FAQ officielle AMD (DH3-023) renvoie vers le menu Hotkey Settings d'AMD Software. Les sources tierces donnent des combinaisons contradictoires (Alt+F9/F10, Ctrl+Shift+S, Ctrl+Shift+R) : aucune n'est inscrite. Seul Alt+R (ouvrir le Radeon overlay) revient dans plusieurs sources, avec un doute.",
+  "sources": [ { "url": "https://www.amd.com/en/resources/support-articles/faqs/DH3-023.html", "titre": "DH3-023 (AMD FAQ, pas de raccourci par défaut indiqué)" } ],
+  "actions": [
+    { "id": "radeon-overlay", "nom": "Radeon overlay", "groupe": "Overlay", "win": "alt+r", "mac": null, "linux": null, "source": 0, "priorite": 2, "picto": "layers" }
+  ],
+  "non_faisable": [ { "nom": "Enregistrement et rediffusion instantanée", "raison": "raccourcis par défaut non confirmés, à définir dans Hotkey Settings" } ]
+}

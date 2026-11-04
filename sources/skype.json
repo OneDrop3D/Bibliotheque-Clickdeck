@@ -1,0 +1,23 @@
+{
+  "id": "skype",
+  "nom": "Skype",
+  "editeur": "Microsoft",
+  "site": "https://www.skype.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Skype",
+    "mac": "Skype"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune action relevée. Microsoft a arrêté Skype le 5 mai 2025 au profit de Teams (information de mémoire, non rouverte en source) ; aucune page de raccourcis lue. Fiche de lancement seulement, application probablement obsolète.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

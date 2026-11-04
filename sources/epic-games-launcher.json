@@ -1,0 +1,17 @@
+{
+  "id": "epic-games-launcher",
+  "nom": "Epic Games Launcher",
+  "editeur": "Epic Games",
+  "site": "https://store.epicgames.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Epic Games Launcher", "mac": "Epic Games Launcher" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source n'a pu être ouverte : la page d'aide Epic renvoie 403, la copie web.archive.org est refusée et la recherche web est épuisée. Aucun raccourci n'est relevé. À reprendre quand les sources seront accessibles.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "adobe-character-animator",
+  "nom": "Adobe Character Animator",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/character-animator.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Adobe Character Animator", "mac": "Adobe Character Animator" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "NON VÉRIFIÉ : aucune source de raccourcis n'a pu être lue (pages officielles en 403 ou 404, budget de recherche épuisé). Aucune action n'est inventée. À relancer une fois les sources accessibles.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

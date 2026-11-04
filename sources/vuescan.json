@@ -1,0 +1,96 @@
+{
+  "id": "vuescan",
+  "nom": "VueScan",
+  "editeur": "Hamrick Software",
+  "site": "https://www.hamrick.com/vuescan/vuescan.htm",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "VueScan",
+    "mac": "VueScan",
+    "linux": "VueScan"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seules les actions des notes de version sont conservées : Maj+flèche déplace le cadre de 10 px (9.8.56, haut/bas extrapolés de « Shift-Arrow »), Suppr supprime le cadre en mode Multi crop (9.8.01). Les commandes Fichier/Édition standard ont été retirées (VueScan n'a pas de menu standard confirmé). Le manuel des raccourcis n'a pas été trouvé ; liste très incomplète. Ctrl+flèches (inclinaison) omis : conflit Mission Control sur Mac.",
+  "sources": [
+    {
+      "url": "https://www.hamrick.com/vuescan/vuescan.htm",
+      "titre": "VueScan - notes de version (changes)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "decaler-cadre-droite",
+      "nom": "Cadre 10 px droite",
+      "groupe": "Recadrage",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-right",
+      "deduit": false
+    },
+    {
+      "id": "decaler-cadre-gauche",
+      "nom": "Cadre 10 px gauche",
+      "groupe": "Recadrage",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-left",
+      "deduit": false
+    },
+    {
+      "id": "decaler-cadre-haut",
+      "nom": "Cadre 10 px haut",
+      "groupe": "Recadrage",
+      "win": "shift+up",
+      "mac": "shift+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-up",
+      "deduit": false
+    },
+    {
+      "id": "decaler-cadre-bas",
+      "nom": "Cadre 10 px bas",
+      "groupe": "Recadrage",
+      "win": "shift+down",
+      "mac": "shift+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "move-down",
+      "deduit": false
+    },
+    {
+      "id": "supprimer-cadre",
+      "nom": "Supprimer cadre",
+      "groupe": "Recadrage",
+      "win": "delete",
+      "mac": "backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2",
+      "deduit": false
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

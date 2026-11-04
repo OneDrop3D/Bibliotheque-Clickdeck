@@ -1,0 +1,272 @@
+{
+  "id": "meshlab",
+  "nom": "MeshLab",
+  "editeur": "ISTI-CNR (Visual Computing Lab)",
+  "site": "https://www.meshlab.net",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "MeshLab",
+    "mac": "MeshLab",
+    "linux": "meshlab"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel (src/meshlab/mainwindow_Init.cpp, createActions). Qt traduit Ctrl en Cmd sur Mac : les raccourcis Mac sont donc déduits. Le code applique à la réinitialisation de la vue Ctrl+H sous Windows et Ctrl+Maj+H sous macOS. Les vues du pavé numérique (face, dessus, etc.) ne sont définies que sous Windows et ne sont pas reprises.",
+  "sources": [
+    {
+      "url": "https://github.com/cnr-isti-vclab/meshlab/blob/main/src/meshlab/mainwindow_Init.cpp",
+      "titre": "MeshLab - code source, mainwindow_Init.cpp (createActions)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir un projet",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "importer-maillage",
+      "nom": "Importer maillage",
+      "groupe": "Fichier",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": "ctrl+i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "import",
+      "deduit": true
+    },
+    {
+      "id": "exporter-maillage",
+      "nom": "Exporter maillage",
+      "groupe": "Fichier",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload",
+      "deduit": true
+    },
+    {
+      "id": "exporter-sous",
+      "nom": "Exporter sous…",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": "ctrl+shift+e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-output",
+      "deduit": true
+    },
+    {
+      "id": "recharger",
+      "nom": "Recharger",
+      "groupe": "Fichier",
+      "win": "alt+r",
+      "mac": "alt+r",
+      "linux": "alt+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw",
+      "deduit": true
+    },
+    {
+      "id": "tout-recharger",
+      "nom": "Tout recharger",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+r",
+      "mac": "cmd+shift+r",
+      "linux": "ctrl+shift+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-ccw",
+      "deduit": true
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": "ctrl+q",
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": "alt+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "afficher-trackball",
+      "nom": "Afficher trackball",
+      "groupe": "Affichage",
+      "win": "shift+h",
+      "mac": "shift+h",
+      "linux": "shift+h",
+      "source": 0,
+      "priorite": 2,
+      "picto": "orbit",
+      "deduit": true
+    },
+    {
+      "id": "reset-trackball",
+      "nom": "Réinitialiser vue",
+      "groupe": "Affichage",
+      "win": "ctrl+h",
+      "mac": "cmd+shift+h",
+      "linux": "ctrl+h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-ccw",
+      "deduit": true
+    },
+    {
+      "id": "fenetre-calques",
+      "nom": "Fenêtre calques",
+      "groupe": "Affichage",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers",
+      "deduit": true
+    },
+    {
+      "id": "mode-raster",
+      "nom": "Mode raster",
+      "groupe": "Affichage",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": "shift+r",
+      "source": 0,
+      "priorite": 3,
+      "picto": "image",
+      "deduit": true
+    },
+    {
+      "id": "aide-ecran",
+      "nom": "Aide rapide",
+      "groupe": "Affichage",
+      "win": "f1",
+      "mac": "f1",
+      "linux": "f1",
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-help",
+      "deduit": true
+    },
+    {
+      "id": "vue-camera-raster",
+      "nom": "Vue caméra raster",
+      "groupe": "Affichage",
+      "win": "ctrl+j",
+      "mac": "cmd+j",
+      "linux": "ctrl+j",
+      "source": 0,
+      "priorite": 3,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "arreter-edition",
+      "nom": "Quitter l'édition",
+      "groupe": "Édition",
+      "win": "escape",
+      "mac": "escape",
+      "linux": "escape",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "appliquer-filtre",
+      "nom": "Dernier filtre",
+      "groupe": "Édition",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand-sparkles",
+      "deduit": true
+    },
+    {
+      "id": "rechercher-filtre",
+      "nom": "Chercher un filtre",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation, panoramique et zoom de la vue",
+      "raison": "souris"
+    },
+    {
+      "nom": "Navigation Ctrl ou Alt maintenu",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Vues du pavé numérique (face, dessus, côté)",
+      "raison": "définies uniquement sous Windows dans le code source"
+    }
+  ]
+}

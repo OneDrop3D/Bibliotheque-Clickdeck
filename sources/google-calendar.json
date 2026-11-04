@@ -1,0 +1,262 @@
+{
+  "id": "google-calendar",
+  "nom": "Google Calendar Desktop (PWA)",
+  "editeur": "Google",
+  "site": "https://calendar.google.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Google Calendar",
+    "mac": "Google Calendar"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis à activer dans Paramètres de Google Calendar (Raccourcis clavier). Les touches simples n'agissent que hors champ de saisie. Imprimer et Fermer sont des commandes standard déduites.",
+  "sources": [
+    {
+      "url": "https://support.google.com/calendar/answer/37034",
+      "titre": "Keyboard shortcuts for Google Calendar"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvel-evenement",
+      "nom": "Nouvel événement",
+      "groupe": "Événements",
+      "win": "c",
+      "mac": "c",
+      "linux": "c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-plus"
+    },
+    {
+      "id": "details",
+      "nom": "Détails événement",
+      "groupe": "Événements",
+      "win": "e",
+      "mac": "e",
+      "linux": "e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Événements",
+      "win": "delete",
+      "mac": "delete",
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Événements",
+      "win": "z",
+      "mac": "z",
+      "linux": "z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Événements",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "retour-grille",
+      "nom": "Retour calendrier",
+      "groupe": "Événements",
+      "win": "escape",
+      "mac": "escape",
+      "linux": "escape",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "suivant",
+      "nom": "Période suivante",
+      "groupe": "Navigation",
+      "win": "j",
+      "mac": "j",
+      "linux": "j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "precedent",
+      "nom": "Période précédente",
+      "groupe": "Navigation",
+      "win": "k",
+      "mac": "k",
+      "linux": "k",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "aujourdhui",
+      "nom": "Aujourd'hui",
+      "groupe": "Navigation",
+      "win": "t",
+      "mac": "t",
+      "linux": "t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-check"
+    },
+    {
+      "id": "aller-a-date",
+      "nom": "Aller à la date",
+      "groupe": "Navigation",
+      "win": "g",
+      "mac": "g",
+      "linux": "g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "calendar-search"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Navigation",
+      "win": "r",
+      "mac": "r",
+      "linux": "r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "slash",
+      "mac": "slash",
+      "linux": "slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Navigation",
+      "win": "s",
+      "mac": "s",
+      "linux": "s",
+      "source": 0,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "vue-jour",
+      "nom": "Vue jour",
+      "groupe": "Affichage",
+      "win": "d",
+      "mac": "d",
+      "linux": "d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-1"
+    },
+    {
+      "id": "vue-semaine",
+      "nom": "Vue semaine",
+      "groupe": "Affichage",
+      "win": "w",
+      "mac": "w",
+      "linux": "w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar-days"
+    },
+    {
+      "id": "vue-mois",
+      "nom": "Vue mois",
+      "groupe": "Affichage",
+      "win": "m",
+      "mac": "m",
+      "linux": "m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "calendar"
+    },
+    {
+      "id": "vue-perso",
+      "nom": "Vue personnalisée",
+      "groupe": "Affichage",
+      "win": "x",
+      "mac": "x",
+      "linux": "x",
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "vue-agenda",
+      "nom": "Vue agenda",
+      "groupe": "Affichage",
+      "win": "a",
+      "mac": "a",
+      "linux": "a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "panneau-lateral",
+      "nom": "Panneau Tasks/Keep",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+period",
+      "mac": "cmd+alt+period",
+      "linux": "ctrl+alt+period",
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-right"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": null,
+      "priorite": 2,
+      "picto": "printer",
+      "deduit": true
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": null,
+      "priorite": 2,
+      "picto": "x",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

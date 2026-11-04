@@ -1,0 +1,22 @@
+{
+  "id": "elgato-wave-link",
+  "nom": "Elgato Wave Link",
+  "editeur": "Elgato",
+  "site": "https://www.elgato.com/us/en/s/wave-link",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Wave Link", "mac": "Wave Link" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle de Wave Link ne liste aucun raccourci clavier. Le contrôle (volume, sourdine, effets, changement de mix) passe par les touches du Stream Deck, qui se configurent dans l'application Stream Deck. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://www.elgato.com/us/en/s/wave-link", "titre": "Elgato Wave Link (page officielle)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Volume, sourdine et effets par touche", "raison": "réglage sans raccourci" },
+    { "nom": "Réglage du volume à la molette", "raison": "molette" }
+  ]
+}

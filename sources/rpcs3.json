@@ -1,0 +1,33 @@
+{
+  "id": "rpcs3",
+  "nom": "RPCS3",
+  "editeur": "RPCS3 Team",
+  "site": "https://rpcs3.net/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "RPCS3", "mac": "RPCS3" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de la fenêtre de jeu, lus dans le code source (shortcut_settings.cpp). Pour le Mac, Ctrl est converti en Cmd par Qt (déduit, non vérifié sur Mac) : à tester avant publication.",
+  "sources": [
+    { "url": "https://github.com/RPCS3/rpcs3/blob/master/rpcs3/rpcs3qt/shortcut_settings.cpp", "titre": "Code source RPCS3 : raccourcis par défaut" }
+  ],
+  "actions": [
+    { "id": "pause", "nom": "Pause / reprise", "groupe": "Jeu", "win": "ctrl+p", "mac": "cmd+p", "linux": null, "source": 0, "priorite": 1, "picto": "pause", "deduit": true },
+    { "id": "redemarrer", "nom": "Redémarrer", "groupe": "Jeu", "win": "ctrl+r", "mac": "cmd+r", "linux": null, "source": 0, "priorite": 1, "picto": "rotate-ccw", "deduit": true },
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Jeu", "win": "alt+enter", "mac": "alt+enter", "linux": null, "source": 0, "priorite": 1, "picto": "maximize", "deduit": true },
+    { "id": "quitter-plein-ecran", "nom": "Quitter plein écran", "groupe": "Jeu", "win": "escape", "mac": "escape", "linux": null, "source": 0, "priorite": 2, "picto": "minimize", "deduit": true },
+    { "id": "capture-ecran", "nom": "Capture d'écran", "groupe": "Jeu", "win": "f12", "mac": "f12", "linux": null, "source": 0, "priorite": 1, "picto": "camera", "deduit": true },
+    { "id": "enregistrement", "nom": "Enregistrement", "groupe": "Jeu", "win": "f11", "mac": "f11", "linux": null, "source": 0, "priorite": 2, "picto": "video", "deduit": true },
+    { "id": "menu-home", "nom": "Menu Home", "groupe": "Jeu", "win": "shift+f10", "mac": "shift+f10", "linux": null, "source": 0, "priorite": 2, "picto": "house", "deduit": true },
+    { "id": "limite-images", "nom": "Limite d'images", "groupe": "Jeu", "win": "ctrl+f10", "mac": "cmd+f10", "linux": null, "source": 0, "priorite": 3, "picto": "gauge", "deduit": true },
+    { "id": "muet", "nom": "Muet", "groupe": "Audio", "win": "ctrl+shift+m", "mac": "cmd+shift+m", "linux": null, "source": 0, "priorite": 2, "picto": "volume-x", "deduit": true },
+    { "id": "volume-plus", "nom": "Volume +", "groupe": "Audio", "win": "ctrl+shift+plus", "mac": "cmd+shift+plus", "linux": null, "source": 0, "priorite": 2, "picto": "volume-2", "deduit": true },
+    { "id": "volume-moins", "nom": "Volume -", "groupe": "Audio", "win": "ctrl+shift+minus", "mac": "cmd+shift+minus", "linux": null, "source": 0, "priorite": 2, "picto": "volume-1", "deduit": true },
+    { "id": "verrou-souris", "nom": "Verrouiller souris", "groupe": "Entrées", "win": "ctrl+l", "mac": "cmd+l", "linux": null, "source": 0, "priorite": 3, "picto": "mouse-pointer", "deduit": true },
+    { "id": "clavier-souris", "nom": "Basculer clavier", "groupe": "Entrées", "win": "ctrl+f11", "mac": "cmd+f11", "linux": null, "source": 0, "priorite": 3, "picto": "keyboard", "deduit": true }
+  ],
+  "non_faisable": []
+}

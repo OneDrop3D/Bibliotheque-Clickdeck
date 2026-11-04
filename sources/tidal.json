@@ -1,0 +1,17 @@
+{
+  "id": "tidal",
+  "nom": "Tidal Desktop",
+  "editeur": "TIDAL",
+  "site": "https://tidal.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "TIDAL", "mac": "TIDAL" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune action relevée : la page d'aide TIDAL consultée renvoyait 403 et la recherche web était épuisée pendant cette passe. À reprendre avec une source lisible avant toute publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

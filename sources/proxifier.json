@@ -1,0 +1,82 @@
+{
+  "id": "proxifier",
+  "nom": "Proxifier",
+  "editeur": "Initex",
+  "site": "https://www.proxifier.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Proxifier",
+    "mac": "Proxifier"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Proxifier est piloté par ses règles et l'icône de barre système ; aucun raccourci documenté trouvé. Seules Ouvrir/Enregistrer/Copier gardées (déduites, non confirmées). Annuler, Fermer, Coller, Tout sélectionner, Rechercher retirés.",
+  "sources": [
+    {
+      "url": "https://www.proxifier.com/docs/",
+      "titre": "Proxifier - Documentation"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 2,
+      "picto": "save"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "deduit": true,
+      "priorite": 3,
+      "picto": "copy"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Activer / désactiver le proxy",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    },
+    {
+      "nom": "Nouvelle règle de proxy",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    },
+    {
+      "nom": "Journal des connexions",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    },
+    {
+      "nom": "Paramètres du proxy",
+      "raison": "raccourci non vérifié (sources indisponibles)"
+    }
+  ]
+}

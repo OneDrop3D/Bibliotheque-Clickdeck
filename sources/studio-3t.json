@@ -1,0 +1,17 @@
+{
+  "id": "studio-3t",
+  "nom": "Studio 3T",
+  "editeur": "3T Software Labs",
+  "site": "https://studio3t.com",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Studio 3T", "mac": "Studio 3T" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune fonction ni raccourci n'a pu être vérifié : la page de base de connaissances de l'éditeur ne contient pas de lien vers les raccourcis, l'URL testée répond 404 et la recherche web était épuisée pour cette session. Fichier laissé sans action plutôt que d'inventer des combinaisons. À reprendre avec une source lisible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

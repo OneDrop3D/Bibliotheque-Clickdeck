@@ -1,0 +1,199 @@
+{
+  "id": "snipaste",
+  "nom": "Snipaste",
+  "editeur": "Snipaste",
+  "site": "https://www.snipaste.com/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Snipaste",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": false,
+  "note": "Raccourcis par défaut listés sur la page d'accueil de l'éditeur. Les touches liées à la fenêtre flottante n'agissent que sur cette fenêtre. Les signes + et - sont notés equal et minus.",
+  "sources": [
+    {
+      "url": "https://www.snipaste.com/",
+      "titre": "Snipaste, page d'accueil (raccourcis par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "demarrer-capture",
+      "nom": "Démarrer la capture",
+      "groupe": "Capture",
+      "win": "f1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller-flottant",
+      "nom": "Coller en fenêtre",
+      "groupe": "Capture",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pin"
+    },
+    {
+      "id": "pipette-capture",
+      "nom": "Pipette couleur",
+      "groupe": "Capture",
+      "win": "c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pipette"
+    },
+    {
+      "id": "historique-precedent",
+      "nom": "Historique précédent",
+      "groupe": "Capture",
+      "win": "comma",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "undo-2"
+    },
+    {
+      "id": "historique-suivant",
+      "nom": "Historique suivant",
+      "groupe": "Capture",
+      "win": "period",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "redo-2"
+    },
+    {
+      "id": "editer-capture",
+      "nom": "Éditer la capture",
+      "groupe": "Fenêtre flottante",
+      "win": "space",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "pivoter-gauche",
+      "nom": "Pivoter à gauche",
+      "groupe": "Fenêtre flottante",
+      "win": "1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "pivoter-droite",
+      "nom": "Pivoter à droite",
+      "groupe": "Fenêtre flottante",
+      "win": "2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "retourner-horizontal",
+      "nom": "Retourner horizontal",
+      "groupe": "Fenêtre flottante",
+      "win": "3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "retourner-vertical",
+      "nom": "Retourner vertical",
+      "groupe": "Fenêtre flottante",
+      "win": "4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-vertical"
+    },
+    {
+      "id": "zoom-avant-flottant",
+      "nom": "Zoom avant",
+      "groupe": "Fenêtre flottante",
+      "win": "equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere-flottant",
+      "nom": "Zoom arrière",
+      "groupe": "Fenêtre flottante",
+      "win": "minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "transparence-plus",
+      "nom": "Transparence +",
+      "groupe": "Fenêtre flottante",
+      "win": "ctrl+equal",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye"
+    },
+    {
+      "id": "transparence-moins",
+      "nom": "Transparence −",
+      "groupe": "Fenêtre flottante",
+      "win": "ctrl+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye-off"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Transparence à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Mode vignette",
+      "raison": "souris"
+    },
+    {
+      "nom": "Masquer la fenêtre",
+      "raison": "souris"
+    },
+    {
+      "nom": "Pipette en maintenant Alt",
+      "raison": "touche maintenue"
+    }
+  ],
+  "raccourcis_par_defaut": true
+}

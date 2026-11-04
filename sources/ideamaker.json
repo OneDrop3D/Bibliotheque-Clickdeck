@@ -1,0 +1,17 @@
+{
+  "id": "ideamaker",
+  "nom": "IdeaMaker",
+  "editeur": "Raise3D",
+  "site": "https://www.raise3d.com/ideamaker/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "ideaMaker", "mac": "ideaMaker" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucun raccourci trouvé. La page produit de Raise3D ne liste pas de raccourcis ; une recherche renvoie seulement vers le panneau « Show Tips and Shortcuts » de l'application et vers le manuel. Fichier à compléter après lecture du manuel ou du panneau dans l'application.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

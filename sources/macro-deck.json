@@ -1,0 +1,21 @@
+{
+  "id": "macro-deck",
+  "nom": "Macro Deck",
+  "editeur": "Macro Deck Org",
+  "site": "https://github.com/Macro-Deck-org/Macro-Deck",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Macro Deck", "mac": "Macro Deck", "linux": "Macro Deck" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de macropad : ses touches sont des boutons créés par l'utilisateur (profils, dossiers, widgets). La page officielle ne décrit aucun raccourci clavier par défaut. Aucune action à proposer dans ClickDeck ; à utiliser comme pack de lancement ou pour piloter les boutons Macro Deck eux-mêmes.",
+  "sources": [
+    { "url": "https://github.com/Macro-Deck-org/Macro-Deck", "titre": "Dépôt officiel Macro Deck" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Boutons, dossiers et profils Macro Deck", "raison": "réglage sans raccourci : configurés par l'utilisateur dans l'application" }
+  ]
+}

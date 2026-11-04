@@ -1,0 +1,17 @@
+{
+  "id": "corona-renderer",
+  "nom": "Corona Renderer",
+  "editeur": "Chaos",
+  "site": "https://corona-renderer.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Corona Renderer", "mac": "Corona Renderer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": true,
+  "note": "Non renseigné : Corona est un moteur de rendu intégré à un logiciel hôte, et aucune page de raccourcis n'a pu être consultée (pas de source ouverte, recherche web indisponible). Relancer le relevé en précisant l'hôte et la Frame Buffer.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mongodb-compass",
+  "nom": "MongoDB Compass",
+  "editeur": "MongoDB",
+  "site": "https://www.mongodb.com/products/tools/compass",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "MongoDB Compass", "mac": "MongoDB Compass" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle Keyboard Shortcuts. Certaines combinaisons servent dans plusieurs contextes (Ctrl+Maj+W ferme la fenêtre dans le menu et l'onglet dans l'espace de travail) : une seule action retenue. Les raccourcis du Web Shell (Ctrl+D, Ctrl+E, etc.) ne sont pas repris.",
+  "sources": [
+    { "url": "https://www.mongodb.com/docs/compass/current/keyboard-shortcuts/", "titre": "MongoDB Compass - Keyboard Shortcuts" }
+  ],
+  "actions": [
+    { "id": "nouvel-onglet", "nom": "Nouvel onglet", "groupe": "Onglets", "win": "ctrl+t", "mac": "cmd+t", "linux": null, "source": 0, "priorite": 1, "picto": "square-plus" },
+    { "id": "fermer-onglet", "nom": "Fermer onglet", "groupe": "Onglets", "win": "ctrl+shift+w", "mac": "cmd+shift+w", "linux": null, "source": 0, "priorite": 1, "picto": "x" },
+    { "id": "onglet-suivant", "nom": "Onglet suivant", "groupe": "Onglets", "win": "ctrl+shift+bracketright", "mac": "cmd+shift+bracketright", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-right" },
+    { "id": "onglet-precedent", "nom": "Onglet précédent", "groupe": "Onglets", "win": "ctrl+shift+bracketleft", "mac": "cmd+shift+bracketleft", "linux": null, "source": 0, "priorite": 1, "picto": "arrow-left" },
+    { "id": "nouvelle-fenetre", "nom": "Nouvelle fenêtre", "groupe": "Fenêtre", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "app-window" },
+    { "id": "recharger-donnees", "nom": "Recharger données", "groupe": "Affichage", "win": "ctrl+r", "mac": "cmd+r", "linux": null, "source": 0, "priorite": 1, "picto": "refresh-cw" },
+    { "id": "recharger-ecran", "nom": "Recharger écran", "groupe": "Affichage", "win": "ctrl+shift+r", "mac": "cmd+shift+r", "linux": null, "source": 0, "priorite": 1, "picto": "rotate-cw" },
+    { "id": "barre-laterale", "nom": "Barre latérale", "groupe": "Affichage", "win": "ctrl+shift+d", "mac": "cmd+shift+d", "linux": null, "source": 0, "priorite": 1, "picto": "panel-left" },
+    { "id": "zoom-plus", "nom": "Zoom avant", "groupe": "Affichage", "win": "ctrl+equal", "mac": "cmd+equal", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-in" },
+    { "id": "zoom-moins", "nom": "Zoom arrière", "groupe": "Affichage", "win": "ctrl+minus", "mac": "cmd+minus", "linux": null, "source": 0, "priorite": 1, "picto": "zoom-out" },
+    { "id": "zoom-reel", "nom": "Taille réelle", "groupe": "Affichage", "win": "ctrl+0", "mac": "cmd+0", "linux": null, "source": 0, "priorite": 2, "picto": "scan" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 1, "picto": "redo-2" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 1, "picto": "text-select" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search" },
+    { "id": "executer-requete", "nom": "Exécuter requête", "groupe": "Requête", "win": "enter", "mac": "enter", "linux": null, "source": 0, "priorite": 1, "picto": "play" },
+    { "id": "formater-code", "nom": "Formater code", "groupe": "Éditeur", "win": "ctrl+shift+b", "mac": "ctrl+shift+b", "linux": null, "source": 0, "priorite": 1, "picto": "wand-sparkles" },
+    { "id": "commenter-code", "nom": "Commenter code", "groupe": "Éditeur", "win": "ctrl+slash", "mac": "cmd+slash", "linux": null, "source": 0, "priorite": 2, "picto": "message-square-code" },
+    { "id": "etape-suivante", "nom": "Étape suivante", "groupe": "Agrégation", "win": "ctrl+shift+9", "mac": "cmd+shift+9", "linux": null, "source": 0, "priorite": 3, "picto": "step-forward" },
+    { "id": "etape-precedente", "nom": "Étape précédente", "groupe": "Agrégation", "win": "ctrl+shift+0", "mac": "cmd+shift+0", "linux": null, "source": 0, "priorite": 3, "picto": "step-back" },
+    { "id": "nouvelle-etape-avant", "nom": "Étape avant", "groupe": "Agrégation", "win": "ctrl+shift+a", "mac": "cmd+shift+a", "linux": null, "source": 0, "priorite": 3, "picto": "plus" },
+    { "id": "parametres", "nom": "Paramètres", "groupe": "Application", "win": "ctrl+comma", "mac": "cmd+comma", "linux": null, "source": 0, "priorite": 1, "picto": "settings" },
+    { "id": "aide", "nom": "Aide en ligne", "groupe": "Application", "win": "f1", "mac": "f1", "linux": null, "source": 0, "priorite": 1, "picto": "circle-help" },
+    { "id": "quitter", "nom": "Quitter Compass", "groupe": "Application", "win": "ctrl+q", "mac": "cmd+q", "linux": null, "source": 0, "priorite": 3, "picto": "log-out" }
+  ],
+  "non_faisable": [
+    { "nom": "Console Web Shell", "raison": "séquence de touches dans un terminal intégré" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "parallels",
+  "nom": "Parallels Desktop (macOS)",
+  "editeur": "Parallels",
+  "site": "https://www.parallels.com/products/desktop/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Parallels Desktop" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seconde passe partielle : la recherche web était épuisée. Seuls les raccourcis cités par la documentation officielle Parallels (page Shortcuts Preferences, page Using Keyboard Shortcuts) sont relevés. Plein écran, Coherence, Ctrl+Alt+Suppr et passage entre machines virtuelles ne sont pas vérifiés et manquent. Fn+F6 sur MacBook.",
+  "sources": [
+    { "url": "https://docs.parallels.com/landing/pdfm-ug/parallels-desktop-for-mac-26-users-guide/parallels-desktop-preferences-and-virtual-machine-settings/parallels-desktop-preferences/shortcuts-preferences", "titre": "Parallels Desktop for Mac 26 - Shortcuts Preferences" },
+    { "url": "https://docs.parallels.com/landing/pdfm-ug/parallels-desktop-for-mac-26-users-guide/use-windows-on-your-mac/mouse-trackpad-and-keyboard/using-keyboard-shortcuts", "titre": "Parallels Desktop for Mac 26 - Using Keyboard Shortcuts" }
+  ],
+  "actions": [
+    { "id": "ouvrir-vm", "nom": "Ouvrir une VM", "groupe": "Machines virtuelles", "win": null, "mac": "cmd+o", "linux": null, "source": 0, "priorite": 2, "picto": "folder-open" },
+    { "id": "afficher-masquer-parallels", "nom": "Afficher/masquer", "groupe": "Application", "win": null, "mac": "f6", "linux": null, "source": 0, "priorite": 2, "picto": "eye" },
+    { "id": "copier-vm", "nom": "Copier (dans la VM)", "groupe": "Dans la VM", "win": null, "mac": "cmd+c", "linux": null, "source": 1, "priorite": 3, "picto": "copy" }
+  ],
+  "non_faisable": [
+    { "nom": "Clic droit dans la VM", "raison": "souris (Maj+Ctrl+clic)" },
+    { "nom": "Plein écran / Coherence / Ctrl+Alt+Suppr", "raison": "non vérifiés, aucune source lue" }
+  ]
+}

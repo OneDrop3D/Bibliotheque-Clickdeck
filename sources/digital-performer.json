@@ -1,0 +1,17 @@
+{
+  "id": "digital-performer",
+  "nom": "Digital Performer",
+  "editeur": "MOTU",
+  "site": "https://motu.com/products/software/dp",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Digital Performer" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Non vérifié : la liste officielle des raccourcis par défaut de MOTU n'a pas pu être lue (pages du support MOTU sans liste, recherche sans résultat complet). Aucune action relevée à ce stade. Les raccourcis sont consultables dans Setup > Commands de Digital Performer. Application Mac uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

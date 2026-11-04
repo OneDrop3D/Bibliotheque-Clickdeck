@@ -1,0 +1,28 @@
+{
+  "id": "anycubic-photon-workshop",
+  "nom": "Anycubic Photon Workshop",
+  "editeur": "Anycubic",
+  "site": "https://www.anycubic.com/pages/software",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Photon Workshop", "mac": "Photon Workshop" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune liste officielle de raccourcis propres à Photon Workshop n'a pu être lue (page d'introduction du wiki Anycubic sans liste ; manuel PDF illisible). Seules les commandes standard de menu sont proposées, avec deduit = true. Les fonctions de découpage, support et envoi n'ont pas de raccourci connu : à utiliser à la souris.",
+  "sources": [
+    { "url": "https://wiki.anycubic.com/de/software-and-app/anycubic-photon-workshop/basic-introduction", "titre": "Anycubic Wiki - Photon Workshop, introduction de base (page consultée, sans liste de raccourcis)" }
+  ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+y", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 2, "picto": "mouse-pointer-2", "deduit": true }
+  ],
+  "non_faisable": [
+    { "nom": "Rotation, zoom et déplacement du modèle", "raison": "souris" },
+    { "nom": "Découpage, support et envoi à l'imprimante", "raison": "réglage sans raccourci" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hwinfo",
+  "nom": "HWiNFO",
+  "editeur": "REALiX",
+  "site": "https://www.hwinfo.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "HWiNFO" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Windows de surveillance des capteurs matériels, sans raccourci clavier documenté. La FAQ officielle (hwinfo.com/faq) a répondu 403 et n'a pas pu être lue ; la copie d'archive n'est pas accessible. Aucune action proposée.",
+  "sources": [
+    { "url": "https://www.hwinfo.com/faq/", "titre": "HWiNFO FAQ (officielle, 403 à la lecture)" },
+    { "url": "https://www.hwinfo.com/", "titre": "HWiNFO (site officiel, 403 à la lecture)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Consultation des capteurs", "raison": "souris" }
+  ]
+}

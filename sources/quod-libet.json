@@ -1,0 +1,130 @@
+{
+  "id": "quod-libet",
+  "nom": "Quod Libet",
+  "editeur": "Projet Quod Libet",
+  "site": "https://quodlibet.readthedocs.io/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Quod Libet",
+    "mac": "Quod Libet",
+    "linux": "Quod Libet"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de la documentation officielle (Primary = Ctrl, ou Cmd sur Mac). Les commandes de lecture (lecture/pause, suivant, précédent) ne figurent pas dans cette page et ne sont pas incluses.",
+  "sources": [
+    {
+      "url": "https://quodlibet.readthedocs.io/en/latest/guide/shortcuts.html",
+      "titre": "Keyboard Shortcuts (documentation Quod Libet)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "reculer-10s",
+      "nom": "Reculer de 10 s",
+      "groupe": "Lecture",
+      "win": "alt+left",
+      "mac": "alt+left",
+      "linux": "alt+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "avancer-10s",
+      "nom": "Avancer de 10 s",
+      "groupe": "Lecture",
+      "win": "alt+right",
+      "mac": "alt+right",
+      "linux": "alt+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "focus-recherche",
+      "nom": "Barre de recherche",
+      "groupe": "Recherche",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "recherche-liste",
+      "nom": "Recherche liste",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-search"
+    },
+    {
+      "id": "reinit-filtres",
+      "nom": "Filtres et lecture",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+j",
+      "mac": "cmd+shift+j",
+      "linux": "ctrl+shift+j",
+      "source": 0,
+      "priorite": 2,
+      "picto": "locate"
+    },
+    {
+      "id": "infos-piste",
+      "nom": "Infos des pistes",
+      "groupe": "Pistes",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": "ctrl+i",
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "editeur-etiquettes",
+      "nom": "Éditeur d'infos",
+      "groupe": "Pistes",
+      "win": "alt+enter",
+      "mac": "alt+enter",
+      "linux": "alt+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-pen"
+    },
+    {
+      "id": "mettre-en-file",
+      "nom": "Mettre en file",
+      "groupe": "Pistes",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": "ctrl+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Pistes",
+      "win": "ctrl+home",
+      "mac": "cmd+home",
+      "linux": "ctrl+home",
+      "source": 0,
+      "priorite": 3,
+      "picto": "text-select"
+    }
+  ],
+  "non_faisable": []
+}

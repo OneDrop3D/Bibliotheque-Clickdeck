@@ -1,0 +1,513 @@
+{
+  "id": "engine-dj",
+  "nom": "Engine DJ",
+  "editeur": "Denon DJ",
+  "site": "https://www.enginedj.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Engine DJ",
+    "mac": "Engine DJ"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du guide officiel Engine DJ v3.2.0 (section Keyboard Shortcuts, Layer A = lecteur gauche, Layer B = lecteur droit). Les pads 1-8 déclenchent un Hot Cue ou une boucle selon le mode choisi.",
+  "sources": [
+    {
+      "url": "https://cdn.inmusicbrands.com/engine/v3.2.0-503f36225b/Engine DJ - User Guide - v3.2.0.pdf",
+      "titre": "Engine DJ User Guide v3.2.0, Keyboard Shortcuts (p. 42-43)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-a",
+      "nom": "Lecture / Pause A",
+      "groupe": "Lecteur A",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "cue-a",
+      "nom": "Cue A",
+      "groupe": "Lecteur A",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "charger-a",
+      "nom": "Charger piste A",
+      "groupe": "Lecteur A",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "piste-prec-a",
+      "nom": "Piste précédente A",
+      "groupe": "Lecteur A",
+      "win": "ctrl+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "piste-suiv-a",
+      "nom": "Piste suivante A",
+      "groupe": "Lecteur A",
+      "win": "ctrl+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "saut-arriere-a",
+      "nom": "Saut beats arrière",
+      "groupe": "Lecteur A",
+      "win": "ctrl+left",
+      "mac": "cmd+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rewind"
+    },
+    {
+      "id": "saut-avant-a",
+      "nom": "Saut beats avant",
+      "groupe": "Lecteur A",
+      "win": "ctrl+right",
+      "mac": "cmd+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "keylock-a",
+      "nom": "Keylock A",
+      "groupe": "Lecteur A",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "temps-restant",
+      "nom": "Temps / restant",
+      "groupe": "Lecteur A",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "timer"
+    },
+    {
+      "id": "grille-a",
+      "nom": "Marqueur de grille",
+      "groupe": "Lecteur A",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "suppr-grille-a",
+      "nom": "Suppr. marqueur",
+      "groupe": "Lecteur A",
+      "win": "shift+m",
+      "mac": "shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eraser"
+    },
+    {
+      "id": "lecture-b",
+      "nom": "Lecture / Pause B",
+      "groupe": "Lecteur B",
+      "win": "ctrl+space",
+      "mac": "alt+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "cue-b",
+      "nom": "Cue B",
+      "groupe": "Lecteur B",
+      "win": "alt+c",
+      "mac": "alt+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "charger-b",
+      "nom": "Charger piste B",
+      "groupe": "Lecteur B",
+      "win": "ctrl+2",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "piste-prec-b",
+      "nom": "Piste précédente B",
+      "groupe": "Lecteur B",
+      "win": "ctrl+alt+up",
+      "mac": "cmd+alt+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "piste-suiv-b",
+      "nom": "Piste suivante B",
+      "groupe": "Lecteur B",
+      "win": "ctrl+alt+down",
+      "mac": "cmd+alt+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "saut-arriere-b",
+      "nom": "Saut arrière B",
+      "groupe": "Lecteur B",
+      "win": "ctrl+alt+left",
+      "mac": "cmd+alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rewind"
+    },
+    {
+      "id": "saut-avant-b",
+      "nom": "Saut avant B",
+      "groupe": "Lecteur B",
+      "win": "ctrl+alt+right",
+      "mac": "cmd+alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "keylock-b",
+      "nom": "Keylock B",
+      "groupe": "Lecteur B",
+      "win": "alt+k",
+      "mac": "alt+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lock"
+    },
+    {
+      "id": "mode-hotcue",
+      "nom": "Mode Hot Cue",
+      "groupe": "Pads",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "mode-boucle",
+      "nom": "Mode Boucle",
+      "groupe": "Pads",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "pad-1",
+      "nom": "Pad 1",
+      "groupe": "Pads",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-2",
+      "nom": "Pad 2",
+      "groupe": "Pads",
+      "win": "2",
+      "mac": "2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-3",
+      "nom": "Pad 3",
+      "groupe": "Pads",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-4",
+      "nom": "Pad 4",
+      "groupe": "Pads",
+      "win": "4",
+      "mac": "4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-5",
+      "nom": "Pad 5",
+      "groupe": "Pads",
+      "win": "5",
+      "mac": "5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-6",
+      "nom": "Pad 6",
+      "groupe": "Pads",
+      "win": "6",
+      "mac": "6",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-7",
+      "nom": "Pad 7",
+      "groupe": "Pads",
+      "win": "7",
+      "mac": "7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "pad-8",
+      "nom": "Pad 8",
+      "groupe": "Pads",
+      "win": "8",
+      "mac": "8",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "suppr-pad-1",
+      "nom": "Suppr. pad 1",
+      "groupe": "Pads",
+      "win": "shift+1",
+      "mac": "shift+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "suppr-pad-2",
+      "nom": "Suppr. pad 2",
+      "groupe": "Pads",
+      "win": "shift+2",
+      "mac": "shift+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "suppr-pad-3",
+      "nom": "Suppr. pad 3",
+      "groupe": "Pads",
+      "win": "shift+3",
+      "mac": "shift+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "suppr-pad-4",
+      "nom": "Suppr. pad 4",
+      "groupe": "Pads",
+      "win": "shift+4",
+      "mac": "shift+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "recherche",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "nouvelle-playlist",
+      "nom": "Nouvelle playlist",
+      "groupe": "Navigation",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "zoom-plus",
+      "nom": "Zoom avant onde",
+      "groupe": "Navigation",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-moins",
+      "nom": "Zoom arrière onde",
+      "groupe": "Navigation",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-reset",
+      "nom": "Zoom par défaut",
+      "groupe": "Navigation",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "panneau-appareils",
+      "nom": "Panneau appareils",
+      "groupe": "Navigation",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "usb"
+    },
+    {
+      "id": "filtres",
+      "nom": "Boîtes de filtres",
+      "groupe": "Navigation",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "filter"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Navigation",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "box-select"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Application",
+      "win": "f11",
+      "mac": "cmd+ctrl+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Application",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "infobulles",
+      "nom": "Infobulles",
+      "groupe": "Application",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "info"
+    }
+  ],
+  "non_faisable": []
+}

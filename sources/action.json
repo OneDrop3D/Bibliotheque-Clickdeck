@@ -1,0 +1,39 @@
+{
+  "id": "action",
+  "nom": "Action! (Mirillis)",
+  "editeur": "Mirillis",
+  "site": "https://mirillis.com",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Action!",
+    "mac": null
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seule la touche F9 (démarrer/arrêter) est confirmée par la page du tutoriel Mirillis. Les autres raccourcis (HUD, FPS) n'ont pas pu être confirmés et ont été retirés ; le manuel officiel n'a pas pu être lu.",
+  "sources": [
+    {
+      "url": "https://mirillis.com/active-screen-recording-action-tutorial",
+      "titre": "Introduction to Active desktop / screen recording mode (Mirillis)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "demarrer-arreter",
+      "nom": "Démarrer/Arrêter",
+      "groupe": "Enregistrement",
+      "win": "f9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    }
+  ],
+  "non_faisable": []
+}

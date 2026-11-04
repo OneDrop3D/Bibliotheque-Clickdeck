@@ -1,0 +1,26 @@
+{
+  "id": "kisslicer",
+  "nom": "KissSlicer",
+  "editeur": "KISSlicer",
+  "site": "https://www.kisslicer.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "KISSlicer", "mac": "KISSlicer" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Le site officiel (kisslicer.com) ne documente aucun raccourci clavier : la page n'évoque que la souris sur les icônes de l'interface. Aucune documentation de raccourcis n'a été trouvée. Seules les commandes standard de menu sont ajoutées, sans source (deduit), pour un éventuel usage en pack de lancement.",
+  "sources": [
+    { "url": "https://www.kisslicer.com", "titre": "Site officiel KISSlicer (lu : aucun raccourci documenté)" }
+  ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "save" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+p", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "printer" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "undo-2" }
+  ],
+  "non_faisable": [
+    { "nom": "Zoom à la molette", "raison": "molette" }
+  ]
+}

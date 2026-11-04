@@ -1,0 +1,21 @@
+{
+  "id": "cleanmymac",
+  "nom": "CleanMyMac",
+  "editeur": "MacPaw",
+  "site": "https://macpaw.com/cleanmymac",
+  "systemes": ["mac"],
+  "lancement": { "mac": "CleanMyMac" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne décrit aucun raccourci clavier propre à l'application (Smart Care, désinstallation, doublons, etc.). Application pilotée à la souris : à mettre dans un pack de lancement.",
+  "sources": [
+    { "url": "https://macpaw.com/cleanmymac", "titre": "CleanMyMac - page officielle MacPaw" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancer le Smart Care et les analyses", "raison": "souris, aucun raccourci documenté" }
+  ]
+}

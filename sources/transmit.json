@@ -1,0 +1,405 @@
+{
+  "id": "transmit",
+  "nom": "Transmit",
+  "editeur": "Panic",
+  "site": "https://panic.com/transmit/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Transmit"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de Transmit 5, relevés dans l'aide officielle Panic.",
+  "sources": [
+    {
+      "url": "https://help.panic.com/transmit/transmit5/shortcuts/",
+      "titre": "Transmit 5 - Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Fenêtres",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Fenêtres",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer l'onglet",
+      "groupe": "Fenêtres",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Fenêtres",
+      "mac": "ctrl+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right-to-line"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Fenêtres",
+      "mac": "ctrl+shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-to-line"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Fenêtres",
+      "mac": "ctrl+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "connexion-rapide",
+      "nom": "Connexion rapide",
+      "groupe": "Serveurs",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zap"
+    },
+    {
+      "id": "ajouter-serveur",
+      "nom": "Ajouter un serveur",
+      "groupe": "Serveurs",
+      "mac": "cmd+shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "server"
+    },
+    {
+      "id": "modifier-serveur",
+      "nom": "Modifier le serveur",
+      "groupe": "Serveurs",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "deconnecter",
+      "nom": "Déconnecter",
+      "groupe": "Serveurs",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "unplug"
+    },
+    {
+      "id": "dernier-protocole",
+      "nom": "Dernier protocole",
+      "groupe": "Serveurs",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "plug"
+    },
+    {
+      "id": "transferer",
+      "nom": "Transférer",
+      "groupe": "Transferts",
+      "mac": "cmd+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload"
+    },
+    {
+      "id": "sans-regles",
+      "nom": "Transfert sans règles",
+      "groupe": "Transferts",
+      "mac": "cmd+alt+shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "upload"
+    },
+    {
+      "id": "annuler-transfert",
+      "nom": "Annuler",
+      "groupe": "Transferts",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-x"
+    },
+    {
+      "id": "afficher-transferts",
+      "nom": "Afficher transferts",
+      "groupe": "Transferts",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-up"
+    },
+    {
+      "id": "nouveau-dossier",
+      "nom": "Nouveau dossier",
+      "groupe": "Fichiers",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "nouveau-fichier",
+      "nom": "Nouveau fichier",
+      "groupe": "Fichiers",
+      "mac": "cmd+alt+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichiers",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Fichiers",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "lire-infos",
+      "nom": "Lire les infos",
+      "groupe": "Fichiers",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu rapide",
+      "groupe": "Fichiers",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "apercu-navigateur",
+      "nom": "Aperçu navigateur",
+      "groupe": "Fichiers",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "globe"
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Affichage",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "fichiers-invisibles",
+      "nom": "Fichiers invisibles",
+      "groupe": "Affichage",
+      "mac": "cmd+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "eye-off"
+    },
+    {
+      "id": "vue-icones",
+      "nom": "Vue en icônes",
+      "groupe": "Affichage",
+      "mac": "cmd+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "vue-liste",
+      "nom": "Vue en liste",
+      "groupe": "Affichage",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list"
+    },
+    {
+      "id": "vue-colonnes",
+      "nom": "Vue en colonnes",
+      "groupe": "Affichage",
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "columns-3"
+    },
+    {
+      "id": "focus-local",
+      "nom": "Panneau local",
+      "groupe": "Navigation",
+      "mac": "cmd+alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "hard-drive"
+    },
+    {
+      "id": "focus-distant",
+      "nom": "Panneau distant",
+      "groupe": "Navigation",
+      "mac": "cmd+alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "cloud"
+    },
+    {
+      "id": "precedent",
+      "nom": "Précédent",
+      "groupe": "Navigation",
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "suivant",
+      "nom": "Suivant",
+      "groupe": "Navigation",
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "dossier-parent",
+      "nom": "Dossier parent",
+      "groupe": "Navigation",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-left-up"
+    },
+    {
+      "id": "aller-au-dossier",
+      "nom": "Aller au dossier",
+      "groupe": "Navigation",
+      "mac": "cmd+alt+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-search"
+    },
+    {
+      "id": "ouvrir-terminal",
+      "nom": "Ouvrir le terminal",
+      "groupe": "Navigation",
+      "mac": "cmd+alt+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "terminal"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-dashed-mouse-pointer",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Transfert de fichiers par glisser-déposer",
+      "raison": "souris"
+    }
+  ]
+}

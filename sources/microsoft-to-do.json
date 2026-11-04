@@ -1,0 +1,125 @@
+{
+  "id": "microsoft-to-do",
+  "nom": "Microsoft To Do",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/fr-fr/microsoft-365/microsoft-to-do-list-app",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Microsoft To Do",
+    "mac": "Microsoft To Do"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés sur une seule source tierce (defkey.com, section Desktop et Mac) ; pas de deuxième source concordante trouvée. Recoupement à faire avant publication. Pour Mac, Control est indiqué par la source. Corrigé : Nouvelle liste Mac = Control+Maj+L ; Supprimer tâche indiqué seulement pour Web et Mac (Windows laissé vide).",
+  "sources": [
+    {
+      "url": "https://defkey.com/microsoft-to-do-shortcuts",
+      "titre": "Microsoft To Do shortcuts (defkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvelle-tache",
+      "nom": "Nouvelle tâche",
+      "groupe": "Tâches",
+      "win": "ctrl+n",
+      "mac": "ctrl+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus",
+      "deduit": false
+    },
+    {
+      "id": "nouvelle-liste",
+      "nom": "Nouvelle liste",
+      "groupe": "Tâches",
+      "win": "ctrl+l",
+      "mac": "ctrl+shift+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus",
+      "deduit": false
+    },
+    {
+      "id": "terminer-tache",
+      "nom": "Terminer tâche",
+      "groupe": "Tâches",
+      "win": "ctrl+d",
+      "mac": "ctrl+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "check",
+      "deduit": false
+    },
+    {
+      "id": "ajouter-mon-jour",
+      "nom": "Ajouter à Mon jour",
+      "groupe": "Tâches",
+      "win": "ctrl+t",
+      "mac": "ctrl+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sun",
+      "deduit": false
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "ctrl+f",
+      "mac": "ctrl+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search",
+      "deduit": false
+    },
+    {
+      "id": "synchroniser",
+      "nom": "Synchroniser",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "refresh-cw",
+      "deduit": false
+    },
+    {
+      "id": "supprimer-tache",
+      "nom": "Supprimer tâche",
+      "groupe": "Tâches",
+      "win": null,
+      "mac": "ctrl+backspace",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2",
+      "deduit": false
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

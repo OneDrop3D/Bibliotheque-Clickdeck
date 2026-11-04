@@ -1,0 +1,17 @@
+{
+  "id": "mixamo",
+  "nom": "Mixamo",
+  "editeur": "Adobe",
+  "site": "https://www.mixamo.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Mixamo", "mac": "Mixamo" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Service web (navigateur) : la page d'accueil ouverte ne documente aucun raccourci clavier. Le workflow desktop (import dans un logiciel 3D) relève de ce logiciel, pas de Mixamo. Pack de lancement recommandé.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

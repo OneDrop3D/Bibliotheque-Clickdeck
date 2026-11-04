@@ -1,0 +1,22 @@
+{
+  "id": "process-lasso",
+  "nom": "Process Lasso",
+  "editeur": "Bitsum",
+  "site": "https://bitsum.com/processlasso/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Process Lasso", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne documente aucun raccourci clavier par défaut. Pas d'actions proposées pour ne pas inventer de raccourci.",
+  "sources": [
+    { "url": "https://bitsum.com/processlasso/", "titre": "Process Lasso - Bitsum" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages de priorité et d'affinité", "raison": "réglage sans raccourci" },
+    { "nom": "ProBalance", "raison": "réglage sans raccourci" }
+  ]
+}

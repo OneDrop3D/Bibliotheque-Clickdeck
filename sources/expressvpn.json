@@ -1,0 +1,17 @@
+{
+  "id": "expressvpn",
+  "nom": "ExpressVPN",
+  "editeur": "ExpressVPN",
+  "site": "https://www.expressvpn.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "ExpressVPN", "mac": "ExpressVPN" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier par défaut trouvé : la page d'aide des applications de bureau ExpressVPN ne mentionne pas de raccourci. Aucune action proposée.",
+  "sources": [ { "url": "https://www.expressvpn.com/support/troubleshooting/", "titre": "ExpressVPN - Dépannage des applications de bureau" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Connexion et déconnexion", "raison": "réglage sans raccourci documenté" } ]
+}

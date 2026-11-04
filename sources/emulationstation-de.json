@@ -1,0 +1,135 @@
+{
+  "id": "emulationstation-de",
+  "nom": "EmulationStation DE",
+  "editeur": "ES-DE Frontend Team",
+  "site": "https://es-de.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "EmulationStation-DE",
+    "mac": "EmulationStation-DE",
+    "linux": "emulationstation-de"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le guide utilisateur officiel (USERGUIDE.md, section navigation, non exhaustive). Retirés faute de touche valide ou de certitude : favori (Insert / F13 sur Mac), jeu aléatoire (F2/F3, option à activer), haut/bas/gauche/droite.",
+  "sources": [
+    {
+      "url": "https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md",
+      "titre": "ES-DE User guide (clavier par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "valider",
+      "nom": "Valider",
+      "groupe": "Navigation",
+      "win": "enter",
+      "mac": "enter",
+      "linux": "enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-left"
+    },
+    {
+      "id": "menu-principal",
+      "nom": "Menu principal",
+      "groupe": "Navigation",
+      "win": "escape",
+      "mac": "escape",
+      "linux": "escape",
+      "source": 0,
+      "priorite": 1,
+      "picto": "menu"
+    },
+    {
+      "id": "options-liste",
+      "nom": "Options de liste",
+      "groupe": "Navigation",
+      "win": "f1",
+      "mac": "f1",
+      "linux": "f1",
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "saut-suivant",
+      "nom": "Saut suivant",
+      "groupe": "Navigation",
+      "win": "pagedown",
+      "mac": "pagedown",
+      "linux": "pagedown",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-down"
+    },
+    {
+      "id": "saut-precedent",
+      "nom": "Saut précédent",
+      "groupe": "Navigation",
+      "win": "pageup",
+      "mac": "pageup",
+      "linux": "pageup",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-up"
+    },
+    {
+      "id": "premier",
+      "nom": "Premier élément",
+      "groupe": "Navigation",
+      "win": "home",
+      "mac": "home",
+      "linux": "home",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "dernier",
+      "nom": "Dernier élément",
+      "groupe": "Navigation",
+      "win": "end",
+      "mac": "end",
+      "linux": "end",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "visionneuse",
+      "nom": "Visionneuse médias",
+      "groupe": "Affichage",
+      "win": "delete",
+      "mac": "delete",
+      "linux": "delete",
+      "source": 0,
+      "priorite": 2,
+      "picto": "image"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Application",
+      "win": "alt+f4",
+      "mac": "cmd+q",
+      "linux": "alt+f4",
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Favori",
+      "raison": "touche Insert/F13 non disponible"
+    }
+  ]
+}

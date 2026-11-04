@@ -1,0 +1,17 @@
+{
+  "id": "dragonbones",
+  "nom": "DragonBones",
+  "editeur": "DragonBones",
+  "site": "",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "DragonBones", "mac": "DragonBones" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucune source ouverte pendant la recherche : le domaine de documentation n'a pas pu être résolu et la recherche web était épuisée. Aucun raccourci n'a été relevé ; à compléter depuis la documentation DragonBones avant publication.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

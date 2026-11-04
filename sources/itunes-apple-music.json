@@ -1,0 +1,329 @@
+{
+  "id": "itunes-apple-music",
+  "nom": "iTunes / Apple Music Desktop",
+  "editeur": "Apple",
+  "site": "https://www.apple.com/apple-music/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Apple Music",
+    "mac": "Music"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans les guides officiels Apple Music (Mac et Windows). iTunes sur Windows a été remplacé par l'app Apple Music : les raccourcis Windows proviennent de cette app. Les combinaisons Mac et Windows diffèrent pour la lecture et la navigation dans la liste : chacune est reprise de sa source.",
+  "sources": [
+    {
+      "url": "https://support.apple.com/guide/music/keyboard-shortcuts-mus1019/mac",
+      "titre": "Raccourcis clavier de Musique sur Mac (guide Apple)"
+    },
+    {
+      "url": "https://support.apple.com/guide/music-windows/keyboard-shortcuts-mus1019/windows",
+      "titre": "Raccourcis clavier d'Apple Music sur Windows (guide Apple)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "ctrl+space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "titre-suivant",
+      "nom": "Titre suivant",
+      "groupe": "Lecture",
+      "win": "ctrl+right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "titre-precedent",
+      "nom": "Titre précédent",
+      "groupe": "Lecture",
+      "win": "ctrl+left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "volume-plus",
+      "nom": "Volume +",
+      "groupe": "Lecture",
+      "win": "ctrl+up",
+      "mac": "cmd+up",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-2"
+    },
+    {
+      "id": "volume-moins",
+      "nom": "Volume −",
+      "groupe": "Lecture",
+      "win": "ctrl+down",
+      "mac": "cmd+down",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "volume-1"
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Lecture",
+      "win": "ctrl+period",
+      "mac": "cmd+period",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "titre-en-cours",
+      "nom": "Titre en cours",
+      "groupe": "Lecture",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "locate-fixed"
+    },
+    {
+      "id": "album-suivant",
+      "nom": "Album suivant",
+      "groupe": "Lecture",
+      "win": null,
+      "mac": "alt+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "disc-3"
+    },
+    {
+      "id": "file-attente",
+      "nom": "File d'attente",
+      "groupe": "Lecture",
+      "win": null,
+      "mac": "alt+cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-ordered"
+    },
+    {
+      "id": "egaliseur",
+      "nom": "Égaliseur",
+      "groupe": "Lecture",
+      "win": "ctrl+shift+e",
+      "mac": "alt+cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "mini-lecteur",
+      "nom": "Mini-lecteur",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+m",
+      "mac": "shift+cmd+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "picture-in-picture-2"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+shift+f",
+      "mac": "shift+cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "infos-titre",
+      "nom": "Infos du titre",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "info"
+    },
+    {
+      "id": "visualiseur",
+      "nom": "Visualiseur",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "audio-waveform"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Bibliothèque",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "importer-fichier",
+      "nom": "Importer fichier",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "nouvelle-playlist",
+      "nom": "Nouvelle playlist",
+      "groupe": "Bibliothèque",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "smart-playlist",
+      "nom": "Smart Playlist",
+      "groupe": "Bibliothèque",
+      "win": null,
+      "mac": "alt+cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "list-filter"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks",
+      "deduit": true
+    },
+    {
+      "id": "actualiser",
+      "nom": "Actualiser",
+      "groupe": "Bibliothèque",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Réglages",
+      "win": "ctrl+comma",
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "settings"
+    },
+    {
+      "id": "album-precedent",
+      "nom": "Album précédent",
+      "groupe": "Lecture",
+      "win": null,
+      "mac": "alt+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "disc"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Molette de volume",
+      "raison": "molette"
+    }
+  ]
+}

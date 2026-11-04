@@ -1,0 +1,34 @@
+{
+  "id": "nomad-sculpt",
+  "nom": "Nomad Sculpt",
+  "editeur": "Nomad Sculpt",
+  "site": "https://nomadsculpt.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Nomad Sculpt",
+    "mac": "Nomad Sculpt"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Application tactile (iPad/iPhone/Android) sans menus : le manuel officiel ne publie aucun raccourci clavier par défaut (tout se règle dans Bindings). Les anciennes commandes standard, sans source, ont été retirées. Seule indication : sur iOS, maintenir Cmd affiche la liste des raccourcis.",
+  "sources": [
+    {
+      "url": "https://nomadsculpt.com/manual/interface",
+      "titre": "Nomad Sculpt manual - Interface (bindings)"
+    }
+  ],
+  "actions": [
+
+  ],
+  "non_faisable": [
+    {"nom": "Outils de sculpture", "raison": "raccourcis par défaut non publiés, à définir dans Bindings"},
+    {"nom": "Rotation, zoom et déplacement de la vue", "raison": "souris, stylet ou molette"},
+    {"nom": "Peinture et pinceaux", "raison": "souris ou stylet"}
+  ]
+}

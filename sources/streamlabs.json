@@ -1,0 +1,22 @@
+{
+  "id": "streamlabs",
+  "nom": "Streamlabs Desktop",
+  "editeur": "Streamlabs",
+  "site": "https://streamlabs.com/desktop",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Streamlabs Desktop", "mac": "Streamlabs Desktop" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Les raccourcis se définissent dans Paramètres > Raccourcis (Hotkeys). Aucune liste de raccourcis par défaut n'a pu être vérifiée : la page d'aide officielle sur les raccourcis renvoie une erreur 403 et l'archive n'a pas pu être lue. Les recherches n'ont pas trouvé de liste par défaut ; une source tierce indique qu'il n'y a pas de raccourcis universels par défaut. Aucune action n'est donc proposée. À vérifier dans l'application avant d'ajouter des actions.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Démarrer / arrêter diffusion", "raison": "aucun raccourci par défaut sourcé" },
+    { "nom": "Démarrer / arrêter enregistrement", "raison": "aucun raccourci par défaut sourcé" },
+    { "nom": "Changer de scène", "raison": "aucun raccourci par défaut sourcé" },
+    { "nom": "Mute micro", "raison": "aucun raccourci par défaut sourcé" }
+  ]
+}

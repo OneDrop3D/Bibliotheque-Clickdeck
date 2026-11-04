@@ -1,0 +1,17 @@
+{
+  "id": "razer-synapse",
+  "nom": "Razer Synapse",
+  "editeur": "Razer",
+  "site": "https://www.razer.com/synapse-3",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Razer Synapse", "mac": "Razer Synapse" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de configuration matérielle sans raccourcis globaux par défaut. Les raccourcis (Global Shortcuts) se définissent dans l'application. Les seuls raccourcis par défaut relevés concernent des modèles précis (ex. Huntsman V3 Pro, Tartarus V2) et ne sont pas repris ici. Source Razer Insider consultée, page officielle non vérifiée.",
+  "sources": [ { "url": "https://insider.razer.com/razer-support-45/does-synapse-have-hotkeys-33122", "titre": "Razer Insider : Does Synapse have hotkeys?" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Raccourcis globaux personnalisés", "raison": "réglage sans raccourci fixe, à définir dans l'application" } ]
+}

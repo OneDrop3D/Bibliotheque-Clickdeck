@@ -1,0 +1,185 @@
+{
+  "id": "dosbox",
+  "nom": "DOSBox",
+  "editeur": "DOSBox Team",
+  "site": "https://www.dosbox.com/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "DOSBox",
+    "mac": "DOSBox",
+    "linux": "dosbox"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis par défaut de DOSBox 0.74.3 relevés sur une seule source tierce (defkey.com) : manuel officiel inaccessible. Modifiables via le keymapper (Ctrl+F1). Mac non confirmé (touches F et Alt/Cmd différentes), donc laissé vide ; les actions ne valent que pour Windows et Linux.",
+  "sources": [
+    {
+      "url": "https://defkey.com/dosbox-shortcuts",
+      "titre": "DOSBox 0.74.3 shortcuts (defkey)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "alt+enter",
+      "mac": null,
+      "linux": "alt+enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Émulation",
+      "win": "alt+pause",
+      "mac": null,
+      "linux": "alt+pause",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Capture",
+      "win": "ctrl+f5",
+      "mac": null,
+      "linux": "ctrl+f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera"
+    },
+    {
+      "id": "souris",
+      "nom": "Capturer la souris",
+      "groupe": "Émulation",
+      "win": "ctrl+f10",
+      "mac": null,
+      "linux": "ctrl+f10",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "cycles-moins",
+      "nom": "Cycles moins",
+      "groupe": "Émulation",
+      "win": "ctrl+f11",
+      "mac": null,
+      "linux": "ctrl+f11",
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    },
+    {
+      "id": "cycles-plus",
+      "nom": "Cycles plus",
+      "groupe": "Émulation",
+      "win": "ctrl+f12",
+      "mac": null,
+      "linux": "ctrl+f12",
+      "source": 0,
+      "priorite": 1,
+      "picto": "gauge"
+    },
+    {
+      "id": "turbo",
+      "nom": "Vitesse maximale",
+      "groupe": "Émulation",
+      "win": "alt+f12",
+      "mac": null,
+      "linux": "alt+f12",
+      "source": 0,
+      "priorite": 2,
+      "picto": "zap"
+    },
+    {
+      "id": "keymapper",
+      "nom": "Éditeur de touches",
+      "groupe": "Émulation",
+      "win": "ctrl+f1",
+      "mac": null,
+      "linux": "ctrl+f1",
+      "source": 0,
+      "priorite": 2,
+      "picto": "keyboard"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer DOSBox",
+      "groupe": "Émulation",
+      "win": "ctrl+f9",
+      "mac": null,
+      "linux": "ctrl+f9",
+      "source": 0,
+      "priorite": 3,
+      "picto": "power"
+    },
+    {
+      "id": "frameskip-moins",
+      "nom": "Saut d'image −",
+      "groupe": "Affichage",
+      "win": "ctrl+f7",
+      "mac": null,
+      "linux": "ctrl+f7",
+      "source": 0,
+      "priorite": 3,
+      "picto": "minus"
+    },
+    {
+      "id": "frameskip-plus",
+      "nom": "Saut d'image +",
+      "groupe": "Affichage",
+      "win": "ctrl+f8",
+      "mac": null,
+      "linux": "ctrl+f8",
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus"
+    },
+    {
+      "id": "video-avi",
+      "nom": "Vidéo AVI",
+      "groupe": "Capture",
+      "win": "ctrl+alt+f5",
+      "mac": null,
+      "linux": "ctrl+alt+f5",
+      "source": 0,
+      "priorite": 2,
+      "picto": "video"
+    },
+    {
+      "id": "audio-wav",
+      "nom": "Audio WAV",
+      "groupe": "Capture",
+      "win": "ctrl+f6",
+      "mac": null,
+      "linux": "ctrl+f6",
+      "source": 0,
+      "priorite": 3,
+      "picto": "mic"
+    },
+    {
+      "id": "rafraichir",
+      "nom": "Rafraîchir disques",
+      "groupe": "Émulation",
+      "win": "ctrl+f4",
+      "mac": null,
+      "linux": "ctrl+f4",
+      "source": 0,
+      "priorite": 3,
+      "picto": "refresh-cw"
+    }
+  ],
+  "non_faisable": []
+}

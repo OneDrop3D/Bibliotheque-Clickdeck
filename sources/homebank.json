@@ -1,0 +1,78 @@
+{
+  "id": "homebank",
+  "nom": "HomeBank",
+  "editeur": "HomeBank",
+  "site": "http://homebank.free.fr/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "HomeBank",
+    "mac": "HomeBank"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Divers desktop grand public",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Site officiel inaccessible pendant la recherche (connexion refusée) et recherche web indisponible (quota de recherche atteint) : aucun raccourci propre à HomeBank n'a pu être vérifié. Seules les commandes de fichier standard sont gardées (annuler/copier/etc. retirées : absentes des menus), avec deduit: true ; à recouper avec le menu réel de HomeBank avant usage. Seconde passe : site toujours refusé, aucune source lisible.",
+  "sources": [
+    {
+      "url": "http://homebank.free.fr/help/index-en.html",
+      "titre": "Aide HomeBank (non lue : inaccessible)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "save-all",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

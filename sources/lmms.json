@@ -1,0 +1,350 @@
+{
+  "id": "lmms",
+  "nom": "LMMS",
+  "editeur": "LMMS Developers",
+  "site": "https://lmms.io/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "LMMS",
+    "mac": "LMMS"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans la documentation officielle (Key mappings, version actuelle). Les raccourcis Ctrl sont donnés pour Windows ; la documentation ne précise pas les équivalents macOS, donc le champ mac reste vide sauf pour les touches sans modificateur. Les raccourcis de la barre d'outils ont changé dans les versions anciennes (LMMS 1.2 : Ctrl+chiffre) : vérifier la version installée. Ctrl+haut/bas : mac laissé vide (la doc ne dit rien sur macOS).",
+  "sources": [
+    {
+      "url": "https://docs.lmms.io/user-manual/resources/key-mappings",
+      "titre": "LMMS User manual - Key mappings"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau-projet",
+      "nom": "Nouveau projet",
+      "groupe": "Projet",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir-projet",
+      "nom": "Ouvrir un projet",
+      "groupe": "Projet",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Projet",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Projet",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter le projet",
+      "groupe": "Projet",
+      "win": "ctrl+e",
+      "mac": null,
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter LMMS",
+      "groupe": "Projet",
+      "win": "ctrl+q",
+      "mac": null,
+      "linux": "ctrl+q",
+      "source": 0,
+      "priorite": 3,
+      "picto": "power"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier-notes",
+      "nom": "Copier les notes",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "couper-notes",
+      "nom": "Couper les notes",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "coller-notes",
+      "nom": "Coller les notes",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": "ctrl+a",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "supprimer-notes",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": "delete",
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "lecture",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "retour-debut",
+      "nom": "Retour au début",
+      "groupe": "Lecture",
+      "win": "home",
+      "mac": "home",
+      "linux": "home",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "vue-song",
+      "nom": "Song Editor",
+      "groupe": "Vues",
+      "win": "f8",
+      "mac": "f8",
+      "linux": "f8",
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "vue-beat",
+      "nom": "Beat+Bassline",
+      "groupe": "Vues",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 1,
+      "picto": "layout-grid"
+    },
+    {
+      "id": "vue-piano-roll",
+      "nom": "Piano Roll",
+      "groupe": "Vues",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "piano"
+    },
+    {
+      "id": "vue-automation",
+      "nom": "Automation",
+      "groupe": "Vues",
+      "win": "f9",
+      "mac": "f9",
+      "linux": "f9",
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "vue-notes-projet",
+      "nom": "Notes du projet",
+      "groupe": "Vues",
+      "win": "f10",
+      "mac": "f10",
+      "linux": "f10",
+      "source": 0,
+      "priorite": 3,
+      "picto": "notebook-pen"
+    },
+    {
+      "id": "vue-controller-rack",
+      "nom": "Controller Rack",
+      "groupe": "Vues",
+      "win": "f11",
+      "mac": "f11",
+      "linux": "f11",
+      "source": 0,
+      "priorite": 3,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "outil-dessin",
+      "nom": "Outil dessin",
+      "groupe": "Piano Roll",
+      "win": "shift+d",
+      "mac": "shift+d",
+      "linux": "shift+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "outil-gomme",
+      "nom": "Outil gomme",
+      "groupe": "Piano Roll",
+      "win": "shift+e",
+      "mac": "shift+e",
+      "linux": "shift+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "outil-selection",
+      "nom": "Outil sélection",
+      "groupe": "Piano Roll",
+      "win": "shift+s",
+      "mac": "shift+s",
+      "linux": "shift+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "monter-octave",
+      "nom": "Monter d'octave",
+      "groupe": "Piano Roll",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": "ctrl+up",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "descendre-octave",
+      "nom": "Descendre d'octave",
+      "groupe": "Piano Roll",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": "ctrl+down",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "defiler-haut",
+      "nom": "Défiler vers le haut",
+      "groupe": "Affichage",
+      "win": "pageup",
+      "mac": "pageup",
+      "linux": "pageup",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "defiler-bas",
+      "nom": "Défiler vers le bas",
+      "groupe": "Affichage",
+      "win": "pagedown",
+      "mac": "pagedown",
+      "linux": "pagedown",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom horizontal (Ctrl + molette)",
+      "raison": "molette"
+    },
+    {
+      "nom": "Maintenir Ctrl pour outil sélection temporaire",
+      "raison": "touche maintenue"
+    },
+    {
+      "nom": "Ctrl + glisser sur un contrôle (lier à l'automation)",
+      "raison": "souris"
+    }
+  ]
+}

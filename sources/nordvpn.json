@@ -1,0 +1,17 @@
+{
+  "id": "nordvpn",
+  "nom": "NordVPN",
+  "editeur": "Nord Security",
+  "site": "https://nordvpn.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "NordVPN", "mac": "NordVPN" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier global par défaut trouvé dans la documentation consultée. L'application est pilotée à la souris ; aucune action n'est proposée. Les pages d'aide NordVPN n'ont pas pu être lues (403/404).",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Connexion et déconnexion", "raison": "réglage sans raccourci documenté" } ]
+}

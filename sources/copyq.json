@@ -1,0 +1,140 @@
+{
+  "id": "copyq",
+  "nom": "CopyQ",
+  "editeur": "CopyQ (open source)",
+  "site": "https://hluk.github.io/CopyQ/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "CopyQ",
+    "mac": "CopyQ"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci global par défaut n'est documenté : l'utilisateur doit définir celui qui ouvre la fenêtre (le menu système s'ouvre par clic sur l'icône, ou via la commande copyq toggle). Les raccourcis de fenêtre sont ceux de la documentation. Ctrl+Shift+S et Ctrl+Shift+R trient les éléments ; seul Ctrl+Shift+S est repris, sans nom de sens. Ctrl+Maj+V et Ctrl+P n'ont pas été vérifiés, donc omis. Les versions Mac sont notées cmd seulement pour les commandes standard. Sur Mac, Suppr (touche Delete avant) n'est pas confirmée : action Mac omise ; Entrée, F2 et F6 sont supposées identiques.",
+  "sources": [
+    {
+      "url": "https://hluk.github.io/CopyQ/",
+      "titre": "CopyQ - documentation officielle"
+    }
+  ],
+  "actions": [
+    {
+      "id": "coller-element",
+      "nom": "Coller l'élément",
+      "groupe": "Éléments",
+      "win": "enter",
+      "mac": "enter",
+      "linux": "enter",
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "supprimer-element",
+      "nom": "Supprimer l'élément",
+      "groupe": "Éléments",
+      "win": "delete",
+      "mac": null,
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "editer-element",
+      "nom": "Éditer l'élément",
+      "groupe": "Éléments",
+      "win": "f2",
+      "mac": "f2",
+      "linux": "f2",
+      "source": 0,
+      "priorite": 2,
+      "picto": "pencil"
+    },
+    {
+      "id": "copier-element",
+      "nom": "Copier l'élément",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "deplacer-haut",
+      "nom": "Monter l'élément",
+      "groupe": "Éléments",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": "ctrl+up",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "deplacer-bas",
+      "nom": "Descendre l'élément",
+      "groupe": "Éléments",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": "ctrl+down",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "trier-elements",
+      "nom": "Trier les éléments",
+      "groupe": "Édition",
+      "win": "ctrl+shift+s",
+      "mac": null,
+      "linux": "ctrl+shift+s",
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-a-z"
+    },
+    {
+      "id": "boite-commande",
+      "nom": "Boîte Commande",
+      "groupe": "Outils",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 3,
+      "picto": "terminal"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter CopyQ",
+      "groupe": "Application",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": "ctrl+q",
+      "source": 0,
+      "priorite": 2,
+      "picto": "log-out",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Afficher la fenêtre (raccourci global)",
+      "raison": "aucun raccourci global par défaut documenté"
+    },
+    {
+      "nom": "Ouvrir par clic sur l'icône",
+      "raison": "souris"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "id": "acorn",
+  "nom": "Acorn",
+  "editeur": "Flying Meat Software",
+  "site": "https://flyingmeat.com/acorn/",
+  "systemes": [
+    "mac"
+  ],
+  "lancement": {
+    "mac": "Acorn"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application macOS uniquement. Les raccourcis Fichier, Édition et Texte standard (ouvrir, enregistrer, annuler, copier, etc.) sont déduits des menus macOS, marqués deduit. Liste reprise de la page officielle des raccourcis, sans les raccourcis système réservés.",
+  "sources": [
+    {
+      "url": "https://flyingmeat.com/acorn/docs/keyboard_shortcuts.html",
+      "titre": "Acorn - Keyboard Shortcuts (documentation officielle)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "reglages",
+      "nom": "Réglages",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": null,
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "effacer-selection",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-x"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "selection-rectangle",
+      "nom": "Sélection",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "selection-ovale",
+      "nom": "Sélection ovale",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dashed"
+    },
+    {
+      "id": "lasso",
+      "nom": "Lasso",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lasso"
+    },
+    {
+      "id": "baguette",
+      "nom": "Baguette magique",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand-sparkles"
+    },
+    {
+      "id": "masque-rapide",
+      "nom": "Masque rapide",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "scan-face"
+    },
+    {
+      "id": "forme-suivante",
+      "nom": "Forme suivante",
+      "groupe": "Sélection",
+      "win": null,
+      "mac": "ctrl+cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "taille-image",
+      "nom": "Taille de l'image",
+      "groupe": "Canevas",
+      "win": null,
+      "mac": "cmd+alt+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "taille-canevas",
+      "nom": "Taille canevas",
+      "groupe": "Canevas",
+      "win": null,
+      "mac": "cmd+alt+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "frame"
+    },
+    {
+      "id": "recadrer",
+      "nom": "Recadrer",
+      "groupe": "Canevas",
+      "win": null,
+      "mac": "cmd+alt+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "rotation-horaire",
+      "nom": "Rotation horaire",
+      "groupe": "Canevas",
+      "win": null,
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "rotation-antihoraire",
+      "nom": "Rotation antihor.",
+      "groupe": "Canevas",
+      "win": null,
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "niveaux",
+      "nom": "Niveaux",
+      "groupe": "Filtres",
+      "win": null,
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "courbes",
+      "nom": "Courbes",
+      "groupe": "Filtres",
+      "win": null,
+      "mac": "cmd+shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "spline"
+    },
+    {
+      "id": "dernier-filtre",
+      "nom": "Dernier filtre",
+      "groupe": "Filtres",
+      "win": null,
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "regle",
+      "nom": "Règle",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ruler"
+    },
+    {
+      "id": "guides",
+      "nom": "Guides",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+semicolon",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rulers"
+    },
+    {
+      "id": "grille",
+      "nom": "Grille",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Texte",
+      "win": null,
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Texte",
+      "win": null,
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Texte",
+      "win": null,
+      "mac": "cmd+u",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "underline"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "id": "rebelle",
+  "nom": "Rebelle",
+  "editeur": "Escape Motions",
+  "site": "https://www.escapemotions.com/products/rebelle/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Rebelle",
+    "mac": "Rebelle"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés du manuel officiel de Rebelle 7 (Windows et Mac). Les pinceaux se choisissent aussi à la souris ; les touches maintenues (1 à 5, Espace) ne sont pas proposées comme actions.",
+  "sources": [
+    {
+      "url": "https://www.escapemotions.com/products/rebelle/manual/7/keyboard-shortcuts/",
+      "titre": "Rebelle 7 - Manuel officiel, Keyboard Shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "aquarelle",
+      "nom": "Aquarelle",
+      "groupe": "Outils",
+      "win": "shift+w",
+      "mac": "shift+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "droplet"
+    },
+    {
+      "id": "huiles",
+      "nom": "Huiles et acryl.",
+      "groupe": "Outils",
+      "win": "shift+o",
+      "mac": "shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "paintbrush"
+    },
+    {
+      "id": "crayons",
+      "nom": "Crayons",
+      "groupe": "Outils",
+      "win": "shift+n",
+      "mac": "shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "encres",
+      "nom": "Encres",
+      "groupe": "Outils",
+      "win": "shift+i",
+      "mac": "shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "pen-tool"
+    },
+    {
+      "id": "feutres",
+      "nom": "Feutres",
+      "groupe": "Outils",
+      "win": "shift+m",
+      "mac": "shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "highlighter"
+    },
+    {
+      "id": "gomme",
+      "nom": "Gomme",
+      "groupe": "Outils",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eraser"
+    },
+    {
+      "id": "dernier-pinceau",
+      "nom": "Dernier pinceau",
+      "groupe": "Outils",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "brush"
+    },
+    {
+      "id": "melange",
+      "nom": "Mélange",
+      "groupe": "Outils",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "blend"
+    },
+    {
+      "id": "estomper",
+      "nom": "Estomper",
+      "groupe": "Outils",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "wand"
+    },
+    {
+      "id": "remplir",
+      "nom": "Remplir",
+      "groupe": "Outils",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "paint-bucket"
+    },
+    {
+      "id": "pipette",
+      "nom": "Pipette",
+      "groupe": "Outils",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pipette"
+    },
+    {
+      "id": "transformer",
+      "nom": "Transformer",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "taille-plus",
+      "nom": "Taille +",
+      "groupe": "Pinceaux",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "taille-moins",
+      "nom": "Taille -",
+      "groupe": "Pinceaux",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "opacite-plus",
+      "nom": "Opacité +",
+      "groupe": "Pinceaux",
+      "win": "ctrl+bracketright",
+      "mac": "cmd+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "droplets"
+    },
+    {
+      "id": "opacite-moins",
+      "nom": "Opacité -",
+      "groupe": "Pinceaux",
+      "win": "ctrl+bracketleft",
+      "mac": "cmd+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "droplets"
+    },
+    {
+      "id": "pinceau-favori-1",
+      "nom": "Pinceau favori 1",
+      "groupe": "Pinceaux",
+      "win": "6",
+      "mac": "6",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "star"
+    },
+    {
+      "id": "pinceau-favori-2",
+      "nom": "Pinceau favori 2",
+      "groupe": "Pinceaux",
+      "win": "7",
+      "mac": "7",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "star"
+    },
+    {
+      "id": "pinceau-favori-3",
+      "nom": "Pinceau favori 3",
+      "groupe": "Pinceaux",
+      "win": "8",
+      "mac": "8",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "star"
+    },
+    {
+      "id": "pinceau-favori-4",
+      "nom": "Pinceau favori 4",
+      "groupe": "Pinceaux",
+      "win": "9",
+      "mac": "9",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "star"
+    },
+    {
+      "id": "nouveau",
+      "nom": "Nouveau",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save-all"
+    },
+    {
+      "id": "importer-image",
+      "nom": "Importer image",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+o",
+      "mac": "cmd+shift+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "image-plus"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom +",
+      "groupe": "Vue",
+      "win": "plus",
+      "mac": "plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom -",
+      "groupe": "Vue",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-100",
+      "nom": "Zoom 100 %",
+      "groupe": "Vue",
+      "win": "0",
+      "mac": "0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "ajuster-ecran",
+      "nom": "Ajuster à l'écran",
+      "groupe": "Vue",
+      "win": "period",
+      "mac": "period",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "rotation-canvas",
+      "nom": "Rotation canvas",
+      "groupe": "Vue",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "retourner-vue",
+      "nom": "Retourner la vue",
+      "groupe": "Vue",
+      "win": "shift+f",
+      "mac": "shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "grille",
+      "nom": "Grille",
+      "groupe": "Vue",
+      "win": "shift+g",
+      "mac": "shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "mode-tablette",
+      "nom": "Mode tablette",
+      "groupe": "Vue",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "tablet"
+    },
+    {
+      "id": "diffusion-pause",
+      "nom": "Pause diffusion",
+      "groupe": "Eau",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pause"
+    },
+    {
+      "id": "afficher-humide",
+      "nom": "Afficher humide",
+      "groupe": "Eau",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "droplet"
+    },
+    {
+      "id": "sechage-rapide",
+      "nom": "Séchage rapide",
+      "groupe": "Eau",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "wind"
+    },
+    {
+      "id": "selection",
+      "nom": "Sélection",
+      "groupe": "Sélection",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Sélectionner tout",
+      "groupe": "Sélection",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "desselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Sélection",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "valider-selection",
+      "nom": "Valider sélection",
+      "groupe": "Sélection",
+      "win": "enter",
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "check"
+    },
+    {
+      "id": "annuler-selection",
+      "nom": "Annuler sélection",
+      "groupe": "Sélection",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "nouveau-calque",
+      "nom": "Nouveau calque",
+      "groupe": "Calques",
+      "win": "ctrl+shift+n",
+      "mac": "cmd+shift+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "dupliquer-calque",
+      "nom": "Dupliquer calque",
+      "groupe": "Calques",
+      "win": "ctrl+shift+d",
+      "mac": "cmd+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "fusionner-calques",
+      "nom": "Fusionner calques",
+      "groupe": "Calques",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "merge"
+    },
+    {
+      "id": "supprimer-calque",
+      "nom": "Supprimer calque",
+      "groupe": "Calques",
+      "win": "alt+shift+d",
+      "mac": "alt+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "inverser-selection",
+      "nom": "Inverser sélection",
+      "groupe": "Sélection",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "replace"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Taille du pinceau au glisser (Ctrl + glisser)",
+      "raison": "nécessite une touche maintenue avec la souris"
+    },
+    {
+      "nom": "Choix de pinceau 1 à 5 maintenu",
+      "raison": "touche maintenue"
+    }
+  ]
+}

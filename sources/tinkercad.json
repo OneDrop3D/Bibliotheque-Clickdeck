@@ -1,0 +1,343 @@
+{
+  "id": "tinkercad",
+  "nom": "Tinkercad",
+  "editeur": "Autodesk",
+  "site": "https://www.tinkercad.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Tinkercad",
+    "mac": "Tinkercad"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application web : les raccourcis fonctionnent quand le navigateur est au premier plan. Légende officielle : Ctrl = Cmd sur Mac. Monter/descendre (Ctrl+flèches) sans équivalent Mac fiable (Ctrl+haut/bas = Mission Control). Rétablir Mac via l'alternative Ctrl+Maj+Z. Ctrl+L (verrouiller) peut entrer en conflit avec la barre d'adresse sur Mac.",
+  "sources": [
+    {
+      "url": "https://images.tinkercad.com/jl5ii4oqrdmc/24W19aTK6wTT0YydFO3xZd/ffda269b296a25b9ce3b8a19e65bf571/Tinkercad_keyboard_shortcuts_1_up.pdf",
+      "titre": "Tinkercad - Keyboard shortcuts (PDF officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "cadrer-selection",
+      "nom": "Cadrer sélection",
+      "groupe": "Vue",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Vue",
+      "win": "plus",
+      "mac": "plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Vue",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "grouper-union",
+      "nom": "Grouper (union)",
+      "groupe": "Formes",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "group"
+    },
+    {
+      "id": "intersection",
+      "nom": "Intersection",
+      "groupe": "Formes",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "layers"
+    },
+    {
+      "id": "grouper-bundle",
+      "nom": "Grouper (bundle)",
+      "groupe": "Formes",
+      "win": "ctrl+b",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "package"
+    },
+    {
+      "id": "passer-trou",
+      "nom": "Passer en trou",
+      "groupe": "Formes",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "couleur-pleine",
+      "nom": "Couleur pleine",
+      "groupe": "Formes",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "palette"
+    },
+    {
+      "id": "verrouiller",
+      "nom": "Verrouiller",
+      "groupe": "Formes",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "lock"
+    },
+    {
+      "id": "plan-travail",
+      "nom": "Plan de travail",
+      "groupe": "Repères",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "regle",
+      "nom": "Règle",
+      "groupe": "Repères",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ruler"
+    },
+    {
+      "id": "note",
+      "nom": "Note",
+      "groupe": "Repères",
+      "win": "n",
+      "mac": "n",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "sticky-note"
+    },
+    {
+      "id": "plan-sur-forme",
+      "nom": "Plan sur la forme",
+      "groupe": "Repères",
+      "win": "shift+w",
+      "mac": "shift+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "afficher-plan-forme",
+      "nom": "Plan de la forme",
+      "groupe": "Repères",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "eye"
+    },
+    {
+      "id": "poser-plan",
+      "nom": "Poser sur le plan",
+      "groupe": "Déplacer",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "aligner",
+      "nom": "Aligner",
+      "groupe": "Déplacer",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "align-center"
+    },
+    {
+      "id": "miroir",
+      "nom": "Miroir",
+      "groupe": "Déplacer",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flip-horizontal"
+    },
+    {
+      "id": "dupliquer",
+      "nom": "Dupliquer",
+      "groupe": "Déplacer",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "outil-croisiere",
+      "nom": "Outil croisière",
+      "groupe": "Déplacer",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move"
+    },
+    {
+      "id": "monter-z",
+      "nom": "Monter (axe Z)",
+      "groupe": "Déplacer",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "descendre-z",
+      "nom": "Descendre (axe Z)",
+      "groupe": "Déplacer",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Orbite (clic droit maintenu)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Panoramique (clic milieu)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Masquer / afficher les masqués",
+      "raison": "Cmd+H est réservé au système sur Mac"
+    }
+  ]
+}

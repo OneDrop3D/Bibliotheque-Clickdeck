@@ -1,0 +1,20 @@
+{
+  "id": "elgato-stream-deck",
+  "nom": "Elgato Stream Deck",
+  "editeur": "Elgato",
+  "site": "https://www.elgato.com/us/en/s/stream-deck",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Stream Deck", "mac": "Stream Deck" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de pilotage du boîtier : ses réglages (pages, boutons, actions) se font à la souris dans l'interface. Aucun raccourci clavier par défaut n'a pu être vérifié, la page d'aide officielle étant inaccessible (HTTP 403). Pack de lancement uniquement.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Changer de page sur le boîtier", "raison": "réglage sans raccourci" },
+    { "nom": "Configurer les boutons et actions", "raison": "réglage sans raccourci" }
+  ]
+}

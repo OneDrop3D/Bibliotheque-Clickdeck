@@ -1,0 +1,21 @@
+{
+  "id": "open-hardware-monitor",
+  "nom": "Open Hardware Monitor",
+  "editeur": "Projet open source (openhardwaremonitor)",
+  "site": "https://github.com/openhardwaremonitor/openhardwaremonitor",
+  "systemes": ["windows"],
+  "lancement": { "windows": "OpenHardwareMonitor" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Windows de surveillance des capteurs, sans raccourci clavier documenté dans son dépôt. Plateforme et licence non confirmées par la page lue. Aucune action proposée.",
+  "sources": [
+    { "url": "https://github.com/openhardwaremonitor/openhardwaremonitor", "titre": "Dépôt GitHub Open Hardware Monitor" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Consultation des capteurs", "raison": "souris" }
+  ]
+}

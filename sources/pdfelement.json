@@ -1,0 +1,383 @@
+{
+  "id": "pdfelement",
+  "nom": "PDFelement",
+  "editeur": "Wondershare",
+  "site": "https://pdf.wondershare.com/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "PDFelement",
+    "mac": "PDFelement"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés des pages officielles Wondershare (Windows et Mac). Copier/Couper/Coller/Tout sélectionner côté Windows : standard, deduit. Windows : Ctrl+N convertit en PDF (non listé) ; Ctrl+B et Ctrl+1 sont en double (signet/gras, taille réelle/italique) : seuls Ctrl+1 taille réelle est conservé. Mac : Mode main = Cmd+0, Mode édition = Cmd+2, Lot = Cmd+6 (modes de la barre d'outils).",
+  "sources": [
+    {
+      "url": "https://pdf.wondershare.com/guide/shortcut-keys.html",
+      "titre": "PDFelement - Shortcut Keys (Windows)"
+    },
+    {
+      "url": "https://pdf.wondershare.com/guide/shortcut-keys-mac.html",
+      "titre": "PDFelement - Shortcut Keys (Mac)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "pdf-vierge",
+      "nom": "PDF vierge",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+b",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer-sous",
+      "nom": "Enregistrer sous",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+s",
+      "mac": "cmd+shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save-all"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "fermer",
+      "nom": "Fermer",
+      "groupe": "Fichier",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "proprietes",
+      "nom": "Propriétés",
+      "groupe": "Fichier",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "info"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Fichier",
+      "win": "ctrl+tab",
+      "mac": "ctrl+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right-to-line"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Fichier",
+      "win": "ctrl+shift+tab",
+      "mac": "ctrl+shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-left-to-line"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box-select",
+      "deduit": true
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Édition",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "chercher-remplacer",
+      "nom": "Chercher/remplacer",
+      "groupe": "Édition",
+      "win": "ctrl+t",
+      "mac": "cmd+shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "taille-reelle",
+      "nom": "Taille réelle",
+      "groupe": "Affichage",
+      "win": "ctrl+1",
+      "mac": "alt+cmd+6",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "ajuster-largeur",
+      "nom": "Ajuster largeur",
+      "groupe": "Affichage",
+      "win": "ctrl+2",
+      "mac": "alt+cmd+7",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "ajuster-page",
+      "nom": "Ajuster la page",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "alt+cmd+9",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "expand"
+    },
+    {
+      "id": "mode-edition",
+      "nom": "Mode édition",
+      "groupe": "Outils",
+      "win": "ctrl+e",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil"
+    },
+    {
+      "id": "mode-main",
+      "nom": "Mode main",
+      "groupe": "Outils",
+      "win": "alt+3",
+      "mac": "cmd+0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "hand"
+    },
+    {
+      "id": "capture",
+      "nom": "Capture d'écran",
+      "groupe": "Outils",
+      "win": "alt+7",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "camera"
+    },
+    {
+      "id": "traitement-lot",
+      "nom": "Traitement par lot",
+      "groupe": "Outils",
+      "win": "f12",
+      "mac": "cmd+6",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "inserer-page",
+      "nom": "Page vierge",
+      "groupe": "Pages",
+      "win": "ctrl+shift+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-plus-2"
+    },
+    {
+      "id": "supprimer-page",
+      "nom": "Supprimer la page",
+      "groupe": "Pages",
+      "win": "ctrl+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "file-minus"
+    },
+    {
+      "id": "pivoter-gauche",
+      "nom": "Pivoter à gauche",
+      "groupe": "Pages",
+      "win": "ctrl+shift+minus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "pivoter-droite",
+      "nom": "Pivoter à droite",
+      "groupe": "Pages",
+      "win": "ctrl+shift+plus",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-cw"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

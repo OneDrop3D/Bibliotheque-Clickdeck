@@ -1,0 +1,21 @@
+{
+  "id": "cemu",
+  "nom": "Cemu",
+  "editeur": "",
+  "site": "https://cemu.info/",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Cemu"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Raccourcis par défaut non vérifiés : la page officielle et le wiki (wiki.cemu.info) n'en listent pas. Aucune action renseignée. Un seul raccourci trouvé (Ctrl+Tab, bascule TV/GamePad, changelog 1.27.0b), non retenu faute de liste par défaut. Seconde passe : sources toujours inaccessibles ou muettes.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

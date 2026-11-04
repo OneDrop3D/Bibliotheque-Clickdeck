@@ -1,0 +1,21 @@
+{
+  "id": "riot",
+  "nom": "RIOT",
+  "editeur": "Non précisé",
+  "site": "https://riot-optimizer.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "RIOT" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Page officielle sans raccourci clavier documenté. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://riot-optimizer.com", "titre": "RIOT - page officielle" } ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Compression automatique ou manuelle", "raison": "sans raccourci clavier documenté" },
+    { "nom": "Redimensionnement par lot", "raison": "sans raccourci clavier documenté" },
+    { "nom": "Suppression des métadonnées", "raison": "sans raccourci clavier documenté" }
+  ]
+}

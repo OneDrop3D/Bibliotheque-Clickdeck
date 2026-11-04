@@ -1,0 +1,178 @@
+{
+  "id": "melodyne",
+  "nom": "Melodyne",
+  "editeur": "Celemony",
+  "site": "https://www.celemony.com/en/melodyne/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Melodyne",
+    "mac": "Melodyne"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis de lecture relevés dans l'aide officielle de Celemony (version 5, Studio), qui ne donne que les touches Mac : les touches sans modificateur (espace, Entrée, flèches, pavé 0) et Alt sont reprises à l'identique sous Windows (déduit). Commandes d'édition standard déduites. Raccourcis modifiables dans Preferences > Shortcuts. Les modificateurs combinés à la souris ne sont pas des raccourcis.",
+  "sources": [
+    {
+      "url": "https://helpcenter.celemony.com/M5/doc/melodyneStudio5/en/M5tour_PlaybackScrollZoom_studio_2?env=live",
+      "titre": "Playback, navigation, zooming (Celemony, Melodyne 5 Studio)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-pause",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "lecture-curseur",
+      "nom": "Lire depuis curseur",
+      "groupe": "Lecture",
+      "win": "enter",
+      "mac": "enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play-circle",
+      "deduit": true
+    },
+    {
+      "id": "arret-retour",
+      "nom": "Arrêt et retour",
+      "groupe": "Lecture",
+      "win": "num0",
+      "mac": "num0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back",
+      "deduit": true
+    },
+    {
+      "id": "lecture-selection",
+      "nom": "Lire la sélection",
+      "groupe": "Lecture",
+      "win": "alt+space",
+      "mac": "alt+space",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat",
+      "deduit": true
+    },
+    {
+      "id": "blob-precedent",
+      "nom": "Note précédente",
+      "groupe": "Édition",
+      "win": "left",
+      "mac": "left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left",
+      "deduit": true
+    },
+    {
+      "id": "blob-suivant",
+      "nom": "Note suivante",
+      "groupe": "Édition",
+      "win": "right",
+      "mac": "right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse-pointer-square-dashed",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Zoom et défilement à la molette",
+      "raison": "molette"
+    },
+    {
+      "nom": "Zoom à la souris (Cmd+Alt+glisser)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Déplacer l'affichage (Cmd+Maj+glisser)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Retour au début du projet (pavé 0 deux fois)",
+      "raison": "séquence"
+    }
+  ]
+}

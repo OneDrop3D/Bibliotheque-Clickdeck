@@ -1,0 +1,349 @@
+{
+ "id": "slack",
+ "nom": "Slack",
+ "editeur": "Salesforce (Slack Technologies)",
+ "site": "https://slack.com",
+ "systemes": [
+  "windows",
+  "mac",
+  "linux"
+ ],
+ "lancement": {
+  "windows": "Slack",
+  "mac": "Slack"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Navigateurs, communication & réseau desktop",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Source : page d'aide officielle Slack. Plein écran Mac (ctrl+cmd+f) non retenu. Ctrl+K (aller à une conversation) non retenu : non listé pour Mac.",
+ "sources": [
+  {
+   "url": "https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts",
+   "titre": "Slack keyboard shortcuts"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouveau-message",
+   "nom": "Nouveau message",
+   "groupe": "Messages",
+   "win": "ctrl+n",
+   "mac": "cmd+n",
+   "linux": "ctrl+n",
+   "source": 0,
+   "priorite": 1,
+   "picto": "square-pen"
+  },
+  {
+   "id": "recherche",
+   "nom": "Rechercher",
+   "groupe": "Navigation",
+   "win": "ctrl+g",
+   "mac": "cmd+g",
+   "linux": "ctrl+g",
+   "source": 0,
+   "priorite": 1,
+   "picto": "search"
+  },
+  {
+   "id": "chercher-conv",
+   "nom": "Chercher ici",
+   "groupe": "Navigation",
+   "win": "ctrl+f",
+   "mac": "cmd+f",
+   "linux": "ctrl+f",
+   "source": 0,
+   "priorite": 1,
+   "picto": "text-search"
+  },
+  {
+   "id": "non-lus-suiv",
+   "nom": "Prochain non lu",
+   "groupe": "Navigation",
+   "win": "alt+shift+down",
+   "mac": "alt+shift+down",
+   "linux": "alt+shift+down",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-down-to-line"
+  },
+  {
+   "id": "non-lus-prec",
+   "nom": "Précédent non lu",
+   "groupe": "Navigation",
+   "win": "alt+shift+up",
+   "mac": "alt+shift+up",
+   "linux": "alt+shift+up",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-up-to-line"
+  },
+  {
+   "id": "canal-suiv",
+   "nom": "Conversation suiv.",
+   "groupe": "Navigation",
+   "win": "alt+down",
+   "mac": "alt+down",
+   "linux": "alt+down",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-down"
+  },
+  {
+   "id": "canal-prec",
+   "nom": "Conversation préc.",
+   "groupe": "Navigation",
+   "win": "alt+up",
+   "mac": "alt+up",
+   "linux": "alt+up",
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-up"
+  },
+  {
+   "id": "retour",
+   "nom": "Retour",
+   "groupe": "Navigation",
+   "win": "alt+left",
+   "mac": "cmd+bracketleft",
+   "linux": "alt+left",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "avancer",
+   "nom": "Avancer",
+   "groupe": "Navigation",
+   "win": "alt+right",
+   "mac": "cmd+bracketright",
+   "linux": "alt+right",
+   "source": 0,
+   "priorite": 1,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "dernier-non-lu",
+   "nom": "Dernier non lu",
+   "groupe": "Navigation",
+   "win": "ctrl+j",
+   "mac": "cmd+j",
+   "linux": "ctrl+j",
+   "source": 0,
+   "priorite": 1,
+   "picto": "mail-warning"
+  },
+  {
+   "id": "accueil",
+   "nom": "Accueil",
+   "groupe": "Vues",
+   "win": "ctrl+shift+1",
+   "mac": "ctrl+1",
+   "linux": "ctrl+shift+1",
+   "source": 0,
+   "priorite": 1,
+   "picto": "house"
+  },
+  {
+   "id": "activite",
+   "nom": "Activité",
+   "groupe": "Vues",
+   "win": "ctrl+shift+m",
+   "mac": "cmd+shift+m",
+   "linux": "ctrl+shift+m",
+   "source": 0,
+   "priorite": 1,
+   "picto": "bell"
+  },
+  {
+   "id": "fils",
+   "nom": "Fils de discussion",
+   "groupe": "Vues",
+   "win": "ctrl+shift+t",
+   "mac": "cmd+shift+t",
+   "linux": "ctrl+shift+t",
+   "source": 0,
+   "priorite": 1,
+   "picto": "messages-square"
+  },
+  {
+   "id": "tous-non-lus",
+   "nom": "Tous les non lus",
+   "groupe": "Vues",
+   "win": "ctrl+shift+a",
+   "mac": "cmd+shift+a",
+   "linux": "ctrl+shift+a",
+   "source": 0,
+   "priorite": 1,
+   "picto": "inbox"
+  },
+  {
+   "id": "parcourir-canaux",
+   "nom": "Parcourir canaux",
+   "groupe": "Vues",
+   "win": "ctrl+shift+l",
+   "mac": "cmd+shift+l",
+   "linux": "ctrl+shift+l",
+   "source": 0,
+   "priorite": 1,
+   "picto": "hash"
+  },
+  {
+   "id": "personnes",
+   "nom": "Personnes",
+   "groupe": "Vues",
+   "win": "ctrl+shift+e",
+   "mac": "cmd+shift+e",
+   "linux": "ctrl+shift+e",
+   "source": 0,
+   "priorite": 3,
+   "picto": "users"
+  },
+  {
+   "id": "statut",
+   "nom": "Définir le statut",
+   "groupe": "Compte",
+   "win": "ctrl+shift+y",
+   "mac": "cmd+shift+y",
+   "linux": "ctrl+shift+y",
+   "source": 0,
+   "priorite": 1,
+   "picto": "smile"
+  },
+  {
+   "id": "huddle",
+   "nom": "Huddle",
+   "groupe": "Appels",
+   "win": "ctrl+shift+h",
+   "mac": "cmd+shift+h",
+   "linux": "ctrl+shift+h",
+   "source": 0,
+   "priorite": 1,
+   "picto": "headphones"
+  },
+  {
+   "id": "huddle-micro",
+   "nom": "Micro du huddle",
+   "groupe": "Appels",
+   "win": "ctrl+shift+space",
+   "mac": "cmd+shift+space",
+   "linux": "ctrl+shift+space",
+   "source": 0,
+   "priorite": 1,
+   "picto": "mic-off"
+  },
+  {
+   "id": "marquer-lu",
+   "nom": "Marquer comme lu",
+   "groupe": "Messages",
+   "win": "escape",
+   "mac": "escape",
+   "linux": "escape",
+   "source": 0,
+   "priorite": 1,
+   "picto": "check-check"
+  },
+  {
+   "id": "tout-lu",
+   "nom": "Tout marquer lu",
+   "groupe": "Messages",
+   "win": "shift+escape",
+   "mac": "shift+escape",
+   "linux": "shift+escape",
+   "source": 0,
+   "priorite": 1,
+   "picto": "check"
+  },
+  {
+   "id": "televerser",
+   "nom": "Téléverser fichier",
+   "groupe": "Messages",
+   "win": "ctrl+o",
+   "mac": "cmd+o",
+   "linux": "ctrl+o",
+   "source": 0,
+   "priorite": 1,
+   "picto": "upload"
+  },
+  {
+   "id": "telechargements",
+   "nom": "Téléchargements",
+   "groupe": "Messages",
+   "win": "ctrl+shift+j",
+   "mac": "cmd+shift+j",
+   "linux": "ctrl+shift+j",
+   "source": 0,
+   "priorite": 3,
+   "picto": "download"
+  },
+  {
+   "id": "gras",
+   "nom": "Gras",
+   "groupe": "Mise en forme",
+   "win": "ctrl+b",
+   "mac": "cmd+b",
+   "linux": "ctrl+b",
+   "source": 0,
+   "priorite": 2,
+   "picto": "bold"
+  },
+  {
+   "id": "italique",
+   "nom": "Italique",
+   "groupe": "Mise en forme",
+   "win": "ctrl+i",
+   "mac": "cmd+i",
+   "linux": "ctrl+i",
+   "source": 0,
+   "priorite": 2,
+   "picto": "italic"
+  },
+  {
+   "id": "code",
+   "nom": "Code",
+   "groupe": "Mise en forme",
+   "win": "ctrl+shift+c",
+   "mac": "cmd+shift+c",
+   "linux": "ctrl+shift+c",
+   "source": 0,
+   "priorite": 2,
+   "picto": "code"
+  },
+  {
+   "id": "barre-laterale",
+   "nom": "Panneau droit",
+   "groupe": "Affichage",
+   "win": "ctrl+period",
+   "mac": "cmd+period",
+   "linux": "ctrl+period",
+   "source": 0,
+   "priorite": 3,
+   "picto": "panel-right"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "f11",
+   "mac": null,
+   "linux": "f11",
+   "source": 0,
+   "priorite": 3,
+   "picto": "maximize"
+  },
+  {
+   "id": "preferences",
+   "nom": "Préférences",
+   "groupe": "Compte",
+   "win": "ctrl+comma",
+   "mac": "cmd+comma",
+   "linux": "ctrl+comma",
+   "source": 0,
+   "priorite": 3,
+   "picto": "settings"
+  }
+ ],
+ "non_faisable": []
+}

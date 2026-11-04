@@ -1,0 +1,511 @@
+{
+  "id": "adobe-lightroom-classic",
+  "nom": "Adobe Lightroom Classic",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/photoshop-lightroom-classic.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Lightroom Classic",
+    "mac": "Adobe Lightroom Classic"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Design & création graphique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Pages officielles Adobe (helpx.adobe.com, keyboard-shortcuts, variantes lightroom-classic, dk, au, id_en, fr) : HTTP 403, non lues ; web.archive.org refusé par l'outil. Une seule source tierce ouverte (The Lens Lounge, article non daté, sans numéro de version) : à recouper avec la page officielle. Les réglages de curseurs (Exposition, Contraste, etc.) n'ont pas de touche par défaut vérifiée et sont omis, de même que Importer et Exporter (non vérifiés). Nom de lancement non vérifié. Contrôle : Vue comparée corrigée en C (N = Sélection multiple) ; Importer/Exporter ajoutés de mémoire, à vérifier.",
+  "sources": [
+    {
+      "url": "https://thelenslounge.com/lightroom-shortcuts/",
+      "titre": "28 essential Lightroom shortcuts (The Lens Lounge) - tiers"
+    }
+  ],
+  "actions": [
+    {
+      "id": "mode-loupe",
+      "nom": "Mode loupe",
+      "groupe": "Bibliothèque",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "image"
+    },
+    {
+      "id": "mode-grille",
+      "nom": "Mode grille",
+      "groupe": "Bibliothèque",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "grid-3x3"
+    },
+    {
+      "id": "vue-comparee",
+      "nom": "Vue comparée",
+      "groupe": "Bibliothèque",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "columns-2"
+    },
+    {
+      "id": "zoom-loupe",
+      "nom": "Zoom loupe",
+      "groupe": "Bibliothèque",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "marquer",
+      "nom": "Marquer",
+      "groupe": "Bibliothèque",
+      "win": "p",
+      "mac": "p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "flag"
+    },
+    {
+      "id": "retirer-drapeau",
+      "nom": "Retirer drapeau",
+      "groupe": "Bibliothèque",
+      "win": "u",
+      "mac": "u",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "flag-off"
+    },
+    {
+      "id": "rejeter",
+      "nom": "Rejeter",
+      "groupe": "Bibliothèque",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x-circle"
+    },
+    {
+      "id": "sans-etoile",
+      "nom": "Sans étoile",
+      "groupe": "Bibliothèque",
+      "win": "0",
+      "mac": "0",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "star-off"
+    },
+    {
+      "id": "etoile-1",
+      "nom": "1 étoile",
+      "groupe": "Bibliothèque",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "etoile-3",
+      "nom": "3 étoiles",
+      "groupe": "Bibliothèque",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "star"
+    },
+    {
+      "id": "etoile-5",
+      "nom": "5 étoiles",
+      "groupe": "Bibliothèque",
+      "win": "5",
+      "mac": "5",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "star"
+    },
+    {
+      "id": "couleur-rouge",
+      "nom": "Couleur rouge",
+      "groupe": "Bibliothèque",
+      "win": "6",
+      "mac": "6",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle"
+    },
+    {
+      "id": "couleur-jaune",
+      "nom": "Couleur jaune",
+      "groupe": "Bibliothèque",
+      "win": "7",
+      "mac": "7",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle"
+    },
+    {
+      "id": "couleur-verte",
+      "nom": "Couleur verte",
+      "groupe": "Bibliothèque",
+      "win": "8",
+      "mac": "8",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle"
+    },
+    {
+      "id": "couleur-bleue",
+      "nom": "Couleur bleue",
+      "groupe": "Bibliothèque",
+      "win": "9",
+      "mac": "9",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle"
+    },
+    {
+      "id": "collection-cible",
+      "nom": "Collection cible",
+      "groupe": "Bibliothèque",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-checks"
+    },
+    {
+      "id": "desselectionner",
+      "nom": "Désélectionner",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "copie-virtuelle",
+      "nom": "Copie virtuelle",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+quote",
+      "mac": "cmd+quote",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "module-developper",
+      "nom": "Module Développer",
+      "groupe": "Bibliothèque",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "pinceau-reglage",
+      "nom": "Pinceau réglage",
+      "groupe": "Développer",
+      "win": "k",
+      "mac": "k",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "brush"
+    },
+    {
+      "id": "pinceau-moins",
+      "nom": "Pinceau −",
+      "groupe": "Développer",
+      "win": "bracketleft",
+      "mac": "bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-minus"
+    },
+    {
+      "id": "pinceau-plus",
+      "nom": "Pinceau +",
+      "groupe": "Développer",
+      "win": "bracketright",
+      "mac": "bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-plus"
+    },
+    {
+      "id": "plume-moins",
+      "nom": "Plume −",
+      "groupe": "Développer",
+      "win": "shift+bracketleft",
+      "mac": "shift+bracketleft",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-minus"
+    },
+    {
+      "id": "plume-plus",
+      "nom": "Plume +",
+      "groupe": "Développer",
+      "win": "shift+bracketright",
+      "mac": "shift+bracketright",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-plus"
+    },
+    {
+      "id": "retouche",
+      "nom": "Retouche",
+      "groupe": "Développer",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bandage"
+    },
+    {
+      "id": "degrade-lineaire",
+      "nom": "Dégradé linéaire",
+      "groupe": "Développer",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "blend"
+    },
+    {
+      "id": "degrade-radial",
+      "nom": "Dégradé radial",
+      "groupe": "Développer",
+      "win": "shift+m",
+      "mac": "shift+m",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "recadrage",
+      "nom": "Recadrer",
+      "groupe": "Développer",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crop"
+    },
+    {
+      "id": "orientation-recadrage",
+      "nom": "Orientation",
+      "groupe": "Développer",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "balance-blancs",
+      "nom": "Balance blancs",
+      "groupe": "Développer",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "pipette"
+    },
+    {
+      "id": "noir-blanc",
+      "nom": "Noir et blanc",
+      "groupe": "Développer",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "contrast"
+    },
+    {
+      "id": "afficher-masque",
+      "nom": "Afficher masque",
+      "groupe": "Développer",
+      "win": "o",
+      "mac": "o",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "layers"
+    },
+    {
+      "id": "epingles",
+      "nom": "Épingles",
+      "groupe": "Développer",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "map-pin"
+    },
+    {
+      "id": "avant-apres",
+      "nom": "Avant / après",
+      "groupe": "Développer",
+      "win": "backslash",
+      "mac": "backslash",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "split"
+    },
+    {
+      "id": "cote-a-cote",
+      "nom": "Côte à côte",
+      "groupe": "Développer",
+      "win": "y",
+      "mac": "y",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "columns"
+    },
+    {
+      "id": "panneaux-lateraux",
+      "nom": "Panneaux latéraux",
+      "groupe": "Développer",
+      "win": "tab",
+      "mac": "tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "tous-panneaux",
+      "nom": "Tous panneaux",
+      "groupe": "Développer",
+      "win": "shift+tab",
+      "mac": "shift+tab",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Développer",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize-2"
+    },
+    {
+      "id": "importer",
+      "nom": "Importer",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+shift+i",
+      "mac": "cmd+shift+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "download"
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Bibliothèque",
+      "win": "ctrl+shift+e",
+      "mac": "cmd+shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "share"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Régler les curseurs (glisser)",
+      "raison": "souris"
+    },
+    {
+      "nom": "Auto-avance (Verr. maj.)",
+      "raison": "touche non supportée"
+    }
+  ]
+}

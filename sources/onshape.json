@@ -1,0 +1,305 @@
+{
+  "id": "onshape",
+  "nom": "Onshape",
+  "editeur": "PTC",
+  "site": "https://www.onshape.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Chrome",
+    "mac": "Google Chrome"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application web : les raccourcis fonctionnent dans le navigateur, lancement à adapter au navigateur utilisé. Les raccourcis de croquis demandent d'abord de sélectionner un plan de croquis. La liste complète s'ouvre avec Maj+/.",
+  "sources": [
+    {
+      "url": "https://cad.onshape.com/help/Content/Home/keyboard_shortcuts_and_hotkeys.htm",
+      "titre": "Keyboard Shortcuts and Hotkeys (Onshape Help)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": null,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+shift+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": null,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "ligne",
+      "nom": "Ligne",
+      "groupe": "Esquisse",
+      "win": "l",
+      "mac": "l",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "cercle-centre",
+      "nom": "Cercle centre",
+      "groupe": "Esquisse",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "rectangle-centre",
+      "nom": "Rectangle centre",
+      "groupe": "Esquisse",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "square"
+    },
+    {
+      "id": "arc-3-points",
+      "nom": "Arc 3 points",
+      "groupe": "Esquisse",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "spline"
+    },
+    {
+      "id": "cote",
+      "nom": "Cote",
+      "groupe": "Esquisse",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ruler"
+    },
+    {
+      "id": "coincidence",
+      "nom": "Coïncidence",
+      "groupe": "Esquisse",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "link"
+    },
+    {
+      "id": "horizontale",
+      "nom": "Horizontale",
+      "groupe": "Esquisse",
+      "win": "h",
+      "mac": "h",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "separator-horizontal"
+    },
+    {
+      "id": "tangente",
+      "nom": "Tangente",
+      "groupe": "Esquisse",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "couper-esquisse",
+      "nom": "Couper segment",
+      "groupe": "Esquisse",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scissors"
+    },
+    {
+      "id": "prolonger",
+      "nom": "Prolonger",
+      "groupe": "Esquisse",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-horizontal"
+    },
+    {
+      "id": "extrusion",
+      "nom": "Extrusion",
+      "groupe": "Pièce",
+      "win": "shift+e",
+      "mac": "shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up-from-line"
+    },
+    {
+      "id": "conge",
+      "nom": "Congé d'arête",
+      "groupe": "Pièce",
+      "win": "shift+f",
+      "mac": "shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "revolution",
+      "nom": "Révolution",
+      "groupe": "Pièce",
+      "win": "shift+w",
+      "mac": "shift+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-3d"
+    },
+    {
+      "id": "fixer",
+      "nom": "Liaison fixe",
+      "groupe": "Assemblage",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lock"
+    },
+    {
+      "id": "inserer-piece",
+      "nom": "Insérer pièce",
+      "groupe": "Assemblage",
+      "win": "i",
+      "mac": "i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "package-plus"
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Vue",
+      "win": "shift+5",
+      "mac": "shift+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scan"
+    },
+    {
+      "id": "vue-iso",
+      "nom": "Vue isométrique",
+      "groupe": "Vue",
+      "win": "shift+7",
+      "mac": "shift+7",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "box"
+    },
+    {
+      "id": "ajuster-vue",
+      "nom": "Ajuster à la vue",
+      "groupe": "Vue",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "liste-raccourcis",
+      "nom": "Liste raccourcis",
+      "groupe": "Aide",
+      "win": "shift+slash",
+      "mac": "shift+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "keyboard"
+    },
+    {
+      "id": "esquisse",
+      "nom": "Nouvelle esquisse",
+      "groupe": "Pièce",
+      "win": "shift+s",
+      "mac": "shift+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pencil-ruler"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Sélection à travers transparent",
+      "raison": "souris"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

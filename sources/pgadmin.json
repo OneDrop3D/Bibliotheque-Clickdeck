@@ -1,0 +1,372 @@
+{
+  "id": "pgadmin",
+  "nom": "pgAdmin",
+  "editeur": "pgAdmin Development Team",
+  "site": "https://www.pgadmin.org",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "pgAdmin",
+    "mac": "pgAdmin",
+    "linux": "pgAdmin"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Développement & terminal (desktop)",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la page officielle pgAdmin 4 (version 9.19). Modifiables via Fichier > Préférences.",
+  "sources": [
+    {
+      "url": "https://www.pgadmin.org/docs/pgadmin4/latest/keyboard_shortcuts.html",
+      "titre": "pgAdmin 4 - Raccourcis clavier"
+    }
+  ],
+  "actions": [
+    {
+      "id": "executer_script",
+      "nom": "Exécuter script",
+      "groupe": "Query Tool",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "expliquer",
+      "nom": "Expliquer",
+      "groupe": "Query Tool",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-branch"
+    },
+    {
+      "id": "expliquer_analyse",
+      "nom": "Expliquer analyse",
+      "groupe": "Query Tool",
+      "win": "shift+f7",
+      "mac": "shift+f7",
+      "linux": "shift+f7",
+      "source": 0,
+      "priorite": 1,
+      "picto": "git-merge"
+    },
+    {
+      "id": "valider",
+      "nom": "Valider",
+      "groupe": "Query Tool",
+      "win": "ctrl+shift+m",
+      "mac": "ctrl+shift+m",
+      "linux": "ctrl+shift+m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "check"
+    },
+    {
+      "id": "annuler_transaction",
+      "nom": "Annuler (rollback)",
+      "groupe": "Query Tool",
+      "win": "ctrl+shift+r",
+      "mac": "ctrl+shift+r",
+      "linux": "ctrl+shift+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo"
+    },
+    {
+      "id": "annuler_requete",
+      "nom": "Annuler requête",
+      "groupe": "Query Tool",
+      "win": "alt+shift+q",
+      "mac": "alt+shift+q",
+      "linux": "alt+shift+q",
+      "source": 0,
+      "priorite": 1,
+      "picto": "octagon-x"
+    },
+    {
+      "id": "ouvrir_fichier",
+      "nom": "Ouvrir fichier",
+      "groupe": "Query Tool",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer_fichier",
+      "nom": "Enregistrer",
+      "groupe": "Query Tool",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "enregistrer_donnees",
+      "nom": "Sauver données",
+      "groupe": "Query Tool",
+      "win": "f6",
+      "mac": "f6",
+      "linux": "f6",
+      "source": 0,
+      "priorite": 1,
+      "picto": "database"
+    },
+    {
+      "id": "telecharger_resultats",
+      "nom": "Télécharger",
+      "groupe": "Query Tool",
+      "win": "f8",
+      "mac": "f8",
+      "linux": "f8",
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "effacer_requete",
+      "nom": "Effacer requête",
+      "groupe": "Query Tool",
+      "win": "ctrl+alt+l",
+      "mac": "ctrl+alt+l",
+      "linux": "ctrl+alt+l",
+      "source": 0,
+      "priorite": 3,
+      "picto": "eraser"
+    },
+    {
+      "id": "onglet_suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Query Tool",
+      "win": "alt+shift+bracketright",
+      "mac": "alt+shift+bracketright",
+      "linux": "alt+shift+bracketright",
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet_precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Query Tool",
+      "win": "alt+shift+bracketleft",
+      "mac": "alt+shift+bracketleft",
+      "linux": "alt+shift+bracketleft",
+      "source": 0,
+      "priorite": 3,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "inverser_casse",
+      "nom": "Inverser casse",
+      "groupe": "Query Tool",
+      "win": "ctrl+shift+u",
+      "mac": "ctrl+shift+u",
+      "linux": "ctrl+shift+u",
+      "source": 0,
+      "priorite": 3,
+      "picto": "case-sensitive"
+    },
+    {
+      "id": "commenter",
+      "nom": "Commenter",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+slash",
+      "mac": "cmd+slash",
+      "linux": "ctrl+slash",
+      "source": 0,
+      "priorite": 1,
+      "picto": "message-square"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "remplacer",
+      "nom": "Remplacer",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+f",
+      "mac": "cmd+alt+f",
+      "linux": "ctrl+shift+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "replace"
+    },
+    {
+      "id": "dupliquer_ligne",
+      "nom": "Dupliquer ligne",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+shift+d",
+      "mac": "cmd+shift+d",
+      "linux": "ctrl+shift+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy-plus"
+    },
+    {
+      "id": "aller_ligne",
+      "nom": "Aller à la ligne",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "text-cursor-input"
+    },
+    {
+      "id": "completion",
+      "nom": "Complétion",
+      "groupe": "Éditeur SQL",
+      "win": "ctrl+space",
+      "mac": "ctrl+space",
+      "linux": "ctrl+space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "wand"
+    },
+    {
+      "id": "ouvrir_query_tool",
+      "nom": "Query Tool",
+      "groupe": "Explorateur",
+      "win": "shift+alt+q",
+      "mac": "shift+alt+q",
+      "linux": "shift+alt+q",
+      "source": 0,
+      "priorite": 1,
+      "picto": "terminal"
+    },
+    {
+      "id": "rafraichir",
+      "nom": "Rafraîchir",
+      "groupe": "Explorateur",
+      "win": "f5",
+      "mac": "f5",
+      "linux": "f5",
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "creer_objet",
+      "nom": "Créer objet",
+      "groupe": "Explorateur",
+      "win": "shift+alt+n",
+      "mac": "shift+alt+n",
+      "linux": "shift+alt+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "supprimer_objet",
+      "nom": "Supprimer objet",
+      "groupe": "Explorateur",
+      "win": "shift+alt+d",
+      "mac": "shift+alt+d",
+      "linux": "shift+alt+d",
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "chercher_objets",
+      "nom": "Chercher objets",
+      "groupe": "Explorateur",
+      "win": "shift+alt+s",
+      "mac": "shift+alt+s",
+      "linux": "shift+alt+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "afficher_explorateur",
+      "nom": "Explorateur",
+      "groupe": "Explorateur",
+      "win": "ctrl+alt+b",
+      "mac": "ctrl+alt+b",
+      "linux": "ctrl+alt+b",
+      "source": 0,
+      "priorite": 3,
+      "picto": "panel-left"
+    },
+    {
+      "id": "recherche_rapide",
+      "nom": "Recherche rapide",
+      "groupe": "Explorateur",
+      "win": "shift+ctrl+f",
+      "mac": "shift+ctrl+f",
+      "linux": "shift+ctrl+f",
+      "source": 0,
+      "priorite": 3,
+      "picto": "search"
+    },
+    {
+      "id": "ajouter_ligne_grille",
+      "nom": "Ajouter ligne",
+      "groupe": "Explorateur",
+      "win": "ctrl+shift+a",
+      "mac": "ctrl+shift+a",
+      "linux": "ctrl+shift+a",
+      "source": 0,
+      "priorite": 3,
+      "picto": "plus-square"
+    },
+    {
+      "id": "voir_donnees",
+      "nom": "Voir les données",
+      "groupe": "Explorateur",
+      "win": "shift+alt+v",
+      "mac": "shift+alt+v",
+      "linux": "shift+alt+v",
+      "source": 0,
+      "priorite": 1,
+      "picto": "table"
+    },
+    {
+      "id": "fermer_panneau",
+      "nom": "Fermer l'onglet",
+      "groupe": "Explorateur",
+      "win": "shift+alt+w",
+      "mac": "shift+ctrl+w",
+      "linux": "shift+alt+w",
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "proprietes_objet",
+      "nom": "Propriétés objet",
+      "groupe": "Explorateur",
+      "win": "shift+alt+e",
+      "mac": "shift+alt+e",
+      "linux": "shift+alt+e",
+      "source": 0,
+      "priorite": 2,
+      "picto": "settings"
+    }
+  ],
+  "non_faisable": []
+}

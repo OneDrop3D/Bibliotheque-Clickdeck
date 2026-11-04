@@ -1,0 +1,21 @@
+{
+  "id": "nonsteamlaunchers",
+  "nom": "NonSteamLaunchers",
+  "editeur": "moraroy",
+  "site": "https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck",
+  "systemes": ["linux"],
+  "lancement": { "linux": "NonSteamLaunchers" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Script d'installation pour Steam Deck et SteamOS, sans raccourci clavier documenté. Il se lance depuis le terminal ou le plugin Decky Loader.",
+  "sources": [
+    { "url": "https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck", "titre": "NonSteamLaunchers README" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Installation des lanceurs", "raison": "script en ligne de commande, sans raccourci" }
+  ]
+}

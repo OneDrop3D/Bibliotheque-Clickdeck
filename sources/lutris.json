@@ -1,0 +1,26 @@
+{
+  "id": "lutris",
+  "nom": "Lutris",
+  "editeur": "Lutris (projet open source)",
+  "site": "https://lutris.net",
+  "systemes": ["linux"],
+  "lancement": { "linux": "Lutris" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Application Linux uniquement. Raccourcis relevés dans le code source officiel (lutris/gui/lutriswindow.py et lutris/gui/application.py). Peu de raccourcis définis par l'application : les autres fonctions passent par la souris.",
+  "sources": [
+    { "url": "https://github.com/lutris/lutris/blob/master/lutris/gui/lutriswindow.py", "titre": "lutris/gui/lutriswindow.py (code source officiel)" },
+    { "url": "https://github.com/lutris/lutris/blob/master/lutris/gui/application.py", "titre": "lutris/gui/application.py (code source officiel)" }
+  ],
+  "actions": [
+    { "id": "quitter", "nom": "Quitter", "groupe": "Application", "win": null, "mac": null, "linux": "ctrl+q", "source": 1, "priorite": 1, "picto": "power" },
+    { "id": "jeux-installes", "nom": "Jeux installés", "groupe": "Bibliothèque", "win": null, "mac": null, "linux": "ctrl+i", "source": 0, "priorite": 2, "picto": "filter" },
+    { "id": "jeux-masques", "nom": "Jeux masqués", "groupe": "Bibliothèque", "win": null, "mac": null, "linux": "ctrl+h", "source": 0, "priorite": 3, "picto": "eye-off" },
+    { "id": "badges", "nom": "Afficher badges", "groupe": "Affichage", "win": null, "mac": null, "linux": "ctrl+p", "source": 0, "priorite": 3, "picto": "tag" },
+    { "id": "panneau-lateral", "nom": "Panneau latéral", "groupe": "Affichage", "win": null, "mac": null, "linux": "f9", "source": 0, "priorite": 2, "picto": "panel-left" }
+  ],
+  "non_faisable": []
+}

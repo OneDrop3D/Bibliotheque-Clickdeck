@@ -1,0 +1,17 @@
+{
+  "id": "substance-player",
+  "nom": "Substance Player",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/substance3d-player.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Adobe Substance 3D Player", "mac": "Adobe Substance 3D Player" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci vérifié. La page d'aide Adobe des raccourcis Substance 3D Player renvoie 403 et la page d'accueil Substance 3D ne donne pas de liste. Liste d'actions à compléter une fois la documentation accessible.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

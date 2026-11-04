@@ -1,0 +1,22 @@
+{
+  "id": "naps2",
+  "nom": "NAPS2",
+  "editeur": "Ben Olmstead",
+  "site": "https://www.naps2.com/",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "NAPS2", "mac": "NAPS2", "linux": "NAPS2" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier n'est documenté sur le site officiel (pages d'accueil et documentation en ligne consultées : seule la ligne de commande est documentée). Application de numérisation à une fenêtre : fichier écrit sans actions, pour un pack de lancement.",
+  "sources": [
+    { "url": "https://www.naps2.com/", "titre": "NAPS2 - page d'accueil et documentation" },
+    { "url": "https://www.naps2.com/doc-command-line.html", "titre": "NAPS2 - Command line" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Numérisation depuis le scanner", "raison": "réglage sans raccourci" }
+  ]
+}

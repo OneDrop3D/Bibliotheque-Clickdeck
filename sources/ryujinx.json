@@ -1,0 +1,24 @@
+{
+  "id": "ryujinx",
+  "nom": "Ryujinx",
+  "editeur": "",
+  "site": "https://ryujinx.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Ryujinx",
+    "mac": "Ryujinx"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "Émulateur Switch. Raccourcis non vérifiés : aucune source de raccourcis n'a pu être ouverte (WebFetch 404, quota de recherche épuisé). À compléter.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "lichess",
+  "nom": "Lichess Desktop",
+  "editeur": "Lichess",
+  "site": "https://lichess.org/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Lichess", "mac": "Lichess" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Jeux & plateformes PC",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du site web lichess.org (page d'analyse et d'étude, code source officiel lila, et FAQ pour « ? » et « z »). Touches identiques sur Mac (aucun modificateur propre au système). « ? » (shift+slash) dépend de la disposition du clavier. Le raccourci z de la FAQ (mode zen) concerne la partie en cours ; sur la page d'analyse z a une autre fonction, non retenue ici.",
+  "sources": [
+    { "url": "https://lichess.org/faq", "titre": "Lichess FAQ (raccourcis clavier)" },
+    { "url": "https://github.com/lichess-org/lila/blob/master/ui/analyse/src/keyboard.ts", "titre": "Code source lila : raccourcis de la page d'analyse" }
+  ],
+  "actions": [
+    { "id": "coup-precedent", "nom": "Coup précédent", "groupe": "Navigation", "win": "left", "mac": "left", "linux": null, "source": 1, "priorite": 1, "picto": "chevron-left", "deduit": true },
+    { "id": "coup-suivant", "nom": "Coup suivant", "groupe": "Navigation", "win": "right", "mac": "right", "linux": null, "source": 1, "priorite": 1, "picto": "chevron-right", "deduit": true },
+    { "id": "premier-coup", "nom": "Premier coup", "groupe": "Navigation", "win": "home", "mac": "home", "linux": null, "source": 1, "priorite": 1, "picto": "chevrons-left", "deduit": true },
+    { "id": "dernier-coup", "nom": "Dernier coup", "groupe": "Navigation", "win": "end", "mac": "end", "linux": null, "source": 1, "priorite": 1, "picto": "chevrons-right", "deduit": true },
+    { "id": "branche-precedente", "nom": "Variante préc.", "groupe": "Navigation", "win": "shift+left", "mac": "shift+left", "linux": null, "source": 1, "priorite": 3, "picto": "corner-up-left", "deduit": true },
+    { "id": "branche-suivante", "nom": "Variante suiv.", "groupe": "Navigation", "win": "shift+right", "mac": "shift+right", "linux": null, "source": 1, "priorite": 3, "picto": "corner-up-right", "deduit": true },
+    { "id": "retourner-plateau", "nom": "Retourner plateau", "groupe": "Analyse", "win": "f", "mac": "f", "linux": null, "source": 1, "priorite": 1, "picto": "refresh-cw", "deduit": true },
+    { "id": "moteur", "nom": "Moteur on/off", "groupe": "Analyse", "win": "l", "mac": "l", "linux": null, "source": 1, "priorite": 1, "picto": "cpu", "deduit": true },
+    { "id": "meilleur-coup", "nom": "Jouer meilleur coup", "groupe": "Analyse", "win": "space", "mac": "space", "linux": null, "source": 1, "priorite": 2, "picto": "sparkles", "deduit": true },
+    { "id": "fleches-meilleur", "nom": "Flèches moteur", "groupe": "Analyse", "win": "a", "mac": "a", "linux": null, "source": 1, "priorite": 2, "picto": "move-up-right", "deduit": true },
+    { "id": "menaces", "nom": "Menaces", "groupe": "Analyse", "win": "x", "mac": "x", "linux": null, "source": 1, "priorite": 2, "picto": "swords", "deduit": true },
+    { "id": "explorateur", "nom": "Explorateur", "groupe": "Analyse", "win": "e", "mac": "e", "linux": null, "source": 1, "priorite": 2, "picto": "book-open", "deduit": true },
+    { "id": "commentaires", "nom": "Commentaires", "groupe": "Analyse", "win": "shift+c", "mac": "shift+c", "linux": null, "source": 1, "priorite": 3, "picto": "message-square", "deduit": true },
+    { "id": "editeur-plateau", "nom": "Éditeur position", "groupe": "Interface", "win": "b", "mac": "b", "linux": null, "source": 1, "priorite": 3, "picto": "pencil", "deduit": true },
+    { "id": "menu-analyse", "nom": "Menu d'analyse", "groupe": "Interface", "win": "h", "mac": "h", "linux": null, "source": 1, "priorite": 3, "picto": "menu", "deduit": true },
+    { "id": "afficher-raccourcis", "nom": "Aide raccourcis", "groupe": "Interface", "win": "shift+slash", "mac": "shift+slash", "linux": null, "source": 0, "priorite": 2, "picto": "keyboard", "deduit": true },
+    { "id": "mode-zen", "nom": "Mode zen", "groupe": "Interface", "win": "z", "mac": "z", "linux": null, "source": 0, "priorite": 2, "picto": "maximize", "deduit": true }
+  ],
+  "non_faisable": []
+}

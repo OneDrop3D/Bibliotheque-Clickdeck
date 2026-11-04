@@ -1,0 +1,21 @@
+{
+  "id": "spybot",
+  "nom": "Spybot Search & Destroy",
+  "editeur": "Safer-Networking",
+  "site": "https://www.safer-networking.org/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Spybot Search & Destroy", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Sécurité & mots de passe desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle lue ne documente aucun raccourci clavier ni liste de fonctions détaillée. Aucune action ajoutée sans source.",
+  "sources": [
+    { "url": "https://www.safer-networking.org/", "titre": "Safer-Networking - page officielle (lue le 2026-11-04)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Lancer l'analyse", "raison": "réglage sans raccourci documenté (bouton)" }
+  ]
+}

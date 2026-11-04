@@ -1,0 +1,21 @@
+{
+  "id": "peace-eq",
+  "nom": "Peace EQ",
+  "editeur": "Interface graphique tierce pour Equalizer APO",
+  "site": "https://sourceforge.net/projects/peace-equalizer-apo-extension/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Peace", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page SourceForge mentionne un pilotage par raccourcis (hotkeys) sans en donner aucune combinaison. Aucune action n'est donc relevée. Le site du projet n'a pas pu être ouvert. À compléter si la documentation précise les raccourcis.",
+  "sources": [
+    { "url": "https://sourceforge.net/projects/peace-equalizer-apo-extension/", "titre": "Peace (Equalizer APO extension) - SourceForge" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglage des bandes EQ à la souris", "raison": "souris" }
+  ]
+}

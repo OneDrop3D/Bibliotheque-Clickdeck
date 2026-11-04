@@ -1,0 +1,23 @@
+{
+  "id": "lightshot",
+  "nom": "LightShot",
+  "editeur": "Skillbrains",
+  "site": "https://app.prntscr.com/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Lightshot" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "La capture se lance avec la touche Impr écran (PrtScn), non prise en charge par ClickDeck. Seule l'action Copier la zone (Ctrl+C une fois la zone sélectionnée) est proposée ; elle n'est pas citée par la page officielle, qui ne liste aucun raccourci. Le site ne liste pas les raccourcis de l'éditeur ; la version Mac n'a pas été vérifiée, d'où systemes limité à Windows.",
+  "sources": [
+    { "url": "https://app.prntscr.com/en/index.html", "titre": "Lightshot - site officiel" }
+  ],
+  "actions": [
+    { "id": "copier-zone", "nom": "Copier la zone", "groupe": "Capture", "win": "ctrl+c", "mac": null, "linux": null, "source": 0, "priorite": 1, "picto": "copy" }
+  ],
+  "non_faisable": [
+    { "nom": "Capture d'écran", "raison": "touche Impr écran non prise en charge" }
+  ]
+}

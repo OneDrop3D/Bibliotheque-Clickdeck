@@ -1,0 +1,30 @@
+{
+  "id": "airmail",
+  "nom": "Airmail (macOS)",
+  "editeur": "Bloop",
+  "site": "https://airmailapp.com/",
+  "systemes": ["mac"],
+  "lancement": { "mac": "Airmail" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Aucune source ouverte : la page des raccourcis de airmailapp.com n'a pas été trouvée (HTTP 404) et la page d'accueil n'en liste aucun. Seules les commandes standard de menu sont proposées, avec deduit=true. Les raccourcis propres à la messagerie (nouveau message, répondre, archiver) ne sont pas renseignés. Budget de recherche épuisé pendant la session.",
+  "sources": [],
+  "actions": [
+    { "id": "nouveau", "nom": "Nouveau", "groupe": "Fichier", "win": null, "mac": "cmd+n", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": null, "mac": "cmd+o", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": null, "mac": "cmd+s", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "save" },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": null, "mac": "cmd+p", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "printer" },
+    { "id": "fermer", "nom": "Fermer", "groupe": "Fichier", "win": null, "mac": "cmd+w", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "x" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": null, "mac": "cmd+z", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "undo-2" },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": null, "mac": "cmd+shift+z", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "redo-2" },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": null, "mac": "cmd+c", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "copy" },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": null, "mac": "cmd+x", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "scissors" },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": null, "mac": "cmd+v", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "clipboard-paste" },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": null, "mac": "cmd+a", "linux": null, "source": null, "deduit": true, "priorite": 2, "picto": "text-select" },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Recherche", "win": null, "mac": "cmd+f", "linux": null, "source": null, "deduit": true, "priorite": 1, "picto": "search" }
+  ],
+  "non_faisable": []
+}

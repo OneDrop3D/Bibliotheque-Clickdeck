@@ -1,0 +1,22 @@
+{
+  "id": "geosetter",
+  "nom": "GeoSetter",
+  "editeur": "Hans-Peter Bruegge (GeoSetter)",
+  "site": "https://www.geosetter.de/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "GeoSetter" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Photo & gestion d'images",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel gratuit Windows, dernière version lue : 3.5.3 (octobre 2019), site officiel lu. Aucun raccourci clavier par défaut documenté. Les raccourcis de la barre d'outils se règlent dans Paramètres > onglet Shortcuts/Toolbar. Projet peu actif : à utiliser comme pack de lancement sans actions.",
+  "sources": [
+    { "url": "https://www.geosetter.de/", "titre": "GeoSetter - site officiel (lu)" },
+    { "url": "https://www.softpedia.com/get/Multimedia/Graphic/Digital-Photo-Tools/GeoSetter.shtml", "titre": "Softpedia - GeoSetter (tiers)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Raccourcis de la barre d'outils", "raison": "réglage propre à chaque utilisateur, aucun défaut documenté" }
+  ]
+}

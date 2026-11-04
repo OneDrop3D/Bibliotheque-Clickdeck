@@ -1,0 +1,17 @@
+{
+  "id": "mullvad-vpn",
+  "nom": "Mullvad VPN",
+  "editeur": "Mullvad VPN AB",
+  "site": "https://mullvad.net/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Mullvad VPN", "mac": "Mullvad VPN" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci clavier trouvé dans la documentation consultée ; la page d'aide de Mullvad n'a pas pu être lue (404). Aucune action proposée.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [ { "nom": "Connexion et déconnexion", "raison": "réglage sans raccourci documenté" } ]
+}

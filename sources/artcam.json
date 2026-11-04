@@ -1,0 +1,329 @@
+{
+  "id": "artcam",
+  "nom": "ArtCAM",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/artcam/overview",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "ArtCAM"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de la référence ArtCAM 2018 (aide Autodesk). Les versions plus récentes peuvent différer. Ctrl+E est signalé par un forum Autodesk comme réservé à la déformation d'enveloppe dans la catégorie Édition : vérifier sur la version installée. Pas de Mac.",
+  "sources": [
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2018/ENU/ARTC-ReferenceHelp/files/GUID-D76FEAB7-3232-48A3-ADE3-6A003080ACCC.htm",
+      "titre": "ArtCAM 2018 Reference - Keyboard shortcuts"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouveau",
+      "nom": "Nouveau modèle",
+      "groupe": "Fichier",
+      "win": "ctrl+n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Fichier",
+      "win": "ctrl+p",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "printer"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Édition",
+      "win": "delete",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "outil-noeuds",
+      "nom": "Outil nœuds",
+      "groupe": "Outils",
+      "win": "n",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "spline"
+    },
+    {
+      "id": "outil-transformation",
+      "nom": "Transformation",
+      "groupe": "Outils",
+      "win": "t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "move"
+    },
+    {
+      "id": "outil-mesure",
+      "nom": "Mesurer",
+      "groupe": "Outils",
+      "win": "m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "ruler"
+    },
+    {
+      "id": "retour-selection",
+      "nom": "Retour sélection",
+      "groupe": "Outils",
+      "win": "escape",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer"
+    },
+    {
+      "id": "vue-2d",
+      "nom": "Vue 2D",
+      "groupe": "Vue",
+      "win": "f2",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "vue-3d",
+      "nom": "Vue 3D",
+      "groupe": "Vue",
+      "win": "f3",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "box"
+    },
+    {
+      "id": "centrer-modele",
+      "nom": "Centrer modèle",
+      "groupe": "Vue",
+      "win": "f9",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair"
+    },
+    {
+      "id": "apercu-relief",
+      "nom": "Aperçu relief",
+      "groupe": "Vue",
+      "win": "f10",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye"
+    },
+    {
+      "id": "panneau-projet",
+      "nom": "Panneau projet",
+      "groupe": "Vue",
+      "win": "f4",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "panel-left"
+    },
+    {
+      "id": "panneau-outils",
+      "nom": "Réglages outil",
+      "groupe": "Vue",
+      "win": "f6",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "vue-dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Vue",
+      "win": "ctrl+num5",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "aligner-gauche",
+      "nom": "Aligner gauche",
+      "groupe": "Aligner",
+      "win": "ctrl+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-start-vertical"
+    },
+    {
+      "id": "aligner-droite",
+      "nom": "Aligner droite",
+      "groupe": "Aligner",
+      "win": "ctrl+right",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-end-vertical"
+    },
+    {
+      "id": "aligner-haut",
+      "nom": "Aligner haut",
+      "groupe": "Aligner",
+      "win": "ctrl+up",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-start-horizontal"
+    },
+    {
+      "id": "aligner-bas",
+      "nom": "Aligner bas",
+      "groupe": "Aligner",
+      "win": "ctrl+down",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-end-horizontal"
+    },
+    {
+      "id": "centre-horizontal",
+      "nom": "Centre horizontal",
+      "groupe": "Aligner",
+      "win": "shift+left",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "align-center-vertical"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Déplacement des objets au pas",
+      "raison": "maintien de flèches et réglage de distance par boîte de dialogue, non mappable à une seule combinaison"
+    }
+  ]
+}

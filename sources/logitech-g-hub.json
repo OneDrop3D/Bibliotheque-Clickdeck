@@ -1,0 +1,17 @@
+{
+  "id": "logitech-g-hub",
+  "nom": "Logitech G HUB",
+  "editeur": "Logitech",
+  "site": "https://www.logitechg.com/en-us/innovation/g-hub.html",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Logitech G HUB", "mac": "Logitech G HUB" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Logiciel de configuration de périphériques Logitech : la page officielle ne liste aucun raccourci clavier par défaut. Pack de lancement uniquement.",
+  "sources": [ { "url": "https://www.logitechg.com/en-us/innovation/g-hub.html", "titre": "Logitech G HUB" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Changer de profil de périphérique", "raison": "réglage sans raccourci" } ]
+}

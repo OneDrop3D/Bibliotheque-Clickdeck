@@ -1,0 +1,26 @@
+{
+  "id": "gamescope",
+  "nom": "Gamescope",
+  "editeur": "Valve (projet open source)",
+  "site": "https://github.com/ValveSoftware/gamescope",
+  "systemes": ["linux"],
+  "lancement": { "linux": "gamescope" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Les raccourcis du README utilisent la touche Super (Meta). Le format ClickDeck n'a pas de modificateur Super : chaque touche est notée cmd dans linux, à vérifier avant usage (correspondance Super -> cmd côté ClickDeck sous Linux).",
+  "sources": [ { "url": "https://github.com/ValveSoftware/gamescope", "titre": "Gamescope, README officiel" } ],
+  "actions": [
+    { "id": "plein-ecran", "nom": "Plein écran", "groupe": "Affichage", "win": null, "mac": null, "linux": "cmd+f", "source": 0, "priorite": 1, "picto": "maximize" },
+    { "id": "filtre-voisin", "nom": "Filtre voisin", "groupe": "Affichage", "win": null, "mac": null, "linux": "cmd+n", "source": 0, "priorite": 3, "picto": "grid-3x3" },
+    { "id": "upscaling-fsr", "nom": "Upscaling FSR", "groupe": "Échelle", "win": null, "mac": null, "linux": "cmd+u", "source": 0, "priorite": 2, "picto": "zoom-in" },
+    { "id": "upscaling-nis", "nom": "Upscaling NIS", "groupe": "Échelle", "win": null, "mac": null, "linux": "cmd+y", "source": 0, "priorite": 3, "picto": "zoom-in" },
+    { "id": "nettete-fsr-plus", "nom": "Netteté FSR +", "groupe": "Échelle", "win": null, "mac": null, "linux": "cmd+i", "source": 0, "priorite": 3, "picto": "sun" },
+    { "id": "nettete-fsr-moins", "nom": "Netteté FSR −", "groupe": "Échelle", "win": null, "mac": null, "linux": "cmd+o", "source": 0, "priorite": 3, "picto": "sun-dim" },
+    { "id": "capture-ecran", "nom": "Capture écran", "groupe": "Capture", "win": null, "mac": null, "linux": "cmd+s", "source": 0, "priorite": 2, "picto": "camera" },
+    { "id": "capter-clavier", "nom": "Capter clavier", "groupe": "Affichage", "win": null, "mac": null, "linux": "cmd+g", "source": 0, "priorite": 3, "picto": "keyboard" }
+  ],
+  "non_faisable": [ { "nom": "Options de lancement (-f, -r)", "raison": "options de ligne de commande, pas des raccourcis" } ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "moonlight",
+  "nom": "Moonlight Desktop",
+  "editeur": "Projet Moonlight (open source)",
+  "site": "https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide",
+  "systemes": [
+    "windows"
+  ],
+  "lancement": {
+    "windows": "Moonlight"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du client PC (Windows) du guide officiel, tous en Ctrl+Alt+Maj+lettre. Aucun raccourci Mac documenté : champs Mac vides.",
+  "sources": [
+    {
+      "url": "https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide",
+      "titre": "Moonlight Setup Guide (wiki officiel)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "quitter-flux",
+      "nom": "Quitter le flux",
+      "groupe": "Session",
+      "win": "ctrl+alt+shift+q",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "power"
+    },
+    {
+      "id": "capture-souris-clavier",
+      "nom": "Capture souris/clavier",
+      "groupe": "Souris & clavier",
+      "win": "ctrl+alt+shift+z",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "mouse-pointer-click"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+shift+x",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize"
+    },
+    {
+      "id": "statistiques",
+      "nom": "Statistiques",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+shift+s",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "activity"
+    },
+    {
+      "id": "mode-souris",
+      "nom": "Mode souris",
+      "groupe": "Souris & clavier",
+      "win": "ctrl+alt+shift+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "mouse"
+    },
+    {
+      "id": "taper-presse-papiers",
+      "nom": "Taper presse-papiers",
+      "groupe": "Souris & clavier",
+      "win": "ctrl+alt+shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "reduire-fenetre",
+      "nom": "Réduire la fenêtre",
+      "groupe": "Affichage",
+      "win": "ctrl+alt+shift+d",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "minimize-2"
+    },
+    {
+      "id": "curseur-local",
+      "nom": "Curseur local",
+      "groupe": "Souris & clavier",
+      "win": "ctrl+alt+shift+c",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "mouse-pointer-2"
+    },
+    {
+      "id": "verrouiller-pointeur",
+      "nom": "Verrouiller pointeur",
+      "groupe": "Souris & clavier",
+      "win": "ctrl+alt+shift+l",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "lock"
+    }
+  ],
+  "non_faisable": []
+}

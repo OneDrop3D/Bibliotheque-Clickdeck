@@ -1,0 +1,19 @@
+{
+  "id": "valhalladsp",
+  "nom": "ValhallaDSP",
+  "editeur": "Valhalla DSP",
+  "site": "https://valhalladsp.com",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "ValhallaDSP", "mac": "ValhallaDSP" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Réverbes et effets VST/AU/AAX pilotés par la DAW hôte, réglés à la souris. Aucun raccourci clavier documenté trouvé : la page support de l'éditeur n'a pas pu être lue (404) et les recherches ne donnent que des revendeurs et des tests. Pas d'action proposée ; à revérifier si l'éditeur publie une liste.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglage des paramètres", "raison": "souris" }
+  ]
+}

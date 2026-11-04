@@ -1,0 +1,265 @@
+{
+  "id": "handbrake",
+  "nom": "HandBrake",
+  "editeur": "HandBrake Team",
+  "site": "https://handbrake.fr/",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "HandBrake",
+    "mac": "HandBrake"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel : MainView.xaml (Windows) et MainMenu.xib (Mac). Windows : Alt+A figure à la fois sur « Ajouter à la file » et dans le menu File d'attente (ambigu dans le code), à vérifier dans l'application.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/HandBrake/HandBrake/master/win/CS/HandBrakeWPF/Views/MainView.xaml",
+      "titre": "HandBrake Windows, MainView.xaml (InputGestureText)"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HandBrake/HandBrake/master/macosx/Base.lproj/MainMenu.xib",
+      "titre": "HandBrake Mac, MainMenu.xib (keyEquivalent)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ouvrir-source",
+      "nom": "Ouvrir la source",
+      "groupe": "Fichier",
+      "win": "alt+o",
+      "mac": "cmd+o",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open"
+    },
+    {
+      "id": "demarrer",
+      "nom": "Démarrer",
+      "groupe": "Encodage",
+      "win": "ctrl+e",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Encodage",
+      "win": "alt+p",
+      "mac": "cmd+p",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause"
+    },
+    {
+      "id": "arreter",
+      "nom": "Arrêter",
+      "groupe": "Encodage",
+      "win": "ctrl+k",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "ajouter-file",
+      "nom": "Ajouter à la file",
+      "groupe": "File",
+      "win": "alt+a",
+      "mac": "cmd+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-plus"
+    },
+    {
+      "id": "ajouter-selection",
+      "nom": "Ajouter sélection",
+      "groupe": "File",
+      "win": "ctrl+shift+a",
+      "mac": "cmd+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-checks"
+    },
+    {
+      "id": "ajouter-tout",
+      "nom": "Ajouter tout",
+      "groupe": "File",
+      "win": "ctrl+alt+a",
+      "mac": "cmd+alt+shift+b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-plus"
+    },
+    {
+      "id": "file",
+      "nom": "Afficher la file",
+      "groupe": "Fenêtres",
+      "win": "ctrl+q",
+      "mac": "cmd+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "list-video"
+    },
+    {
+      "id": "journal",
+      "nom": "Journal d'activité",
+      "groupe": "Fenêtres",
+      "win": "ctrl+l",
+      "mac": "cmd+shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "scroll-text"
+    },
+    {
+      "id": "apercu",
+      "nom": "Aperçu",
+      "groupe": "Fenêtres",
+      "win": null,
+      "mac": "cmd+3",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "eye"
+    },
+    {
+      "id": "nouveau-preset",
+      "nom": "Nouveau préréglage",
+      "groupe": "Préréglages",
+      "win": null,
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "plus"
+    },
+    {
+      "id": "resume",
+      "nom": "Résumé",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+1",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "layout-list"
+    },
+    {
+      "id": "dimensions",
+      "nom": "Dimensions",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+2",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "crop"
+    },
+    {
+      "id": "filtres",
+      "nom": "Filtres",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+3",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "sliders-horizontal"
+    },
+    {
+      "id": "video",
+      "nom": "Vidéo",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+4",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "video"
+    },
+    {
+      "id": "audio",
+      "nom": "Audio",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+5",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "volume-2"
+    },
+    {
+      "id": "sous-titres",
+      "nom": "Sous-titres",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+6",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "captions"
+    },
+    {
+      "id": "chapitres",
+      "nom": "Chapitres",
+      "groupe": "Affichage",
+      "win": null,
+      "mac": "cmd+alt+7",
+      "linux": null,
+      "source": 1,
+      "priorite": 2,
+      "picto": "bookmark"
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Aide",
+      "win": "f1",
+      "mac": "cmd+shift+slash",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "circle-help"
+    },
+    {
+      "id": "preferences",
+      "nom": "Préférences",
+      "groupe": "Fichier",
+      "win": null,
+      "mac": "cmd+comma",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "settings"
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "alt+f4",
+      "mac": "cmd+q",
+      "linux": null,
+      "source": 1,
+      "priorite": 3,
+      "picto": "log-out",
+      "deduit": true
+    }
+  ],
+  "non_faisable": []
+}

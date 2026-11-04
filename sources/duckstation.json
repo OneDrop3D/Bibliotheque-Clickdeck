@@ -1,0 +1,134 @@
+{
+  "id": "duckstation",
+  "nom": "DuckStation",
+  "editeur": "DuckStation (open source)",
+  "site": "https://www.duckstation.org",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "DuckStation",
+    "mac": "DuckStation"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis relevés dans le code source officiel (src/core/hotkeys.cpp, configuration par défaut). Touches de fonction et espace identiques sur Mac.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/stenzek/duckstation/master/src/core/hotkeys.cpp",
+      "titre": "DuckStation - src/core/hotkeys.cpp (raccourcis par défaut)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "pause",
+      "nom": "Pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "pause",
+      "deduit": true
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "f11",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "charger-etat",
+      "nom": "Charger l'état",
+      "groupe": "États",
+      "win": "f1",
+      "mac": "f1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload",
+      "deduit": true
+    },
+    {
+      "id": "sauver-etat",
+      "nom": "Sauvegarder l'état",
+      "groupe": "États",
+      "win": "f2",
+      "mac": "f2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "capture-ecran",
+      "nom": "Capture d'écran",
+      "groupe": "Capture",
+      "win": "f10",
+      "mac": "f10",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "camera",
+      "deduit": true
+    },
+    {
+      "id": "menu-pause",
+      "nom": "Menu pause",
+      "groupe": "Système",
+      "win": "escape",
+      "mac": "escape",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "menu",
+      "deduit": true
+    },
+    {
+      "id": "slot-precedent",
+      "nom": "Emplacement préc.",
+      "groupe": "États",
+      "win": "f3",
+      "mac": "f3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left",
+      "deduit": true
+    },
+    {
+      "id": "slot-suivant",
+      "nom": "Emplacement suiv.",
+      "groupe": "États",
+      "win": "f4",
+      "mac": "f4",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Avance rapide (maintenue)",
+      "raison": "touche maintenue (Tab)"
+    },
+    {
+      "nom": "Réinitialisation",
+      "raison": "aucun raccourci par défaut trouvé dans la source"
+    }
+  ]
+}

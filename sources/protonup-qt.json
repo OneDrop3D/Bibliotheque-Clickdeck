@@ -1,0 +1,20 @@
+{
+  "id": "protonup-qt",
+  "nom": "ProtonUp-Qt",
+  "editeur": "DavidoTek",
+  "site": "https://github.com/DavidoTek/ProtonUp-Qt",
+  "systemes": ["linux"],
+  "lancement": { "linux": "ProtonUp-Qt" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Gestionnaire graphique (GE-Proton pour Steam, Wine-GE pour Lutris). Ni le dépôt ni le paquet Flatpak ne documentent de raccourci clavier.",
+  "sources": [
+    { "url": "https://github.com/DavidoTek/ProtonUp-Qt", "titre": "ProtonUp-Qt, dépôt officiel" },
+    { "url": "https://github.com/flathub/net.davidotek.pupgui2", "titre": "Paquet Flathub net.davidotek.pupgui2" }
+  ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Installer GE-Proton ou Wine-GE", "raison": "réglage sans raccourci documenté" } ]
+}

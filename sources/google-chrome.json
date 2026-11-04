@@ -1,0 +1,450 @@
+{
+  "id": "google-chrome",
+  "nom": "Google Chrome",
+  "editeur": "Google",
+  "site": "https://www.google.com/chrome/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "chrome",
+    "mac": "Google Chrome"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Zoom + : touche = (Chrome accepte aussi plus). Plein écran Mac (ctrl+cmd+f) et Recharger Mac (cmd+r) : entrées de menu Chrome absentes de la page officielle, donc déduites. Outils dev Windows : F12 (la page cite aussi Ctrl+Maj+J, qui ouvre la console). Pas de personnalisation documentée.",
+  "sources": [
+    {
+      "url": "https://support.google.com/chrome/answer/157179",
+      "titre": "Raccourcis clavier Chrome (Google)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "nouvel-onglet",
+      "nom": "Nouvel onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-plus"
+    },
+    {
+      "id": "fermer-onglet",
+      "nom": "Fermer onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+w",
+      "mac": "cmd+w",
+      "linux": "ctrl+w",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x"
+    },
+    {
+      "id": "rouvrir-onglet",
+      "nom": "Rouvrir onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+t",
+      "mac": "shift+cmd+t",
+      "linux": "ctrl+shift+t",
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "onglet-suivant",
+      "nom": "Onglet suivant",
+      "groupe": "Onglets",
+      "win": "ctrl+tab",
+      "mac": "alt+cmd+right",
+      "linux": "ctrl+tab",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "onglet-precedent",
+      "nom": "Onglet précédent",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+tab",
+      "mac": "alt+cmd+left",
+      "linux": "ctrl+shift+tab",
+      "source": 0,
+      "priorite": 1,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "dernier-onglet",
+      "nom": "Dernier onglet",
+      "groupe": "Onglets",
+      "win": "ctrl+9",
+      "mac": "cmd+9",
+      "linux": "ctrl+9",
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "deplacer-onglet-droite",
+      "nom": "Onglet vers droite",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+pagedown",
+      "mac": "ctrl+shift+pagedown",
+      "linux": "ctrl+shift+pagedown",
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-right"
+    },
+    {
+      "id": "nouvelle-fenetre",
+      "nom": "Nouvelle fenêtre",
+      "groupe": "Onglets",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": "ctrl+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "app-window"
+    },
+    {
+      "id": "navigation-privee",
+      "nom": "Navigation privée",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+n",
+      "mac": "shift+cmd+n",
+      "linux": "ctrl+shift+n",
+      "source": 0,
+      "priorite": 1,
+      "picto": "eye-off"
+    },
+    {
+      "id": "fermer-fenetre",
+      "nom": "Fermer fenêtre",
+      "groupe": "Onglets",
+      "win": "ctrl+shift+w",
+      "mac": "shift+cmd+w",
+      "linux": "ctrl+shift+w",
+      "source": 0,
+      "priorite": 3,
+      "picto": "x-square"
+    },
+    {
+      "id": "page-precedente",
+      "nom": "Page précédente",
+      "groupe": "Navigation",
+      "win": "alt+left",
+      "mac": "cmd+bracketleft",
+      "linux": "alt+left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "page-suivante",
+      "nom": "Page suivante",
+      "groupe": "Navigation",
+      "win": "alt+right",
+      "mac": "cmd+bracketright",
+      "linux": "alt+right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "page-accueil",
+      "nom": "Page d'accueil",
+      "groupe": "Navigation",
+      "win": "alt+home",
+      "mac": "shift+cmd+h",
+      "linux": "alt+home",
+      "source": 0,
+      "priorite": 2,
+      "picto": "house"
+    },
+    {
+      "id": "arreter-chargement",
+      "nom": "Arrêter chargement",
+      "groupe": "Navigation",
+      "win": "escape",
+      "mac": "escape",
+      "linux": "escape",
+      "source": 0,
+      "priorite": 1,
+      "picto": "x-octagon"
+    },
+    {
+      "id": "recharger",
+      "nom": "Recharger",
+      "groupe": "Navigation",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw",
+      "deduit": true
+    },
+    {
+      "id": "recharger-sans-cache",
+      "nom": "Recharger (cache)",
+      "groupe": "Navigation",
+      "win": "ctrl+shift+r",
+      "mac": "shift+cmd+r",
+      "linux": "ctrl+shift+r",
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-ccw"
+    },
+    {
+      "id": "barre-adresse",
+      "nom": "Barre d'adresse",
+      "groupe": "Navigation",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "link"
+    },
+    {
+      "id": "rechercher-page",
+      "nom": "Rechercher page",
+      "groupe": "Recherche",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "resultat-suivant",
+      "nom": "Résultat suivant",
+      "groupe": "Recherche",
+      "win": "ctrl+g",
+      "mac": "cmd+g",
+      "linux": "ctrl+g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "resultat-precedent",
+      "nom": "Résultat précédent",
+      "groupe": "Recherche",
+      "win": "ctrl+shift+g",
+      "mac": "shift+cmd+g",
+      "linux": "ctrl+shift+g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "rechercher-selection",
+      "nom": "Chercher sélection",
+      "groupe": "Recherche",
+      "win": null,
+      "mac": "cmd+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "search-check"
+    },
+    {
+      "id": "zoom-plus",
+      "nom": "Zoom +",
+      "groupe": "Affichage",
+      "win": "ctrl+equal",
+      "mac": "cmd+equal",
+      "linux": "ctrl+equal",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-moins",
+      "nom": "Zoom -",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": "ctrl+minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "zoom-normal",
+      "nom": "Zoom 100 %",
+      "groupe": "Affichage",
+      "win": "ctrl+0",
+      "mac": "cmd+0",
+      "linux": "ctrl+0",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scan"
+    },
+    {
+      "id": "plein-ecran",
+      "nom": "Plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "ctrl+cmd+f",
+      "linux": "f11",
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize",
+      "deduit": true
+    },
+    {
+      "id": "navigation-curseur",
+      "nom": "Curseur de texte",
+      "groupe": "Affichage",
+      "win": "f7",
+      "mac": "f7",
+      "linux": "f7",
+      "source": 0,
+      "priorite": 3,
+      "picto": "text-cursor"
+    },
+    {
+      "id": "historique",
+      "nom": "Historique",
+      "groupe": "Historique",
+      "win": "ctrl+h",
+      "mac": "cmd+y",
+      "linux": "ctrl+h",
+      "source": 0,
+      "priorite": 1,
+      "picto": "history"
+    },
+    {
+      "id": "telechargements",
+      "nom": "Téléchargements",
+      "groupe": "Historique",
+      "win": "ctrl+j",
+      "mac": "shift+cmd+j",
+      "linux": "ctrl+j",
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "ajouter-favori",
+      "nom": "Ajouter favori",
+      "groupe": "Historique",
+      "win": "ctrl+d",
+      "mac": "cmd+d",
+      "linux": "ctrl+d",
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "barre-favoris",
+      "nom": "Barre favoris",
+      "groupe": "Historique",
+      "win": "ctrl+shift+b",
+      "mac": "shift+cmd+b",
+      "linux": "ctrl+shift+b",
+      "source": 0,
+      "priorite": 3,
+      "picto": "bookmark"
+    },
+    {
+      "id": "effacer-donnees",
+      "nom": "Effacer données",
+      "groupe": "Historique",
+      "win": "ctrl+shift+delete",
+      "mac": "shift+cmd+delete",
+      "linux": "ctrl+shift+delete",
+      "source": 0,
+      "priorite": 3,
+      "picto": "trash-2"
+    },
+    {
+      "id": "imprimer",
+      "nom": "Imprimer",
+      "groupe": "Page et système",
+      "win": "ctrl+p",
+      "mac": "cmd+p",
+      "linux": "ctrl+p",
+      "source": 0,
+      "priorite": 1,
+      "picto": "printer"
+    },
+    {
+      "id": "enregistrer-page",
+      "nom": "Enregistrer page",
+      "groupe": "Page et système",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save"
+    },
+    {
+      "id": "outils-developpeur",
+      "nom": "Outils dev",
+      "groupe": "Page et système",
+      "win": "f12",
+      "mac": "alt+cmd+i",
+      "linux": "ctrl+shift+j",
+      "source": 0,
+      "priorite": 3,
+      "picto": "code"
+    },
+    {
+      "id": "taches-chrome",
+      "nom": "Tâches Chrome",
+      "groupe": "Page et système",
+      "win": "shift+escape",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "cpu"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Lecture/pause vidéo",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Vidéo plein écran",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Vidéo suivante",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Volume de l'onglet",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Mode sombre",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Traduire la page",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Capture pleine page",
+      "raison": "pas de raccourci dans la doc officielle"
+    },
+    {
+      "nom": "Zoom à la molette",
+      "raison": "molette"
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "id": "rekordbox",
+  "nom": "rekordbox",
+  "editeur": "AlphaTheta",
+  "site": "https://rekordbox.com",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "rekordbox",
+    "mac": "rekordbox"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis du mode Performance, préréglage Performance 1 (le mode Export n'en a pas par défaut). Touches de la platine 1 uniquement ; la platine 2 a les siennes. Ctrl sous Windows = Cmd sous Mac, Alt = Option, d'après le document officiel. Recherche : Alt+F sous Windows, Ctrl+F sous Mac.",
+  "sources": [
+    {
+      "url": "https://cdn.rekordbox.com/files/20241203185020/rekordbox7.0.5_default_keyboard_shortcut_reference_EN.pdf",
+      "titre": "Default Keyboard Shortcut Reference (rekordbox 7.0.5)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture-lecture-pause",
+      "nom": "Lecture/Pause",
+      "groupe": "Lecture",
+      "win": "z",
+      "mac": "z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "lecture-cue",
+      "nom": "Cue",
+      "groupe": "Lecture",
+      "win": "a",
+      "mac": "a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin"
+    },
+    {
+      "id": "lecture-debut-du-morceau",
+      "nom": "Début du morceau",
+      "groupe": "Lecture",
+      "win": "shift+a",
+      "mac": "shift+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "lecture-synchro",
+      "nom": "Synchro",
+      "groupe": "Lecture",
+      "win": "q",
+      "mac": "q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "lecture-synchro-maitre",
+      "nom": "Synchro maître",
+      "groupe": "Lecture",
+      "win": "shift+q",
+      "mac": "shift+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "crown"
+    },
+    {
+      "id": "lecture-slip-inverse",
+      "nom": "Slip inversé",
+      "groupe": "Lecture",
+      "win": "s",
+      "mac": "s",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo-2"
+    },
+    {
+      "id": "lecture-piste-suivante",
+      "nom": "Piste suivante",
+      "groupe": "Lecture",
+      "win": "alt+a",
+      "mac": "alt+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "lecture-piste-precedente",
+      "nom": "Piste précédente",
+      "groupe": "Lecture",
+      "win": "alt+q",
+      "mac": "alt+q",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back"
+    },
+    {
+      "id": "lecture-saut-avant",
+      "nom": "Saut avant",
+      "groupe": "Lecture",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "fast-forward"
+    },
+    {
+      "id": "lecture-saut-arriere",
+      "nom": "Saut arrière",
+      "groupe": "Lecture",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rewind"
+    },
+    {
+      "id": "boucles-entree-de-boucle",
+      "nom": "Entrée de boucle",
+      "groupe": "Boucles",
+      "win": "d",
+      "mac": "d",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-right-to-line"
+    },
+    {
+      "id": "boucles-sortie-de-boucle",
+      "nom": "Sortie de boucle",
+      "groupe": "Boucles",
+      "win": "f",
+      "mac": "f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-left-to-line"
+    },
+    {
+      "id": "boucles-reboucler",
+      "nom": "Reboucler",
+      "groupe": "Boucles",
+      "win": "g",
+      "mac": "g",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "boucles-boucle-auto",
+      "nom": "Boucle auto",
+      "groupe": "Boucles",
+      "win": "shift+f",
+      "mac": "shift+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat-1"
+    },
+    {
+      "id": "boucles-boucle-2",
+      "nom": "Boucle ÷2",
+      "groupe": "Boucles",
+      "win": "shift+d",
+      "mac": "shift+d",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "divide"
+    },
+    {
+      "id": "boucles-boucle-2",
+      "nom": "Boucle ×2",
+      "groupe": "Boucles",
+      "win": "shift+g",
+      "mac": "shift+g",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "x"
+    },
+    {
+      "id": "boucles-boucle-4-temps",
+      "nom": "Boucle 4 temps",
+      "groupe": "Boucles",
+      "win": "ctrl+4",
+      "mac": "cmd+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "repeat"
+    },
+    {
+      "id": "boucles-boucle-8-temps",
+      "nom": "Boucle 8 temps",
+      "groupe": "Boucles",
+      "win": "ctrl+5",
+      "mac": "cmd+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "repeat"
+    },
+    {
+      "id": "reperes-repere-a",
+      "nom": "Repère A",
+      "groupe": "Repères",
+      "win": "1",
+      "mac": "1",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "reperes-repere-b",
+      "nom": "Repère B",
+      "groupe": "Repères",
+      "win": "2",
+      "mac": "2",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "reperes-repere-c",
+      "nom": "Repère C",
+      "groupe": "Repères",
+      "win": "3",
+      "mac": "3",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "reperes-repere-d",
+      "nom": "Repère D",
+      "groupe": "Repères",
+      "win": "4",
+      "mac": "4",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bookmark"
+    },
+    {
+      "id": "reperes-effacer-repere-a",
+      "nom": "Effacer repère A",
+      "groupe": "Repères",
+      "win": "ctrl+shift+1",
+      "mac": "cmd+shift+1",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bookmark-x"
+    },
+    {
+      "id": "reperes-effacer-repere-b",
+      "nom": "Effacer repère B",
+      "groupe": "Repères",
+      "win": "ctrl+shift+2",
+      "mac": "cmd+shift+2",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bookmark-x"
+    },
+    {
+      "id": "reperes-effacer-repere-c",
+      "nom": "Effacer repère C",
+      "groupe": "Repères",
+      "win": "ctrl+shift+3",
+      "mac": "cmd+shift+3",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bookmark-x"
+    },
+    {
+      "id": "reperes-effacer-repere-d",
+      "nom": "Effacer repère D",
+      "groupe": "Repères",
+      "win": "ctrl+shift+4",
+      "mac": "cmd+shift+4",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "bookmark-x"
+    },
+    {
+      "id": "reperes-poser-repere-mem",
+      "nom": "Poser repère mém.",
+      "groupe": "Repères",
+      "win": "shift+t",
+      "mac": "shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "map-pin-plus"
+    },
+    {
+      "id": "reperes-suppr-repere-mem",
+      "nom": "Suppr. repère mém.",
+      "groupe": "Repères",
+      "win": "shift+r",
+      "mac": "shift+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "map-pin-minus"
+    },
+    {
+      "id": "reperes-repere-mem-suiv",
+      "nom": "Repère mém. suiv.",
+      "groupe": "Repères",
+      "win": "t",
+      "mac": "t",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-right"
+    },
+    {
+      "id": "reperes-repere-mem-prec",
+      "nom": "Repère mém. préc.",
+      "groupe": "Repères",
+      "win": "r",
+      "mac": "r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-left"
+    },
+    {
+      "id": "tempo-tempo",
+      "nom": "Tempo +",
+      "groupe": "Tempo",
+      "win": "shift+e",
+      "mac": "shift+e",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "plus"
+    },
+    {
+      "id": "tempo-tempo",
+      "nom": "Tempo −",
+      "groupe": "Tempo",
+      "win": "shift+w",
+      "mac": "shift+w",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "minus"
+    },
+    {
+      "id": "tempo-master-tempo",
+      "nom": "Master Tempo",
+      "groupe": "Tempo",
+      "win": "shift+5",
+      "mac": "shift+5",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "lock"
+    },
+    {
+      "id": "tempo-pitch-bend",
+      "nom": "Pitch bend +",
+      "groupe": "Tempo",
+      "win": "e",
+      "mac": "e",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-up"
+    },
+    {
+      "id": "tempo-pitch-bend",
+      "nom": "Pitch bend −",
+      "groupe": "Tempo",
+      "win": "w",
+      "mac": "w",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevron-down"
+    },
+    {
+      "id": "navigation-charger-platine-1",
+      "nom": "Charger platine 1",
+      "groupe": "Navigation",
+      "win": "shift+left",
+      "mac": "shift+left",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "navigation-charger-platine-2",
+      "nom": "Charger platine 2",
+      "groupe": "Navigation",
+      "win": "shift+right",
+      "mac": "shift+right",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "download"
+    },
+    {
+      "id": "navigation-annuler-chargement",
+      "nom": "Annuler chargement",
+      "groupe": "Navigation",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "undo"
+    },
+    {
+      "id": "navigation-localiser-la-piste",
+      "nom": "Localiser la piste",
+      "groupe": "Navigation",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "locate"
+    },
+    {
+      "id": "navigation-rechercher",
+      "nom": "Rechercher",
+      "groupe": "Navigation",
+      "win": "alt+f",
+      "mac": "ctrl+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "navigation-fenetre-d-infos",
+      "nom": "Fenêtre d'infos",
+      "groupe": "Navigation",
+      "win": "ctrl+i",
+      "mac": "cmd+i",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "info"
+    },
+    {
+      "id": "navigation-nouvelle-playlist",
+      "nom": "Nouvelle playlist",
+      "groupe": "Navigation",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list-plus"
+    },
+    {
+      "id": "navigation-enregistrement",
+      "nom": "Enregistrement",
+      "groupe": "Navigation",
+      "win": "ctrl+enter",
+      "mac": "cmd+enter",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle-dot"
+    },
+    {
+      "id": "navigation-disposition",
+      "nom": "Disposition",
+      "groupe": "Navigation",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "layout-dashboard"
+    },
+    {
+      "id": "navigation-zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Navigation",
+      "win": "equal",
+      "mac": "equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "navigation-zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Navigation",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "sampler-sampler-1",
+      "nom": "Sampler 1",
+      "groupe": "Sampler",
+      "win": "x",
+      "mac": "x",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "sampler-sampler-2",
+      "nom": "Sampler 2",
+      "groupe": "Sampler",
+      "win": "c",
+      "mac": "c",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "sampler-sampler-3",
+      "nom": "Sampler 3",
+      "groupe": "Sampler",
+      "win": "v",
+      "mac": "v",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "audio-lines"
+    },
+    {
+      "id": "sampler-sampler-4",
+      "nom": "Sampler 4",
+      "groupe": "Sampler",
+      "win": "b",
+      "mac": "b",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "audio-lines"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Pitch bend maintenu",
+      "raison": "touche maintenue"
+    }
+  ]
+}

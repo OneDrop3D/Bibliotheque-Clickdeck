@@ -1,0 +1,146 @@
+{
+ "id": "conemu",
+ "nom": "ConEmu",
+ "editeur": "ConEmu (Maximus5)",
+ "site": "https://conemu.github.io",
+ "systemes": [
+  "windows"
+ ],
+ "lancement": {
+  "windows": "ConEmu"
+ },
+ "raccourcis_modifiables": true,
+ "fiabilite": "officielle",
+ "section": "Développement & terminal (desktop)",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Raccourcis par défaut de la page officielle. ConEmu utilise la touche Windows comme touche hôte par défaut (configurable) : « cmd » désigne ici la touche Windows. Copier utilise Ctrl+Maj+C (copie en HTML) pour ne pas interrompre le shell avec Ctrl+C. Suivant/précédent utilisent Ctrl+Tab, aussi documenté.",
+ "sources": [
+  {
+   "url": "https://conemu.github.io/en/KeyboardShortcuts.html",
+   "titre": "ConEmu - Keyboard shortcuts"
+  }
+ ],
+ "actions": [
+  {
+   "id": "nouvelle-console",
+   "nom": "Nouvelle console",
+   "groupe": "Onglets",
+   "win": "cmd+w",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "plus"
+  },
+  {
+   "id": "fermer-onglet",
+   "nom": "Fermer onglet",
+   "groupe": "Onglets",
+   "win": "cmd+alt+delete",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "x"
+  },
+  {
+   "id": "onglet-suivant",
+   "nom": "Onglet suivant",
+   "groupe": "Onglets",
+   "win": "ctrl+tab",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-right"
+  },
+  {
+   "id": "onglet-precedent",
+   "nom": "Onglet précédent",
+   "groupe": "Onglets",
+   "win": "ctrl+shift+tab",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "chevron-left"
+  },
+  {
+   "id": "deplacer-onglet-gauche",
+   "nom": "Onglet à gauche",
+   "groupe": "Onglets",
+   "win": "cmd+alt+left",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "arrow-left"
+  },
+  {
+   "id": "deplacer-onglet-droite",
+   "nom": "Onglet à droite",
+   "groupe": "Onglets",
+   "win": "cmd+alt+right",
+   "mac": null,
+   "source": 0,
+   "priorite": 2,
+   "picto": "arrow-right"
+  },
+  {
+   "id": "diviser-bas",
+   "nom": "Diviser en bas",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+o",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "rows-2"
+  },
+  {
+   "id": "diviser-droite",
+   "nom": "Diviser à droite",
+   "groupe": "Panneaux",
+   "win": "ctrl+shift+e",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "columns-2"
+  },
+  {
+   "id": "plein-ecran",
+   "nom": "Plein écran",
+   "groupe": "Affichage",
+   "win": "alt+enter",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "maximize-2"
+  },
+  {
+   "id": "copier",
+   "nom": "Copier",
+   "groupe": "Édition",
+   "win": "ctrl+shift+c",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "copy"
+  },
+  {
+   "id": "coller",
+   "nom": "Coller",
+   "groupe": "Édition",
+   "win": "ctrl+v",
+   "mac": null,
+   "source": 0,
+   "priorite": 1,
+   "picto": "clipboard-paste"
+  }
+ ],
+ "non_faisable": [
+  {
+   "nom": "Maximiser panneau (Apps+Entrée)",
+   "raison": "touche Menu non supportée par ClickDeck"
+  },
+  {
+   "nom": "Rechercher (Apps+F)",
+   "raison": "touche Menu non supportée par ClickDeck"
+  }
+ ]
+}

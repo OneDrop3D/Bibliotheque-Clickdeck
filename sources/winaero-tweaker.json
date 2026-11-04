@@ -1,0 +1,21 @@
+{
+  "id": "winaero-tweaker",
+  "nom": "Winaero Tweaker",
+  "editeur": "Winaero",
+  "site": "https://www.winaero.com/winaero-tweaker/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Winaero Tweaker" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de personnalisation de Windows, sans raccourci global documenté par l'éditeur. Pack de lancement, pas de liste d'actions.",
+  "sources": [
+    { "url": "https://www.winaero.com/winaero-tweaker/", "titre": "Winaero Tweaker (page officielle de l'éditeur)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages Windows 11 (menus, barre des tâches)", "raison": "réglage sans raccourci" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "icloud-for-windows",
+  "nom": "iCloud pour Windows",
+  "editeur": "Apple",
+  "site": "https://support.apple.com/icloud",
+  "systemes": ["windows"],
+  "lancement": { "windows": "iCloud", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation Windows uniquement, sans raccourci clavier documenté. Aucun raccourci trouvé dans les sources ouvertes.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

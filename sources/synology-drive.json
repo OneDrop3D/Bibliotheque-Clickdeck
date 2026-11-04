@@ -1,0 +1,17 @@
+{
+  "id": "synology-drive",
+  "nom": "Synology Drive",
+  "editeur": "Synology",
+  "site": "https://kb.synology.com/en-global/DSM/help/SynologyDrive/synology_drive_client",
+  "systemes": ["windows", "mac", "linux"],
+  "lancement": { "windows": "Synology Drive Client", "mac": "Synology Drive Client", "linux": "Synology Drive Client" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires système & compression",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Client de synchronisation NAS en arrière-plan. La page officielle consultée ne documente aucun raccourci clavier.",
+  "sources": [ { "url": "https://kb.synology.com/en-global/DSM/help/SynologyDrive/synology_drive_client", "titre": "Synology Drive Client (Synology KB)" } ],
+  "actions": [],
+  "non_faisable": [ { "nom": "Ouvrir le dossier Synology Drive", "raison": "aucun raccourci documenté" } ]
+}

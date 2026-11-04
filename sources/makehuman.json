@@ -1,0 +1,367 @@
+{
+  "id": "makehuman",
+  "nom": "MakeHuman",
+  "editeur": "MakeHuman Community",
+  "site": "https://github.com/makehumancommunity/makehuman",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "MakeHuman",
+    "mac": "MakeHuman"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "Création 3D & scan compléments",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis lus dans le code source (mhmain.py, _default_shortcuts) ; Mac déduit (Qt : Ctrl = Cmd). Chiffres de la rangée du haut. Cmd+H (Aide) omis sur Mac, réservé au système.",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/core/mhmain.py",
+      "titre": "Code source MakeHuman, raccourcis par défaut"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo",
+      "deduit": true
+    },
+    {
+      "id": "modelage",
+      "nom": "Modélisation",
+      "groupe": "Onglets",
+      "win": "ctrl+m",
+      "mac": "cmd+m",
+      "linux": "ctrl+m",
+      "source": 0,
+      "priorite": 1,
+      "picto": "person-standing",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "charger",
+      "nom": "Charger",
+      "groupe": "Fichier",
+      "win": "ctrl+l",
+      "mac": "cmd+l",
+      "linux": "ctrl+l",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    },
+    {
+      "id": "exporter",
+      "nom": "Exporter",
+      "groupe": "Fichier",
+      "win": "ctrl+e",
+      "mac": "cmd+e",
+      "linux": "ctrl+e",
+      "source": 0,
+      "priorite": 1,
+      "picto": "upload",
+      "deduit": true
+    },
+    {
+      "id": "rendu",
+      "nom": "Rendu",
+      "groupe": "Onglets",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": "ctrl+r",
+      "source": 0,
+      "priorite": 2,
+      "picto": "image",
+      "deduit": true
+    },
+    {
+      "id": "aide",
+      "nom": "Aide",
+      "groupe": "Onglets",
+      "win": "ctrl+h",
+      "mac": null,
+      "linux": "ctrl+h",
+      "source": 0,
+      "priorite": 3,
+      "picto": "help-circle",
+      "deduit": true
+    },
+    {
+      "id": "quitter",
+      "nom": "Quitter",
+      "groupe": "Fichier",
+      "win": "ctrl+q",
+      "mac": "cmd+q",
+      "linux": "ctrl+q",
+      "source": 0,
+      "priorite": 3,
+      "picto": "log-out",
+      "deduit": true
+    },
+    {
+      "id": "filaire",
+      "nom": "Fil de fer",
+      "groupe": "Affichage",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": "ctrl+f",
+      "source": 0,
+      "priorite": 1,
+      "picto": "box",
+      "deduit": true
+    },
+    {
+      "id": "lissage",
+      "nom": "Lissage",
+      "groupe": "Affichage",
+      "win": "alt+s",
+      "mac": "alt+s",
+      "linux": "alt+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "circle"
+    },
+    {
+      "id": "capture",
+      "nom": "Capture écran",
+      "groupe": "Affichage",
+      "win": "alt+g",
+      "mac": "alt+g",
+      "linux": "alt+g",
+      "source": 0,
+      "priorite": 2,
+      "picto": "camera"
+    },
+    {
+      "id": "tourner_bas",
+      "nom": "Tourner bas",
+      "groupe": "Caméra",
+      "win": "2",
+      "mac": "2",
+      "linux": "2",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-down"
+    },
+    {
+      "id": "tourner_gauche",
+      "nom": "Tourner gauche",
+      "groupe": "Caméra",
+      "win": "4",
+      "mac": "4",
+      "linux": "4",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-left"
+    },
+    {
+      "id": "tourner_droite",
+      "nom": "Tourner droite",
+      "groupe": "Caméra",
+      "win": "6",
+      "mac": "6",
+      "linux": "6",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-right"
+    },
+    {
+      "id": "tourner_haut",
+      "nom": "Tourner haut",
+      "groupe": "Caméra",
+      "win": "8",
+      "mac": "8",
+      "linux": "8",
+      "source": 0,
+      "priorite": 2,
+      "picto": "arrow-up"
+    },
+    {
+      "id": "deplacer_haut",
+      "nom": "Déplacer haut",
+      "groupe": "Caméra",
+      "win": "up",
+      "mac": "up",
+      "linux": "up",
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-up"
+    },
+    {
+      "id": "deplacer_bas",
+      "nom": "Déplacer bas",
+      "groupe": "Caméra",
+      "win": "down",
+      "mac": "down",
+      "linux": "down",
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-down"
+    },
+    {
+      "id": "deplacer_gauche",
+      "nom": "Déplacer gauche",
+      "groupe": "Caméra",
+      "win": "left",
+      "mac": "left",
+      "linux": "left",
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-left"
+    },
+    {
+      "id": "deplacer_droite",
+      "nom": "Déplacer droite",
+      "groupe": "Caméra",
+      "win": "right",
+      "mac": "right",
+      "linux": "right",
+      "source": 0,
+      "priorite": 3,
+      "picto": "move-right"
+    },
+    {
+      "id": "zoom_avant",
+      "nom": "Zoom avant",
+      "groupe": "Caméra",
+      "win": "plus",
+      "mac": "plus",
+      "linux": "plus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Caméra",
+      "win": "minus",
+      "mac": "minus",
+      "linux": "minus",
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "vue_face",
+      "nom": "Vue de face",
+      "groupe": "Vues",
+      "win": "1",
+      "mac": "1",
+      "linux": "1",
+      "source": 0,
+      "priorite": 1,
+      "picto": "square"
+    },
+    {
+      "id": "vue_droite",
+      "nom": "Vue de droite",
+      "groupe": "Vues",
+      "win": "3",
+      "mac": "3",
+      "linux": "3",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-right"
+    },
+    {
+      "id": "vue_dessus",
+      "nom": "Vue de dessus",
+      "groupe": "Vues",
+      "win": "7",
+      "mac": "7",
+      "linux": "7",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-top"
+    },
+    {
+      "id": "vue_dos",
+      "nom": "Vue de dos",
+      "groupe": "Vues",
+      "win": "ctrl+1",
+      "mac": "cmd+1",
+      "linux": "ctrl+1",
+      "source": 0,
+      "priorite": 2,
+      "picto": "square-dashed",
+      "deduit": true
+    },
+    {
+      "id": "vue_gauche",
+      "nom": "Vue de gauche",
+      "groupe": "Vues",
+      "win": "ctrl+3",
+      "mac": "cmd+3",
+      "linux": "ctrl+3",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-left",
+      "deduit": true
+    },
+    {
+      "id": "vue_dessous",
+      "nom": "Vue de dessous",
+      "groupe": "Vues",
+      "win": "ctrl+7",
+      "mac": "cmd+7",
+      "linux": "ctrl+7",
+      "source": 0,
+      "priorite": 2,
+      "picto": "panel-bottom",
+      "deduit": true
+    },
+    {
+      "id": "recentrer",
+      "nom": "Recentrer la vue",
+      "groupe": "Vues",
+      "win": "period",
+      "mac": "period",
+      "linux": "period",
+      "source": 0,
+      "priorite": 1,
+      "picto": "crosshair"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Rotation à la souris",
+      "raison": "souris"
+    }
+  ]
+}

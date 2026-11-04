@@ -1,0 +1,17 @@
+{
+  "id": "element",
+  "nom": "Element (Matrix)",
+  "editeur": "Element",
+  "site": "https://element.io/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Element", "mac": "Element" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Navigateurs, communication & réseau desktop",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": false,
+  "note": "À compléter : les dépôts GitHub element-desktop et element-web n'ont pas pu être lus (404) et la recherche web est épuisée. Aucune action n'a été ajoutée sans source.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

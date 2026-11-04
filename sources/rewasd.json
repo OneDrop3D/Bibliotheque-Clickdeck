@@ -1,0 +1,17 @@
+{
+  "id": "rewasd",
+  "nom": "reWASD",
+  "editeur": "Disruptor Entertainment",
+  "site": "https://www.rewasd.com",
+  "systemes": ["windows"],
+  "lancement": { "windows": "reWASD" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Remappeur de manette : les boutons sont assignés aux touches clavier ou actions souris par l'utilisateur dans ses profils. La page officielle ne documente aucun raccourci clavier par défaut, y compris pour changer de profil. Aucune action relevée.",
+  "sources": [ { "url": "https://www.rewasd.com", "titre": "reWASD - page officielle" } ],
+  "actions": [],
+  "non_faisable": []
+}

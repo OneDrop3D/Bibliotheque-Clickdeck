@@ -1,0 +1,25 @@
+{
+  "id": "steam-rom-manager",
+  "nom": "Steam ROM Manager",
+  "editeur": "SteamGridDB",
+  "site": "https://github.com/SteamGridDB/steam-rom-manager",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Steam ROM Manager",
+    "mac": "Steam ROM Manager",
+    "linux": "steam-rom-manager"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire de synchronisation des ROMs vers Steam, sans raccourcis utiles identifiés. Recherche en ligne non effectuée (limite atteinte), donc non vérifié. Seconde passe : aucun raccourci applicatif connu, utilitaire sans fenêtre de travail.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": []
+}

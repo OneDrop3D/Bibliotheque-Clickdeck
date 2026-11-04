@@ -1,0 +1,19 @@
+{
+  "id": "amd-software-adrenalin",
+  "nom": "AMD Software Adrenalin",
+  "editeur": "AMD",
+  "site": "https://www.amd.com/en/support",
+  "systemes": ["windows"],
+  "lancement": { "windows": "AMD Software" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Compagnons matériel & périphériques",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Aucun raccourci n'a pu être vérifié : la page FAQ AMD consultée a expiré sans réponse et la recherche web n'était plus disponible pendant ce relevé. Le raccourci de l'overlay Radeon et de l'enregistrement n'est donc pas inscrit. Pilote : à revérifier sur la documentation AMD avant d'ajouter des actions. Aucune action proposée pour l'instant.",
+  "sources": [],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Overlay Radeon, replay et enregistrement", "raison": "raccourcis par défaut non vérifiés dans les sources consultées" }
+  ]
+}

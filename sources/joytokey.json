@@ -1,0 +1,21 @@
+{
+  "id": "joytokey",
+  "nom": "JoyToKey",
+  "editeur": "JoyToKey",
+  "site": "https://joytokey.net/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "JoyToKey" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "JoyToKey convertit une manette en frappes clavier et souris : il n'a pas de raccourcis clavier par défaut documentés. Ses fonctions (profils, couches SHIFT, séquences, lancement de programmes) se configurent dans l'application. Page officielle lue : aucun raccourci documenté.",
+  "sources": [
+    { "url": "https://joytokey.net/", "titre": "JoyToKey : page officielle" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Couches et profils de manette", "raison": "réglage sans raccourci fixe, configuré dans l'application" }
+  ]
+}

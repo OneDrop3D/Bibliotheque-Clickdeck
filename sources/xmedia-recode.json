@@ -1,0 +1,21 @@
+{
+  "id": "xmedia-recode",
+  "nom": "XMedia Recode",
+  "editeur": "Sebastian Dörfler",
+  "site": "https://www.xmedia-recode.de/en/",
+  "systemes": ["windows"],
+  "lancement": { "windows": "XMedia Recode" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Conversion pour Windows uniquement (Windows 10 et 11, ou version portable). Le site officiel ne liste aucun raccourci clavier. Pas de version macOS native.",
+  "sources": [
+    { "url": "https://www.xmedia-recode.de/en/", "titre": "XMedia Recode (site officiel, configuration requise)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Conversion vidéo et audio", "raison": "aucun raccourci documenté" }
+  ]
+}

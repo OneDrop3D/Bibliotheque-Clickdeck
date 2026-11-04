@@ -1,0 +1,34 @@
+{
+  "id": "mudbox",
+  "nom": "Mudbox",
+  "editeur": "Autodesk",
+  "site": "https://www.autodesk.com/products/mudbox/overview",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "Mudbox", "mac": "Mudbox" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "officielle",
+  "section": "3D, CAO & impression 3D",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seuls les raccourcis de fichiers et d'aide ont été relevés dans la documentation Autodesk (édition 2014). Les raccourcis d'outils de sculpture et de peinture n'ont pas été vérifiés dans une source actuelle : ils ne sont pas inclus (la page d'index Autodesk renvoie vers des pages par thème non lues). Annuler et Rétablir sont des commandes standard.",
+  "sources": [
+    { "url": "https://download.autodesk.com/global/docs/mudbox2014/en_us/files/GUID-E8ACD625-4D75-453F-9CE0-C4CF8919C287.htm", "titre": "Autodesk Mudbox 2014 : File input and output hotkeys" }
+  ],
+  "actions": [
+    { "id": "nouvelle-scene", "nom": "Nouvelle scène", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus" },
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open" },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save" },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 2, "picto": "save-all" },
+    { "id": "quitter", "nom": "Quitter", "groupe": "Fichier", "win": "ctrl+q", "mac": "cmd+q", "linux": null, "source": 0, "priorite": 3, "picto": "log-out" },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "retablir", "nom": "Rétablir", "groupe": "Édition", "win": "ctrl+shift+z", "mac": "cmd+shift+z", "linux": null, "source": 0, "priorite": 2, "picto": "redo-2", "deduit": true },
+    { "id": "exporter-photoshop", "nom": "Exporter vers PS", "groupe": "Photoshop", "win": "alt+e", "mac": "alt+e", "linux": null, "source": 0, "priorite": 2, "picto": "upload" },
+    { "id": "reimporter-photoshop", "nom": "Réimporter calque", "groupe": "Photoshop", "win": "alt+r", "mac": "alt+r", "linux": null, "source": 0, "priorite": 2, "picto": "download" },
+    { "id": "aide", "nom": "Aide", "groupe": "Aide", "win": "f1", "mac": "f1", "linux": null, "source": 0, "priorite": 2, "picto": "circle-help" }
+  ],
+  "non_faisable": [
+    { "nom": "Taille du pinceau (B puis glisser)", "raison": "souris" },
+    { "nom": "Rotation de la caméra (Alt + clic)", "raison": "souris" },
+    { "nom": "Sculpter et peindre", "raison": "souris" }
+  ]
+}

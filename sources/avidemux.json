@@ -1,0 +1,288 @@
+{
+  "id": "avidemux",
+  "nom": "Avidemux",
+  "editeur": "Avidemux",
+  "site": "https://avidemux.org/",
+  "systemes": [
+    "windows",
+    "mac",
+    "linux"
+  ],
+  "lancement": {
+    "windows": "Avidemux",
+    "mac": "Avidemux",
+    "linux": "avidemux"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Vidéo, montage & streaming",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Site officiel sans liste de raccourcis. Raccourcis relevés sur une liste tierce récente (2025) et recoupés pour les marqueurs A/B (Ctrl+PgUp/PgDn) par des messages de forum. Mac non documenté : seules les touches sans modificateur et le menu standard (deduit) sont proposées.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/?p=6440",
+      "titre": "Tutorial Tactic - 46 Avidemux Keyboard Shortcuts (oct. 2025)"
+    },
+    {
+      "url": "https://forum.videohelp.com/threads/382804-AviDemux-%5B-and-%5D-Set-Marker-A-B-no-longer-works",
+      "titre": "VideoHelp - AviDemux Set Marker A/B"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture / pause",
+      "groupe": "Lecture",
+      "win": "space",
+      "mac": "space",
+      "linux": "space",
+      "source": 0,
+      "priorite": 1,
+      "picto": "play",
+      "deduit": true
+    },
+    {
+      "id": "image-suivante",
+      "nom": "Image suivante",
+      "groupe": "Lecture",
+      "win": "right",
+      "mac": "right",
+      "linux": "right",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-forward",
+      "deduit": true
+    },
+    {
+      "id": "image-precedente",
+      "nom": "Image précédente",
+      "groupe": "Lecture",
+      "win": "left",
+      "mac": "left",
+      "linux": "left",
+      "source": 0,
+      "priorite": 1,
+      "picto": "skip-back",
+      "deduit": true
+    },
+    {
+      "id": "image-cle-suivante",
+      "nom": "Image clé suiv.",
+      "groupe": "Lecture",
+      "win": "down",
+      "mac": "down",
+      "linux": "down",
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-forward",
+      "deduit": true
+    },
+    {
+      "id": "image-cle-precedente",
+      "nom": "Image clé préc.",
+      "groupe": "Lecture",
+      "win": "up",
+      "mac": "up",
+      "linux": "up",
+      "source": 0,
+      "priorite": 1,
+      "picto": "step-back",
+      "deduit": true
+    },
+    {
+      "id": "premiere-image",
+      "nom": "Première image",
+      "groupe": "Lecture",
+      "win": "home",
+      "mac": "home",
+      "linux": "home",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-left",
+      "deduit": true
+    },
+    {
+      "id": "derniere-image",
+      "nom": "Dernière image",
+      "groupe": "Lecture",
+      "win": "end",
+      "mac": "end",
+      "linux": "end",
+      "source": 0,
+      "priorite": 2,
+      "picto": "chevrons-right",
+      "deduit": true
+    },
+    {
+      "id": "marqueur-a",
+      "nom": "Marqueur A",
+      "groupe": "Découpe",
+      "win": "ctrl+pageup",
+      "mac": null,
+      "linux": "ctrl+pageup",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-down-to-line"
+    },
+    {
+      "id": "marqueur-b",
+      "nom": "Marqueur B",
+      "groupe": "Découpe",
+      "win": "ctrl+pagedown",
+      "mac": null,
+      "linux": "ctrl+pagedown",
+      "source": 0,
+      "priorite": 1,
+      "picto": "arrow-up-to-line"
+    },
+    {
+      "id": "aller-marqueur-a",
+      "nom": "Vers marqueur A",
+      "groupe": "Découpe",
+      "win": "pageup",
+      "mac": "pageup",
+      "linux": "pageup",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-left",
+      "deduit": true
+    },
+    {
+      "id": "aller-marqueur-b",
+      "nom": "Vers marqueur B",
+      "groupe": "Découpe",
+      "win": "pagedown",
+      "mac": "pagedown",
+      "linux": "pagedown",
+      "source": 0,
+      "priorite": 1,
+      "picto": "corner-down-right",
+      "deduit": true
+    },
+    {
+      "id": "reset-marqueurs",
+      "nom": "Réinit. marqueurs",
+      "groupe": "Découpe",
+      "win": "ctrl+home",
+      "mac": null,
+      "linux": "ctrl+home",
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-ccw"
+    },
+    {
+      "id": "supprimer",
+      "nom": "Supprimer",
+      "groupe": "Découpe",
+      "win": "delete",
+      "mac": "delete",
+      "linux": "delete",
+      "source": 0,
+      "priorite": 1,
+      "picto": "trash-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Découpe",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": "ctrl+x",
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors",
+      "deduit": true
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Découpe",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": "ctrl+c",
+      "source": 0,
+      "priorite": 2,
+      "picto": "copy",
+      "deduit": true
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Découpe",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": "ctrl+v",
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-paste",
+      "deduit": true
+    },
+    {
+      "id": "aller-temps",
+      "nom": "Aller au temps",
+      "groupe": "Lecture",
+      "win": "ctrl+t",
+      "mac": "cmd+t",
+      "linux": "ctrl+t",
+      "source": 0,
+      "priorite": 2,
+      "picto": "clock",
+      "deduit": true
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": "ctrl+z",
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2",
+      "deduit": true
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": "ctrl+y",
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2",
+      "deduit": true
+    },
+    {
+      "id": "enregistrer",
+      "nom": "Enregistrer",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": "ctrl+s",
+      "source": 0,
+      "priorite": 1,
+      "picto": "save",
+      "deduit": true
+    },
+    {
+      "id": "ouvrir",
+      "nom": "Ouvrir",
+      "groupe": "Fichier",
+      "win": "ctrl+o",
+      "mac": "cmd+o",
+      "linux": "ctrl+o",
+      "source": 0,
+      "priorite": 1,
+      "picto": "folder-open",
+      "deduit": true
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Avance rapide en secondes (Maj/Ctrl + flèches)",
+      "raison": "non vérifié sur Mac"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "corectrl",
+  "nom": "CoreCtrl",
+  "editeur": "Projet communautaire (CoreCtrl)",
+  "site": "https://gitlab.com/corectrl/corectrl",
+  "systemes": ["linux"],
+  "lancement": { "linux": "CoreCtrl" },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Émulation, mods & outils gaming",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "Utilitaire Linux de contrôle GPU/CPU par profils. La page du projet ne documente aucun raccourci clavier ; les fonctions détaillées sont dans le wiki du projet, non consulté. Pack de lancement uniquement.",
+  "sources": [
+    { "url": "https://gitlab.com/corectrl/corectrl", "titre": "CoreCtrl - page du projet (aucun raccourci documenté)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Réglages GPU/CPU par profil", "raison": "réglage sans raccourci" }
+  ]
+}

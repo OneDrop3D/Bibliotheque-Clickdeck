@@ -1,0 +1,44 @@
+{
+ "id": "topaz-photo-ai",
+ "nom": "Topaz Photo AI",
+ "editeur": "Topaz Labs",
+ "site": "https://www.topazlabs.com/topaz-photo-ai",
+ "systemes": [
+  "windows",
+  "mac"
+ ],
+ "lancement": {
+  "windows": "Topaz Photo AI",
+  "mac": "Topaz Photo AI"
+ },
+ "raccourcis_modifiables": false,
+ "fiabilite": "tierce",
+ "section": "Photo & gestion d'images",
+ "sans_raccourcis": false,
+ "raccourcis_par_defaut": true,
+ "note": "Pages d'aide officielles inaccessibles (404). Seul le raccourci d'aide (Ctrl/Cmd + /) est confirmé par une annonce de version Topaz (ancienne, v1.4.2). Les raccourcis de zoom, non retrouvés dans la source citée, ont été retirés. Aide > Raccourcis clavier dans l'app donne la liste complète.",
+ "sources": [
+  {
+   "url": "https://community.topazlabs.com/t/feature-improvement-custom-shortcut-key-assignment/97365",
+   "titre": "Topaz community : raccourcis de zoom (mars 2025)"
+  },
+  {
+   "url": "https://community.topazlabs.com/t/topaz-photo-ai-v1-4-2/48829",
+   "titre": "Topaz Photo AI v1.4.2 (annonce communautaire, ancienne version)"
+  }
+ ],
+ "actions": [
+  {
+   "id": "raccourcis-aide",
+   "nom": "Raccourcis clavier",
+   "groupe": "Aide",
+   "win": "ctrl+slash",
+   "mac": "cmd+slash",
+   "linux": null,
+   "source": 1,
+   "priorite": 1,
+   "picto": "keyboard"
+  }
+ ],
+ "non_faisable": []
+}

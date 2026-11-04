@@ -1,0 +1,277 @@
+{
+  "id": "microsoft-onenote",
+  "nom": "Microsoft OneNote",
+  "editeur": "Microsoft",
+  "site": "https://www.microsoft.com/microsoft-365/onenote",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "OneNote",
+    "mac": "Microsoft OneNote"
+  },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Raccourcis tirés de l'article officiel Microsoft (OneNote pour Windows et Mac). Un tiret signifie que la commande n'existe pas sur cette plateforme dans l'article.",
+  "sources": [
+    {
+      "url": "https://support.microsoft.com/en-us/accessibility/onenote/keyboard-shortcuts-in-onenote",
+      "titre": "Keyboard shortcuts in OneNote"
+    }
+  ],
+  "actions": [
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+y",
+      "mac": "cmd+y",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "coller_texte",
+      "nom": "Coller sans format",
+      "groupe": "Édition",
+      "win": "ctrl+shift+v",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "clipboard-type"
+    },
+    {
+      "id": "tout",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "square-dashed-mouse-pointer",
+      "deduit": true
+    },
+    {
+      "id": "gras",
+      "nom": "Gras",
+      "groupe": "Mise en forme",
+      "win": "ctrl+b",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "bold"
+    },
+    {
+      "id": "italique",
+      "nom": "Italique",
+      "groupe": "Mise en forme",
+      "win": "ctrl+i",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "italic"
+    },
+    {
+      "id": "souligne",
+      "nom": "Souligné",
+      "groupe": "Mise en forme",
+      "win": "ctrl+u",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "underline"
+    },
+    {
+      "id": "titre1",
+      "nom": "Titre 1",
+      "groupe": "Mise en forme",
+      "win": "ctrl+alt+1",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "heading-1"
+    },
+    {
+      "id": "puce",
+      "nom": "Liste à puces",
+      "groupe": "Mise en forme",
+      "win": "ctrl+period",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "list"
+    },
+    {
+      "id": "nouvelle_page",
+      "nom": "Nouvelle page",
+      "groupe": "Pages & sections",
+      "win": "ctrl+n",
+      "mac": "cmd+n",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "file-plus"
+    },
+    {
+      "id": "nouvelle_section",
+      "nom": "Nouvelle section",
+      "groupe": "Pages & sections",
+      "win": "ctrl+t",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "folder-plus"
+    },
+    {
+      "id": "note_rapide",
+      "nom": "Note rapide",
+      "groupe": "Pages & sections",
+      "win": "ctrl+shift+m",
+      "mac": null,
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "sticky-note"
+    },
+    {
+      "id": "titre_page",
+      "nom": "Aller au titre",
+      "groupe": "Pages & sections",
+      "win": "ctrl+shift+t",
+      "mac": "cmd+shift+t",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "heading"
+    },
+    {
+      "id": "sync",
+      "nom": "Synchroniser",
+      "groupe": "Fichier",
+      "win": "ctrl+s",
+      "mac": "cmd+s",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "refresh-cw"
+    },
+    {
+      "id": "rechercher",
+      "nom": "Rechercher page",
+      "groupe": "Fichier",
+      "win": "ctrl+f",
+      "mac": "cmd+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "search"
+    },
+    {
+      "id": "rechercher_tout",
+      "nom": "Rechercher partout",
+      "groupe": "Fichier",
+      "win": "ctrl+e",
+      "mac": "cmd+alt+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "search-check"
+    },
+    {
+      "id": "plein_ecran",
+      "nom": "Page plein écran",
+      "groupe": "Affichage",
+      "win": "f11",
+      "mac": "cmd+ctrl+f",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "maximize"
+    },
+    {
+      "id": "zoom_plus",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "ctrl+plus",
+      "mac": "cmd+plus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom_moins",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "ctrl+minus",
+      "mac": "cmd+minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "zoom-out"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Afficher les touches (Alt)",
+      "raison": "séquence de touches"
+    }
+  ]
+}

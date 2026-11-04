@@ -1,0 +1,22 @@
+{
+  "id": "process-explorer",
+  "nom": "Process Explorer",
+  "editeur": "Microsoft (Sysinternals)",
+  "site": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+  "systemes": ["windows"],
+  "lancement": { "windows": "Process Explorer", "mac": null },
+  "raccourcis_modifiables": false,
+  "fiabilite": "officielle",
+  "section": "Utilitaires desktop complémentaires",
+  "sans_raccourcis": true,
+  "raccourcis_par_defaut": false,
+  "note": "La page officielle ne documente aucun raccourci clavier ; l'aide intégrée au logiciel n'a pas pu être consultée. Pas d'actions proposées pour ne pas inventer de raccourci.",
+  "sources": [
+    { "url": "https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer", "titre": "Process Explorer - Sysinternals (Microsoft Learn)" }
+  ],
+  "actions": [],
+  "non_faisable": [
+    { "nom": "Tuer un processus", "raison": "aucun raccourci documenté" },
+    { "nom": "Rechercher un handle ou une DLL", "raison": "aucun raccourci documenté" }
+  ]
+}

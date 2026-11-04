@@ -1,0 +1,32 @@
+{
+  "id": "softmaker-office",
+  "nom": "SoftMaker Office",
+  "editeur": "SoftMaker Software",
+  "site": "https://www.softmaker.com/",
+  "systemes": ["windows", "mac"],
+  "lancement": { "windows": "SoftMaker Office", "mac": "SoftMaker Office" },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Bureautique, documents & PDF",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Seule la page des manuels officiels a été lue (https://www.softmaker.com/en/manuals), sans liste de raccourcis ; l'aide TextMaker n'a pas livré de page de raccourcis. Recherche web indisponible. Seules les commandes standard de menu sont proposées (deduit), à vérifier dans l'application avant usage.",
+  "sources": [
+    { "url": "https://www.softmaker.com/en/manuals", "titre": "SoftMaker manuals (page officielle)" }
+  ],
+  "actions": [
+    { "id": "ouvrir", "nom": "Ouvrir", "groupe": "Fichier", "win": "ctrl+o", "mac": "cmd+o", "linux": null, "source": 0, "priorite": 1, "picto": "folder-open", "deduit": true },
+    { "id": "nouveau", "nom": "Nouveau document", "groupe": "Fichier", "win": "ctrl+n", "mac": "cmd+n", "linux": null, "source": 0, "priorite": 1, "picto": "file-plus", "deduit": true },
+    { "id": "enregistrer", "nom": "Enregistrer", "groupe": "Fichier", "win": "ctrl+s", "mac": "cmd+s", "linux": null, "source": 0, "priorite": 1, "picto": "save", "deduit": true },
+    { "id": "enregistrer-sous", "nom": "Enregistrer sous", "groupe": "Fichier", "win": "ctrl+shift+s", "mac": "cmd+shift+s", "linux": null, "source": 0, "priorite": 1, "picto": "save-all", "deduit": true },
+    { "id": "imprimer", "nom": "Imprimer", "groupe": "Fichier", "win": "ctrl+p", "mac": "cmd+p", "linux": null, "source": 0, "priorite": 1, "picto": "printer", "deduit": true },
+    { "id": "fermer", "nom": "Fermer", "groupe": "Fichier", "win": "ctrl+w", "mac": "cmd+w", "linux": null, "source": 0, "priorite": 2, "picto": "x", "deduit": true },
+    { "id": "annuler", "nom": "Annuler", "groupe": "Édition", "win": "ctrl+z", "mac": "cmd+z", "linux": null, "source": 0, "priorite": 1, "picto": "undo-2", "deduit": true },
+    { "id": "copier", "nom": "Copier", "groupe": "Édition", "win": "ctrl+c", "mac": "cmd+c", "linux": null, "source": 0, "priorite": 1, "picto": "copy", "deduit": true },
+    { "id": "couper", "nom": "Couper", "groupe": "Édition", "win": "ctrl+x", "mac": "cmd+x", "linux": null, "source": 0, "priorite": 1, "picto": "scissors", "deduit": true },
+    { "id": "coller", "nom": "Coller", "groupe": "Édition", "win": "ctrl+v", "mac": "cmd+v", "linux": null, "source": 0, "priorite": 1, "picto": "clipboard-paste", "deduit": true },
+    { "id": "tout-selectionner", "nom": "Tout sélectionner", "groupe": "Édition", "win": "ctrl+a", "mac": "cmd+a", "linux": null, "source": 0, "priorite": 2, "picto": "text-select", "deduit": true },
+    { "id": "rechercher", "nom": "Rechercher", "groupe": "Édition", "win": "ctrl+f", "mac": "cmd+f", "linux": null, "source": 0, "priorite": 1, "picto": "search", "deduit": true }
+  ],
+  "non_faisable": []
+}

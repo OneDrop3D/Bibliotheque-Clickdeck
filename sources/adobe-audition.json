@@ -1,0 +1,214 @@
+{
+  "id": "adobe-audition",
+  "nom": "Adobe Audition",
+  "editeur": "Adobe",
+  "site": "https://www.adobe.com/products/audition.html",
+  "systemes": [
+    "windows",
+    "mac"
+  ],
+  "lancement": {
+    "windows": "Adobe Audition",
+    "mac": "Adobe Audition"
+  },
+  "raccourcis_modifiables": true,
+  "fiabilite": "tierce",
+  "section": "Audio & musique",
+  "sans_raccourcis": false,
+  "raccourcis_par_defaut": true,
+  "note": "Page officielle Adobe (helpx, default keyboard shortcuts) inaccessible (HTTP 403) ; copie d'archive inaccessible. Seule source lue : guide tiers tutorialtactic (mis à jour le 6 mai 2026, vérifié sur Audition CC 2024), qui ne donne pas de recoupement. Seules les touches standards (lecture, édition, zoom) sont retenues ; les lignes contradictoires de cette source (R attribué à deux outils, Ctrl+Shift+E) ont été écartées. À vérifier dans Edit > Keyboard Shortcuts. Retirés faute de confirmation : Répéter avec dialogue (Shift+R) et Zoom sélection.",
+  "sources": [
+    {
+      "url": "https://tutorialtactic.com/blog/adobe-audition-shortcuts/",
+      "titre": "Complete Adobe Audition Keyboard Shortcuts (tutorialtactic, mai 2026)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "lecture",
+      "nom": "Lecture/arrêt",
+      "groupe": "Transport",
+      "win": "space",
+      "mac": "space",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "play"
+    },
+    {
+      "id": "debut",
+      "nom": "Début",
+      "groupe": "Transport",
+      "win": "home",
+      "mac": "home",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-back"
+    },
+    {
+      "id": "fin",
+      "nom": "Fin",
+      "groupe": "Transport",
+      "win": "end",
+      "mac": "end",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "skip-forward"
+    },
+    {
+      "id": "annuler",
+      "nom": "Annuler",
+      "groupe": "Édition",
+      "win": "ctrl+z",
+      "mac": "cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "undo-2"
+    },
+    {
+      "id": "retablir",
+      "nom": "Rétablir",
+      "groupe": "Édition",
+      "win": "ctrl+shift+z",
+      "mac": "shift+cmd+z",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "redo-2"
+    },
+    {
+      "id": "couper",
+      "nom": "Couper",
+      "groupe": "Édition",
+      "win": "ctrl+x",
+      "mac": "cmd+x",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors"
+    },
+    {
+      "id": "copier",
+      "nom": "Copier",
+      "groupe": "Édition",
+      "win": "ctrl+c",
+      "mac": "cmd+c",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "copy"
+    },
+    {
+      "id": "coller",
+      "nom": "Coller",
+      "groupe": "Édition",
+      "win": "ctrl+v",
+      "mac": "cmd+v",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "clipboard-paste"
+    },
+    {
+      "id": "tout-selectionner",
+      "nom": "Tout sélectionner",
+      "groupe": "Édition",
+      "win": "ctrl+a",
+      "mac": "cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "box-select"
+    },
+    {
+      "id": "tout-deselectionner",
+      "nom": "Tout désélect.",
+      "groupe": "Édition",
+      "win": "ctrl+shift+a",
+      "mac": "shift+cmd+a",
+      "linux": null,
+      "source": 0,
+      "priorite": 3,
+      "picto": "square-dashed"
+    },
+    {
+      "id": "diviser-clip",
+      "nom": "Diviser le clip",
+      "groupe": "Édition",
+      "win": "ctrl+k",
+      "mac": "cmd+k",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "scissors-line-dashed"
+    },
+    {
+      "id": "supprimer-ripple",
+      "nom": "Supprimer (ripple)",
+      "groupe": "Édition",
+      "win": "shift+backspace",
+      "mac": "shift+delete",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "trash-2"
+    },
+    {
+      "id": "repeter-derniere",
+      "nom": "Répéter dernière",
+      "groupe": "Édition",
+      "win": "ctrl+r",
+      "mac": "cmd+r",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "rotate-cw"
+    },
+    {
+      "id": "zoom-avant",
+      "nom": "Zoom avant",
+      "groupe": "Affichage",
+      "win": "equal",
+      "mac": "equal",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-in"
+    },
+    {
+      "id": "zoom-arriere",
+      "nom": "Zoom arrière",
+      "groupe": "Affichage",
+      "win": "minus",
+      "mac": "minus",
+      "linux": null,
+      "source": 0,
+      "priorite": 1,
+      "picto": "zoom-out"
+    },
+    {
+      "id": "ajouter-marqueur",
+      "nom": "Ajouter marqueur",
+      "groupe": "Marqueurs",
+      "win": "m",
+      "mac": "m",
+      "linux": null,
+      "source": 0,
+      "priorite": 2,
+      "picto": "flag"
+    }
+  ],
+  "non_faisable": [
+    {
+      "nom": "Enregistrement",
+      "raison": "touche non confirmée par une seconde source"
+    },
+    {
+      "nom": "Export audio",
+      "raison": "non relevé de façon fiable dans les sources lues"
+    }
+  ]
+}
