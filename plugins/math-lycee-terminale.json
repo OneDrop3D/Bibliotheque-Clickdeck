@@ -1,0 +1,517 @@
+{
+ "id": "math-lycee-terminale",
+ "name": "Maths Lycée Terminale",
+ "icon": "∫",
+ "description": "Symboles mathématiques pour la Terminale",
+ "version": "1.0.0",
+ "author": "ClickDeck Education",
+ "categories": [
+  {
+   "id": "operations-terminale",
+   "name": "Opérations & Comparaison",
+   "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M20.414%2010.515c.375.374.586.916.586%201.485s-.21%201.112-.585%201.486a1.8%201.8%200%200%201-1.415.515l-.35-.025-5.035-.36.36%205.035.026.349c.038.53-.14%201.04-.515%201.415-.374.375-.917.585-1.486.585s-1.111-.211-1.485-.586A1.79%201.79%200%200%201%2010%2019.001l.026-.35.36-5.036-5.037.36L5%2014a1.79%201.79%200%200%201-1.413-.515C3.21%2013.111%203%2012.57%203%2012s.21-1.112.585-1.486A1.8%201.8%200%200%201%205%2010l.35.024%205.034.36L10%205c-.039-.53.138-1.04.514-1.415C10.888%203.21%2011.431%203%2012%203s1.111.211%201.485.586c.376.375.553.883.515%201.413l-.026.35-.359%205.036%205.036-.36L19%2010a1.79%201.79%200%200%201%201.413.515%22%2F%3E%3C%2Fsvg%3E",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-plus",
+     "name": "Plus",
+     "icon": "+",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-minus",
+     "name": "Moins",
+     "icon": "−",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-times",
+     "name": "Multiplié",
+     "icon": "×",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-divide",
+     "name": "Divisé",
+     "icon": "÷",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-equal",
+     "name": "Égal",
+     "icon": "=",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-less",
+     "name": "<",
+     "icon": "<",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-greater",
+     "name": ">",
+     "icon": ">",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-leq",
+     "name": "≤",
+     "icon": "≤",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-geq",
+     "name": "≥",
+     "icon": "≥",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-neq",
+     "name": "≠",
+     "icon": "≠",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "parentheses-terminale",
+   "name": "Groupement",
+   "icon": "{ }",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-lparen",
+     "name": "(",
+     "icon": "(",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-rparen",
+     "name": ")",
+     "icon": ")",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-lbracket",
+     "name": "[",
+     "icon": "[",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-rbracket",
+     "name": "]",
+     "icon": "]",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-lbrace",
+     "name": "{",
+     "icon": "{",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-rbrace",
+     "name": "}",
+     "icon": "}",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "puissances-terminale",
+   "name": "Puissances & Racines",
+   "icon": "√",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-sqrt",
+     "name": "Racine",
+     "icon": "√",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-square",
+     "name": "Carré",
+     "icon": "²",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-cube",
+     "name": "Cube",
+     "icon": "³",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-power-n",
+     "name": "Puissance n",
+     "icon": "ⁿ",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "geometrie-terminale",
+   "name": "Géométrie",
+   "icon": "π",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-pi",
+     "name": "Pi",
+     "icon": "π",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-degree",
+     "name": "Degré",
+     "icon": "°",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-angle",
+     "name": "Angle",
+     "icon": "∠",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-parallel",
+     "name": "Parallèle",
+     "icon": "∥",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-perp",
+     "name": "Perpendiculaire",
+     "icon": "⊥",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "ensembles-terminale",
+   "name": "Ensembles",
+   "icon": "ℝ",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-in",
+     "name": "∈",
+     "icon": "∈",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-notin",
+     "name": "∉",
+     "icon": "∉",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-subset",
+     "name": "⊂",
+     "icon": "⊂",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-supset",
+     "name": "⊃",
+     "icon": "⊃",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-union",
+     "name": "∪",
+     "icon": "∪",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-inter",
+     "name": "∩",
+     "icon": "∩",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-empty",
+     "name": "∅",
+     "icon": "∅",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-reals",
+     "name": "ℝ",
+     "icon": "ℝ",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-naturals",
+     "name": "ℕ",
+     "icon": "ℕ",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-integers",
+     "name": "ℤ",
+     "icon": "ℤ",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-rationals",
+     "name": "ℚ",
+     "icon": "ℚ",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-complex",
+     "name": "ℂ",
+     "icon": "ℂ",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "analyse-terminale",
+   "name": "Analyse",
+   "icon": "∫",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-lim",
+     "name": "Limite",
+     "icon": "lim",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-arrow",
+     "name": "Tend vers",
+     "icon": "→",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-infinity",
+     "name": "Infini",
+     "icon": "∞",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-integral",
+     "name": "Intégrale",
+     "icon": "∫",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-partial",
+     "name": "Dérivée partielle",
+     "icon": "∂",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-nabla",
+     "name": "Nabla",
+     "icon": "∇",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "fonctions-terminale",
+   "name": "Fonctions spéciales",
+   "icon": "e",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-exp",
+     "name": "Exponentielle",
+     "icon": "e",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-ln",
+     "name": "ln",
+     "icon": "ln",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-log",
+     "name": "log",
+     "icon": "log",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "combinatoire-terminale",
+   "name": "Combinatoire",
+   "icon": "!",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-factorial",
+     "name": "Factorielle",
+     "icon": "!",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-delta",
+     "name": "Delta",
+     "icon": "∆",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-sum",
+     "name": "Somme",
+     "icon": "∑",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-product",
+     "name": "Produit",
+     "icon": "∏",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "logique-terminale",
+   "name": "Logique",
+   "icon": "⇒",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-implies",
+     "name": "Implique",
+     "icon": "⇒",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-equiv",
+     "name": "Équivaut",
+     "icon": "⇔",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-forall",
+     "name": "Pour tout",
+     "icon": "∀",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-exists",
+     "name": "Il existe",
+     "icon": "∃",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-nexists",
+     "name": "N'existe pas",
+     "icon": "∄",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  },
+  {
+   "id": "autres-terminale",
+   "name": "Autres symboles",
+   "icon": "≡",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-term-congruent",
+     "name": "Congruent",
+     "icon": "≡",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-xor",
+     "name": "Ou exclusif",
+     "icon": "⊻",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-oplus",
+     "name": "⊕",
+     "icon": "⊕",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-otimes",
+     "name": "⊗",
+     "icon": "⊗",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-floor",
+     "name": "Partie ent. inf.",
+     "icon": "⌊⌋",
+     "type": "math",
+     "color": "#C0392B"
+    },
+    {
+     "id": "math-term-ceil",
+     "name": "Partie ent. sup.",
+     "icon": "⌈⌉",
+     "type": "math",
+     "color": "#C0392B"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,531 @@
+{
+ "id": "creative-studio",
+ "name": "Création visuelle",
+ "description": "Photo et montage : outils, calques, historique, zoom et export — raccourcis communs à Photoshop, Lightroom et Premiere.",
+ "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12.243%203.857c5.105%200%2010.322%204.214%208.318%209-1.388%203.317-6.418%201.914-7.856%203.5-1.694%201.869%202.772%205.5-2.773%205.5-4.825%200-6.932-4.03-6.932-9s4.139-9%209.243-9M8%2013.857a2%202%200%201%200%200%204%202%202%200%200%200%200-4m1-6a2%202%200%201%200%200%204%202%202%200%200%200%200-4m6-1a2%202%200%201%200%200%204%202%202%200%200%200%200-4%22%2F%3E%3C%2Fsvg%3E",
+ "author": "ClickDeck",
+ "version": "1.0.0",
+ "createdAt": "2026-08-01",
+ "updatedAt": "2026-08-01",
+ "category": "productivity",
+ "tags": [
+  "photo",
+  "vidéo",
+  "photoshop",
+  "montage",
+  "création"
+ ],
+ "config": {
+  "totalPages": 2,
+  "pages": [
+   {
+    "page": 0,
+    "name": "Outils",
+    "buttons": [
+     {
+      "id": 0,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "undo",
+       "payload": "ctrl+z",
+       "name": "Annuler",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M9%2014%204%209l5-5%22%2F%3E%3Cpath%20d%3D%22M4%209h10.5a5.5%205.5%200%200%201%205.5%205.5a5.5%205.5%200%200%201-5.5%205.5H11%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#F59E0B"
+      }
+     },
+     {
+      "id": 1,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "redo",
+       "payload": "ctrl+y",
+       "name": "Rétablir",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m15%2014%205-5-5-5%22%2F%3E%3Cpath%20d%3D%22M20%209H9.5A5.5%205.5%200%200%200%204%2014.5A5.5%205.5%200%200%200%209.5%2020H13%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#F59E0B"
+      }
+     },
+     {
+      "id": 2,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "save",
+       "payload": "ctrl+s",
+       "name": "Enregistrer",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M15.2%203a2%202%200%200%201%201.4.6l3.8%203.8a2%202%200%200%201%20.6%201.4V19a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2V5a2%202%200%200%201%202-2z%22%2F%3E%3Cpath%20d%3D%22M17%2021v-7a1%201%200%200%200-1-1H8a1%201%200%200%200-1%201v7%22%2F%3E%3Cpath%20d%3D%22M7%203v4a1%201%200%200%200%201%201h7%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0EA5E9"
+      }
+     },
+     {
+      "id": 3,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "saveas",
+       "payload": "ctrl+shift+s",
+       "name": "Enregistrer sous",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M10%202v3a1%201%200%200%200%201%201h5%22%2F%3E%3Cpath%20d%3D%22M18%2018v-6a1%201%200%200%200-1-1h-6a1%201%200%200%200-1%201v6%22%2F%3E%3Cpath%20d%3D%22M18%2022H4a2%202%200%200%201-2-2V6%22%2F%3E%3Cpath%20d%3D%22M8%2018a2%202%200%200%201-2-2V4a2%202%200%200%201%202-2h9.172a2%202%200%200%201%201.414.586l2.828%202.828A2%202%200%200%201%2022%206.828V16a2%202%200%200%201-2.01%202z%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0284C7"
+      }
+     },
+     {
+      "id": 4,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "export",
+       "payload": "ctrl+shift+e",
+       "name": "Exporter",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4.226%2020.925A2%202%200%200%200%206%2022h12a2%202%200%200%200%202-2V8a2.4%202.4%200%200%200-.706-1.706l-3.588-3.588A2.4%202.4%200%200%200%2014%202H6a2%202%200%200%200-2%202v3.127%22%2F%3E%3Cpath%20d%3D%22M14%202v5a1%201%200%200%200%201%201h5%22%2F%3E%3Cpath%20d%3D%22m5%2011-3%203%22%2F%3E%3Cpath%20d%3D%22m5%2017-3-3h10%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#14B8A6"
+      }
+     },
+     {
+      "id": 5,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "copy",
+       "payload": "ctrl+c",
+       "name": "Copier",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20width%3D%2214%22%20height%3D%2214%22%20x%3D%228%22%20y%3D%228%22%20rx%3D%222%22%20ry%3D%222%22%2F%3E%3Cpath%20d%3D%22M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#06B6D4"
+      }
+     },
+     {
+      "id": 6,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "paste",
+       "payload": "ctrl+v",
+       "name": "Coller",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M11%2014h10%22%2F%3E%3Cpath%20d%3D%22M16%204h2a2%202%200%200%201%202%202v1.344%22%2F%3E%3Cpath%20d%3D%22m17%2018%204-4-4-4%22%2F%3E%3Cpath%20d%3D%22M8%204H6a2%202%200%200%200-2%202v14a2%202%200%200%200%202%202h12a2%202%200%200%200%201.793-1.113%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%222%22%20width%3D%228%22%20height%3D%224%22%20rx%3D%221%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#06B6D4"
+      }
+     },
+     {
+      "id": 7,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "duplicate",
+       "payload": "ctrl+d",
+       "name": "Dupliquer",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cline%20x1%3D%2215%22%20x2%3D%2215%22%20y1%3D%2212%22%20y2%3D%2218%22%2F%3E%3Cline%20x1%3D%2212%22%20x2%3D%2218%22%20y1%3D%2215%22%20y2%3D%2215%22%2F%3E%3Crect%20width%3D%2214%22%20height%3D%2214%22%20x%3D%228%22%20y%3D%228%22%20rx%3D%222%22%20ry%3D%222%22%2F%3E%3Cpath%20d%3D%22M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#A855F7"
+      }
+     },
+     {
+      "id": 8,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "selectall",
+       "payload": "ctrl+a",
+       "name": "Tout sélectionner",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%207V5a2%202%200%200%201%202-2h2%22%2F%3E%3Cpath%20d%3D%22M17%203h2a2%202%200%200%201%202%202v2%22%2F%3E%3Cpath%20d%3D%22M21%2017v2a2%202%200%200%201-2%202h-2%22%2F%3E%3Cpath%20d%3D%22M7%2021H5a2%202%200%200%201-2-2v-2%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22m16%2016-1.9-1.9%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0EA5E9"
+      }
+     },
+     {
+      "id": 9,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Nouveau calque",
+       "payload": "ctrl+shift+n",
+       "color": "#0EA5E9",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.1%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%230EA5E9%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.1%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.1%2011.100000000000001h3.3%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%226.75%22%20y%3D%229.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2213.6%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%230EA5E9%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2213.6%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M15.6%2011.100000000000001h3.3%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2217.25%22%20y%3D%229.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ESHIFT%3C%2Ftext%3E%3Crect%20x%3D%226.6%22%20y%3D%2213.4%22%20width%3D%2210.8%22%20height%3D%226.8%22%20rx%3D%222.1%22%20fill%3D%22%230EA5E9%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%226.6%22%20y%3D%2213.4%22%20width%3D%2210.8%22%20height%3D%226.8%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M8.6%2018.5h6.800000000000001%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2217.25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EN%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 10,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Fusionner",
+       "payload": "ctrl+e",
+       "color": "#0891B2",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%230891B2%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%230891B2%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EE%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 11,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Grouper",
+       "payload": "ctrl+g",
+       "color": "#6366F1",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%236366F1%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%236366F1%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EG%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 12,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Transformer",
+       "payload": "ctrl+t",
+       "color": "#8B5CF6",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20width%3D%2218%22%20height%3D%2218%22%20x%3D%223%22%20y%3D%223%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22M8%2012h8%22%2F%3E%3Cpath%20d%3D%22M12%208v8%22%2F%3E%3C%2Fsvg%3E",
+       "id": "newtab"
+      }
+     },
+     {
+      "id": 13,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Désélect.",
+       "payload": "ctrl+d",
+       "color": "#64748B",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cline%20x1%3D%2215%22%20x2%3D%2215%22%20y1%3D%2212%22%20y2%3D%2218%22%2F%3E%3Cline%20x1%3D%2212%22%20x2%3D%2218%22%20y1%3D%2215%22%20y2%3D%2215%22%2F%3E%3Crect%20width%3D%2214%22%20height%3D%2214%22%20x%3D%228%22%20y%3D%228%22%20rx%3D%222%22%20ry%3D%222%22%2F%3E%3Cpath%20d%3D%22M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202%22%2F%3E%3C%2Fsvg%3E",
+       "id": "duplicate"
+      }
+     },
+     {
+      "id": 14,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Zoom +",
+       "payload": "ctrl+plus",
+       "color": "#22C55E",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%2322C55E%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EPLUS%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 15,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Zoom -",
+       "payload": "ctrl+minus",
+       "color": "#16A34A",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%2316A34A%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%2316A34A%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EMINU%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 16,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Ajuster",
+       "payload": "ctrl+0",
+       "color": "#059669",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23059669%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23059669%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3E0%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 17,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Masquer UI",
+       "payload": "tab",
+       "color": "#475569",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23475569%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M7.5%2016.1h9%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.45%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ETAB%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 18,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 19,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Pinceau",
+       "payload": "b",
+       "color": "#F59E0B",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23F59E0B%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M7.5%2016.1h9%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 20,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Gomme",
+       "payload": "e",
+       "color": "#EF4444",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23EF4444%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M7.5%2016.1h9%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EE%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 21,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 22,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 23,
+      "active": true,
+      "action": {
+       "id": "page-next",
+       "name": "Page suivante",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M10.56%204.44a1.5%201.5%200%201%200-2.12%202.12l5.303%205.304-5.304%205.303a1.5%201.5%200%200%200%202.121%202.121l6.365-6.363a1.5%201.5%200%200%200%200-2.122z%22%2F%3E%3C%2Fsvg%3E",
+       "type": "system",
+       "color": "#A855F7",
+       "payload": "page-next"
+      }
+     }
+    ]
+   },
+   {
+    "page": 1,
+    "name": "Applications",
+    "buttons": [
+     {
+      "id": 0,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "photoshop",
+       "payload": "photoshop",
+       "name": "Photoshop",
+       "icon": "",
+       "color": "#31A8FF",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 1,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "lightroom",
+       "payload": "lightroom",
+       "name": "Lightroom",
+       "icon": "",
+       "color": "#31A8FF",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 2,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "premiere",
+       "payload": "premiere",
+       "name": "Premiere",
+       "icon": "",
+       "color": "#9999FF",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 3,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "finder",
+       "payload": "finder",
+       "name": "Fichiers",
+       "icon": "",
+       "color": "#0EA5E9",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 4,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "browser",
+       "payload": "browser",
+       "name": "Navigateur",
+       "icon": "",
+       "color": "#F59E0B",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 5,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "notes",
+       "payload": "notes",
+       "name": "Notes",
+       "icon": "",
+       "color": "#FACC15",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 6,
+      "active": true,
+      "action": {
+       "type": "system",
+       "id": "screenshot",
+       "payload": "screenshot",
+       "name": "Capture",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M12%2011a2%202%200%201%201%200%204%202%202%200%200%201%200-4%22%2F%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12%204c1.73%200%203.103.853%203.963%202.153l-.102-.01c2.674.213%204.812%202.038%205.048%204.71A24%2024%200%200%201%2021%2013a24%2024%200%200%201-.09%202.148c-.237%202.671-2.375%204.496-5.049%204.708A49%2049%200%200%201%2012%2020c-1.51%200-2.793-.058-3.861-.144-2.674-.213-4.812-2.037-5.048-4.709A24%2024%200%200%201%203%2013c0-.796.035-1.51.09-2.148.237-2.671%202.375-4.496%205.049-4.708q-.052.003-.103.01C8.896%204.851%2010.27%204%2012%204m0%205a4%204%200%201%200%200%208%204%204%200%200%200%200-8%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#EC4899"
+      }
+     },
+     {
+      "id": 7,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "print",
+       "payload": "ctrl+p",
+       "name": "Imprimer",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M6%2018H4a2%202%200%200%201-2-2v-5a2%202%200%200%201%202-2h16a2%202%200%200%201%202%202v5a2%202%200%200%201-2%202h-2%22%2F%3E%3Cpath%20d%3D%22M6%209V3a1%201%200%200%201%201-1h10a1%201%200%200%201%201%201v6%22%2F%3E%3Crect%20x%3D%226%22%20y%3D%2214%22%20width%3D%2212%22%20height%3D%228%22%20rx%3D%221%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#6366F1"
+      }
+     },
+     {
+      "id": 8,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "find",
+       "payload": "ctrl+f",
+       "name": "Rechercher",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M10%203a7%207%200%200%201%205.573%2011.232l4.078%203.548c1.28%201.114.492%203.22-1.205%203.22a1.84%201.84%200%200%201-1.43-.685l-3.453-4.29A7%207%200%201%201%2010%203m0%203a4%204%200%201%200%200%208%204%204%200%200%200%200-8%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0EA5E9"
+      }
+     },
+     {
+      "id": 9,
+      "active": true,
+      "action": {
+       "type": "music",
+       "id": "play-pause",
+       "payload": "playpause",
+       "name": "Lecture/Pause",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M6%2014.77V9.23c0-3.578%200-5.367%201.126-5.914s2.532.558%205.345%202.769l2.525%201.983c2.305%201.811%203.457%202.717%203.457%203.932s-1.152%202.12-3.457%203.932l-2.525%201.983c-2.813%202.21-4.22%203.316-5.345%202.769S6%2018.348%206%2014.77%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#1DB954"
+      }
+     },
+     {
+      "id": 10,
+      "active": true,
+      "action": {
+       "type": "music",
+       "id": "prev",
+       "payload": "prev",
+       "name": "Précédent",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M17.971%204.285A2%202%200%200%201%2021%206v12a2%202%200%200%201-3.029%201.715l-9.997-5.998a2%202%200%200%201-.003-3.432z%22%2F%3E%3Cpath%20d%3D%22M3%2020V4%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#1DB954"
+      }
+     },
+     {
+      "id": 11,
+      "active": true,
+      "action": {
+       "type": "music",
+       "id": "next",
+       "payload": "next",
+       "name": "Suivant",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M21%204v16%22%2F%3E%3Cpath%20d%3D%22M6.029%204.285A2%202%200%200%200%203%206v12a2%202%200%200%200%203.029%201.715l9.997-5.998a2%202%200%200%200%20.003-3.432z%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#1DB954"
+      }
+     },
+     {
+      "id": 12,
+      "active": true,
+      "action": {
+       "type": "music",
+       "id": "mute",
+       "payload": "mute",
+       "name": "Muet",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M9.443%203.922a2%202%200%200%201%201.965.501C12%205.01%2012%206.85%2012%2010.529v2.94c0%203.68%200%205.52-.592%206.107a2%202%200%200%201-1.965.501c-.724-.21-1.514-1.552-2.964-4.199A1.69%201.69%200%200%200%205%2015c-.932%200-1.398%200-1.766-.152a2%202%200%200%201-1.082-1.082C2%2013.398%202%2012.932%202%2012s0-1.398.152-1.765a2%202%200%200%201%201.082-1.083C3.602%209%204.068%209%205%209c.616%200%201.183-.337%201.48-.878%201.449-2.647%202.24-3.99%202.963-4.2M20.559%208c.31%200%20.625.139.862.376s.375.551.375.862c0%20.312-.138.596-.375.8q-.075.062-.148.126-1.036.89-2.073%201.78l2.073%201.78.148.128c.237.203.375.487.375.798s-.138.626-.375.863a1.24%201.24%200%200%201-.862.376c-.312%200-.597-.139-.8-.376l-.126-.148-1.781-2.073q-.89%201.036-1.78%202.073l-.127.148a1.05%201.05%200%200%201-.8.376%201.24%201.24%200%200%201-.862-.376%201.24%201.24%200%200%201-.375-.863c0-.311.138-.595.375-.798l.148-.127%202.072-1.78-2.072-1.78-.148-.128a1.05%201.05%200%200%201-.375-.799c0-.31.138-.625.375-.862S14.834%208%2015.146%208s.596.139.8.376l.125.148%201.78%202.072%201.782-2.072.126-.148c.203-.237.488-.376.8-.376%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#1DB954"
+      }
+     },
+     {
+      "id": 13,
+      "active": true,
+      "action": {
+       "type": "music",
+       "id": "volume-up",
+       "payload": "volumeup",
+       "name": "Volume +",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M9.443%203.922a2%202%200%200%201%201.965.5C12%205.01%2012%206.85%2012%2010.53v2.94c0%203.68%200%205.52-.592%206.107a2%202%200%200%201-1.965.501c-.724-.21-1.514-1.552-2.964-4.2A1.69%201.69%200%200%200%205%2015c-.932%200-1.398%200-1.766-.152a2%202%200%200%201-1.082-1.082C2%2013.398%202%2012.932%202%2012s0-1.398.152-1.766a2%202%200%200%201%201.082-1.082C3.602%209%204.068%209%205%209c.616%200%201.183-.337%201.48-.878%201.449-2.647%202.24-3.99%202.963-4.2M18.256%204.996a1.25%201.25%200%200%201%201.748.26A11.3%2011.3%200%200%201%2022.25%2012c0%202.513-.835%204.84-2.246%206.744a1.25%201.25%200%201%201-2.008-1.488A8.8%208.8%200%200%200%2019.75%2012a8.8%208.8%200%200%200-1.754-5.256%201.25%201.25%200%200%201%20.26-1.748M14.256%207.996a1.25%201.25%200%200%201%201.748.26A6.27%206.27%200%200%201%2017.25%2012c0%201.398-.465%202.69-1.246%203.744a1.25%201.25%200%201%201-2.008-1.488c.48-.647.754-1.423.754-2.256s-.274-1.609-.754-2.256a1.25%201.25%200%200%201%20.26-1.748%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#1DB954"
+      }
+     },
+     {
+      "id": 14,
+      "active": true,
+      "action": {
+       "type": "music",
+       "id": "volume-down",
+       "payload": "volumedown",
+       "name": "Volume -",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M9.443%203.922a2%202%200%200%201%201.965.5C12%205.01%2012%206.85%2012%2010.53v2.94c0%203.68%200%205.52-.592%206.107a2%202%200%200%201-1.965.501c-.724-.21-1.514-1.552-2.964-4.2A1.69%201.69%200%200%200%205%2015c-.932%200-1.398%200-1.766-.152a2%202%200%200%201-1.082-1.082C2%2013.398%202%2012.932%202%2012s0-1.398.152-1.766a2%202%200%200%201%201.082-1.082C3.602%209%204.068%209%205%209c.616%200%201.183-.337%201.48-.878%201.449-2.647%202.24-3.99%202.963-4.2M14.256%207.996a1.25%201.25%200%200%201%201.748.26A6.27%206.27%200%200%201%2017.25%2012c0%201.398-.465%202.69-1.246%203.744a1.25%201.25%200%201%201-2.008-1.488c.48-.647.754-1.423.754-2.256s-.274-1.609-.754-2.256a1.25%201.25%200%200%201%20.26-1.748%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#1DB954"
+      }
+     },
+     {
+      "id": 15,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 16,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 17,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 18,
+      "active": true,
+      "action": {
+       "id": "page-prev",
+       "name": "Page précédente",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M12.804%204.44a1.5%201.5%200%201%201%202.12%202.12l-5.303%205.304%205.304%205.303a1.5%201.5%200%200%201-2.121%202.121l-6.365-6.363a1.5%201.5%200%200%201%200-2.122z%22%2F%3E%3C%2Fsvg%3E",
+       "type": "system",
+       "color": "#A855F7",
+       "payload": "page-prev"
+      }
+     },
+     {
+      "id": 19,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 20,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 21,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 22,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 23,
+      "active": false,
+      "action": null
+     }
+    ]
+   }
+  ]
+ }
+}

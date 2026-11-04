@@ -1,0 +1,232 @@
+{
+ "id": "math-college-2",
+ "name": "Maths Collège 4ème-3ème",
+ "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%203v16a2%202%200%200%200%202%202h16%22%2F%3E%3Cpath%20d%3D%22M18%2017V9%22%2F%3E%3Cpath%20d%3D%22M13%2017V5%22%2F%3E%3Cpath%20d%3D%22M8%2017v-3%22%2F%3E%3C%2Fsvg%3E",
+ "description": "Symboles mathématiques pour la 4ème et 3ème",
+ "version": "1.0.0",
+ "author": "ClickDeck Education",
+ "categories": [
+  {
+   "id": "operations-college2",
+   "name": "Opérations & Comparaison",
+   "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M20.414%2010.515c.375.374.586.916.586%201.485s-.21%201.112-.585%201.486a1.8%201.8%200%200%201-1.415.515l-.35-.025-5.035-.36.36%205.035.026.349c.038.53-.14%201.04-.515%201.415-.374.375-.917.585-1.486.585s-1.111-.211-1.485-.586A1.79%201.79%200%200%201%2010%2019.001l.026-.35.36-5.036-5.037.36L5%2014a1.79%201.79%200%200%201-1.413-.515C3.21%2013.111%203%2012.57%203%2012s.21-1.112.585-1.486A1.8%201.8%200%200%201%205%2010l.35.024%205.034.36L10%205c-.039-.53.138-1.04.514-1.415C10.888%203.21%2011.431%203%2012%203s1.111.211%201.485.586c.376.375.553.883.515%201.413l-.026.35-.359%205.036%205.036-.36L19%2010a1.79%201.79%200%200%201%201.413.515%22%2F%3E%3C%2Fsvg%3E",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-c2-plus",
+     "name": "Plus",
+     "icon": "+",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-minus",
+     "name": "Moins",
+     "icon": "−",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-times",
+     "name": "Multiplié par",
+     "icon": "×",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-divide",
+     "name": "Divisé par",
+     "icon": "÷",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-equal",
+     "name": "Égal",
+     "icon": "=",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-less",
+     "name": "Inférieur à",
+     "icon": "<",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-greater",
+     "name": "Supérieur à",
+     "icon": ">",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-leq",
+     "name": "Inférieur ou égal",
+     "icon": "≤",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-geq",
+     "name": "Supérieur ou égal",
+     "icon": "≥",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-neq",
+     "name": "Différent de",
+     "icon": "≠",
+     "type": "math",
+     "color": "#9B59B6"
+    }
+   ]
+  },
+  {
+   "id": "parentheses-college2",
+   "name": "Groupement",
+   "icon": "{ }",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-c2-lparen",
+     "name": "Parenthèse (",
+     "icon": "(",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-rparen",
+     "name": "Parenthèse )",
+     "icon": ")",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-lbracket",
+     "name": "Crochet [",
+     "icon": "[",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-rbracket",
+     "name": "Crochet ]",
+     "icon": "]",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-lbrace",
+     "name": "Accolade {",
+     "icon": "{",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-rbrace",
+     "name": "Accolade }",
+     "icon": "}",
+     "type": "math",
+     "color": "#9B59B6"
+    }
+   ]
+  },
+  {
+   "id": "puissances-college2",
+   "name": "Puissances & Racines",
+   "icon": "√",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-c2-sqrt",
+     "name": "Racine carrée",
+     "icon": "√",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-square",
+     "name": "Carré",
+     "icon": "²",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-cube",
+     "name": "Cube",
+     "icon": "³",
+     "type": "math",
+     "color": "#9B59B6"
+    }
+   ]
+  },
+  {
+   "id": "geometrie-college2",
+   "name": "Géométrie",
+   "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M21.3%2015.3a2.4%202.4%200%200%201%200%203.4l-2.6%202.6a2.4%202.4%200%200%201-3.4%200L2.7%208.7a2.41%202.41%200%200%201%200-3.4l2.6-2.6a2.41%202.41%200%200%201%203.4%200Z%22%2F%3E%3Cpath%20d%3D%22m14.5%2012.5%202-2%22%2F%3E%3Cpath%20d%3D%22m11.5%209.5%202-2%22%2F%3E%3Cpath%20d%3D%22m8.5%206.5%202-2%22%2F%3E%3Cpath%20d%3D%22m17.5%2015.5%202-2%22%2F%3E%3C%2Fsvg%3E",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-c2-pi",
+     "name": "Pi",
+     "icon": "π",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-degree",
+     "name": "Degré",
+     "icon": "°",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-angle",
+     "name": "Angle",
+     "icon": "∠",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-parallel",
+     "name": "Parallèle",
+     "icon": "∥",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-perp",
+     "name": "Perpendiculaire",
+     "icon": "⊥",
+     "type": "math",
+     "color": "#9B59B6"
+    }
+   ]
+  },
+  {
+   "id": "autres-college2",
+   "name": "Autres symboles",
+   "icon": "∑",
+   "expanded": false,
+   "actions": [
+    {
+     "id": "math-c2-delta",
+     "name": "Delta",
+     "icon": "∆",
+     "type": "math",
+     "color": "#9B59B6"
+    },
+    {
+     "id": "math-c2-sum",
+     "name": "Somme",
+     "icon": "∑",
+     "type": "math",
+     "color": "#9B59B6"
+    }
+   ]
+  }
+ ]
+}

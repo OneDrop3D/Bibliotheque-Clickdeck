@@ -1,0 +1,495 @@
+{
+ "id": "office-documents",
+ "name": "Bureautique",
+ "description": "Traitement de texte et tableur : mise en forme, révisions, impression et navigation entre documents.",
+ "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M12%207.828a4%204%200%200%200%204%204c.932%200%201.398%200%201.765.152a2%202%200%200%201%201.083%201.082c.152.368.152.834.152%201.766V15c0%202.828%200%204.243-.879%205.122S15.828%2021%2013%2021h-2c-2.828%200-4.242%200-5.121-.878C5%2019.242%205%2017.828%205%2014.999v-4c0-2.808%200-4.212.674-5.221a4%204%200%200%201%201.103-1.104c.39-.26.837-.42%201.402-.518%201.538-.267%202.307-.401%202.99.09.073.053.165.13.23.193C12%205.028%2012%205.961%2012%207.828%22%2F%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M14%206.365c0-1.004%200-1.506.304-1.636s.666.219%201.39.915l2.792%202.688c.316.304.501.701.507%201.14.003.186-.147.356-.334.356H16l-.204-.011A2%202%200%200%201%2014%207.827z%22%2F%3E%3C%2Fsvg%3E",
+ "author": "ClickDeck",
+ "version": "1.0.0",
+ "createdAt": "2026-08-01",
+ "updatedAt": "2026-08-01",
+ "category": "productivity",
+ "tags": [
+  "bureautique",
+  "word",
+  "excel",
+  "documents",
+  "impression"
+ ],
+ "featured": true,
+ "config": {
+  "totalPages": 2,
+  "pages": [
+   {
+    "page": 0,
+    "name": "Document",
+    "buttons": [
+     {
+      "id": 0,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "save",
+       "payload": "ctrl+s",
+       "name": "Enregistrer",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M15.2%203a2%202%200%200%201%201.4.6l3.8%203.8a2%202%200%200%201%20.6%201.4V19a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2V5a2%202%200%200%201%202-2z%22%2F%3E%3Cpath%20d%3D%22M17%2021v-7a1%201%200%200%200-1-1H8a1%201%200%200%200-1%201v7%22%2F%3E%3Cpath%20d%3D%22M7%203v4a1%201%200%200%200%201%201h7%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0EA5E9"
+      }
+     },
+     {
+      "id": 1,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "saveas",
+       "payload": "ctrl+shift+s",
+       "name": "Enregistrer sous",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M10%202v3a1%201%200%200%200%201%201h5%22%2F%3E%3Cpath%20d%3D%22M18%2018v-6a1%201%200%200%200-1-1h-6a1%201%200%200%200-1%201v6%22%2F%3E%3Cpath%20d%3D%22M18%2022H4a2%202%200%200%201-2-2V6%22%2F%3E%3Cpath%20d%3D%22M8%2018a2%202%200%200%201-2-2V4a2%202%200%200%201%202-2h9.172a2%202%200%200%201%201.414.586l2.828%202.828A2%202%200%200%201%2022%206.828V16a2%202%200%200%201-2.01%202z%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0284C7"
+      }
+     },
+     {
+      "id": 2,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "print",
+       "payload": "ctrl+p",
+       "name": "Imprimer",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M6%2018H4a2%202%200%200%201-2-2v-5a2%202%200%200%201%202-2h16a2%202%200%200%201%202%202v5a2%202%200%200%201-2%202h-2%22%2F%3E%3Cpath%20d%3D%22M6%209V3a1%201%200%200%201%201-1h10a1%201%200%200%201%201%201v6%22%2F%3E%3Crect%20x%3D%226%22%20y%3D%2214%22%20width%3D%2212%22%20height%3D%228%22%20rx%3D%221%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#6366F1"
+      }
+     },
+     {
+      "id": 3,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "export",
+       "payload": "ctrl+shift+e",
+       "name": "Exporter",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4.226%2020.925A2%202%200%200%200%206%2022h12a2%202%200%200%200%202-2V8a2.4%202.4%200%200%200-.706-1.706l-3.588-3.588A2.4%202.4%200%200%200%2014%202H6a2%202%200%200%200-2%202v3.127%22%2F%3E%3Cpath%20d%3D%22M14%202v5a1%201%200%200%200%201%201h5%22%2F%3E%3Cpath%20d%3D%22m5%2011-3%203%22%2F%3E%3Cpath%20d%3D%22m5%2017-3-3h10%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#14B8A6"
+      }
+     },
+     {
+      "id": 4,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "undo",
+       "payload": "ctrl+z",
+       "name": "Annuler",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M9%2014%204%209l5-5%22%2F%3E%3Cpath%20d%3D%22M4%209h10.5a5.5%205.5%200%200%201%205.5%205.5a5.5%205.5%200%200%201-5.5%205.5H11%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#F59E0B"
+      }
+     },
+     {
+      "id": 5,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "redo",
+       "payload": "ctrl+y",
+       "name": "Rétablir",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m15%2014%205-5-5-5%22%2F%3E%3Cpath%20d%3D%22M20%209H9.5A5.5%205.5%200%200%200%204%2014.5A5.5%205.5%200%200%200%209.5%2020H13%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#F59E0B"
+      }
+     },
+     {
+      "id": 6,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "copy",
+       "payload": "ctrl+c",
+       "name": "Copier",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20width%3D%2214%22%20height%3D%2214%22%20x%3D%228%22%20y%3D%228%22%20rx%3D%222%22%20ry%3D%222%22%2F%3E%3Cpath%20d%3D%22M4%2016c-1.1%200-2-.9-2-2V4c0-1.1.9-2%202-2h10c1.1%200%202%20.9%202%202%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#06B6D4"
+      }
+     },
+     {
+      "id": 7,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "paste",
+       "payload": "ctrl+v",
+       "name": "Coller",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M11%2014h10%22%2F%3E%3Cpath%20d%3D%22M16%204h2a2%202%200%200%201%202%202v1.344%22%2F%3E%3Cpath%20d%3D%22m17%2018%204-4-4-4%22%2F%3E%3Cpath%20d%3D%22M8%204H6a2%202%200%200%200-2%202v14a2%202%200%200%200%202%202h12a2%202%200%200%200%201.793-1.113%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%222%22%20width%3D%228%22%20height%3D%224%22%20rx%3D%221%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#06B6D4"
+      }
+     },
+     {
+      "id": 8,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "cut",
+       "payload": "ctrl+x",
+       "name": "Couper",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M8.12%208.12%2012%2012%22%2F%3E%3Cpath%20d%3D%22M20%204%208.12%2015.88%22%2F%3E%3Ccircle%20cx%3D%226%22%20cy%3D%2218%22%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M14.8%2014.8%2020%2020%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#06B6D4"
+      }
+     },
+     {
+      "id": 9,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "selectall",
+       "payload": "ctrl+a",
+       "name": "Tout sélectionner",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%207V5a2%202%200%200%201%202-2h2%22%2F%3E%3Cpath%20d%3D%22M17%203h2a2%202%200%200%201%202%202v2%22%2F%3E%3Cpath%20d%3D%22M21%2017v2a2%202%200%200%201-2%202h-2%22%2F%3E%3Cpath%20d%3D%22M7%2021H5a2%202%200%200%201-2-2v-2%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22m16%2016-1.9-1.9%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0EA5E9"
+      }
+     },
+     {
+      "id": 10,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "find",
+       "payload": "ctrl+f",
+       "name": "Rechercher",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M10%203a7%207%200%200%201%205.573%2011.232l4.078%203.548c1.28%201.114.492%203.22-1.205%203.22a1.84%201.84%200%200%201-1.43-.685l-3.453-4.29A7%207%200%201%201%2010%203m0%203a4%204%200%201%200%200%208%204%204%200%200%200%200-8%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#0EA5E9"
+      }
+     },
+     {
+      "id": 11,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "new",
+       "payload": "ctrl+n",
+       "name": "Nouveau",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M11.35%2022H6a2%202%200%200%201-2-2V4a2%202%200%200%201%202-2h8a2.4%202.4%200%200%201%201.706.706l3.588%203.588A2.4%202.4%200%200%201%2020%208v5.35%22%2F%3E%3Cpath%20d%3D%22M14%202v5a1%201%200%200%200%201%201h5%22%2F%3E%3Cpath%20d%3D%22M14%2019h6%22%2F%3E%3Cpath%20d%3D%22M17%2016v6%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#22C55E"
+      }
+     },
+     {
+      "id": 12,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Gras",
+       "payload": "ctrl+b",
+       "color": "#1D4ED8",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%231D4ED8%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%231D4ED8%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 13,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Italique",
+       "payload": "ctrl+i",
+       "color": "#1D4ED8",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%231D4ED8%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%231D4ED8%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EI%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 14,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Souligné",
+       "payload": "ctrl+u",
+       "color": "#1D4ED8",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%231D4ED8%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.5%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.5%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%227.6%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%231D4ED8%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2212.3%22%20y%3D%227.2%22%20width%3D%228.2%22%20height%3D%229.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M14.3%2015.100000000000001h4.199999999999999%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2216.4%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EU%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 15,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Coller brut",
+       "payload": "ctrl+shift+v",
+       "color": "#0891B2",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.1%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%230891B2%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.1%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.1%2011.100000000000001h3.3%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%226.75%22%20y%3D%229.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2213.6%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%230891B2%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2213.6%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M15.6%2011.100000000000001h3.3%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2217.25%22%20y%3D%229.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ESHIFT%3C%2Ftext%3E%3Crect%20x%3D%226.6%22%20y%3D%2213.4%22%20width%3D%2210.8%22%20height%3D%226.8%22%20rx%3D%222.1%22%20fill%3D%22%230891B2%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%226.6%22%20y%3D%2213.4%22%20width%3D%2210.8%22%20height%3D%226.8%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M8.6%2018.5h6.800000000000001%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2217.25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EV%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 16,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Correcteur",
+       "payload": "f7",
+       "color": "#059669",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23059669%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%225.5%22%20y%3D%226.2%22%20width%3D%2213%22%20height%3D%2211.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M7.5%2016.1h9%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2212.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EF7%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 17,
+      "active": true,
+      "action": {
+       "type": "keyboard",
+       "name": "Commentaire",
+       "payload": "ctrl+alt+m",
+       "color": "#B45309",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M7%204.6h10%22%20opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M5.4%2019.4h13.2%22%20opacity%3D%220.16%22%2F%3E%3Crect%20x%3D%223.1%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23B45309%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%223.1%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M5.1%2011.100000000000001h3.3%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%226.75%22%20y%3D%229.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.05%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3ECTRL%3C%2Ftext%3E%3Crect%20x%3D%2213.6%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23B45309%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%2213.6%22%20y%3D%225.2%22%20width%3D%227.3%22%20height%3D%227.6%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M15.6%2011.100000000000001h3.3%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2217.25%22%20y%3D%229.45%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%222.45%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EALT%3C%2Ftext%3E%3Crect%20x%3D%226.6%22%20y%3D%2213.4%22%20width%3D%2210.8%22%20height%3D%226.8%22%20rx%3D%222.1%22%20fill%3D%22%23B45309%22%20opacity%3D%220.14%22%20stroke%3D%22none%22%2F%3E%3Crect%20x%3D%226.6%22%20y%3D%2213.4%22%20width%3D%2210.8%22%20height%3D%226.8%22%20rx%3D%222.1%22%20fill%3D%22%23F8FAFC%22%2F%3E%3Cpath%20d%3D%22M8.6%2018.5h6.800000000000001%22%20opacity%3D%220.22%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2217.25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20font-size%3D%223.1%22%20font-family%3D%22'JetBrains%20Mono'%2C%20monospace%22%20font-weight%3D%22700%22%3EM%3C%2Ftext%3E%3C%2Fsvg%3E"
+      }
+     },
+     {
+      "id": 18,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 19,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 20,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 21,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 22,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 23,
+      "active": true,
+      "action": {
+       "id": "page-next",
+       "name": "Page suivante",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M10.56%204.44a1.5%201.5%200%201%200-2.12%202.12l5.303%205.304-5.304%205.303a1.5%201.5%200%200%200%202.121%202.121l6.365-6.363a1.5%201.5%200%200%200%200-2.122z%22%2F%3E%3C%2Fsvg%3E",
+       "type": "system",
+       "color": "#A855F7",
+       "payload": "page-next"
+      }
+     }
+    ]
+   },
+   {
+    "page": 1,
+    "name": "Applications & système",
+    "buttons": [
+     {
+      "id": 0,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "word",
+       "payload": "word",
+       "name": "Word",
+       "icon": "",
+       "color": "#2B579A",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 1,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "excel",
+       "payload": "excel",
+       "name": "Excel",
+       "icon": "",
+       "color": "#217346",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 2,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "powerpoint",
+       "payload": "powerpoint",
+       "name": "PowerPoint",
+       "icon": "",
+       "color": "#D24726",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 3,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "mail",
+       "payload": "mail",
+       "name": "Mail",
+       "icon": "",
+       "color": "#2563EB",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 4,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "calendar",
+       "payload": "calendar",
+       "name": "Calendrier",
+       "icon": "",
+       "color": "#4285F4",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 5,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "finder",
+       "payload": "finder",
+       "name": "Fichiers",
+       "icon": "",
+       "color": "#0EA5E9",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 6,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "browser",
+       "payload": "browser",
+       "name": "Navigateur",
+       "icon": "",
+       "color": "#F59E0B",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 7,
+      "active": true,
+      "action": {
+       "type": "app",
+       "id": "calculator",
+       "payload": "calculator",
+       "name": "Calculatrice",
+       "icon": "",
+       "color": "#F97316",
+       "useSystemIcon": true
+      }
+     },
+     {
+      "id": 8,
+      "active": true,
+      "action": {
+       "type": "system",
+       "id": "screenshot",
+       "payload": "screenshot",
+       "name": "Capture",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M12%2011a2%202%200%201%201%200%204%202%202%200%200%201%200-4%22%2F%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12%204c1.73%200%203.103.853%203.963%202.153l-.102-.01c2.674.213%204.812%202.038%205.048%204.71A24%2024%200%200%201%2021%2013a24%2024%200%200%201-.09%202.148c-.237%202.671-2.375%204.496-5.049%204.708A49%2049%200%200%201%2012%2020c-1.51%200-2.793-.058-3.861-.144-2.674-.213-4.812-2.037-5.048-4.709A24%2024%200%200%201%203%2013c0-.796.035-1.51.09-2.148.237-2.671%202.375-4.496%205.049-4.708q-.052.003-.103.01C8.896%204.851%2010.27%204%2012%204m0%205a4%204%200%201%200%200%208%204%204%200%200%200%200-8%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#EC4899"
+      }
+     },
+     {
+      "id": 9,
+      "active": true,
+      "action": {
+       "type": "system",
+       "id": "lock",
+       "payload": "lock",
+       "name": "Verrouiller",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12.324%203.866c3.316.171%205.504%202.964%205.636%206.349q.029.78.035%201.68c.656.043%201.117.14%201.505.364a3%203%200%200%201%201.098%201.098c.402.696.402%201.63.402%203.5s0%202.804-.402%203.5a3%203%200%200%201-1.098%201.098c-.696.402-1.63.402-3.5.402H8c-1.87%200-2.804%200-3.5-.402a3%203%200%200%201-1.098-1.098C3%2019.661%203%2018.727%203%2016.857s0-2.804.402-3.5A3%203%200%200%201%204.5%2012.26c.387-.223.849-.32%201.504-.365q.002-.336.007-.655l.029-1.024C6.176%206.72%208.503%203.857%2012%203.857zM12%206.857c-1.497%200-2.872%201.172-2.962%203.474q-.026.707-.033%201.526h5.99a51%2051%200%200%200-.033-1.526c-.09-2.302-1.465-3.474-2.962-3.474%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#FF6B9D"
+      }
+     },
+     {
+      "id": 10,
+      "active": true,
+      "action": {
+       "type": "shortcut",
+       "id": "open",
+       "payload": "ctrl+o",
+       "name": "Ouvrir",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M18.295%2012c1.462%200%202.194%200%202.618.373.19.166.334.378.42.614.193.531-.073%201.213-.603%202.575-.71%201.822-1.066%202.733-1.725%203.353a4%204%200%200%201-1.018.695c-.816.39-1.795.39-3.75.39H9.831c-1.945%200-2.917%200-3.727-.382a4%204%200%200%201-1.12-.787c-.634-.633-.964-1.548-1.624-3.378-.468-1.3-.702-1.952-.521-2.459a1.5%201.5%200%200%201%20.458-.651C3.714%2012%204.405%2012%205.788%2012zM8.7%204c.484%200%20.726%200%20.947.05a2%202%200%200%201%201.063.638c.148.171.262.385.49.812s.341.64.49.812a2%202%200%200%200%201.063.637c.22.05.463.051.947.051H17a3%203%200%200%201%203%203H4V8.571c0-1.464%200-2.197.25-2.77A3%203%200%200%201%205.8%204.25C6.374%204%207.106%204%208.57%204z%22%2F%3E%3C%2Fsvg%3E",
+       "color": "#F59E0B"
+      }
+     },
+     {
+      "id": 11,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 12,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 13,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 14,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 15,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 16,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 17,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 18,
+      "active": true,
+      "action": {
+       "id": "page-prev",
+       "name": "Page précédente",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20fill%3D%22%230f172a%22%20stroke%3D%22none%22%20d%3D%22M12.804%204.44a1.5%201.5%200%201%201%202.12%202.12l-5.303%205.304%205.304%205.303a1.5%201.5%200%200%201-2.121%202.121l-6.365-6.363a1.5%201.5%200%200%201%200-2.122z%22%2F%3E%3C%2Fsvg%3E",
+       "type": "system",
+       "color": "#A855F7",
+       "payload": "page-prev"
+      }
+     },
+     {
+      "id": 19,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 20,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 21,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 22,
+      "active": false,
+      "action": null
+     },
+     {
+      "id": 23,
+      "active": false,
+      "action": null
+     }
+    ]
+   }
+  ]
+ }
+}

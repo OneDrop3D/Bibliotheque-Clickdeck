@@ -1,0 +1,572 @@
+{
+ "id": "maths-college-6eme-5eme-v2",
+ "name": "Maths Collège 6ème-5ème v2",
+ "description": "Clavier numérique + opérations + puissances - Optimisé pour 6ème et 5ème",
+ "icon": "M",
+ "author": "ClickDeck Education",
+ "version": "2.2.0",
+ "createdAt": "2026-02-04",
+ "updatedAt": "2026-05-23",
+ "category": "education",
+ "tags": [
+  "maths",
+  "collège",
+  "6ème",
+  "5ème",
+  "éducation",
+  "géométrie"
+ ],
+ "featured": true,
+ "requiredExtensions": [
+  "math-college-1"
+ ],
+ "config": {
+  "totalPages": 2,
+  "pages": [
+   {
+    "page": 0,
+    "name": "Opérations & Puissances",
+    "buttons": [
+     {
+      "id": 0,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "1",
+       "icon": "1",
+       "color": "#E67E22",
+       "payload": "TEXT:1"
+      }
+     },
+     {
+      "id": 1,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "2",
+       "icon": "2",
+       "color": "#E67E22",
+       "payload": "TEXT:2"
+      }
+     },
+     {
+      "id": 2,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "3",
+       "icon": "3",
+       "color": "#E67E22",
+       "payload": "TEXT:3"
+      }
+     },
+     {
+      "id": 3,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "4",
+       "icon": "4",
+       "color": "#E67E22",
+       "payload": "TEXT:4"
+      }
+     },
+     {
+      "id": 4,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "5",
+       "icon": "5",
+       "color": "#E67E22",
+       "payload": "TEXT:5"
+      }
+     },
+     {
+      "id": 5,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "6",
+       "icon": "6",
+       "color": "#E67E22",
+       "payload": "TEXT:6"
+      }
+     },
+     {
+      "id": 6,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "7",
+       "icon": "7",
+       "color": "#E67E22",
+       "payload": "TEXT:7"
+      }
+     },
+     {
+      "id": 7,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "8",
+       "icon": "8",
+       "color": "#E67E22",
+       "payload": "TEXT:8"
+      }
+     },
+     {
+      "id": 8,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "9",
+       "icon": "9",
+       "color": "#E67E22",
+       "payload": "TEXT:9"
+      }
+     },
+     {
+      "id": 9,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "0",
+       "icon": "0",
+       "color": "#E67E22",
+       "payload": "TEXT:0"
+      }
+     },
+     {
+      "id": 10,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": ".",
+       "icon": ".",
+       "color": "#E67E22",
+       "payload": "TEXT:."
+      }
+     },
+     {
+      "id": 11,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": ",",
+       "icon": ",",
+       "color": "#E67E22",
+       "payload": "TEXT:,"
+      }
+     },
+     {
+      "id": 12,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "+",
+       "icon": "+",
+       "color": "#E74C3C",
+       "payload": "+"
+      }
+     },
+     {
+      "id": 13,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "-",
+       "icon": "-",
+       "color": "#E74C3C",
+       "payload": "-"
+      }
+     },
+     {
+      "id": 14,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "×",
+       "icon": "×",
+       "color": "#E74C3C",
+       "payload": "*"
+      }
+     },
+     {
+      "id": 15,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "÷",
+       "icon": "÷",
+       "color": "#E74C3C",
+       "payload": "/"
+      }
+     },
+     {
+      "id": 16,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "=",
+       "icon": "=",
+       "color": "#E74C3C",
+       "payload": "="
+      }
+     },
+     {
+      "id": 17,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "√",
+       "icon": "√",
+       "color": "#9B59B6",
+       "payload": "sqrt"
+      }
+     },
+     {
+      "id": 18,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "Entrée",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%3E%0A%20%20%3Cg%20stroke%3D%22%230f172a%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M62%2018v22c0%2010-7%2017-17%2017H18%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15-15%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15%2015%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20stroke%3D%22%23f8fafc%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M62%2018v22c0%2010-7%2017-17%2017H18%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15-15%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15%2015%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+       "color": "#2563EB",
+       "payload": "enter"
+      }
+     },
+     {
+      "id": 19,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "Suppression",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%3E%0A%20%20%3Cg%20stroke%3D%22%230f172a%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M28%2028h36l18%2020-18%2020H28L10%2048%2028%2028Z%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M40%2038l16%2020%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M56%2038%2040%2058%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20stroke%3D%22%23f8fafc%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M28%2028h36l18%2020-18%2020H28L10%2048%2028%2028Z%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M40%2038l16%2020%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M56%2038%2040%2058%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+       "color": "#DC2626",
+       "payload": "backspace"
+      }
+     },
+     {
+      "id": 20,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "(",
+       "icon": "(",
+       "color": "#16A085",
+       "payload": "("
+      }
+     },
+     {
+      "id": 21,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": ")",
+       "icon": ")",
+       "color": "#16A085",
+       "payload": ")"
+      }
+     },
+     {
+      "id": 22,
+      "active": true,
+      "action": {
+       "type": "facteur",
+       "name": "Exposant xⁿ",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%3E%0A%20%20%3Ctext%20x%3D%2220%22%20y%3D%2254%22%20font-family%3D%22JetBrains%20Mono%2C%20Menlo%2C%20Monaco%2C%20monospace%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fafc%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%228%22%20paint-order%3D%22stroke%22%3Ex%3C%2Ftext%3E%0A%20%20%3Ctext%20x%3D%2250%22%20y%3D%2230%22%20font-family%3D%22JetBrains%20Mono%2C%20Menlo%2C%20Monaco%2C%20monospace%22%20font-size%3D%2222%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fafc%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%226%22%20paint-order%3D%22stroke%22%3En%3C%2Ftext%3E%0A%3C%2Fsvg%3E",
+       "color": "#F39C12",
+       "payload": "toggle"
+      }
+     },
+     {
+      "id": 23,
+      "active": true,
+      "action": {
+       "type": "page",
+       "name": ">",
+       "icon": ">",
+       "color": "#3B82F6",
+       "payload": {
+        "targetPage": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "page": 1,
+    "name": "Relations & Écriture",
+    "buttons": [
+     {
+      "id": 0,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "<",
+       "icon": "<",
+       "color": "#9B59B6",
+       "payload": "<"
+      }
+     },
+     {
+      "id": 1,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": ">",
+       "icon": ">",
+       "color": "#9B59B6",
+       "payload": ">"
+      }
+     },
+     {
+      "id": 2,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "≤",
+       "icon": "≤",
+       "color": "#9B59B6",
+       "payload": "<="
+      }
+     },
+     {
+      "id": 3,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "≥",
+       "icon": "≥",
+       "color": "#9B59B6",
+       "payload": ">="
+      }
+     },
+     {
+      "id": 4,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "≈",
+       "icon": "≈",
+       "color": "#9B59B6",
+       "payload": "~"
+      }
+     },
+     {
+      "id": 5,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "±",
+       "icon": "±",
+       "color": "#9B59B6",
+       "payload": "+/-"
+      }
+     },
+     {
+      "id": 6,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "²",
+       "icon": "²",
+       "color": "#9B59B6",
+       "payload": "^2"
+      }
+     },
+     {
+      "id": 7,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "³",
+       "icon": "³",
+       "color": "#9B59B6",
+       "payload": "^3"
+      }
+     },
+     {
+      "id": 8,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "%",
+       "icon": "%",
+       "color": "#E74C3C",
+       "payload": "%"
+      }
+     },
+     {
+      "id": 9,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "π",
+       "icon": "π",
+       "color": "#16A085",
+       "payload": "pi"
+      }
+     },
+     {
+      "id": 10,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "°",
+       "icon": "°",
+       "color": "#16A085",
+       "payload": "deg"
+      }
+     },
+     {
+      "id": 11,
+      "active": true,
+      "action": {
+       "type": "fraction",
+       "name": "Fraction",
+       "icon": "a/b",
+       "color": "#1ABC9C",
+       "payload": "latex"
+      }
+     },
+     {
+      "id": 12,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "[",
+       "icon": "[",
+       "color": "#16A085",
+       "payload": "["
+      }
+     },
+     {
+      "id": 13,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "]",
+       "icon": "]",
+       "color": "#16A085",
+       "payload": "]"
+      }
+     },
+     {
+      "id": 14,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "{",
+       "icon": "{",
+       "color": "#16A085",
+       "payload": "{"
+      }
+     },
+     {
+      "id": 15,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "}",
+       "icon": "}",
+       "color": "#16A085",
+       "payload": "}"
+      }
+     },
+     {
+      "id": 16,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "x",
+       "icon": "x",
+       "color": "#E74C3C",
+       "payload": "x"
+      }
+     },
+     {
+      "id": 17,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "y",
+       "icon": "y",
+       "color": "#E74C3C",
+       "payload": "y"
+      }
+     },
+     {
+      "id": 18,
+      "active": true,
+      "action": {
+       "type": "page",
+       "name": "<",
+       "icon": "<",
+       "color": "#3B82F6",
+       "payload": {
+        "targetPage": 0
+       }
+      }
+     },
+     {
+      "id": 19,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "Entrée",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%3E%0A%20%20%3Cg%20stroke%3D%22%230f172a%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M62%2018v22c0%2010-7%2017-17%2017H18%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15-15%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15%2015%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20stroke%3D%22%23f8fafc%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M62%2018v22c0%2010-7%2017-17%2017H18%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15-15%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18%2057l15%2015%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+       "color": "#2563EB",
+       "payload": "enter"
+      }
+     },
+     {
+      "id": 20,
+      "active": true,
+      "action": {
+       "type": "text",
+       "name": "Suppression",
+       "icon": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%3E%0A%20%20%3Cg%20stroke%3D%22%230f172a%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M28%2028h36l18%2020-18%2020H28L10%2048%2028%2028Z%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M40%2038l16%2020%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M56%2038%2040%2058%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cg%20stroke%3D%22%23f8fafc%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M28%2028h36l18%2020-18%2020H28L10%2048%2028%2028Z%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M40%2038l16%2020%22%20%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M56%2038%2040%2058%22%20%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E",
+       "color": "#DC2626",
+       "payload": "backspace"
+      }
+     },
+     {
+      "id": 21,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "n",
+       "icon": "n",
+       "color": "#E74C3C",
+       "payload": "n"
+      }
+     },
+     {
+      "id": 22,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "/",
+       "icon": "/",
+       "color": "#E74C3C",
+       "payload": "/"
+      }
+     },
+     {
+      "id": 23,
+      "active": true,
+      "action": {
+       "type": "math",
+       "name": "√",
+       "icon": "√",
+       "color": "#9B59B6",
+       "payload": "sqrt"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "models": [
+  {
+   "id": "creative-studio",
+   "version": "1.0.0",
+   "sha256": "4a32e2b2d1d00d52600c9e5e36303d0a9cb9093e10204c3f227ab30dfaae2353",
+   "size": 40702
+  },
+  {
+   "id": "developer-workstation",
+   "version": "1.0.0",
+   "sha256": "eb51e60f181571b9f30378398c28863136b23d368daea61846793f94195ff79f",
+   "size": 45880
+  },
+  {
+   "id": "gamer-pro",
+   "version": "3.0.0",
+   "sha256": "ad8a7475d7ce97c9a7dd57425735bb3b9b6c222a5ddebc3551f0ecc49bca3f0f",
+   "size": 30209
+  },
+  {
+   "id": "maths-college-4eme-3eme-v2",
+   "version": "2.2.0",
+   "sha256": "567885193b136aa99e425e56dab1a2ae852bfd41b3a4b6579466115163aee677",
+   "size": 15101
+  },
+  {
+   "id": "maths-college-6eme-5eme-v2",
+   "version": "2.2.0",
+   "sha256": "8f8fb166a11f9327c25123a920126ec71f7e4c222ac82884554b25bdf1b718a3",
+   "size": 14344
+  },
+  {
+   "id": "maths-primaire-v2",
+   "version": "2.2.0",
+   "sha256": "36dde76b045cd968283002766a0caebfb6cd0d08ae040fd1f5d725d8f2df7919",
+   "size": 13546
+  },
+  {
+   "id": "maths-seconde-v2",
+   "version": "2.2.0",
+   "sha256": "52142bbbd5ce13d7577ea7c40d7413c409c911cb2f02f4f4345aa6b10e4ed3f7",
+   "size": 23929
+  },
+  {
+   "id": "meetings",
+   "version": "1.0.0",
+   "sha256": "5ddb69f9ba98d03910af650fa7a0db928d6cb2f97db6756aa4ec8709b3737437",
+   "size": 33499
+  },
+  {
+   "id": "minimal-setup",
+   "version": "3.0.0",
+   "sha256": "d5dcc6b003f7e50a0170e763f433c7653354830ff218e9bd1070d6836f010d05",
+   "size": 19874
+  },
+  {
+   "id": "music-producer",
+   "version": "3.0.0",
+   "sha256": "7b86315bf132bebe050451e7649b8f969dcaae2c6f069e07ba5f616b3e7ce37b",
+   "size": 34415
+  },
+  {
+   "id": "office-documents",
+   "version": "1.0.0",
+   "sha256": "e9832035951f27aa04264207c28fbb7f2a8d785a1db432e6f7e13a291c1c7fa1",
+   "size": 32903
+  },
+  {
+   "id": "productivity-master",
+   "version": "3.0.0",
+   "sha256": "55740dfd5d95acb93805f2bd3ae3a6c2556bed36106d7e813e6b7b2de96c3f29",
+   "size": 34199
+  },
+  {
+   "id": "streamer-starter",
+   "version": "3.0.0",
+   "sha256": "4d8fdea6c0f63527191589b5113d5ecc6100461a7bdbc45dbf056e7202adbf4c",
+   "size": 45897
+  }
+ ],
+ "plugins": [
+  {
+   "id": "math-college-1",
+   "version": "1.0.0",
+   "sha256": "a4f8a1fc75113ebce2255bbce95cc87cb0384b3e6d6106a8d852fdf845fb8b6f",
+   "size": 5023
+  },
+  {
+   "id": "math-college-2",
+   "version": "1.0.0",
+   "sha256": "e316befae3ac66a4282509b29f0bc85b2568ce905682314d9505f5d6db271c52",
+   "size": 6468
+  },
+  {
+   "id": "math-lycee-seconde",
+   "version": "1.0.0",
+   "sha256": "a6a3b0ed8cf90f53107ca5ed0e58826fe012fb0d13e30288c4e49673e320c551",
+   "size": 8263
+  },
+  {
+   "id": "math-lycee-terminale",
+   "version": "1.0.0",
+   "sha256": "b9e4f61f195c0ef916195640c00cc0f68fa3a84ff8fc68872be60a29ae1477a5",
+   "size": 10509
+  },
+  {
+   "id": "math-primaire",
+   "version": "1.0.0",
+   "sha256": "c59ad29417290a217ffa89692846f95ca17f9dd6a44981350e6f99de33f45844",
+   "size": 3985
+  },
+  {
+   "id": "media",
+   "version": "1.0.8",
+   "sha256": "990d4032b363059dd25049ad5c9f38149bff9911db9d3c7a908efece5c2fbd82",
+   "size": 5251
+  }
+ ]
+}
