@@ -19,7 +19,7 @@ import urllib.parse
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 RACINE = os.path.dirname(ICI)
-APP_MINIMALE = "1.19.0"
+APP_MINIMALE = "1.18.5"
 DATE = "2026-11-04"
 GAUCHE, DROITE = 18, 23
 PAR_PAGE = 22
@@ -207,7 +207,7 @@ def modele(fiche, actions):
         "description": f'Les raccourcis de {fiche["nom"]} sur vos touches. {avertissement}'.strip()[:1000],
         "icon": logo(fiche),
         "author": "ClickDeck",
-        "version": fiche.get("version", "1.0.0"),
+        "version": fiche.get("version", "1.0.1"),
         "createdAt": DATE,
         "updatedAt": DATE,
         "category": fiche.get("categorie") or CATEGORIES.get(re.split(r"[ ,]", fiche.get("section", ""))[0], "productivity"),
@@ -236,7 +236,7 @@ def plugin(fiche, actions):
         "name": fiche["nom"][:80],
         "icon": logo(fiche),
         "description": f'Toutes les touches de {fiche["nom"]} dans l\'éditeur.',
-        "version": fiche.get("version", "1.0.0"),
+        "version": fiche.get("version", "1.0.1"),
         "author": "ClickDeck",
         "section": fiche.get("section", "Divers"),
         "minAppVersion": APP_MINIMALE,
@@ -268,7 +268,7 @@ def pack(section, fiches):
         "description": "Une touche pour ouvrir chacune de ces applications, qui n'ont pas de raccourcis utiles.",
         "icon": picto("rocket"),
         "author": "ClickDeck",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "createdAt": DATE,
         "updatedAt": DATE,
         "category": "productivity",
